@@ -1,0 +1,172 @@
+---
+import Layout from './Layout.astro';
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={`${frontmatter.title} | Amid the Noise`}>
+  <article class="publication publication-doc">
+    {frontmatter.heroImage && (
+      <figure class="publication-hero">
+        <img
+          src={frontmatter.heroImage}
+          alt={frontmatter.heroAlt || frontmatter.title}
+        />
+      </figure>
+    )}
+
+    <header class="publication-header section">
+      <h1>{frontmatter.title}</h1>
+
+      {frontmatter.pubDate && (
+        <p class="publication-meta">
+          {new Date(frontmatter.pubDate).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          })}
+        </p>
+      )}
+      {frontmatter.tags && (
+        <div class="publication-tags">
+          {frontmatter.tags.map((tag) => (
+            <span class="tag">{tag}</span>
+          ))}
+        </div>
+   )}
+    </header>
+
+    <div class="publication-body section">
+      <slot />
+    </div>
+  </article>
+</Layout>
+
+<style is:global>
+  .publication-doc {
+    font-family: Inter, system-ui, sans-serif;
+    color: var(--text);
+  }
+
+  .publication-hero {
+    margin: 0 0 28px;
+  }
+
+  .publication-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    box-sizing: border-box;
+  }
+
+  .publication-header {
+    padding-bottom: 18px;
+  }
+
+  .publication-doc h1 {
+    margin: 0 0 6px;
+    font-size: 1.55rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--title);
+  }
+
+  .publication-description {
+    margin: 0 0 10px;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    font-weight: 600;
+    color: var(--secondary);
+    max-width: 42rem;
+  }
+
+  .publication-meta {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--secondary);
+  }
+
+  .publication-body {
+    max-width: 42rem;
+    font-size: 1rem;
+    line-height: 1.55;
+    color: var(--text);
+  }
+
+  .publication-body p {
+    margin: 0 0 1em;
+  }
+
+  .publication-body h2 {
+    margin: 2.6em 0 0.7em;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--title);
+  }
+
+  .publication-body h3 {
+    margin: 1.6em 0 0.45em;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--title);
+  }
+
+  .publication-body ul,
+  .publication-body ol {
+    margin: 0 0 1em 1.25em;
+  }
+
+  .publication-body li {
+    margin: 0 0 0.35em;
+  }
+
+  .publication-body blockquote {
+    margin: 1.25em 0;
+    padding-left: 1em;
+    border-left: 2px solid var(--line);
+    color: var(--secondary);
+  }
+
+  .publication-body strong {
+    font-weight: 600;
+  }
+
+  .publication-body a {
+    color: var(--accent);
+  }
+
+  .publication-body a:hover {
+    text-decoration: underline;
+  }
+
+  .publication-hero img {
+    display: block;
+    width: 100%;
+    max-height: 420px;
+    height: auto;
+    object-fit: cover;
+    padding: 5px;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    box-sizing: border-box;
+  }
+
+    .publication-tags {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap; 
+    }
+
+    .tag {
+        font-size: 0.75rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--secondary);
+        border: 1px solid var(--line);
+        padding: 4px 8px;
+    }
+</style>
