@@ -21,10 +21,6 @@ const { frontmatter } = Astro.props;
         <p class="publication-subtitle">{frontmatter.subtitle}</p>
       )}
 
-      {frontmatter.description && (
-        <p class="publication-description">{frontmatter.description}</p>
-      )}
-
       {frontmatter.pubDate && (
         <p class="publication-meta">
           {new Date(frontmatter.pubDate).toLocaleDateString('en-US', {
