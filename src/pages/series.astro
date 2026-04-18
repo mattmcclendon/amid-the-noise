@@ -5,7 +5,7 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Series | Amid the Noise">
 
   <section class="section">
-    <h1>Series</h1>
+    <h2>Series</h2>
     <p>
       Multi-part work designed to unfold across systems, not just publish individual ideas.
     </p>
@@ -18,7 +18,7 @@ import Layout from '../layouts/Layout.astro';
   <section class="section">
 
     <p class="series-label">Series I</p>
-    <h2>Human-Governed Intelligence Systems</h2>
+    <h3>Human-Governed Intelligence Systems</h3>
     <p class="series-description">
       A five-part framework for governing AI-mediated intelligence systems under conditions of ambiguity, pressure, and risk.
     </p>
@@ -76,7 +76,7 @@ import Layout from '../layouts/Layout.astro';
   <section class="section">
 
     <p class="series-label">Series II</p>
-    <h2>From Framework to Fielding</h2>
+    <h3>From Framework to Fielding</h3>
     <p class="series-description">
       A five-part series on implementation, measurement, workflow design, architecture, and institutional adoption.
     </p>
@@ -131,49 +131,63 @@ import Layout from '../layouts/Layout.astro';
   }
 
   .series-label {
-    font-size: 0.85rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #64748b;
-    margin-bottom: 0.5rem;
+    margin: 0 0 12px;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    color: var(--secondary);
+  }
+
+  .section h3 {
+    margin: 0 0 8px;
+    font-size: 1.28rem;
+    line-height: 1.28;
+    font-weight: 600;
   }
 
   .series-description {
     max-width: 50rem;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
+    margin: 0 0 12px;
   }
 
   .series-list article {
-    margin-bottom: 2rem;
+    margin-bottom: 2.25rem;
   }
 
   .item-number {
-    font-size: 0.85rem;
-    color: #64748b;
-    margin-bottom: 0.25rem;
+    margin: 0 0 12px;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    color: var(--secondary);
   }
 
-  h3 {
-    margin: 0 0 0.4rem;
+  .series-list h3 {
+    margin: 0 0 8px;
+    font-size: 1.28rem;
+    line-height: 1.28;
+    font-weight: 600;
   }
 
-  h3 a {
+  .series-list h3 a {
     text-decoration: none;
     color: inherit;
   }
 
-  h3 a:hover {
+  .series-list h3 a:hover {
     text-decoration: underline;
   }
 
+  .series-list article p {
+    margin: 0 0 12px;
+  }
+
   .series-transition {
-    font-style: italic;
-    color: #64748b;
+    margin: 0;
     max-width: 40rem;
+    font-style: italic;
+    color: var(--secondary);
   }
 
   .coming-soon {
-    color: #64748b;
+    color: var(--secondary);
   }
 </style>
