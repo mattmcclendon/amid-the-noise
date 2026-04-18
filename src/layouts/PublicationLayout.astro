@@ -17,6 +17,14 @@ const { frontmatter } = Astro.props;
     <header class="publication-header section">
       <h1>{frontmatter.title}</h1>
 
+      {frontmatter.subtitle && (
+        <p class="publication-subtitle">{frontmatter.subtitle}</p>
+      )}
+
+      {frontmatter.description && (
+        <p class="publication-description">{frontmatter.description}</p>
+      )}
+
       {frontmatter.pubDate && (
         <p class="publication-meta">
           {new Date(frontmatter.pubDate).toLocaleDateString('en-US', {
@@ -70,12 +78,20 @@ const { frontmatter } = Astro.props;
   }
 
   .publication-doc h1 {
-    margin: 0 0 10px;
-    font-size: 1.7rem;
+    margin: 0 0 12px;
+    font-size: 2rem;
     line-height: 1.2;
     font-weight: 600;
     letter-spacing: -0.01em;
     color: var(--title);
+  }
+
+  .publication-subtitle {
+    margin: 0 0 12px;
+    max-width: 46rem;
+    font-size: 1.05rem;
+    line-height: 1.45;
+    color: var(--secondary);
   }
 
   .publication-description {
@@ -83,14 +99,13 @@ const { frontmatter } = Astro.props;
     max-width: 46rem;
     font-size: 1rem;
     line-height: 1.45;
-    font-weight: 600;
     color: var(--secondary);
   }
 
   .publication-meta {
     margin: 0;
     font-size: 0.9rem;
-    line-height: 1.4;
+    line-height: 1.35;
     color: var(--secondary);
   }
 
@@ -187,7 +202,11 @@ const { frontmatter } = Astro.props;
     }
 
     .publication-doc h1 {
-      font-size: 1.45rem;
+      font-size: 1.6rem;
+    }
+
+    .publication-subtitle {
+      font-size: 1rem;
     }
 
     .publication-description {
