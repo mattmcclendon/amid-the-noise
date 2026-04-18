@@ -5,7 +5,7 @@ subtitle: ""
 description: "On recognizing the present as something earned, and the responsibility that follows."
 pubDate: 2026-01-27
 heroImage: /images/writing/hard-won-moment.jpg
-heroAlt: "A quiet landscape at dusk, balanced between light and shadow, suggesting a fragile moment of calm."
+heroAlt: "A coastal town at dusk beneath an active volcano, smoke rising as lights begin to glow along the shoreline."
 tags: ["Reflection", "Progress", "Responsibility"]
 dropcap: false
 ---

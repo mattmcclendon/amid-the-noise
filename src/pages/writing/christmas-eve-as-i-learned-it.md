@@ -5,7 +5,7 @@ subtitle: ""
 description: "On discipline, inheritance, and a quieter understanding of gratitude."
 pubDate: 2025-12-24
 heroImage: /images/writing/christmas-eve-as-i-learned-it.jpg
-heroAlt: "A simple Christmas Eve setting with modest food and warm light, evoking quiet gratitude and presence."
+heroAlt: "A simple holiday arrangement of fruit, nuts, and wrapped candy spilling from a brown paper bag on a wooden table, lit by warm Christmas lights."
 tags: ["Reflection", "Holiday", "Gratitude"]
 dropcap: false
 ---

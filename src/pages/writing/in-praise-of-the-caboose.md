@@ -5,7 +5,7 @@ subtitle: ""
 description: "On the quiet role of observation, continuity, and the things we leave behind in the name of progress."
 pubDate: 2026-02-06
 heroImage: /images/writing/in-praise-of-the-caboose.jpg
-heroAlt: "A red caboose at the end of a train moving through a quiet landscape, slightly set apart from the rest of the cars."
+heroAlt: "A red caboose at the end of a freight train at sunset, with a conductor standing on the rear platform watching the tracks behind."
 tags: ["Reflection", "Progress", "Memory"]
 dropcap: false
 ---

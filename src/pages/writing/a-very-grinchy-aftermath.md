@@ -5,7 +5,7 @@ subtitle: ""
 description: "A holiday poem about expectation, indulgence, and what gets left behind."
 pubDate: 2025-12-25
 heroImage: /images/writing/a-very-grinchy-aftermath.jpg
-heroAlt: "An empty holiday table with scattered crumbs and a hint of green mischief left behind."
+heroAlt: "A glass bowl filled with bright green candy on a holiday table surrounded by pine branches and wrapped gifts."
 tags: ["Poetry", "Holiday", "Humor"]
 dropcap: false
 ---
