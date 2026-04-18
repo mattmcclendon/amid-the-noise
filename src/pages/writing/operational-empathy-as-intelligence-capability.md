@@ -3,6 +3,9 @@ layout: ../../layouts/PublicationLayout.astro
 title: "Operational Empathy as Intelligence Capability"
 description: "Defines context fidelity as a core analytic function. Demonstrates how misinterpretation, not lack of data, is the dominant failure mode in modern intelligence, and outlines how systems and workflows must be designed to support accurate human judgment under pressure."
 pubDate: 2026-04-17
+heroImage: 
+heroAlt: ""
+tags: ["Intelligence", "AI Governance", "Signal Integrity"]
 ---
 
 ## FOREWORD

@@ -17,10 +17,6 @@ const { frontmatter } = Astro.props;
     <header class="publication-header section">
       <h1>{frontmatter.title}</h1>
 
-      {frontmatter.description && (
-        <p class="publication-description">{frontmatter.description}</p>
-      )}
-
       {frontmatter.pubDate && (
         <p class="publication-meta">
           {new Date(frontmatter.pubDate).toLocaleDateString('en-US', {
