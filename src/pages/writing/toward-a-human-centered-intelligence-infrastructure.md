@@ -2,7 +2,7 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "Toward a Human-Centered Intelligence Infrastructure"
 description: "Reframes national intelligence as a human-governed system operating within AI-mediated environments. Establishes governance as a binding control layer, defining how oversight, auditability, and accountability must function when probabilistic systems inform high-consequence decisions."
-pubDate: 2026-04-16
+pubDate: 2026-03-01
 heroImage: 
 heroAlt: ""
 tags: ["Intelligence", "AI Governance", "Signal Integrity"]
