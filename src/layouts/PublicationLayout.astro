@@ -17,6 +17,10 @@ const { frontmatter } = Astro.props;
     <header class="publication-header section">
       <h1>{frontmatter.title}</h1>
 
+      {frontmatter.description && (
+        <p class="publication-description">{frontmatter.description}</p>
+      )}
+
       {frontmatter.pubDate && (
         <p class="publication-meta">
           {new Date(frontmatter.pubDate).toLocaleDateString('en-US', {
@@ -26,13 +30,14 @@ const { frontmatter } = Astro.props;
           })}
         </p>
       )}
-      {frontmatter.tags && (
+
+      {frontmatter.tags && frontmatter.tags.length > 0 && (
         <div class="publication-tags">
           {frontmatter.tags.map((tag) => (
             <span class="tag">{tag}</span>
           ))}
         </div>
-   )}
+      )}
     </header>
 
     <div class="publication-body section">
@@ -48,13 +53,16 @@ const { frontmatter } = Astro.props;
   }
 
   .publication-hero {
-    margin: 0 0 28px;
+    margin: 0 0 32px;
   }
 
   .publication-hero img {
     display: block;
     width: 100%;
+    max-height: 420px;
     height: auto;
+    object-fit: cover;
+    object-position: center;
     padding: 5px;
     background: var(--bg);
     border: 1px solid var(--line);
@@ -62,12 +70,12 @@ const { frontmatter } = Astro.props;
   }
 
   .publication-header {
-    padding-bottom: 18px;
+    padding-bottom: 22px;
   }
 
   .publication-doc h1 {
-    margin: 0 0 6px;
-    font-size: 1.55rem;
+    margin: 0 0 10px;
+    font-size: 1.7rem;
     line-height: 1.2;
     font-weight: 600;
     letter-spacing: -0.01em;
@@ -75,56 +83,83 @@ const { frontmatter } = Astro.props;
   }
 
   .publication-description {
-    margin: 0 0 10px;
-    font-size: 0.95rem;
-    line-height: 1.35;
+    margin: 0 0 12px;
+    max-width: 46rem;
+    font-size: 1rem;
+    line-height: 1.45;
     font-weight: 600;
     color: var(--secondary);
-    max-width: 42rem;
   }
 
   .publication-meta {
     margin: 0;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
     color: var(--secondary);
   }
 
+  .publication-tags {
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    font-size: 0.75rem;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--secondary);
+    border: 1px solid var(--line);
+    padding: 5px 8px;
+    background: transparent;
+  }
+
   .publication-body {
-    max-width: 42rem;
-    font-size: 1rem;
-    line-height: 1.55;
+    max-width: 46rem;
+    font-size: 1.05rem;
+    line-height: 1.72;
     color: var(--text);
   }
 
   .publication-body p {
-    margin: 0 0 1em;
+    margin: 0 0 1.15em;
   }
 
   .publication-body h2 {
-    margin: 2.6em 0 0.7em;
-    font-size: 1.1rem;
+    margin: 2.8em 0 0.8em;
+    font-size: 1.15rem;
+    line-height: 1.35;
     font-weight: 600;
     color: var(--title);
   }
 
   .publication-body h3 {
-    margin: 1.6em 0 0.45em;
+    margin: 2em 0 0.6em;
     font-size: 1rem;
+    line-height: 1.35;
     font-weight: 600;
     color: var(--title);
   }
 
   .publication-body ul,
   .publication-body ol {
-    margin: 0 0 1em 1.25em;
+    margin: 0 0 1.2em 1.4em;
+    padding: 0;
   }
 
   .publication-body li {
-    margin: 0 0 0.35em;
+    margin: 0 0 0.45em;
+    line-height: 1.65;
+  }
+
+  .publication-body li + li {
+    margin-top: 0.15em;
   }
 
   .publication-body blockquote {
-    margin: 1.25em 0;
+    margin: 1.5em 0;
     padding-left: 1em;
     border-left: 2px solid var(--line);
     color: var(--secondary);
@@ -142,31 +177,26 @@ const { frontmatter } = Astro.props;
     text-decoration: underline;
   }
 
-  .publication-hero img {
-    display: block;
-    width: 100%;
-    max-height: 420px;
-    height: auto;
-    object-fit: cover;
-    padding: 5px;
-    background: var(--bg);
-    border: 1px solid var(--line);
-    box-sizing: border-box;
+  @media (max-width: 720px) {
+    .publication-hero {
+      margin-bottom: 24px;
+    }
+
+    .publication-doc h1 {
+      font-size: 1.45rem;
+    }
+
+    .publication-description {
+      font-size: 0.95rem;
+    }
+
+    .publication-body {
+      font-size: 1rem;
+      line-height: 1.68;
+    }
+
+    .publication-body h2 {
+      margin-top: 2.4em;
+    }
   }
-
-    .publication-tags {
-        margin-top: 10px;
-        display: flex;
-        gap: 10px;
-        flex-wrap: wrap; 
-    }
-
-    .tag {
-        font-size: 0.75rem;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        color: var(--secondary);
-        border: 1px solid var(--line);
-        padding: 4px 8px;
-    }
 </style>
