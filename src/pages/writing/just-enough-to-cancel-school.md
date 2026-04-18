@@ -2,7 +2,7 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "Just Enough to Cancel School"
 description: "A reflection on how small disruptions once felt like freedom, and how perspective reshapes what we carry into adulthood."
-pubDate: 2025-02-15
+pubDate: 2026-02-15
 heroImage: /images/writing/just-enough-to-cancel-school.jpg
 heroAlt: "A quiet residential street at dawn with a light winter glaze reflecting soft morning light"
 tags: ["Reflection", "Memory", "Change"]

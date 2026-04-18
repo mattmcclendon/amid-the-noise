@@ -2,7 +2,7 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "One Degree of Drift"
 description: "How small deviations compound into destiny, and why systems that stop learning eventually defend the wrong course."
-pubDate: 2025-04-18
+pubDate: 2026-04-18
 heroImage: /images/writing/one-degree-of-drift.jpg
 heroAlt: "A ship at sea at dawn viewed from a navigation console, with a radar display showing a slight deviation from its intended course."
 tags: ["Systems Thinking", "Leadership", "AI & Decision Systems"]
