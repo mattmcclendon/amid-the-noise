@@ -1,9 +1,11 @@
 ---
+layout: ../../layouts/PublicationLayout.astro
 title: "Signal Integrity"
 subtitle: "AI Risk, Misinterpretation, and Governance Under Adversarial Conditions"
 description: "Examines how AI amplifies both signal and distortion in adversarial environments. Defines governance mechanisms to detect drift, prevent systemic misinterpretation, and maintain alignment between data and reality when signals are incomplete, manipulated, or contested."
-author: "Matthew McClendon"
-pubDate: 2026-04-17
+pubDate: 2026-03-04
+heroImage:
+heroAlt:
 tags: ["Intelligence", "AI Governance", "Signal Integrity"]
 ---
 
