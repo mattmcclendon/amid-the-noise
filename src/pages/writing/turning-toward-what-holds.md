@@ -5,7 +5,7 @@ description: "The seasons don’t negotiate with truth, and neither can we for l
 pubDate: 2025-10-03
 heroImage: /images/writing/2025-10-03.jpg
 heroAlt: "autumn walking path"
-tags: ["Reflection"]
+tags: ["Reflection", "Clarity", "Alignment"]
 ---
 Autumn arrives without urgency. The leaves turn on their own time. The air sharpens. The pattern repeats with a kind of quiet discipline. Nothing performs. Nothing rushes.
 

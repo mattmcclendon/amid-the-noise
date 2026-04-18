@@ -5,7 +5,7 @@ description: "A quiet lunch turns into something you could not have planned. Pre
 pubDate: 2025-10-12
 heroImage: /images/writing/lunch-with-the-mayor.jpg
 heroAlt: "Le Central in San Francisco, CA"
-tags: ["Reflection"]
+tags: ["Reflection", "Presence", "Alignment"]
 ---
 I went to celebrate a birthday with an old friend—the cassoulet at Le Central—and ended up sharing a table with a living legend.
 

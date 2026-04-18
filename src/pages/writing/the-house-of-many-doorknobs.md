@@ -5,7 +5,7 @@ description: "A writer once told me he bought a new doorknob every time he got p
 pubDate: 2025-10-10
 heroImage: /images/writing/2025-10-09.jpg
 heroAlt: "autumn walking path"
-tags: ["Reflection"]
+tags: ["Reflection", "Progress", "Persistence"]
 ---
 I once toured Armistead Maupin’s old house in San Francisco — the same Maupin who gave the world Tales of the City and made this foggy city feel like a character all its own.
 

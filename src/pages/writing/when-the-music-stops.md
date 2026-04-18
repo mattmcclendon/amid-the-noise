@@ -5,7 +5,7 @@ description: "Everyone loves the spotlight, but most things only work because so
 pubDate: 2025-09-25
 heroImage: /images/writing/2025-09-25.jpg
 heroAlt: "second violen/fiddle"
-tags: ["reflection"]
+tags: ["Systems Thinking", "Leadership", "Signal"]
 ---
 What happens when the second fiddle sets down the bow?
 

@@ -5,7 +5,7 @@ description: "A quiet drizzle, a campus in motion, and something in the air that
 pubDate: 2025-10-02
 heroImage: /images/writing/2025-10-01.jpg
 heroAlt: "walking through a rainy campus"
-tags: ["reflection"]
+tags: ["Reflection", "Presence", "Renewal"]
 ---
 This morning the air is crisp, overcast, and rinsed in a thin veil of drizzle. Just enough to bead on jackets and darken the sidewalks, as though the whole city has been washed down for another season.
 
