@@ -4,7 +4,7 @@ title: "Borrowing From the Future"
 subtitle: ""
 description: "On the quiet habit of living ahead of oneself, and the discipline of returning to the present."
 pubDate: 2026-03-18
-heroImage: /images/borrowing-from-the-future.jpg
+heroImage: /images/writing/borrowing-from-the-future.jpg
 heroAlt: "A quiet room filled with neatly stacked moving boxes, suggesting transition, anticipation, and an unsettled future."
 tags: ["Reflection", "Decision Making", "Presence"]
 dropcap: false
