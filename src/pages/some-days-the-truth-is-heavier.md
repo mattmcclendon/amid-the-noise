@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: ../layouts/PublicationLayout.astro
 title: "Some Days the Truth Is Heavier"
 description: "On public cruelty, systemic neglect, and the quiet weight of what we choose not to fix."
 pubDate: 2025-12-01
