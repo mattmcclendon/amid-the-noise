@@ -4,7 +4,7 @@ title: "Clarity Sorts"
 subtitle: ""
 description: "On growth, discomfort, and the quiet way clarity changes what remains."
 pubDate: 2026-01-17
-heroImage: /images/writings/clarity-sorts.jpg
+heroImage: /images/writing/clarity-sorts.jpg
 heroAlt: "A minimal, quiet scene with light separating from shadow, suggesting clarity and separation."
 tags: ["Reflection", "Growth", "Boundaries"]
 dropcap: false

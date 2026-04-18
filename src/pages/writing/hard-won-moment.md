@@ -4,7 +4,7 @@ title: "Hard-Won Moment"
 subtitle: ""
 description: "On recognizing the present as something earned, and the responsibility that follows."
 pubDate: 2026-01-27
-heroImage: /images/writings/hard-won-moment.jpg
+heroImage: /images/writing/hard-won-moment.jpg
 heroAlt: "A quiet landscape at dusk, balanced between light and shadow, suggesting a fragile moment of calm."
 tags: ["Reflection", "Progress", "Responsibility"]
 dropcap: false
