@@ -127,9 +127,42 @@ import Layout from '../layouts/Layout.astro';
     color: var(--secondary);
   }
 
+  .series-description {
+    margin: 0 0 20px;
+    max-width: 42rem;
+  }
+
+  .series-list {
+    display: grid;
+    gap: 24px;
+  }
+
+  .series-list article {
+    display: grid;
+    gap: 6px;
+  }
+
+  .item-number {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    color: var(--secondary);
+  }
+
+  .series-list h3 {
+    margin: 0;
+  }
+
+  .series-list article > p:last-child {
+    margin: 0;
+    max-width: 42rem;
+  }
+
   .series-transition {
     margin: 0;
     max-width: 40rem;
+    font-size: 0.98rem;
+    line-height: 1.5;
     font-style: italic;
     color: var(--secondary);
   }
