@@ -2,8 +2,8 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "Designed Lives"
 subtitle: "Human Consequences, System Design, and the Intelligence We Actually Produce"
-description: "Translates system design into human consequences. Uses persona-based analysis to demonstrate how intelligence systems shape real-world trajectories, revealing how governance, interpretation, and signal design directly impact accuracy, trust, and lived experience."
-pubDate: 2026-03-05
+description: "Translates system design into human consequence through a persona-based analysis of intelligence outcomes. Shows how governance, interpretation, and signal design shape trust, accuracy, and lived experience."
+pubDate: 2026-03-03
 heroImage:
 heroAlt:
 tags: ["Intelligence", "AI Governance", "Signal Integrity"]

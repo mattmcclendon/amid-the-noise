@@ -1,15 +1,149 @@
 ---
-
 import Layout from '../layouts/Layout.astro';
-
 ---
 
 <Layout title="Series | Amid the Noise">
 
   <section class="section">
-
     <h1>Series</h1>
-        <p>A structured archive of work that spans concepts.</p>
+    <p>
+      Multi-part work designed to unfold across systems, not just publish individual ideas.
+    </p>
+  </section>
+
+  <!-- ========================= -->
+  <!-- SERIES I -->
+  <!-- ========================= -->
+
+  <section class="section">
+
+    <p class="series-label">Series I</p>
+    <h2>Human-Governed Intelligence Systems</h2>
+    <p class="series-description">
+      A five-part framework for governing AI-mediated intelligence systems under conditions of ambiguity, pressure, and risk.
+    </p>
+
+    <div class="series-list">
+
+      <article>
+        <p class="item-number">I.1</p>
+        <h3><a href="/papers/toward-a-human-governed-intelligence-infrastructure/">Toward a Human-Governed Intelligence Infrastructure</a></h3>
+        <p>Establishes the case for treating AI-enabled intelligence systems as governed infrastructure, not passive tools.</p>
+      </article>
+
+      <article>
+        <p class="item-number">I.2</p>
+        <h3><a href="/papers/operational-empathy-as-intelligence-capability/">Operational Empathy as Intelligence Capability</a></h3>
+        <p>Reframes human context as a core capability for interpretation under ambiguity and incomplete signal.</p>
+      </article>
+
+      <article>
+        <p class="item-number">I.3</p>
+        <h3><a href="/papers/the-civic-signal/">The Civic Signal</a></h3>
+        <p>Positions trust, sentiment, and engagement as measurable inputs that shape intelligence outcomes.</p>
+      </article>
+
+      <article>
+        <p class="item-number">I.4</p>
+        <h3><a href="/papers/signal-integrity/">Signal Integrity</a></h3>
+        <p>Defines governance mechanisms to detect drift, resist distortion, and maintain alignment with reality.</p>
+      </article>
+
+      <article>
+        <p class="item-number">I.5</p>
+        <h3><a href="/papers/designed-lives/">Designed Lives</a></h3>
+        <p>Translates system design into human consequence, showing how intelligence systems shape lived experience.</p>
+      </article>
+
+    </div>
+
+  </section>
+
+  <!-- ========================= -->
+  <!-- TRANSITION -->
+  <!-- ========================= -->
+
+  <section class="section">
+    <p class="series-transition">
+      This series defines the system. The next puts it under load.
+    </p>
+  </section>
+
+  <!-- ========================= -->
+  <!-- SERIES II -->
+  <!-- ========================= -->
+
+  <section class="section">
+
+    <p class="series-label">Series II</p>
+    <h2>From Framework to Fielding</h2>
+    <p class="series-description">
+      Applies the framework in operational environments, where governance must hold under real-world constraints.
+    </p>
+
+    <p class="coming-soon">
+      Forthcoming.
+    </p>
+
   </section>
 
 </Layout>
+
+<style>
+  .section {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+
+  .section + .section {
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .series-label {
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+  }
+
+  .series-description {
+    max-width: 50rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .series-list article {
+    margin-bottom: 2rem;
+  }
+
+  .item-number {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 0.25rem;
+  }
+
+  h3 {
+    margin: 0 0 0.4rem;
+  }
+
+  h3 a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h3 a:hover {
+    text-decoration: underline;
+  }
+
+  .series-transition {
+    font-style: italic;
+    color: #64748b;
+    max-width: 40rem;
+  }
+
+  .coming-soon {
+    color: #64748b;
+  }
+</style>

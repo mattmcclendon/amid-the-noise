@@ -2,8 +2,8 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "The Civic Signal"
 subtitle: "Reframing the Public as a Participant in Intelligence Systems"
-description: "Positions public trust, sentiment, and engagement as active components of intelligence systems. Introduces civic signal as a measurable input, showing how disengagement degrades signal integrity and how feedback loops between institutions and communities shape intelligence outcomes."
-pubDate: 2026-03-03
+description: "Positions public trust, sentiment, and engagement as active components of intelligence systems. Shows how disengagement degrades signal quality and how institutions shape the environments they monitor."
+pubDate: 2026-02-17
 heroImage:
 heroAlt:
 tags: ["Intelligence", "AI Governance", "Signal Integrity"]
