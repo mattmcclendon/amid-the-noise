@@ -3,17 +3,29 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="About | Amid the Noise">
-  <section class="section">
-    <h1>About</h1>
-    <p>
-      Matthew McClendon is a user experience designer focused on AI-native
-      systems that operate under uncertainty.
-    </p>
-    <p>
-      Today’s systems act, infer, and decide. The craft is no longer arranging
-      interfaces, but designing the signals, feedback loops, and trust
-      mechanisms that make those decisions legible and accountable.
-    </p>
+  <section class="section about-hero">
+    <div class="about-grid">
+      <div class="about-text">
+        <h1>About</h1>
+        <p>
+          Matthew McClendon is a user experience designer focused on AI-native
+          systems that operate under uncertainty.
+        </p>
+        <p>
+          Today’s systems act, infer, and decide. The craft is no longer arranging
+          interfaces, but designing the signals, feedback loops, and trust
+          mechanisms that make those decisions legible and accountable.
+        </p>
+      </div>
+
+      <div class="about-image-wrap">
+        <img
+          class="about-image"
+          src="/official-profile-1024x.jpeg"
+          alt="Matthew McClendon profile portrait"
+        />
+      </div>
+    </div>
   </section>
 
   <section class="section">
@@ -54,3 +66,42 @@ import Layout from '../layouts/Layout.astro';
     </p>
   </section>
 </Layout>
+
+<style>
+  .about-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 40px;
+    align-items: start;
+  }
+
+  .about-text {
+    min-width: 0;
+  }
+
+  .about-image-wrap {
+    justify-self: end;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .about-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line);
+    background: var(--bg);
+  }
+
+  @media (max-width: 900px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .about-image-wrap {
+      justify-self: start;
+      max-width: 280px;
+    }
+  }
+</style>
