@@ -4,7 +4,7 @@ title: "Conserved Energy"
 subtitle: ""
 description: "On limits, attention, and the discipline of allocating energy where it actually matters."
 pubDate: 2026-02-10
-heroImage: /images/writings/conserved-energy.jpg
+heroImage: /images/writing/conserved-energy.jpg
 heroAlt: "A warm lamp beside a steaming cup of coffee resting on a closed notebook with glasses, set on a wooden table in low light."
 tags: ["Reflection", "Presence", "Recovery"]
 dropcap: false
