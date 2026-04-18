@@ -19,4 +19,5 @@ Twain used to say that history never repeats, it just stutters in the same accen
 
 Dignity should not depend on luck or daylight. Yet here we are, watching the most vulnerable carry the consequences of everyone else’s indifference.
 
-Some days the truth feels heavier than others. Today is one of those days.
+Some days the truth feels heavier than others. Today is one of those days. 
+
