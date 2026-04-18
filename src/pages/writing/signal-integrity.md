@@ -4,7 +4,7 @@ subtitle: "AI Risk, Misinterpretation, and Governance Under Adversarial Conditio
 description: "Examines how AI amplifies both signal and distortion in adversarial environments. Defines governance mechanisms to detect drift, prevent systemic misinterpretation, and maintain alignment between data and reality when signals are incomplete, manipulated, or contested."
 author: "Matthew McClendon"
 pubDate: 2026-04-17
-tags: "Intelligence", "AI Governance", "Signal Integrity"
+tags: ["Intelligence", "AI Governance", "Signal Integrity"]
 ---
 
 ## Foreword

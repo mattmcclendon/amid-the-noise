@@ -4,7 +4,7 @@ subtitle: "Reframing the Public as a Participant in Intelligence Systems"
 description: "Positions public trust, sentiment, and engagement as active components of intelligence systems. Introduces civic signal as a measurable input, showing how disengagement degrades signal integrity and how feedback loops between institutions and communities shape intelligence outcomes."
 author: "Matthew McClendon"
 pubDate: 2026-04-17
-tags: "Intelligence", "AI Governance", "Signal Integrity"
+tags: ["Intelligence", "AI Governance", "Signal Integrity"]
 ---
 
 ## Foreword
