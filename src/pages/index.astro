@@ -26,6 +26,8 @@ posts.sort((a, b) => {
           })}
         </p>
 
+        <p>{post.frontmatter.description}</p>
+
         {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
           <div class="entry-tags">
             {post.frontmatter.tags.map((tag) => (
@@ -33,16 +35,32 @@ posts.sort((a, b) => {
             ))}
           </div>
         )}
-
-        <p>{post.frontmatter.description}</p>
       </article>
     ))}
   </section>
 </Layout>
 
 <style>
+  .entry h3 {
+    margin: 0 0 8px;
+    font-size: 1.28rem;
+    line-height: 1.28;
+    font-weight: 600;
+  }
+
+  .entry-meta {
+    margin: 0 0 12px;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    color: var(--secondary);
+  }
+
+  .entry p {
+    margin: 0 0 12px;
+  }
+
   .entry-tags {
-    margin: 0 0 10px;
+    margin: 2px 0 0;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
