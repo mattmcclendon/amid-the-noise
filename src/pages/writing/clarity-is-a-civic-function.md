@@ -2,7 +2,7 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "Clarity Is a Civic Function"
 description: "Misunderstanding infrastructure creates risk. The truth does not change, only the language we use to describe it."
-pubDate: 2025-12-02
+pubDate: 2025-12-04
 heroImage: /images/writing/clarity-is-a-civic-function.jpg
 heroAlt: "Modern data center building at dusk with cooling systems visible on the exterior"
 tags: ["Systems Thinking", "AI & Decision Systems", "Civic Systems"]

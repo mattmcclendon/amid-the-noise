@@ -1,8 +1,8 @@
 ---
-layout: ../layouts/PublicationLayout.astro
+layout: ../../layouts/PublicationLayout.astro
 title: "Some Days the Truth Is Heavier"
 description: "On public cruelty, systemic neglect, and the quiet weight of what we choose not to fix."
-pubDate: 2025-12-01
+pubDate: 2025-12-02
 heroImage: /images/writing/some-days-the-truth-is-heavier.jpg
 heroAlt: "Empty subway platform with a person sleeping on a bench as a train passes"
 tags: ["Reflection", "Civic Systems", "Dignity"]
