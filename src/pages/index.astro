@@ -10,6 +10,7 @@ posts.sort((a, b) => {
 ---
 
 <Layout title="Writing | Amid the Noise">
+  <div class="hero-band"></div>
   <section class="section hero">
     <p class="eyebrow">Matthew McClendon</p>
     <h1>Designing AI systems where trust, risk, and human judgment matter.</h1>
@@ -52,6 +53,18 @@ posts.sort((a, b) => {
 </Layout>
 
 <style>
+  .hero-band {
+    width: 100%;
+    height: 100px;
+    background-image: url('/images/writings/home-band.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.85;
+    /* soft fade into page */
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+            mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  }
+
   .hero h1 {
     font-size: 1.55rem;
     line-height: 1.32;
