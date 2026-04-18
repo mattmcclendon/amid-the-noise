@@ -36,7 +36,7 @@ const { frontmatter } = Astro.props;
       )}
     </header>
 
-    <div class="publication-body section">
+    <div class={`publication-body section ${frontmatter.dropcap ? 'dropcap' : ''}`}>
       <slot />
     </div>
   </article>
@@ -122,6 +122,14 @@ const { frontmatter } = Astro.props;
   .publication-body p {
     margin: 0 0 1.15em;
   }
+  .publication-body.dropcap p:first-of-type::first-letter {
+    float: left;
+    font-size: 3.2rem;
+    line-height: 0.85;
+    margin-right: 8px;
+    font-weight: 600;
+    color: var(--title);
+  }
 
   .publication-body h2 {
     margin: 2.8em 0 0.8em;
@@ -189,6 +197,10 @@ const { frontmatter } = Astro.props;
     .publication-body {
       font-size: 1rem;
       line-height: 1.68;
+    }
+    .publication-body.dropcap p:first-of-type::first-letter {
+      font-size: 2.6rem;
+      margin-right: 6px;
     }
 
     .publication-body h2 {
