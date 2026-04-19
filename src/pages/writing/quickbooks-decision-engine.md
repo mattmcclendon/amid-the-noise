@@ -9,7 +9,6 @@ heroAlt: "Abstract transition from financial records to forward-looking decision
 tags: ["AI Systems", "Fintech", "Decision Design"]
 dropcap: false
 ---
-
 Most small business software answers the wrong question.
 
 It answers:
@@ -17,8 +16,8 @@ It answers:
 
 Small business owners are asking something else entirely:
 *Am I okay?*
-In practice, that question turns into a constant check on timing and risk, and whether the business holds together over the next few weeks.
 
+In practice, that question turns into a constant check on timing and risk, and whether the business holds together over the next few weeks.
 
 That gap is where AI either becomes transformative or irrelevant.
 
