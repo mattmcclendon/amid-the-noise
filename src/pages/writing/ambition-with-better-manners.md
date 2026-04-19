@@ -2,7 +2,7 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "Ambition, With Better Manners"
 description: "On ambition, restraint, and the difference between purpose and performance."
-pubDate: 2026-11-21
+pubDate: 2025-11-21
 heroImage: /images/writing/ambition-with-better-manners.jpg
 heroAlt: "A neatly arranged set of silverware in a velvet-lined box, suggesting order, restraint, and quiet refinement"
 tags: ["Reflection", "Leadership", "Growth"]
