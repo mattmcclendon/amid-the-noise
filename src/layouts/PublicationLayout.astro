@@ -265,25 +265,17 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     flex-direction: column;
     align-items: flex-end;
     gap: 0.2rem;
-    max-width: 28rem;
+    max-width: 42rem;
     text-align: right;
-  }
-
-  .publication-pagination-label {
-    font-size: 0.7rem;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--title);
-    opacity: 0.8;
   }
 
   .publication-pagination-title {
     display: block;
-    max-width: 28rem;
+    max-width: 42rem;
     font-size: 0.91rem;
     line-height: 1.4;
     color: var(--secondary);
-    white-space: normal;
+    white-space: nowrap;
     overflow: visible;
     text-overflow: clip;
     text-decoration: none;
@@ -341,6 +333,11 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
       align-items: flex-start;
       max-width: 100%;
       text-align: left;
+    }
+
+    .publication-pagination-title {
+      max-width: 100%;
+      white-space: normal;
     }
   }
 </style>
