@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PublicationLayout.astro
 title: "Designing Dignity: Rebuilding California’s Homelessness Systems from First Principles"
 pubDate: 2026-04-14
 description: "A human-centered systems framework for restoring agency, continuity, and trust in California’s homelessness response."
