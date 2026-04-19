@@ -78,6 +78,8 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
       <slot />
     </div>
 
+    <div class="publication-terminal" aria-hidden="true">■</div>
+
     {(previousArticle || nextArticle) && (
       <nav class="publication-pagination section" aria-label="Article navigation">
         <div class="publication-pagination-grid">
@@ -105,8 +107,6 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
         </div>
       </nav>
     )}
-
-    <div class="publication-terminal" aria-hidden="true">■</div>
   </article>
 </Layout>
 
@@ -268,39 +268,51 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
   .publication-pagination {
     max-width: 46rem;
-    margin-top: 2.5rem;
-    padding-top: 1.25rem;
+    margin-top: 1.25rem;
+    padding-top: 1rem;
     border-top: 1px solid var(--line);
   }
 
   .publication-pagination-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 24px;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    align-items: start;
   }
 
   .publication-pagination-item {
-    min-height: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .publication-pagination-item-left {
+    align-items: flex-start;
   }
 
   .publication-pagination-item-right {
+    align-items: flex-end;
     text-align: right;
   }
 
   .publication-pagination-label {
-    margin: 0 0 0.35rem;
-    font-size: 0.72rem;
+    margin: 0;
+    font-size: 0.68rem;
     line-height: 1.2;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--secondary);
+    opacity: 0.8;
   }
 
   .publication-pagination-title {
+    display: inline-block;
+    max-width: 22rem;
     color: var(--title);
     text-decoration: none;
-    font-size: 0.95rem;
-    line-height: 1.4;
+    font-size: 0.88rem;
+    line-height: 1.35;
   }
 
   .publication-pagination-title:hover {
@@ -310,7 +322,7 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
   .publication-terminal {
     max-width: 46rem;
-    margin-top: 1.5em;
+    margin-top: 1.25rem;
     font-size: 1rem;
     line-height: 1;
     color: #3e5a82;
@@ -348,11 +360,16 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
     .publication-pagination-grid {
       grid-template-columns: 1fr;
-      gap: 18px;
+      gap: 1rem;
     }
 
     .publication-pagination-item-right {
+      align-items: flex-start;
       text-align: left;
+    }
+
+    .publication-pagination-title {
+      max-width: 100%;
     }
   }
 </style>
