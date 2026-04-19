@@ -254,14 +254,18 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     margin-top: 1.25rem;
     padding-top: 1rem;
     border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: flex-end;
   }
 
   .publication-pagination-next {
     display: inline-flex;
     flex-direction: column;
-    gap: 0.25rem;
-    max-width: 22rem;
+    align-items: flex-end;
+    gap: 0.2rem;
+    max-width: 28rem;
     text-decoration: none;
+    text-align: right;
   }
 
   .publication-pagination-label {
@@ -278,7 +282,9 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     font-size: 0.76rem;
     line-height: 1.35;
     color: var(--secondary);
-    text-wrap: balance;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .publication-pagination-next:hover .publication-pagination-title {
@@ -324,8 +330,14 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
       margin-top: 2.4em;
     }
 
+    .publication-pagination {
+      justify-content: flex-start;
+    }
+
     .publication-pagination-next {
+      align-items: flex-start;
       max-width: 100%;
+      text-align: left;
     }
   }
 </style>
