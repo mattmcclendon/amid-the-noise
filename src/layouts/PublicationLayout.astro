@@ -29,7 +29,7 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     <meta property="og:title" content={frontmatter.title} />
     <meta property="og:description" content={frontmatter.description || frontmatter.subtitle || ''} />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content={Astro.url} />
+    <meta property="og:url" content={Astro.url.href} />
     <meta property="og:image" content={new URL(frontmatter.heroImage || '/images/og-default.png', Astro.site)} />
 
     <!-- Twitter -->
@@ -259,22 +259,26 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
   .publication-pagination-next {
     display: inline-flex;
     flex-direction: column;
-    gap: 0.35rem;
+    gap: 0.25rem;
+    max-width: 22rem;
     text-decoration: none;
   }
 
   .publication-pagination-label {
-    font-size: 0.68rem;
-    letter-spacing: 0.06em;
+    font-size: 0.62rem;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--secondary);
-    opacity: 0.8;
+    opacity: 0.72;
   }
 
   .publication-pagination-title {
-    font-size: 0.82rem;
+    display: block;
+    max-width: 100%;
+    font-size: 0.76rem;
     line-height: 1.35;
     color: var(--secondary);
+    text-wrap: balance;
   }
 
   .publication-pagination-next:hover .publication-pagination-title {
@@ -318,6 +322,10 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
     .publication-body h2 {
       margin-top: 2.4em;
+    }
+
+    .publication-pagination-next {
+      max-width: 100%;
     }
   }
 </style>
