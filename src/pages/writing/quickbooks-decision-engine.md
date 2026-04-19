@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/PublicationLayout.astro
-title: "QuickBooks Doesn’t Need AI Features. It Needs a Decision Engine."
+title: "QuickBooks Needs a Decision System."
 subtitle: "Reframing small business finance as a system of judgment under uncertainty"
 description: "AI will not transform accounting by adding features. It will transform it by turning records into decisions, and software into a system of reasoning."
 pubDate: 2026-04-19
@@ -17,12 +17,12 @@ What happened?
 
 Small business owners are asking something else entirely:
 Am I okay?
-In practice, that question collapses into timing, risk, and survivability.
+In practice, that question turns into a constant check on timing and risk, and whether the business holds together over the next few weeks.
 
 
 That gap is where AI either becomes transformative or irrelevant.
 
-These patterns are not speculative. They map to well-established behavior across small business operators and fintech UX: persistent cash anxiety, forward-looking uncertainty, and difficulty translating financial data into action.
+You see this pattern everywhere once you look for it. Small business operators circle the same pressures: cash anxiety, uncertainty about what’s coming next, and the friction of turning financial data into something actionable.
 
 Today, Intuit QuickBooks functions as a highly reliable system of record. It captures transactions, categorizes activity, and produces reports that satisfy compliance, accounting, and tax requirements. It does this well.
 
@@ -105,7 +105,7 @@ Every AI action should carry its own audit trail:
 - What alternatives were considered  
 - What the system might be wrong about  
 
-This is not a compliance feature. It is a prerequisite for trust at scale.
+Without this, trust does not scale.
 
 At Intuit’s scale, these constraints are not theoretical. They are the product.
 
@@ -200,6 +200,6 @@ They need a system that can stand beside them, look at incomplete information, a
 Not perfectly.  
 Not with certainty.  
 
-With enough clarity to act.
+With enough clarity to make a call and move.
 
 That is the redesign.
