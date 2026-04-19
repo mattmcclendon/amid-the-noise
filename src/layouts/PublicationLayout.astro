@@ -100,13 +100,20 @@ const { frontmatter } = Astro.props;
     color: var(--secondary);
   }
 
-  .publication-meta {
+  .publication-header .publication-meta {
     margin: 0;
-    font-size: 0.76rem;
-    line-height: 1.3;
+    font-size: 0.76rem !important;
+    line-height: 1.25;
     letter-spacing: 0.01em;
+    font-weight: 400;
     color: var(--secondary);
-    opacity: 0.92;
+    opacity: 0.88;
+  }
+
+  .publication-header p.publication-meta {
+    font-size: 0.76rem !important;
+    line-height: 1.25;
+    font-weight: 400;
   }
 
   .publication-tags {
