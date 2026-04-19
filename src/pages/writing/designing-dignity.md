@@ -18,7 +18,10 @@ It lacks systems that people can survive long enough to use.
 
 The state’s homelessness response has become an optimization problem detached from the people it claims to serve. Billions move through fragmented systems that measure throughput, compliance, and eligibility, while individuals encounter confusion, repetition, and the steady erosion of trust.
 
-Most systems that interact with unhoused individuals are not experienced as support structures. They are experienced as hostile, non-consensual environments. Intake processes compel disclosure, repetition, and compliance under cognitive strain, with little agency over pacing, narrative, or mode of engagement. In practice, the system functions less as a service and more as an exposure to administrative power, often echoing the conditions it claims to resolve.
+> Most systems that interact with unhoused individuals are not experienced as support structures.  
+> They are experienced as hostile, non-consensual environments.
+
+Intake processes compel disclosure, repetition, and compliance under cognitive strain, with little agency over pacing, narrative, or mode of engagement. In practice, the system functions less as a service and more as an exposure to administrative power, often echoing the conditions it claims to resolve.
 
 This paper reframes homelessness as a systems design failure. Using human-centered design, trauma-informed practice, and service-journey simulation grounded in municipal workflows, it shows how public infrastructure can restore agency, reduce friction, and improve outcomes without increasing staff burden.
 
