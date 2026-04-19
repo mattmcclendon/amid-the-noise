@@ -1,15 +1,28 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-const postModules = import.meta.glob('./writing/*.md', { eager: true });
-const posts = Object.values(postModules);
+const selectedSlugs = [
+  'when-ai-is-wrong-a-simple-operating-model-for-real-world-systems',
+  'one-degree-of-drift',
+  'before-we-called-it-social',
+  'designing-dignity',
+  'the-reciprocity-principle-of-emerging-intelligence',
+];
 
-posts.sort((a, b) => {
-  return new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate);
-});
+const postModules = import.meta.glob('./writing/*.md', { eager: true });
+const allPosts = Object.values(postModules);
+
+const selectedPosts = selectedSlugs
+  .map((slug) =>
+    allPosts.find((post) => {
+      const postSlug = post.url?.split('/').filter(Boolean).pop();
+      return postSlug === slug;
+    })
+  )
+  .filter(Boolean);
 ---
 
-<Layout title="Writing | Amid the Noise">
+<Layout title="Amid the Noise">
   <section class="section hero">
     <p class="eyebrow">Matthew McClendon</p>
     <h1>Designing AI systems where trust, risk, and human judgment matter.</h1>
@@ -22,9 +35,9 @@ posts.sort((a, b) => {
   </section>
 
   <section class="section">
-    <h2>Recent Writing</h2>
+    <h2>Selected Writing</h2>
 
-    {posts.map((post) => (
+    {selectedPosts.map((post) => (
       <article class="entry">
         <h3>
           <a href={post.url}>{post.frontmatter.title}</a>
