@@ -1,6 +1,26 @@
 ---
 import Layout from './Layout.astro';
+
 const { frontmatter } = Astro.props;
+const currentPath = Astro.url.pathname.replace(/\/$/, '');
+
+const writingModules = Object.values(import.meta.glob('../pages/writing/*.md', { eager: true }));
+
+const allArticles = writingModules
+  .map((module) => ({
+    title: module.frontmatter?.title,
+    pubDate: module.frontmatter?.pubDate,
+    url: module.url,
+  }))
+  .filter((article) => article.title && article.pubDate && article.url)
+  .sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
+
+const currentIndex = allArticles.findIndex(
+  (article) => article.url.replace(/\/$/, '') === currentPath
+);
+
+const previousArticle = currentIndex > 0 ? allArticles[currentIndex - 1] : null;
+const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ? allArticles[currentIndex + 1] : null;
 ---
 
 <Layout title={`${frontmatter.title} | Amid the Noise`}>
@@ -57,6 +77,35 @@ const { frontmatter } = Astro.props;
     <div class={`publication-body section ${frontmatter.dropcap ? 'dropcap' : ''}`}>
       <slot />
     </div>
+
+    {(previousArticle || nextArticle) && (
+      <nav class="publication-pagination section" aria-label="Article navigation">
+        <div class="publication-pagination-grid">
+          <div class="publication-pagination-item publication-pagination-item-left">
+            {previousArticle && (
+              <>
+                <p class="publication-pagination-label">&lt; previous article</p>
+                <a href={previousArticle.url} class="publication-pagination-title">
+                  {previousArticle.title}
+                </a>
+              </>
+            )}
+          </div>
+
+          <div class="publication-pagination-item publication-pagination-item-right">
+            {nextArticle && (
+              <>
+                <p class="publication-pagination-label">next article &gt;</p>
+                <a href={nextArticle.url} class="publication-pagination-title">
+                  {nextArticle.title}
+                </a>
+              </>
+            )}
+          </div>
+        </div>
+      </nav>
+    )}
+
     <div class="publication-terminal" aria-hidden="true">■</div>
   </article>
 </Layout>
@@ -217,9 +266,51 @@ const { frontmatter } = Astro.props;
     text-decoration: underline;
   }
 
+  .publication-pagination {
+    max-width: 46rem;
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .publication-pagination-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .publication-pagination-item {
+    min-height: 3.5rem;
+  }
+
+  .publication-pagination-item-right {
+    text-align: right;
+  }
+
+  .publication-pagination-label {
+    margin: 0 0 0.35rem;
+    font-size: 0.72rem;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--secondary);
+  }
+
+  .publication-pagination-title {
+    color: var(--title);
+    text-decoration: none;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .publication-pagination-title:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
   .publication-terminal {
     max-width: 46rem;
-    margin-top: 1.25em;
+    margin-top: 1.5em;
     font-size: 1rem;
     line-height: 1;
     color: #3e5a82;
@@ -253,6 +344,15 @@ const { frontmatter } = Astro.props;
 
     .publication-body h2 {
       margin-top: 2.4em;
+    }
+
+    .publication-pagination-grid {
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    .publication-pagination-item-right {
+      text-align: left;
     }
   }
 </style>
