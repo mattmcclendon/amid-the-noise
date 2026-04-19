@@ -11,10 +11,10 @@ posts.sort((a, b) => {
 
 <Layout title="Writing | Amid the Noise">
   <section class="section hero">
-    <p class="eyebrow">Matthew McClendon</p><!--test code-->
+    <p class="eyebrow">Matthew McClendon</p>
     <h1>Designing AI systems where trust, risk, and human judgment matter.</h1>
     <p class="intro intro-lead">
-      Amid the Noise is where I write about products and systems that must hold up under pressure. The work here centers on AI, judgment, signal, oversight, and the conditions that make decisions legible.
+      <em>Amid the Noise</em> is where I write about products and systems that must hold up <em>under pressure</em>. The work here centers on AI, judgment, signal, oversight, and the conditions that make decisions legible.
     </p>
     <p class="intro recruiter-note">
       Relevant to Principal, Staff, and design leadership roles in AI systems, trust and safety, decision infrastructure, and other high-stakes environments.
@@ -85,6 +85,10 @@ posts.sort((a, b) => {
     margin: 0 0 10px;
     font-size: 0.98rem;
     line-height: 1.55;
+  }
+
+  .intro em {
+    font-style: italic;
   }
 
   .entry-tags {
