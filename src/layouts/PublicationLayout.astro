@@ -4,6 +4,20 @@ const { frontmatter } = Astro.props;
 ---
 
 <Layout title={`${frontmatter.title} | Amid the Noise`}>
+  <Fragment slot="head">
+    <!-- Open Graph -->
+    <meta property="og:title" content={frontmatter.title} />
+    <meta property="og:description" content={frontmatter.description || frontmatter.subtitle || ''} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:image" content={new URL(frontmatter.heroImage || '/images/og-default.png', Astro.site)} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={frontmatter.title} />
+    <meta name="twitter:description" content={frontmatter.description || frontmatter.subtitle || ''} />
+    <meta name="twitter:image" content={new URL(frontmatter.heroImage || '/images/og-default.png', Astro.site)} />
+  </Fragment>
   <article class="publication publication-doc">
     {frontmatter.heroImage && (
       <figure class="publication-hero">
