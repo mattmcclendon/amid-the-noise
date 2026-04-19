@@ -2,7 +2,7 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "Rebuilding California’s Homelessness Systems from First Principles"
 pubDate: 2026-04-14
-description: "A human-centered systems framework for restoring agency, continuity, and trust in California’s homelessness response."
+description: "Designing Dignity is a human-centered systems framework for restoring agency, continuity, and trust in California’s homelessness response."
 author: "Matthew McClendon"
 tags: ["Civic Systems", "Human-Centered Design", "Public Infrastructure"]
 heroImage: "/images/writing/designing-dignity.png"
