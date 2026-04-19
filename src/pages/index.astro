@@ -3,22 +3,16 @@ import Layout from '../layouts/Layout.astro';
 
 const selectedSlugs = [
   'when-ai-is-wrong-a-simple-operating-model-for-real-world-systems',
-  'one-degree-of-drift',
-  'before-we-called-it-social',
   'designing-dignity',
   'the-reciprocity-principle-of-emerging-intelligence',
+  'before-we-called-it-social',
+  'one-degree-of-drift',
 ];
 
 const postModules = import.meta.glob('./writing/*.md', { eager: true });
-const allPosts = Object.values(postModules);
 
 const selectedPosts = selectedSlugs
-  .map((slug) =>
-    allPosts.find((post) => {
-      const postSlug = post.url?.split('/').filter(Boolean).pop();
-      return postSlug === slug;
-    })
-  )
+  .map((slug) => postModules[`./writing/${slug}.md`])
   .filter(Boolean);
 ---
 
