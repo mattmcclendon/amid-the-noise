@@ -82,12 +82,12 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
     {nextArticle && (
       <nav class="publication-pagination section" aria-label="Next article">
-        <a href={nextArticle.url} class="publication-pagination-next">
+        <div class="publication-pagination-next">
           <span class="publication-pagination-label">Next article →</span>
-          <span class="publication-pagination-title">
+          <a href={nextArticle.url} class="publication-pagination-title">
             {nextArticle.navTitle}
-          </span>
-        </a>
+          </a>
+        </div>
       </nav>
     )}
   </article>
@@ -279,15 +279,16 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
   .publication-pagination-title {
     display: block;
     max-width: 100%;
-    font-size: 0.76rem;
+    font-size: 0.82rem;
     line-height: 1.35;
     color: var(--secondary);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-decoration: none;
   }
 
-  .publication-pagination-next:hover .publication-pagination-title {
+  .publication-pagination-title:hover {
     color: var(--title);
     text-decoration: underline;
   }
