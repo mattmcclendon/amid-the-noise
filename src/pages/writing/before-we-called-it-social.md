@@ -2,7 +2,7 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "Before We Called It Social"
 description: "Designing human systems before the category existed, and what those early constraints reveal about trust, identity, and scale today."
-pubDate: 2026-04-15
+pubDate: 2026-04-16
 heroImage: /images/writing/before-we-called-it-social.png
 heroAlt: "An abstract, early-internet-style network with sparse nodes and faint connections emerging in low light"
 tags: ["Civic Systems", "AI & Decision Systems", "Reflection"]
