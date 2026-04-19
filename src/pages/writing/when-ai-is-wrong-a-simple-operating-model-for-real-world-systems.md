@@ -2,7 +2,7 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "When AI Is Wrong: A Simple Operating Model for Real-World Systems"
 description: "AI risk rarely begins at the point of obvious failure. It begins earlier, when confidence appears earned and no one pauses to question it. This paper outlines a simple operating model for structuring signal, interpretation, escalation, and response in real-world AI systems."
-pubDate: 2026-04-16
+pubDate: 2026-04-14
 author: "Matthew McClendon"
 tags: ["AI Safety", "Decision Systems", "Human-in-the-Loop"]
 draft: false
