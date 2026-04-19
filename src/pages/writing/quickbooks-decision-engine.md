@@ -6,17 +6,17 @@ description: "AI will not transform accounting by adding features. It will trans
 pubDate: 2026-04-19
 heroImage: /images/writing/quickbooks-decision-engine.png
 heroAlt: "Abstract transition from financial records to forward-looking decision signals"
-tags: ["AI Systems", "Fintech", "Decision Design", "Human-in-the-Loop", "Trust"]
+tags: ["AI Systems", "Fintech", "Decision Design"]
 dropcap: false
 ---
 
 Most small business software answers the wrong question.
 
 It answers:
-What happened?
+*What happened?*
 
 Small business owners are asking something else entirely:
-Am I okay?
+*Am I okay?*
 In practice, that question turns into a constant check on timing and risk, and whether the business holds together over the next few weeks.
 
 
@@ -88,7 +88,7 @@ Each position must be accompanied by reasoning and confidence:
 - What assumptions were made  
 - Where uncertainty is highest  
 
-This is not automation. It is augmented judgment.
+This is not automation. It is *augmented judgment.*
 
 ---
 
@@ -181,7 +181,7 @@ Do not replace the ledger. Wrap it with reasoning.
 The system becomes two things at once:
 
 A system of record.  
-A system of bounded judgment.
+A system of *bounded judgment.*
 
 ---
 
@@ -202,4 +202,4 @@ Not with certainty.
 
 With enough clarity to make a call and move.
 
-That is the redesign.
+*That is the redesign.*
