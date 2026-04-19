@@ -9,6 +9,7 @@ const writingModules = Object.values(import.meta.glob('../pages/writing/*.md', {
 const allArticles = writingModules
   .map((module) => ({
     title: module.frontmatter?.title,
+    navTitle: module.frontmatter?.navTitle || module.frontmatter?.title,
     pubDate: module.frontmatter?.pubDate,
     url: module.url,
   }))
@@ -19,7 +20,6 @@ const currentIndex = allArticles.findIndex(
   (article) => article.url.replace(/\/$/, '') === currentPath
 );
 
-const previousArticle = currentIndex > 0 ? allArticles[currentIndex - 1] : null;
 const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ? allArticles[currentIndex + 1] : null;
 ---
 
@@ -80,25 +80,14 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
     <div class="publication-terminal" aria-hidden="true">■</div>
 
-    {(previousArticle || nextArticle) && (
-      <nav class="publication-pagination section" aria-label="Article navigation">
-        <div class="publication-pagination-grid">
-          <div class="publication-pagination-item publication-pagination-item-left">
-            {previousArticle && (
-              <a href={previousArticle.url} class="publication-pagination-title">
-                ← {previousArticle.title}
-              </a>
-            )}
-          </div>
-
-          <div class="publication-pagination-item publication-pagination-item-right">
-            {nextArticle && (
-              <a href={nextArticle.url} class="publication-pagination-title">
-                {nextArticle.title} →
-              </a>
-            )}
-          </div>
-        </div>
+    {nextArticle && (
+      <nav class="publication-pagination section" aria-label="Next article">
+        <a href={nextArticle.url} class="publication-pagination-next">
+          <span class="publication-pagination-label">Next article →</span>
+          <span class="publication-pagination-title">
+            {nextArticle.navTitle}
+          </span>
+        </a>
       </nav>
     )}
   </article>
@@ -267,39 +256,28 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     border-top: 1px solid var(--line);
   }
 
-  .publication-pagination-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 2rem;
-    row-gap: 1rem;
-    align-items: start;
-  }
-
-  .publication-pagination-item {
-    display: flex;
+  .publication-pagination-next {
+    display: inline-flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 0.35rem;
+    text-decoration: none;
   }
 
-  .publication-pagination-item-left {
-    align-items: flex-start;
-  }
-
-  .publication-pagination-item-right {
-    align-items: flex-end;
-    text-align: right;
+  .publication-pagination-label {
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary);
+    opacity: 0.8;
   }
 
   .publication-pagination-title {
-    display: inline-block;
-    max-width: 22rem;
+    font-size: 0.82rem;
+    line-height: 1.35;
     color: var(--secondary);
-    text-decoration: none;
-    font-size: 0.8rem;
-    line-height: 1.4;
   }
 
-  .publication-pagination-title:hover {
+  .publication-pagination-next:hover .publication-pagination-title {
     color: var(--title);
     text-decoration: underline;
   }
@@ -340,20 +318,6 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
     .publication-body h2 {
       margin-top: 2.4em;
-    }
-
-    .publication-pagination-grid {
-      grid-template-columns: 1fr;
-      gap: 1rem;
-    }
-
-    .publication-pagination-item-right {
-      align-items: flex-start;
-      text-align: left;
-    }
-
-    .publication-pagination-title {
-      max-width: 100%;
     }
   }
 </style>
