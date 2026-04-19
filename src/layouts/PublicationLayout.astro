@@ -274,7 +274,7 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--secondary);
-    opacity: 0.72;
+    opacity: 0.9; /* was 0.72 */
   }
 
   .publication-pagination-title {
@@ -282,7 +282,7 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     max-width: 42rem;
     font-size: 0.91rem;
     line-height: 1.4;
-    color: var(--secondary);
+    color: var(--title); /* stronger contrast than --secondary */
     white-space: nowrap;
     overflow: visible;
     text-overflow: clip;
@@ -290,7 +290,7 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
   }
 
   .publication-pagination-title:hover {
-    color: var(--title);
+    color: var(--accent);
     text-decoration: underline;
   }
 
