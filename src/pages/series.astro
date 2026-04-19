@@ -125,6 +125,8 @@ import Layout from '../layouts/Layout.astro';
     font-size: 0.9rem;
     line-height: 1.35;
     color: var(--secondary);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
   }
 
   .series-description {
@@ -151,6 +153,18 @@ import Layout from '../layouts/Layout.astro';
 
   .series-list h3 {
     margin: 0;
+    font-size: 1.28rem;
+    line-height: 1.28;
+    font-weight: 600;
+  }
+
+  .series-list h3 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .series-list h3 a:hover {
+    text-decoration: underline;
   }
 
   .series-list article > p:last-child {
