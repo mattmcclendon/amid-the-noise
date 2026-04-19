@@ -43,6 +43,7 @@ const { frontmatter } = Astro.props;
     <div class={`publication-body section ${frontmatter.dropcap ? 'dropcap' : ''}`}>
       <slot />
     </div>
+    <div class="publication-terminal" aria-hidden="true">■</div>
   </article>
 </Layout>
 
@@ -190,6 +191,14 @@ const { frontmatter } = Astro.props;
 
   .publication-body a:hover {
     text-decoration: underline;
+  }
+
+  .publication-terminal {
+    max-width: 46rem;
+    margin-top: 1.25em;
+    font-size: 1rem;
+    line-height: 1;
+    color: var(--title);
   }
 
   @media (max-width: 720px) {
