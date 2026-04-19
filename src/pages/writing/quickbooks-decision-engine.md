@@ -7,7 +7,7 @@ pubDate: 2026-04-19
 heroImage: /images/writing/quickbooks-decision-engine.png
 heroAlt: "Abstract transition from financial records to forward-looking decision signals"
 tags: ["AI Systems", "Fintech", "Decision Design", "Human-in-the-Loop", "Trust"]
-dropcap: true
+dropcap: false
 ---
 
 Most small business software answers the wrong question.
