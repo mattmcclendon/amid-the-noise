@@ -126,7 +126,7 @@ Social risk analysis must therefore move earlier. It must ask not only what syst
 
 The work ahead is not dramatic. It is careful and often uncelebrated. It consists of noticing what no longer feels uncomfortable, and asking why.
 
-That is where governance begins.
+> That is where governance begins.
 
 ---
 
