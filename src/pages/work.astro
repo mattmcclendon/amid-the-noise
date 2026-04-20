@@ -6,16 +6,16 @@ import Layout from '../layouts/Layout.astro';
   <section class="section">
     <article>
       <h1>Work</h1>
-      <p>
+      <p class="work-intro">
         Selected case studies across AI, enterprise systems, automation, and regulated environments.
-        The page is organized into three sections:
-        <br />
-        Recent Work (applied systems and outcomes),<br />
-        Foundations (early patterns that shaped system behavior),<br />
-        Current Work (ongoing advisory and civic system design).<br />
-        <br />
         Each entry focuses on problem framing, design decisions, constraints, and outcomes.
       </p>
+
+      <div class="work-map" aria-label="Work section overview">
+        <p><strong>Recent Work</strong> examines applied systems and outcomes.</p>
+        <p><strong>Foundations</strong> traces the early patterns that shaped how systems behave.</p>
+        <p><strong>Current Work</strong> reflects ongoing advisory and civic system design.</p>
+      </div>
     </article>
   </section>
 
@@ -81,6 +81,22 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <style>
+  .work-intro {
+    margin-bottom: 1rem;
+  }
+
+  .work-map {
+    margin-top: 1rem;
+  }
+
+  .work-map p {
+    margin: 0.35rem 0;
+  }
+
+  .work-map strong {
+    font-weight: 600;
+  }
+
   .work-list {
     display: flex;
     flex-direction: column;
