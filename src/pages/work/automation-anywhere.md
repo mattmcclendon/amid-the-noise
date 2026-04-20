@@ -99,7 +99,4 @@ The system shifted from:
 
 To:
 
-
----
-
-<p class="case-nav">Next: <a href="/work/wells-fargo">Wells Fargo →</a></p>
+> “Should this outcome be accepted, and why?”

@@ -1,14 +1,3 @@
-.case-nav {
-  margin-top: 2rem;
-  font-size: 0.95rem;
-  color: #64748b;
-  text-align: right;
-}
-
-.case-nav a {
-  text-decoration: none;
-  color: #3e5a82;
-}
 ---
 layout: ../../layouts/PublicationLayout.astro
 title: "Designing Decision Governance in Regulated AI Systems"
@@ -119,5 +108,3 @@ To:
 This established a foundation for AI adoption rooted in trust, accountability, and decision clarity.
 
 ---
-
-<p class="case-nav">Next: <a href="/work/ca-technologies">CA Technologies →</a></p>

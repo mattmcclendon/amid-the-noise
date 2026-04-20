@@ -107,5 +107,3 @@ To:
 > “Can I trust this, and what should I do next?”
 
 ---
-
-<p class="case-nav">Next: <a href="/work/automation-anywhere">Automation Anywhere →</a></p>

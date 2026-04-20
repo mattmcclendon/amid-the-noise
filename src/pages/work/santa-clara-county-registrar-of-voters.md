@@ -183,5 +183,3 @@ To:
 This reframes civic infrastructure from a question of belief to one of design.
 
 ---
-
-<p class="case-nav">Back to work: <a href="/work">Work →</a></p>

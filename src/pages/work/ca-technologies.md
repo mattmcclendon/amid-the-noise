@@ -110,3 +110,5 @@ To:
 > “What would it take for this to become part of our future?”
 
 This work established a foundation for thinking about innovation not as disruption, but as structured, intentional exploration within a complex enterprise system.
+
+---
