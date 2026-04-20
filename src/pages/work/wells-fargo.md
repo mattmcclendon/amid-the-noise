@@ -109,3 +109,7 @@ To:
 > “How do we test this safely, and what does success look like?”
 
 This established a foundation for AI adoption rooted in trust, accountability, and decision clarity.
+
+---
+
+<p class="case-nav">Next: <a href="/work/ca-technologies">CA Technologies →</a></p>

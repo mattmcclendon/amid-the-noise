@@ -99,4 +99,7 @@ The system shifted from:
 
 To:
 
-> “Do I trust this outcome, and what should happen next?”
+
+---
+
+<p class="case-nav">Next: <a href="/work/wells-fargo">Wells Fargo →</a></p>
