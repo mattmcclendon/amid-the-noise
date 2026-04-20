@@ -6,9 +6,11 @@ import Layout from '../layouts/Layout.astro';
   <section class="section">
     <article>
       <h1>Work</h1>
+      <p class="work-operator">
+        I design systems where decisions are made under uncertainty, and where those decisions must be clear, governable, and trusted.
+      </p>
       <p class="work-intro">
-        Selected case studies across AI, enterprise systems, automation, and regulated environments.
-        Each entry focuses on problem framing, design decisions, constraints, and outcomes.
+        Selected case studies across AI, enterprise systems, automation, and regulated environments, focusing on problem framing, design decisions, constraints, and outcomes.
       </p>
 
       <div class="work-map" aria-label="Work section overview">
@@ -25,28 +27,28 @@ import Layout from '../layouts/Layout.astro';
     <article class="work-entry">
       <h3>Dremio</h3>
       <p class="work-meta">Principal Product Designer · 2021–2022</p>
-      <p>Designing decision clarity in distributed data systems.</p>
+      <p>Designing decision clarity in distributed data systems used by enterprise data teams.</p>
       <p><a href="/work/dremio">Read case study →</a></p>
     </article>
 
     <article class="work-entry">
       <h3>Automation Anywhere</h3>
       <p class="work-meta">Principal Product Designer · 2019–2021</p>
-      <p>Designing decision control in AI automation systems.</p>
+      <p>Designing decision control in AI automation systems managing enterprise workflows.</p>
       <p><a href="/work/automation-anywhere">Read case study →</a></p>
     </article>
 
     <article class="work-entry">
       <h3>Wells Fargo</h3>
       <p class="work-meta">Lead Product Designer · 2017–2019</p>
-      <p>Designing decision governance in regulated AI systems.</p>
+      <p>Designing decision governance in regulated AI systems within financial services.</p>
       <p><a href="/work/wells-fargo">Read case study →</a></p>
     </article>
 
     <article class="work-entry">
       <h3>CA Technologies</h3>
       <p class="work-meta">Principal Product Designer · Incubator · 2016–2017</p>
-      <p>Guiding early-stage enterprise systems from concept to scale.</p>
+      <p>Designing early-stage enterprise systems from exploration to scale.</p>
       <p><a href="/work/ca-technologies">Read case study →</a></p>
     </article>
 
@@ -63,10 +65,10 @@ import Layout from '../layouts/Layout.astro';
     <article class="work-entry">
       <h3>Amid the Noise</h3>
       <p>
-        Advising on AI, decision systems, and governance across enterprise and civic domains, including ongoing work with financial institutions and contributions to national security policy.
+        Advising on AI, decision systems, and governance across enterprise and civic domains, including work with financial institutions and national security policy.
       </p>
       <p>
-        This work extends into writing and analysis, applying the same system-level thinking used in software to broader civic infrastructure, including publications and policy exploration with outlets such as Lawfare.
+        This work extends into writing and analysis, applying system-level thinking from software to broader civic infrastructure, including publications and policy exploration with outlets such as Lawfare.
       </p>
     </article>
 
@@ -85,6 +87,12 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <style>
+  .work-operator {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+  }
+
   .work-intro {
     margin-bottom: 1rem;
   }
