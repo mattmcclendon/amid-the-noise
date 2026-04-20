@@ -9,12 +9,9 @@ heroImage: ""
 heroAlt: ""
 ---
 
-## Dremio
+<p class="case-meta"><strong>Dremio</strong> · Principal Product Designer · 2021–2022</p>
 
 *Designing decision clarity in distributed data systems*
-
-**Role:** Principal Product Designer  
-**Period:** 2021–2022  
 
 ---
 
