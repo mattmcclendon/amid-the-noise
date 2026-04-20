@@ -455,6 +455,23 @@ const { title = 'Amid the Noise' } = Astro.props;
     opacity: 0.85;
   }
 
+  .case-nav {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: var(--secondary);
+    text-align: right;
+  }
+
+  .case-nav a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .case-nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+  }
+
   @media (max-width: 900px) {
     .content-grid {
       grid-template-columns: 1fr;

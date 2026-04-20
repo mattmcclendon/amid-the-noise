@@ -1,3 +1,14 @@
+.case-nav {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #64748b;
+  text-align: right;
+}
+
+.case-nav a {
+  text-decoration: none;
+  color: #3e5a82;
+}
 ---
 layout: ../../layouts/PublicationLayout.astro
 title: "Designing Decision Governance in Regulated AI Systems"
@@ -23,7 +34,7 @@ Business units operated in a deeply risk-averse environment, where experimentati
 
 ## The Problem
 
-AI efforts failed not because models were ineffective, but because systems for decision-making did not exist.
+AI efforts failed not because models were ineffective, but because no system existed to make their outputs accountable.
 
 Teams encountered:
 - inability to frame AI initiatives in compliance-safe terms  
@@ -38,7 +49,6 @@ The organization had AI ambition, but no reliable way to operationalize it.
 ## Intervention
 
 I led design strategy to create decision governance frameworks that made AI experimentation structured, observable, and compliant.
-
 
 The focus was not on building models, but on designing the system around them.
 
@@ -71,7 +81,6 @@ The work operated within:
 - high organizational sensitivity to operational and reputational risk  
 - fragmented ownership across business units and technical teams  
 
-
 Any approach to AI had to be credible to legal and risk stakeholders while remaining actionable for product and engineering teams.
 
 This required aligning stakeholders who were structurally incentivized to avoid risk rather than manage it, creating tension between innovation velocity and institutional accountability.
@@ -87,7 +96,6 @@ Observed outcomes included:
 - **4 AI pilots launched within 3 months** across fraud and compliance workflows  
 - **re-evaluation and approval of previously stalled models**, enabling deployment pathways  
 - **increased stakeholder confidence** in AI initiatives (qualitative: “Feels safe to try”)  
-
 - **cultural shift** from risk avoidance to structured experimentation  
 
 Critically, teams that previously could not initiate AI work due to regulatory ambiguity were now able to frame, test, and advance proposals within defined governance boundaries.
