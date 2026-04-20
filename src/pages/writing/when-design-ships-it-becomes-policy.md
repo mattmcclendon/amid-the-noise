@@ -10,8 +10,6 @@ heroAlt: "Minimalist architectural corridor with soft light leading toward a bri
 dropcap: true
 ---
 
-## When Design Ships, It Becomes Policy 
-
 I pointed an AI agent at a design system and got working UI in minutes.
 
 That part is no longer surprising.
@@ -32,7 +30,7 @@ It becomes a decision function.
 
 ---
 
-### The Shift Most People Are Missing
+## The Shift Most People Are Missing
 
 The current discourse focuses on speed.
 
@@ -52,7 +50,7 @@ We did not remove the consequences.
 
 ---
 
-### What Breaks First
+## What Breaks First
 
 The early failure mode will not look like failure.
 
@@ -72,7 +70,7 @@ At scale, that erodes trust.
 
 ---
 
-### The New Bottleneck
+## The New Bottleneck
 
 AI has compressed production.
 
@@ -94,7 +92,7 @@ These are operational requirements.
 
 ---
 
-### Design as an Operating Function
+## Design as an Operating Function
 
 As design moves closer to production, its responsibility expands.
 
@@ -115,7 +113,7 @@ It is about whether anyone remains accountable for what ships.
 
 ---
 
-### Where AI Actually Belongs
+## Where AI Actually Belongs
 
 Most teams apply AI to production.
 
@@ -132,7 +130,7 @@ Speeding up execution without improving alignment accelerates drift.
 
 ---
 
-### The Teams That Will Outperform
+## The Teams That Will Outperform
 
 The highest-performing teams will not be the ones with the most agents.
 
@@ -148,7 +146,7 @@ Because the system requires it.
 
 ---
 
-### What This Actually Means
+## What This Actually Means
 
 The tools will improve. The distance between idea and output will shrink.
 
