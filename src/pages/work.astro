@@ -18,12 +18,12 @@ import Layout from '../layouts/Layout.astro';
         Full details are available on LinkedIn and in my résumé.
       </p>
       <div class="experience-list">
-        <p><strong>Principal Product Designer (Independent)</strong>, Amid the Noise<br/>2022–Present</p>
-        <p><strong>Principal Product Designer</strong>, Dremio<br/>2021–2022</p>
-        <p><strong>UX Strategy & Intelligent Automation Lead (Principal)</strong>, Automation Anywhere<br/>2020–2021</p>
-        <p><strong>Lead Design Thinker, AI Enterprise Solutions</strong>, Wells Fargo<br/>2019</p>
-        <p><strong>Principal Product Designer (Entrepreneur-in-Residence)</strong>, CA Technologies<br/>2017–2019</p>
-        <p><strong>Product Design & Systems Innovation</strong>, Netscape · Friendster · Yahoo · Autodesk · Evernote<br/>1996–2016</p>
+        <p><span class="role">Principal Product Designer (Independent)</span>, Amid the Noise<br/>2022–Present</p>
+        <p><span class="role">Principal Product Designer</span>, Dremio<br/>2021–2022</p>
+        <p><span class="role">UX Strategy & Intelligent Automation Lead (Principal)</span>, Automation Anywhere<br/>2020–2021</p>
+        <p><span class="role">Lead Design Thinker, AI Enterprise Solutions</span>, Wells Fargo<br/>2019</p>
+        <p><span class="role">Principal Product Designer (Entrepreneur-in-Residence)</span>, CA Technologies<br/>2017–2019</p>
+        <p><span class="role">Product Design & Systems Innovation</span>, Netscape · Friendster · Yahoo · Autodesk · Evernote<br/>1996–2016</p>
       </div>
     </article>
   </section>
@@ -56,3 +56,16 @@ import Layout from '../layouts/Layout.astro';
     </article>
   </section>
 </Layout>
+
+<style>
+  .experience-list p {
+    margin-bottom: 0.9rem;
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+
+  .experience-list .role {
+    font-weight: 500; /* softer than bold */
+    letter-spacing: 0.01em;
+  }
+</style>
