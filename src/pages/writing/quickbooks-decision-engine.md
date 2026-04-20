@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/PublicationLayout.astro
-title: "QuickBooks Needs a Decision System."
+title: "QuickBooks Needs a Decision System"
 subtitle: "Reframing small business finance as a system of judgment under uncertainty"
 description: "AI will not transform accounting by adding features. It will transform it by turning records into decisions, and software into a system of reasoning."
 pubDate: 2026-04-19
