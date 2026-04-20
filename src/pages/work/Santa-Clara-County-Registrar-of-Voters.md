@@ -1,5 +1,3 @@
-
-
 ---
 layout: ../../layouts/PublicationLayout.astro
 title: "Designing Access in Civic Decision Systems"
