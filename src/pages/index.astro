@@ -9,6 +9,25 @@ const selectedSlugs = [
   'one-degree-of-drift',
 ];
 
+const selectedWork = [
+  {
+    title: 'AI-Assisted Mortgage Decisioning',
+    href: '/work/ai-assisted-mortgage-decisioning',
+    meta: 'Wells Fargo · AI decision support · regulated systems',
+    description:
+      'Designed operator-facing workflows that turned probabilistic model behavior into actionable judgment inside a high-stakes underwriting environment.',
+    tags: ['AI Systems', 'Decision Support', 'Risk'],
+  },
+  {
+    title: 'Enterprise Automation and Observability',
+    href: '/work/enterprise-automation-and-observability',
+    meta: 'Automation Anywhere · platform design · complex enterprise workflows',
+    description:
+      'Led product and systems thinking across automation workflows where visibility, trust, and operational clarity mattered as much as interface polish.',
+    tags: ['Enterprise AI', 'Observability', 'Complex Systems'],
+  },
+];
+
 const postModules = import.meta.glob('./writing/*.md', { eager: true });
 
 const selectedPosts = selectedSlugs
@@ -53,6 +72,28 @@ const selectedPosts = selectedSlugs
             ))}
           </div>
         )}
+      </article>
+    ))}
+  </section>
+
+  <section class="section">
+    <h2>Selected Work</h2>
+
+    {selectedWork.map((item) => (
+      <article class="entry">
+        <h3>
+          <a href={item.href}>{item.title}</a>
+        </h3>
+
+        <p class="entry-meta">{item.meta}</p>
+
+        <p>{item.description}</p>
+
+        <div class="entry-tags">
+          {item.tags.map((tag) => (
+            <span class="entry-tag">{tag}</span>
+          ))}
+        </div>
       </article>
     ))}
   </section>
@@ -130,5 +171,13 @@ const selectedPosts = selectedSlugs
     line-height: 1.35;
     font-weight: 600;
     margin: 0 0 4px;
+  }
+  .entry-meta {
+    margin: 0 0 8px;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--secondary);
   }
 </style>
