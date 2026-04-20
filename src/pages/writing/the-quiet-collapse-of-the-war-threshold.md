@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "The Quiet Collapse of the War Threshold"
 subtitle: "When escalation becomes ambient and responsibility becomes diffuse"
 description: "Conflict is no longer defined by clear lines. It emerges through normalization, habituation, and AI-mediated systems that shift action upstream and accountability downstream."
-pubDate: 2026-01-06
+pubDate: 2026-04-30
 author: "Matthew McClendon"
 tags: ["AI & Decision Systems", "Governance", "Signal", "National Security"]
 heroImage: "/images/writing/the-quiet-collapse-of-the-war-threshold.png"
