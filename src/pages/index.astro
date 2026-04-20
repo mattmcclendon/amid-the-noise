@@ -12,7 +12,7 @@ const selectedSlugs = [
 const selectedWork = [
   {
     title: 'AI-Assisted Mortgage Decisioning',
-    href: '/work/ai-assisted-mortgage-decisioning',
+    href: '/work/wells-fargo',
     meta: 'Wells Fargo · AI decision support · regulated systems',
     description:
       'Designed operator-facing workflows that turned probabilistic model behavior into actionable judgment inside a high-stakes underwriting environment.',
@@ -20,7 +20,7 @@ const selectedWork = [
   },
   {
     title: 'Enterprise Automation and Observability',
-    href: '/work/enterprise-automation-and-observability',
+    href: '/work/automation-anywhere',
     meta: 'Automation Anywhere · platform design · complex enterprise workflows',
     description:
       'Led product and systems thinking across automation workflows where visibility, trust, and operational clarity mattered as much as interface polish.',
@@ -76,11 +76,11 @@ const selectedPosts = selectedSlugs
     ))}
   </section>
 
-  <section class="section">
+  <section class="section work-section">
     <h2>Selected Work</h2>
 
     {selectedWork.map((item) => (
-      <article class="entry">
+      <article class="entry work-entry">
         <h3>
           <a href={item.href}>{item.title}</a>
         </h3>
@@ -179,5 +179,31 @@ const selectedPosts = selectedSlugs
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--secondary);
+  }
+
+  .work-section {
+    margin-top: 8px;
+  }
+
+  .work-entry h3 {
+    font-size: 1.02rem;
+    line-height: 1.35;
+    margin: 0 0 2px;
+    color: var(--text);
+  }
+
+  .work-entry .entry-meta {
+    font-size: 0.74rem;
+    margin: 0 0 10px;
+  }
+
+  .work-entry p {
+    max-width: 46rem;
+  }
+
+  .work-entry + .work-entry {
+    margin-top: 26px;
+    padding-top: 22px;
+    border-top: 1px solid var(--line);
   }
 </style>
