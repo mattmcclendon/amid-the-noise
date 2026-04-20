@@ -37,6 +37,8 @@ The system could execute work, but it did not consistently support confident hum
 
 I led UX strategy to design human-in-the-loop control systems that make AI behavior observable, governable, and actionable.
 
+These systems introduced control intentionally, requiring operators to validate, override, or escalate decisions at defined checkpoints. This ensured that automation remained accountable in scenarios where model confidence alone was insufficient.
+
 Key changes included:
 
 - **Explainability at the point of action**  
@@ -66,6 +68,8 @@ The work operated within:
 
 Design improvements had to increase clarity and control without degrading throughput or increasing operational overhead.
 
+This created tension between automation efficiency and human oversight, requiring careful design to avoid slowing systems while still preserving trust, auditability, and operator confidence.
+
 ---
 
 ## Outcome
@@ -74,10 +78,12 @@ The platform shifted from rigid execution to adaptive, controlled automation.
 
 Observed outcomes included:
 
-- **35% reduction in manual intervention** through clearer decision and escalation pathways fileciteturn2file0  
-- improved user trust and satisfaction with AI-assisted workflows (SUS increase and preference for AI-enhanced bots) fileciteturn2file3  
-- increased task efficiency and engagement following navigation and workflow improvements fileciteturn2file4  
-- reduced support burden during migration and improved adoption of new capabilities fileciteturn2file4  
+- **35% reduction in manual intervention** through clearer decision and escalation pathways  
+- improved user trust and satisfaction with AI-assisted workflows (SUS increase and preference for AI-enhanced bots)  
+- increased task efficiency and engagement following navigation and workflow improvements  
+- reduced support burden during migration and improved adoption of new capabilities  
+
+Operators who previously acted as passive recipients of automated output were now active participants in decision-making, with clear mechanisms to intervene when system behavior diverged from expectations.
 
 ---
 

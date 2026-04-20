@@ -31,7 +31,7 @@ Users encountered:
 
 Non-technical users relied heavily on engineering support to access and validate data. Technical users could retrieve data, but lacked efficient ways to assess trust and act on it quickly.
 
-The system produced data. It did not reliably produce decisions.
+The system produced data, but lacked the structure required to turn that data into accountable decisions.
 
 ---
 
@@ -40,6 +40,8 @@ The system produced data. It did not reliably produce decisions.
 I led UX strategy to restructure how users discover, trust, and act on data within the platform.
 
 The focus was not on interface polish, but on making system behavior legible at the point of decision.
+
+This required introducing structure intentionally, constraining how data could be explored and interpreted so that speed did not come at the expense of trust or decision reliability.
 
 Key changes included:
 
@@ -70,6 +72,8 @@ The work operated within:
 
 Any improvement in usability had to preserve performance characteristics and system integrity. Simplification could not come at the cost of control.
 
+This created tension between flexibility and governance, particularly for advanced users who expected unrestricted access, requiring careful tradeoffs between openness, performance, and decision safety.
+
 ---
 
 ## Outcome
@@ -83,6 +87,8 @@ Observed outcomes included:
 - up to **80% reduction in data preparation time** through self-service workflows  
 - improved **trust and auditability** via integrated lineage and governance signals  
 - faster **time-to-insight** across modeling, analytics, and product workflows  
+
+Critically, users who previously depended on engineering to interpret data were able to independently assess, trust, and act on datasets within defined boundaries.
 
 ---
 
