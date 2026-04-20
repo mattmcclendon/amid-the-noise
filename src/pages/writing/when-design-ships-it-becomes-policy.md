@@ -7,7 +7,7 @@ author: "Matthew McClendon"
 tags: ["AI Systems", "Product Design", "Signal & Trust", "Operational Thinking"]
 heroImage: "/images/writing/design-ships-policy.png"
 heroAlt: "Minimalist architectural corridor with soft light leading toward a bright threshold, symbolizing transition, consequence, and system boundary"
-dropcap: true
+dropcap: false
 ---
 
 I pointed an AI agent at a design system and got working UI in minutes.
