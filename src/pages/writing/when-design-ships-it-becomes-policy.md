@@ -10,7 +10,7 @@ heroAlt: "Minimalist architectural corridor with soft light leading toward a bri
 dropcap: false
 ---
 
-## When Design Ships, It Becomes Policy
+## When Design Ships, It Becomes Policy 
 
 I pointed an AI agent at a design system and got working UI in minutes.
 
