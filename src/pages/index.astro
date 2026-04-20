@@ -11,17 +11,17 @@ const selectedSlugs = [
 
 const selectedWork = [
   {
-    title: 'AI-Assisted Mortgage Decisioning',
+    title: 'Designing Decision Governance in Regulated AI Systems',
     href: '/work/wells-fargo',
-    meta: 'Wells Fargo · AI decision support · regulated systems',
+    company: 'Wells Fargo',
     description:
       'Designed operator-facing workflows that turned probabilistic model behavior into actionable judgment inside a high-stakes underwriting environment.',
     tags: ['AI Systems', 'Decision Support', 'Risk'],
   },
   {
-    title: 'Enterprise Automation and Observability',
+    title: 'Designing Human-in-the-Loop Control for AI Automation',
     href: '/work/automation-anywhere',
-    meta: 'Automation Anywhere · platform design · complex enterprise workflows',
+    company: 'Automation Anywhere',
     description:
       'Led product and systems thinking across automation workflows where visibility, trust, and operational clarity mattered as much as interface polish.',
     tags: ['Enterprise AI', 'Observability', 'Complex Systems'],
@@ -85,7 +85,7 @@ const selectedPosts = selectedSlugs
           <a href={item.href}>{item.title}</a>
         </h3>
 
-        <p class="entry-meta">{item.meta}</p>
+        <p class="work-company">{item.company}</p>
 
         <p>{item.description}</p>
 
@@ -170,7 +170,7 @@ const selectedPosts = selectedSlugs
     font-size: 1.15rem;
     line-height: 1.35;
     font-weight: 600;
-    margin: 0 0 4px;
+    margin: 0 0 8px;
   }
   .entry-meta {
     margin: 0 0 8px;
@@ -186,15 +186,19 @@ const selectedPosts = selectedSlugs
   }
 
   .work-entry h3 {
-    font-size: 1.02rem;
-    line-height: 1.35;
-    margin: 0 0 2px;
+    font-size: 1.08rem;
+    line-height: 1.32;
+    margin: 0 0 6px;
     color: var(--text);
   }
 
-  .work-entry .entry-meta {
-    font-size: 0.74rem;
+  .work-company {
     margin: 0 0 10px;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--secondary);
   }
 
   .work-entry p {
@@ -202,8 +206,8 @@ const selectedPosts = selectedSlugs
   }
 
   .work-entry + .work-entry {
-    margin-top: 26px;
-    padding-top: 22px;
+    margin-top: 28px;
+    padding-top: 20px;
     border-top: 1px solid var(--line);
   }
 </style>
