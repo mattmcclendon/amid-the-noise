@@ -12,7 +12,7 @@ heroAlt: "The Antonov An-225 Mriya grounded on a runway, massive and silent, und
 
 ## A Memory from Oklahoma City
 
-I walked through the Antonov AN-225 Mriya as a teenager in Oklahoma City. Six engines. A cargo bay so vast it altered the acoustics around your body. You did not board it so much as enter it, the way you enter a cathedral built for machinery instead of worship.
+I walked through the Antonov An-225 Mriya as a teenager in Oklahoma City. Six engines. A cargo bay so vast it altered the acoustics around your body. You did not board it so much as enter it, the way you enter a cathedral built for machinery instead of worship.
 
 That day, a stunt pilot crashed during the air show and died. The extraordinary and the tragic intertwined themselves in my memory. I carried that image forward without knowing how history would sharpen it later.
 
