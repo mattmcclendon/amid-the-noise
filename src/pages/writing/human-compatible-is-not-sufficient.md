@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "Human Compatible Is Not Sufficient"
 subtitle: "On alignment, ambiguity, and the systems we actually build"
 description: "Alignment is necessary, but it does not survive contact with real systems without governance, interpretation, and human judgment."
-pubDate: 2026-04-21
+pubDate: 2026-04-30
 author: "Matthew McClendon"
 tags: ["AI & Decision Systems", "Governance", "Signal", "Systems Thinking"]
 heroImage: "/images/writing/human-compatible-is-not-sufficient.png"

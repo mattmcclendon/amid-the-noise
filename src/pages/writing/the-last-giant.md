@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "The Last Giant"
 subtitle: "The An-225’s destruction signaled a new era of open hostility."
 description: "A personal memory of the Antonov An-225 becomes a lens for understanding how the illusion of post-Cold War stability unraveled into a new, less predictable form of conflict."
-pubDate: 2026-04-30
+pubDate: 2026-05-05
 author: "Matthew McClendon"
 tags: ["Geopolitics", "Signal", "History", "Systems Thinking"]
 heroImage: "/images/writing/the-last-giant.png"
