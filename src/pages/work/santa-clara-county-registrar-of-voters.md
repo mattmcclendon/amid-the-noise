@@ -181,5 +181,3 @@ To:
 > “What in this system allows trust to be verified?”
 
 This reframes civic infrastructure from a question of belief to one of design.
-
----

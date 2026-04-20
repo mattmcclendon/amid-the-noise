@@ -170,5 +170,3 @@ These are not separate ideas.
 They are responses to the same underlying problem:
 
 > systems that appear to work, but cannot be trusted under pressure
-
----

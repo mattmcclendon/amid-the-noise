@@ -130,5 +130,3 @@ To:
 > “Should this outcome be accepted, and why?”
 
 This creates systems that can operate under uncertainty without sacrificing clarity or trust.
-
----

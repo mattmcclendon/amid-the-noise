@@ -105,5 +105,3 @@ That shift allowed users to move from asking:
 To:
 
 > “Can I trust this, and what should I do next?”
-
----
