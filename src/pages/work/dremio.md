@@ -3,14 +3,12 @@ layout: ../../layouts/PublicationLayout.astro
 title: "Designing Decision Clarity in Distributed Data Systems"
 description: "Restructuring data workflows at Dremio to reduce ambiguity, improve trust, and accelerate decision-making across enterprise environments."
 author: "Matthew McClendon"
-tags: ["Case Study", "AI Systems", "Enterprise UX", "Decision Design"]
 heroImage: ""
 heroAlt: ""
 ---
 
-<p class="case-meta"><strong>Dremio</strong> · Principal Product Designer · 2021–2022</p>
+<p class="case-meta">Dremio · Principal Product Designer · 2021–2022</p>
 
-*Designing decision clarity in distributed data systems*
 
 ---
 
