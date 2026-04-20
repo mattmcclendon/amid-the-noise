@@ -75,8 +75,15 @@ import Layout from '../layouts/Layout.astro';
   }
 
   .work-list h2 {
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border-color, #e5e7eb);
-    margin-bottom: 1.25rem;
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border-color, #e5e7eb);
+    margin-bottom: 1rem;
+  }
+
+  .work-list h2:first-of-type {
+    margin-top: 1.25rem;
+    border-top: none;
+    padding-top: 0;
   }
 </style>
