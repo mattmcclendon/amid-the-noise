@@ -1,12 +1,15 @@
 ---
 layout: ../../layouts/PublicationLayout.astro
 title: "HARMONIC: Designing Trust Under Uncertainty"
-pubDate: 2026-04-20
 description: "An applied framework for translating probabilistic AI outputs into structured signals that support human judgment, escalation, and trust."
 author: "Matthew McClendon"
 tags: ["AI Systems", "Decision Design", "Trust & Safety", "Governance"]
 heroImage: ""
 heroAlt: ""
+---
+
+<p class="case-meta">HARMONIC Framework · Author · 2025-2026</p>
+
 ---
 
 ## Framing
