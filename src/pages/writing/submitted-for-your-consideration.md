@@ -67,8 +67,3 @@ Because a signal, no matter how precise, no matter how urgent, has only one true
 Not that it was sent.
 
 That it was understood… in time.
-
----
-
-You’re traveling through another dimension.  
-Not only of sight and sound… but of signal.
