@@ -4,7 +4,7 @@ title: "Submitted for Your Consideration…"
 description: "A reflection on signal, audience, and the loss of shared frequency."
 author: "Matthew McClendon"
 pubDate: 2026-04-21
-heroImage: "/images/submitted-for-your-consideration.png"
+heroImage: "/images/writing/submitted-for-your-consideration.png"
 heroAlt: "Black and white alien landscape under a star-filled sky"
 tags: ["media", "culture", "signal", "ai-governance"]
 ---
