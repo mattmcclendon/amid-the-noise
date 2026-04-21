@@ -1,5 +1,3 @@
-
-
 ---
 layout: ../../layouts/PublicationLayout.astro
 title: "Designing Systems Before They Were Called Systems"
