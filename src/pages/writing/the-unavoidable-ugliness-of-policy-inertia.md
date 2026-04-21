@@ -7,7 +7,7 @@ pubDate: 2025-11-02
 author: "Matthew McClendon"
 tags: ["Civic Systems", "Governance", "Signal", "Public Infrastructure"]
 heroImage: "/images/writing/the-unavoidable-ugliness-of-policy-inertia.png"
-heroAlt: "Early morning city street in San Francisco with empty sidewalks and muted light, suggesting motion without progress"
+heroAlt: "Pre-dawn street in San Francisco’s Tenderloin, dim and quiet before sunrise, with wet pavement and faint artificial light suggesting motion without progress"
 ---
 
 The Tenderloin awakens before the sun. Street sweepers hum, shelter doors open, and the city exhales that damp, metallic scent it reserves for early mornings. There’s activity everywhere—men pulling carts, women lighting cigarettes, buses hissing at red lights—but the motion feels cyclical, like water swirling down a drain. Nothing is still, yet nothing advances. This is what policy inertia looks like when you stand close enough to smell it.
