@@ -5,8 +5,8 @@ pubDate: 2026-04-20
 description: "An applied framework for translating probabilistic AI outputs into structured signals that support human judgment, escalation, and trust."
 author: "Matthew McClendon"
 tags: ["AI Systems", "Decision Design", "Trust & Safety", "Governance"]
-heroImage: "/images/work/harmonic-framework.png"
-heroAlt: "Abstract system diagram showing signal flow between AI model outputs and human decision layers"
+heroImage: ""
+heroAlt: ""
 ---
 
 ## Framing
