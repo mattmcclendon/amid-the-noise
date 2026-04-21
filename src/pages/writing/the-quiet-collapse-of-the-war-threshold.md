@@ -80,7 +80,10 @@ Second, it abstracts agency. Outcomes are framed as system behavior rather than 
 
 Third, it scales influence unevenly. A small number of actors can now shape large populations indirectly, without triggering traditional markers of escalation or conflict.⁶
 
+
 Taken together, these effects push power upstream while leaving oversight downstream. The central social risk is not that AI will decide to wage war. It is that it will quietly remove the moments when humans realize escalation is already underway.
+
+> Alignment is not a property of a model. It is a property of a system.
 
 ---
 
