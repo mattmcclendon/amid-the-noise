@@ -4,9 +4,21 @@ import Layout from '../layouts/Layout.astro';
 const postModules = import.meta.glob('./writing/*.md', { eager: true });
 const posts = Object.values(postModules);
 
-const allTags = [...new Set(
-  posts.flatMap((post) => post.frontmatter.tags ?? [])
-)].sort((a, b) => a.localeCompare(b));
+const tagCounts = posts.reduce((acc, post) => {
+  for (const tag of post.frontmatter.tags ?? []) {
+    acc.set(tag, (acc.get(tag) ?? 0) + 1);
+  }
+  return acc;
+}, new Map());
+
+const allTags = [...tagCounts.entries()]
+  .filter(([, count]) => count >= 2)
+  .sort((a, b) => {
+    if (b[1] !== a[1]) return b[1] - a[1];
+    return a[0].localeCompare(b[0]);
+  })
+  .slice(0, 14)
+  .map(([tag]) => tag);
 
 posts.sort((a, b) => {
   return new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate);
@@ -22,11 +34,12 @@ posts.sort((a, b) => {
 
     {allTags.length > 0 && (
       <div class="filters" aria-label="Filter posts by tag">
-        <span class="filters-label">Filter by:</span>
+        <span class="filters-label">Filter by topic:</span>
         <button class="filter-chip is-active" type="button" data-filter="all">All</button>
         {allTags.map((tag) => (
           <button class="filter-chip" type="button" data-filter={tag}>{tag}</button>
         ))}
+        <span class="filters-note">Showing the most-used topics.</span>
       </div>
     )}
   </section>
@@ -100,12 +113,18 @@ posts.sort((a, b) => {
     gap: 8px;
     align-items: center;
     margin-top: 18px;
+    row-gap: 10px;
   }
 
   .filters-label {
     font-size: 0.82rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
+    color: var(--secondary);
+  }
+
+  .filters-note {
+    font-size: 0.78rem;
     color: var(--secondary);
   }
 
