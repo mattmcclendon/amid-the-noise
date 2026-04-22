@@ -35,21 +35,23 @@ import Layout from "../layouts/Layout.astro";
     margin-top: 2rem;
   }
   #search :global(.pagefind-ui__form) {
-    max-width: 600px;
+    width: min(680px, calc(100% - 200px));
+    max-width: 680px;
   }
 
-  #search :global(.pagefind-ui) {
-    --pagefind-ui-scale: 1;
-    --pagefind-ui-primary: var(--text);
-    --pagefind-ui-text: var(--text);
-    --pagefind-ui-background: transparent;
-    --pagefind-ui-border: var(--line);
-    --pagefind-ui-tag: var(--background);
-    --pagefind-ui-border-width: 1px;
-    --pagefind-ui-border-radius: 14px;
-    --pagefind-ui-image-border-radius: 0;
-    --pagefind-ui-image-box-ratio: 3 / 2;
-    font-family: inherit;
+  #search :global(.pagefind-ui__search-input-container) {
+    position: relative;
+  }
+
+  #search :global(.pagefind-ui__search-icon) {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+    color: var(--secondary);
   }
 
   #search :global(.pagefind-ui__search-input) {
@@ -59,8 +61,9 @@ import Layout from "../layouts/Layout.astro";
     letter-spacing: 0;
     color: var(--text);
     box-shadow: none;
-    padding: 0.5rem 0.8rem;
-    height: 42px;
+    height: 46px;
+    padding: 0.5rem 4.5rem 0.5rem 3.1rem;
+    line-height: 1.2;
   }
 
   #search :global(.pagefind-ui__search-input::placeholder) {
@@ -71,14 +74,15 @@ import Layout from "../layouts/Layout.astro";
 
   #search :global(.pagefind-ui__search-clear) {
     font-family: inherit;
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     font-weight: 400;
     color: var(--secondary);
     background: transparent;
     border: 0;
     box-shadow: none !important;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
+    right: 1rem;
   }
 
   #search :global(.pagefind-ui__search-clear:hover),
@@ -87,6 +91,19 @@ import Layout from "../layouts/Layout.astro";
     background: transparent;
     box-shadow: none !important;
     outline: none;
+  }
+
+  @media (max-width: 1200px) {
+    #search :global(.pagefind-ui__form) {
+      width: min(640px, calc(100% - 120px));
+    }
+  }
+
+  @media (max-width: 900px) {
+    #search :global(.pagefind-ui__form) {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 
   #search :global(.pagefind-ui__drawer) {
