@@ -47,11 +47,21 @@ import Layout from "../layouts/Layout.astro";
 
     const stripHtml = (value) => value.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 
+    const normalizeExcerpt = (value) => {
+      const cleaned = stripHtml(value || "")
+        .replace(/([a-z])([A-Z])/g, "$1 $2")
+        .replace(/\s+/g, " ")
+        .trim();
+
+      if (!cleaned) return "";
+      return cleaned.length > 220 ? `${cleaned.slice(0, 217).trim()}...` : cleaned;
+    };
+
     const buildResult = (data) => {
       const article = document.createElement("article");
       article.className = "search-result";
 
-      const title = document.createElement("div");
+      const title = document.createElement("h3");
       title.className = "search-result-title";
 
       const link = document.createElement("a");
@@ -59,20 +69,22 @@ import Layout from "../layouts/Layout.astro";
       link.textContent = data.meta.title || data.url;
       title.appendChild(link);
 
+      const pubDate = data.meta.pubDate || data.meta.date || data.meta.published || data.meta.datePublished || "";
+      const descriptionText = normalizeExcerpt(data.meta.description || data.excerpt || "");
+
       const metaLine = document.createElement("p");
       metaLine.className = "search-result-meta";
-      const pubDate = data.meta.pubDate || data.meta.date || data.meta.published || data.meta.datePublished || "";
       metaLine.textContent = pubDate;
 
       const description = document.createElement("p");
       description.className = "search-result-description";
-      description.textContent = stripHtml(data.meta.description || "");
+      description.textContent = descriptionText;
 
       article.appendChild(title);
-      if (metaLine.textContent) {
+      if (pubDate) {
         article.appendChild(metaLine);
       }
-      if (description.textContent) {
+      if (descriptionText) {
         article.appendChild(description);
       }
 
@@ -254,14 +266,14 @@ import Layout from "../layouts/Layout.astro";
   }
 
   .search-result {
-    padding: 1.45rem 0;
+    padding: 1.9rem 0;
     border-top: 1px solid var(--line);
   }
 
   .search-result-title {
-    margin: 0 0 0.25rem;
+    margin: 0 0 0.55rem;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.1rem;
+    font-size: 1.18rem;
     font-weight: 700;
     line-height: 1.25;
     letter-spacing: 0;
@@ -283,7 +295,7 @@ import Layout from "../layouts/Layout.astro";
   }
 
   .search-result-meta {
-    margin: 0 0 0.45rem;
+    margin: 0 0 0.8rem;
     color: var(--secondary);
     font-size: 0.92rem;
     line-height: 1.35;
@@ -293,7 +305,8 @@ import Layout from "../layouts/Layout.astro";
     margin: 0;
     color: var(--text);
     font-size: 0.98rem;
-    line-height: 1.5;
+    line-height: 1.48;
+    max-width: 46rem;
   }
 
   @media (max-width: 1200px) {
