@@ -24,6 +24,9 @@ import Layout from "../layouts/Layout.astro";
       </div>
       <div id="search-status" class="search-status" aria-live="polite"></div>
       <div id="search-results" class="search-results"></div>
+      <div id="search-actions" class="search-actions" hidden>
+        <button id="search-more" type="button" class="search-more">Load more</button>
+      </div>
     </div>
   </section>
 
@@ -34,6 +37,13 @@ import Layout from "../layouts/Layout.astro";
     const clearButton = document.querySelector("#search-clear");
     const status = document.querySelector("#search-status");
     const resultsRoot = document.querySelector("#search-results");
+    const actions = document.querySelector("#search-actions");
+    const moreButton = document.querySelector("#search-more");
+
+    const RESULTS_PER_PAGE = 10;
+    let currentResults = [];
+    let visibleCount = 0;
+    let currentQuery = "";
 
     const stripHtml = (value) => value.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 
@@ -61,27 +71,40 @@ import Layout from "../layouts/Layout.astro";
       return article;
     };
 
+    const renderVisibleResults = () => {
+      resultsRoot.innerHTML = "";
+
+      currentResults.slice(0, visibleCount).forEach((result) => {
+        resultsRoot.appendChild(buildResult(result));
+      });
+
+      const hasMore = visibleCount < currentResults.length;
+      actions.hidden = !hasMore;
+    };
+
     const renderResults = async (query) => {
       const trimmed = query.trim();
 
       if (!trimmed) {
+        currentQuery = "";
+        currentResults = [];
+        visibleCount = 0;
         status.textContent = "";
         resultsRoot.innerHTML = "";
+        actions.hidden = true;
         clearButton.hidden = true;
         return;
       }
 
       clearButton.hidden = false;
 
+      currentQuery = trimmed;
       const search = await pagefind.search(trimmed);
-      const results = await Promise.all(search.results.map(async (result) => result.data()));
+      currentResults = await Promise.all(search.results.map(async (result) => result.data()));
+      visibleCount = Math.min(RESULTS_PER_PAGE, currentResults.length);
 
-      status.textContent = `${results.length} result${results.length === 1 ? "" : "s"} for ${trimmed}`;
-      resultsRoot.innerHTML = "";
-
-      results.forEach((result) => {
-        resultsRoot.appendChild(buildResult(result));
-      });
+      status.textContent = `${currentResults.length} result${currentResults.length === 1 ? "" : "s"} for ${trimmed}`;
+      renderVisibleResults();
     };
 
     let debounce;
@@ -97,6 +120,11 @@ import Layout from "../layouts/Layout.astro";
       input.value = "";
       renderResults("");
       input.focus();
+    });
+
+    moreButton.addEventListener("click", () => {
+      visibleCount = Math.min(visibleCount + RESULTS_PER_PAGE, currentResults.length);
+      renderVisibleResults();
     });
   </script>
 </Layout>
@@ -195,15 +223,40 @@ import Layout from "../layouts/Layout.astro";
     margin-top: 1rem;
   }
 
+  .search-actions {
+    margin-top: 1.25rem;
+  }
+
+  .search-more {
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--text);
+    font: inherit;
+    font-size: 0.88rem;
+    padding: 0.55rem 0.9rem;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+
+  .search-more:hover,
+  .search-more:focus-visible {
+    border-color: var(--secondary);
+    color: var(--accent);
+    outline: none;
+  }
+
   .search-result {
-    padding: 1.45rem 0;
+    padding: 1.15rem 0;
     border-top: 1px solid var(--line);
   }
 
   .search-result-title {
-    margin: 0 0 0.45rem;
-    font-size: 1rem;
-    line-height: 1.3;
+    margin: 0 0 0.35rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 0;
   }
 
   .search-result-title a {
@@ -221,7 +274,7 @@ import Layout from "../layouts/Layout.astro";
     margin: 0;
     color: var(--text);
     font-size: 0.98rem;
-    line-height: 1.5;
+    line-height: 1.42;
   }
 
   @media (max-width: 1200px) {
