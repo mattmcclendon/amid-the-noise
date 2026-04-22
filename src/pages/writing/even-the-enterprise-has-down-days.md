@@ -2,8 +2,8 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "Even the Enterprise Has Down Days"
 subtitle: "On continuity, quiet systems, and the unseen work that keeps everything from drifting"
-description: "On continuity, quiet systems, and the unseen work that keeps everything from drifting."
-pubDate: 2026-04-22
+description: "Continuity, quiet systems, and the unseen work that keeps everything from drifting."
+pubDate: 2026-05-12
 author: "Matthew McClendon"
 tags: ["Reflection", "Systems", "Signal", "Star Trek"]
 heroImage: "/images/writing/even-the-enterprise-had-down-days.jpg"
