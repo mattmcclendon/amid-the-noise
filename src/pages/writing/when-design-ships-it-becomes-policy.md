@@ -2,7 +2,7 @@
 layout: ../../layouts/PublicationLayout.astro
 title: "When Design Ships, It Becomes Policy"
 description: "As AI collapses the distance between design and production, the handoff disappears—and with it, the buffer that once absorbed ambiguity. Design no longer proposes. It decides."
-pubDate: 2026-04-21
+pubDate: 2026-05-14
 author: "Matthew McClendon"
 tags: ["AI Systems", "Product Design", "Signal & Trust", "Operational Thinking"]
 heroImage: "/images/writing/design-ships-policy.png"

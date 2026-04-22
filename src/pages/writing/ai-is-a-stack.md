@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "AI Is a Stack"
 description: "Most conversations start at the surface. The real decisions sit underneath it."
 author: "Matthew McClendon"
-pubDate: 2026-04-23
+pubDate: 2026-04-28
 heroImage: "/images/writing/ai-is-a-stack.png"
 heroAlt: "Layered AI stack diagram from classical AI to agentic AI"
 tags: ["AI", "Systems Thinking", "Governance"]
