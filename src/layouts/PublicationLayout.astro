@@ -25,6 +25,14 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
 <Layout title={`${frontmatter.title} | Amid the Noise`}>
   <Fragment slot="head">
+    <meta data-pagefind-meta="title[content]" content={frontmatter.title} />
+    <meta
+      data-pagefind-meta="description[content]"
+      content={frontmatter.description || frontmatter.subtitle || ''}
+    />
+    {frontmatter.pubDate && (
+      <meta data-pagefind-meta="date[content]" content={frontmatter.pubDate} />
+    )}
     <!-- Open Graph -->
     <meta property="og:title" content={frontmatter.title} />
     <meta property="og:description" content={frontmatter.description || frontmatter.subtitle || ''} />
@@ -50,7 +58,7 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     )}
 
     <header class="publication-header section">
-      <h1>{frontmatter.title}</h1>
+      <h1 data-pagefind-meta="title">{frontmatter.title}</h1>
 
       {frontmatter.subtitle && (
         <p class="publication-subtitle">{frontmatter.subtitle}</p>

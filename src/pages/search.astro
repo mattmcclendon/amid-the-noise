@@ -12,139 +12,29 @@ import Layout from "../layouts/Layout.astro";
       Search the archive of writing on systems, signal, and how decisions take shape.
     </p>
 
-    <div id="search" class="search-shell">
-      <label class="sr-only" for="search-input">Search the archive</label>
-      <div class="search-form">
-        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"></circle>
-          <path d="M20 20l-4.35-4.35" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
-        </svg>
-        <input id="search-input" type="search" placeholder="Search Amid the Noise" autocomplete="off" />
-        <button id="search-clear" type="button" hidden>Clear</button>
-      </div>
-      <div id="search-status" class="search-status" aria-live="polite"></div>
-      <div id="search-results" class="search-results"></div>
-      <div id="search-actions" class="search-actions" hidden>
-        <button id="search-more" type="button" class="search-more">Load more</button>
-      </div>
-    </div>
+    <div id="search"></div>
   </section>
 
-  <script is:inline type="module">
-    import * as pagefind from "/pagefind/pagefind.js";
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
 
-    const input = document.querySelector("#search-input");
-    const clearButton = document.querySelector("#search-clear");
-    const status = document.querySelector("#search-status");
-    const resultsRoot = document.querySelector("#search-results");
-    const actions = document.querySelector("#search-actions");
-    const moreButton = document.querySelector("#search-more");
-
-    const RESULTS_PER_PAGE = 10;
-    let currentResults = [];
-    let visibleCount = 0;
-    let currentQuery = "";
-
-    const stripHtml = (value) => value.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
-
-    const normalizeExcerpt = (value) => {
-      const cleaned = stripHtml(value || "")
-        .replace(/([a-z])([A-Z])/g, "$1 $2")
-        .replace(/\s+/g, " ")
-        .trim();
-
-      if (!cleaned) return "";
-      return cleaned.length > 220 ? `${cleaned.slice(0, 217).trim()}...` : cleaned;
-    };
-
-    const buildResult = (data) => {
-      const article = document.createElement("article");
-      article.className = "search-result";
-
-      const title = document.createElement("h3");
-      title.className = "search-result-title";
-
-      const link = document.createElement("a");
-      link.href = data.url;
-      link.textContent = data.meta.title || data.url;
-      title.appendChild(link);
-
-      const pubDate = data.meta.pubDate || data.meta.date || data.meta.published || data.meta.datePublished || "";
-      const descriptionText = normalizeExcerpt(data.meta.description || data.excerpt || "");
-
-      const metaLine = document.createElement("p");
-      metaLine.className = "search-result-meta";
-      metaLine.textContent = pubDate;
-
-      const description = document.createElement("p");
-      description.className = "search-result-description";
-      description.textContent = descriptionText;
-
-      article.appendChild(title);
-      if (pubDate) {
-        article.appendChild(metaLine);
-      }
-      if (descriptionText) {
-        article.appendChild(description);
-      }
-
-      return article;
-    };
-
-    const renderVisibleResults = () => {
-      resultsRoot.innerHTML = "";
-
-      currentResults.slice(0, visibleCount).forEach((result) => {
-        resultsRoot.appendChild(buildResult(result));
+  <script is:inline>
+    window.addEventListener("DOMContentLoaded", () => {
+      new window.PagefindUI({
+        element: "#search",
+        showSubResults: false,
+        resetStyles: false,
+        showImages: false,
       });
 
-      const hasMore = visibleCount < currentResults.length;
-      actions.hidden = !hasMore;
-    };
-
-    const renderResults = async (query) => {
-      const trimmed = query.trim();
-
-      if (!trimmed) {
-        currentQuery = "";
-        currentResults = [];
-        visibleCount = 0;
-        status.textContent = "";
-        resultsRoot.innerHTML = "";
-        actions.hidden = true;
-        clearButton.hidden = true;
-        return;
-      }
-
-      clearButton.hidden = false;
-
-      currentQuery = trimmed;
-      const search = await pagefind.search(trimmed);
-      currentResults = await Promise.all(search.results.map(async (result) => result.data()));
-      visibleCount = Math.min(RESULTS_PER_PAGE, currentResults.length);
-
-      status.textContent = `${currentResults.length} result${currentResults.length === 1 ? "" : "s"} for ${trimmed}`;
-      renderVisibleResults();
-    };
-
-    let debounce;
-
-    input.addEventListener("input", () => {
-      window.clearTimeout(debounce);
-      debounce = window.setTimeout(() => {
-        renderResults(input.value);
-      }, 120);
-    });
-
-    clearButton.addEventListener("click", () => {
-      input.value = "";
-      renderResults("");
-      input.focus();
-    });
-
-    moreButton.addEventListener("click", () => {
-      visibleCount = Math.min(visibleCount + RESULTS_PER_PAGE, currentResults.length);
-      renderVisibleResults();
+      const searchRoot = document.querySelector("#search");
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => {
+          if (searchRoot?.querySelector(".pagefind-ui__form")) {
+            searchRoot.classList.add("is-ready");
+          }
+        });
+      });
     });
   </script>
 </Layout>
@@ -152,171 +42,122 @@ import Layout from "../layouts/Layout.astro";
 <style>
   #search {
     margin-top: 2rem;
+    min-height: 56px;
   }
 
-  .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+  #search :global(.pagefind-ui) {
+    opacity: 0;
   }
 
-  .search-form {
-    position: relative;
-    width: min(680px, calc(100% - 200px));
-    max-width: 680px;
+  #search.is-ready :global(.pagefind-ui) {
+    opacity: 1;
+    transition: opacity 0.14s ease;
   }
 
-  .search-icon {
-    position: absolute;
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 18px;
-    height: 18px;
-    color: var(--secondary);
-    pointer-events: none;
+  #search :global(.pagefind-ui__form) {
+    width: min(760px, calc(100% - 40px));
+    max-width: 760px;
   }
 
-  #search-input {
-    width: 100%;
-    height: 46px;
-    padding: 0.5rem 4.5rem 0.5rem 3rem;
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    background: transparent;
-    color: var(--text);
-    font: inherit;
+  #search :global(.pagefind-ui__search-input) {
+    font-family: inherit;
     font-size: 0.95rem;
     font-weight: 400;
+    letter-spacing: 0;
+    color: var(--text);
+    box-shadow: none;
+    height: 46px;
+    padding: 0.5rem 4.5rem 0.5rem 3.1rem;
     line-height: 1.2;
-    box-sizing: border-box;
   }
 
-  #search-input::placeholder {
+  #search :global(.pagefind-ui__search-input::placeholder) {
     color: var(--secondary);
     opacity: 1;
+    font-weight: 400;
   }
 
-  #search-input:focus {
-    outline: none;
-    border-color: var(--secondary);
-  }
-
-  #search-clear {
-    position: absolute;
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    border: 0;
-    background: transparent;
-    color: var(--secondary);
-    font: inherit;
+  #search :global(.pagefind-ui__search-clear) {
+    font-family: inherit;
     font-size: 0.82rem;
     font-weight: 400;
-    letter-spacing: 0.06em;
+    color: var(--secondary);
+    background: transparent;
+    border: 0;
+    box-shadow: none !important;
     text-transform: uppercase;
-    cursor: pointer;
-    padding: 0;
+    letter-spacing: 0.06em;
+    right: 1rem;
   }
 
-  #search-clear:hover,
-  #search-clear:focus-visible {
+  #search :global(.pagefind-ui__search-clear:hover),
+  #search :global(.pagefind-ui__search-clear:focus-visible) {
     color: var(--text);
+    background: transparent;
+    box-shadow: none !important;
     outline: none;
   }
 
-  .search-status {
+  #search :global(.pagefind-ui__drawer) {
     margin-top: 2rem;
-    color: var(--text);
+  }
+
+  #search :global(.pagefind-ui__message) {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.02rem;
     font-weight: 700;
-  }
-
-  .search-results {
-    margin-top: 1rem;
-  }
-
-  .search-actions {
-    margin-top: 1.25rem;
-  }
-
-  .search-more {
-    border: 1px solid var(--line);
-    background: transparent;
     color: var(--text);
-    font: inherit;
-    font-size: 0.88rem;
-    padding: 0.55rem 0.9rem;
-    border-radius: 999px;
-    cursor: pointer;
   }
 
-  .search-more:hover,
-  .search-more:focus-visible {
-    border-color: var(--secondary);
-    color: var(--accent);
-    outline: none;
+  #search :global(.pagefind-ui__results) {
+    border-top: 1px solid var(--line);
+    margin-top: 1.35rem;
   }
 
-  .search-result {
-    padding: 1.9rem 0;
+  #search :global(.pagefind-ui__result) {
+    padding: 2.15rem 0;
+  }
+
+  #search :global(.pagefind-ui__result + .pagefind-ui__result) {
     border-top: 1px solid var(--line);
   }
 
-  .search-result-title {
-    margin: 0 0 0.55rem;
+  #search :global(.pagefind-ui__result-link),
+  #search :global(.pagefind-ui__result-link:link),
+  #search :global(.pagefind-ui__result-link:visited),
+  #search :global(.pagefind-ui__result-link:hover),
+  #search :global(.pagefind-ui__result-link:active),
+  #search :global(.pagefind-ui__result-link:focus-visible) {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.18rem;
+    font-size: 1.22rem;
     font-weight: 700;
-    line-height: 1.25;
-    letter-spacing: 0;
-    text-transform: none;
-  }
-
-  .search-result-title a {
-    color: var(--text);
-    text-decoration: none;
-    text-transform: none;
-    letter-spacing: 0;
-    font: inherit;
-  }
-
-  .search-result-title a:hover,
-  .search-result-title a:focus-visible {
-    color: var(--accent);
+    line-height: 1.2;
+    color: var(--text) !important;
+    text-decoration: none !important;
     outline: none;
   }
 
-  .search-result-meta {
-    margin: 0 0 0.8rem;
-    color: var(--secondary);
-    font-size: 0.92rem;
-    line-height: 1.35;
-  }
-
-  .search-result-description {
-    margin: 0;
-    color: var(--text);
+  #search :global(.pagefind-ui__result-excerpt) {
     font-size: 0.98rem;
-    line-height: 1.48;
+    line-height: 1.5;
+    color: var(--text);
     max-width: 46rem;
   }
 
+  #search :global(mark) {
+    background: rgba(255, 230, 0, 0.55);
+    color: inherit;
+    padding: 0 0.08em;
+  }
+
   @media (max-width: 1200px) {
-    .search-form {
-      width: min(640px, calc(100% - 120px));
+    #search :global(.pagefind-ui__form) {
+      width: min(700px, calc(100% - 60px));
     }
   }
 
   @media (max-width: 900px) {
-    .search-form {
+    #search :global(.pagefind-ui__form) {
       width: 100%;
       max-width: 100%;
     }
