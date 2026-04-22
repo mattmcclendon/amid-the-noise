@@ -7,7 +7,6 @@ pubDate: 2026-03-17
 heroImage:
 heroAlt:
 tags: ["Intelligence", "AI Governance", "Metrics"]
-dropcap: false
 ---
 
 ## Foreword

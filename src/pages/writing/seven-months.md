@@ -6,7 +6,6 @@ pubDate: 2025-11-26
 heroImage: /images/writing/seven-months.jpg
 heroAlt: "Quiet train platform at sunrise with long shadows and a distant light at the end of the tracks"
 tags: ["Reflection", "Recovery", "Momentum"]
-dropcap: false
 ---
 
 Seven months ago I made a decision to get back on track with my life. It was not dramatic. It was not loud. It was a simple choice to step in the right direction, one small move at a time.

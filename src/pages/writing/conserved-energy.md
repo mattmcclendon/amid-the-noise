@@ -7,7 +7,6 @@ pubDate: 2026-02-10
 heroImage: /images/writing/conserved-energy.jpg
 heroAlt: "A softly lit table with a warm lamp, a steaming mug, a closed book, and glasses, evoking rest and low-energy presence."
 tags: ["Reflection", "Presence", "Recovery"]
-dropcap: false
 ---
 
 When I am not feeling well, energy stops pretending it is infinite.

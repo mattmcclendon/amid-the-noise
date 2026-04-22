@@ -6,7 +6,6 @@ pubDate: 2025-11-06
 heroImage: /images/writing/from-collapse-to-construction.jpg
 heroAlt: "A solitary figure crossing an empty city street at sunrise, skyline silhouetted in warm light"
 tags: ["Reflection", "Civic Systems", "Agency"]
-dropcap: false
 ---
 
 I used to make other people’s problems my own.  

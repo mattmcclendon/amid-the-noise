@@ -7,7 +7,6 @@ pubDate: 2026-01-15
 heroImage: /images/writing/the-hardest-job.jpg
 heroAlt: "A quiet city pier at dusk with empty benches and warm lights leading toward the skyline, suggesting patience and forward movement."
 tags: ["Reflection", "Work", "Transition"]
-dropcap: false
 ---
 
 The hardest job I have ever had is not leading teams, shipping products, or navigating complexity at scale.

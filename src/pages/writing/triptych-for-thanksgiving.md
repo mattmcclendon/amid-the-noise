@@ -6,7 +6,6 @@ pubDate: 2025-11-23
 heroImage: /images/writing/triptych-for-thanksgiving.jpg
 heroAlt: "Autumn table centerpiece with pumpkins, candles, and fall leaves arranged for Thanksgiving"
 tags: ["Humor", "Reflection", "Culture"]
-dropcap: false
 ---
 
 As we move into Thanksgiving week, I hope we all keep the stress low, the gratitude high, and the smiles genuine. In that spirit, I wrote a triptych of limericks for the occasion.

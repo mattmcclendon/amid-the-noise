@@ -7,7 +7,6 @@ pubDate: 2026-01-27
 heroImage: /images/writing/hard-won-moment.jpg
 heroAlt: "A coastal town at dusk beneath an active volcano, smoke rising as lights begin to glow along the shoreline."
 tags: ["Reflection", "Progress", "Responsibility"]
-dropcap: false
 ---
 
 A line from *The White Lotus* (Season Two) stayed with me.

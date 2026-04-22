@@ -7,7 +7,6 @@ pubDate: 2026-01-17
 heroImage: /images/writing/clarity-sorts.jpg
 heroAlt: "A black and white portrait of a man leaning on a wooden fence, looking out over an open landscape in quiet contemplation."
 tags: ["Reflection", "Growth", "Boundaries"]
-dropcap: false
 ---
 
 I’ve learned that growth often makes people uncomfortable.

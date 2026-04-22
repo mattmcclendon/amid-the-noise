@@ -6,7 +6,6 @@ pubDate: 2025-11-17
 heroImage: /images/writing/finding-the-line.jpg
 heroAlt: "A quiet river at golden hour, a single vessel moving forward through still water toward an open horizon"
 tags: ["Reflection", "Agency", "Direction"]
-dropcap: false
 ---
 
 Sundays have a way of revealing direction.

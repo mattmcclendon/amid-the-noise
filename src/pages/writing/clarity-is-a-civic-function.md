@@ -6,7 +6,6 @@ pubDate: 2025-12-04
 heroImage: /images/writing/clarity-is-a-civic-function.jpg
 heroAlt: "Modern data center building at dusk with cooling systems visible on the exterior"
 tags: ["Systems Thinking", "AI & Decision Systems", "Civic Systems"]
-dropcap: false
 ---
 
 Conversations about data centers have taken on a strange life online these days. A building that once blended into the background now attracts speculation, suspicion, and a growing wave of conspiracy theories. Much of this comes from people encountering a technology they never had a reason to understand. Confusion fills the space where clarity should live. Jargon steps in. Fear follows.

@@ -6,7 +6,6 @@ pubDate: 2025-10-19
 heroImage: /images/writing/the-physics-of-stillness.jpg
 heroAlt: "A solitary figure illuminated by a phone under a star-filled night sky, suggesting quiet contemplation within vast motion"
 tags: ["Reflection", "Science", "Perspective"]
-dropcap: false
 ---
 
 You may think you’re sitting still.

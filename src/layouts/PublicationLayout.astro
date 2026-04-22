@@ -83,7 +83,7 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
       )}
     </header>
 
-    <div class={`publication-body section ${frontmatter.dropcap ? 'dropcap' : ''}`}>
+    <div class="publication-body section">
       <slot />
     </div>
 
@@ -207,15 +207,6 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     opacity: 0.6;
   }
 
-  .publication-body.dropcap p:first-of-type::first-letter {
-    float: left;
-    font-size: 2.4rem;
-    line-height: 1;
-    margin-right: 6px;
-    margin-top: 2px;
-    font-weight: 600;
-    color: var(--accent);
-  }
 
   .publication-body h2 {
     margin: 2.8em 0 0.8em;
@@ -340,10 +331,6 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
       line-height: 1.68;
     }
 
-    .publication-body.dropcap p:first-of-type::first-letter {
-      font-size: 2.6rem;
-      margin-right: 6px;
-    }
 
     .publication-body h2 {
       margin-top: 2.4em;

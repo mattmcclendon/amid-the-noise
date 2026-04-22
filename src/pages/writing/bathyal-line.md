@@ -6,7 +6,6 @@ pubDate: 2025-11-26
 heroImage: /images/writing/bathyal-line.jpg
 heroAlt: "Child standing before a large aquarium window looking into deep blue water with kelp rising upward"
 tags: ["Reflection", "Systems Thinking", "Sovereign Reflection"]
-dropcap: false
 ---
 
 The deep sea is closer than you think,  

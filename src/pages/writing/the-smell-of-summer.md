@@ -7,7 +7,6 @@ pubDate: 2026-02-03
 heroImage: /images/writing/the-smell-of-summer.jpg
 heroAlt: "A satellite view of Sunset Elementary in Altus, Oklahoma, showing the school buildings and playground where childhood memories took shape."
 tags: ["Reflection", "Memory", "Growth"]
-dropcap: false
 ---
 
 When it got hot in Oklahoma, it really got hot.

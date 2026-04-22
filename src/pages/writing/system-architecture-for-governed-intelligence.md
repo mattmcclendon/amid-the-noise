@@ -7,7 +7,6 @@ pubDate: 2026-03-31
 heroImage:
 heroAlt:
 tags: ["Intelligence", "AI Governance", "Architecture"]
-dropcap: false
 ---
 
 ## Foreword

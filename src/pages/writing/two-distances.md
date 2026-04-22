@@ -7,7 +7,6 @@ author: "Matthew McClendon"
 tags: ["Reflection", "Memory", "Civic Signal"]
 heroImage: "/images/writing/two-distances.png"
 heroAlt: "Chain-link fence memorial with flowers, ribbon, and a worn teddy bear in warm evening light, no people present"
-dropcap: false
 ---
 
 April 19 always catches me slightly off guard. I know it’s coming. I just don’t always feel it until it’s already here.

@@ -7,7 +7,6 @@ pubDate: 2026-02-06
 heroImage: /images/writing/in-praise-of-the-caboose.jpg
 heroAlt: "A red caboose at the end of a freight train at sunset, with a conductor standing on the rear platform watching the tracks behind."
 tags: ["Reflection", "Progress", "Memory"]
-dropcap: false
 ---
 
 I have been telling Gino about the caboose.

@@ -7,7 +7,6 @@ pubDate: 2025-12-25
 heroImage: /images/writing/a-very-grinchy-aftermath.jpg
 heroAlt: "A glass bowl filled with bright green candy on a holiday table surrounded by pine branches and wrapped gifts."
 tags: ["Poetry", "Holiday", "Humor"]
-dropcap: false
 ---
 
 I left out the roast beast, the puddings, the pies,  

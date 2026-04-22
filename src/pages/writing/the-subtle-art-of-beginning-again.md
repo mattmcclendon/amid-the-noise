@@ -6,7 +6,6 @@ pubDate: 2025-11-09
 heroImage: /images/writing/the-subtle-art-of-beginning-again.jpg
 heroAlt: "A handwritten letter on a wooden desk beside a fountain pen and a softly lit lamp, suggesting reflection, clarity, and quiet renewal"
 tags: ["Reflection", "Growth", "Clarity"]
-dropcap: false
 ---
 
 There’s something about a Sunday that feels like a quiet conversation with your own mind.

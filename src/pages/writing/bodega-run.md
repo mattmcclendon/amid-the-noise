@@ -6,7 +6,6 @@ pubDate: 2025-10-20
 heroImage: /images/writing/bodega-run.jpg
 heroAlt: "A corner bodega at dusk with people gathered outside, warm light spilling onto the street and sunflowers by the entrance"
 tags: ["Reflection", "City Life", "Memory"]
-dropcap: false
 ---
 
 When I lived in New York, I used to jog down to the corner store for a Diet Mountain Dew.  

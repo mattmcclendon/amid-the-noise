@@ -7,7 +7,6 @@ pubDate: 2026-01-21
 heroImage:
 heroAlt:
 tags: ["Signal", "Truth", "Perception"]
-dropcap: false
 ---
 
 The real danger  

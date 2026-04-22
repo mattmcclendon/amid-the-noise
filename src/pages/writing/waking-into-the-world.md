@@ -6,7 +6,6 @@ pubDate: 2025-11-11
 heroImage: /images/writing/waking-into-the-world.jpg
 heroAlt: "A quiet city street at dawn, freshly washed, with warm light spilling from storefront windows as someone cleans the sidewalk"
 tags: ["Reflection", "Presence", "Agency"]
-dropcap: false
 ---
 
 Each morning begins with a small miracle.

@@ -7,7 +7,6 @@ pubDate: 2026-02-01
 heroImage: /images/writing/calibrated-generosity.jpg
 heroAlt: "A rope ladder hanging in an empty space against a bare wall, suggesting support that must still be climbed."
 tags: ["Reflection", "Growth", "Agency"]
-dropcap: false
 ---
 
 Sunday reflection.

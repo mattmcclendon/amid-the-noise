@@ -7,7 +7,6 @@ pubDate: 2026-01-22
 heroImage: /images/writing/gumption.jpg
 heroAlt: "Vintage Las Vegas at night with glowing casino signs and traffic along the Strip, evoking energy, decision, and consequence over time."
 tags: ["Systems Thinking", "Judgment", "Clarity"]
-dropcap: false
 ---
 
 When my mother was young, someone noticed how she moved through the world.

@@ -6,7 +6,6 @@ pubDate: 2025-11-16
 heroImage: /images/writing/fractured-grace.jpg
 heroAlt: "A quiet city street at sunrise, long shadows stretching across the sidewalk, suggesting solitude, reflection, and forward motion"
 tags: ["Reflection", "Empathy", "Responsibility"]
-dropcap: false
 ---
 
 This morning, I watched a mother and her grown child at a coffee shop.

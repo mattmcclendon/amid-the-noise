@@ -7,7 +7,6 @@ pubDate: 2026-03-24
 heroImage:
 heroAlt:
 tags: ["Intelligence", "AI Governance", "Workflows"]
-dropcap: false
 ---
 
 ## Foreword

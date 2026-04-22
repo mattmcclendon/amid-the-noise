@@ -6,7 +6,6 @@ pubDate: 2025-10-14
 heroImage: /images/writing/let-them-shine.jpg
 heroAlt: "An empty park bench at sunrise, bathed in warm light with a quiet path leading forward"
 tags: ["Reflection", "Relationships", "Empathy"]
-dropcap: false
 ---
 
 There’s something beautiful about letting people exist as they are —  

@@ -7,7 +7,6 @@ pubDate: 2026-02-15
 heroImage: 
 heroAlt: ""
 tags: ["Civic Systems", "Public Infrastructure", "Design Theory"]
-dropcap: false
 ---
 
 ## Executive Summary

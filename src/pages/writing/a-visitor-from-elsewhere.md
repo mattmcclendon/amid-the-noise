@@ -6,7 +6,6 @@ pubDate: 2025-11-08
 heroImage: /images/writing/a-visitor-from-elsewhere.jpg
 heroAlt: "A glowing interstellar object streaking across space on a hyperbolic trajectory, passing through a star system before disappearing into the dark"
 tags: ["Science", "Systems Thinking", "Reflection"]
-dropcap: false
 ---
 
 I have to admit, I’m a little disappointed the aliens aren’t coming.  

@@ -7,7 +7,6 @@ pubDate: 2026-03-10
 heroImage:
 heroAlt:
 tags: ["Intelligence", "AI Governance", "Operational Systems"]
-dropcap: false
 ---
 
 ## Foreword

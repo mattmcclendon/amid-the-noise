@@ -7,7 +7,6 @@ pubDate: 2025-12-21
 heroImage: /images/writing/choosing-the-epoch.jpg
 heroAlt: "A runway stretching toward the horizon at sunrise, lights guiding a clear point of departure."
 tags: ["Reflection", "Time", "Perspective"]
-dropcap: false
 ---
 
 An epoch is not just a technical timestamp.

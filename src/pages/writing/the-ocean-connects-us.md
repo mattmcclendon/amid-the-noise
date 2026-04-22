@@ -6,7 +6,6 @@ pubDate: 2025-11-07
 heroImage: /images/writing/the-ocean-connects-us.jpg
 heroAlt: "A rocky beach in Antibes under a cloudy sky, with waves rolling in and a lone figure walking along the shoreline"
 tags: ["Reflection", "Travel", "Memory"]
-dropcap: false
 ---
 
 In Antibes, the beach is made of smooth, rounded stones.

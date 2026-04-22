@@ -7,7 +7,6 @@ pubDate: 2026-03-18
 heroImage: /images/writing/borrowing-from-the-future.jpg
 heroAlt: "A quiet room filled with neatly stacked moving boxes, suggesting transition, anticipation, and an unsettled future."
 tags: ["Reflection", "Decision Making", "Presence"]
-dropcap: false
 ---
 
 I caught myself furnishing a house I do not yet own, then worrying about the mortgage.

@@ -7,7 +7,6 @@ pubDate: 2026-01-13
 heroImage: /images/writing/subtraction.jpg
 heroAlt: "A calm waterfront city at sunset with boats at a dock, warm light fading into open sky, suggesting reflection and reduction."
 tags: ["Reflection", "Clarity", "Growth"]
-dropcap: false
 ---
 
 Lately I’ve noticed something quietly significant happening in my thinking.

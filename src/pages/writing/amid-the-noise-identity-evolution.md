@@ -6,7 +6,6 @@ pubDate: 2026-04-19
 heroImage: "/images/writing/amid-the-noise-identity-evolution.png"
 heroAlt: "A minimalist identity mark featuring a grounded blue square paired with a classical serif wordmark reading 'amid the noise'"
 tags: ["Branding", "Identity", "Design Systems"]
-dropcap: false
 ---
 
 *Amid the Noise* has never been a static brand. It began as a container for ideas, then stretched into a platform for writing, systems thinking, and civic reflection. The identity followed suit, accumulating weight as the work expanded.

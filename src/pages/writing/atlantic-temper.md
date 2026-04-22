@@ -1,5 +1,3 @@
-
-
 ---
 layout: ../../layouts/PublicationLayout.astro
 title: "Atlantic Temper"

@@ -7,7 +7,6 @@ pubDate: 2025-12-18
 heroImage: /images/writing/the-cursive-q.jpg
 heroAlt: "Black-and-white photo of two vintage transit vehicles side by side, one reading 'I Start Sunday' and the other 'I Quit Tomorrow,' suggesting the quiet deferral of change"
 tags: ["Reflection", "Memory", "Change"]
-dropcap: false
 ---
 
 I love that old cursive Q.

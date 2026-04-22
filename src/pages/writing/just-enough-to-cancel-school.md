@@ -6,7 +6,6 @@ pubDate: 2026-02-15
 heroImage: /images/writing/just-enough-to-cancel-school.jpg
 heroAlt: "A quiet residential street at dawn with a light winter glaze reflecting soft morning light"
 tags: ["Reflection", "Memory", "Change"]
-dropcap: true
 ---
 
 Three feet of snow means one thing in Boston.

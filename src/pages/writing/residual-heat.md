@@ -6,7 +6,6 @@ pubDate: 2026-02-22
 heroImage: /images/writing/residual-heat.jpg
 heroAlt: "a perfectly cooked frittata"
 tags: ["Reflection", "Timing", "Judgment"]
-dropcap: false
 ---
 I made a frittata last night.
 

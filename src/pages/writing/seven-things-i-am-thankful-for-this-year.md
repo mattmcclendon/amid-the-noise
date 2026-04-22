@@ -6,7 +6,6 @@ pubDate: 2025-11-27
 heroImage: /images/writing/seven-things-i-am-thankful-for-this-year.jpg
 heroAlt: "Sunlit colonnade with long shadows leading through an arched passage into a park"
 tags: ["Reflection", "Growth", "Clarity"]
-dropcap: false
 ---
 
 Thanksgiving invites a pause.

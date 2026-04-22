@@ -6,7 +6,6 @@ pubDate: 2025-11-03
 heroImage: /images/writing/the-slow-death-of-interest.jpg
 heroAlt: "A cup of coffee on a table beside a rain-speckled window, with blurred figures passing outside"
 tags: ["Reflection", "Relationships", "Emotional Clarity"]
-dropcap: false
 ---
 
 It rarely ends in conflict.  

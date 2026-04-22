@@ -6,7 +6,6 @@ pubDate: 2025-10-22
 heroImage: /images/writing/from-one-of-loves-slower-learners.jpg
 heroAlt: "An empty park bench beside a softly glowing lamppost in a misty autumn setting"
 tags: ["Reflection", "Relationships", "Love"]
-dropcap: false
 ---
 
 Love’s got a funny sense of timing.

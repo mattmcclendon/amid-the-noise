@@ -5,7 +5,6 @@ description: "AI risk rarely begins at the point of obvious failure. It begins e
 pubDate: 2026-04-18
 author: "Matthew McClendon"
 tags: ["AI Safety", "Decision Systems", "Human-in-the-Loop"]
-draft: false
 ---
 
 ## A Simple Operating Model for Real-World Systems
