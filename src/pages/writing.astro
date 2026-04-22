@@ -159,7 +159,6 @@ posts.sort((a, b) => {
     gap: 10px;
     align-items: center;
     margin-top: 18px;
-    position: relative;
   }
 
   .filters-label {
@@ -196,17 +195,21 @@ posts.sort((a, b) => {
   }
 
   .filters-panel {
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 92px;
-    z-index: 10;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    max-width: 620px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 92px;
     padding: 12px;
     border: 1px solid var(--line);
     background: var(--background);
+  }
+
+  @media (max-width: 720px) {
+    .filters-panel {
+      margin-left: 0;
+    }
   }
 
   .filter-chip {
