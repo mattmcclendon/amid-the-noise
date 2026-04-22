@@ -9,16 +9,30 @@ heroAlt: "split-state image showing a man at a desk divided between warm nostalg
 tags: ["Reflection", "Signal", "Recovery"]
 ---
 
-I was working, a little frustrated, chasing down small imperfections that didn’t want to resolve. Nothing unusual, except it started to spread. Shoulders tightened, neck locked, that familiar full-body ache that shows up when something won’t click.
+I was working, a little frustrated, chasing down small imperfections that didn’t want to resolve. Nothing unusual, except it started to spread. Shoulders tightened. Neck locked. The kind of full-body tension that shows up when a system isn’t behaving the way you expect it to.
 
-Then the music shifted, and for a moment I was somewhere else. A past version of my life that felt intact, before things came apart. It wasn’t a thought so much as a state. Immediate, convincing, and just close enough to feel real.
+Then the music shifted, and for a moment the state changed.
 
-That’s the part people underestimate. It’s not a slow slide. It’s a bypass. Frustration turns into tension, tension into memory, and memory into a familiar pattern that once felt like relief. The brain skips the middle and offers it up as an answer.
+Not a thought. A state.
 
-In another version of this moment, I stay there. It turns into a narrative, then a pull, then something harder to interrupt. That’s the lead-up to relapse, and it doesn’t announce itself.
+A past version of my life surfaced fully formed. Intact. Coherent. Convincing in a way that bypassed analysis entirely.
 
-This time, I caught it. Not by arguing with it, but by recognizing what it was. The body shift, the timing, the way it presented itself as comfort while leaving out everything it cost.
+That’s the failure mode.
 
-So I changed the input, let the tension settle, and moved on without replaying it.
+It’s not a gradual drift. It’s a jump condition. Frustration becomes tension, tension becomes pattern recall, and it feels like resolution because it’s familiar. The brain collapses the path and offers familiarity as an answer, because it has worked before.
 
-That’s the work right now. Not dwelling on the past, but staying aware enough in the present to interrupt it before it becomes direction.
+In another version of this moment, that state persists. It develops into a narrative, then a preference, then a direction. Not dramatic. Not obvious. Just a quiet reorientation toward something that once felt like relief.
+
+That’s how escalation begins.
+
+This time, I interrupted it.
+
+Not by debating it, but by recognizing it as it happened. The timing, the physical shift, the way it arrived already formed and quietly convincing.
+
+So I changed the input, let the system settle, and returned to baseline without replaying the event.
+
+No dwelling. No reinforcement.
+
+Just detection and correction.
+
+This is the work. Staying aware under load, catching the shift as it happens, and correcting course before drift quietly becomes direction.
