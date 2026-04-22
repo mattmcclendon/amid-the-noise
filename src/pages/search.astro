@@ -1,0 +1,127 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Search | Amid the Noise"
+  description="Search the writing, papers, and work archive."
+>
+  <section class="section" data-pagefind-ignore>
+    <h1>Search</h1>
+    <p>
+      Search the archive across writing, papers, and selected work.
+    </p>
+
+    <div id="search"></div>
+  </section>
+
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+
+  <script is:inline>
+    window.addEventListener("DOMContentLoaded", () => {
+      new window.PagefindUI({
+        element: "#search",
+        showSubResults: false,
+        resetStyles: false,
+        showImages: false,
+      });
+    });
+  </script>
+</Layout>
+
+<style>
+  #search {
+    margin-top: 2rem;
+  }
+
+  #search :global(.pagefind-ui) {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: var(--text);
+    --pagefind-ui-text: var(--text);
+    --pagefind-ui-background: transparent;
+    --pagefind-ui-border: var(--line);
+    --pagefind-ui-tag: var(--background);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 14px;
+    --pagefind-ui-image-border-radius: 0;
+    --pagefind-ui-image-box-ratio: 3 / 2;
+    font-family: inherit;
+  }
+
+  #search :global(.pagefind-ui__search-input) {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--text);
+    box-shadow: none;
+  }
+
+  #search :global(.pagefind-ui__search-input::placeholder) {
+    color: var(--secondary);
+    opacity: 1;
+    font-weight: 400;
+  }
+
+  #search :global(.pagefind-ui__search-clear) {
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--secondary);
+    background: transparent;
+    border: 0;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  #search :global(.pagefind-ui__search-clear:hover),
+  #search :global(.pagefind-ui__search-clear:focus-visible) {
+    color: var(--text);
+    background: transparent;
+    box-shadow: none !important;
+    outline: none;
+  }
+
+  #search :global(.pagefind-ui__drawer) {
+    margin-top: 2rem;
+  }
+
+  #search :global(.pagefind-ui__message) {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  #search :global(.pagefind-ui__result) {
+    padding: 2rem 0;
+    border-top: 1px solid var(--line);
+  }
+
+  #search :global(.pagefind-ui__result-link) {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  #search :global(.pagefind-ui__result-link:hover),
+  #search :global(.pagefind-ui__result-link:focus-visible) {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  #search :global(.pagefind-ui__result-excerpt) {
+    font-size: 0.98rem;
+    line-height: 1.55;
+    color: var(--text);
+  }
+
+  #search :global(mark) {
+    background: rgba(255, 230, 0, 0.55);
+    color: inherit;
+    padding: 0 0.08em;
+  }
+</style>

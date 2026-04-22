@@ -39,7 +39,7 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     <meta name="twitter:image" content={new URL(frontmatter.heroImage || '/images/og-default.png', Astro.site)} />
   </Fragment>
 
-  <article class="publication publication-doc">
+  <article class="publication publication-doc" data-pagefind-body>
     {frontmatter.heroImage && (
       <figure class="publication-hero">
         <img

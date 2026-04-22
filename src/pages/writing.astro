@@ -26,7 +26,7 @@ posts.sort((a, b) => {
 ---
 
 <Layout title="Writing | Amid the Noise">
-<section class="section">
+<section class="section" data-pagefind-ignore>
     <h1>Writing</h1>
     <p>
       A complete collection of essays and reflections on systems, signal, and the structures that shape how people think, decide, and act.
@@ -58,7 +58,7 @@ posts.sort((a, b) => {
     )}
   </section>
 
-  <section class="section">
+  <section class="section" data-pagefind-ignore>
     {posts.map((post) => (
       <article class="entry" data-tags={(post.frontmatter.tags ?? []).join('|')}>
         <h3>
