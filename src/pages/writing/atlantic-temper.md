@@ -6,7 +6,7 @@ description: "A reflection on Boston’s temperament — how place, memory, and 
 pubDate: 2026-02-15
 author: "Matthew McClendon"
 tags: ["Reflection", "Place", "Endurance", "Identity"]
-heroImage: "/images/writing/atlantic-temper.jpg"
+heroImage: "/images/writing/atlantic-temper.png"
 heroAlt: "Sunrise over the Charles River with Boston skyline, warm light reflecting on water and a quiet riverside path"
 ---
 
