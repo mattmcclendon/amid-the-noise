@@ -6,7 +6,7 @@ description: "Continuity, quiet systems, and the unseen work that keeps everythi
 pubDate: 2026-05-12
 author: "Matthew McClendon"
 tags: ["Reflection", "Systems", "Signal", "Star Trek"]
-heroImage: "/images/writing/even-the-enterprise-had-down-days.jpg"
+heroImage: "/images/writing/even-the-enterprise-has-down-days.jpg"
 heroAlt: "The NCC-1701-D gliding through deep space beneath a warm planetary glow, evoking continuity, vigilance, and quiet motion"
 ---
 ---
