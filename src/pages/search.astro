@@ -9,7 +9,7 @@ import Layout from "../layouts/Layout.astro";
   <section class="section" data-pagefind-ignore>
     <h1>Search</h1>
     <p>
-      Search the archive across writing, papers, and selected work.
+      Search the archive of writing on systems, signal, and how decisions take shape.
     </p>
 
     <div id="search"></div>
@@ -34,6 +34,9 @@ import Layout from "../layouts/Layout.astro";
   #search {
     margin-top: 2rem;
   }
+  #search :global(.pagefind-ui__form) {
+    max-width: 520px;
+  }
 
   #search :global(.pagefind-ui) {
     --pagefind-ui-scale: 1;
@@ -51,11 +54,12 @@ import Layout from "../layouts/Layout.astro";
 
   #search :global(.pagefind-ui__search-input) {
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 400;
     letter-spacing: 0;
     color: var(--text);
     box-shadow: none;
+    padding: 0.65rem 0.9rem;
   }
 
   #search :global(.pagefind-ui__search-input::placeholder) {
