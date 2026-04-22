@@ -101,11 +101,22 @@ posts.sort((a, b) => {
   };
 
   const applyFilter = (filter) => {
+    let firstVisibleEntry = null;
+
     entries.forEach((entry) => {
       const tags = (entry.getAttribute('data-tags') || '').split('|').filter(Boolean);
       const matches = filter === 'all' || tags.includes(filter);
       entry.style.display = matches ? '' : 'none';
+      entry.classList.remove('is-first-visible');
+
+      if (matches && !firstVisibleEntry) {
+        firstVisibleEntry = entry;
+      }
     });
+
+    if (firstVisibleEntry) {
+      firstVisibleEntry.classList.add('is-first-visible');
+    }
 
     chips.forEach((chip) => {
       chip.classList.toggle('is-active', chip.dataset.filter === filter);
@@ -285,6 +296,10 @@ posts.sort((a, b) => {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+  }
+
+  .entry.is-first-visible {
+    border-top: 0 !important;
   }
 
   .entry-tag {
