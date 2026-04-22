@@ -12,20 +12,91 @@ import Layout from "../layouts/Layout.astro";
       Search the archive of writing on systems, signal, and how decisions take shape.
     </p>
 
-    <div id="search"></div>
+    <div id="search" class="search-shell">
+      <label class="sr-only" for="search-input">Search the archive</label>
+      <div class="search-form">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"></circle>
+          <path d="M20 20l-4.35-4.35" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+        </svg>
+        <input id="search-input" type="search" placeholder="Search" autocomplete="off" />
+        <button id="search-clear" type="button" hidden>Clear</button>
+      </div>
+      <div id="search-status" class="search-status" aria-live="polite"></div>
+      <div id="search-results" class="search-results"></div>
+    </div>
   </section>
 
-  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
-  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline type="module">
+    import * as pagefind from "/pagefind/pagefind.js";
 
-  <script is:inline>
-    window.addEventListener("DOMContentLoaded", () => {
-      new window.PagefindUI({
-        element: "#search",
-        showSubResults: false,
-        resetStyles: false,
-        showImages: false,
+    const input = document.querySelector("#search-input");
+    const clearButton = document.querySelector("#search-clear");
+    const status = document.querySelector("#search-status");
+    const resultsRoot = document.querySelector("#search-results");
+
+    const stripHtml = (value) => value.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+
+    const buildResult = (data) => {
+      const article = document.createElement("article");
+      article.className = "search-result";
+
+      const title = document.createElement("h2");
+      title.className = "search-result-title";
+
+      const link = document.createElement("a");
+      link.href = data.url;
+      link.textContent = data.meta.title || data.url;
+      title.appendChild(link);
+
+      const description = document.createElement("p");
+      description.className = "search-result-description";
+      description.textContent = stripHtml(data.meta.description || data.excerpt || "");
+
+      article.appendChild(title);
+      if (description.textContent) {
+        article.appendChild(description);
+      }
+
+      return article;
+    };
+
+    const renderResults = async (query) => {
+      const trimmed = query.trim();
+
+      if (!trimmed) {
+        status.textContent = "";
+        resultsRoot.innerHTML = "";
+        clearButton.hidden = true;
+        return;
+      }
+
+      clearButton.hidden = false;
+
+      const search = await pagefind.search(trimmed);
+      const results = await Promise.all(search.results.map(async (result) => result.data()));
+
+      status.textContent = `${results.length} result${results.length === 1 ? "" : "s"} for ${trimmed}`;
+      resultsRoot.innerHTML = "";
+
+      results.forEach((result) => {
+        resultsRoot.appendChild(buildResult(result));
       });
+    };
+
+    let debounce;
+
+    input.addEventListener("input", () => {
+      window.clearTimeout(debounce);
+      debounce = window.setTimeout(() => {
+        renderResults(input.value);
+      }, 120);
+    });
+
+    clearButton.addEventListener("click", () => {
+      input.value = "";
+      renderResults("");
+      input.focus();
     });
   </script>
 </Layout>
@@ -34,116 +105,135 @@ import Layout from "../layouts/Layout.astro";
   #search {
     margin-top: 2rem;
   }
-  #search :global(.pagefind-ui__form) {
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .search-form {
+    position: relative;
     width: min(680px, calc(100% - 200px));
     max-width: 680px;
   }
 
-  #search :global(.pagefind-ui__search-input-container) {
-    position: relative;
-  }
-
-  #search :global(.pagefind-ui__search-icon) {
+  .search-icon {
     position: absolute;
     left: 1rem;
     top: 50%;
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
-    pointer-events: none;
     color: var(--secondary);
+    pointer-events: none;
   }
 
-  #search :global(.pagefind-ui__search-input) {
-    font-family: inherit;
+  #search-input {
+    width: 100%;
+    height: 46px;
+    padding: 0.5rem 4.5rem 0.5rem 3rem;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: transparent;
+    color: var(--text);
+    font: inherit;
     font-size: 0.95rem;
     font-weight: 400;
-    letter-spacing: 0;
-    color: var(--text);
-    box-shadow: none;
-    height: 46px;
-    padding: 0.5rem 4.5rem 0.5rem 3.1rem;
     line-height: 1.2;
+    box-sizing: border-box;
   }
 
-  #search :global(.pagefind-ui__search-input::placeholder) {
+  #search-input::placeholder {
     color: var(--secondary);
     opacity: 1;
-    font-weight: 400;
   }
 
-  #search :global(.pagefind-ui__search-clear) {
-    font-family: inherit;
+  #search-input:focus {
+    outline: none;
+    border-color: var(--secondary);
+  }
+
+  #search-clear {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    background: transparent;
+    color: var(--secondary);
+    font: inherit;
     font-size: 0.82rem;
     font-weight: 400;
-    color: var(--secondary);
-    background: transparent;
-    border: 0;
-    box-shadow: none !important;
-    text-transform: uppercase;
     letter-spacing: 0.06em;
-    right: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0;
   }
 
-  #search :global(.pagefind-ui__search-clear:hover),
-  #search :global(.pagefind-ui__search-clear:focus-visible) {
+  #search-clear:hover,
+  #search-clear:focus-visible {
     color: var(--text);
-    background: transparent;
-    box-shadow: none !important;
     outline: none;
   }
 
+  .search-status {
+    margin-top: 2rem;
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+  }
+
+  .search-results {
+    margin-top: 1rem;
+  }
+
+  .search-result {
+    padding: 1.45rem 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .search-result-title {
+    margin: 0 0 0.45rem;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  .search-result-title a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .search-result-title a:hover,
+  .search-result-title a:focus-visible {
+    color: var(--accent);
+    outline: none;
+  }
+
+  .search-result-description {
+    margin: 0;
+    color: var(--text);
+    font-size: 0.98rem;
+    line-height: 1.5;
+  }
+
   @media (max-width: 1200px) {
-    #search :global(.pagefind-ui__form) {
+    .search-form {
       width: min(640px, calc(100% - 120px));
     }
   }
 
   @media (max-width: 900px) {
-    #search :global(.pagefind-ui__form) {
+    .search-form {
       width: 100%;
       max-width: 100%;
     }
-  }
-
-  #search :global(.pagefind-ui__drawer) {
-    margin-top: 2rem;
-  }
-
-  #search :global(.pagefind-ui__message) {
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--text);
-  }
-
-  #search :global(.pagefind-ui__result) {
-    padding: 2rem 0;
-    border-top: 1px solid var(--line);
-  }
-
-  #search :global(.pagefind-ui__result-link) {
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text);
-    text-decoration: none;
-  }
-
-  #search :global(.pagefind-ui__result-link:hover),
-  #search :global(.pagefind-ui__result-link:focus-visible) {
-    color: var(--accent);
-    text-decoration: none;
-  }
-
-  #search :global(.pagefind-ui__result-excerpt) {
-    font-size: 0.98rem;
-    line-height: 1.55;
-    color: var(--text);
-  }
-
-  #search :global(mark) {
-    background: rgba(255, 230, 0, 0.55);
-    color: inherit;
-    padding: 0 0.08em;
   }
 </style>
