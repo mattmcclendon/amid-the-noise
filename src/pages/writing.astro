@@ -34,17 +34,19 @@ posts.sort((a, b) => {
 
     {allTags.length > 0 && (
       <div class="filters" aria-label="Filter posts by tag">
-        <span class="filters-label">Filter by:</span>
-        <button
-          class="filters-toggle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="filter-options"
-          data-current-filter="All"
-        >
-          <span class="filters-toggle-value">All</span>
-          <span class="filters-toggle-caret">▾</span>
-        </button>
+        <div class="filters-header">
+          <span class="filters-label">Filter by:</span>
+          <button
+            class="filters-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="filter-options"
+            data-current-filter="All"
+          >
+            <span class="filters-toggle-value">All</span>
+            <span class="filters-toggle-caret">▾</span>
+          </button>
+        </div>
 
         <div class="filters-panel" id="filter-options" hidden>
           <button class="filter-chip is-active" type="button" data-filter="all">All</button>
@@ -154,11 +156,13 @@ posts.sort((a, b) => {
 <style>
 
   .filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: center;
     margin-top: 18px;
+  }
+
+  .filters-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
   .filters-label {
@@ -198,22 +202,13 @@ posts.sort((a, b) => {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    width: 100%;
-    margin-top: 10px;
-    margin-left: 92px;
-    padding: 12px;
-    border: 1px solid var(--line);
-    background: var(--background);
+    margin-top: 12px;
+    padding-top: 2px;
+    max-width: 44rem;
   }
 
   .filters-panel[hidden] {
     display: none;
-  }
-
-  @media (max-width: 720px) {
-    .filters-panel {
-      margin-left: 0;
-    }
   }
 
   .filter-chip {
@@ -236,6 +231,10 @@ posts.sort((a, b) => {
   .filter-chip.is-active {
     color: var(--text);
     border-color: var(--text);
+  }
+
+  .filters-panel .filter-chip {
+    background: transparent;
   }
 
   .hero h1 {
