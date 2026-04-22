@@ -7,6 +7,7 @@ heroImage: /images/writing/2025-10-01.jpg
 heroAlt: "walking through a rainy campus"
 tags: ["Reflection", "Presence", "Renewal"]
 ---
+
 This morning the air is crisp, overcast, and rinsed in a thin veil of drizzle. Just enough to bead on jackets and darken the sidewalks, as though the whole city has been washed down for another season.
 
 I’m walking through the campus of San José State University, where the energy always feels alive with possibility. Students rush between buildings, coffee in hand, carrying books and ambitions. There’s a hum here—an undercurrent of people determined to make themselves better, to learn, and to send what they know back into the world.
