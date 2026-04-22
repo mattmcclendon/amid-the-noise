@@ -9,7 +9,6 @@ tags: ["Reflection", "Systems", "Signal", "Star Trek"]
 heroImage: "/images/writing/even-the-enterprise-has-down-days-hero.jpg"
 heroAlt: "The NCC-1701-D gliding through deep space beneath a warm planetary glow, evoking continuity, vigilance, and quiet motion"
 ---
----
 
 Star Trek remembers the Enterprise for its clarity.
 
