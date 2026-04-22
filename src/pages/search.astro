@@ -19,7 +19,7 @@ import Layout from "../layouts/Layout.astro";
           <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"></circle>
           <path d="M20 20l-4.35-4.35" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
         </svg>
-        <input id="search-input" type="search" placeholder="Search" autocomplete="off" />
+        <input id="search-input" type="search" placeholder="Search Amid the Noise" autocomplete="off" />
         <button id="search-clear" type="button" hidden>Clear</button>
       </div>
       <div id="search-status" class="search-status" aria-live="polite"></div>
@@ -51,7 +51,7 @@ import Layout from "../layouts/Layout.astro";
       const article = document.createElement("article");
       article.className = "search-result";
 
-      const title = document.createElement("h2");
+      const title = document.createElement("div");
       title.className = "search-result-title";
 
       const link = document.createElement("a");
@@ -59,11 +59,19 @@ import Layout from "../layouts/Layout.astro";
       link.textContent = data.meta.title || data.url;
       title.appendChild(link);
 
+      const metaLine = document.createElement("p");
+      metaLine.className = "search-result-meta";
+      const pubDate = data.meta.pubDate || data.meta.date || data.meta.published || data.meta.datePublished || "";
+      metaLine.textContent = pubDate;
+
       const description = document.createElement("p");
       description.className = "search-result-description";
-      description.textContent = stripHtml(data.meta.description || data.excerpt || "");
+      description.textContent = stripHtml(data.meta.description || "");
 
       article.appendChild(title);
+      if (metaLine.textContent) {
+        article.appendChild(metaLine);
+      }
       if (description.textContent) {
         article.appendChild(description);
       }
@@ -246,22 +254,26 @@ import Layout from "../layouts/Layout.astro";
   }
 
   .search-result {
-    padding: 1.15rem 0;
+    padding: 1.45rem 0;
     border-top: 1px solid var(--line);
   }
 
   .search-result-title {
-    margin: 0 0 0.35rem;
+    margin: 0 0 0.25rem;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 700;
     line-height: 1.25;
     letter-spacing: 0;
+    text-transform: none;
   }
 
   .search-result-title a {
     color: var(--text);
     text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    font: inherit;
   }
 
   .search-result-title a:hover,
@@ -270,11 +282,18 @@ import Layout from "../layouts/Layout.astro";
     outline: none;
   }
 
+  .search-result-meta {
+    margin: 0 0 0.45rem;
+    color: var(--secondary);
+    font-size: 0.92rem;
+    line-height: 1.35;
+  }
+
   .search-result-description {
     margin: 0;
     color: var(--text);
     font-size: 0.98rem;
-    line-height: 1.42;
+    line-height: 1.5;
   }
 
   @media (max-width: 1200px) {
