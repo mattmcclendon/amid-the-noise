@@ -53,6 +53,11 @@ const selectedPosts = selectedSlugs
     </p>
   </section>
 
+  <div class="terminal-block">
+    <span class="prompt">›</span>
+    <span class="cmd">systems ready</span>
+  </div>
+
   <section class="section">
     <h2>Selected Writing</h2>
 
@@ -226,3 +231,25 @@ const selectedPosts = selectedSlugs
     border-top: 1px solid var(--line);
   }
 </style>
+  .terminal-block {
+    max-width: 42rem;
+    margin: 10px 0 18px;
+    padding: 10px 12px;
+    background: #3e5a82; /* accent */
+    color: #ffffff;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .terminal-block .prompt {
+    opacity: 0.8;
+  }
+
+  .terminal-block .cmd {
+    letter-spacing: 0.02em;
+  }
