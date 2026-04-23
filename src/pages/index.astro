@@ -2,11 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 
 const selectedSlugs = [
+  'when-ai-is-wrong-a-simple-operating-model-for-real-world-systems',
+  'quickbooks-needs-a-decision-system',
   'when-design-ships-it-becomes-policy',
   'human-compatible-is-not-sufficient',
-  'ai-is-a-stack',
-  'the-lineage-of-signal',
-  'from-distance-to-surface',
+  'before-we-called-it-social',
 ];
 
 const selectedWork = [
@@ -38,12 +38,18 @@ const selectedPosts = selectedSlugs
 <Layout title="Amid the Noise">
   <section class="section hero">
     <p class="eyebrow">Matthew McClendon</p>
-    <h1>Designing AI systems where trust, risk,<br />and human judgment matter.</h1>
+    <h1>I design AI systems that hold up under pressure.</h1>
     <p class="intro intro-lead">
-      <em>Amid the Noise</em> is where I write about products and systems that must hold up <em>under pressure</em>. The work here centers on AI, judgment, signal, oversight, and the conditions that make decisions legible.
+      <em>Amid the Noise</em> is where I write about the systems I build and how they behave in the real world. I focus on AI, judgment, and the conditions that make decisions clear, accountable, and usable under pressure.
     </p>
     <p class="intro recruiter-note">
-      Relevant to Principal, Staff, and design leadership roles in AI systems, trust and safety, decision infrastructure, and other high-stakes environments.
+      I design decision workflows around AI models. I take uncertain outputs and turn them into actions people can review, approve, override, and trust.
+    </p>
+    <p class="intro recruiter-note">
+      My work sits inside systems where mistakes cost money, create risk, or impact people directly. That includes underwriting, automation, and other high-stakes decision environments.
+    </p>
+    <p class="intro recruiter-note">
+      I define how decisions are made, who is accountable, and how systems respond when the model is wrong.
     </p>
   </section>
 
@@ -106,7 +112,7 @@ const selectedPosts = selectedSlugs
     line-height: 1.22;
     font-weight: 600;
     font-style: italic;
-    max-width: 38rem;
+    max-width: 46rem;
   }
 
   .eyebrow {
@@ -117,13 +123,13 @@ const selectedPosts = selectedSlugs
   }
 
   .intro-lead {
-    max-width: 40rem;
+    max-width: 46rem;
     font-size: 0.98rem;
     line-height: 1.55;
   }
 
   .recruiter-note {
-    max-width: 40rem;
+    max-width: 46rem;
     font-size: 0.95rem;
     line-height: 1.5;
     color: var(--secondary);
