@@ -7,10 +7,6 @@ author: "Matthew McClendon"
 tags: ["AI Safety", "Decision Systems", "Human-in-the-Loop"]
 ---
 
-## A Simple Operating Model for Real-World Systems
-
-**Matthew McClendon**
-
 AI systems rarely fail in obvious ways. In practice, they drift. Over time, they become just certain enough that people stop questioning them.
 
 That’s where the risk actually begins.

@@ -9,8 +9,6 @@ heroAlt: "Black and white alien landscape under a star-filled sky"
 tags: ["media", "culture", "signal", "ai-governance"]
 ---
 
-**Submitted for your consideration…**
-
 A man sits in a quiet room, reflecting not on what has been lost, but on what has been misplaced.
 
 Once, not so very long ago, there existed a peculiar arrangement between storyteller and audience. The storyteller would offer a question dressed as a narrative. The audience would accept the invitation, follow the thread, and arrive somewhere unfamiliar, often unsettled, but unmistakably aware that they had been asked to think.
