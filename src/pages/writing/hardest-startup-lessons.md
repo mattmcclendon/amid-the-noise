@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "The Hardest Startup Lessons"
 subtitle: "Seven rules founders ignore at their own risk."
 description: "A field guide to the patterns that quietly determine whether startups survive or stall."
-pubDate: 2025-06-01
+pubDate: 2025-06-09
 heroImage: "/images/writing/hardest-startup-lessons.png"
 heroAlt: "Minimal abstract composition suggesting iteration, pressure, and forward motion"
 tags: ["Startups", "Product", "Execution", "Strategy"]

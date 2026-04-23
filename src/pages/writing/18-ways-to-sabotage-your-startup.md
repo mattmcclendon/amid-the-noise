@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "18 Ways to Sabotage Your Startup"
 subtitle: "The mistakes that kill promising ideas before they scale."
 description: "A field guide to the quiet decisions that derail startups long before they fail in public."
-pubDate: 2025-06-01
+pubDate: 2025-06-02
 heroImage: "/images/writing/18-ways-to-sabotage-your-startup.png"
 heroAlt: "Minimal abstract composition showing divergence, fragmentation, and misalignment resolving into clarity"
 tags: ["Startups", "Failure Modes", "Execution", "Founders"]

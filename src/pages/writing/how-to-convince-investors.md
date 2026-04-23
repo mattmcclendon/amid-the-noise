@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "How to Convince Investors"
 subtitle: "Why confidence starts with proof, not pitch"
 description: "Conviction comes from truth. The pitch is just the surface."
-pubDate: 2025-06-01
+pubDate: 2025-06-05
 heroImage: "/images/writing/how-to-convince-investors.png"
 heroAlt: "Minimal abstract composition showing signal strengthening into clarity and alignment"
 tags: ["Startups", "Fundraising", "Strategy", "Founders"]

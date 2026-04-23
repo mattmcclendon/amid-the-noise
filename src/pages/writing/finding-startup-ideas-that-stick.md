@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "Finding Startup Ideas That Stick"
 subtitle: "From passing thoughts to market-ready opportunities"
 description: "Where startup ideas actually come from, and why most people miss them."
-pubDate: 2025-06-01
+pubDate: 2025-06-07
 heroImage: "/images/writing/finding-startup-ideas-that-stick.png"
 heroAlt: "Minimal abstract composition showing emergence, convergence, and signal forming from noise"
 tags: ["Startups", "Ideas", "Product", "Founders"]

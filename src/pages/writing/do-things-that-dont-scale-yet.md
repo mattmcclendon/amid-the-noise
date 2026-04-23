@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "Do the Things That Don’t Scale (Yet)"
 subtitle: "Why early hustle beats early hype"
 description: "What actually creates momentum before anything resembles scale."
-pubDate: 2025-06-01
+pubDate: 2025-06-06
 heroImage: "/images/writing/do-things-that-dont-scale-yet.png"
 heroAlt: "Minimal abstract composition showing small manual effort compounding into structured momentum"
 tags: ["Startups", "Execution", "Growth", "Founders"]

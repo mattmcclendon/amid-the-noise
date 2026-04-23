@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "The Founder’s North Star"
 subtitle: "Obsession, not exploitation"
 description: "What actually drives enduring companies, and why the myth persists."
-pubDate: 2025-06-01
+pubDate: 2025-06-08
 heroImage: "/images/writing/the-founders-north-star.png"
 heroAlt: "Minimal abstract composition showing a fixed point of reference with surrounding motion oriented toward it"
 tags: ["Startups", "Founders", "Philosophy", "Users"]

@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "Growth Defines a Startup"
 subtitle: "How to use growth as your compass"
 description: "Growth isn’t a result. It’s the system you build around."
-pubDate: 2025-06-01
+pubDate: 2025-06-04
 heroImage: "/images/writing/growth-defines-a-startup.png"
 heroAlt: "Minimal abstract composition showing a rising curve emerging from constraint into expansion"
 tags: ["Startups", "Growth", "Strategy", "Founders"]
