@@ -40,15 +40,15 @@ const selectedPosts = selectedSlugs
     <p class="eyebrow">Matthew McClendon</p>
     <h1>I design AI systems that hold up under pressure.</h1>
     <p class="intro intro-lead">
-      <em>Amid the Noise</em> is where I write about the systems I build and how they behave in the real world. I focus on AI, judgment, and the conditions that make decisions clear, accountable, and usable under pressure.
+      <em>Amid the Noise</em> is where I write about the systems I build and how they behave in the real world.
     </p>
     <p class="intro recruiter-note">
-      I design decision workflows around AI models. I take uncertain outputs and turn them into actions people can review, approve, override, and trust.
+      I design decision workflows around AI models, turning uncertain outputs into actions people can review, approve, override, and trust.
     </p>
     <p class="intro recruiter-note">
-      My work sits inside systems where mistakes cost money, create risk, or impact people directly. That includes underwriting, automation, and other high-stakes decision environments.
+      I work inside systems where mistakes cost money, create risk, or impact people directly—underwriting, automation, and other high-stakes environments.
     </p>
-    <p class="intro recruiter-note">
+    <p class="intro recruiter-note intro-strong">
       I define how decisions are made, who is accountable, and how systems respond when the model is wrong.
     </p>
   </section>
@@ -112,7 +112,7 @@ const selectedPosts = selectedSlugs
     line-height: 1.22;
     font-weight: 600;
     font-style: italic;
-    max-width: 46rem;
+    max-width: 42rem;
   }
 
   .eyebrow {
@@ -123,26 +123,35 @@ const selectedPosts = selectedSlugs
   }
 
   .intro-lead {
-    max-width: 46rem;
-    font-size: 0.98rem;
-    line-height: 1.55;
+    max-width: 42rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text);
   }
 
   .recruiter-note {
-    max-width: 46rem;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--secondary);
+    max-width: 42rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text);
+    opacity: 0.9;
   }
 
   .intro {
-    margin: 0 0 10px;
-    font-size: 0.98rem;
-    line-height: 1.55;
+    margin: 0 0 14px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text);
   }
 
   .intro em {
     font-style: italic;
+  }
+
+  .intro-strong {
+    font-weight: 500;
+    color: var(--text);
+    opacity: 1;
   }
 
   .entry-tags {
