@@ -4,63 +4,146 @@ import Layout from '../layouts/Layout.astro';
 const postModules = import.meta.glob('./writing/*.md', { eager: true });
 const posts = Object.values(postModules);
 
-const tagCounts = posts.reduce((acc, post) => {
-  for (const tag of post.frontmatter.tags ?? []) {
-    acc.set(tag, (acc.get(tag) ?? 0) + 1);
-  }
-  return acc;
-}, new Map());
-
-const allTags = [...tagCounts.entries()]
-  .filter(([, count]) => count >= 2)
-  .sort((a, b) => {
-    if (b[1] !== a[1]) return b[1] - a[1];
-    return a[0].localeCompare(b[0]);
-  })
-  .slice(0, 14)
-  .map(([tag]) => tag);
-
 posts.sort((a, b) => {
   return new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate);
 });
+
+const getPostSlug = (post) => post.url?.split('/').filter(Boolean).pop();
+const postsBySlug = new Map(posts.map((post) => [getPostSlug(post), post]));
+
+const startHereSlugs = [
+  'when-ai-is-wrong-a-simple-operating-model-for-real-world-systems',
+  'designed-to-fail-excused-by-scarcity',
+  'the-deck-was-always-mine',
+  'compression-character-and-the-worlds-we-build',
+  'standing-on-the-edge',
+  'ai-is-a-stack',
+  'before-we-called-it-social',
+];
+
+const themeGroups = [
+  {
+    title: 'Signal, Systems, and Trust',
+    description: 'Essays on civic systems, institutional design, and the structures that shape public life.',
+    tags: ['Civic Systems', 'Trust', 'Signal', 'Systems Thinking'],
+  },
+  {
+    title: 'AI and Decision Systems',
+    description: 'Writing on AI, judgment, risk, interface design, and human responsibility under pressure.',
+    tags: ['AI', 'AI Safety', 'Decision Systems', 'Human-in-the-Loop'],
+  },
+  {
+    title: 'Builders and Startups',
+    description: 'Work on product judgment, founder behavior, early-stage systems, and the practice of building well.',
+    tags: ['Startup Series', 'Startups', 'Product Strategy', 'Innovation'],
+  },
+  {
+    title: 'Sovereign Reflection',
+    description: 'Personal essays on recovery, memory, agency, and the hard work of becoming clear.',
+    tags: ['Recovery', 'Agency', 'Voice', 'Reflection'],
+  },
+];
+
+const startHerePosts = startHereSlugs
+  .map((slug) => postsBySlug.get(slug))
+  .filter(Boolean);
+
+const recentPosts = posts
+  .filter((post) => !startHereSlugs.includes(getPostSlug(post)))
+  .slice(0, 6);
+
+const getThemePosts = (theme) => posts
+  .filter((post) => {
+    const postTags = post.frontmatter.tags ?? [];
+    return theme.tags.some((tag) => postTags.includes(tag));
+  })
+  .slice(0, 4);
 ---
 
 <Layout title="Writing | Amid the Noise">
-<section class="section" data-pagefind-ignore>
+  <section class="section writing-hero" data-pagefind-ignore>
     <h1>Writing</h1>
-    <p>
-      A complete collection of essays and reflections on systems, signal, and the structures that shape how people think, decide, and act.
+    <p class="intro-lead">
+      Essays, reflections, and working notes on signal, systems, trust, and agency. Start with the curated pieces, follow a theme, or move into the full archive when you want the complete record.
     </p>
 
-    {allTags.length > 0 && (
-      <div class="filters" aria-label="Filter posts by tag">
-        <div class="filters-header">
-          <span class="filters-label">Filter by:</span>
-          <button
-            class="filters-toggle"
-            type="button"
-            aria-expanded="false"
-            aria-controls="filter-options"
-            data-current-filter="All"
-          >
-            <span class="filters-toggle-value">All</span>
-            <span class="filters-toggle-caret">▾</span>
-          </button>
-        </div>
+    <div class="decision-grid" aria-label="Writing paths">
+      <a class="decision-card" href="#start-here">
+        <span>Start Here</span>
+        <p>Begin with the pieces that best introduce the work.</p>
+      </a>
+      <a class="decision-card" href="#themes">
+        <span>Explore by Theme</span>
+        <p>Follow the major lanes across the collection.</p>
+      </a>
+      <a class="decision-card" href="/writing/archive">
+        <span>Browse Everything</span>
+        <p>View the full chronological archive.</p>
+      </a>
+    </div>
+  </section>
 
-        <div class="filters-panel" id="filter-options" hidden>
-          <button class="filter-chip is-active" type="button" data-filter="all">All</button>
-          {allTags.map((tag) => (
-            <button class="filter-chip" type="button" data-filter={tag}>{tag}</button>
-          ))}
-        </div>
-      </div>
-    )}
+  <section class="section" id="start-here" data-pagefind-ignore>
+    <div class="section-heading">
+      <h2>Start Here</h2>
+      <p>Seven pieces that orient the larger body of work.</p>
+    </div>
+
+    <div class="featured-list">
+      {startHerePosts.map((post) => (
+        <article class="entry featured-entry">
+          <h3>
+            <a href={post.url}>{post.frontmatter.title}</a>
+          </h3>
+
+          <p class="entry-meta">
+            {new Date(post.frontmatter.pubDate).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+            })}
+          </p>
+
+          <p>{post.frontmatter.description}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" id="themes" data-pagefind-ignore>
+    <div class="section-heading">
+      <h2>Explore by Theme</h2>
+      <p>Four ways into the archive, organized by reader intent rather than chronology.</p>
+    </div>
+
+    <div class="theme-grid">
+      {themeGroups.map((theme) => {
+        const themePosts = getThemePosts(theme);
+        return (
+          <article class="theme-card">
+            <h3>{theme.title}</h3>
+            <p>{theme.description}</p>
+
+            {themePosts.length > 0 && (
+              <ul>
+                {themePosts.map((post) => (
+                  <li><a href={post.url}>{post.frontmatter.title}</a></li>
+                ))}
+              </ul>
+            )}
+          </article>
+        );
+      })}
+    </div>
   </section>
 
   <section class="section" data-pagefind-ignore>
-    {posts.map((post) => (
-      <article class="entry" data-tags={(post.frontmatter.tags ?? []).join('|')}>
+    <div class="section-heading">
+      <h2>Recent Writing</h2>
+      <p>The latest additions to the collection. <a href="/writing/archive">View the full archive</a>.</p>
+    </div>
+
+    {recentPosts.map((post) => (
+      <article class="entry">
         <h3>
           <a href={post.url}>{post.frontmatter.title}</a>
         </h3>
@@ -73,257 +156,154 @@ posts.sort((a, b) => {
         </p>
 
         <p>{post.frontmatter.description}</p>
-
-        {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-          <div class="entry-tags">
-            {post.frontmatter.tags.map((tag) => (
-              <button class="entry-tag" type="button" data-filter-trigger={tag}>{tag}</button>
-            ))}
-          </div>
-        )}
       </article>
     ))}
   </section>
-
-<script>
-  const chips = Array.from(document.querySelectorAll('.filter-chip'));
-  const entries = Array.from(document.querySelectorAll('.entry'));
-  const tagTriggers = Array.from(document.querySelectorAll('[data-filter-trigger]'));
-  const filterToggle = document.querySelector('.filters-toggle');
-  const filterPanel = document.querySelector('.filters-panel');
-  const filterToggleValue = document.querySelector('.filters-toggle-value');
-
-  const setPanelOpen = (isOpen) => {
-    if (!filterToggle || !filterPanel) return;
-    filterToggle.setAttribute('aria-expanded', String(isOpen));
-    filterPanel.hidden = !isOpen;
-    filterToggle.classList.toggle('is-open', isOpen);
-  };
-
-  const applyFilter = (filter) => {
-    let firstVisibleEntry = null;
-
-    entries.forEach((entry) => {
-      const tags = (entry.getAttribute('data-tags') || '').split('|').filter(Boolean);
-      const matches = filter === 'all' || tags.includes(filter);
-      entry.style.display = matches ? '' : 'none';
-      entry.classList.remove('is-first-visible');
-
-      if (matches && !firstVisibleEntry) {
-        firstVisibleEntry = entry;
-      }
-    });
-
-    if (firstVisibleEntry) {
-      firstVisibleEntry.classList.add('is-first-visible');
-    }
-
-    chips.forEach((chip) => {
-      chip.classList.toggle('is-active', chip.dataset.filter === filter);
-    });
-
-    if (filterToggleValue) {
-      filterToggleValue.textContent = filter === 'all' ? 'All' : filter;
-    }
-  };
-
-  if (filterToggle) {
-    filterToggle.addEventListener('click', () => {
-      const isOpen = filterToggle.getAttribute('aria-expanded') === 'true';
-      setPanelOpen(!isOpen);
-    });
-  }
-
-  chips.forEach((chip) => {
-    chip.addEventListener('click', () => {
-      applyFilter(chip.dataset.filter || 'all');
-      setPanelOpen(false);
-    });
-  });
-
-  tagTriggers.forEach((trigger) => {
-    trigger.addEventListener('click', () => {
-      const tag = trigger.getAttribute('data-filter-trigger') || 'all';
-      applyFilter(tag);
-      setPanelOpen(false);
-      const filterRow = document.querySelector('.filters');
-      if (filterRow) {
-        filterRow.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      }
-    });
-  });
-
-  document.addEventListener('click', (event) => {
-    if (!filterToggle || !filterPanel) return;
-    const target = event.target;
-    if (!(target instanceof Node)) return;
-    if (!filterToggle.contains(target) && !filterPanel.contains(target)) {
-      setPanelOpen(false);
-    }
-  });
-</script>
 </Layout>
 
 <style>
 
-  .filters {
-    margin-top: 26px; /* more breathing room from intro */
-    margin-bottom: -27px; /* aggressively collapse space toward divider */
-  }
-
-  .filters + .section {
-    margin-top: 0;
-  }
-
-  .filters-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .filters-label {
-    font-size: 0.82rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--secondary);
-  }
-
-  .filters-toggle {
-    appearance: none;
-    border: 1px solid var(--line);
-    background: transparent;
-    color: var(--text);
-    padding: 6px 10px;
-    font-size: 0.74rem;
-    line-height: 1;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-family: inherit;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .filters-toggle-caret {
-    display: inline-block;
-    transition: transform 0.2s ease;
-  }
-
-  .filters-toggle.is-open .filters-toggle-caret {
-    transform: rotate(180deg);
-  }
-
-  .filters-panel {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 12px;
-    padding-top: 2px;
-    max-width: 44rem;
-  }
-
-  .filters-panel[hidden] {
-    display: none;
-  }
-
-  .filter-chip {
-    appearance: none;
-    border: 1px solid var(--line);
-    background: transparent;
-    color: var(--secondary);
-    padding: 6px 10px;
-    font-size: 0.74rem;
-    line-height: 1;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-    font-family: inherit;
-  }
-
-  .filter-chip:hover,
-  .filter-chip:focus-visible,
-  .filter-chip.is-active {
-    color: var(--text);
-    border-color: var(--text);
-  }
-
-  .filters-panel .filter-chip {
-    background: transparent;
-  }
-
-  .hero h1 {
-    font-size: 1.6rem;
-    line-height: 1.32;
-    font-weight: 600;
-    font-style: italic;
-    max-width: 38rem;
-  }
-
   .eyebrow {
     margin: 0 0 12px;
-    font-size: 0.9rem;
+    font-size: 0.78rem;
     line-height: 1.35;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
     color: var(--secondary);
   }
 
   .intro-lead {
-    max-width: 40rem;
+    max-width: 42rem;
     font-size: 0.98rem;
-    line-height: 1.55;
+    line-height: 1.58;
+    color: var(--text);
   }
 
-  .recruiter-note {
-    max-width: 40rem;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--secondary);
+  .decision-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 34px;
+    max-width: 56rem;
   }
 
-  .intro {
-    margin: 0 0 10px;
-    font-size: 0.98rem;
-    line-height: 1.55;
-  }
-
-  .intro em {
-    font-style: italic;
-  }
-
-  .entry-tags {
-    margin: 2px 0 0;
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  .entry.is-first-visible {
-    border-top: 0 !important;
-  }
-
-  .entry-tag {
-    display: inline-block;
-    font-size: 0.72rem;
-    line-height: 1;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--secondary);
+  .decision-card {
+    display: block;
     border: 1px solid var(--line);
-    padding: 5px 7px;
-    background: transparent;
-    appearance: none;
-    cursor: pointer;
-    font-family: inherit;
+    padding: 18px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s ease, transform 0.2s ease;
   }
 
-  h2 {
-    font-size: 1rem;
+  .decision-card:hover,
+  .decision-card:focus-visible {
+    border-color: var(--text);
+    transform: translateY(-2px);
+  }
+
+  .decision-card span {
+    display: block;
+    font-size: 0.78rem;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .decision-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--text);
+  }
+
+  .section-heading {
+    margin-bottom: 24px;
+  }
+
+  .section-heading h2 {
+    margin: 0 0 22px;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--secondary);
-    margin: 0 0 22px;
-    font-weight: 500;
+  }
+
+  .section-heading p {
+    margin: 0;
+    max-width: 38rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text);
+  }
+
+
+  .featured-list .entry:first-child,
+  .entry:first-of-type {
+    border-top: 0;
+  }
+
+  .featured-entry h3 {
+    font-size: 1.15rem;
+  }
+
+  .theme-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .theme-card {
+    border: 1px solid var(--line);
+    padding: 20px;
+  }
+
+  .theme-card h3 {
+    font-size: 1rem;
+    line-height: 1.35;
+    margin: 0 0 8px;
+  }
+
+  .theme-card p {
+    margin: 0 0 16px;
+    color: var(--text);
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+
+  .theme-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .theme-card li {
+    border-top: 1px solid var(--line);
+    padding: 12px 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .theme-card li:last-child {
+    padding-bottom: 0;
+  }
+
+  .theme-card a {
+    color: var(--title);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .theme-card a:hover,
+  .theme-card a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
   }
 
   .entry h3 {
@@ -331,5 +311,12 @@ posts.sort((a, b) => {
     line-height: 1.35;
     font-weight: 600;
     margin: 0 0 4px;
+  }
+
+  @media (max-width: 760px) {
+    .decision-grid,
+    .theme-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
