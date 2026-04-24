@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "Counting Peace, Miscounting Power"
 subtitle: ""
 description: "The claim that America has only known a handful of years of peace depends less on history than on how peace is defined. A closer look reveals something more complex and more honest."
-pubDate: 2026-06-11
+pubDate: 2026-06-16
 heroImage: "/images/writing/counting-peace-miscounting-power.png"
 heroAlt: "A minimalist composition of a world map with faint concentric signal lines radiating from the United States, suggesting global entanglement and influence"
 tags: ["Civic Systems", "Power", "History", "Narrative"]
