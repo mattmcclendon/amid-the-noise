@@ -131,11 +131,15 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
   .publication-doc h1 {
     margin: 0 0 12px;
-    font-size: 1.8rem;
-    line-height: 1.25;
+    max-width: 34ch;
+    font-size: clamp(1.72rem, 2.2vw, 1.95rem);
+    line-height: 1.18;
     font-weight: 600;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.018em;
     color: var(--title);
+    text-wrap: balance;
+    overflow-wrap: normal;
+    hyphens: none;
   }
 
   .publication-subtitle {
@@ -315,7 +319,10 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
     }
 
     .publication-doc h1 {
-      font-size: 1.5rem;
+      max-width: 100%;
+      font-size: clamp(1.45rem, 6vw, 1.65rem);
+      line-height: 1.22;
+      text-wrap: balance;
     }
 
     .publication-subtitle {
