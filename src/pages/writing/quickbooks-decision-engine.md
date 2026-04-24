@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/PublicationLayout.astro
-title: "QuickBooks Needs a Decision System"
+title: "What a Decision System Actually Requires"
 subtitle: "Reframing small business finance as a system of judgment under uncertainty"
 description: "AI will not transform accounting by adding features. It will transform it by turning records into decisions, and software into a system of reasoning."
-pubDate: 2026-04-19
+pubDate: 2026-06-09
 heroImage: /images/writing/quickbooks-decision-engine.png
 heroAlt: "Abstract transition from financial records to forward-looking decision signals"
 tags: ["AI Systems", "Fintech", "Decision Design"]
