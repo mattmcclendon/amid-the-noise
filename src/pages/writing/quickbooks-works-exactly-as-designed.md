@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "QuickBooks Works Exactly as Designed. That’s the Problem."
 subtitle: ""
 description: "QuickBooks isn’t broken. It’s doing exactly what it was designed to do. The problem is that the expectations around it have changed. As software shifts from recording to deciding, the underlying model has not kept up."
-pubDate: 2026-05-28
+pubDate: 2026-06-02
 heroImage: "/images/writing/quickbooks-works-exactly-as-designed.png"
 heroAlt: "Abstract depiction of a financial system transitioning from static records to dynamic decision-making under uncertainty"
 tags: ["AI Systems", "Decision Systems", "Product Design", "Trust"]
