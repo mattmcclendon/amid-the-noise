@@ -13,6 +13,19 @@ const { title = 'Amid the Noise' } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
+    {import.meta.env.PROD && (
+      <>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KE5ZDGD6KP"></script>
+        <script is:inline>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KE5ZDGD6KP');
+          `}
+        </script>
+      </>
+    )}
     <title>{title}</title>
   </head>
 
