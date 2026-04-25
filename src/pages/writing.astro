@@ -14,37 +14,58 @@ const postsBySlug = new Map(posts.map((post) => [getPostSlug(post), post]));
 const startHereSlugs = [
   'when-ai-is-wrong-a-simple-operating-model-for-real-world-systems',
   'designed-to-fail-excused-by-scarcity',
+  'the-reciprocity-principle-of-emerging-intelligence',
+  'the-civic-signal',
+  'the-only-metric',
   'the-deck-was-always-mine',
-  'compression-character-and-the-worlds-we-build',
-  'standing-on-the-edge',
-  'ai-is-a-stack',
-  'before-we-called-it-social',
+  'where-does-truth-live',
+];
+
+const foundationalSlugs = [
+  'when-ai-is-wrong-a-simple-operating-model-for-real-world-systems',
+  'designed-to-fail-excused-by-scarcity',
+  'toward-a-human-centered-intelligence-infrastructure',
+  'the-reciprocity-principle-of-emerging-intelligence',
 ];
 
 const themeGroups = [
   {
-    title: 'Signal, Systems, and Trust',
-    description: 'Essays on civic systems, institutional design, and the structures that shape public life.',
-    tags: ['Civic Systems', 'Trust', 'Signal', 'Systems Thinking'],
+    title: 'Signal, Trust, and Perception',
+    description: 'Essays on truth, interpretation, attention, and the ways signal degrades under pressure.',
+    tags: ['Signal', 'Signal & Trust', 'Truth', 'Perception'],
+  },
+  {
+    title: 'Civic Systems and Dignity',
+    description: 'Writing on public infrastructure, institutional behavior, policy inertia, and systems that either preserve or erode agency.',
+    tags: ['Civic Systems', 'Public Infrastructure', 'Governance', 'Dignity'],
   },
   {
     title: 'AI and Decision Systems',
-    description: 'Writing on AI, judgment, risk, interface design, and human responsibility under pressure.',
-    tags: ['AI', 'AI Safety', 'Decision Systems', 'Human-in-the-Loop'],
-  },
-  {
-    title: 'Builders and Startups',
-    description: 'Work on product judgment, founder behavior, early-stage systems, and the practice of building well.',
-    tags: ['Startup Series', 'Startups', 'Product Strategy', 'Innovation'],
+    description: 'Work on AI governance, decision design, risk, human judgment, and systems that must remain accountable under uncertainty.',
+    tags: ['AI', 'AI Safety', 'AI Governance', 'Decision Systems', 'AI & Decision Systems', 'Human-in-the-Loop'],
   },
   {
     title: 'Sovereign Reflection',
-    description: 'Personal essays on recovery, memory, agency, and the hard work of becoming clear.',
-    tags: ['Recovery', 'Agency', 'Voice', 'Reflection'],
+    description: 'Personal essays on recovery, memory, agency, clarity, and the discipline of becoming legible to oneself.',
+    tags: ['Recovery', 'Agency', 'Voice', 'Reflection', 'Sovereign Reflection'],
+  },
+  {
+    title: 'Place, Memory, and Continuity',
+    description: 'Reflections on cities, inherited landscapes, travel, family memory, and the places that keep speaking after we leave.',
+    tags: ['Place', 'Memory', 'Travel', 'San Francisco', 'History'],
+  },
+  {
+    title: 'Builders, Startups, and Product Judgment',
+    description: 'Writing on product judgment, founder behavior, early-stage systems, and the practice of building with consequence.',
+    tags: ['Startup Series', 'Startups', 'Product', 'Product Design', 'Founders'],
   },
 ];
 
 const startHerePosts = startHereSlugs
+  .map((slug) => postsBySlug.get(slug))
+  .filter(Boolean);
+
+const foundationalPosts = foundationalSlugs
   .map((slug) => postsBySlug.get(slug))
   .filter(Boolean);
 
@@ -64,29 +85,55 @@ const getThemePosts = (theme) => posts
   <section class="section writing-hero" data-pagefind-ignore>
     <h1>Writing</h1>
     <p class="intro-lead">
-      Essays, reflections, and working notes on signal, systems, trust, and agency. Start with the curated pieces, follow a theme, or move into the full archive when you want the complete record.
+      Amid the Noise is a working archive of essays, reflections, and papers on signal, systems, trust, agency, and the structures that shape how people think, decide, and act. Start with the foundational pieces, follow a pathway, or move into the full archive when you want the complete record.
     </p>
 
     <div class="decision-grid" aria-label="Writing paths">
       <a class="decision-card" href="#start-here">
         <span>Start Here</span>
-        <p>Begin with the pieces that best introduce the work.</p>
+        <p>Begin with the pieces that introduce the core argument.</p>
       </a>
       <a class="decision-card" href="#themes">
-        <span>Explore by Theme</span>
-        <p>Follow the major lanes across the collection.</p>
+        <span>Reader Pathways</span>
+        <p>Follow the main routes through the body of work.</p>
       </a>
       <a class="decision-card" href="/writing/archive">
-        <span>Browse Everything</span>
-        <p>View the full chronological archive.</p>
+        <span>Full Archive</span>
+        <p>View the complete chronological record.</p>
       </a>
+    </div>
+  </section>
+
+  <section class="section" id="foundational" data-pagefind-ignore>
+    <div class="section-heading">
+      <h2>Foundational Papers</h2>
+      <p>The pieces that define the central operating model behind the archive: how systems behave, how signal degrades, and how trust survives contact with reality.</p>
+    </div>
+
+    <div class="foundation-grid">
+      {foundationalPosts.map((post) => (
+        <article class="foundation-card">
+          <h3>
+            <a href={post.url}>{post.frontmatter.title}</a>
+          </h3>
+
+          <p class="entry-meta">
+            {new Date(post.frontmatter.pubDate).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+            })}
+          </p>
+
+          <p>{post.frontmatter.description}</p>
+        </article>
+      ))}
     </div>
   </section>
 
   <section class="section" id="start-here" data-pagefind-ignore>
     <div class="section-heading">
       <h2>Start Here</h2>
-      <p>Seven pieces that orient the larger body of work.</p>
+      <p>Seven entry points into the archive, chosen to introduce the major arcs without requiring the reader to begin chronologically.</p>
     </div>
 
     <div class="featured-list">
@@ -111,8 +158,8 @@ const getThemePosts = (theme) => posts
 
   <section class="section" id="themes" data-pagefind-ignore>
     <div class="section-heading">
-      <h2>Explore by Theme</h2>
-      <p>Four ways into the archive, organized by reader intent rather than chronology.</p>
+      <h2>Reader Pathways</h2>
+      <p>Six ways into the archive, organized by reader intent rather than chronology.</p>
     </div>
 
     <div class="theme-grid">
@@ -243,6 +290,38 @@ const getThemePosts = (theme) => posts
     color: var(--text);
   }
 
+  .foundation-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .foundation-card {
+    border: 1px solid var(--line);
+    padding: 20px;
+  }
+
+  .foundation-card h3 {
+    font-size: 1.1rem;
+    line-height: 1.35;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+
+  .foundation-card h3 a {
+    color: var(--title);
+    text-decoration: none;
+  }
+
+  .foundation-card h3 a:hover,
+  .foundation-card h3 a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+  }
+
+  .foundation-card p:last-child {
+    margin-bottom: 0;
+  }
 
   .featured-list .entry:first-child,
   .entry:first-of-type {
@@ -315,6 +394,7 @@ const getThemePosts = (theme) => posts
 
   @media (max-width: 760px) {
     .decision-grid,
+    .foundation-grid,
     .theme-grid {
       grid-template-columns: 1fr;
     }
