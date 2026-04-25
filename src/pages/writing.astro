@@ -12,13 +12,13 @@ const getPostSlug = (post) => post.url?.split('/').filter(Boolean).pop();
 const postsBySlug = new Map(posts.map((post) => [getPostSlug(post), post]));
 
 const startHereSlugs = [
-  'when-ai-is-wrong-a-simple-operating-model-for-real-world-systems',
-  'designed-to-fail-excused-by-scarcity',
-  'the-reciprocity-principle-of-emerging-intelligence',
-  'the-civic-signal',
+  'where-does-truth-live',
   'the-only-metric',
   'the-deck-was-always-mine',
-  'where-does-truth-live',
+  'compression-character-and-the-worlds-we-build',
+  'before-we-called-it-social',
+  'one-degree-of-drift',
+  'the-lineage-of-signal',
 ];
 
 const foundationalSlugs = [
@@ -89,9 +89,9 @@ const getThemePosts = (theme) => posts
     </p>
 
     <div class="decision-grid" aria-label="Writing paths">
-      <a class="decision-card" href="#start-here">
-        <span>Start Here</span>
-        <p>Begin with the pieces that introduce the core argument.</p>
+      <a class="decision-card" href="#foundational">
+        <span>Foundational Papers</span>
+        <p>Begin with the pieces that define the core argument.</p>
       </a>
       <a class="decision-card" href="#themes">
         <span>Reader Pathways</span>
@@ -133,7 +133,7 @@ const getThemePosts = (theme) => posts
   <section class="section" id="start-here" data-pagefind-ignore>
     <div class="section-heading">
       <h2>Start Here</h2>
-      <p>Seven entry points into the archive, chosen to introduce the major arcs without requiring the reader to begin chronologically.</p>
+      <p>Seven reader-friendly entry points into the archive, chosen to introduce the voice, range, and recurring questions behind the work.</p>
     </div>
 
     <div class="featured-list">
