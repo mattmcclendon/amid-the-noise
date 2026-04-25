@@ -230,17 +230,24 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
 
   .publication-body ul,
   .publication-body ol {
-    margin: 0 0 1.2em 1.4em;
-    padding: 0;
+    margin: 0 0 1.35em;
+    padding-left: 1.15rem;
+    list-style-position: outside;
   }
 
   .publication-body li {
-    margin: 0 0 0.45em;
+    margin: 0 0 0.5em;
+    padding-left: 0.35rem;
     line-height: 1.65;
   }
 
   .publication-body li + li {
-    margin-top: 0.15em;
+    margin-top: 0.2em;
+  }
+
+  .publication-body li::marker {
+    color: var(--secondary);
+    font-size: 0.9em;
   }
 
   .publication-body blockquote {
@@ -338,6 +345,14 @@ const nextArticle = currentIndex >= 0 && currentIndex < allArticles.length - 1 ?
       line-height: 1.68;
     }
 
+    .publication-body ul,
+    .publication-body ol {
+      padding-left: 1rem;
+    }
+
+    .publication-body li {
+      padding-left: 0.25rem;
+    }
 
     .publication-body h2 {
       margin-top: 2.4em;
