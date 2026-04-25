@@ -7,7 +7,6 @@ pubDate: 2025-07-17
 heroImage: "/images/writing/used-spent-forgotten.png"
 heroAlt: "A man with a fractured mask revealing his true self beneath, dissolving into soft textures against a calm horizon, symbolizing identity, realization, and emotional detachment"
 tags: ["Recovery", "Psychological Abuse", "Sovereign Reflection"]
-dropcap: false
 ---
 
 It starts with attention.
