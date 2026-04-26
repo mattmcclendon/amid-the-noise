@@ -4,7 +4,7 @@ title: "5 Soups"
 subtitle: "The Currency of Survival in Street Vernacular"
 description: "In constrained systems, language compresses. “Five soups” becomes more than food—it becomes trust, debt, and survival encoded in a shared grammar."
 pubDate: 2025-07-21
-heroImage: "/images/writing/five-soups.png"
+heroImage: "/images/writing/5-soups.png"
 heroAlt: "Five packs of ramen noodles stacked on a table in a softly lit institutional setting, symbolizing informal currency and survival within constrained systems"
 tags: ["Civic Systems", "Signal Intelligence", "Sovereign Reflection"]
 ---
