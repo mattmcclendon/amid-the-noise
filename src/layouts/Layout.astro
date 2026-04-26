@@ -71,11 +71,11 @@ const { title = 'Amid the Noise' } = Astro.props;
                 <h3>Follow</h3>
                 <div class="social-icons">
                   <a href="https://linkedin.com/in/mattmcclendon" aria-label="LinkedIn"><img src="/linkedin.svg" alt="LinkedIn" /></a>
+                  <a href="https://github.com/mattmcclendon" aria-label="GitHub"><img class="social-icon-round" src="/github.svg" alt="GitHub" /></a>
                   <a href="https://substack.com/@matthewmcclendon" aria-label="Substack"><img src="/substack.svg" alt="Substack" /></a>
                   <a href="https://medium.com/@mattmcclendon" aria-label="Medium"><img src="/medium.svg" alt="Medium" /></a>
-                  <a href="https://github.com/mattmcclendon" aria-label="GitHub"><img src="/github.svg" alt="GitHub" /></a>
                   <a href="https://facebook.com/mattmcclendonco" aria-label="Facebook"><img src="/facebook.svg" alt="Facebook" /></a>
-                  <a href="https://open.spotify.com/show/4lShSEhp8vnng0TmO1AQET?si=eea92d50416849be" aria-label="Spotify"><img src="/spotify.svg" alt="Spotify" /></a>
+                  <a href="https://open.spotify.com/show/4lShSEhp8vnng0TmO1AQET?si=eea92d50416849be" aria-label="Spotify"><img class="social-icon-round" src="/spotify.svg" alt="Spotify" /></a>
                   <!--<a href="https://www.behance.net/mattmcclendon" aria-label="Behance"><img src="/behance.svg" alt="Behance" /></a>-->
                 </div>
               </section>
@@ -420,6 +420,10 @@ const { title = 'Amid the Noise' } = Astro.props;
     height: 28px;
     opacity: 0.72;
     transition: opacity 0.2s ease;
+  }
+  .social-icons img.social-icon-round {
+    width: 27px;
+    height: 27px;
   }
 
   .social-icons a:hover img {
