@@ -1,8 +1,8 @@
 ---
-layout: PublicationLayout
-title: What Compression Took From Us
+layout: ../../layouts/PublicationLayout.astro
+title: "What Compression Took From Us"
 subtitle: ""
-description: A reflection on how narrative compression distorts reality, and what gets lost when complexity is reduced to labels.
+description: "A reflection on how narrative compression distorts reality, and what gets lost when complexity is reduced to labels."
 pubDate: 2026-07-16
 heroImage: /images/writing/what-compression-took-from-us.png
 heroAlt: "A minimal, off-white room with a single door slightly ajar, light spilling into an otherwise empty space."
