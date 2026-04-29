@@ -6,7 +6,7 @@ description: "Inside a Santa Clara County vote center, elections reveal themselv
 pubDate: 2026-07-21
 heroImage: "/images/writing/the-poll-site-is-a-decision-system.png"
 heroAlt: "Abstract loop of paper forms circulating through a closed system on a soft off-white background"
-tags: ["CIVIC SYSTEMS AND DIGNITY", "SIGNAL AND TRUST", "SYSTEMS"]
+tags: ["Civic Systens and Dignity", "Signal and Trust", "Systems"]
 ---
 
 A vote center looks simple from the outside. Tables. Ballots. A line that moves or doesn’t.
