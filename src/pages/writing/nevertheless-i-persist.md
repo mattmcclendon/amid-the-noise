@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Nevertheless, I Persist"
-subtitle: "On self-worth, maturity, and refusing to surrender to anyone else’s story."
-description: "Persistence is not about proving others wrong. It is about refusing to surrender to the story they wrote about you."
-pubDate: 2025-10-05
+subtitle: "Refusing the story written for you"
+description: "Persistence is not about proving others wrong. It is about refusing to surrender to the story others assign to you and continuing anyway."
+pubDate: "2025-10-05"
 heroImage: "/images/writing/nevertheless-i-persist.png"
 heroAlt: "A solitary figure standing calmly while a blurred crowd gestures and shouts behind him"
 tags: ["Reflection", "Recovery", "Identity"]
+tier: "tier-2"
 ---
 
 The phrase first entered the cultural bloodstream through Elizabeth Warren. In 2017, during a Senate debate, she was told to sit down and be quiet. The men in power had heard enough from her. She refused. They silenced her anyway. That moment produced a line that became shorthand for resilience in the face of condescension: “Nevertheless, she persisted.”

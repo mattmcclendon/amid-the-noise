@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "In Praise of the Caboose"
-subtitle: ""
-description: "On the quiet role of observation, continuity, and the things we leave behind in the name of progress."
-pubDate: 2026-02-06
-heroImage: /images/writing/in-praise-of-the-caboose.jpg
+subtitle: "Someone has to watch the whole train"
+description: "Progress prioritizes speed and arrival, but systems still require observation. A reflection on continuity, memory, and the role of noticing what remains attached."
+pubDate: "2026-02-06"
+heroImage: "/images/writing/in-praise-of-the-caboose.jpg"
 heroAlt: "A red caboose at the end of a freight train at sunset, with a conductor standing on the rear platform watching the tracks behind."
-tags: ["Reflection", "Progress", "Memory"]
+tags: ["Signal", "Systems Thinking", "Memory"]
+tier: "tier-2"
 ---
 
 I have been telling Gino about the caboose.

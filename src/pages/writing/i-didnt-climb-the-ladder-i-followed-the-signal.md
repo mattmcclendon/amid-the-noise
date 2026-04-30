@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "I Didn’t Climb the Ladder. I Followed the Signal."
-subtitle: "Reframing experience in an era of AI, ambiguity, and consequence"
+subtitle: "Progression as exposure to consequence"
 description: "Progression is not hierarchy. It is exposure to systems where decisions carry consequence under uncertainty."
-pubDate: 2026-04-05
-author: "Matthew McClendon"
-tags: ["Signal", "Career", "AI & Decision Systems", "Reflection"]
+pubDate: "2026-04-05"
 heroImage: "/images/writing/i-didnt-climb-the-ladder-i-followed-the-signal.png"
 heroAlt: "A lone figure walking along a glowing path through a landscape of finance, data, and AI systems, surrounded by signals and networks"
+tags: ["Signal", "Career", "Systems Thinking"]
+tier: "tier-1"
 ---
 
 I didn’t follow the script.

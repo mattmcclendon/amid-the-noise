@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Infrastructure Is Not Dependency"
-subtitle: ""
+subtitle: "Redundancy as independence"
 description: "Independence is not the absence of systems. It is the presence of enough systems that no single one can take your movement away."
-pubDate: 2026-07-23
+pubDate: "2026-07-23"
 heroImage: "/images/writing/infrastructure-is-not-dependency.png"
 heroAlt: "Quiet electric train interior with soft daylight and empty seats"
-tags: ["Signal", "Civic Systems", "Agency"]
+tags: ["Civic Systems", "Signal", "Agency"]
+tier: "tier-1"
 ---
 
 Most people think dependence is the problem.
@@ -24,7 +25,6 @@ It shows up. Or it runs late. Or it breaks. None of that is personal. None of it
 That difference matters more than people admit.
 
 ---
-
 ### When Movement Stops Asking
 
 There is a version of movement that requires coordination.
@@ -41,7 +41,6 @@ In one case, movement can be taken from you.
 In the other, it continues whether anyone approves or not.
 
 ---
-
 ### The Structure Underneath
 
 Independence isn’t isolation. No one actually lives that way.
@@ -65,7 +64,6 @@ When it works, it bends around the edge case instead of rejecting it.
 That’s not dependence. That’s design.
 
 ---
-
 ### Where the Language Fails
 
 Calling these systems “dependencies” misses the real question.
@@ -81,7 +79,6 @@ Multiple paths are harder to manage that way. They dilute control. They give you
 Redundancy doesn’t weaken independence. It protects it.
 
 ---
-
 ### The Part Worth Questioning
 
 Some systems do the opposite.
@@ -96,7 +93,6 @@ One kind of system absorbs mistakes.
 The other punishes them.
 
 ---
-
 ### What This Actually Means
 
 Independence isn’t about standing alone.

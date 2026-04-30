@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Hardest Startup Lessons"
-subtitle: "Seven rules founders ignore at their own risk."
-description: "A field guide to the patterns that quietly determine whether startups survive or stall."
-pubDate: 2025-06-09
+subtitle: "Rules that hold under pressure"
+description: "A field guide to the patterns that quietly determine whether startups survive or stall, drawn from repeated failure modes and what actually works in the wild."
+pubDate: "2025-06-09"
 heroImage: "/images/writing/hardest-startup-lessons.png"
 heroAlt: "Minimal abstract composition suggesting iteration, pressure, and forward motion"
-tags: ["Startups", "Product", "Execution", "Strategy"]
+tags: ["Signal", "Startups", "Execution"]
+tier: "tier-2"
 ---
 
 Over the past two decades, I’ve worked alongside founders building everything from consumer apps to deep technical platforms.
@@ -15,6 +16,7 @@ Some lessons land once. Others repeat until they become unavoidable.
 
 These are the ones that keep showing up.
 
+---
 ## 1. Release early
 
 Get something real into the world before you convince yourself it’s ready.
@@ -25,6 +27,7 @@ People forgive minimal. They do not forgive instability.
 
 Speed here is not about pace for its own sake. It is about exposure to truth. The sooner users touch it, the sooner your assumptions start to break in useful ways.
 
+---
 ## 2. Keep the surface moving
 
 The first version is a beginning, not a milestone.
@@ -37,6 +40,7 @@ Consistency compounds. The act of shipping becomes easier, and the product start
 
 When something feels “done,” it is usually under-imagined.
 
+---
 ## 3. Make users feel it
 
 Satisfaction is neutral. Growth requires something stronger.
@@ -47,6 +51,7 @@ Clarity matters more than positioning. Put the most valuable action directly in 
 
 Show first. Explain later.
 
+---
 ## 4. Fear the right things
 
 Most founders worry about the wrong enemies.
@@ -60,6 +65,7 @@ Ignoring what users are telling you because it conflicts with your plan.
 
 Almost every initial idea is incomplete. The ones that survive adjust in response to what the market reveals.
 
+---
 ## 5. Commitment creates gravity
 
 Intelligence helps. It does not carry the company.
@@ -72,6 +78,7 @@ It becomes easier to build momentum when people believe you are not leaving.
 
 Stay flexible in direction. Stay fixed in intent.
 
+---
 ## 6. There is always room
 
 Every generation believes the market is full.
@@ -84,6 +91,7 @@ Search did not end with one engine. Social did not end with one network. New for
 
 The constraint is not how many companies can exist. It is how many can produce something that actually matters.
 
+---
 ## 7. Guard your optimism
 
 Optimism is necessary. It is also dangerous if left unprotected.
@@ -98,6 +106,7 @@ Operate as if nothing is real until it is.
 
 Paradoxically, this stance makes outcomes more likely. Detachment creates leverage.
 
+---
 ## Speed, not money
 
 If money is the only goal, there are easier paths.

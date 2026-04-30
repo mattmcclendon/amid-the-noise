@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "My “Passengers” Moment"
-subtitle: "It Didn’t Take 240 Years to Wake Up — Just the Truth I Couldn’t Outrun"
-description: "The story I thought I wanted was somewhere in the future. It turns out I was already living it. This is what it means to wake up inside your own life."
-pubDate: 2025-07-26
+subtitle: "Waking up inside your own life"
+description: "The story I thought I needed was somewhere in the future. It turns out I was already living it. This is what it means to wake up inside your own life."
+pubDate: "2025-07-26"
 heroImage: "/images/writing/passengers-moment.png"
 heroAlt: "A solitary figure sitting upright in a softly lit room just after waking, symbolizing awareness, return, and the moment of personal clarity"
-tags: ["Sovereign Reflection", "Recovery", "Voice"]
+tags: ["Reflection", "Recovery", "Voice"]
+tier: "tier-2"
 ---
 
 I used to think it was Jennifer Aniston.

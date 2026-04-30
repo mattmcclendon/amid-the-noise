@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Signal Integrity"
-subtitle: "AI Risk, Misinterpretation, and Governance Under Adversarial Conditions"
-description: "Examines how AI amplifies both signal and distortion under adversarial conditions. Defines the governance controls needed to detect drift, resist manipulation, and maintain alignment between data and reality."
-pubDate: 2026-02-24
-heroImage:
-heroAlt:
-tags: ["Intelligence", "AI Governance", "Signal Integrity"]
+subtitle: "Trust under adversarial conditions"
+description: "AI amplifies both signal and distortion. This paper defines how governance detects drift, resists manipulation, and preserves alignment between data and reality under pressure."
+pubDate: "2026-02-24"
+heroImage: ""
+heroAlt: ""
+tags: ["Signal", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
 
 ## Foreword
@@ -34,7 +35,6 @@ Not as a technical feature.
 As a governance obligation.
 
 ---
-
 ## Executive Summary
 
 AI-assisted intelligence systems operate in environments where signals are:
@@ -64,7 +64,6 @@ The objective is to establish:
 A governance framework that preserves signal fidelity under conditions of pressure, ambiguity, and adversarial manipulation.
 
 ---
-
 ## I. The Nature of Signal Corruption
 
 Signal corruption occurs when observed data diverges from underlying reality in ways that are not immediately visible.
@@ -90,7 +89,6 @@ This creates a dangerous condition:
 Systems that are wrong, but appear correct.
 
 ---
-
 ## II. AI as a Force Multiplier of Distortion
 
 AI does not distinguish between signal and distortion.
@@ -115,7 +113,6 @@ This is not a failure of the model.
 It is a failure of control.
 
 ---
-
 ## III. Feedback Loops and Systemic Drift
 
 AI-enabled intelligence systems are not static.
@@ -144,7 +141,6 @@ By the time it is visible, it is already embedded.
 Without detection and intervention, drift becomes institutionalized and indistinguishable from intended system behavior.
 
 ---
-
 ## IV. Adversarial Manipulation of Signal
 
 In modern threat environments, signals are not neutral.
@@ -171,7 +167,6 @@ They only need to influence interpretation.
 Partial distortion is sufficient to alter outcomes when systems rely on probabilistic interpretation.
 
 ---
-
 ## V. Institutional Overfitting
 
 Institutions develop patterns of interpretation over time.
@@ -195,7 +190,6 @@ Systems that are highly effective at detecting yesterday’s threats.
 And systematically less effective at recognizing emerging or novel threats.
 
 ---
-
 ## VI. Governance for Signal Integrity
 
 Signal integrity must be enforced.
@@ -285,7 +279,6 @@ Escalation must lead to:
 - potential pause in automated processes  
 
 ---
-
 ## VII. Integration with Human and Civic Signals
 
 Signal integrity cannot be maintained through technical systems alone.
@@ -308,7 +301,6 @@ Signal integrity is therefore:
 A function of system design, human interpretation, and societal feedback.
 
 ---
-
 ## VIII. Failure Modes Without Integrity Governance
 
 Without enforcement, systems will:
@@ -324,7 +316,6 @@ These failures scale.
 They become embedded in institutional behavior.
 
 ---
-
 ## IX. Strategic Outcomes
 
 Enforcing signal integrity produces:
@@ -340,7 +331,6 @@ Integrity is not a constraint.
 It is a condition for effectiveness.
 
 ---
-
 ## Conclusion: Integrity Defines Trustworthiness
 
 Detection is not enough.

@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Hard-Won Moment"
-subtitle: ""
-description: "On recognizing the present as something earned, and the responsibility that follows."
-pubDate: 2026-01-27
-heroImage: /images/writing/hard-won-moment.jpg
+subtitle: "The present is not neutral"
+description: "The present is not a default state. It is the result of accumulated effort, conflict, and survival. Recognizing that changes what we owe it."
+pubDate: "2026-01-27"
+heroImage: "/images/writing/hard-won-moment.jpg"
 heroAlt: "A coastal town at dusk beneath an active volcano, smoke rising as lights begin to glow along the shoreline."
-tags: ["Reflection", "Progress", "Responsibility"]
+tags: ["Reflection", "Responsibility", "History"]
+tier: "tier-2"
 ---
 
 A line from *The White Lotus* (Season Two) stayed with me.

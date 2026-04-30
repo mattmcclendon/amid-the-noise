@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Reclaiming Signal"
-subtitle: ""
-description: "You don’t escape the system. You learn how to move within it without surrendering your judgment."
-pubDate: 2026-07-09
+subtitle: "Holding uncertainty past the point of comfort"
+description: "You don’t escape the system. You learn how to move within it without surrendering your judgment, even when clarity arrives too easily."
+pubDate: "2026-07-09"
 heroImage: "/images/writing/reclaiming-signal.png"
 heroAlt: "A narrow maritime channel with several ships aligned in formation while one vessel subtly diverges from the path, suggesting quiet deviation within constraint."
-tags: ["Signal and Trust", "Civic Systems and Dignity", "Sovereign Reflection"]
+tags: ["Signal", "Systems Thinking", "Decision Design"]
+tier: "tier-1"
 ---
 
 Most people reach a point where something no longer feels right, even if they cannot immediately explain why.

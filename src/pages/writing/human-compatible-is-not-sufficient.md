@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Human Compatible Is Not Sufficient"
-subtitle: "On alignment, ambiguity, and the systems we actually build"
+subtitle: "Alignment breaks at the point of use"
 description: "Alignment is necessary, but it does not survive contact with real systems without governance, interpretation, and human judgment."
-pubDate: 2026-04-30
-author: "Matthew McClendon"
-tags: ["AI & Decision Systems", "Governance", "Signal", "Systems Thinking"]
+pubDate: "2026-04-30"
 heroImage: "/images/writing/human-compatible-is-not-sufficient.png"
 heroAlt: "Operator observing AI system dashboards with warning signals and fluctuating data visualizations in a dark environment"
+tags: ["Signal", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
 
 Human Compatible remains one of the clearest articulations of the alignment problem in modern AI.

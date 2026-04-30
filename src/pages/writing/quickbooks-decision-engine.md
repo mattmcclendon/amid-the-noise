@@ -1,13 +1,15 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "What a Decision System Actually Requires"
-subtitle: "Reframing small business finance as a system of judgment under uncertainty"
-description: "AI will not transform accounting by adding features. It will transform it by turning records into decisions, and software into a system of reasoning."
-pubDate: 2026-06-09
-heroImage: /images/writing/quickbooks-decision-engine.png
+subtitle: "From records to decisions under uncertainty"
+description: "AI will not transform accounting by adding features. It will transform it by turning records into decisions and software into a system of reasoning."
+pubDate: "2026-06-09"
+heroImage: "/images/writing/quickbooks-decision-engine.png"
 heroAlt: "Abstract transition from financial records to forward-looking decision signals"
-tags: ["AI Systems", "Fintech", "Decision Design"]
+tags: ["Signal", "Systems Thinking", "Decision Design"]
+tier: "tier-1"
 ---
+
 Most small business software answers the wrong question.
 
 It answers:
@@ -31,7 +33,6 @@ It surfaces signals, trends, and reminders. It does not consistently translate t
 That is not a feature gap. It is a framing problem.
 
 ---
-
 ## The Ledger Is Not the Product
 
 The ledger is a memory system.
@@ -47,7 +48,6 @@ From dashboards to judgments.
 From automation to accountability.
 
 ---
-
 ## From Records to Trajectories
 
 A categorized transaction is a closed loop. It explains the past.
@@ -67,7 +67,6 @@ Not a forecast presented as certainty, but a set of bounded trajectories.
 The operator does not need a prettier report. They need to see the edge they are walking toward.
 
 ---
-
 ## From Dashboards to Judgments
 
 Dashboards assume time, literacy, and emotional distance.
@@ -89,7 +88,6 @@ Each position must be accompanied by reasoning and confidence:
 This is not automation. It is *augmented judgment.*
 
 ---
-
 ## From Automation to Accountability Loops
 
 Automation without visibility creates fragility.
@@ -108,7 +106,6 @@ Without this, trust does not scale.
 At Intuit’s scale, these constraints are not theoretical. They are the product.
 
 ---
-
 ## From Categories to Intent
 
 Traditional bookkeeping reduces activity into predefined buckets.
@@ -133,7 +130,6 @@ Once intent is visible, the system can answer better questions:
 - Where the business is actually investing, not just spending  
 
 ---
-
 ## From Tool to Operating System
 
 In its current form, QuickBooks is a tool within a workflow.
@@ -151,7 +147,6 @@ to:
 *Here is your next move.*
 
 ---
-
 ## The Risk of Getting This Wrong
 
 Financial systems are trust systems.
@@ -167,7 +162,6 @@ QuickBooks succeeds today because it is conservative. It records reality and lim
 A poorly executed AI layer would damage that trust quickly.
 
 ---
-
 ## The Synthesis
 
 Do not replace the ledger. Wrap it with reasoning.

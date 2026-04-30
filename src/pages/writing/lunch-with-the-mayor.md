@@ -1,12 +1,15 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Lunch with the Mayor"
-description: "A quiet lunch turns into something you could not have planned. Presence recognizes presence, and the right conversation finds its way. Let go of forcing it, and the moment arrives anyway."
-pubDate: 2025-10-12
-heroImage: /images/writing/lunch-with-the-mayor.jpg
+subtitle: "Presence recognizes presence"
+description: "An unexpected lunch becomes a conversation about identity, visibility, and what it means to become someone the room can recognize."
+pubDate: "2025-10-12"
+heroImage: "/images/writing/lunch-with-the-mayor.jpg"
 heroAlt: "Le Central in San Francisco, CA"
-tags: ["Reflection", "Presence", "Alignment"]
+tags: ["Reflection", "Presence", "Identity"]
+tier: "tier-2"
 ---
+
 I went to celebrate a birthday with an old friend—the cassoulet at Le Central—and ended up sharing a table with a living legend.
 
 Le Central has always been my place. A French restaurant where the servers still wear ties and nothing needs to prove itself. No reinvention, no theater. Just San Francisco: brass fixtures, dark wood, the soft clatter of plates.
@@ -63,7 +66,7 @@ I stayed a while longer. The last of the Badoit still rising, still precise. Tin
 
 At ninety-one, he is still in motion. Still showing up. Still finding someone to share the table.
 
-. . . .
+---
 
 People talk about attraction as if it’s a mechanism. It feels closer to alignment.
 

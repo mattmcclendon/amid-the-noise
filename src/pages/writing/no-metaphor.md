@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "No Metaphor"
-description: "On the difference between performing clarity and actually living it."
-pubDate: 2025-12-04
-heroImage: /images/writing/no-metaphor.jpg
+subtitle: "Clarity without performance"
+description: "Clarity is not something you describe. It is something you live. A reflection on presence, honesty, and the cost of performing understanding."
+pubDate: "2025-12-04"
+heroImage: "/images/writing/no-metaphor.jpg"
 heroAlt: "Sunrise over a suspension bridge, casting direct light across calm water"
 tags: ["Reflection", "Presence", "Clarity"]
+tier: "tier-2"
 ---
 
 The sunrise this morning was direct. No metaphor, no hidden meaning, no performance. Just light breaking a horizon that didn’t need me to interpret it. There’s something steadying about that kind of honesty.

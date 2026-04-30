@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Seven Months"
-description: "On clarity, momentum, and the quiet work of getting back on track."
-pubDate: 2025-11-26
-heroImage: /images/writing/seven-months.jpg
+subtitle: "Momentum built quietly"
+description: "Recovery compounds through small, consistent choices. Clarity returns first, then direction, then momentum."
+pubDate: "2025-11-26"
+heroImage: "/images/writing/seven-months.jpg"
 heroAlt: "Quiet train platform at sunrise with long shadows and a distant light at the end of the tracks"
 tags: ["Reflection", "Recovery", "Momentum"]
+tier: "tier-2"
 ---
 
 Seven months ago I made a decision to get back on track with my life. It was not dramatic. It was not loud. It was a simple choice to step in the right direction, one small move at a time.

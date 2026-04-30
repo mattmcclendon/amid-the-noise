@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Confessions of a Literary Pickpocket"
-subtitle: "A Story of How Mark Twain and the Em Dash Ruined My Life in the Best Way Possible"
+subtitle: "Influence, voice, and earned permission"
 description: "Influence is not theft. It is transformation. A reflection on Mark Twain, voice, and the small acts of rebellion that shape how we write."
-pubDate: 2025-07-26
+pubDate: "2025-07-26"
 heroImage: "/images/writing/literary-pickpocket.png"
 heroAlt: "A vintage-style portrait of a writer facing a fountain pen across a bold ink stroke, symbolizing influence, authorship, and the evolution of voice"
-tags: ["Writing", "Sovereign Reflection", "Voice"]
+tags: ["Signal", "Writing", "Voice"]
+tier: "tier-2"
 ---
 
 It started the way most dangerous things do.
@@ -19,6 +20,7 @@ I expected jokes.
 
 I left with a grin and a problem.
 
+---
 ## The Break-In
 
 Twain did not write English.
@@ -39,6 +41,7 @@ A mark that did not pause.
 
 It pivoted.
 
+---
 ## A New Kind of Permission
 
 Punctuation had always felt like rules.
@@ -59,6 +62,7 @@ One line at a time, I learned something else.
 
 You do not need permission to sound like yourself.
 
+---
 ## Influence Without Apology
 
 Every artist borrows.
@@ -77,6 +81,7 @@ That is not theft.
 
 That is construction.
 
+---
 ## The Accusation
 
 At some point, someone called me a literary pickpocket.
@@ -87,6 +92,7 @@ I did not argue.
 
 There are worse things than learning from people who knew what they were doing.
 
+---
 ## What Stays
 
 That mark I found years ago was never the point.
@@ -101,6 +107,7 @@ It assembles itself over time.
 
 From influence. From friction. From small acts of defiance that add up to something consistent.
 
+---
 ## The Work
 
 If you take anything from this, let it be simple.

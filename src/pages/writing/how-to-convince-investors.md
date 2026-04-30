@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "How to Convince Investors"
-subtitle: "Why confidence starts with proof, not pitch"
-description: "Conviction comes from truth. The pitch is just the surface."
-pubDate: 2025-06-05
+subtitle: "Proof before pitch"
+description: "Conviction comes from truth. Fundraising works when the substance is already there and the pitch becomes translation."
+pubDate: "2025-06-05"
 heroImage: "/images/writing/how-to-convince-investors.png"
 heroAlt: "Minimal abstract composition showing signal strengthening into clarity and alignment"
-tags: ["Startups", "Fundraising", "Strategy", "Founders"]
+tags: ["Signal", "Startups", "Fundraising"]
+tier: "tier-2"
 ---
 
 Most founders think persuasion happens in the room.
@@ -17,6 +18,7 @@ By the time you’re pitching, the real work should already be done.
 
 Trying to convince investors with performance instead of substance is the startup version of lifting with your back. It looks forceful. It fails under pressure.
 
+---
 ## Start with something real
 
 The strongest pitches don’t begin with slides.
@@ -29,6 +31,7 @@ If that foundation is weak, no amount of polish compensates for it.
 
 If it’s strong, the pitch becomes a translation exercise.
 
+---
 ## What investors are actually doing
 
 They are not looking for good companies.
@@ -41,6 +44,7 @@ It’s not just whether the product works. It’s whether it could become domina
 
 You are being placed inside a very small set of possibilities.
 
+---
 ## Formidable doesn’t mean loud
 
 Investors decide quickly whether to take you seriously.
@@ -55,6 +59,7 @@ Know your space. Know your numbers. Answer directly. Don’t stretch.
 
 Confidence that comes from understanding lands differently than confidence that tries to perform.
 
+---
 ## Convince yourself first
 
 If you’re not clear on why your company is worth funding, the conversation will expose it.
@@ -67,6 +72,7 @@ What have you seen that others haven’t?
 
 If those answers are solid, you don’t have to reach for conviction. It’s already there.
 
+---
 ## The shape of the opportunity
 
 Investors think in paths, not snapshots.
@@ -81,6 +87,7 @@ How it expands
 
 Not as a story, but as a sequence that makes sense.
 
+---
 ## Handle doubt directly
 
 Rejection is part of the signal.
@@ -91,6 +98,7 @@ If investors have passed, explain why. Then explain why they’re wrong, or why 
 
 That shift moves you from defensive to in control.
 
+---
 ## Drop the performance
 
 Fundraising isn’t theater.
@@ -103,6 +111,7 @@ If you can explain what you’re building and why it becomes important in a few 
 
 If you can’t, that’s the work.
 
+---
 ## What this really comes down to
 
 There isn’t a trick here.

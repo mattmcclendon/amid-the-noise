@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Most Software Was Never Designed to Decide"
-subtitle: ""
-description: "Software has crossed from recording and recommending into deciding, but most systems were never designed to handle the responsibility that shift requires."
-pubDate: 2026-06-04
+subtitle: "When systems cross into responsibility"
+description: "Software has moved from recording and recommending into deciding, but most systems were never designed to handle the responsibility that shift requires."
+pubDate: "2026-06-04"
 heroImage: "/images/writing/most-software-was-never-designed-to-decide.png"
 heroAlt: "Minimal abstract transition from structured data systems to decision-making environments under uncertainty"
-tags: ["AI Systems", "Decision Systems", "Systems Thinking", "Trust"]
-dropcap: false
+tags: ["Signal", "Systems Thinking", "Decision Design"]
+tier: "tier-1"
 ---
 
 Software was built to record, capturing inputs, organizing them, and producing outputs that a human could interpret. The boundary was clear: the system handled structure, and the human handled judgment. That model worked because responsibility never moved.

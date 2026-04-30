@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Measuring Signal Integrity"
-subtitle: "Metrics, Misclassification, and Trust in AI-Mediated Intelligence Systems"
-description: "Defines how signal integrity is quantified and monitored in AI-mediated intelligence systems, establishing metrics for accuracy, misclassification, drift, and trust as components of operational control."
-pubDate: 2026-03-17
-heroImage:
-heroAlt:
-tags: ["Intelligence", "AI Governance", "Metrics"]
+subtitle: "What accuracy actually requires"
+description: "Signal integrity is not inferred from output volume or speed. It is measured through error, drift, distortion, and alignment with reality over time."
+pubDate: "2026-03-17"
+heroImage: ""
+heroAlt: ""
+tags: ["Signal", "Systems Thinking", "Metrics"]
+tier: "tier-1"
 ---
 
 ## Foreword
@@ -28,7 +29,6 @@ Each must be measured.
 This paper defines how signal integrity is quantified, monitored, and improved within AI-mediated intelligence systems.
 
 ---
-
 ## Executive Summary
 
 Human-governed intelligence systems require measurable indicators of performance, integrity, and impact.
@@ -63,7 +63,6 @@ It argues that:
 The objective is to define a measurable system of control.
 
 ---
-
 ## I. The Limits of Traditional Metrics
 
 Conventional intelligence metrics prioritize:
@@ -89,7 +88,6 @@ They measure activity.
 They do not measure accuracy.
 
 ---
-
 ## II. Defining Signal Integrity
 
 Signal integrity is the degree to which intelligence outputs reflect underlying reality without distortion.
@@ -106,7 +104,6 @@ Signal integrity answers a core question:
 Are we seeing the system accurately, or are we seeing the system through the lens of our own distortions?
 
 ---
-
 ## III. Classification Metrics
 
 ### 1. Error Distribution
@@ -156,7 +153,6 @@ Confidence is not truth.
 It must be validated.
 
 ---
-
 ## IV. Signal Integrity Indicators
 
 ### 1. Drift Detection
@@ -204,7 +200,6 @@ Indicators include:
 - rapid shifts in classification following coordinated activity  
 
 ---
-
 ## V. Analyst Interaction Metrics
 
 Human interaction is a critical signal.
@@ -246,7 +241,6 @@ Latency must be balanced against accuracy.
 Speed without accuracy is risk.
 
 ---
-
 ## VI. Trust and Signal Proxies
 
 Trust is not directly measurable.
@@ -286,7 +280,6 @@ Analyze:
 Narrative change affects signal interpretation.
 
 ---
-
 ## VII. Metrics as Control System
 
 Measurement must drive action.
@@ -328,7 +321,6 @@ Measurement without response is observation.
 Not control.
 
 ---
-
 ## VIII. Failure Modes Without Measurement
 
 Without structured metrics, systems will:
@@ -344,7 +336,6 @@ These failures are systemic.
 They compound over time.
 
 ---
-
 ## IX. Strategic Outcomes
 
 Effective measurement produces:
@@ -360,7 +351,6 @@ Metrics enable governance.
 Governance enables accuracy.
 
 ---
-
 ## Conclusion: What Is Not Measured Cannot Be Controlled
 
 AI-mediated intelligence systems operate at a scale where error is not immediately visible.

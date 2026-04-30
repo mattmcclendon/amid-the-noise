@@ -1,15 +1,14 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Reading Between the Lines"
-subtitle: "How Narcissistic Abuse Hides in Plain Sight"
-description: "Real messages, real tactics, and the psychological patterns that define narcissistic abuse—plus how to begin recovery."
-pubDate: 2025-07-17
+subtitle: "How manipulation hides in ordinary messages"
+description: "Real exchanges reveal how subtle tactics create confusion, dependency, and control. This piece names the patterns and outlines a path to recovery."
+pubDate: "2025-07-17"
 heroImage: "/images/writing/reading-between-the-lines.png"
 heroAlt: "A smartphone in a minimalist space displays abstracted message fragments that drift and misalign, suggesting confusion, inconsistency, and emotional signal loss"
-tags: ["Sovereign Reflection", "Recovery", "Psychological Abuse"]
+tags: ["Recovery", "Psychology", "Abuse"]
+tier: "tier-2"
 ---
-
-## Introduction
 
 Narcissistic abuse rarely announces itself.
 
@@ -19,6 +18,7 @@ This piece is built from a real relationship. The names do not matter. The patte
 
 If you have ever felt whiplash from affection followed by silence, or guilt for expecting consistency, this is for you.
 
+---
 ## The Messages and the Manipulation
 
 Below are real exchanges, paired with what they communicate beneath the surface.
@@ -78,7 +78,6 @@ This is not miscommunication.
 It is narrative control.
 
 ---
-
 ## When the Pattern Speaks
 
 These are not isolated moments.
@@ -97,6 +96,7 @@ This is not overreaction.
 
 It is conditioning.
 
+---
 ## The Mechanism
 
 Intermittent reinforcement is one of the strongest behavioral conditioning systems we know.
@@ -109,6 +109,7 @@ The function is not connection.
 
 The function is access.
 
+---
 ## Beginning Recovery
 
 Breaking a trauma bond is not only emotional.
@@ -133,6 +134,7 @@ It is biological.
 6. **Expect withdrawal symptoms**  
    Restlessness, confusion, and urgency are part of the reset.
 
+---
 ## Cutting Contact
 
 Clarity is enough.
@@ -149,6 +151,7 @@ Healing requires one shift:
 
 Stop translating their silence.
 
+---
 ## Final Word
 
 You were not responding to a person.

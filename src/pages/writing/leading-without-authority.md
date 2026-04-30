@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Leading Without Authority"
-subtitle: "Why influence outlasts orders — and credibility is earned"
-description: "A reflection on leadership, relationships, and systems design, exploring why modeled behavior creates lasting influence while authority alone falls short."
-pubDate: 2025-08-17
+subtitle: "Influence outlasts instruction"
+description: "Authority directs behavior. Influence changes it. A reflection on leadership, relationships, and systems that model behavior instead of enforcing it."
+pubDate: "2025-08-17"
 heroImage: "/images/writing/leading-without-authority.png"
 heroAlt: "Two minimal figures in a quiet architectural space, one elevated on steps and one below, symbolizing the difference between authority and influence"
-tags: ["Leadership", "Systems Thinking", "Sovereign Reflection"]
+tags: ["Signal", "Leadership", "Systems Thinking"]
+tier: "tier-1"
 ---
 
 I used to think I was being helpful.
@@ -55,6 +56,7 @@ Authority speaks.
 
 Influence acts.
 
+---
 ## The Human Lesson
 
 The gap between telling and showing is easiest to see in parenting.
@@ -93,6 +95,7 @@ Modeled behavior outlasts instruction.
 
 Influence is earned through demonstration.
 
+---
 ## The National Lesson
 
 This dynamic scales.
@@ -123,6 +126,7 @@ The Example Principle holds.
 
 Influence grows when practice aligns with principle.
 
+---
 ## The Machine Lesson
 
 This raises a different question.
@@ -159,6 +163,7 @@ Without visibility, authority hardens.
 
 With it, influence becomes possible.
 
+---
 ## The Design Lesson
 
 For those building systems, this distinction matters.
@@ -197,6 +202,7 @@ Defaulting to digital delivery. Reducing friction in responsible choices. Explai
 
 Behavior shifts when systems model it.
 
+---
 ## The Personal Return
 
 Shifting from authority to influence changed more than how I lead.
@@ -223,6 +229,7 @@ Not in silence as absence.
 
 In silence as choice.
 
+---
 ## The Call
 
 Where are you relying on authority?

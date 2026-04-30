@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Healing, Not Blame"
-subtitle: ""
-description: "Recovery does not begin with exposing what they did. It begins with taking responsibility for what you allowed, ignored, and chose—and reclaiming your agency from it."
-pubDate: 2025-07-17
+subtitle: "Ownership as the start of recovery"
+description: "Recovery does not begin with exposing what they did. It begins with taking responsibility for what you allowed, ignored, and chose, and reclaiming your agency from it."
+pubDate: "2025-07-17"
 heroImage: "/images/writing/healing-not-blame.png"
 heroAlt: "A lone figure walking forward into light while a fragmented silhouette dissolves behind them, symbolizing release, accountability, and personal healing"
-tags: ["Recovery", "Sovereign Reflection", "Emotional Sobriety"]
+tags: ["Recovery", "Reflection", "Agency"]
+tier: "tier-2"
 ---
 
 “You are not what they did to you. You are what you choose to become afterward.”  
@@ -42,6 +43,7 @@ It is a declaration.
 
 It is the clean slate that comes after the burn.
 
+---
 ## Here’s what I own
 
 ### I Own That I Chose to Stay
@@ -126,6 +128,7 @@ I thought one more conversation, one more gesture, one more act of forgiveness m
 
 It only extended the timeline.
 
+---
 ## I Own My Healing
 
 This is where the narrative shifts.

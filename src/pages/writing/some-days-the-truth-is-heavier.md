@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Some Days the Truth Is Heavier"
-description: "On public cruelty, systemic neglect, and the quiet weight of what we choose not to fix."
-pubDate: 2025-12-02
-heroImage: /images/writing/some-days-the-truth-is-heavier.jpg
+subtitle: "When neglect becomes visible"
+description: "Public cruelty rarely appears in isolation. It emerges from systems left unattended long enough for indifference to take hold."
+pubDate: "2025-12-02"
+heroImage: "/images/writing/some-days-the-truth-is-heavier.jpg"
 heroAlt: "Empty subway platform with a person sleeping on a bench as a train passes"
-tags: ["Reflection", "Civic Systems", "Dignity"]
+tags: ["Civic Systems", "Dignity", "Power"]
+tier: "tier-2"
 ---
 
 This happened this morning. A man was asleep on a subway car near Times Square, trying to stay warm, and someone set him on fire. Fifty-five years old, unhoused, alone on a moving train. That is the whole story, although the city will find creative ways to make it sound smaller.

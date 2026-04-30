@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Learning From the Outside In"
-subtitle: "How a language app reminded me what I’m capable of"
-description: "Capability isn’t something you’re given. It’s something you step into, often from the outside looking in."
-pubDate: 2025-11-20
+subtitle: "Capability starts at the threshold"
+description: "Capability isn’t given. It’s entered. A reflection on learning, access, and the moment unfamiliar becomes possible."
+pubDate: "2025-11-20"
 heroImage: "/images/writing/learning-from-the-outside-in.png"
 heroAlt: "A soft watercolor skyline seen through a window, with a quiet interior in the foreground"
 tags: ["Reflection", "Growth", "Learning"]
+tier: "tier-2"
 ---
 
 The outsider, as a metaphor, has followed me for most of my life. I used to imagine myself standing outside a lit room, forehead against the glass, watching everyone else move with a fluency I never quite felt. I studied the choreography, understood the rhythms, yet stayed convinced that entry belonged to other people.

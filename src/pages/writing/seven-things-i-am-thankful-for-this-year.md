@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Seven Things I’m Thankful For"
-description: "A reflection on gratitude shaped by clarity, momentum, and quiet growth."
-pubDate: 2025-11-27
-heroImage: /images/writing/seven-things-i-am-thankful-for-this-year.jpg
+subtitle: "Gratitude as orientation"
+description: "Gratitude clarifies direction. A reflection on what holds, what compounds, and what continues to shape the path forward."
+pubDate: "2025-11-27"
+heroImage: "/images/writing/seven-things-i-am-thankful-for-this-year.jpg"
 heroAlt: "Sunlit colonnade with long shadows leading through an arched passage into a park"
-tags: ["Reflection", "Growth", "Clarity"]
+tags: ["Reflection", "Growth", "Gratitude"]
+tier: "tier-3"
 ---
 
 Thanksgiving invites a pause.

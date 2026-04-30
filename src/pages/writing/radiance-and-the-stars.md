@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Radiance and the Stars"
-subtitle: "A Civic Theory in Three Acts"
-description: "From cities to civilizations, every system survives by learning to circulate what it generates."
-pubDate: 2025-10-14
+subtitle: "Circulation is survival"
+description: "From cities to civilizations, systems survive by circulating what they generate. Concentration creates brilliance. Circulation creates continuity."
+pubDate: "2025-10-14"
 heroImage: "/images/writing/radiance-and-the-stars.png"
 heroAlt: "A soft arc of light flowing from a dense cluster into branching paths and fading into a sparse field"
-tags: ["Civic Systems", "Theory", "Systems Thinking"]
+tags: ["Civic Systems", "Systems Thinking", "Theory"]
+tier: "tier-1"
 ---
 
 We often discuss power—who has it, who doesn’t, and how to change its flow. At its core, power is energy: potential waiting for direction. The same laws that rule our cities also govern our stars. When shared, radiance brings life. When hoarded, radiance collapses under its own weight.
@@ -25,7 +26,6 @@ Radiance is not dominance.
 It is stewardship of light.
 
 ---
-
 ## Act I — Atlanta: The Birth of Radiance
 
 Every great system begins with ignition.
@@ -48,7 +48,6 @@ Atlanta’s lesson is that prosperity must behave like light: steady, generous, 
 If Atlanta learns to shine without wearing itself out, it becomes more than a city. It becomes a model for how modern civilization can endure its own pull.
 
 ---
-
 ## Act II — Northern California: The Law of Circulation
 
 Where Atlanta is ignition, the Bay Area is resonance.
@@ -71,7 +70,6 @@ Every radiant body, once self-sustaining, must circulate its energy back through
 When cities learn to breathe, civilizations begin to evolve.
 
 ---
-
 ## Act III — Outward: A Theory of Radiant Expansion
 
 When energy is trapped at the core, the center collapses.

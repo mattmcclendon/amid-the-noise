@@ -1,12 +1,15 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Residual Heat"
-description: "Timing asks for trust more than certainty ever will. Hold on too long and you ruin it, pull too soon and you learn. The right moment rarely feels confident, just clear enough to act."
-pubDate: 2026-02-22
-heroImage: /images/writing/residual-heat.jpg
+subtitle: "Pull before it feels finished"
+description: "Timing asks for trust more than certainty. Leave heat on too long and you ruin it; pull too soon and you learn. The right moment rarely feels confident, just clear enough to act."
+pubDate: "2026-02-22"
+heroImage: "/images/writing/residual-heat.jpg"
 heroAlt: "a perfectly cooked frittata"
 tags: ["Reflection", "Timing", "Judgment"]
+tier: "tier-2"
 ---
+
 I made a frittata last night.
 
 Nothing fancy. Onion, a little too much garlic, eggs, cremoso, a few jalapeños. Simple food, simple tools. Somehow it felt like an event.

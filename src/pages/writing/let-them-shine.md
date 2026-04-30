@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Let Them Shine"
-description: "On allowing others to exist without correction, and the quiet dignity of unfiltered joy."
-pubDate: 2025-10-14
-heroImage: /images/writing/let-them-shine.jpg
+subtitle: "Joy doesn’t need correction"
+description: "Joy doesn’t require understanding to be respected. A reflection on allowing others to exist without correction and the dignity of unfiltered expression."
+pubDate: "2025-10-14"
+heroImage: "/images/writing/let-them-shine.jpg"
 heroAlt: "An empty park bench at sunrise, bathed in warm light with a quiet path leading forward"
 tags: ["Reflection", "Relationships", "Empathy"]
+tier: "tier-3"
 ---
 
 There’s something beautiful about letting people exist as they are —  

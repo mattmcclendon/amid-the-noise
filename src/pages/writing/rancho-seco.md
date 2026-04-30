@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Rancho Seco"
-subtitle: ""
-description: "A place where a future was built, turned on, and then told to stop."
-pubDate: 2026-05-26
+subtitle: "A future that was told to stop"
+description: "Two energy systems share the same ground. One built for permanence, the other for replacement. The difference is not technology. It is trust."
+pubDate: "2026-05-26"
 heroImage: "/images/writing/rancho-seco.png"
 heroAlt: "Rancho Seco with solar panels in the foreground and the remaining nuclear structures in the distance"
-tags: ["Energy", "Infrastructure", "Systems", "California"]
+tags: ["Civic Systems", "Infrastructure", "Energy"]
+tier: "tier-1"
 ---
 
 I took this photo standing just outside the fence line.

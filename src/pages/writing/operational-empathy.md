@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Operational Empathy"
-subtitle: "Why Humane Systems Outperform Cruel Ones"
+subtitle: "Friction is a design choice"
 description: "Empathy is not a personality trait in system design. It is an operational choice that determines whether systems scale or collapse under their own friction."
-pubDate: 2026-01-27
+pubDate: "2026-01-27"
 heroImage: "/images/writing/operational-empathy.png"
 heroAlt: "A minimalist abstract system showing rigid angular paths on one side and smooth flowing curves on the other"
-tags: ["UX", "Systems", "Empathy", "Design"]
+tags: ["Signal", "Systems Thinking", "UX"]
+tier: "tier-1"
 ---
 
 Empathy is often treated as a personality trait. In system design, it is an operational choice.

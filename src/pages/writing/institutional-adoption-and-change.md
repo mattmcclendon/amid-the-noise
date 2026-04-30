@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Institutional Adoption and Change"
-subtitle: "Embedding Human-Governed Intelligence Systems into Organizational Practice"
-description: "Defines how human-governed intelligence systems are adopted and sustained within institutions, aligning incentives, leadership behavior, training, and culture with governance and accuracy."
-pubDate: 2026-04-07
-heroImage:
-heroAlt:
-tags: ["Intelligence", "AI Governance", "Institutions"]
+subtitle: "Where systems succeed or fail"
+description: "Intelligence systems do not fail in theory. They fail in institutions. This paper defines how governance, incentives, leadership, and culture determine whether systems are adopted or bypassed."
+pubDate: "2026-04-07"
+heroImage: ""
+heroAlt: ""
+tags: ["Signal", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
 
 ## Foreword
@@ -35,7 +36,6 @@ These factors determine whether new systems are used, resisted, or bypassed.
 This paper defines how governed intelligence systems are adopted and sustained in practice.
 
 ---
-
 ## Executive Summary
 
 Human-governed intelligence systems require institutional alignment to succeed.
@@ -60,7 +60,6 @@ It argues that:
 The objective is to define how governed intelligence systems become standard practice.
 
 ---
-
 ## I. The Adoption Problem
 
 New systems fail not because they are ineffective.
@@ -85,7 +84,6 @@ The result is predictable:
 Systems are technically available, but operationally unused.
 
 ---
-
 ## II. Principles of Institutional Adoption
 
 ### 1. Demonstrated Value Before Mandate
@@ -163,7 +161,6 @@ Institutions evolve.
 Systems must evolve with them.
 
 ---
-
 ## III. Phased Adoption Model
 
 Institutional adoption occurs in phases.
@@ -195,7 +192,6 @@ Institutional adoption occurs in phases.
 Adoption is complete when systems are no longer perceived as new.
 
 ---
-
 ## IV. Training and Capability Development
 
 Adoption requires capability.
@@ -238,7 +234,6 @@ Leaders must understand:
 Leadership ignorance undermines adoption.
 
 ---
-
 ## V. Cultural Factors
 
 Institutional culture shapes behavior.
@@ -278,7 +273,6 @@ to:
 This aligns behavior with governance.
 
 ---
-
 ## VI. Governance as Practice
 
 Governance must be:
@@ -298,7 +292,6 @@ Governance is not a policy.
 It is a practice.
 
 ---
-
 ## VII. Failure Modes of Adoption
 
 Without deliberate management, adoption will fail through:
@@ -312,7 +305,6 @@ Without deliberate management, adoption will fail through:
 These failures reinforce existing systems.
 
 ---
-
 ## VIII. Strategic Outcomes
 
 Effective adoption produces:
@@ -326,7 +318,6 @@ Effective adoption produces:
 Adoption determines whether systems succeed.
 
 ---
-
 ## Conclusion: Institutions Determine Outcomes
 
 Systems define capability.

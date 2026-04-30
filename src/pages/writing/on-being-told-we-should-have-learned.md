@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "On Being Told We Should Have Learned"
-subtitle: "A brief meditation on authority, tone, and moral drift"
+subtitle: "When language normalizes harm"
 description: "Moral drift rarely announces itself. It arrives in calm sentences, delivered without urgency, until implication replaces command."
-pubDate: 2026-01-18
+pubDate: "2026-01-18"
 heroImage: "/images/writing/on-being-told-we-should-have-learned.png"
 heroAlt: "A minimalist pale landscape with a wall casting a long shadow and faint quotation marks"
-tags: ["Poetry", "Power", "Language", "Civic Systems"]
+tags: ["Civic Systems", "Power", "Language"]
+tier: "tier-2"
 ---
 
 They say it softly now.  

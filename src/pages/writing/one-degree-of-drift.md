@@ -1,12 +1,15 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "One Degree of Drift"
-description: "How small deviations compound into destiny, and why systems that stop learning eventually defend the wrong course."
-pubDate: 2026-04-17
-heroImage: /images/writing/one-degree-of-drift.jpg
+subtitle: "How small deviations become destiny"
+description: "Small deviations rarely announce themselves. Over time, they compound into direction, culture, and outcome, especially in systems that stop learning."
+pubDate: "2026-04-17"
+heroImage: "/images/writing/one-degree-of-drift.jpg"
 heroAlt: "A ship at sea at dawn viewed from a navigation console, with a radar display showing a slight deviation from its intended course."
-tags: ["Systems Thinking", "Leadership", "AI & Decision Systems"]
+tags: ["Signal", "Systems Thinking", "Leadership"]
+tier: "tier-1"
 ---
+
 I design and lead systems where small decisions compound under real-world pressure.
 
 I came of age professionally at the edge of something that had never existed before.
