@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Only Metric"
-pubDate: 2026-04-29
-description: "On one year of sobriety, and why the only metric that has ever really mattered is 24 hours."
-author: "Matthew McClendon"
-tags: ["Recovery", "Reflection", "Agency"]
+subtitle: "Twenty-four hours at a time"
+description: "Sobriety does not fail in years. It fails in moments. A reflection on recovery, presence, and why the only metric that matters is today."
+pubDate: "2026-04-29"
 heroImage: "/images/writing/the-only-metric.png"
 heroAlt: "A cluster of partially melted candles on a dark slate surface, their uneven flames casting a warm glow over hardened layers of wax"
+tags: ["Recovery", "Agency", "Reflection"]
+tier: "tier-1"
 ---
 
 Today marks one year of sobriety.

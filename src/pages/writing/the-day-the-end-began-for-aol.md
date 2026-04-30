@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Day the End Began for AOL"
-subtitle: "How a bet against broadband ended an empire."
-description: "Companies rarely die from lack of money. They die from a lack of courage to embrace what comes next."
-pubDate: 2025-09-30
+subtitle: "When protecting the present killed the future"
+description: "Companies rarely fail from a lack of resources. They fail when they protect the current model instead of investing in what replaces it."
+pubDate: "2025-09-30"
 heroImage: "/images/writing/the-day-the-end-began-for-aol.png"
 heroAlt: "A crowd gathered on a corporate lawn near a large dinosaur statue with a dial-up modem in the foreground"
-tags: ["Technology", "History", "Leadership"]
+tags: ["Signal", "Systems Thinking", "Leadership"]
+tier: "tier-2"
 ---
 
 I miss Netscape. To this day, almost three decades after it began, I still miss working for Netscape. I left after the acquisition but returned for another two years in 2002 to the AOL/Netscape combo. It was during that time period that I recall the following.

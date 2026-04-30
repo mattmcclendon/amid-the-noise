@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Examined Life"
-subtitle: "Why Socrates’ ancient challenge still defines the way we live today"
-description: "The examined life is not the easy one, but it is the only one worth inhabiting."
-pubDate: 2025-10-04
+subtitle: "Looking without escape"
+description: "Examination is not abstract. It is a daily practice of noticing, naming, and refusing to look away from what is true."
+pubDate: "2025-10-04"
 heroImage: "/images/writing/the-examined-life.png"
 heroAlt: "A person sitting quietly by still water facing a faint, distant structure in a pale landscape"
 tags: ["Reflection", "Philosophy", "Recovery"]
+tier: "tier-2"
 ---
 
 Socrates, standing before a jury that would soon condemn him to death, is remembered for saying:

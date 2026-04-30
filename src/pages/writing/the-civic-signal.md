@@ -1,15 +1,13 @@
----
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Civic Signal"
-subtitle: "Reframing the Public as a Participant in Intelligence Systems"
-description: "Positions public trust, sentiment, and engagement as active components of intelligence systems. Shows how disengagement degrades signal quality and how institutions shape the environments they monitor."
-pubDate: 2026-02-17
-heroImage:
-heroAlt:
-tags: ["Intelligence", "AI Governance", "Signal Integrity"]
+subtitle: "Where the public becomes part of the system"
+description: "Intelligence systems do not observe neutral environments. They observe environments shaped by trust, perception, and participation. This paper defines how civic behavior becomes signal."
+pubDate: "2026-02-17"
+heroImage: ""
+heroAlt: ""
+tags: ["Signal", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
-
-## Foreword
 
 Intelligence systems have historically treated the public as an object of observation. Signals are collected, analyzed, and acted upon with limited feedback from the populations those signals represent.
 
@@ -23,6 +21,7 @@ This paper introduces the concept of the civic signal:
 
 Public behavior, perception, and trust as active components of intelligence systems.
 
+---
 ## Executive Summary
 
 Contemporary intelligence frameworks extract information but struggle to interpret the relationship between institutions and the populations they serve.
@@ -42,6 +41,7 @@ Core assertions:
 
 The public is repositioned as a participant in signal formation, not merely its subject.
 
+---
 ## I. The Limits of Extraction-Based Intelligence
 
 Traditional models follow a linear pattern: collect, analyze, act.
@@ -52,6 +52,7 @@ In reality, signal is adaptive. Public behavior shifts in response to surveillan
 
 Observation alters the environment being observed. Systems that ignore this feedback generate blind spots.
 
+---
 ## II. Defining the Civic Signal
 
 The civic signal is a composite layer of context, including:
@@ -67,6 +68,7 @@ How is the system being experienced by the people it observes?
 
 Without this context, interpretation remains incomplete.
 
+---
 ## III. Signal Degradation Through Distrust
 
 Trust functions as infrastructure.
@@ -86,6 +88,7 @@ This produces measurable effects:
 
 Public distrust is not peripheral. It directly reduces intelligence quality.
 
+---
 ## IV. Feedback Loops Between Action and Signal
 
 Intelligence systems shape the environments they observe.
@@ -100,6 +103,7 @@ These outputs return as new inputs.
 
 Without designed feedback loops, systems become reactive to conditions they helped create.
 
+---
 ## V. Designing for Participatory Intelligence
 
 If civic signal exists, it must be intentionally integrated.
@@ -120,6 +124,7 @@ Controlled visibility enables external interpretation without compromising secur
 
 Trust, engagement, and narrative shifts must be treated as system health indicators.
 
+---
 ## VI. Integrating Civic Signal into Analysis
 
 Operational integration requires structural change.
@@ -136,6 +141,7 @@ Share civic signal across intelligence, policy, and civil systems.
 
 Evaluate how actions shift trust, behavior, and narrative context.
 
+---
 ## VII. Failure Modes Without Civic Signal
 
 Absent civic signal, systems will:
@@ -148,6 +154,7 @@ Absent civic signal, systems will:
 
 These failures compound.
 
+---
 ## VIII. Strategic Outcomes
 
 Integrating civic signal produces:
@@ -160,6 +167,7 @@ Integrating civic signal produces:
 
 This is not expansion. It is correction.
 
+---
 ## Conclusion: Intelligence Is Relational
 
 Intelligence systems do not observe neutral environments. They observe environments they influence.

@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Smell of Summer"
-subtitle: ""
-description: "On heat, risk, and the kind of learning that happens before anyone thinks to name it."
-pubDate: 2026-02-03
-heroImage: /images/writing/the-smell-of-summer.jpg
+subtitle: "Learning before language"
+description: "Some lessons arrive before they have names. A reflection on heat, risk, and the early environments that teach us how to move through the world."
+pubDate: "2026-02-03"
+heroImage: "/images/writing/the-smell-of-summer.jpg"
 heroAlt: "A satellite view of Sunset Elementary in Altus, Oklahoma, showing the school buildings and playground where childhood memories took shape."
 tags: ["Reflection", "Memory", "Growth"]
+tier: "tier-2"
 ---
 
 When it got hot in Oklahoma, it really got hot.

@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Ocean Connects Us"
-description: "On memory, tide, and the quiet continuity carried by the sea."
-pubDate: 2025-11-07
-heroImage: /images/writing/the-ocean-connects-us.jpg
+subtitle: "Continuity without contact"
+description: "The ocean carries memory without intention. A reflection on tide, time, and the quiet continuity that binds distant lives."
+pubDate: "2025-11-07"
+heroImage: "/images/writing/the-ocean-connects-us.jpg"
 heroAlt: "A rocky beach in Antibes under a cloudy sky, with waves rolling in and a lone figure walking along the shoreline"
-tags: ["Reflection", "Travel", "Memory"]
+tags: ["Reflection", "Memory", "Travel"]
+tier: "tier-3"
 ---
 
 In Antibes, the beach is made of smooth, rounded stones.

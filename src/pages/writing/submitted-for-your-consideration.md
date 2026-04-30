@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Submitted for Your Consideration…"
-description: "A reflection on signal, audience, and the loss of shared frequency."
-author: "Matthew McClendon"
-pubDate: 2026-04-21
+subtitle: "The loss of shared frequency"
+description: "The problem is not attention. It is fragmentation. When signal can no longer cross audiences, meaning stops traveling."
+pubDate: "2026-04-21"
 heroImage: "/images/writing/submitted-for-your-consideration.png"
 heroAlt: "Black and white alien landscape under a star-filled sky"
-tags: ["media", "culture", "signal", "ai-governance"]
+tags: ["Signal", "Media", "Culture"]
+tier: "tier-1"
 ---
 
 A man sits in a quiet room, reflecting not on what has been lost, but on what has been misplaced.

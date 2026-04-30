@@ -1,17 +1,20 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Triptych for Thanksgiving"
-description: "A light, modern triptych of limericks for the Thanksgiving table."
-pubDate: 2025-11-23
-heroImage: /images/writing/triptych-for-thanksgiving.jpg
+subtitle: "Three light verses for a heavy table"
+description: "A modern triptych of limericks for the Thanksgiving table, holding tension lightly without pretending it isn’t there."
+pubDate: "2025-11-23"
+heroImage: "/images/writing/triptych-for-thanksgiving.jpg"
 heroAlt: "Autumn table centerpiece with pumpkins, candles, and fall leaves arranged for Thanksgiving"
-tags: ["Humor", "Reflection", "Culture"]
+tags: ["Culture", "Humor", "Reflection"]
+tier: "tier-3"
 ---
 
 As we move into Thanksgiving week, I hope we all keep the stress low, the gratitude high, and the smiles genuine. In that spirit, I wrote a triptych of limericks for the occasion.
 
 If these bring you a little warmth or a moment of levity, let me know and I will happily write a few more.
 
+---
 **Triptych for Thanksgiving**
 
 **I. Land Acknowledgment, Lightly**  

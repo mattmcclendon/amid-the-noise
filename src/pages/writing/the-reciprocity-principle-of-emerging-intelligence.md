@@ -1,16 +1,18 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Reciprocity Principle of Emerging Intelligence"
-description: "The way humans interact with AI systems is not contained within the interface. It shapes behavior, reinforces norms, and feeds back into how people treat one another. This paper defines the Reciprocity Principle and its implications for civic systems, national security, and AI design."
-pubDate: 2026-04-11
-heroImage:
-heroAlt: "Abstract depiction of human and machine interaction forming a feedback loop"
-tags: ["AI Governance", "Civic Systems", "Human Behavior"]
+subtitle: "How behavior rehearsed with AI shapes human interaction"
+description: "Interactions with AI do not stay contained within the interface. They train behavior, reinforce norms, and feed back into how people treat one another. This paper defines the Reciprocity Principle and its implications for civic systems, national security, and AI design."
+pubDate: "2026-04-11"
+heroImage: ""
+heroAlt: ""
+tags: ["Signal", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
 
 ## How Treating AI Shapes How We Treat Each Other
 
-
+---
 ## Executive Summary
 
 Artificial intelligence has moved from specialized domains into the daily fabric of civilian and government life. Voice assistants manage family schedules. Large language models answer legal questions. AI-driven systems triage disaster relief requests before a human ever intervenes. The boundary between speaking to a machine and speaking to a person has thinned to the point of behavioral overlap.
@@ -27,6 +29,7 @@ This paper argues for a standards-based approach to embedding civility, empathy,
 > but rudeness might just cost you your humanity.”  
 > — Matthew McClendon, 2016-05-18
 
+---
 ## Introduction
 
 For most of the last century, the etiquette of technology moved in one direction. Humans adapted their behavior to the limitations of machines. Telephone calls required formal greetings because switchboard operators mediated connection. ATMs enforced clipped, stepwise interaction because they lacked conversational nuance. These adjustments were functional, not social.
@@ -43,6 +46,7 @@ The stakes are rising because AI increasingly mediates first contact in critical
 
 Previous communication technologies reshaped norms slowly. AI-mediated interaction is evolving in real time. Without deliberate design, the patterns established now may become defaults that are far harder to reverse later.
 
+---
 ## Glossary and Definitions
 
 ### Digital Civility
@@ -63,6 +67,7 @@ The feedback cycle through which behaviors practiced toward AI reinforce those s
 ### Civility Stabilizer
 An AI system designed to de-escalate hostility and reinforce constructive communication.
 
+---
 ## The Behavioral Science Foundation
 
 The Reciprocity Principle is grounded in conditioning, social learning, and human factors.
@@ -82,6 +87,7 @@ Left unattended, norms drift toward speed over health. AI can accelerate that dr
 ### Convergence with National Security
 Trust is a force multiplier. AI that erodes it weakens cooperation. AI that reinforces it strengthens resilience.
 
+---
 ## Civic and Government Implications
 
 AI is increasingly the front door of public systems.
@@ -101,6 +107,7 @@ Poor AI increases escalation. Good AI reduces friction and preserves human capac
 ### National Security and Crisis Response
 In high-stakes environments, tone influences compliance and trust.
 
+---
 ## Applied Scenarios
 
 ### Tier 1: Consumer Technology
@@ -112,24 +119,27 @@ AI in benefits systems and emergency triage influences trust and completion rate
 ### Tier 3: National Security
 Border kiosks and crisis messaging show how tone affects safety and compliance.
 
+---
 ## Risks of Ignoring the Principle
 
-Erosion of civility.  
-Operational drag.  
-Amplified inequity.  
-Drift toward transactional interaction.  
-Reduced trust in high-stakes environments.
+- Erosion of civility
+- Operational drag
+- Amplified inequity
+- Drift toward transactional interaction
+- Reduced trust in high-stakes environments
 
+---
 ## Policy and Design Recommendations
 
-Establish civility as a core metric.  
-Tune reward loops toward constructive behavior.  
-Deploy civility stabilizers in high-stakes systems.  
-Audit for equity.  
-Align tone with institutional mission.  
-Include civility in AI literacy.  
-Require civility standards in procurement.
+- Establish civility as a core metric
+- Tune reward loops toward constructive behavior
+- Deploy civility stabilizers in high-stakes systems
+- Audit for equity
+- Align tone with institutional mission
+- Include civility in AI literacy
+- Require civility standards in procurement
 
+---
 ## Conclusion
 
 The arrival of emerging intelligence is a cultural inflection point.

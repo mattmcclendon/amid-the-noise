@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Used, Spent, and Forgotten"
-subtitle: "How Narcissistic Abuse Turned Me Into a Character in Someone Else’s Script"
-description: "Narcissistic abuse does not begin with cruelty. It begins with recognition. This piece traces how performance replaces partnership, and how clarity becomes the path out."
-pubDate: 2025-07-17
+subtitle: "When performance replaces partnership"
+description: "Narcissistic abuse does not begin with cruelty. It begins with recognition, then shifts into performance that replaces real connection. This piece traces the pattern and the path out."
+pubDate: "2025-07-17"
 heroImage: "/images/writing/used-spent-forgotten.png"
-heroAlt: "A man with a fractured mask revealing his true self beneath, dissolving into soft textures against a calm horizon, symbolizing identity, realization, and emotional detachment"
-tags: ["Recovery", "Psychological Abuse", "Sovereign Reflection"]
+heroAlt: "A man with a fractured mask revealing his true self beneath, dissolving into soft textures against a calm horizon"
+tags: ["Recovery", "Relationships", "Psychology"]
+tier: "tier-1"
 ---
 
 It starts with attention.
@@ -31,6 +32,7 @@ This isn’t just a story about being used.
 
 It’s a story about being replaced in real time by a version of myself someone else learned how to play.
 
+---
 ## The Pattern
 
 These dynamics follow a script:
@@ -53,6 +55,7 @@ The pattern is not random.
 
 It is rehearsed.
 
+---
 ## When Empathy Becomes a Target
 
 Older gay men are often vulnerable in this dynamic.
@@ -71,6 +74,7 @@ They present as the partner, the mirror, the one who understands. The empathy we
 - You are not a partner. You are a role  
 - You are engaged only when the performance requires you  
 
+---
 ## The Signals I Overrode
 
 I did not miss the signs.
@@ -87,6 +91,7 @@ I wanted the story to be real.
 
 That want became the problem.
 
+---
 ## Why Leaving Is Difficult
 
 Leaving is not only separation from a person.
@@ -111,6 +116,7 @@ It is not.
 
 It is reinforcement.
 
+---
 ## What Helped Me Leave
 
 1. Name what is happening. Write it down. Say it without softening it.  
@@ -119,6 +125,7 @@ It is reinforcement.
 4. Use external mirrors. Friends, therapy, anything that reflects reality.  
 5. Leave cleanly. Absence is the only boundary that cannot be negotiated.  
 
+---
 ## The Illusion
 
 “You’re dramatic.”  
@@ -131,6 +138,7 @@ They are conditioning.
 
 Repeated often enough, they distort your sense of self until you begin to accept them as truth.
 
+---
 ## What Remains
 
 What hurts most is not the betrayal.
@@ -141,6 +149,7 @@ You were not in a relationship.
 
 You were responding to a role that was written for you.
 
+---
 ## You Were Never the Problem
 
 If you feel foolish, you are not alone.  

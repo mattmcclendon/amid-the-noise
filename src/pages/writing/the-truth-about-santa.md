@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Truth About Santa"
-description: "A reframing of Santa not as a myth to outgrow, but as a practice to carry forward."
-pubDate: 2025-12-08
-heroImage: /images/writing/the-truth-about-santa.jpg
+subtitle: "A practice, not a person"
+description: "Santa is not a myth to outgrow. It is a practice to carry forward. A reflection on generosity without recognition and the quiet discipline of giving."
+pubDate: "2025-12-08"
+heroImage: "/images/writing/the-truth-about-santa.jpg"
 heroAlt: "Ornate red velvet chair beside a decorated Christmas tree in a grand hall, suggesting the presence of Santa as an idea rather than a person"
-tags: ["Reflection", "Generosity", "Meaning"]
+tags: ["Reflection", "Generosity", "Civic Systems"]
+tier: "tier-2"
 ---
 
 I read something today that reframed a childhood myth in a way that felt worth sharing.

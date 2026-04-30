@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "When Choice Isn’t Freedom"
-subtitle: "Accessibility, Power Asymmetry, and the Limits of User Choice"
-description: "What we call user choice often functions as a screening mechanism. The most capable advance. The most vulnerable disappear."
-pubDate: 2026-01-15
+subtitle: "Choice as a screening mechanism"
+description: "What we call user choice often functions as a filter. The most capable advance. The most vulnerable disappear. This piece reframes accessibility as a question of power, not preference."
+pubDate: "2026-01-15"
 heroImage: "/images/writing/when-choice-isnt-freedom.png"
 heroAlt: "A minimalist architectural space with a distant figure framed by layered doorways and soft light"
-tags: ["UX", "Accessibility", "Systems", "Power"]
+tags: ["Civic Systems", "UX", "Signal"]
+tier: "tier-1"
 ---
 
 Most systems are built around a quiet assumption: that users can speak for themselves.

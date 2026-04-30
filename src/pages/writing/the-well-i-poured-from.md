@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Well I Poured From"
-subtitle: "Some stories don’t end neatly. They unravel while you’re still inside them."
-description: "Clarity doesn’t repair what broke. It names it—and that is where beginning starts."
-pubDate: 2025-10-26
+subtitle: "Clarity without revision"
+description: "Clarity does not repair what broke. It names it. A reflection on recognition, reciprocity, and leaving what cannot return you."
+pubDate: "2025-10-26"
 heroImage: "/images/writing/the-well-i-poured-from.png"
 heroAlt: "A stone well with faint light rising as a lone figure walks away into a pale landscape"
-tags: ["Reflection", "Recovery", "Relationships", "Poetry"]
+tags: ["Recovery", "Reflection", "Relationships"]
+tier: "tier-1"
 ---
 
 Some stories don’t end neatly. They unravel while you’re still inside them.
@@ -33,6 +34,7 @@ Not punishment. Not fate.
 
 Just that moment I finally stopped lying to myself.
 
+---
 ## Growing Apart
 
 I poured from a well he never meant to fill.
@@ -52,7 +54,6 @@ The well is quiet now.
 This time, it is mine.
 
 ---
-
 ## He Loved That I Loved Him
 
 I didn’t stumble into him.  

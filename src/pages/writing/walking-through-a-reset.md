@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Walking Through a Reset"
-description: "A quiet drizzle, a campus in motion, and something in the air that feels like a reset. You can see it in the way people move, carrying both weight and possibility at once. Stand here for five minutes, and it becomes hard not to believe in what comes next."
-pubDate: 2025-10-02
-heroImage: /images/writing/2025-10-01.jpg
+subtitle: "A season turning, quietly"
+description: "A light drizzle over a campus in motion reframes the day. Renewal shows up as continuity, carried in how people move, learn, and begin again."
+pubDate: "2025-10-02"
+heroImage: "/images/writing/2025-10-01.jpg"
 heroAlt: "walking through a rainy campus"
 tags: ["Reflection", "Presence", "Renewal"]
+tier: "tier-3"
 ---
 
 This morning the air is crisp, overcast, and rinsed in a thin veil of drizzle. Just enough to bead on jackets and darken the sidewalks, as though the whole city has been washed down for another season.

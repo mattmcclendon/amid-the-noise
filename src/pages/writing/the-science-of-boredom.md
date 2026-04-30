@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Science of Boredom"
-subtitle: ""
-description: "What we call boredom is often the mind learning how to live without chaos."
-pubDate: 2025-09-12
+subtitle: "When calm feels unfamiliar"
+description: "What we call boredom is often the nervous system learning to live without chaos. A reflection on recovery, fatherhood, and the slow retraining of attention."
+pubDate: "2025-09-12"
 heroImage: "/images/writing/the-science-of-boredom.png"
 heroAlt: "A person sitting alone in a wide pale landscape with birds in the distance"
 tags: ["Recovery", "Reflection", "Fatherhood"]
+tier: "tier-2"
 ---
 
 I tell myself I am not bored so much as unmoored. I am no longer strapped into the daily ride of chaos, no longer scanning every room as though it were a math problem with the wrong answer waiting in the corner.

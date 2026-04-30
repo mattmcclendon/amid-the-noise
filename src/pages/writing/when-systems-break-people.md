@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "When Systems Break People"
-subtitle: "UX Design in Hostile Civil Infrastructure"
-description: "What looks like inefficiency in public systems is often something else entirely. This piece examines how design, when paired with policy, can become a mechanism of exclusion."
-pubDate: 2025-07-22
+subtitle: "Hostility as design output"
+description: "What looks like inefficiency in public systems is often something else entirely. Design, when paired with policy, can function as a mechanism of exclusion."
+pubDate: "2025-07-22"
 heroImage: "/images/writing/when-systems-break-people.png"
-heroAlt: "A solitary figure seated at a government kiosk in an empty institutional space, head bowed in quiet frustration, symbolizing the emotional toll of hostile systems"
-tags: ["Civic Systems", "Design Ethics", "Sovereign Reflection"]
+heroAlt: "A solitary figure seated at a government kiosk in an empty institutional space, head bowed in quiet frustration"
+tags: ["Civic Systems", "Signal", "Design"]
+tier: "tier-1"
 ---
 
 “The system isn’t broken. It was built this way.”
@@ -15,6 +16,7 @@ You hear that line enough, and it stops sounding cynical.
 
 It starts sounding accurate.
 
+---
 ## It Isn’t Just Slow
 
 There is something quietly violent about being made to wait three hours for a form, only to be told you’re in the wrong line.
@@ -29,6 +31,7 @@ They are interactions.
 
 And interactions are designed.
 
+---
 ## The Myth of Neutral Design
 
 Public systems like to present themselves as neutral.
@@ -45,6 +48,7 @@ Neutral design does not exist.
 
 There is only design that reflects power, and design that challenges it.
 
+---
 ## Friction Is Not Evenly Distributed
 
 Friction in civic systems is often treated as inevitable.
@@ -63,6 +67,7 @@ Not explicitly.
 
 Effectively.
 
+---
 ## The Interface Is the Policy
 
 We tend to separate policy from experience.
@@ -83,6 +88,7 @@ Design does not sit on top of policy.
 
 It enforces it.
 
+---
 ## The Emotional Cost
 
 Trauma is not always event-based.
@@ -105,6 +111,7 @@ This is not inefficiency.
 
 It is erosion.
 
+---
 ## Toward Dignity-Centered Design
 
 You cannot audit your way out of this.
@@ -126,6 +133,7 @@ Not as feedback.
 
 As authors.
 
+---
 ## What If UX Came First
 
 We invest heavily in making commerce seamless.
@@ -140,6 +148,7 @@ To housing. To benefits. To reunification.
 
 What if applying for help didn’t feel like punishment?
 
+---
 ## The Work
 
 You cannot talk about justice without talking about experience.

@@ -1,12 +1,14 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Truth, Structured"
-subtitle: ""
-description: "Truth does not arrive raw. It is shaped upstream by the systems that select, order, and frame information before it reaches us."
-pubDate: 2026-07-02
+subtitle: "How systems shape what becomes visible"
+description: "Truth does not arrive raw. It is shaped upstream by systems that select, order, and frame information before it reaches us, influencing interpretation before evaluation begins."
+pubDate: "2026-07-02"
 heroImage: "/images/writing/truth-structured.png"
 heroAlt: "A wide, minimalist ocean scene with cargo ships slightly misaligned from faint route lines, suggesting a subtle divergence between mapped structure and lived reality."
-tags: ["Signal and Trust", "Civic Systems and Dignity", "Sovereign Reflection"]
+tags: ["Signal", "Systems Thinking", "Civic Systems"]
+tier: "tier-1"
+---
 ---
 
 The question sounds simple.

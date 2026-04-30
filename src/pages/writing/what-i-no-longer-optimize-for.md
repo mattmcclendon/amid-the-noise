@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "What I No Longer Optimize For"
-subtitle: "On Maturity, Refusal, and Design Judgment"
-description: "Maturity is defined less by what you pursue and more by what you refuse to optimize."
-pubDate: 2026-01-29
+subtitle: "Refusal as design judgment"
+description: "Maturity shows up in what you refuse to optimize. This piece reframes restraint, reversibility, and judgment as operational design choices rather than philosophical ones."
+pubDate: "2026-01-29"
 heroImage: "/images/writing/what-i-no-longer-optimize-for.png"
 heroAlt: "A minimalist stepped structure with a single cube placed near an empty outlined space, suggesting a deliberate decision not to complete the system"
-tags: ["UX", "Systems", "Judgment", "Design"]
+tags: ["Signal", "Systems Thinking", "UX"]
+tier: "tier-1"
 ---
 
 Early in my career, I optimized for what most systems reward. Speed. Coverage. Throughput. Growth.

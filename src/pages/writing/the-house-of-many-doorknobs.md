@@ -1,12 +1,15 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The House of Many Doorknobs"
-description: "A writer once told me he bought a new doorknob every time he got paid for a story. Years later, I walked through that house—and every door still opened on a memory."
-pubDate: 2025-10-10
-heroImage: /images/writing/2025-10-09.jpg
+subtitle: "Marking progress you can touch"
+description: "Success rarely arrives all at once. This piece traces a simple ritual that turns small wins into something visible, durable, and worth remembering."
+pubDate: "2025-10-10"
+heroImage: "/images/writing/2025-10-09.jpg"
 heroAlt: "autumn walking path"
-tags: ["Reflection", "Progress", "Persistence"]
+tags: ["Reflection", "Persistence", "Writing"]
+tier: "tier-2"
 ---
+
 I once toured Armistead Maupin’s old house in San Francisco — the same Maupin who gave the world Tales of the City and made this foggy city feel like a character all its own.
 
 What caught my attention wasn’t the view, the light, or even the charm that hung in every corner. It was the doorknobs.

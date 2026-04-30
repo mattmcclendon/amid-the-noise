@@ -1,15 +1,16 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Trauma by Design"
-subtitle: "Why Dignity Must Be a Design Principle"
-description: "Not all harm is visible. In civic systems, design decisions shape whether people feel supported or diminished. This piece examines how trauma is often embedded in the experience itself."
-pubDate: 2025-07-27
+subtitle: "When harm is built into the system"
+description: "Trauma is not always the result of singular events. In civic systems, it is often produced through design decisions that diminish dignity and repeat harm."
+pubDate: "2025-07-27"
 heroImage: "/images/writing/trauma-by-design.png"
 heroAlt: "A solitary figure stands in a minimalist interior space facing an open passage leading to a sunlit path, symbolizing the transition from systemic constraint to dignity and possibility"
-tags: ["Civic Systems", "Design Ethics", "Signal Intelligence"]
+tags: ["Civic Systems", "Signal", "Design"]
+tier: "tier-1"
 ---
 
-“This interface wasn’t just hard to use. It made me feel like I didn’t deserve help.”
+>“This interface wasn’t just hard to use. It made me feel like I didn’t deserve help.”
 
 ## Systems Don’t Need to Bleed to Harm
 
@@ -27,6 +28,7 @@ You leave with shame.
 
 That is trauma by design.
 
+---
 ## The Violence of the Default
 
 Designers are taught to consider edge cases.
@@ -44,6 +46,7 @@ Design is what we permit, what we prioritize, and what we ignore.
 
 When we ignore trauma, we design for its repetition.
 
+---
 ## Bureaucracy as Experience
 
 Most civic systems are optimized for administrative efficiency.
@@ -63,6 +66,7 @@ The people who need the most thoughtful design are met with rigid systems:
 
 In these environments, trauma becomes the barrier you must navigate to receive help.
 
+---
 ## What Trauma-Informed Design Requires
 
 This is not a trend. It is a shift in values.
@@ -85,6 +89,7 @@ We already know how to do this.
 
 We have not prioritized it.
 
+---
 ## The Cost of Getting It Wrong
 
 A person fleeing violence should not have to relive it to qualify for shelter.
@@ -101,6 +106,7 @@ Design is not neutral.
 
 It either extends dignity or withholds it.
 
+---
 ## The Principle
 
 Design is not only about clarity.

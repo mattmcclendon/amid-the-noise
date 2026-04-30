@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Trust Is Not a Feature"
-subtitle: "Why Users Decide Whether to Believe You Long Before They Read the Copy"
-description: "Trust is not something you add. It is something users infer from how a system behaves under pressure."
-pubDate: 2026-01-20
+subtitle: "Behavior defines belief"
+description: "Trust is not added through messaging. It is inferred from how a system behaves under pressure, especially when users make mistakes or need to recover."
+pubDate: "2026-01-20"
 heroImage: "/images/writing/trust-is-not-a-feature.png"
 heroAlt: "A minimalist architectural composition with a sphere resting on a block, casting a soft shadow"
-tags: ["UX", "Trust", "Systems", "Design"]
+tags: ["Signal", "Systems Thinking", "UX"]
+tier: "tier-1"
 ---
 
 Trust does not begin where most teams look for it.

@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Privilege of Perspective"
-subtitle: "Forward thinking isn’t a mindset—it’s a moment you earn."
-description: "Perspective isn’t about intelligence. It’s about the stability that allows you to think beyond survival."
-pubDate: 2025-10-27
+subtitle: "Stability makes the future visible"
+description: "Perspective is not a trait. It is a condition. When survival pressure lifts, the mind regains the ability to think beyond the present."
+pubDate: "2025-10-27"
 heroImage: "/images/writing/the-privilege-of-perspective.png"
 heroAlt: "A lone figure standing near a fence dividing two quiet poolside spaces"
-tags: ["Reflection", "Civic Systems", "Growth"]
+tags: ["Civic Systems", "Reflection", "Growth"]
+tier: "tier-2"
 ---
 
 He told me his side of the fence was where the slang lived—where the talk was fast, the laughter loud, and every story had a scar underneath. The other side, he said, was where the forward thinking happened. I didn’t find that smug. I’ve lived on both sides of that fence, and I know now that forward thinking is not a virtue—it is a luxury. You can only imagine the future when you’re not fighting to survive the present.

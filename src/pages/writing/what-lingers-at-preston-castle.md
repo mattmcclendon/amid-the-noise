@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "What Lingers at Preston Castle"
-subtitle: ""
-description: "Some places do not need ghosts. They only need time, memory, and someone willing to stand still long enough to feel what remains."
-pubDate: 2026-06-23
+subtitle: "When systems leave a trace"
+description: "Preston Castle reveals how systems do not simply end. They leave residue in memory, behavior, and place, long after their formal function disappears."
+pubDate: "2026-06-23"
 heroImage: "/images/writing/what-lingers-at-preston-castle.png"
 heroAlt: "Preston Castle in Ione, California, standing in quiet isolation under a pale sky, its stone facade weathered by time"
-tags: ["Civic Systems", "Signal", "Reflection"]
+tags: ["Signal", "Civic Systems", "Reflection"]
+tier: "tier-2"
 ---
 
 The road into Ione is lonely, even a little desolate, and once you know you are getting close, your attention shifts without asking permission. You start scanning the horizon for Preston Castle, not because it’s hidden, but because it feels like something you could miss if you look away at the wrong moment.

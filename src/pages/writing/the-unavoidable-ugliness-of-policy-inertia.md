@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Unavoidable Ugliness of Policy Inertia"
-subtitle: "When systems protect themselves, progress becomes performance"
-description: "Policy inertia is not delay. It is architecture—feedback loops that preserve familiar failure over uncertain reform."
-pubDate: 2025-11-02
-author: "Matthew McClendon"
-tags: ["Civic Systems", "Governance", "Signal", "Public Infrastructure"]
+subtitle: "When systems protect themselves"
+description: "Policy inertia is not delay. It is architecture, feedback loops that preserve familiar failure over uncertain reform."
+pubDate: "2025-11-02"
 heroImage: "/images/writing/the-unavoidable-ugliness-of-policy-inertia.png"
 heroAlt: "Pre-dawn street in San Francisco’s Tenderloin, dim and quiet before sunrise, with wet pavement and faint artificial light suggesting motion without progress"
+tags: ["Civic Systems", "Governance", "Signal"]
+tier: "tier-1"
 ---
 
 The Tenderloin awakens before the sun. Street sweepers hum, shelter doors open, and the city exhales that damp, metallic scent it reserves for early mornings. There’s activity everywhere—men pulling carts, women lighting cigarettes, buses hissing at red lights—but the motion feels cyclical, like water swirling down a drain. Nothing is still, yet nothing advances. This is what policy inertia looks like when you stand close enough to smell it.

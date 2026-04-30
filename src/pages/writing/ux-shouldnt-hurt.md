@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "UX Shouldn’t Hurt"
-subtitle: "I visited Silicon Valley’s jail websites and this is what I found"
-description: "A heuristic evaluation of local jail websites reveals how poor design choices create real harm for families and incarcerated individuals trying to stay connected."
-pubDate: 2025-07-31
+subtitle: "When interfaces extend punishment"
+description: "A heuristic evaluation of local jail websites shows how poor design decisions create real harm for families and incarcerated individuals trying to stay connected."
+pubDate: "2025-07-31"
 heroImage: "/images/writing/ux-shouldnt-hurt.png"
 heroAlt: "A solitary figure sits at a desk in a softly lit room, facing a laptop near a barred window, symbolizing frustration, confinement, and digital isolation"
-tags: ["Civic Systems", "UX Research", "Design Ethics"]
+tags: ["Civic Systems", "UX", "Signal"]
+tier: "tier-1"
 ---
 
 > “I couldn’t find visiting hours, the number didn’t work, and the form crashed. My brother thought we forgot about him.”

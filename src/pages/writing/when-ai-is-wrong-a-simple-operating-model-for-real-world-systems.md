@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
-title: "When AI Is Wrong: A Simple Operating Model for Real-World Systems"
-description: "AI risk rarely begins at the point of obvious failure. It begins earlier, when confidence appears earned and no one pauses to question it. This paper outlines a simple operating model for structuring signal, interpretation, escalation, and response in real-world AI systems."
-pubDate: 2026-04-18
+layout: "../../layouts/PublicationLayout.astro"
+title: "When AI Is Wrong"
+subtitle: "Structuring signal under uncertainty"
+description: "AI systems rarely fail in obvious ways. This paper defines a simple operating model for structuring signal, interpretation, escalation, and response so decisions hold under real-world conditions."
+pubDate: "2026-04-18"
 heroImage: "/images/writing/when-ai-is-wrong.png"
 heroAlt: "Minimal abstract landscape showing a human figure observing signal converging into a central decision boundary, symbolizing AI systems under uncertainty"
-author: "Matthew McClendon"
-tags: ["AI Safety", "Decision Systems", "Human-in-the-Loop"]
+tags: ["Signal", "Systems Thinking", "AI Governance"]
+tier: "tier-1"
 ---
 
 AI systems rarely fail in obvious ways. In practice, they drift. Over time, they become just certain enough that people stop questioning them.
@@ -15,6 +16,7 @@ That’s where the risk actually begins.
 
 Not at the moment something breaks, but earlier, when confidence feels earned and no one pauses to ask whether it really is.
 
+---
 ## A Familiar Scenario
 
 A system produces a high-confidence output. On the surface, everything looks clean, maybe even reassuring. Beneath that, the context is messy, incomplete, slightly off in ways that are hard to name but easy to ignore.
@@ -25,6 +27,7 @@ Nothing fails. No alert fires.
 
 Something has shifted. Quietly, without ceremony, the system has taken on more authority than anyone explicitly gave it.
 
+---
 ## Where Things Actually Break
 
 Across very different systems, the pattern tends to repeat itself.
@@ -35,6 +38,7 @@ Other times, there’s no clear moment to step in. Something feels off, but ther
 
 Over time, human oversight starts to fade. Not because anyone made a decision to remove it, but because the system is faster, always available, and usually right. That’s enough for people to lean on it more than they should.
 
+---
 ## What to Do Instead
 
 Solving this doesn’t come from adding more alerts or layering on additional safeguards. In practice, those tend to increase noise more than clarity.
@@ -47,6 +51,7 @@ One way to think about it is simple:
 
 Not as a formal framework, but as a sequence that has to hold up under pressure.
 
+---
 ## Signal
 
 Start with what the system is already producing. Model outputs, confidence levels, behavioral patterns. There’s usually no shortage of data.
@@ -55,12 +60,14 @@ The problem is coherence.
 
 When signals are scattered or overly abstract, they don’t reduce uncertainty. They just shift the burden onto the person trying to make sense of them.
 
+---
 ## Interpretation
 
 Raw signal on its own isn’t especially helpful. Someone has to understand what they’re looking at, how certain it actually is, and what it means in context.
 
 If that work falls entirely on the operator, especially in a high-pressure environment, the system is already underperforming. Interpretation should be supported by the system itself, not outsourced to the operator under pressure.
 
+---
 ## Escalation
 
 This is where most systems quietly fail.
@@ -69,6 +76,7 @@ If you don’t define in advance when something crosses a line, who owns the dec
 
 In practice, making these decision points explicit is often more effective than improving detection alone.
 
+---
 ## Response
 
 Once a decision is made, the system should change in some meaningful way.
@@ -77,6 +85,7 @@ Not abstractly, but concretely. Thresholds adjust. Workflows evolve. The next ti
 
 If the same ambiguity shows up again and the system behaves the same way, then nothing has actually improved.
 
+---
 ## Designing for the Person in the Loop
 
 A lot of safety systems fail because they ask too much of the person using them.
@@ -89,6 +98,7 @@ That usually means showing confidence in a way people can actually understand, m
 
 If someone has to stop and decode what the system is trying to tell them, you’ve already lost time.
 
+---
 ## Making It Reusable
 
 Most of this work starts as a one-off. A specific system, a specific problem, a specific team.
@@ -103,6 +113,7 @@ If it only works once, it’s not a solution yet. It’s just a good outcome.
 
 This is where bespoke solutions become productized, and where safety starts to scale beyond a single use case.
 
+---
 ## Where This Starts in Practice
 
 If I were stepping into a team working on this today, I wouldn’t try to redesign everything at once.
@@ -115,6 +126,7 @@ Once it works in a real context, the focus shifts to extracting the pattern and 
 
 That’s where this kind of system starts to scale.
 
+---
 ## The Point
 
 AI risk isn’t just about what the model does. It’s about how its outputs are interpreted, trusted, and acted on in real environments.
@@ -123,6 +135,7 @@ You don’t eliminate that risk. You structure it.
 
 So that signals are visible, decisions are intentional, and responsibility is clear before anything escalates into something harder to unwind.
 
+---
 ## Closing
 
 Most systems are designed with an assumption of clarity.

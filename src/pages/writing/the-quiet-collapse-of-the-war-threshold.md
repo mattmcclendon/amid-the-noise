@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Quiet Collapse of the War Threshold"
-subtitle: "When escalation becomes ambient and responsibility becomes diffuse"
-description: "Conflict is no longer defined by clear lines. It emerges through normalization, habituation, and AI-mediated systems that shift action upstream and accountability downstream."
-pubDate: 2026-01-06
-author: "Matthew McClendon"
-tags: ["AI & Decision Systems", "Governance", "Signal", "National Security"]
+subtitle: "When escalation becomes ambient"
+description: "Conflict is no longer defined by clear lines. It emerges through normalization, habituation, and AI-mediated systems that move action upstream while diffusing responsibility downstream."
+pubDate: "2026-01-06"
 heroImage: "/images/writing/the-quiet-collapse-of-the-war-threshold.png"
 heroAlt: "Minimal horizon with a faint dividing line, suggesting the erosion of boundaries and thresholds"
+tags: ["Signal", "Governance", "National Security"]
+tier: "tier-1"
 ---
 
 For most of modern history, war was understood as an event. It required declaration, mobilization, and intent. Even when those formalities weakened, the underlying assumption remained intact: war began when human actors crossed a visible line and accepted responsibility for what followed.
@@ -19,7 +19,6 @@ The most consequential shift of the last decade is not the speed of weapons, the
 This change is rarely announced. It settles in.
 
 ---
-
 ## Thresholds as Governance, Not Ceremony
 
 Thresholds were never symbolic gestures. They functioned as governance tools. Their purpose was to slow action, concentrate accountability, and force deliberation at moments when consequences escalated faster than correction.
@@ -31,7 +30,6 @@ Those ladders relied on friction. Time delays. Human review. Institutional hesit
 Over time, many of these frictions were reframed as inefficiencies. Restraint came to be treated as delay, and delay as failure. This shift did not happen all at once, which is why it proved so difficult to contest.
 
 ---
-
 ## Action Without Intent
 
 AI-enabled systems are exceptionally good at pattern completion, optimization, and response. They now sit upstream of many domains that shape perception, prioritization, and reaction well before any explicit human decision occurs. Recommendation engines influence sentiment. Automated systems triage information. Predictive tools rank risks, targets, and responses.²
@@ -45,7 +43,6 @@ This pattern is already visible in areas such as automated trading, predictive p
 By the time humans intervene, the terrain has already shifted.
 
 ---
-
 ## Habituation as the Principal Risk Vector
 
 Public discussion of AI risk often focuses on misuse, bad actors, or dramatic failure. Those scenarios matter, but they are not the most common way systems fail. The more persistent risk is habituation.
@@ -57,7 +54,6 @@ This is how boundaries fade: not through violation, but through repetition.
 Institutions struggle here. Most are designed to respond to discrete events, not to slow, distributed change. Governance mechanisms look for spikes or breaches. AI systems tend to produce gradients. The result is a gap in which systems quietly shape outcomes that institutions can only explain afterward.⁴
 
 ---
-
 ## War Without a Clear Line
 
 The term “gray-zone conflict” is often used to describe this space. It is useful, but incomplete.
@@ -69,7 +65,6 @@ In this environment, escalation does not feel like escalation. It feels like nor
 Restraint begins to look anomalous. Pressure becomes ambient. Systems that pause appear inefficient, and actors who hesitate appear uncompetitive. The war threshold did not vanish because it was dismantled. It faded because no one was explicitly responsible for sustaining it.
 
 ---
-
 ## How AI Accelerates the Drift
 
 AI does not create this condition on its own, but it accelerates it.
@@ -86,7 +81,6 @@ Taken together, these effects push power upstream while leaving oversight downst
 > Alignment is not a property of a model. It is a property of a system.
 
 ---
-
 ## Frontier AI and Responsibility Upstream
 
 For organizations developing and deploying frontier AI systems, this shift places responsibility earlier than many governance models anticipate. As models increasingly mediate perception, prioritization, and response, social risk emerges not only from explicit misuse, but from how capability reshapes what feels normal, acceptable, or inevitable.
@@ -96,7 +90,6 @@ The challenge is no longer limited to preventing obvious harm. It is preserving 
 In practice, this means treating habituation itself as something to be monitored and stress-tested, especially where long-term trust and institutional credibility are at stake.⁷
 
 ---
-
 ## Why Traditional Safety Framing Misses the Point
 
 Much AI safety work focuses, appropriately, on alignment, robustness, and misuse prevention. These approaches are necessary, but they assume failures that arrive as discrete events.
@@ -108,7 +101,6 @@ Controls designed to catch misuse will not surface habituation. Logs will not fl
 What is needed is a posture that treats boundaries themselves as design objects, not as background assumptions.
 
 ---
-
 ## Reintroducing Friction Deliberately
 
 The answer is not to halt progress or to idealize human decision-making. Humans are inconsistent and biased. They are also capable of hesitation, dissent, and second thought.
@@ -118,7 +110,6 @@ In high-consequence systems, friction is not a defect. Delay creates space for r
 Building systems that preserve boundaries means intentionally creating moments where action slows, responsibility becomes visible, and escalation can be recognized while it is still reversible. This is not about control. It is about legibility.⁹
 
 ---
-
 ## Governance Before the Breaking Point
 
 The most consequential failures do not announce themselves. They arrive quietly, wrapped in efficiency gains and normalized practice. By the time outcomes look catastrophic, institutions have already been trained to live with them.
@@ -132,7 +123,6 @@ The work ahead is not dramatic. It is careful and often uncelebrated. It consist
 > That is where governance begins.
 
 ---
-
 ## Endnotes
 
 1. Schelling, T. C., *Arms and Influence*. Yale University Press.  

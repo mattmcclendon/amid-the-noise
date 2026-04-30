@@ -1,15 +1,14 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "System Architecture for Governed Intelligence"
-subtitle: "Designing Technical Systems for Auditability, Control, and Signal Integrity"
-description: "Defines how governed intelligence systems are architected, establishing patterns for auditability, control, interpretability, and signal integrity across data, models, and decision layers."
-pubDate: 2026-03-31
-heroImage:
-heroAlt:
-tags: ["Intelligence", "AI Governance", "Architecture"]
+subtitle: "Where governance becomes enforceable"
+description: "Governance does not live in policy alone. It lives in architecture. This paper defines how auditability, control, and signal integrity are enforced at the system level."
+pubDate: "2026-03-31"
+heroImage: ""
+heroAlt: ""
+tags: ["Signal", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
-
-## Foreword
 
 Intelligence systems are governed by what they allow, what they restrict, and what they make visible.
 
@@ -28,7 +27,6 @@ If governance is not encoded into system architecture:
 This paper defines how governed intelligence systems are built.
 
 ---
-
 ## Executive Summary
 
 Human-governed intelligence systems require architecture that enforces:
@@ -56,7 +54,6 @@ It argues that:
 The objective is to define systems that remain aligned with reality under conditions of scale, complexity, and adversarial pressure.
 
 ---
-
 ## I. Architecture as Governance
 
 In AI-mediated intelligence systems, architecture is not neutral.
@@ -74,7 +71,6 @@ This makes architecture the primary enforcement layer for governance.
 If governance is not encoded in architecture, it will not hold.
 
 ---
-
 ## II. Core Architectural Principles
 
 ### 1. Modularity and Control Points
@@ -153,7 +149,6 @@ This forms a continuous chain of interpretation.
 If a decision cannot be reconstructed, it cannot be trusted.
 
 ---
-
 ## III. Data Ingestion and Validation
 
 Signal integrity begins at ingestion.
@@ -189,7 +184,6 @@ Systems must flag:
 Early detection reduces downstream impact.
 
 ---
-
 ## IV. Model Processing Layer
 
 ### 1. Transparent Model Behavior
@@ -223,7 +217,6 @@ Model retraining must incorporate:
 Learning must be guided, not automatic.
 
 ---
-
 ## V. Interpretation and Interface Layer
 
 Architecture must support the workflow defined in II.3.
@@ -255,7 +248,6 @@ Systems must explicitly show:
 Uncertainty must be visible.
 
 ---
-
 ## VI. Monitoring and Control Systems
 
 ### 1. Real-Time Integrity Monitoring
@@ -287,7 +279,6 @@ Systems must define thresholds that trigger:
 Control must be automated where possible.
 
 ---
-
 ## VII. Security and Adversarial Resilience
 
 ### 1. Adversarial Testing Frameworks
@@ -315,7 +306,6 @@ Systems must remain stable when:
 Partial failure must not produce total system failure.
 
 ---
-
 ## VIII. Failure Modes of Architecture
 
 Without governed architecture, systems will:
@@ -331,7 +321,6 @@ Architectural failure is systemic.
 It cannot be corrected downstream.
 
 ---
-
 ## IX. Strategic Outcomes
 
 Effective architecture produces:
@@ -345,7 +334,6 @@ Effective architecture produces:
 Architecture determines whether systems can be trusted.
 
 ---
-
 ## Conclusion: Control Is Designed, Not Assumed
 
 Policy defines expectations.

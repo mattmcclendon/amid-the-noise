@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "They Lied About the Story"
-subtitle: ""
-description: "Abuse does not end with silence. It often continues through narrative. This piece examines how public stories are curated to erase private truth—and why you don’t need to correct them."
-pubDate: 2025-07-18
+subtitle: "Narrative as a continuation of control"
+description: "Abuse does not end with silence. It often continues through narrative, shaping perception to preserve the abuser’s identity while erasing the lived reality of the survivor."
+pubDate: "2025-07-18"
 heroImage: "/images/writing/they-lied-about-the-story.png"
 heroAlt: "A fractured mask and shadowed figure against an open horizon, symbolizing the divide between public narrative and private truth"
-tags: ["Recovery", "Psychological Abuse", "Sovereign Reflection"]
+tags: ["Recovery", "Relationships", "Psychology"]
+tier: "tier-1"
 ---
 
 He told his sister, “We talk all the time.”

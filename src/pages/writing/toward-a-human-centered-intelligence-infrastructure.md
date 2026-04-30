@@ -1,14 +1,14 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Toward a Human-Centered Intelligence Infrastructure"
-description: "Establishes the case for treating AI-enabled intelligence systems as governed infrastructure. Argues that accountability, auditability, and human direction are not optional features but operational requirements."
-pubDate: 2026-02-03
-heroImage: 
+subtitle: "Governance as operational necessity"
+description: "AI-enabled intelligence systems must be treated as governed infrastructure. This paper defines how accountability, auditability, and human direction become enforceable requirements under real-world conditions."
+pubDate: "2026-02-03"
+heroImage: ""
 heroAlt: ""
-tags: ["Intelligence", "AI Governance", "Signal Integrity"]
+tags: ["Signal", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
-
-## FOREWORD
 
 The United States intelligence apparatus was built for speed, reach, and asymmetry. It was not built for mutual visibility between citizen and state, nor for systems that must interpret human behavior in real time, at scale, and under conditions of ambiguity.
 
@@ -28,7 +28,6 @@ They must remain human-directed, auditable, and accountable to the populations t
 This is not a departure from intelligence practice. It is an adaptation to the conditions under which intelligence now operates.
 
 ---
-
 ## EXECUTIVE SUMMARY
 
 The integration of AI into national security systems introduces a new class of risk: not only the failure to detect threats, but the misinterpretation of human behavior at scale.
@@ -53,7 +52,6 @@ The objective is clear:
 To ensure that AI strengthens intelligence outcomes without degrading public trust, civil legitimacy, or operational accuracy.
 
 ---
-
 ## I. BACKGROUND: FROM SECRECY TO COMPLEXITY
 
 Modern intelligence systems were designed in a context defined by:
@@ -79,7 +77,6 @@ The challenge is interpretation under conditions of ambiguity and scale.
 AI accelerates this dynamic. It increases the speed of signal detection while introducing opacity into how those signals are derived. Without governance, this creates systems that are efficient, but not necessarily accurate, and scalable, but not necessarily legitimate.
 
 ---
-
 ## II. WORKING DEFINITION: HUMAN-GOVERNED INTELLIGENCE
 
 A human-governed intelligence infrastructure is one in which:
@@ -95,7 +92,6 @@ This model reframes intelligence as a system of interpreted signals, not raw det
 It recognizes that the end user of intelligence is not only the policymaker or agency, but the public itself, whose behavior, trust, and perception directly shape national security outcomes.
 
 ---
-
 ## III. THE PROBLEM: CIVICALLY ILLEGIBLE INTELLIGENCE
 
 An intelligence system can be technically correct and still be operationally wrong if it is civically illegible.
@@ -116,7 +112,6 @@ This creates distortion.
 Over time, repeated distortions degrade both decision quality and institutional credibility.
 
 ---
-
 ## IV. AI GOVERNANCE IN HIGH-CONSEQUENCE ENVIRONMENTS
 
 Governance in this context is not advisory. It is binding.
@@ -205,7 +200,6 @@ Governance requires not only what is built, but what is prevented.
 Decision authority must remain human, not as a safeguard of last resort, but as a continuous control layer across the intelligence lifecycle.
 
 ---
-
 ## V. INSTITUTIONAL FLUENCY IN HUMAN CONTEXT
 
 Intelligence agencies must expand capability beyond traditional analytic domains.
@@ -222,7 +216,6 @@ This is not a soft capability. It is required for accurate interpretation.
 Without contextual fluency, increased data volume produces increased misread.
 
 ---
-
 ## VI. ARCHITECTING TRUST AS INFRASTRUCTURE
 
 Trust is not a communication strategy. It is a structural outcome.
@@ -239,7 +232,6 @@ These structural changes introduce tension within existing operational framework
 Trust emerges when systems are inspectable, accountable, and responsive.
 
 ---
-
 ## VII. APPLICATION TO MODERN THREAT ENVIRONMENTS
 
 This governance model applies directly to:
@@ -257,7 +249,6 @@ It is the misinterpretation of human context.
 AI increases the scale of this risk. Governance determines whether that scale produces clarity or distortion.
 
 ---
-
 ## VIII. FAILURE MODES OF NON-GOVERNED SYSTEMS
 
 Without human-centered governance, AI-enabled intelligence systems will:
@@ -273,7 +264,6 @@ These failures do not remain technical.
 They become societal.
 
 ---
-
 ## IX. STRATEGIC OUTCOMES
 
 A human-governed intelligence infrastructure produces:
@@ -289,7 +279,6 @@ This is not a tradeoff between ethics and effectiveness.
 It is an alignment of the two.
 
 ---
-
 ## CONCLUSION: GOVERNANCE DEFINES CAPABILITY
 
 AI will not replace intelligence analysts.  

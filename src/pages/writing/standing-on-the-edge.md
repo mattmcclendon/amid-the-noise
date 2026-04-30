@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Standing on the Edge"
-subtitle: ""
-description: "A reflection on containment, modeled risk, and the unstable edge between nuclear certainty and artificial intelligence."
-pubDate: 2026-05-28
+subtitle: "Where certainty ends and systems begin"
+description: "Nuclear risk had a boundary. Artificial intelligence does not. This piece explores what it means to govern systems where the edge is no longer fixed."
+pubDate: "2026-05-28"
 heroImage: "/images/writing/standing-on-the-edge.png"
 heroAlt: "A solitary figure stands at the edge of a stark cliff above a pale, fog-filled expanse, suggesting quiet tension, uncertainty, and the shifting boundary between control and consequence."
-tags: ["artificial-intelligence", "governance", "systems", "risk"]
+tags: ["Signal", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
 
 It wasn’t the explosion that defined it.  

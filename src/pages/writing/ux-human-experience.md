@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "UX and the Human Experience"
-subtitle: ""
-description: "User experience is not a layer on top of a system. It is the system as it is felt. Good design aligns with how people think. Great design earns their trust."
-pubDate: 2019-03-04
+subtitle: "Fluency over novelty"
+description: "User experience is not a layer. It is the system as it is felt. Design aligns with memory, reduces cognitive cost, and earns trust through predictable behavior under real conditions."
+pubDate: "2019-03-04"
 heroImage: "/images/writing/ux-human-experience.png"
 heroAlt: "Minimal abstract composition showing a human profile integrated with interface elements and soft geometric forms, representing cognition, pattern recognition, and system interaction"
-tags: ["User Experience", "Design Systems", "Human Behavior"]
+tags: ["Signal", "Systems Thinking", "UX"]
+tier: "tier-2"
 ---
 
 Unconscious thought drives most human behavior. Interaction rarely begins with intent. It begins with recognition.
@@ -15,6 +16,7 @@ People do not approach systems as blank slates. They arrive with expectations sh
 
 Design either aligns with that memory or fights it.
 
+---
 ## Familiarity Is Not a Constraint
 
 It is easy to confuse innovation with difference. In practice, most systems fail not because they lack originality, but because they violate expectation without offering clarity in return.
@@ -27,6 +29,7 @@ Design patterns exist because they encode shared experience. Navigation at the t
 
 Breaking those agreements is not inherently wrong. It simply creates a debt that must be repaid through guidance.
 
+---
 ## Mental Models Shape Behavior
 
 A mental model is a user’s internal explanation of how something works. It is rarely precise, often incomplete, and almost always good enough.
@@ -41,6 +44,7 @@ In those cases, design must teach.
 
 Not through documentation, but through interaction. Through feedback, constraint, and progression. A system that introduces something new must also provide the scaffolding to understand it.
 
+---
 ## The Cost of Interaction
 
 Every action carries a cost. Not just physical effort, but cognitive effort.
@@ -51,6 +55,7 @@ Design that requires sustained interpretation is design that will be abandoned.
 
 Reducing interaction cost does not mean removing capability. It means structuring complexity so that it reveals itself only when needed.
 
+---
 ## When to Break Convention
 
 Innovation still matters. The question is not whether to break convention, but when.
@@ -61,6 +66,7 @@ The risk is front-loaded confusion. The responsibility is to guide the user thro
 
 Good systems do this through progressive disclosure, clear feedback, and repetition. They make the unfamiliar feel inevitable over time.
 
+---
 ## From Interface to Experience
 
 User experience is often treated as a layer. A surface. A set of screens.
@@ -73,6 +79,7 @@ This is not irrational. It is a heuristic.
 
 At the same time, visual polish cannot compensate for structural confusion. A system that looks good but behaves unpredictably erodes trust faster than one that is plainly designed but reliable.
 
+---
 ## Designing for a Changing Interface
 
 The definition of “interface” continues to expand.
@@ -87,6 +94,7 @@ The question is no longer “can the user complete the task?”
 
 It is “does the user understand what just happened?”
 
+---
 ## UX Is Human Experience
 
 User experience is not separate from human experience. It is an extension of it.

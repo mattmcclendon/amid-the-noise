@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "What Compression Took From Us"
-subtitle: ""
-description: "A reflection on how narrative compression distorts reality, and what gets lost when complexity is reduced to labels."
-pubDate: 2026-07-16
+subtitle: "When narrative reduces reality"
+description: "Narrative compression flattens complexity into labels. What remains is easier to carry, but further from truth."
+pubDate: "2026-07-16"
 heroImage: "/images/writing/what-compression-took-from-us.png"
 heroAlt: "A minimal, off-white room with a single door slightly ajar, light spilling into an otherwise empty space."
-tags: ["Signal and Trust", "Narrative", "Perception"]
+tags: ["Signal", "Narrative", "Perception"]
+tier: "tier-1"
 ---
 
 I was in high school when the story about Jeffrey Dahmer broke.

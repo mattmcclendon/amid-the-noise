@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Real Danger"
-subtitle: ""
-description: "On saturation, distortion, and how truth becomes unrecognizable when everything competes for belief."
-pubDate: 2026-01-21
-heroImage:
-heroAlt:
-tags: ["Signal", "Truth", "Perception"]
+subtitle: "When distortion becomes ambient"
+description: "Saturation flattens distinction. When lies become ambient, truth does not get refuted—it becomes unrecognizable."
+pubDate: "2026-01-21"
+heroImage: ""
+heroAlt: ""
+tags: ["Signal", "Perception", "Truth"]
+tier: "tier-1"
 ---
 
 The real danger  

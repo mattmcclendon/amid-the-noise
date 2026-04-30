@@ -1,12 +1,15 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Turning Toward What Holds"
-description: "The seasons don’t negotiate with truth, and neither can we for long. Self-deception builds slowly, then gives way all at once. Stay aligned with what holds, even when it costs comfort."
-pubDate: 2025-10-03
-heroImage: /images/writing/2025-10-03.jpg
+subtitle: "Alignment over comfort"
+description: "Self-deception builds quietly, then breaks all at once. A reflection on truth, discipline, and the cost of staying aligned with what holds."
+pubDate: "2025-10-03"
+heroImage: "/images/writing/2025-10-03.jpg"
 heroAlt: "autumn walking path"
 tags: ["Reflection", "Clarity", "Alignment"]
+tier: "tier-2"
 ---
+
 Autumn arrives without urgency. The leaves turn on their own time. The air sharpens. The pattern repeats with a kind of quiet discipline. Nothing performs. Nothing rushes.
 
 I’ve been thinking about that kind of steadiness.

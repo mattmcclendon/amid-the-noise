@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "When Design Ships, It Becomes Policy"
-description: "As AI collapses the distance between design and production, the handoff disappears—and with it, the buffer that once absorbed ambiguity. Design no longer proposes. It decides."
-pubDate: 2026-05-14
-author: "Matthew McClendon"
-tags: ["AI Systems", "Product Design", "Signal & Trust", "Operational Thinking"]
+subtitle: "Decision authority without a buffer"
+description: "As AI collapses the distance between design and production, the handoff disappears. Design no longer proposes. It decides, making accountability and system behavior inseparable from what ships."
+pubDate: "2026-05-14"
 heroImage: "/images/writing/design-ships-policy.png"
 heroAlt: "Minimalist architectural corridor with soft light leading toward a bright threshold, symbolizing transition, consequence, and system boundary"
+tags: ["Signal", "Systems Thinking", "UX"]
+tier: "tier-1"
 ---
 
 I pointed an AI agent at a design system and got working UI in minutes.
@@ -28,7 +29,6 @@ Design is no longer a proposal function.
 It becomes a decision function.
 
 ---
-
 ## The Shift Most People Are Missing
 
 The current discourse focuses on speed.
@@ -48,7 +48,6 @@ We removed the handoff.
 We did not remove the consequences.
 
 ---
-
 ## What Breaks First
 
 The early failure mode will not look like failure.
@@ -68,7 +67,6 @@ A product can look coherent and still behave unpredictably. It can surface the w
 At scale, that erodes trust.
 
 ---
-
 ## The New Bottleneck
 
 AI has compressed production.
@@ -90,7 +88,6 @@ Can a team:
 These are operational requirements.
 
 ---
-
 ## Design as an Operating Function
 
 As design moves closer to production, its responsibility expands.
@@ -111,7 +108,6 @@ This is not about whether designers write code.
 It is about whether anyone remains accountable for what ships.
 
 ---
-
 ## Where AI Actually Belongs
 
 Most teams apply AI to production.
@@ -128,7 +124,6 @@ The leverage sits upstream.
 Speeding up execution without improving alignment accelerates drift.
 
 ---
-
 ## The Teams That Will Outperform
 
 The highest-performing teams will not be the ones with the most agents.
@@ -144,7 +139,6 @@ It sits alongside product and engineering, shaping direction and absorbing respo
 Because the system requires it.
 
 ---
-
 ## What This Actually Means
 
 The tools will improve. The distance between idea and output will shrink.

@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Deck Was Always Mine"
-subtitle: ""
-description: "A reflection on recovery, voice, and the reality that we are shaped less by what we avoid and more by what we live through."
-pubDate: 2026-06-18
+subtitle: "Ownership without revision"
+description: "Recovery does not rewrite the past. It clarifies it. A reflection on voice, agency, and the reality that we are shaped by what we live through, not what we avoid."
+pubDate: "2026-06-18"
 heroImage: "/images/writing/the-deck-was-always-mine.png"
 heroAlt: "A minimal, text-free composition of a slightly imperfect stack of playing cards on a warm off-white surface, softly lit with shallow depth of field."
-tags: ["Recovery", "Voice", "Agency"]
+tags: ["Recovery", "Agency", "Voice"]
+tier: "tier-1"
 ---
 
 Every so often, someone reads a piece I’ve written about recovery and reacts to it like it’s something that still needs to be explained or resolved. The question usually follows. If you could go back, before any of it started, what would you tell yourself?

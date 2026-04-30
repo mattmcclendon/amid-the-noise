@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Architecture of Scarcity"
-subtitle: "What postwar London and Dust Bowl Oklahoma teach us about resilience and forgetting."
-description: "Nations that rebuild remember fragility. Those that don’t risk forgetting it."
-pubDate: 2025-11-06
+subtitle: "What reconstruction teaches that stability forgets"
+description: "Nations that rebuild carry memory in their infrastructure. Those that do not risk mistaking stability for strength."
+pubDate: "2025-11-06"
 heroImage: "/images/writing/the-architecture-of-scarcity.png"
 heroAlt: "A foggy canal lined with modest homes on one side and damaged buildings on the other"
 tags: ["Civic Systems", "History", "Reflection"]
+tier: "tier-1"
 ---
 
 When my friends from London spoke of childhood, they did not reminisce about playgrounds or comic books. They remembered reconstruction.

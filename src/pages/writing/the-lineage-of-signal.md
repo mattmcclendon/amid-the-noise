@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Lineage of Signal"
-description: "Five disciplines for making systems visible."
-author: "Matthew McClendon"
-pubDate: 2026-04-23
+subtitle: "Five disciplines for making systems visible"
+description: "Twain, Baldwin, Serling, Orwell, and Kubrick each solve the same problem in different ways. Together, they form a method for making systems legible."
+pubDate: "2026-04-23"
 heroImage: "/images/writing/the-lineage-of-signal.png"
 heroAlt: "Minimal black and white abstract landscape suggesting depth and structure"
-tags: ["writing", "systems", "signal", "philosophy"]
+tags: ["Signal", "Systems Thinking", "Writing"]
+tier: "tier-1"
 ---
 
 There’s a temptation to call them influences.
@@ -26,7 +27,6 @@ They did not even share audience.
 What they shared was discipline.
 
 ---
-
 **Twain: The Door Opens Sideways**
 
 Twain understood that most people do not resist ideas. They resist being told they are wrong.
@@ -39,7 +39,6 @@ He did not push truth at the reader.
 He let the reader discover they had already accepted it.
 
 ---
-
 **Baldwin: The Room Has No Exit**
 
 Baldwin removed distance.
@@ -52,7 +51,6 @@ He made the absence of it unbearable.
 There is no cleverness here. No disguise. Only clarity sharpened to the point that neutrality becomes a form of participation.
 
 ---
-
 **Serling: The System Reveals Itself**
 
 Serling built containers.
@@ -65,7 +63,6 @@ It was in the inevitability.
 Once the premise was accepted, the outcome could not be avoided. The system told the truth about itself.
 
 ---
-
 **Orwell: The Language Is the System**
 
 Orwell understood that control rarely begins with force.
@@ -78,7 +75,6 @@ He did not just critique power.
 He exposed the vocabulary that allows it to persist.
 
 ---
-
 **Kubrick: The Environment Decides**
 
 Kubrick removed the illusion of control.
@@ -90,7 +86,6 @@ There is no speech explaining this. No narrator to guide interpretation.
 Only the quiet realization that nothing here is accidental.
 
 ---
-
 **What This Actually Is**
 
 This is not a list of writers and directors.
@@ -112,7 +107,6 @@ The reader sees it.
 Not as argument. Not as opinion. As recognition.
 
 ---
-
 **Why This Matters Now**
 
 We live inside systems that are more complex, more opaque, and more consequential than anything these men wrote about.
@@ -131,7 +125,6 @@ So the work is not simply to build better systems.
 It is to make them legible.
 
 ---
-
 **The Discipline of Signal**
 
 A signal is not defined by its intent.

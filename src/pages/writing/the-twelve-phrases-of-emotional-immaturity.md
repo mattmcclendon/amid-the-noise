@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Twelve Phrases of Emotional Immaturity"
-subtitle: "A quick guide to recognizing the pattern"
-description: "Emotional immaturity reveals itself in language long before it reveals itself in behavior."
-pubDate: 2025-11-18
+subtitle: "Language reveals the pattern"
+description: "Emotional immaturity reveals itself in language long before it reveals itself in behavior. These phrases signal how someone manages accountability, discomfort, and connection."
+pubDate: "2025-11-18"
 heroImage: "/images/writing/the-twelve-phrases-of-emotional-immaturity.png"
 heroAlt: "An empty playground with swings at dusk, quiet and still"
-tags: ["Psychology", "Relationships", "Reflection"]
+tags: ["Reflection", "Relationships", "Psychology"]
+tier: "tier-2"
 ---
 
 Emotional immaturity leaves fingerprints, and those fingerprints often show up in language long before they show up in behavior. People imagine immaturity as inconsistency, yet the opposite is true. Emotionally immature people tend to use the same phrases, the same shields, the same evasions, almost word for word.
@@ -20,7 +21,6 @@ A recent CNBC article listed a dozen common phrases associated with emotional im
 Consider the list not as twelve throwaway lines but as a language system designed for one purpose: protection of a fragile inner world.
 
 ---
-
 ## 1. “It’s not my fault.”
 
 This sentence is an escape hatch. It signals that responsibility feels dangerous, not developmental. The speaker treats accountability as a blow rather than a bridge.
@@ -70,7 +70,6 @@ All-or-nothing thinking signals a mind that struggles with nuance. Complexity co
 Herd logic becomes moral cover. It lets them hide from themselves by hiding in the crowd.
 
 ---
-
 ## The Deeper Pattern: Emotional Immaturity Rewrites the Terms of Connection
 
 These phrases are not random. Each one serves a distinct purpose:
@@ -87,7 +86,6 @@ When you hear all twelve coming from the same person, you are not witnessing com
 The relationship becomes asymmetrical by design. You hold the weight of clarity. They hold the weight of avoidance. Eventually the avoidance wins, because it always does.
 
 ---
-
 ## Why This Matters for Healing
 
 Recognizing these patterns is not about assigning blame. It is about reclaiming your ability to interpret the signals accurately. Emotional immaturity often seduces people into believing:

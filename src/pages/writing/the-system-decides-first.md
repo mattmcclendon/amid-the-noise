@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The System Decides First"
-subtitle: ""
+subtitle: "Choice shaped before awareness"
 description: "Decisions rarely begin at the moment of choice. They are shaped upstream by systems that select, rank, and frame what becomes visible."
-pubDate: 2026-07-07
+pubDate: "2026-07-07"
 heroImage: "/images/writing/the-system-decides-first.png"
 heroAlt: "A minimalist interface-like composition where ordered elements subtly guide attention, suggesting decisions shaped before they are consciously made."
-tags: ["Signal and Trust", "Civic Systems and Dignity", "Sovereign Reflection"]
+tags: ["Signal", "Systems Thinking", "Decision Design"]
+tier: "tier-1"
 ---
 
 Most people believe they are making decisions.

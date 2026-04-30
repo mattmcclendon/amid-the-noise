@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Porch With Two Doors"
-subtitle: "A poem about return, belonging, and the quiet recognition of self."
-description: "Home is not a structure. It is the moment you recognize yourself again."
-pubDate: 2025-10-19
+subtitle: "Return without permission"
+description: "Home is not a place you enter. It is the moment you recognize yourself and no longer need to ask to stay."
+pubDate: "2025-10-19"
 heroImage: "/images/writing/the-porch-with-two-doors.png"
 heroAlt: "A warmly lit porch with two front doors side by side at night"
-tags: ["Poetry", "Reflection", "Belonging"]
+tags: ["Reflection", "Belonging", "Poetry"]
+tier: "tier-2"
 ---
 
 It could be a porch with two doors side by side,  
@@ -34,6 +35,7 @@ The key turns easily, and nothing explains.
 It could be a porch with two doors side by side.  
 The house exhales softly, as if satisfied.  
 
+---
 ## Author’s Note
 
 ### On “The Porch With Two Doors”

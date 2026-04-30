@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Stay Dangerous"
-subtitle: "What a GlockBoyz Anthem Reveals About Failing Civil Systems"
-description: "When safety disappears, behavior adapts. This piece reads a GlockBoyz track as signal, not spectacle—evidence of systems that have stopped showing up."
-pubDate: 2025-07-20
+subtitle: "When adaptation replaces protection"
+description: "When safety disappears, behavior adapts. This piece reads a GlockBoyz track as signal, not spectacle, evidence of systems that have stopped showing up."
+pubDate: "2025-07-20"
 heroImage: "/images/writing/stay-dangerous.png"
 heroAlt: "A fractured urban landscape with a lone figure moving forward, symbolizing resilience within systemic collapse and absence of institutional support"
-tags: ["Civic Systems", "Signal Intelligence", "Sovereign Reflection"]
+tags: ["Civic Systems", "Signal", "Power"]
+tier: "tier-1"
 ---
 
 “Stay dangerous.”
@@ -23,6 +24,7 @@ This is not a glorification.
 
 It’s a data point.
 
+---
 ## When Safety Is No Longer Available
 
 In stable systems, safety is assumed.
@@ -37,6 +39,7 @@ You stay prepared.
 
 That shift is not philosophical. It’s environmental.
 
+---
 ## The Missing State
 
 In communities where incarceration is constant, it stops reading as exception.
@@ -51,6 +54,7 @@ Entry. Removal. Return.
 
 No repair.
 
+---
 ## When the State Loses Legitimacy
 
 In healthy systems, the state mediates conflict.
@@ -65,6 +69,7 @@ Not because they want to.
 
 Because there is no alternative.
 
+---
 ## Grief Without Infrastructure
 
 What happens when grief has nowhere to go?
@@ -79,6 +84,7 @@ Into action. Into retaliation. Into something that looks like aggression from th
 
 Grief becomes motion.
 
+---
 ## Informal Economies Fill Formal Gaps
 
 When legitimate pathways to mobility close, others open.
@@ -91,6 +97,7 @@ More often, it’s structural response.
 
 When the system offers no viable path forward, people build one anyway.
 
+---
 ## Conflict Without Resolution
 
 Where conflict resolution is not taught, it is improvised.
@@ -105,6 +112,7 @@ Fast. Immediate. Enforced.
 
 A replacement for something that never showed up.
 
+---
 ## What This Reveals
 
 This isn’t a song about danger.
@@ -127,6 +135,7 @@ These are outcomes produced by design decisions, funding choices, policy gaps.
 
 These are wireframes of lives operating under constraint.
 
+---
 ## The Real Question
 
 The question is not why people adapt this way.

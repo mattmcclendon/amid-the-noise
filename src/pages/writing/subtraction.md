@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Subtraction"
-subtitle: ""
-description: "On growth not as accumulation, but as the discipline of removing what no longer holds."
-pubDate: 2026-01-13
-heroImage: /images/writing/subtraction.jpg
+subtitle: "Precision through removal"
+description: "Growth does not always come from adding more. It comes from removing what no longer holds and allowing what remains to sharpen."
+pubDate: "2026-01-13"
+heroImage: "/images/writing/subtraction.jpg"
 heroAlt: "A calm waterfront city at sunset with boats at a dock, warm light fading into open sky, suggesting reflection and reduction."
 tags: ["Reflection", "Clarity", "Growth"]
+tier: "tier-2"
 ---
 
 Lately I’ve noticed something quietly significant happening in my thinking.

@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Civic Threshold"
-subtitle: "Eight Signals of a System Under Strain"
-description: "From infrastructure decay to misaligned incentives, this essay traces how systems drift, how they fail, and how they can still be repaired."
-pubDate: 2025-12-18
+subtitle: "Signals of strain, paths to repair"
+description: "Systems rarely fail at once. They drift through infrastructure decay, misaligned incentives, and eroding memory, then recover through deliberate maintenance and aligned purpose."
+pubDate: "2025-12-18"
 heroImage: "/images/writing/the-civic-threshold.png"
 heroAlt: "An aging freight train on weathered tracks near a hazy industrial skyline"
-tags: ["Civic Systems", "National Security", "Policy", "Systems Thinking"]
+tags: ["Civic Systems", "Systems Thinking", "Policy"]
+tier: "tier-1"
 ---
 
 Civilizations rarely fail with spectacle. They fray in plain sight, softened by familiarity and numbed by routine. The danger never begins with catastrophe. It begins with people assuming someone else will handle the hard parts.
@@ -14,7 +15,6 @@ Civilizations rarely fail with spectacle. They fray in plain sight, softened by 
 What follows traces a pattern visible across nations, industries, and institutions. It begins with physical systems under strain, moves through the incentives that shape behavior, and arrives at a simple conclusion: decline is rarely sudden, and repair is rarely impossible.
 
 ---
-
 ## I. Russia’s North Star
 
 Russia’s Soyuz launches have long served as the country’s most reliable narrative, a quiet proof that some systems still hold even when the politics around them do not. That reputation faltered on 27 November. The rocket rose cleanly into the Kazakh sky. The crew arrived at the Station without incident. Yet a drone circling Site 31/6 captured something the ascent could not overshadow: Baikonur’s mobile maintenance cabin flipped upside down in the flame trench, inert and embarrassed.
@@ -35,7 +35,6 @@ The Soyuz climbed flawlessly.
 The pad beneath it whispered a different story.
 
 ---
-
 ## II. Russia’s Vanishing Backbone
 
 Russia’s railways once felt inevitable. They crossed forests, steppes, and industrial corridors with authority. That confidence is harder to find now.
@@ -53,7 +52,6 @@ Russia’s geography leaves little room for failure. When one corridor falters, 
 The system has not collapsed. It has begun to bend.
 
 ---
-
 ## III. Russia’s Diminishing Core
 
 Russia presents industrial strength as continuity. The reality is closer to depletion.
@@ -71,7 +69,6 @@ The most important measure of an industrial base is not what it produces today. 
 Russia can no longer make that promise.
 
 ---
-
 ## IV. The Political Economy of Decay
 
 Industrial strain becomes systemic when political incentives accelerate it.
@@ -89,7 +86,6 @@ The state fills gaps through command. This sustains output briefly. Over time, i
 A system that cannot acknowledge reality cannot correct course.
 
 ---
-
 ## V. The American Mirror
 
 It is easy to treat these dynamics as foreign.
@@ -113,7 +109,6 @@ The danger is not collapse.
 The danger is drift.
 
 ---
-
 ## VI. The Broken Incentive Loop
 
 Institutions fail when incentives misalign with purpose.
@@ -131,7 +126,6 @@ Misaligned incentives flatten expertise, suppress honesty, and reward short-term
 Decline becomes the aggregate result of reasonable decisions made within a flawed structure.
 
 ---
-
 ## VII. The Repairable Future
 
 Most decline is reversible.
@@ -151,7 +145,6 @@ Repair does not arrive through crisis.
 It arrives through accumulation. Small corrections, repeated at scale, reverse drift.
 
 ---
-
 ## VIII. The Civic Threshold
 
 A threshold is a place of recognition.

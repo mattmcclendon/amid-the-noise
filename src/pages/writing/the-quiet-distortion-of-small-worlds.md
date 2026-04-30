@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Quiet Distortion of Small Worlds"
-subtitle: ""
-description: "When most of your human contact lives at a different altitude, something subtle begins to shift. Not isolation, but distortion."
-pubDate: 2026-06-30
+subtitle: "When contact thins, thinking narrows"
+description: "When most human contact lives at a different altitude, something subtle begins to shift. Not isolation, but distortion."
+pubDate: "2026-06-30"
 heroImage: "/images/writing/the-quiet-distortion-of-small-worlds.png"
 heroAlt: "A softly lit, minimalist living space with a wooden table in the foreground holding a notebook and coffee cup, while scattered children's drawings and toys sit in the background, suggesting presence without visible people."
-tags: ["Signal and Trust", "Sovereign Reflection", "Civic Systems and Dignity"]
+tags: ["Signal", "Reflection", "Civic Systems"]
+tier: "tier-2"
 ---
 
 By mid-morning, you’ve already answered the same question a few different ways, each version simpler than the last, until you can feel your own thinking flattening just enough to meet it.

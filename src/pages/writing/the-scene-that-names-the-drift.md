@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Scene That Names the Drift"
-subtitle: "On Star Trek, stillness, and the moment someone names the truth you have been avoiding"
-description: "A quiet moment in Star Trek Beyond reveals something deeper about leadership, drift, and the rare gift of being seen without judgment."
-pubDate: 2025-12-28
+subtitle: "Recognition before admission"
+description: "A quiet moment in Star Trek Beyond reveals how drift is often seen by others before we name it ourselves, and how recognition can become a turning point rather than a judgment."
+pubDate: "2025-12-28"
 heroImage: "/images/writing/the-scene-that-names-the-drift.png"
 heroAlt: "Two silhouetted figures seated across a table in quiet conversation, with a soft cityscape beyond a wide window"
-tags: ["Reflection", "Leadership", "Identity", "Signal"]
+tags: ["Signal", "Leadership", "Reflection"]
+tier: "tier-2"
 ---
 
 There is a moment in *Star Trek Beyond* that deserves more attention than it gets.

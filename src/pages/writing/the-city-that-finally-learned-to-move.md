@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The City That Finally Learned to Move"
-subtitle: "Learning to flow instead of fight"
-description: "A city doesn’t change when you stop resisting it. You do."
-pubDate: 2025-11-06
+subtitle: "Flow instead of fight"
+description: "The city didn’t change. My relationship to it did. A reflection on moving with a system rather than against it."
+pubDate: "2025-11-06"
 heroImage: "/images/writing/the-city-that-finally-learned-to-move.png"
 heroAlt: "Two trains resting on parallel tracks in a quiet, softly lit station"
-tags: ["Reflection", "San Francisco", "Growth"]
+tags: ["Reflection", "Growth", "Place"]
+tier: "tier-2"
 ---
 
 Every train that arrives and departs carries someone on a journey to a better part of themselves. Maybe they are running an errand, grabbing dinner, or rushing home to water the plants. It appears ordinary, almost mechanical. Yet in those movements, something sacred happens: the quiet rhythm of becoming.

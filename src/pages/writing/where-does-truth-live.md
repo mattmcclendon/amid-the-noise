@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Where Does Truth Live?"
-subtitle: ""
-description: "When you understand how information is shaped, it becomes harder to know where to look for something that feels real."
-pubDate: 2026-06-28
+subtitle: "Entry points without convergence"
+description: "When information is shaped at the point of entry, understanding fragments. This piece examines how framing without convergence leaves readers informed, but unanchored."
+pubDate: "2026-06-28"
 heroImage: "/images/writing/where-does-truth-live.png"
 heroAlt: "A minimal, softly lit scene of overlapping glass panels"
-tags: ["Signal and Trust", "Civic Systems and Dignity", "Sovereign Reflection"]
+tags: ["Signal", "Civic Systems", "Perception"]
+tier: "tier-1"
 ---
 
 I’ve been following the news around Iran, not obsessively and not in a doomscrolling way, just enough to feel like I should have a clearer sense of what’s happening than I do.

@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Limbic Hit Job"
-subtitle: ""
-description: "A moment of frustration becomes a full-body event, triggering a sudden memory that feels like relief. What follows is not a spiral, but a precise interruption—catching the drift before it becomes direction."
-pubDate: 2026-05-21
-heroImage: /images/writing/the-limbic-hit-job.png
+subtitle: "Interrupting the jump condition"
+description: "Frustration can trigger a rapid state shift that feels like relief because it is familiar. This piece maps the pattern and shows how to interrupt it before it becomes direction."
+pubDate: "2026-05-21"
+heroImage: "/images/writing/the-limbic-hit-job.png"
 heroAlt: "split-state image showing a man at a desk divided between warm nostalgic light and cool present tension"
-tags: ["Reflection", "Signal", "Recovery"]
+tags: ["Signal", "Recovery", "Reflection"]
+tier: "tier-2"
 ---
 
 I was working, a little frustrated, chasing down small imperfections that didn’t want to resolve. Nothing unusual, except it started to spread. Shoulders tightened. Neck locked. The kind of full-body tension that shows up when a system isn’t behaving the way you expect it to.

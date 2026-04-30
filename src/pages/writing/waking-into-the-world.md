@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Waking Into the World"
-description: "On renewal, attention, and the quiet discipline of choosing what to carry forward."
-pubDate: 2025-11-11
-heroImage: /images/writing/waking-into-the-world.jpg
+subtitle: "Renewal without reset"
+description: "Each day offers continuity, not reinvention. A reflection on attention, agency, and the quiet discipline of choosing what to carry forward."
+pubDate: "2025-11-11"
+heroImage: "/images/writing/waking-into-the-world.jpg"
 heroAlt: "A quiet city street at dawn, freshly washed, with warm light spilling from storefront windows as someone cleans the sidewalk"
-tags: ["Reflection", "Presence", "Agency"]
+tags: ["Reflection", "Agency", "Presence"]
+tier: "tier-2"
 ---
 
 Each morning begins with a small miracle.

@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Story That Almost Cost Me My Life"
 subtitle: "Addiction’s most dangerous grip is the story it tells"
-description: "Addiction sustains itself through narrative—making collapse feel survivable and repetition feel inevitable. Recovery begins when that story breaks."
-pubDate: 2025-12-23
-author: "Matthew McClendon"
-tags: ["Recovery", "Signal", "Identity", "Reflection"]
+description: "Addiction sustains itself through narrative, making collapse feel survivable and repetition feel inevitable. Recovery begins when that story breaks."
+pubDate: "2025-12-23"
 heroImage: "/images/writing/the-story-that-almost-cost-me-my-life.png"
 heroAlt: "Dimly lit path with a subtle divide, suggesting a turning point between repetition and clarity"
+tags: ["Recovery", "Signal", "Identity"]
+tier: "tier-1"
 ---
 
 The most dangerous part of addiction is not the substance, activity, or behavior.

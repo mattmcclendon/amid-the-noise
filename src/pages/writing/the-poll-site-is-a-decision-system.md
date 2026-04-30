@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Poll Site Is a Decision System"
-subtitle: ""
-description: "Inside a Santa Clara County vote center, elections reveal themselves as human-governed decision systems designed to resolve uncertainty without denying participation."
-pubDate: 2026-07-21
+subtitle: "Resolve uncertainty without denying participation"
+description: "Inside a Santa Clara County vote center, elections operate as human-governed decision systems that absorb uncertainty, preserve participation, and produce auditable outcomes."
+pubDate: "2026-07-21"
 heroImage: "/images/writing/the-poll-site-is-a-decision-system.png"
 heroAlt: "Abstract loop of paper forms circulating through a closed system on a soft off-white background"
-tags: ["Civic Systens and Dignity", "Signal and Trust", "Systems"]
+tags: ["Civic Systems", "Signal", "Systems Thinking"]
+tier: "tier-1"
 ---
 
 A vote center looks simple from the outside. Tables. Ballots. A line that moves or doesn’t.

@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Physics of Stillness"
-description: "On motion, equilibrium, and why stillness is not what it seems."
-pubDate: 2025-10-19
-heroImage: /images/writing/the-physics-of-stillness.jpg
+subtitle: "Equilibrium, not absence"
+description: "Stillness is not the absence of motion. It is motion held in balance. A reflection on equilibrium, perception, and the quiet geometry of constant movement."
+pubDate: "2025-10-19"
+heroImage: "/images/writing/the-physics-of-stillness.jpg"
 heroAlt: "A solitary figure illuminated by a phone under a star-filled night sky, suggesting quiet contemplation within vast motion"
-tags: ["Reflection", "Science", "Perspective"]
+tags: ["Signal", "Science", "Reflection"]
+tier: "tier-2"
 ---
 
 You may think you’re sitting still.

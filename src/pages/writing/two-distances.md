@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Two Distances"
-description: "On Oklahoma City, September 11, and the different ways history reaches us—after the fact, and from the inside."
-pubDate: 2026-04-19
-author: "Matthew McClendon"
-tags: ["Reflection", "Memory", "Civic Signal"]
+subtitle: "Inside the event, and after it settles"
+description: "Oklahoma City and September 11 reveal two forms of proximity: living through an event as it unfolds, and arriving after it has already changed everything."
+pubDate: "2026-04-19"
 heroImage: "/images/writing/two-distances.png"
 heroAlt: "Chain-link fence memorial with flowers, ribbon, and a worn teddy bear in warm evening light, no people present"
+tags: ["Signal", "Memory", "Civic Systems"]
+tier: "tier-1"
 ---
 
 April 19 always catches me slightly off guard. I know it’s coming. I just don’t always feel it until it’s already here.

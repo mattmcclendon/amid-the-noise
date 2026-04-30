@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Kingdom of Small Things"
-subtitle: "How we build love through boundaries"
-description: "A reflection on how defined roles, restraint, and mutual respect create stability and trust within relationships and families."
-pubDate: 2025-08-17
+subtitle: "Sovereignty as a form of love"
+description: "Defined roles do not limit relationships. They protect them. A reflection on boundaries, restraint, and how trust is built through what we choose not to control."
+pubDate: "2025-08-17"
 heroImage: "/images/writing/the-kingdom-of-small-things.png"
 heroAlt: "A minimalist split scene showing a kitchen on one side and a small yard on the other, divided by a clean boundary, symbolizing shared space and personal sovereignty within a home"
-tags: ["Sovereign Reflection", "Relationships", "Family Systems"]
+tags: ["Reflection", "Relationships", "Family"]
+tier: "tier-2"
 ---
 
 Not long after my father passed away, my mother shared something with me.
@@ -33,6 +34,7 @@ In reality, it was a treaty.
 
 Each person had a domain. Within that domain, there was freedom.
 
+---
 ## The Blueprint
 
 My mother was not sharing a memory.
@@ -55,6 +57,7 @@ What matters is not the division itself.
 
 What matters is the respect that follows it.
 
+---
 ## Why Roles Matter
 
 Much of the research on household labor focuses on imbalance, and for good reason.
@@ -73,6 +76,7 @@ The issue is not symmetry.
 
 The issue is sovereignty.
 
+---
 ## The Same-Sex Dimension
 
 In same-sex relationships, especially between two strong personalities, this becomes essential.
@@ -99,6 +103,7 @@ Research supports this as well. Same-sex couples often thrive in flexibility, ye
 
 Shared sovereignty becomes shared care.
 
+---
 ## The Household as a System
 
 A household is a small system.
@@ -115,6 +120,7 @@ Division of responsibility is not control.
 
 It is trust made visible.
 
+---
 ## Love as Sovereignty
 
 What my mother gave me was simple.
@@ -133,6 +139,7 @@ In silence.
 
 In the small things.
 
+---
 ## The Wisdom of Restraint
 
 Love is not always expressed through input.
@@ -147,6 +154,7 @@ Not to improve what is not yours to improve.
 
 That is where relationships are either strengthened or quietly undone.
 
+---
 ## Closing Reflection
 
 This rhythm worked until it didn’t.

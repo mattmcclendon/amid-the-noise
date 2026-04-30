@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Hardest Job"
-subtitle: ""
-description: "On searching for work, shifting identity, and learning to trust timing without losing yourself."
-pubDate: 2026-01-15
-heroImage: /images/writing/the-hardest-job.jpg
+subtitle: "Waiting without abandoning yourself"
+description: "Searching for work becomes a test of identity. A reflection on patience, alignment, and trusting timing without performing urgency."
+pubDate: "2026-01-15"
+heroImage: "/images/writing/the-hardest-job.jpg"
 heroAlt: "A quiet city pier at dusk with empty benches and warm lights leading toward the skyline, suggesting patience and forward movement."
 tags: ["Reflection", "Work", "Transition"]
+tier: "tier-2"
 ---
 
 The hardest job I have ever had is not leading teams, shipping products, or navigating complexity at scale.

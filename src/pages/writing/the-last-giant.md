@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Last Giant"
-subtitle: "The An-225’s destruction signaled a new era of open hostility."
-description: "A personal memory of the Antonov An-225 becomes a lens for understanding how the illusion of post-Cold War stability unraveled into a new, less predictable form of conflict."
-pubDate: 2026-05-05
-author: "Matthew McClendon"
-tags: ["Geopolitics", "Signal", "History", "Systems Thinking"]
+subtitle: "When structure gives way to chaos"
+description: "The destruction of the Antonov An-225 marks a shift from structured rivalry to unbounded conflict, revealing how assumptions about stability quietly collapse."
+pubDate: "2026-05-05"
 heroImage: "/images/writing/the-last-giant.png"
 heroAlt: "The Antonov An-225 Mriya grounded on a runway, massive and silent, under a gray sky"
+tags: ["Signal", "Civic Systems", "Geopolitics"]
+tier: "tier-1"
 ---
 
 ## A Memory from Oklahoma City
@@ -20,6 +20,7 @@ Back then, the world insisted that the Cold War had ended. The Soviet Union had 
 
 We were wrong.
 
+---
 ## The Cold War Didn’t End, It Shifted Shape
 
 The An-225 emerged from an era that thought it was concluding. Engineers built it to move space shuttles and outsized cargo for a country that no longer exists. When that country dissolved, the aircraft lingered like an orphaned monument.
@@ -30,6 +31,7 @@ We told ourselves the Cold War had been resolved. We spoke as though the world h
 
 Then the world reminded us that rivalries rarely disappear. They wait.
 
+---
 ## Mriya’s Destruction Announces a Different Kind of Conflict
 
 When Russian forces attacked Hostomel Airport in February 2022 and destroyed the An-225, its death did not feel like a Cold War epilogue. It felt like a prologue to something harsher.
@@ -38,6 +40,7 @@ The Cold War had guardrails. Backchannels. Predictable escalation paths. Both si
 
 The An-225’s destruction lives inside that context. It was not just collateral damage. It was an early signal that the era of concealed hostility had ended. A giant born in a structured rivalry died in a chaotic one.
 
+---
 ## What the Plane Means Now
 
 When I walked through the An-225, the world believed it had graduated from catastrophe. We thought superpower conflict belonged to the past. The idea that this aircraft would one day be destroyed in a live assault on a European capital would have felt absurd.
@@ -51,6 +54,7 @@ One era built it. Another erased it.
 
 Its story, like so many others, proves that history does not end. It only shifts direction.
 
+---
 ## The Last Giant
 
 The An-225 was the largest aircraft ever created, but its real legacy is quieter. It marks the moment when we misunderstood the world as stable, and the moment when that illusion shattered.

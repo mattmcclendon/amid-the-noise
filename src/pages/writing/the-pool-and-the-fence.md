@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Pool & the Fence"
-subtitle: "Notes on Belonging and Babel"
-description: "What divides us is rarely distance. It is the language we use to describe where we stand."
-pubDate: 2025-10-26
+subtitle: "Belonging and Babel"
+description: "What divides us is rarely distance. It is the language we use to describe where we stand, and who gets to understand it."
+pubDate: "2025-10-26"
 heroImage: "/images/writing/the-pool-and-the-fence.png"
 heroAlt: "Two adjacent pools divided by a wooden fence, one worn and muted, the other clean and minimal"
-tags: ["Reflection", "Civic Systems", "Language"]
+tags: ["Civic Systems", "Language", "Reflection"]
+tier: "tier-2"
 ---
 
 The pool smells of chlorine and desperation. Ten feet away, the water sparkles with curated joy. Somewhere between the two, I am still trying to translate.
@@ -21,6 +22,7 @@ It is not the fences that divide people most.
 
 It is the language.
 
+---
 ## When Words Build Walls
 
 On one side, the conversation is all lived experience—no polish, no metaphor, only survival. People talk about what happened, not how it felt. The sentences land hard, clipped, transactional.
@@ -37,6 +39,7 @@ In the other yard, the vocabulary stretches itself like a yoga instructor. It is
 
 Language is meant to bring us together; it often shows who belongs and who doesn’t.
 
+---
 ## Fluent in Exile
 
 I have spent most of my adult life as a translator—a person fluent in multiple dialects of belonging. I can speak recovery and recursion, trauma and tech. I can shift from the cadence of the halfway house to the shorthand of the boardroom without missing a beat. The older I get, the more I realize that fluency is not always a gift. Sometimes it is exile with a better vocabulary.
@@ -47,6 +50,7 @@ My partner used to do that. He would tell me he worked in “zone three today”
 
 That’s what happens when language ceases to be communication and turns into currency. The words no longer clarify; they credential.
 
+---
 ## The San Francisco Mirror
 
 Maybe that’s why I keep returning to San Francisco. It’s one of the few cities that speaks my language. Complexity is seen as a virtue, and acronyms act as social currency. Every sentence feels like half prayer, half password.

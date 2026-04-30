@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Too Much City, Too Much Me"
-subtitle: "On arrogance, recovery, and learning to see a city anew."
-description: "Sometimes the place doesn’t change. We do."
-pubDate: 2025-09-27
+subtitle: "When the city stops being the problem"
+description: "Sometimes the place does not change. The lens does. A reflection on arrogance, recovery, and learning to see a city without projecting yourself onto it."
+pubDate: "2025-09-27"
 heroImage: "/images/writing/too-much-city-too-much-me.png"
 heroAlt: "A lone figure standing by the water facing a hazy city skyline and bridge"
 tags: ["Recovery", "Reflection", "Place"]
+tier: "tier-2"
 ---
 
 I used to hate San Francisco. Not out of spite, but because it was always too much.

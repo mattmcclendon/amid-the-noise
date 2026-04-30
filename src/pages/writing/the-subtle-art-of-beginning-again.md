@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Subtle Art of Beginning Again"
-description: "On awareness, renewal, and the quiet discipline of evolving without starting over."
-pubDate: 2025-11-09
-heroImage: /images/writing/the-subtle-art-of-beginning-again.jpg
+subtitle: "Awareness as the starting line"
+description: "Beginnings rarely look like motion. They look like recognition. A reflection on awareness, renewal, and evolving without starting over."
+pubDate: "2025-11-09"
+heroImage: "/images/writing/the-subtle-art-of-beginning-again.jpg"
 heroAlt: "A handwritten letter on a wooden desk beside a fountain pen and a softly lit lamp, suggesting reflection, clarity, and quiet renewal"
 tags: ["Reflection", "Growth", "Clarity"]
+tier: "tier-2"
 ---
 
 There’s something about a Sunday that feels like a quiet conversation with your own mind.

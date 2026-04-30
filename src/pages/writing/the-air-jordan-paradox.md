@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Air Jordan Paradox"
-subtitle: "Or, Why I Date Above the Ankle but Below My Station"
-description: "What we wear isn’t just style. It’s story, signal, and sometimes a warning."
-pubDate: 2025-10-18
+subtitle: "Signal, story, and what we carry"
+description: "What we wear is not just style. It is signal, identity, and memory, often revealing more about where someone is than where they say they’re going."
+pubDate: "2025-10-18"
 heroImage: "/images/writing/the-air-jordan-paradox.png"
 heroAlt: "A pair of brown Chelsea boots facing red and white sneakers on a soft reflective surface"
-tags: ["Reflection", "Relationships", "Identity"]
+tags: ["Reflection", "Relationships", "Signal"]
+tier: "tier-2"
 ---
 
 It always begins with the shoes.

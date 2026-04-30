@@ -1,13 +1,16 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "When the Music Stops"
-description: "Everyone loves the spotlight, but most things only work because someone steady is holding it all together. When that role gets taken for granted, the cracks don’t show right away. Then one day they stop showing up, and you realize how much they were carrying."
-pubDate: 2025-09-25
-heroImage: /images/writing/2025-09-25.jpg
-heroAlt: "second violen/fiddle"
-tags: ["Systems Thinking", "Leadership", "Signal"]
+subtitle: "Continuity is the hidden structure"
+description: "Systems rarely fail at the point of leadership. They fail when continuity withdraws. A reflection on the second chair, deferred priorities, and the cost of taking stability for granted."
+pubDate: "2025-09-25"
+heroImage: "/images/writing/2025-09-25.jpg"
+heroAlt: "second violin resting beside a music stand"
+tags: ["Signal", "Systems Thinking", "Leadership"]
+tier: "tier-1"
 ---
-What happens when the second fiddle sets down the bow?
+
+What happens when the second violin sets down the bow?
 
 Every system has its second chair. The deputy. The vice. The one who carries continuity while others carry the spotlight. They are not ornamental. They hold the structure together. The melody depends on them, even when it does not acknowledge them.
 
