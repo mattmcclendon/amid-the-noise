@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Founder Mode"
 subtitle: "Why scaling doesn’t mean disappearing"
 description: "The difference between managing a company and animating it."
-pubDate: 2025-06-03
+pubDate: "2025-06-03"
 heroImage: "/images/writing/founder-mode.png"
 heroAlt: "Minimal abstract composition showing layered systems with a central presence interacting across boundaries"
-tags: ["Startups", "Leadership", "Founders", "Execution"]
+tags: ["Signal", "Startups", "Leadership"]
+tier: "tier-2"
 ---
 
 There’s a piece of advice founders hear early.
@@ -17,6 +18,7 @@ It sounds reasonable.
 
 It breaks more companies than it builds.
 
+---
 ## Two ways to run a company
 
 At scale, most organizations default to a pattern.
@@ -35,6 +37,7 @@ Call it founder mode.
 
 Both exist. Most companies drift into one without noticing.
 
+---
 ## What gets lost
 
 The early version of a company has a certain intensity.
@@ -51,6 +54,7 @@ Fewer direct conversations. Less involvement in the product. More reliance on ab
 
 At some point, the company still functions, but it no longer feels like anything in particular.
 
+---
 ## Delegation isn’t disappearance
 
 Scale requires delegation.
@@ -73,6 +77,7 @@ The boundaries aren’t fixed.
 
 The principle is.
 
+---
 ## Where involvement matters
 
 This is where the conversation usually collapses into a bad question.
@@ -97,6 +102,7 @@ That’s not control.
 
 It’s fidelity.
 
+---
 ## What founders feel but don’t say
 
 There’s a moment most founders hit.
@@ -113,6 +119,7 @@ It isn’t.
 
 It’s drift.
 
+---
 ## Why the advice persists
 
 Manager mode is easier to teach.
@@ -129,6 +136,7 @@ Sometimes that’s true.
 
 Often it’s not.
 
+---
 ## What actually holds
 
 Scaling doesn’t require you to disappear.
@@ -148,6 +156,7 @@ Not constantly.
 
 Precisely.
 
+---
 ## The difference
 
 Manager mode optimizes for stability.

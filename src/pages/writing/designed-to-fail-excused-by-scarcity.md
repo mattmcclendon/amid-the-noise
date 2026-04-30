@@ -1,12 +1,12 @@
----
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Designed to Fail, Excused by Scarcity"
-subtitle: "Reimagining Public Systems with the People They Underserve"
+subtitle: "Scarcity as system behavior"
 description: "Scarcity in public systems is not a symptom of failure. It is an output of design. This paper reframes civic infrastructure through participation, dignity, and distributed capacity."
-pubDate: 2026-02-15
-heroImage: 
+pubDate: "2026-02-15"
+heroImage: ""
 heroAlt: ""
-tags: ["Civic Systems", "Public Infrastructure", "Design Theory"]
+tags: ["Civic Systems", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
 
 ## Executive Summary
@@ -31,6 +31,7 @@ Make dignity a performance metric.
 
 Public systems should not manage people. They should include them.
 
+---
 ## Narrative
 
 There’s a mother outside a welfare office in Modesto, bouncing a fussy toddler on her hip. She’s been there since 06h00, hoping for a same-day appointment. Inside, the clerk does not make eye contact. She does not need to. Fifty people wait. Two staff sit behind the glass.
@@ -66,6 +67,7 @@ It is about math. Inputs. Constraints. Outputs.
 
 Subtract enough from a system and call it fair, and eventually all that remains is a line at the door.
 
+---
 ## I. The Language of Excuse: “Understaffed” and “Overwhelmed”
 
 These words appear everywhere:
@@ -86,6 +88,7 @@ When a school nurse treats 400 children alone, the question shifts to her perfor
 The system appears overburdened.  
 The burden was never distributed.
 
+---
 ## II. Scarcity Is Not a Symptom. It Is a Strategy.
 
 Scarcity is curated. It is enforced.
@@ -110,6 +113,7 @@ At whose cost.
 A system that depends on exclusion to function is not failing.  
 It is working as intended.
 
+---
 ## III. From Burdens to Collaborators
 
 This is the pivot.
@@ -128,6 +132,7 @@ A system that excludes lived experience is not incomplete. It is inaccurate. And
 
 Participatory governance was never meant to be symbolic. It was meant to be structural.
 
+---
 ## IV. Civic Capacity Is Not Scarce. It Is Suppressed
 
 The math is straightforward.
@@ -150,6 +155,7 @@ We spend it maintaining systems that resist adaptation.
 The constraint is not capacity.  
 It is permission.
 
+---
 ## V. Case Studies: Signals of What’s Possible
 
 **1. CAHOOTS: Civilian Crisis Response**
@@ -186,6 +192,7 @@ They did not replace institutions. They revealed what institutions failed to do.
 Communities responded because they were never the problem.  
 They were the missing layer.
 
+---
 ## VI. A Design Reversal Blueprint: Building Systems That Invite
 
 What changes when systems assume participation instead of policing it?
@@ -208,6 +215,7 @@ The public is not noise. It is a real-time dataset. Capture it. Learn from it. A
 
 Example: Community-driven signal mapping that identifies service gaps and conflict zones without relying on historical enforcement data.
 
+---
 ## VII. Final Position: Scarcity Is a Choice. Inclusion Is Infrastructure.
 
 We can map distant planets. We can map human need.
@@ -227,6 +235,7 @@ If we do not change the logic, the outcome repeats.
 Not by accident.  
 By design.
 
+---
 ## Epilogue
 
 We are not short on people.  

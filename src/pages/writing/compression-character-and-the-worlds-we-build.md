@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Compression, Character, and the Worlds We Build"
-subtitle: ""
-description: "A persona is not a mask. It is a compression algorithm. This piece explores how character and world-building reveal identity, behavior, and the systems that shape consequence."
-pubDate: 2026-06-11
+subtitle: "Signal through omission"
+description: "A persona is not a mask. It is a compression algorithm. This piece explores how omission, structure, and pressure reveal truth across characters, systems, and institutions."
+pubDate: "2026-06-11"
 heroImage: "/images/writing/compression-character-and-the-worlds-we-build.png"
 heroAlt: "Minimalist writing desk in soft cream tones with an open journal facing a circular window that frames a distant, futuristic city, suggesting reflection, identity, and imagined worlds."
-tags: ["World Building", "Identity", "Systems Thinking", "Creative Process"]
+tags: ["Signal", "Systems Thinking", "Creative Process"]
+tier: "tier-1"
 ---
 
 I’ve been thinking about something RuPaul's Drag Race gets exactly right, even if it’s rarely framed this way.

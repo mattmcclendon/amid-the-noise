@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Counting Peace, Miscounting Power"
-subtitle: ""
-description: "The claim that America has only known a handful of years of peace depends less on history than on how peace is defined. A closer look reveals something more complex and more honest."
-pubDate: 2026-06-16
+subtitle: "What the six-year statistic actually measures"
+description: "The claim that the United States has only known a handful of years of peace depends less on history than on how peace is defined. The number measures activity, not character."
+pubDate: "2026-06-16"
 heroImage: "/images/writing/counting-peace-miscounting-power.png"
 heroAlt: "A minimalist composition of a world map with faint concentric signal lines radiating from the United States, suggesting global entanglement and influence"
-tags: ["Civic Systems", "Power", "History", "Narrative"]
+tags: ["Civic Systems", "Power", "History"]
+tier: "tier-1"
 ---
 
 You’ll hear it said that the United States has only known a handful of years of peace since 1776. It sounds like a verdict delivered by arithmetic, the kind that settles an argument before it begins. The trouble is not the number itself, but the definition doing the counting.

@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Ellipses and Proof: A Family Method"
-subtitle: ""
+subtitle: "Truth carried across generations"
 description: "Across generations and continents, one method endures: measure carefully, state plainly, and honor the shape truth actually takes."
-pubDate: 2025-09-26
+pubDate: "2025-09-26"
 heroImage: "/images/writing/ellipses-and-proof-a-family-method.png"
 heroAlt: "A lone figure standing between faint historical scenes with an abstract orbital diagram above"
-tags: ["Lineage", "Reflection", "Civic Systems"]
+tags: ["Reflection", "Lineage", "Systems Thinking"]
+tier: "tier-1"
 ---
 
 This is not only the story of my ancestors—Kepler, Carper, McClendon—but also of how exile and patriotism, astronomy and medicine, heresy and survival converged in me. It’s a meditation on what families carry across continents, wars, jealousies, and work, and what remains when everything else drifts: truth and courage.

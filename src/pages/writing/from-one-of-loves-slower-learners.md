@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "From One of Love’s Slower Learners"
-description: "On patience, timing, and the quiet absurdity of trying to understand love."
-pubDate: 2025-10-22
-heroImage: /images/writing/from-one-of-loves-slower-learners.jpg
+subtitle: "Timing refuses instruction"
+description: "Love resists optimization. A reflection on patience, timing, and the quiet absurdity of trying to understand what can only be lived."
+pubDate: "2025-10-22"
+heroImage: "/images/writing/from-one-of-loves-slower-learners.jpg"
 heroAlt: "An empty park bench beside a softly glowing lamppost in a misty autumn setting"
-tags: ["Reflection", "Relationships", "Love"]
+tags: ["Reflection", "Relationships"]
+tier: "tier-3"
 ---
 
 Love’s got a funny sense of timing.
@@ -16,4 +18,4 @@ It wanders in when it pleases, usually late, and always acting like it knew the 
 So we keep the light on, learn what we can while we wait,  
 and trust that someday we’ll all see the world by the same lamp.
 
-—From one of love’s slower learners.
+— From one of love’s slower learners.

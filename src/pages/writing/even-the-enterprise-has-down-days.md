@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Even the Enterprise Has Down Days"
-subtitle: "On continuity, quiet systems, and the unseen work that keeps everything from drifting"
-description: "Continuity, quiet systems, and the unseen work that keeps everything from drifting."
-pubDate: 2026-05-12
-author: "Matthew McClendon"
-tags: ["Reflection", "Systems", "Signal", "Star Trek"]
+subtitle: "Continuity is the work"
+description: "Most of a system’s life is not crisis or breakthrough. It is continuity. The unseen work that prevents drift is what keeps everything else possible."
+pubDate: "2026-05-12"
 heroImage: "/images/writing/even-the-enterprise-has-down-days-hero.jpg"
 heroAlt: "The NCC-1701-D gliding through deep space beneath a warm planetary glow, evoking continuity, vigilance, and quiet motion"
+tags: ["Systems Thinking", "Signal", "Continuity"]
+tier: "tier-2"
 ---
 
 Star Trek remembers the Enterprise for its clarity.

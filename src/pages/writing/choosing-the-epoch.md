@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Choosing the Epoch"
-subtitle: ""
-description: "On starting points, authorship, and the moment we decide to begin counting from."
-pubDate: 2025-12-21
-heroImage: /images/writing/choosing-the-epoch.jpg
+subtitle: "Where we decide to start counting"
+description: "An epoch is a chosen beginning. A reflection on authorship, starting points, and measuring from the moment that actually explains the present."
+pubDate: "2025-12-21"
+heroImage: "/images/writing/choosing-the-epoch.jpg"
 heroAlt: "A runway stretching toward the horizon at sunrise, lights guiding a clear point of departure."
-tags: ["Reflection", "Time", "Perspective"]
+tags: ["Reflection", "Time"]
+tier: "tier-2"
 ---
 
 An epoch is not just a technical timestamp.

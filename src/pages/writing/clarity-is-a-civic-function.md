@@ -1,19 +1,20 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Clarity Is a Civic Function"
-description: "Misunderstanding infrastructure creates risk. The truth does not change, only the language we use to describe it."
-pubDate: 2025-12-04
-heroImage: /images/writing/clarity-is-a-civic-function.jpg
+subtitle: "Understanding infrastructure without distortion"
+description: "Misunderstanding infrastructure creates risk. The systems don’t change, only the language used to describe them."
+pubDate: "2025-12-04"
+heroImage: "/images/writing/clarity-is-a-civic-function.jpg"
 heroAlt: "Modern data center building at dusk with cooling systems visible on the exterior"
-tags: ["Systems Thinking", "AI & Decision Systems", "Civic Systems"]
+tags: ["Civic Systems", "Systems Thinking"]
+tier: "tier-1"
 ---
 
 Conversations about data centers have taken on a strange life online these days. A building that once blended into the background now attracts speculation, suspicion, and a growing wave of conspiracy theories. Much of this comes from people encountering a technology they never had a reason to understand. Confusion fills the space where clarity should live. Jargon steps in. Fear follows.
 
 I want to cut through that gently and show what these facilities actually do. Nothing mystical, nothing hidden. Just the digital backbone of daily life. So here is the same explanation delivered two ways. One version uses simple, everyday language for people who only need the basics. The other uses the vocabulary of professionals who work with these systems. Seeing them together makes the point. The truth stays the same. Only the register shifts.
 
-⸻
-
+---
 **Data Centers, Explained (plain English edition)**
 
 A data center is a large building filled with powerful computers. These computers hold our photos, videos, messages, and apps. They keep everything safe, organized, and ready whenever we need it.
@@ -22,8 +23,7 @@ When you watch a movie, play an online game, order food, or look something up, t
 
 A data center works like a super-sized digital library. It protects information, moves it where it needs to go, and stays on all day and all night so the online world keeps running smoothly.
 
-⸻
-
+---
 **Data Centers, Explained (Nerd edition)**
 
 A data center is a purpose-built facility designed to deliver reliable computational capacity, secure data storage, and high-availability digital services. It functions as the physical backbone of the modern internet and every cloud platform we depend on, including banking, logistics, and national security systems.

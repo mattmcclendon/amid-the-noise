@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Designing Analyst Workflows"
-subtitle: "Human-in-the-Loop Systems for AI-Mediated Intelligence"
-description: "Defines how analyst workflows are structured in AI-mediated intelligence systems, establishing design patterns for signal presentation, multi-hypothesis analysis, decision control, and human override."
-pubDate: 2026-03-24
-heroImage:
-heroAlt:
-tags: ["Intelligence", "AI Governance", "Workflows"]
+subtitle: "Where intelligence decisions actually happen"
+description: "Intelligence systems are experienced through workflows. This paper defines how structure, friction, and signal presentation determine decision accuracy in AI-mediated environments."
+pubDate: "2026-03-24"
+heroImage: ""
+heroAlt: ""
+tags: ["Signal", "Systems Thinking", "Workflows"]
+tier: "tier-1"
 ---
 
 ## Foreword
@@ -36,7 +37,6 @@ Without deliberate design, AI-assisted workflows default to:
 This paper defines how analyst workflows must be structured to preserve accuracy, context, and control in AI-mediated intelligence environments.
 
 ---
-
 ## Executive Summary
 
 AI-assisted intelligence workflows shape how signals are interpreted and how decisions are made.
@@ -66,7 +66,6 @@ It argues that:
 The objective is to define workflows that enable analysts to make accurate decisions under conditions of scale, ambiguity, and time pressure.
 
 ---
-
 ## I. Workflow as Control Surface
 
 In AI-mediated systems, workflows are not neutral.
@@ -97,7 +96,6 @@ The difference is not technical.
 It is structural.
 
 ---
-
 ## II. The Analyst in AI-Mediated Systems
 
 The role of the analyst does not disappear.
@@ -123,7 +121,6 @@ This shift introduces new risks:
 Workflow design must address these risks directly.
 
 ---
-
 ## III. Signal Presentation Design
 
 The first moment of interpretation is the point of highest influence.
@@ -159,7 +156,6 @@ Analysts must be able to:
 Comparison expands understanding.
 
 ---
-
 ## IV. Multi-Hypothesis Analysis
 
 Single-path interpretation increases risk.
@@ -179,7 +175,6 @@ This requirement:
 Interpretation must be constructed, not accepted.
 
 ---
-
 ## V. Structured Decision Points
 
 Not all decisions carry equal consequence.
@@ -227,7 +222,6 @@ It is a control mechanism that:
 - reduces error under pressure  
 
 ---
-
 ## VI. Human Override and Accountability
 
 Human override is a core feature of governed systems.
@@ -259,7 +253,6 @@ Override data must be analyzed to determine:
 Override is diagnostic.
 
 ---
-
 ## VII. Cognitive Load Management
 
 AI systems increase signal volume.
@@ -295,7 +288,6 @@ Cognitive load is a system variable.
 It must be designed for.
 
 ---
-
 ## VIII. Workflow Telemetry
 
 Workflows must produce data about themselves.
@@ -329,7 +321,6 @@ Workflows are not static.
 They evolve.
 
 ---
-
 ## IX. Failure Modes of Workflow Design
 
 Without deliberate design, workflows will:
@@ -349,7 +340,6 @@ These failures lead to:
 Workflow failure is system failure.
 
 ---
-
 ## X. Strategic Outcomes
 
 Effective workflow design produces:
@@ -363,7 +353,6 @@ Effective workflow design produces:
 Workflows determine whether systems function as intended.
 
 ---
-
 ## Conclusion: Workflow Is Where Decision Happens
 
 Policy defines expectations.

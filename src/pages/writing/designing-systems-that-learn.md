@@ -1,14 +1,14 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Designing Systems That Learn: A Practitioner’s Update"
 subtitle: "Revisiting the UX–Data Science partnership in the age of continuous learning systems"
 description: "A refreshed perspective on feedback loops, machine learning, and the evolving partnership between designers and data scientists."
-pubDate: 2026-07-30
-author: "Matthew McClendon"
+pubDate: "2026-07-30"
 heroImage: "/images/writing/designing-systems-that-learn.png"
 heroAlt: "Abstract loop of data, algorithm, interface, and action forming a continuous system"
-tags: ["AI systems", "UX strategy", "decision systems"]
----
+tags: ["Signal", "AI Systems", "UX"]
+tier: "tier-1"
+--- 
 
 ## Preface
 
@@ -17,10 +17,7 @@ This piece was first published in February 2020 via UX Collective. At the time, 
 What follows is not a rewrite. It is a recalibration. The core loop remains intact. The implications have deepened.
 
 ---
-
 ## The Feedback Loop as Architecture
-
-![Figure 1. A feedback loop characterizes services that learn from their users.](/images/writing/designing-systems-that-learn-fig-1.png)
 
 Systems that learn from users are best understood as a loop:
 
@@ -34,7 +31,6 @@ This is not a feature. It is the system.
 The consequence is simple and easy to underestimate. Experience design no longer ends at the interface. It extends into how systems learn, what they optimize for, and how they adapt over time.
 
 ---
-
 ## What Changed Since 2020
 
 Three shifts matter.
@@ -49,7 +45,6 @@ A model in isolation has no value. Value emerges only when the loop closes. Data
 Many systems now participate in decisions. Financial approvals, content ranking, risk scoring. The interface is no longer just display. It is a negotiation between human judgment and machine inference.
 
 ---
-
 ## Designing in a Non-Deterministic World
 
 Traditional software behaves like a script. Machine learning behaves like a probability distribution.
@@ -73,10 +68,7 @@ Engagement can be engineered. That is now trivial.
 The harder question is whether it should be.
 
 ---
-
 ## The Data Science Loop
-
-![Figure 2. The data science method and its cyclical processes of constant evaluation and refinement.](/images/writing/designing-systems-that-learn-fig-2.png)
 
 Data science follows a structured cycle:
 
@@ -95,7 +87,6 @@ Two truths matter here:
 This introduces tension with design, which often seeks coherence before deployment. Data science accepts uncertainty as a starting condition.
 
 ---
-
 ## Where Designers and Data Scientists Miss Each Other
 
 The friction is not technical. It is conceptual.
@@ -117,7 +108,6 @@ A signal becomes a model input.
 Without that translation, teams talk past each other while using the same words.
 
 ---
-
 ## The Real Unit of Design: The Loop
 
 The most important shift is this:
@@ -135,7 +125,6 @@ A well-designed loop answers:
 If any part breaks, the system degrades. Quietly at first. Then all at once.
 
 ---
-
 ## Cold Start, Drift, and Exit
 
 Three moments define the lifecycle:
@@ -155,7 +144,6 @@ Few systems are designed for a graceful ending.
 This last phase remains underdesigned and underestimated.
 
 ---
-
 ## A Working Model for Collaboration
 
 Effective teams converge on a shared rhythm:
@@ -169,7 +157,6 @@ Effective teams converge on a shared rhythm:
 This is less about process and more about alignment. Teams fail when each discipline optimizes locally.
 
 ---
-
 ## The Ethical Center
 
 Systems that learn are not neutral.
@@ -184,7 +171,6 @@ Designers and data scientists now share responsibility for behavioral outcomes a
 That includes attention, trust, and decision integrity.
 
 ---
-
 ## Closing
 
 In 2020, the feedback loop was a useful model.
@@ -196,7 +182,6 @@ The work is no longer about integrating machine learning into products.
 It is about designing systems where learning itself becomes part of the user experience.
 
 ---
-
 ## References
 
 Levy, S. (2016). *How Google is Remaking Itself as a Machine Learning First Company*  

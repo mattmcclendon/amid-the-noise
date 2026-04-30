@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "From Collapse to Construction"
-description: "On empathy, boundaries, and the shift from rescuing individuals to building systems that hold."
-pubDate: 2025-11-06
-heroImage: /images/writing/from-collapse-to-construction.jpg
+subtitle: "From rescue to systems that hold"
+description: "Empathy without boundaries collapses. A reflection on moving from rescuing individuals to building systems that protect everyone, including yourself."
+pubDate: "2025-11-06"
+heroImage: "/images/writing/from-collapse-to-construction.jpg"
 heroAlt: "A solitary figure crossing an empty city street at sunrise, skyline silhouetted in warm light"
-tags: ["Reflection", "Civic Systems", "Agency"]
+tags: ["Civic Systems", "Agency", "Reflection"]
+tier: "tier-2"
 ---
 
 I used to make other people’s problems my own.  

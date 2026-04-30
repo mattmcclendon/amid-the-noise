@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "From Signal to Decision"
-subtitle: ""
-description: "This piece translates insight into design. It outlines how to build systems that surface uncertainty, preserve optionality, and support better decisions under real conditions."
-pubDate: 2026-07-14
+subtitle: "Carrying uncertainty to the point of action"
+description: "Better decisions do not come from better answers alone. They come from systems that preserve uncertainty long enough for it to matter."
+pubDate: "2026-07-14"
 heroImage: "/images/writing/from-signal-to-decision.png"
 heroAlt: "A minimalist abstract surface with multiple structured paths, subtle interruptions, and dotted alternative routes, suggesting deliberate decision points rather than a single predetermined outcome."
-tags: ["Signal and Trust", "Civic Systems and Dignity", "Sovereign Reflection"]
+tags: ["Signal", "Systems Thinking", "Decision Design"]
+tier: "tier-1"
 ---
 
 Most systems do not fail when they are wrong.
@@ -34,7 +35,6 @@ If the goal is to design systems that support better decisions, the work cannot 
 It has to extend into how uncertainty is carried forward.
 
 ---
-
 ### Where systems break
 
 Most failures follow a similar pattern.
@@ -50,7 +50,6 @@ From the outside, everything appears to be working.
 From the inside, optionality has already been lost.
 
 ---
-
 ### Designing for uncertainty
 
 The alternative is not to remove structure. It is to design systems that know when not to finalize it.
@@ -64,7 +63,6 @@ Alternative interpretations should remain accessible. Not as edge cases, but as 
 In some cases, the system should slow the user down. Not arbitrarily, but deliberately, when ambiguity crosses a threshold that makes immediate action risky. Friction, used correctly, becomes a form of protection.
 
 ---
-
 ### What this looks like in practice
 
 A model output is not a single answer. It is a structured response.
@@ -80,7 +78,6 @@ Interfaces reflect this structure.
 They do not present a single, polished result as the endpoint. They expose the shape of the decision itself, allowing the user to move through it rather than simply accept it.
 
 ---
-
 ### The trade
 
 Designing for uncertainty is not free.

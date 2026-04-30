@@ -1,13 +1,12 @@
----
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Blackjack"
-subtitle: "What We Risk When We Stay"
-description: "Every moment we stay is another hand played—and another chance to walk away."
-pubDate: 2025-10-04
+subtitle: "What we risk when we stay"
+description: "Every moment we stay is another hand played, and another chance to walk away."
+pubDate: "2025-10-04"
 heroImage: "/images/writing/blackjack.png"
 heroAlt: "Two playing cards resting on a pale surface in a minimalist composition"
-tags: ["Poetry", "Recovery", "Reflection"]
----
+tags: ["Reflection", "Recovery", "Poetry"]
+tier: "tier-3"
 
 I tell myself he is the lesson,  
 the penultimate expression of my midlife crisis—  

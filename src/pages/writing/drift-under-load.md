@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Drift Under Load"
-subtitle: "On stability, fatigue, and the mechanics of quiet drift"
+subtitle: "When stability erodes quietly"
 description: "Drift is not always a choice. It can be a mechanical response to sustained instability, fatigue, and the loss of margin."
-pubDate: 2026-03-24
-author: "Matthew McClendon"
-tags: ["Reflection", "Signal", "Recovery", "Stability"]
+pubDate: "2026-03-24"
 heroImage: "/images/writing/drift-under-load.png"
 heroAlt: "Empty residential street at golden hour, quiet and still, suggesting pause, distance, and slow return"
+tags: ["Reflection", "Recovery", "Stability"]
+tier: "tier-2"
 ---
 
 I did not decide to stop writing. I lost the conditions that made writing possible.

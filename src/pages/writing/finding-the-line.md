@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Finding the Line"
-description: "On direction, alignment, and the quiet clarity that emerges when you stop negotiating with yourself."
-pubDate: 2025-11-17
-heroImage: /images/writing/finding-the-line.jpg
+subtitle: "Where alignment replaces negotiation"
+description: "Direction is not a plan. It is alignment. A reflection on recognizing what holds and moving without internal resistance."
+pubDate: "2025-11-17"
+heroImage: "/images/writing/finding-the-line.jpg"
 heroAlt: "A quiet river at golden hour, a single vessel moving forward through still water toward an open horizon"
-tags: ["Reflection", "Agency", "Direction"]
+tags: ["Reflection", "Agency"]
+tier: "tier-2"
 ---
 
 Sundays have a way of revealing direction.

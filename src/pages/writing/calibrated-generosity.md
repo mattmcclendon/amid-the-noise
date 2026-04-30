@@ -1,13 +1,12 @@
----
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Calibrated Generosity"
-subtitle: ""
-description: "On the difference between helping and eroding agency, and why restraint can be the more humane act."
-pubDate: 2026-02-01
-heroImage: /images/writing/calibrated-generosity.jpg
+subtitle: "Helping without removing agency"
+description: "Generosity that removes effort can erode agency. A reflection on restraint, trust, and supporting growth without creating dependency."
+pubDate: "2026-02-01"
+heroImage: "/images/writing/calibrated-generosity.jpg"
 heroAlt: "A rope ladder hanging in an empty space against a bare wall, suggesting support that must still be climbed."
-tags: ["Reflection", "Growth", "Agency"]
----
+tags: ["Reflection", "Agency"]
+tier: "tier-2"
 
 Sunday reflection.
 

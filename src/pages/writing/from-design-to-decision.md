@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "From Design to Decision"
-subtitle: "Operationalizing Human-Governed Intelligence Systems in Practice"
-description: "Defines how human-governed intelligence systems are implemented in real-world environments, translating governance principles into operational workflows, measurable outcomes, and decision-level enforcement."
-pubDate: 2026-03-10
-heroImage:
-heroAlt:
-tags: ["Intelligence", "AI Governance", "Operational Systems"]
+subtitle: "Where governed intelligence becomes operational"
+description: "Human-governed intelligence systems do not succeed at the level of design. They succeed at the point of decision. This paper defines how governance becomes enforceable through workflows, metrics, and system behavior."
+pubDate: "2026-03-10"
+heroImage: "/images/writing/from-design-to-decision.png"
+heroAlt: "Abstract system showing transition from structured design layers into branching decision pathways under constraint"
+tags: ["Signal", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
 
 ## Foreword
@@ -36,7 +37,6 @@ This paper defines that path.
 It does so within the constraints of operational continuity, where capability must be preserved as systems evolve.
 
 ---
-
 ## Executive Summary
 
 Human-governed intelligence systems do not emerge through full-scale replacement.
@@ -63,7 +63,6 @@ The objective is to move from alignment to execution.
 From design to decision.
 
 ---
-
 ## I. The Deployment Problem
 
 Strategic frameworks often fail at the moment they meet operational reality.
@@ -92,7 +91,6 @@ New models remain adjacent to practice rather than embedded within operational w
 Closing this gap requires implementation designed for continuity, not disruption.
 
 ---
-
 ## II. Principles of Operationalization
 
 Effective deployment of governed intelligence systems requires adherence to five principles:
@@ -155,7 +153,6 @@ Deployment expands only after:
 Scale follows proof.
 
 ---
-
 ## III. Pilot Architecture
 
 Operationalization begins with pilot environments designed for evaluation under real conditions.
@@ -188,7 +185,6 @@ The objective is not replacement.
 It is controlled evaluation under real conditions.
 
 ---
-
 ## IV. Workflow Integration
 
 Governance must be translated into daily analyst behavior.
@@ -236,7 +232,6 @@ Analyst override must be:
 Override frequency and rationale are indicators of system performance.
 
 ---
-
 ## V. Governance Enforcement
 
 Governance must operate as a control system.
@@ -287,7 +282,6 @@ This forms a continuous chain of interpretation.
 Governance in this context is binding and must operate at the same level of authority as operational decision-making.
 
 ---
-
 ## VI. Metrics and Evaluation
 
 Implementation must produce measurable improvement.
@@ -313,7 +307,6 @@ Trust is not abstract.
 It influences signal quality.
 
 ---
-
 ## VII. Institutional Adoption
 
 Adoption is not automatic.
@@ -357,7 +350,6 @@ Training must focus on:
 Capability must evolve with system design.
 
 ---
-
 ## VIII. Failure Modes of Implementation
 
 Without disciplined operationalization, implementation will fail through:
@@ -371,7 +363,6 @@ Without disciplined operationalization, implementation will fail through:
 These failures reinforce existing systems rather than improve them.
 
 ---
-
 ## IX. Strategic Outcomes
 
 Effective operationalization produces:
@@ -387,7 +378,6 @@ This is not transformation through disruption.
 It is transformation through controlled integration.
 
 ---
-
 ## Conclusion: Decision Is the Point of Truth
 
 Design defines possibility.

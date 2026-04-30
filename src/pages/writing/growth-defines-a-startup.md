@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Growth Defines a Startup"
-subtitle: "How to use growth as your compass"
-description: "Growth isn’t a result. It’s the system you build around."
-pubDate: 2025-06-04
+subtitle: "Growth as the operating constraint"
+description: "Growth is not an outcome. It is the constraint that shapes what a startup becomes and how it behaves under pressure."
+pubDate: "2025-06-04"
 heroImage: "/images/writing/growth-defines-a-startup.png"
 heroAlt: "Minimal abstract composition showing a rising curve emerging from constraint into expansion"
-tags: ["Startups", "Growth", "Strategy", "Founders"]
+tags: ["Signal", "Startups", "Growth"]
+tier: "tier-2"
 ---
 
 A startup isn’t defined by age, funding, or technology.
@@ -17,6 +18,7 @@ Sustained, rapid growth.
 
 Strip everything else away, and that’s the difference between a startup and a small business.
 
+---
 ## Not everything new is a startup
 
 Most new companies aren’t built for this.
@@ -31,6 +33,7 @@ From the beginning, it’s trying to reach a large market without a proportional
 
 That constraint shapes everything.
 
+---
 ## Two conditions
 
 For that kind of growth to exist, two things have to be true.
@@ -47,6 +50,7 @@ Others can reach the world but only solve a small problem.
 
 Startups remove both constraints or they fail trying.
 
+---
 ## Why novelty matters
 
 The obvious ideas are already taken.
@@ -61,6 +65,7 @@ They’ve felt the problem directly, or they see a shift coming before it’s wi
 
 That difference compounds.
 
+---
 ## Growth has a shape
 
 It doesn’t happen evenly.
@@ -77,6 +82,7 @@ That middle phase is the point.
 
 Everything you’re doing is trying to reach it and stay there.
 
+---
 ## The only number that matters
 
 Total users doesn’t tell you much.
@@ -95,6 +101,7 @@ Early on, measure it as often as you can tolerate.
 
 Weekly is usually enough to see the signal.
 
+---
 ## Use it as a filter
 
 Once you pick a growth target, decisions get simpler.
@@ -111,6 +118,7 @@ The system doesn’t need to be perfect.
 
 It needs to move.
 
+---
 ## Let it change you
 
 Following growth has a side effect.
@@ -127,6 +135,7 @@ Most of the companies people recognize today didn’t start where they ended.
 
 They followed the signal.
 
+---
 ## Why capital shows up
 
 Investors aren’t funding ideas.
@@ -139,6 +148,7 @@ If it isn’t, capital doesn’t fix it.
 
 That’s the alignment.
 
+---
 ## What this really is
 
 Building a startup is committing to a constraint.

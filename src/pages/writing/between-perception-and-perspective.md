@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Between Perception and Perspective"
-subtitle: "How obedience disguises itself as clarity."
-description: "We confuse perception with perspective, and in that confusion, we surrender the act of thinking."
-pubDate: 2025-09-03
+subtitle: "How obedience disguises itself as clarity"
+description: "Perception is what we see. Perspective is the story we accept. When we confuse the two, we surrender the act of thinking."
+pubDate: "2025-09-03"
 heroImage: "/images/writing/between-perception-and-perspective.png"
 heroAlt: "A group of people looking upward in the same direction while one person looks away"
-tags: ["Cognitive Bias", "Systems Thinking", "Reflection"]
+tags: ["Signal", "Cognitive Bias", "Systems Thinking"]
+tier: "tier-1"
 ---
 
 You are in a line. A long, weary line that stretches past the corner and keeps going—farther than you can see. At first, it is only the man in front of you who tilts his head upward. Then the woman beside him. Soon, like a ripple through water, dozens of faces turn skyward. A shared pause. A silent agreement.

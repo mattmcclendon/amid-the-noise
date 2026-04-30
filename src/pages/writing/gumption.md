@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Gumption"
-subtitle: ""
-description: "On systems awareness, restraint, and the difference between solving for outcomes and solving for trajectory."
-pubDate: 2026-01-22
-heroImage: /images/writing/gumption.jpg
+subtitle: "Trajectory over outcome"
+description: "Gumption is not force. It is systems awareness applied over time. A reflection on restraint, judgment, and choosing for trajectory rather than immediate result."
+pubDate: "2026-01-22"
+heroImage: "/images/writing/gumption.jpg"
 heroAlt: "Vintage Las Vegas at night with glowing casino signs and traffic along the Strip, evoking energy, decision, and consequence over time."
-tags: ["Systems Thinking", "Judgment", "Clarity"]
+tags: ["Signal", "Systems Thinking", "Judgment"]
+tier: "tier-1"
 ---
 
 When my mother was young, someone noticed how she moved through the world.

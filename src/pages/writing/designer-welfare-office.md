@@ -1,13 +1,12 @@
----
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "A Designer Walks into a Welfare Office"
-subtitle: "What I Saw, Felt, and Would Fix"
-description: "Public systems don’t just process people. They shape how people feel. This piece documents a first-hand encounter with a welfare office and what it reveals about design, dignity, and power."
-pubDate: 2025-07-24
+subtitle: "What the system communicates before it serves"
+description: "Public systems do not just process people. They shape how people feel. A firsthand account of a welfare office reveals how design decisions encode dignity, power, and expectation."
+pubDate: "2025-07-24"
 heroImage: "/images/writing/designer-welfare-office.png"
 heroAlt: "A sparse welfare office waiting area with rows of metal chairs and a lone figure seated in quiet stillness, conveying institutional distance and emotional isolation"
-tags: ["Civic Systems", "Design Ethics", "Sovereign Reflection"]
----
+tags: ["Civic Systems", "UX", "Design Ethics"]
+tier: "tier-1"
 
 “You’re number 42. Take a seat.”
 
@@ -33,6 +32,7 @@ It was a place designed to hold people.
 
 Once you experience it from the inside, you don’t design the same way again.
 
+---
 ## The Architecture of Humiliation
 
 The space communicated clearly, even without saying much:
@@ -49,6 +49,7 @@ There were no clear cues for where to begin or who to ask. Just a ticket printer
 
 It felt less like a service environment and more like a system that expected you to fail quietly.
 
+---
 ## What the System Gets Wrong
 
 From a design perspective, the breakdown is obvious.
@@ -68,6 +69,7 @@ It isn’t.
 
 It is a prioritization issue.
 
+---
 ## What I Would Fix
 
 None of this requires invention.
@@ -93,6 +95,7 @@ These are not premium features.
 
 They are baseline dignity.
 
+---
 ## Exit
 
 When I left, I didn’t feel relief.

@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Ghost in the House Called Solace"
-subtitle: ""
-description: "What it means to remain emotionally sober in the face of erasure, and to reclaim identity without reaching back into what no longer exists."
-pubDate: 2025-07-27
+subtitle: "Presence without participation"
+description: "Emotional sobriety is tested not in isolation, but in proximity to what no longer includes you. A reflection on erasure, restraint, and remaining intact."
+pubDate: "2025-07-27"
 heroImage: "/images/writing/ghost-in-the-house-called-solace.png"
 heroAlt: "A solitary figure stands outside a softly lit room, looking in through a window at others gathered inside, symbolizing distance, erasure, and quiet observation"
-tags: ["Sovereign Reflection", "Recovery", "Emotional Sobriety"]
+tags: ["Reflection", "Recovery", "Emotional Sobriety"]
+tier: "tier-2"
 ---
 
 What happens when you’re erased, and something still places you just close enough to see it?

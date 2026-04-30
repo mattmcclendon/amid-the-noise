@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Do the Things That Don’t Scale (Yet)"
-subtitle: "Why early hustle beats early hype"
-description: "What actually creates momentum before anything resembles scale."
-pubDate: 2025-06-06
+subtitle: "Momentum before scale"
+description: "Early traction is not discovered. It is created. A practical look at how manual effort forces the first layer of reality into place."
+pubDate: "2025-06-06"
 heroImage: "/images/writing/do-things-that-dont-scale-yet.png"
 heroAlt: "Minimal abstract composition showing small manual effort compounding into structured momentum"
-tags: ["Startups", "Execution", "Growth", "Founders"]
+tags: ["Signal", "Startups", "Execution"]
+tier: "tier-2"
 ---
 
 There’s a version of the startup story people like to believe.
@@ -17,6 +18,7 @@ It sounds efficient. It rarely happens.
 
 Early momentum is not discovered. It is forced into existence.
 
+---
 ## Go get them
 
 At the beginning, distribution is manual.
@@ -29,6 +31,7 @@ It feels small. It isn’t.
 
 The difference between zero and something is almost always created this way.
 
+---
 ## The part most founders avoid
 
 There are two reasons this doesn’t happen as often as it should.
@@ -40,6 +43,7 @@ Ten customers in a week feels trivial until you repeat it. Then it isn’t.
 
 Compounding starts long before it looks like growth.
 
+---
 ## Fragility is the point
 
 Early-stage startups are fragile by default.
@@ -52,6 +56,7 @@ You are close enough to the edge that your actions matter immediately. A single 
 
 That’s not something to smooth over. That’s something to use.
 
+---
 ## Over-deliver while it’s possible
 
 Your first users should feel the difference.
@@ -66,6 +71,7 @@ That’s fine. It’s not supposed to.
 
 What you’re building here is not just usage. It’s expectation.
 
+---
 ## Start smaller than you think
 
 Broad markets dilute effort early.
@@ -76,6 +82,7 @@ If adoption can happen quickly inside a small group, you create density. That de
 
 Trying to be everywhere usually means you’re nowhere.
 
+---
 ## Build it manually first
 
 Automation comes later.
@@ -89,6 +96,7 @@ You learn what actually matters.
 
 Most of that learning is lost if you skip straight to scale.
 
+---
 ## The launch doesn’t matter
 
 The idea of a perfect launch is mostly fiction.
@@ -101,6 +109,7 @@ If the first fifty people care, you have something to build on.
 
 If they don’t, no amount of coverage fixes it.
 
+---
 ## Partnerships can wait
 
 Early partnerships look strategic. They usually aren’t.
@@ -109,6 +118,7 @@ They move slowly. They depend on someone else’s priorities. They create the il
 
 Direct contact with users teaches you more, faster.
 
+---
 ## Think in two tracks
 
 There’s the product.
@@ -119,6 +129,7 @@ Those two things should be designed together.
 
 If you rely on passive growth early, that becomes your habit. If you push for every customer, that does too.
 
+---
 ## What this actually is
 
 The work that doesn’t scale isn’t a phase you graduate from.
@@ -129,6 +140,7 @@ The habits you build here tend to stay.
 
 So do the expectations you set.
 
+---
 ## What holds
 
 Most startups don’t stall because they lacked a clever idea.

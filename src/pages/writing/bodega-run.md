@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Bodega Run"
-description: "On ritual, neighborhood, and the quiet places where a city remembers itself."
-pubDate: 2025-10-20
-heroImage: /images/writing/bodega-run.jpg
+subtitle: "Where a city remembers itself"
+description: "Ritual turns a corner store into a neighborhood pulse. A reflection on how small places hold memory, connection, and continuity in a city."
+pubDate: "2025-10-20"
+heroImage: "/images/writing/bodega-run.jpg"
 heroAlt: "A corner bodega at dusk with people gathered outside, warm light spilling onto the street and sunflowers by the entrance"
-tags: ["Reflection", "City Life", "Memory"]
+tags: ["Reflection", "Place", "Memory"]
+tier: "tier-3"
 ---
 
 When I lived in New York, I used to jog down to the corner store for a Diet Mountain Dew.  

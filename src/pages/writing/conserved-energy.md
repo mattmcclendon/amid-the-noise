@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Conserved Energy"
-subtitle: ""
-description: "On limits, attention, and the discipline of allocating energy where it actually matters."
-pubDate: 2026-02-10
-heroImage: /images/writing/conserved-energy.jpg
+subtitle: "Allocation over exhaustion"
+description: "Energy is finite. A reflection on limits, attention, and choosing what actually deserves fuel."
+pubDate: "2026-02-10"
+heroImage: "/images/writing/conserved-energy.jpg"
 heroAlt: "A softly lit table with a warm lamp, a steaming mug, a closed book, and glasses, evoking rest and low-energy presence."
 tags: ["Reflection", "Presence", "Recovery"]
+tier: "tier-2"
 ---
 
 When I am not feeling well, energy stops pretending it is infinite.

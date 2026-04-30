@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Borrowed Time, Fragile Hearts"
-subtitle: ""
-description: "The Lazarus logic is not only science fiction. It is the pattern of life on borrowed time."
-pubDate: 2025-09-01
+subtitle: "Reset versus recovery"
+description: "The Lazarus logic is not only science fiction. It reflects a pattern of living on borrowed time, where survival postpones change instead of transforming it."
+pubDate: "2025-09-01"
 heroImage: "/images/writing/borrowed-time-fragile-hearts.png"
-heroAlt: "A surreal, fractured landscape resembling a looping horizon—subtle visual echoes suggesting time resetting in place, rendered in a soft #f8f7f4 palette with quiet tension and negative space."
-tags: ["Recovery", "Reflection", "Human Systems"]
+heroAlt: "A surreal, fractured landscape resembling a looping horizon."
+tags: ["Reflection", "Recovery", "Systems Thinking"]
+tier: "tier-2"
 ---
 
 In *The Lazarus Project*, the world ends again and again. A virus sweeps continents. A warhead detonates. Civilizations unravel in slow motion. Each time, a secret hand reaches for the reset button, rewinding the clock to a fixed point in July.
@@ -15,6 +16,7 @@ The world survives, though never in the way we imagine survival should look. It 
 
 We know this logic. It lives in our bodies, our relationships, our institutions. The Lazarus logic is not only science fiction. It is the pattern of life on borrowed time.
 
+---
 ## When Survival Becomes a Reset
 
 Not every ending arrives with fire in the sky. Sometimes, collapse is quieter. It looks like a heart breaking in a kitchen where no one is listening. It looks like someone revisiting the substance they swore would never touch their lips again.
@@ -25,6 +27,7 @@ That gesture is survival, yet it does not create renewal. It is a reset, the pul
 
 The world was supposed to end that night. Yet it didn’t. It was kept alive.
 
+---
 ## The Weight of Borrowed Time
 
 There is a heaviness to this kind of survival. Each reprieve feels less like a sunrise and more like a stay of execution. You wake tethered for one more orbit.
@@ -35,6 +38,7 @@ You whisper to yourself: “Not yet. One more day.”
 
 Life continues in this cycle, though under a shadow that keeps your attention fixed on fragility instead of possibility.
 
+---
 ## The Lazarus Question
 
 The haunting brilliance of *The Lazarus Project* lies not in its time-travel spectacle but in the question it refuses to let go:
@@ -45,6 +49,7 @@ That question belongs to us. As individuals, as families, as nations. When we fi
 
 Perhaps the truer courage lies in allowing the collapse to teach us, letting the old world go, and building something new from the ruins.
 
+---
 ## Recovery Versus Reset
 
 There is an important distinction here. Resetting is avoidance. Recovery is transformation.
@@ -57,6 +62,7 @@ This is not a gentle path. Recovery requires facing the collapse rather than rew
 
 It is the only way life becomes more than borrowed time.
 
+---
 ## The Gift of Collapse
 
 It is tempting to believe that collapse is always catastrophe. Sometimes, it is revelation.
@@ -67,6 +73,7 @@ The Lazarus logic would erase these lessons, holding everything in a loop where 
 
 Perhaps this is the invitation hidden in the story of Lazarus itself. Resurrection was not a return to the same life, but the unveiling of a different one.
 
+---
 ## For Anyone Holding On
 
 If you find yourself in this cycle—if survival feels like a reset rather than renewal—hear this clearly:

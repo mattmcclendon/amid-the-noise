@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Eight Months. No Applause."
 subtitle: "Learning the difference between stopping and staying"
 description: "Sobriety is not the hard part. Longevity is. The difference is not discipline. It is participation."
-pubDate: 2025-12-28
+pubDate: "2025-12-28"
 heroImage: "/images/writing/eight-months-no-applause.png"
 heroAlt: "A quiet minimalist room with a chair and table in soft morning light"
-tags: ["Recovery", "Reflection", "Systems", "Truth"]
+tags: ["Reflection", "Recovery", "Systems Thinking"]
+tier: "tier-2"
 ---
 
 Eight months sober today.

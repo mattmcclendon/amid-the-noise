@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Clarity Sorts"
-subtitle: ""
-description: "On growth, discomfort, and the quiet way clarity changes what remains."
-pubDate: 2026-01-17
-heroImage: /images/writing/clarity-sorts.jpg
+subtitle: "What remains when you stop negotiating"
+description: "Clarity changes relationships. A reflection on growth, boundaries, and what falls away when alignment replaces approval."
+pubDate: "2026-01-17"
+heroImage: "/images/writing/clarity-sorts.jpg"
 heroAlt: "A black and white portrait of a man leaning on a wooden fence, looking out over an open landscape in quiet contemplation."
 tags: ["Reflection", "Growth", "Boundaries"]
+tier: "tier-2"
 ---
 
 I’ve learned that growth often makes people uncomfortable.

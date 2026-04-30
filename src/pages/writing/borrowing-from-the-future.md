@@ -1,13 +1,12 @@
----
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Borrowing From the Future"
-subtitle: ""
-description: "On the quiet habit of living ahead of oneself, and the discipline of returning to the present."
-pubDate: 2026-03-18
-heroImage: /images/writing/borrowing-from-the-future.jpg
+subtitle: "Living ahead of yourself"
+description: "Living ahead of yourself turns the present into a holding pen. A reflection on returning attention to where your feet are."
+pubDate: "2026-03-18"
+heroImage: "/images/writing/borrowing-from-the-future.jpg"
 heroAlt: "A quiet room filled with neatly stacked moving boxes, suggesting transition, anticipation, and an unsettled future."
-tags: ["Reflection", "Decision Making", "Presence"]
----
+tags: ["Reflection", "Presence"]
+tier: "tier-2"
 
 I caught myself furnishing a house I do not yet own, then worrying about the mortgage.
 

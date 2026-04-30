@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Finding Startup Ideas That Stick"
-subtitle: "From passing thoughts to market-ready opportunities"
-description: "Where startup ideas actually come from, and why most people miss them."
-pubDate: 2025-06-07
+subtitle: "Where real ideas actually come from"
+description: "Most startup ideas don’t arrive fully formed. They emerge from proximity to change and the discipline to follow friction long enough to understand it."
+pubDate: "2025-06-07"
 heroImage: "/images/writing/finding-startup-ideas-that-stick.png"
 heroAlt: "Minimal abstract composition showing emergence, convergence, and signal forming from noise"
-tags: ["Startups", "Ideas", "Product", "Founders"]
+tags: ["Signal", "Startups", "Product"]
+tier: "tier-2"
 ---
 
 Most people don’t struggle to come up with ideas.
@@ -21,6 +22,7 @@ Ideas aren’t artifacts. They’re entry points.
 
 The value is in what happens after the first version breaks.
 
+---
 ## Start with a question
 
 Framing matters more than it looks.
@@ -33,6 +35,7 @@ Questions give you permission to be wrong. More importantly, they give you somew
 
 Most ideas don’t fail. They mutate into something adjacent that actually works.
 
+---
 ## Why this, really
 
 Years ago, Phil Libin said something that stayed with me longer than most advice does.
@@ -47,6 +50,7 @@ The thing that lasts is the problem you can’t stop thinking about.
 
 Everything else attaches to that.
 
+---
 ## Where ideas actually come from
 
 They don’t show up in isolation.
@@ -60,6 +64,7 @@ That’s why startup hubs work. Not because they’re special, but because they 
 
 You don’t need a university. You need an environment where you are learning faster than you’re stabilizing.
 
+---
 ## The accidental path
 
 A lot of durable ideas don’t start as businesses.
@@ -72,6 +77,7 @@ At some point, you realize it wasn’t just your problem.
 
 That moment matters more than any brainstorm.
 
+---
 ## What to pay attention to
 
 Good ideas tend to sit in plain sight.
@@ -86,6 +92,7 @@ The signal isn’t novelty. It’s friction.
 
 If something feels off and stays off, there’s usually a reason.
 
+---
 ## Change the problem, not the answer
 
 Competing directly is rarely the move.
@@ -97,6 +104,7 @@ What does this look like in five years?
 
 The companies that win don’t always do the thing better. They redefine what the thing is.
 
+---
 ## Make it easier
 
 Lowering cost helps.
@@ -107,6 +115,7 @@ If something becomes simple enough, people stop thinking about whether to use it
 
 That’s where adoption comes from.
 
+---
 ## The quiet reality of exits
 
 Most companies don’t go public.
@@ -119,6 +128,7 @@ If only one company would want it, you don’t have leverage.
 
 If several would, you’ve built something real.
 
+---
 ## The part people skip
 
 Working on something because it’s interesting is not a distraction.
@@ -131,6 +141,7 @@ Some of them fade. A few don’t.
 
 The ones that don’t are worth paying attention to.
 
+---
 ## What holds
 
 Waiting for a perfect idea is a stall.

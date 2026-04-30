@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Designed Lives"
-subtitle: "Human Consequences, System Design, and the Intelligence We Actually Produce"
-description: "Translates system design into human consequence through a persona-based analysis of intelligence outcomes. Shows how governance, interpretation, and signal design shape trust, accuracy, and lived experience."
-pubDate: 2026-03-03
-heroImage:
-heroAlt:
-tags: ["Intelligence", "AI Governance", "Signal Integrity"]
+subtitle: "What intelligence systems actually produce"
+description: "Intelligence systems are measured by accuracy and speed, but they produce something else: lived outcomes. This paper shows how governance, interpretation, and signal design shape human trajectories."
+pubDate: "2026-03-03"
+heroImage: ""
+heroAlt: ""
+tags: ["Civic Systems", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
 
 ## Foreword
@@ -30,7 +31,6 @@ Not as anecdote. As structural evidence.
 The objective is to make visible what intelligence systems produce in practice, and to demonstrate how governance, interpretation, and signal design shape those outcomes.
 
 ---
-
 ## Executive Summary
 
 Intelligence systems are evaluated by detection accuracy, response time, and operational success.
@@ -56,7 +56,6 @@ The goal is not to critique individual decisions.
 It is to reveal the system-level patterns that produce them.
 
 ---
-
 ## I. The System as Experience
 
 Intelligence systems are often described in terms of:
@@ -85,7 +84,6 @@ The system is not only what it does.
 It is how it is experienced.
 
 ---
-
 ## II. Persona One: The Misclassified Signal
 
 **Profile:**  
@@ -123,7 +121,6 @@ The system distinguishes between:
 - instability as condition  
 
 ---
-
 ## III. Persona Two: The Adaptive Actor
 
 **Profile:**  
@@ -155,7 +152,6 @@ Visibility is not equivalent to risk.
 Absence of signal is not evidence of safety.
 
 ---
-
 ## IV. Persona Three: The Disengaged Community
 
 **Profile:**  
@@ -188,7 +184,6 @@ Disengagement is not absence.
 It is information.
 
 ---
-
 ## V. Persona Four: The Overloaded Analyst
 
 **Profile:**  
@@ -219,7 +214,6 @@ The system supports interpretation rather than compressing it.
 Without system support, cognitive load becomes a primary driver of misinterpretation.
 
 ---
-
 ## VI. Persona Five: The Feedback Loop
 
 **Profile:**  
@@ -248,7 +242,6 @@ The system confirms itself.
 The system recognizes its own influence on future signals.
 
 ---
-
 ## VII. Cross-Persona Patterns
 
 Across all personas, consistent patterns emerge:
@@ -260,7 +253,6 @@ Across all personas, consistent patterns emerge:
 5. AI amplifies existing conditions, whether accurate or distorted  
 
 ---
-
 ## VIII. Design Implications
 
 If intelligence systems design outcomes, they must be designed intentionally.
@@ -277,7 +269,6 @@ These are not independent improvements.
 They are interdependent requirements.
 
 ---
-
 ## IX. Strategic Outcomes
 
 Designing for human impact produces:
@@ -293,7 +284,6 @@ This is not a shift toward idealism.
 It is a shift toward alignment.
 
 ---
-
 ## Conclusion: Every System Designs a Life
 
 Intelligence systems do not only produce insight.

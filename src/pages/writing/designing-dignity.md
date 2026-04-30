@@ -1,15 +1,14 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Rebuilding California’s Homelessness Systems from First Principles"
-pubDate: 2026-04-14
-description: "Designing Dignity is a human-centered systems framework for restoring agency, continuity, and trust in California’s homelessness response."
-author: "Matthew McClendon"
-tags: ["Civic Systems", "Human-Centered Design", "Public Infrastructure"]
+subtitle: "Dignity as system behavior"
+description: "Homelessness persists not because people fail systems, but because systems fail people in consistent, measurable ways. This paper reframes public infrastructure around agency, continuity, and trust."
+pubDate: "2026-04-14"
 heroImage: "/images/writing/designing-dignity.png"
 heroAlt: "Architectural system diagram showing fragmented pathways converging into a unified, coherent flow"
+tags: ["Civic Systems", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
-
-# Designing Dignity
 
 ## Executive Summary
 
@@ -31,7 +30,6 @@ When systems respect cognitive reality and human signal, people re-engage.
 Dignity becomes operational.
 
 ---
-
 ## The Core Failure
 
 Homelessness services are designed as though users are stable, resourced, and cognitively unburdened. Many are not. Trauma, sleep deprivation, executive dysfunction, and institutional distrust shape how these systems are experienced.
@@ -49,7 +47,6 @@ The result is disengagement. Programs appear underutilized. Withdrawal is misrea
 Constraints exist for reasons such as funding accountability and fraud prevention. The failure is not their presence. It is their dominance. Human signal is treated as noise rather than input.
 
 ---
-
 ## Reframing the Objective
 
 The objective is not to streamline services.  
@@ -58,7 +55,6 @@ The objective is to design for human reality.
 This framework treats homelessness as a journey through interacting systems. Each touchpoint either reinforces or erodes agency. Success is defined by clarity, continuity, and user-held choice, not enrollment or throughput.
 
 ---
-
 ## Methodological Approach
 
 The framework integrates:
@@ -71,7 +67,6 @@ The framework integrates:
 Simulation inputs included HUD datasets, municipal 211 call logs, CalFresh onboarding friction metrics, and peer-reviewed research on trauma, cognitive load, and executive function. Redesigned pathways were tested against baseline systems to observe directional differences in outcomes.
 
 ---
-
 ## Where the System Breaks Down
 
 **Cognitive Overload**  
@@ -87,7 +82,6 @@ Fluorescent lighting, crowded offices, dense paperwork, and inaccessible digital
 Applications disappear into administrative voids. No confirmation. No timeline. No signal that effort mattered. Silence converts effort into disengagement.
 
 ---
-
 ## Simulated Impact of Human-Centered Redesign
 
 Modeled outcomes, based on calibrated municipal datasets, indicate consistent directional improvements when systems are redesigned around clarity, continuity, and user choice:
@@ -105,7 +99,6 @@ These improvements do not require additional staffing. Automated confirmations, 
 The most important finding is qualitative. People re-engage when the system treats them as participants rather than problems.
 
 ---
-
 ## Operational Model
 
 The redesign does not introduce complexity. It removes incoherence.
@@ -122,7 +115,6 @@ Silence is removed. Every action produces acknowledgment, status visibility, and
 These changes shift the system from episodic processing to continuous engagement.
 
 ---
-
 ## The Proposal
 
 A nine-month municipally sponsored pilot in a city prepared for civic innovation, such as Oakland, Sacramento, or Santa Rosa.
@@ -138,7 +130,6 @@ The pilot includes:
 Governance would include defined data-sharing agreements, privacy controls, and clear success thresholds for continuation or scale.
 
 ---
-
 ## Timeline
 
 **Months 1–2**  
@@ -154,7 +145,6 @@ Pilot launch with live iteration
 Evaluation, impact reporting, scale planning  
 
 ---
-
 ## Budget Range
 
 $850,000 to $1.2 million
@@ -164,7 +154,6 @@ This includes multidisciplinary staffing, participant compensation, secure mobil
 The cost reflects alignment, not excess.
 
 ---
-
 ## Conclusion
 
 Homelessness persists not because people fail systems, but because systems fail people in consistent, measurable ways.
@@ -177,7 +166,6 @@ This is not charity.
 It is competence.
 
 ---
-
 ## Appendices: Persona Profiles
 
 **The Paperless Veteran**  
@@ -224,7 +212,6 @@ The system fails when identity is treated as error.
 Recommendation: peer navigators and affirming interaction design across all touchpoints.
 
 ---
-
 ## Ethical Guidelines for UX with Vulnerable Populations
 
 - Informed consent using clear, culturally competent language  
@@ -236,7 +223,6 @@ Recommendation: peer navigators and affirming interaction design across all touc
 - Accountability through visible feedback loops  
 
 ---
-
 ## References and Citations
 
 U.S. Department of Veterans Affairs (2023)  

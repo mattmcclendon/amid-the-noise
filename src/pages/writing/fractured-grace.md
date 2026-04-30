@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Fractured Grace"
-description: "On empathy, quiet responsibility, and the difference between chosen walls and inherited ones."
-pubDate: 2025-11-16
-heroImage: /images/writing/fractured-grace.jpg
+subtitle: "The weight we carry, chosen and not"
+description: "Empathy becomes clearer when you see both sides of responsibility. A reflection on inherited burden, chosen captivity, and the discipline of staying awake."
+pubDate: "2025-11-16"
+heroImage: "/images/writing/fractured-grace.jpg"
 heroAlt: "A quiet city street at sunrise, long shadows stretching across the sidewalk, suggesting solitude, reflection, and forward motion"
 tags: ["Reflection", "Empathy", "Responsibility"]
+tier: "tier-2"
 ---
 
 This morning, I watched a mother and her grown child at a coffee shop.
