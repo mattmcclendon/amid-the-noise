@@ -25,7 +25,14 @@ if (invalidPosts.length > 0) {
   );
 }
 
-const tagCounts = posts.reduce((acc, post) => {
+const validPosts = posts.filter((post) => {
+  const title = post.frontmatter?.title;
+  const pubDate = post.frontmatter?.pubDate;
+  const date = new Date(pubDate);
+  return title && pubDate && !Number.isNaN(date.getTime());
+});
+
+const tagCounts = validPosts.reduce((acc, post) => {
   for (const tag of post.frontmatter.tags ?? []) {
     acc.set(tag, (acc.get(tag) ?? 0) + 1);
   }
@@ -41,14 +48,9 @@ const allTags = [...tagCounts.entries()]
   .slice(0, 14)
   .map(([tag]) => tag);
 
-posts.sort((a, b) => {
-  const aTime = new Date(a.frontmatter?.pubDate).getTime();
-  const bTime = new Date(b.frontmatter?.pubDate).getTime();
-
-  if (Number.isNaN(aTime) && Number.isNaN(bTime)) return 0;
-  if (Number.isNaN(aTime)) return 1;
-  if (Number.isNaN(bTime)) return -1;
-
+validPosts.sort((a, b) => {
+  const aTime = new Date(a.frontmatter.pubDate).getTime();
+  const bTime = new Date(b.frontmatter.pubDate).getTime();
   return bTime - aTime;
 });
 ---
@@ -88,7 +90,7 @@ posts.sort((a, b) => {
   </section>
 
   <section class="section" data-pagefind-ignore>
-    {posts.map((post) => (
+    {validPosts.map((post) => (
       <article class="entry" data-tags={(post.frontmatter.tags ?? []).join('|')}>
         <h3>
           <a href={post.url}>{post.frontmatter.title}</a>
@@ -112,6 +114,8 @@ posts.sort((a, b) => {
         )}
       </article>
     ))}
+
+    <p class="archive-count">{validPosts.length} posts</p>
   </section>
 
 <script>
@@ -360,5 +364,15 @@ posts.sort((a, b) => {
     line-height: 1.35;
     font-weight: 600;
     margin: 0 0 4px;
+  }
+
+  .archive-count {
+    margin: 36px 0 0;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--secondary);
   }
 </style>
