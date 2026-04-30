@@ -6,7 +6,7 @@ description: "Language compresses under constraint. 'Five soups' becomes trust, 
 pubDate: "2025-07-21"
 heroImage: "/images/writing/5-soups.png"
 heroAlt: "Five packs of ramen noodles stacked on a table in a softly lit institutional setting, symbolizing informal currency and survival within constrained systems"
-tags: ["Civic Systems and Dignity", "Signal and Trust", "Sovereign Reflection"]
+tags: ["Civic Systems", "Systems Thinking"]
 tier: "tier-2"
 ---
 

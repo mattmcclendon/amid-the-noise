@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Becoming the Edge Case"
-subtitle: "When the System No Longer Sees You"
-description: "Systems rarely fail loudly. They exclude quietly. The moment you become the edge case, you understand what they were optimized to ignore."
-pubDate: 2026-01-22
+subtitle: "When the system no longer sees you"
+description: "Systems rarely fail loudly. They exclude quietly. When you become the edge case, you see what the system was optimized to ignore."
+pubDate: "2026-01-22"
 heroImage: "/images/writing/becoming-the-edge-case.png"
 heroAlt: "A minimalist grid of blocks with one element misaligned near the edge and a solitary figure nearby"
-tags: ["UX", "Systems", "Accessibility", "Perspective"]
+tags: ["Civic Systems", "UX", "Accessibility"]
+tier: "tier-1"
 ---
 
 I spent much of my career designing systems meant to catch people when something went wrong. I understood failure modes intellectually. I had mapped them, prioritized them, deferred them.

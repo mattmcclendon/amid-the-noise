@@ -6,7 +6,7 @@ description: "Enduring principles that persist across markets, products, and cyc
 pubDate: "2025-06-01"
 heroImage: "/images/writing/13-principles-for-building-a-startup-that-lasts.png"
 heroAlt: "Minimal abstract composition showing a central anchor point with surrounding structures forming around it"
-tags: ["Startups", "Execution", "Founders"]
+tags: ["Signal", "Startups", "Execution"]
 tier: "tier-2"
 ---
 

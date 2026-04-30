@@ -6,7 +6,7 @@ description: "Less than a minute reshaped San Francisco in 1906. A reflection on
 pubDate: "2026-04-19"
 heroImage: "/images/writing/a-minute.png"
 heroAlt: "Early morning San Francisco street in soft fog, empty and still, with cable car tracks leading toward a quiet skyline"
-tags: ["Sovereign Reflection", "Signal and Trust", "Civic Systems and Dignity"]
+tags: ["Signal", "Systems Thinking"]
 tier: "tier-2"
 ---
 

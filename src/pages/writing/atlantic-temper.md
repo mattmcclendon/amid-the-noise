@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Atlantic Temper"
 subtitle: "Belonging here is practiced, not granted"
-description: "A reflection on Boston’s temperament — how place, memory, and endurance shape belonging."
-pubDate: 2026-02-15
-author: "Matthew McClendon"
-tags: ["Reflection", "Place", "Endurance", "Identity"]
+description: "Boston does not grant belonging. It tests for it. A reflection on place, endurance, and the posture required to remain."
+pubDate: "2026-02-15"
 heroImage: "/images/writing/atlantic-temper.png"
 heroAlt: "Sunrise over the Charles River with Boston skyline, warm light reflecting on water and a quiet riverside path"
+tags: ["Reflection", "Place", "Endurance"]
+tier: "tier-3"
 ---
 
 The sun comes up the long way here,

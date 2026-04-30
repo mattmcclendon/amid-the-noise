@@ -6,7 +6,7 @@ description: "The identity shifts toward clarity, restraint, and permanence, tra
 pubDate: "2026-04-19"
 heroImage: "/images/writing/amid-the-noise-identity-evolution.png"
 heroAlt: "A minimalist identity mark featuring a grounded blue square paired with a classical serif wordmark reading 'amid the noise'"
-tags: ["Design Systems", "Signal and Trust", "Sovereign Reflection"]
+tags: ["Signal", "Design Systems"]
 tier: "tier-2"
 ---
 

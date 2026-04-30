@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Astronaut, Not Astronomer"
-description: "On a future that almost was, and the realization that the tools changed but the instinct did not."
-pubDate: 2025-12-15
-heroImage: /images/writing/astronaut-not-astronomer.jpg
+subtitle: "When instinct outlives the path"
+description: "A path toward physics closed, but the instinct to engage systems directly remained. The tools changed. The orientation did not."
+pubDate: "2025-12-15"
+heroImage: "/images/writing/astronaut-not-astronomer.jpg"
 heroAlt: "Modernist research facility set against wooded hills at dusk, with contrails overhead suggesting paths once imagined"
-tags: ["Reflection", "Memory", "Trajectory"]
+tags: ["Reflection", "Trajectory"]
+tier: "tier-2"
 ---
 
 High school was a very long time ago.

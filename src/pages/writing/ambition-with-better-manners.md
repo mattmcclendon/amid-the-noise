@@ -6,7 +6,7 @@ description: "Ambition can refine purpose or replace it. A reflection on restrai
 pubDate: "2025-11-21"
 heroImage: "/images/writing/ambition-with-better-manners.jpg"
 heroAlt: "A neatly arranged set of silverware in a velvet-lined box, suggesting order, restraint, and quiet refinement"
-tags: ["Sovereign Reflection", "Leadership", "Signal and Trust"]
+tags: ["Reflection", "Leadership"]
 tier: "tier-3"
 ---
 

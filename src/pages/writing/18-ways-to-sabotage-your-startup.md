@@ -6,7 +6,7 @@ description: "Promising startups rarely fail all at once. They erode through qui
 pubDate: "2025-06-02"
 heroImage: "/images/writing/18-ways-to-sabotage-your-startup.png"
 heroAlt: "Minimal abstract composition showing divergence, fragmentation, and misalignment resolving into clarity"
-tags: ["Startups", "Execution", "Failure Modes"]
+tags: ["Signal", "Startups", "Execution"]
 tier: "tier-2"
 ---
 

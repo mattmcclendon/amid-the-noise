@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Before It Was Empty, It Was Everything"
-description: "The Katy Depot in Altus, Oklahoma was never just a building. It was a system node that connected a town to the wider world."
-author: "Matthew McClendon"
-pubDate: 2026-05-07
+subtitle: "What a depot reveals about the system it served"
+description: "The Katy Depot in Altus was never just a building. It was a node that connected a town to the wider world, until the system around it changed."
+pubDate: "2026-05-07"
 heroImage: "/images/writing/before-it-was-empty-it-was-everything.png"
 heroAlt: "Katy Depot in Altus, Oklahoma shown in a blended past-to-present scene with a working steam-era platform transitioning into its current abandoned state."
+tags: ["Civic Systems", "Systems Thinking", "Place"]
+tier: "tier-2"
 ---
 
 A photo of the old Katy depot in Altus showed up in a Facebook group this week. The comments were predictable.

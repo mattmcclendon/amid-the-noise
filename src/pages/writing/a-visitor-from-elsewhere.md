@@ -6,7 +6,7 @@ description: "Interstellar objects don’t orbit. They pass through. A reflectio
 pubDate: "2025-11-08"
 heroImage: "/images/writing/a-visitor-from-elsewhere.jpg"
 heroAlt: "A glowing interstellar object streaking across space on a hyperbolic trajectory, passing through a star system before disappearing into the dark"
-tags: ["Systems Thinking", "Signal and Trust", "Sovereign Reflection"]
+tags: ["Signal", "Systems Thinking"]
 tier: "tier-2"
 ---
 

@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Before We Called It Social"
-description: "Designing human systems before the category existed, and what those early constraints reveal about trust, identity, and scale today."
-pubDate: 2026-04-16
-heroImage: /images/writing/before-we-called-it-social.png
+subtitle: "Designing presence before the category existed"
+description: "Human systems were designed before we had language for them. Early constraints around identity, trust, and continuity still shape how networks behave at scale."
+pubDate: "2026-04-16"
+heroImage: "/images/writing/before-we-called-it-social.png"
 heroAlt: "An abstract, early-internet-style network with sparse nodes and faint connections emerging in low light"
-tags: ["Civic Systems", "AI & Decision Systems", "Reflection"]
+tags: ["Civic Systems", "Systems Thinking"]
+tier: "tier-1"
 ---
 
 ## The Work Before the Name
@@ -28,6 +30,7 @@ The question we kept circling wasn’t complicated. It just didn’t have a clea
 
 What would it look like if people didn’t just visit the internet, but remained there, together?
 
+---
 ## Before the Internet Became the Internet
 
 It’s easy to project today’s internet backward. It didn’t look like this.
@@ -54,6 +57,7 @@ Those assumptions were right.
 
 They were just early.
 
+---
 ## The Line We Drew
 
 One decision, early on, matters more than the rest.
@@ -80,6 +84,7 @@ In hindsight, it’s a fork you can see clearly.
 
 We couldn’t see it then.
 
+---
 ## When It Became Real
 
 At some point, this stopped being theoretical.
@@ -106,6 +111,7 @@ Privacy is not a setting.
 
 It’s a condition for trust.
 
+---
 ## The Path Forward, and the Path Taken
 
 A few years later, I found myself inside a system that brought these ideas into public view.
@@ -164,6 +170,7 @@ We didn’t call it a tradeoff then.
 
 It was.
 
+---
 ## What Stayed With Me
 
 That early work never left. It just changed form.
@@ -186,6 +193,7 @@ The environment changes.
 
 The constraint doesn’t.
 
+---
 ## Now
 
 Today, the internet doesn’t struggle to connect people.
@@ -204,6 +212,7 @@ The pattern isn’t.
 
 We’ve seen what happens when systems optimize for reach instead of relationship. When identity becomes performance instead of something lived. When signal is left unprotected.
 
+---
 ## Before, and After
 
 In 1999, we were building something we didn’t yet have words for.

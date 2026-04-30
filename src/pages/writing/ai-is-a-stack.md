@@ -6,7 +6,7 @@ description: "AI is not a single breakthrough but a layered system. The real dec
 pubDate: "2026-04-28"
 heroImage: "/images/writing/ai-is-a-stack.png"
 heroAlt: "Layered AI stack diagram from classical AI to agentic AI"
-tags: ["AI Systems", "Systems Thinking", "Governance"]
+tags: ["Signal", "AI Systems", "Governance"]
 tier: "tier-1"
 ---
 

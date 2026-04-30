@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Betrayal by Another Name"
 subtitle: "How Political Ego Endangers the Republic"
 description: "When leaders prioritize ego and fear over duty, the cost is borne by the Republic itself."
-pubDate: 2025-09-23
+pubDate: "2025-09-23"
 heroImage: "/images/writing/betrayal-by-another-name.png"
 heroAlt: "A ship’s wheel resting on jagged rocks"
-tags: ["Politics", "Civic Systems", "Leadership"]
+tags: ["Civic Systems", "Leadership"]
+tier: "tier-1"
 ---
 
 I am gay. I love my country. I cannot stay quiet when those entrusted with its future treat public service like a vanity project.

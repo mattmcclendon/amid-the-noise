@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Bathyal Line"
-description: "On depth, pressure, and the quiet intelligence of the ocean."
-pubDate: 2025-11-26
-heroImage: /images/writing/bathyal-line.jpg
+subtitle: "Where pressure clarifies"
+description: "Pressure reveals shape. A reflection on depth, silence, and the quiet intelligence learned beneath the surface."
+pubDate: "2025-11-26"
+heroImage: "/images/writing/bathyal-line.jpg"
 heroAlt: "Child standing before a large aquarium window looking into deep blue water with kelp rising upward"
-tags: ["Reflection", "Systems Thinking", "Sovereign Reflection"]
+tags: ["Reflection", "Systems Thinking"]
+tier: "tier-3"
 ---
 
 The deep sea is closer than you think,  
