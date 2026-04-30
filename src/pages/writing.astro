@@ -4,12 +4,17 @@ import Layout from '../layouts/Layout.astro';
 const postModules = import.meta.glob('./writing/*.md', { eager: true });
 const posts = Object.values(postModules);
 
-posts.sort((a, b) => {
+const datedPosts = posts.filter((post) => {
+  const pubDate = post.frontmatter?.pubDate;
+  return pubDate && !Number.isNaN(new Date(pubDate).getTime());
+});
+
+datedPosts.sort((a, b) => {
   return new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate);
 });
 
 const getPostSlug = (post) => post.url?.split('/').filter(Boolean).pop();
-const postsBySlug = new Map(posts.map((post) => [getPostSlug(post), post]));
+const postsBySlug = new Map(datedPosts.map((post) => [getPostSlug(post), post]));
 
 const startHereSlugs = [
   'where-does-truth-live',
@@ -27,6 +32,49 @@ const foundationalSlugs = [
   'toward-a-human-centered-intelligence-infrastructure',
   'the-reciprocity-principle-of-emerging-intelligence',
 ];
+
+const startHerePosts = startHereSlugs
+  .map((slug) => postsBySlug.get(slug))
+  .filter(Boolean);
+
+const foundationalPosts = foundationalSlugs
+  .map((slug) => postsBySlug.get(slug))
+  .filter(Boolean);
+
+const featuredSlugs = new Set([
+  ...foundationalSlugs,
+  ...startHereSlugs,
+]);
+
+const getTierPosts = (tier, limit = 6) => datedPosts
+  .filter((post) => post.frontmatter?.tier === tier)
+  .filter((post) => !featuredSlugs.has(getPostSlug(post)))
+  .slice(0, limit);
+
+const recentPosts = datedPosts
+  .filter((post) => !featuredSlugs.has(getPostSlug(post)))
+  .slice(0, 6);
+
+const getThemePosts = (theme) => {
+  const pool = datedPosts.filter((post) => {
+    const postTags = post.frontmatter.tags ?? [];
+    return !featuredSlugs.has(getPostSlug(post)) && theme.tags.some((tag) => postTags.includes(tag));
+  });
+
+  const tierOne = pool
+    .filter((post) => post.frontmatter?.tier === 'tier-1')
+    .sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
+
+  const tierTwo = pool
+    .filter((post) => post.frontmatter?.tier === 'tier-2')
+    .sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
+
+  const tierThree = pool
+    .filter((post) => post.frontmatter?.tier === 'tier-3')
+    .sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
+
+  return [...tierOne, ...tierTwo, ...tierThree].slice(0, 4);
+};
 
 const themeGroups = [
   {
@@ -61,29 +109,6 @@ const themeGroups = [
   },
 ];
 
-const startHerePosts = startHereSlugs
-  .map((slug) => postsBySlug.get(slug))
-  .filter(Boolean);
-
-const foundationalPosts = foundationalSlugs
-  .map((slug) => postsBySlug.get(slug))
-  .filter(Boolean);
-
-const featuredSlugs = new Set([
-  ...foundationalSlugs,
-  ...startHereSlugs,
-]);
-
-const recentPosts = posts
-  .filter((post) => !featuredSlugs.has(getPostSlug(post)))
-  .slice(0, 6);
-
-const getThemePosts = (theme) => posts
-  .filter((post) => {
-    const postTags = post.frontmatter.tags ?? [];
-    return !featuredSlugs.has(getPostSlug(post)) && theme.tags.some((tag) => postTags.includes(tag));
-  })
-  .slice(0, 4);
 ---
 
 <Layout title="Writing | Amid the Noise">

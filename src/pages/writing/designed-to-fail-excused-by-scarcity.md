@@ -1,3 +1,4 @@
+---
 layout: "../../layouts/PublicationLayout.astro"
 title: "Designed to Fail, Excused by Scarcity"
 subtitle: "Scarcity as system behavior"
@@ -8,8 +9,6 @@ heroAlt: ""
 tags: ["Civic Systems", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---
-
-## Executive Summary
 
 Across the country, public systems continue to fail the people they were meant to serve. The explanation is familiar:
 
