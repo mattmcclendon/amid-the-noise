@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "13 Principles for Building a Startup That Lasts"
 subtitle: "Timeless habits that separate survivors from statistics"
-description: "What holds when everything else changes."
-pubDate: 2025-06-01
+description: "Enduring principles that persist across markets, products, and cycles."
+pubDate: "2025-06-01"
 heroImage: "/images/writing/13-principles-for-building-a-startup-that-lasts.png"
 heroAlt: "Minimal abstract composition showing a central anchor point with surrounding structures forming around it"
-tags: ["Startups", "Principles", "Execution", "Founders"]
+tags: ["Startups", "Execution", "Founders"]
+tier: "tier-2"
 ---
 
 There’s no shortage of startup advice.

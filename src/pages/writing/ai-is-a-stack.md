@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "AI Is a Stack"
-description: "Most conversations start at the surface. The real decisions sit underneath it."
-author: "Matthew McClendon"
-pubDate: 2026-04-28
+subtitle: "Most conversations start at the surface"
+description: "AI is not a single breakthrough but a layered system. The real decisions sit beneath the interface in how each layer acts and is governed."
+pubDate: "2026-04-28"
 heroImage: "/images/writing/ai-is-a-stack.png"
 heroAlt: "Layered AI stack diagram from classical AI to agentic AI"
-tags: ["AI", "Systems Thinking", "Governance"]
+tags: ["AI Systems", "Systems Thinking", "Governance"]
+tier: "tier-1"
 ---
 
 AI isn’t a single breakthrough. It’s a stack.

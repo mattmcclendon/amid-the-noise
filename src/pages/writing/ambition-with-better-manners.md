@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "Ambition, With Better Manners"
-description: "On ambition, restraint, and the difference between purpose and performance."
-pubDate: 2025-11-21
-heroImage: /images/writing/ambition-with-better-manners.jpg
+subtitle: "Restraint as a form of direction"
+description: "Ambition can refine purpose or replace it. A reflection on restraint, direction, and the difference between building and performing."
+pubDate: "2025-11-21"
+heroImage: "/images/writing/ambition-with-better-manners.jpg"
 heroAlt: "A neatly arranged set of silverware in a velvet-lined box, suggesting order, restraint, and quiet refinement"
-tags: ["Reflection", "Leadership", "Growth"]
+tags: ["Sovereign Reflection", "Leadership", "Signal and Trust"]
+tier: "tier-3"
 ---
 
 Ambition behaves like a polite houseguest. It arrives with flowers and leaves with the silverware. It convinces you that you invited it, promises to tidy the place, then starts rearranging the furniture until the room feels unfamiliar. Folks love to praise it as if it were always a virtue. They forget how often ambition puts on its Sunday clothes to hide the scoundrel underneath.

@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "18 Ways to Sabotage Your Startup"
 subtitle: "The mistakes that kill promising ideas before they scale."
-description: "A field guide to the quiet decisions that derail startups long before they fail in public."
-pubDate: 2025-06-02
+description: "Promising startups rarely fail all at once. They erode through quiet decisions that compound before anyone calls them fatal."
+pubDate: "2025-06-02"
 heroImage: "/images/writing/18-ways-to-sabotage-your-startup.png"
 heroAlt: "Minimal abstract composition showing divergence, fragmentation, and misalignment resolving into clarity"
-tags: ["Startups", "Failure Modes", "Execution", "Founders"]
+tags: ["Startups", "Execution", "Failure Modes"]
+tier: "tier-2"
 ---
 
 If you study enough startups, the pattern becomes uncomfortable.

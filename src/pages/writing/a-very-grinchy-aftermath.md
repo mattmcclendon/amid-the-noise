@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "A Very Grinchy Aftermath"
 subtitle: ""
 description: "A holiday poem about expectation, indulgence, and what gets left behind."
-pubDate: 2025-12-25
-heroImage: /images/writing/a-very-grinchy-aftermath.jpg
+pubDate: "2025-12-25"
+heroImage: "/images/writing/a-very-grinchy-aftermath.jpg"
 heroAlt: "A glass bowl filled with bright green candy on a holiday table surrounded by pine branches and wrapped gifts."
-tags: ["Poetry", "Holiday", "Humor"]
+tags: ["Sovereign Reflection", "Poetry", "Holiday"]
+tier: "tier-3"
 ---
 
 I left out the roast beast, the puddings, the pies,  

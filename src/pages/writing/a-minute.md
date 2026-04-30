@@ -1,12 +1,13 @@
 ---
-layout: ../../layouts/PublicationLayout.astro
+layout: "../../layouts/PublicationLayout.astro"
 title: "A Minute"
-pubDate: 2026-04-19
-description: "In 1906, less than a minute reshaped San Francisco. A reflection on continuity, disruption, and the moment we assume will continue."
-author: "Matthew McClendon"
-tags: ["Reflection", "Continuity", "Time"]
+subtitle: "Continuity breaks faster than we expect"
+description: "Less than a minute reshaped San Francisco in 1906. A reflection on continuity, disruption, and the moment we assume will continue."
+pubDate: "2026-04-19"
 heroImage: "/images/writing/a-minute.png"
 heroAlt: "Early morning San Francisco street in soft fog, empty and still, with cable car tracks leading toward a quiet skyline"
+tags: ["Sovereign Reflection", "Signal and Trust", "Civic Systems and Dignity"]
+tier: "tier-2"
 ---
 
 120 years ago today, San Francisco slowed down.
