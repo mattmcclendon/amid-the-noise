@@ -10,8 +10,6 @@ tags: ["Signal", "Systems Thinking", "Workflows"]
 tier: "tier-1"
 ---
 
-## Foreword
-
 Intelligence systems are experienced through workflows.
 
 Not through policy documents.

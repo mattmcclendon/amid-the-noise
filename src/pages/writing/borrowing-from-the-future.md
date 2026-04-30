@@ -1,3 +1,4 @@
+---
 layout: "../../layouts/PublicationLayout.astro"
 title: "Borrowing From the Future"
 subtitle: "Living ahead of yourself"
@@ -7,6 +8,7 @@ heroImage: "/images/writing/borrowing-from-the-future.jpg"
 heroAlt: "A quiet room filled with neatly stacked moving boxes, suggesting transition, anticipation, and an unsettled future."
 tags: ["Reflection", "Presence"]
 tier: "tier-2"
+---
 
 I caught myself furnishing a house I do not yet own, then worrying about the mortgage.
 

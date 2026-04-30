@@ -1,3 +1,4 @@
+---
 layout: "../../layouts/PublicationLayout.astro"
 title: "A Designer Walks into a Welfare Office"
 subtitle: "What the system communicates before it serves"
@@ -7,11 +8,13 @@ heroImage: "/images/writing/designer-welfare-office.png"
 heroAlt: "A sparse welfare office waiting area with rows of metal chairs and a lone figure seated in quiet stillness, conveying institutional distance and emotional isolation"
 tags: ["Civic Systems", "UX", "Design Ethics"]
 tier: "tier-1"
+---
 
 “You’re number 42. Take a seat.”
 
 The system hadn’t even met me, and I already felt reduced.
 
+---
 ## Entry
 
 The moment I stepped through the sliding doors, I stopped being who I was.

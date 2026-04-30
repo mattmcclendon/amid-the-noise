@@ -1,3 +1,4 @@
+---
 layout: "../../layouts/PublicationLayout.astro"
 title: "Calibrated Generosity"
 subtitle: "Helping without removing agency"
@@ -7,6 +8,7 @@ heroImage: "/images/writing/calibrated-generosity.jpg"
 heroAlt: "A rope ladder hanging in an empty space against a bare wall, suggesting support that must still be climbed."
 tags: ["Reflection", "Agency"]
 tier: "tier-2"
+---
 
 Sunday reflection.
 

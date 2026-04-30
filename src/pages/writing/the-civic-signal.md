@@ -1,3 +1,4 @@
+---
 layout: "../../layouts/PublicationLayout.astro"
 title: "The Civic Signal"
 subtitle: "Where the public becomes part of the system"

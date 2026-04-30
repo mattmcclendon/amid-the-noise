@@ -10,8 +10,6 @@ tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---
 
-## FOREWORD
-
 Intelligence systems are often evaluated by what they detect.
 
 Far less attention is given to how those detections are interpreted.

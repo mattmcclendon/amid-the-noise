@@ -10,8 +10,6 @@ tags: ["Signal", "Systems Thinking", "Metrics"]
 tier: "tier-1"
 ---
 
-## Foreword
-
 Intelligence systems are only as effective as their ability to distinguish signal from distortion.
 
 Artificial intelligence increases the scale at which signals are detected and interpreted. It also increases the scale at which errors propagate when systems are misaligned.

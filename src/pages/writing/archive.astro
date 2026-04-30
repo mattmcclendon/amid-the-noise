@@ -8,7 +8,35 @@ const posts = Object.entries(postModules).map(([path, post]) => ({
   sourcePath: path,
 }));
 
-const tagCounts = posts.reduce((acc, post) => {
+const getPostTime = (post) => {
+  const pubDate = post.frontmatter?.pubDate;
+  const normalizedDate = pubDate instanceof Date
+    ? pubDate.toISOString().slice(0, 10)
+    : String(pubDate ?? '').trim();
+
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(normalizedDate)) return null;
+
+  const [year, month, day] = normalizedDate.split('-').map(Number);
+  const time = Date.UTC(year, month - 1, day);
+  const date = new Date(time);
+
+  if (
+    date.getUTCFullYear() !== year ||
+    date.getUTCMonth() !== month - 1 ||
+    date.getUTCDate() !== day
+  ) {
+    return null;
+  }
+
+  return time;
+};
+
+const datedPosts = posts
+  .map((post) => ({ ...post, postTime: getPostTime(post) }))
+  .filter((post) => post.postTime !== null)
+  .sort((a, b) => b.postTime - a.postTime);
+
+const tagCounts = datedPosts.reduce((acc, post) => {
   for (const tag of post.frontmatter.tags ?? []) {
     acc.set(tag, (acc.get(tag) ?? 0) + 1);
   }
@@ -23,12 +51,6 @@ const allTags = [...tagCounts.entries()]
   })
   .slice(0, 14)
   .map(([tag]) => tag);
-
-posts.sort((a, b) => {
-  const aTime = new Date(a.frontmatter.pubDate).getTime();
-  const bTime = new Date(b.frontmatter.pubDate).getTime();
-  return bTime - aTime;
-});
 ---
 
 <Layout title="Archive | Amid the Noise">
@@ -66,16 +88,17 @@ posts.sort((a, b) => {
   </section>
 
   <section class="section" data-pagefind-ignore>
-    {posts.map((post) => (
+    {datedPosts.map((post) => (
       <article class="entry" data-tags={(post.frontmatter.tags ?? []).join('|')}>
         <h3>
           <a href={post.url}>{post.frontmatter.title}</a>
         </h3>
 
         <p class="entry-meta">
-          {new Date(post.frontmatter.pubDate).toLocaleDateString('en-US', {
+          {new Date(post.postTime).toLocaleDateString('en-US', {
             year: 'numeric',
             month: 'long',
+            timeZone: 'UTC',
           })}
         </p>
 
@@ -91,7 +114,7 @@ posts.sort((a, b) => {
       </article>
     ))}
 
-    <p class="archive-count">{posts.length} posts</p>
+    <p class="archive-count">{datedPosts.length} posts</p>
   </section>
 
 <script>

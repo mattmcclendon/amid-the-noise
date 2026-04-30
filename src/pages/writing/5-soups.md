@@ -30,6 +30,7 @@ In some corners of institutional life, ramen becomes more than a meal.
 
 It becomes currency.
 
+---
 ## Language Under Pressure
 
 I’ve never been incarcerated. That isn’t my story.
@@ -46,6 +47,7 @@ Street vernacular is not random.
 
 It is engineered under constraint.
 
+---
 ## The Grammar of Survival
 
 “Five soups” can settle a debt.
@@ -66,6 +68,7 @@ A “soup” can be an apology, a lifeline, a peace treaty.
 
 Sometimes all three.
 
+---
 ## Systems That Teach Silence
 
 You see this compression anywhere people are confined or conditioned.
@@ -86,6 +89,7 @@ It isn’t.
 
 It’s fluency in an environment most people never have to learn.
 
+---
 ## Value, Rewritten
 
 What “five soups” reveals is simple.
@@ -104,6 +108,7 @@ Something tangible. Immediate. understood by everyone in the room.
 
 Proof that even under pressure, systems of meaning still form.
 
+---
 ## What Most People Miss
 
 From the outside, it looks small.

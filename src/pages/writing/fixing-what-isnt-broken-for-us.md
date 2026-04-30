@@ -8,6 +8,7 @@ heroImage: "/images/writing/fixing-what-isnt-broken-for-us.png"
 heroAlt: "A solitary figure stands between a maze of rigid partitions and an open path leading into light, symbolizing the contrast between systemic constraint and equitable access"
 tags: ["Civic Systems", "UX", "Design Ethics"]
 tier: "tier-1"
+---
 
 “I missed the housing deadline because I didn’t know a bench warrant had been issued. Probation never told me the paperwork didn’t go through.”
 

@@ -1,3 +1,4 @@
+---
 layout: "../../layouts/PublicationLayout.astro"
 title: "Blackjack"
 subtitle: "What we risk when we stay"
@@ -7,6 +8,7 @@ heroImage: "/images/writing/blackjack.png"
 heroAlt: "Two playing cards resting on a pale surface in a minimalist composition"
 tags: ["Reflection", "Recovery", "Poetry"]
 tier: "tier-3"
+---
 
 I tell myself he is the lesson,  
 the penultimate expression of my midlife crisis—  

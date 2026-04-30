@@ -10,8 +10,6 @@ tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---
 
-## Foreword
-
 Systems do not fail in theory.
 
 They fail in institutions.

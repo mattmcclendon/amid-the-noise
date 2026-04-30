@@ -1,3 +1,4 @@
+---
 layout: "../../layouts/PublicationLayout.astro"
 title: "Christmas Eve, As I Learned It"
 subtitle: "Gratitude without spectacle"
@@ -7,6 +8,7 @@ heroImage: "/images/writing/christmas-eve-as-i-learned-it.jpg"
 heroAlt: "A simple holiday arrangement of fruit, nuts, and wrapped candy spilling from a brown paper bag on a wooden table, lit by warm Christmas lights."
 tags: ["Reflection", "Holiday", "Gratitude"]
 tier: "tier-3"
+---
 
 Christmas Eve, the way I learned it, was never about abundance.
 
