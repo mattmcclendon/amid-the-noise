@@ -2,7 +2,21 @@
 import Layout from '../../layouts/Layout.astro';
 
 const postModules = import.meta.glob('./*.md', { eager: true });
-const posts = Object.values(postModules);
+
+const posts = Object.entries(postModules)
+  .map(([path, post]) => ({ ...post, sourcePath: path }))
+  .filter((post) => {
+    const title = post.frontmatter?.title;
+    const pubDate = post.frontmatter?.pubDate;
+    const date = new Date(pubDate);
+
+    if (!title || !pubDate || Number.isNaN(date.getTime())) {
+      console.warn('Archive skipped invalid post:', post.sourcePath, post.frontmatter);
+      return false;
+    }
+
+    return true;
+  });
 
 const tagCounts = posts.reduce((acc, post) => {
   for (const tag of post.frontmatter.tags ?? []) {
@@ -21,7 +35,7 @@ const allTags = [...tagCounts.entries()]
   .map(([tag]) => tag);
 
 posts.sort((a, b) => {
-  return new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate);
+  return new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime();
 });
 ---
 
