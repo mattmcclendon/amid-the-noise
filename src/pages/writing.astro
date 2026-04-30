@@ -46,11 +46,6 @@ const featuredSlugs = new Set([
   ...startHereSlugs,
 ]);
 
-const getTierPosts = (tier, limit = 6) => datedPosts
-  .filter((post) => post.frontmatter?.tier === tier)
-  .filter((post) => !featuredSlugs.has(getPostSlug(post)))
-  .slice(0, limit);
-
 const recentPosts = datedPosts
   .filter((post) => !featuredSlugs.has(getPostSlug(post)))
   .slice(0, 6);
@@ -61,51 +56,45 @@ const getThemePosts = (theme) => {
     return !featuredSlugs.has(getPostSlug(post)) && theme.tags.some((tag) => postTags.includes(tag));
   });
 
-  const tierOne = pool
-    .filter((post) => post.frontmatter?.tier === 'tier-1')
-    .sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
+  const sortByDate = (arr) => arr.sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
 
-  const tierTwo = pool
-    .filter((post) => post.frontmatter?.tier === 'tier-2')
-    .sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
+  const tierOne = sortByDate(pool.filter((post) => post.frontmatter?.tier === 'tier-1'));
+  const tierTwo = sortByDate(pool.filter((post) => post.frontmatter?.tier === 'tier-2'));
+  const tierThree = sortByDate(pool.filter((post) => post.frontmatter?.tier === 'tier-3'));
 
-  const tierThree = pool
-    .filter((post) => post.frontmatter?.tier === 'tier-3')
-    .sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
-
-  return [...tierOne, ...tierTwo, ...tierThree].slice(0, 4);
+  return [...tierOne, ...tierTwo, ...tierThree].slice(0, 6);
 };
 
 const themeGroups = [
   {
     title: 'Signal, Trust, and Perception',
     description: 'Essays on truth, interpretation, attention, and the ways signal degrades under pressure.',
-    tags: ['Signal', 'Signal & Trust', 'Truth', 'Perception'],
+    tags: ['Signal', 'Perception', 'Truth', 'Narrative', 'Language', 'Cognitive Bias'],
   },
   {
     title: 'Civic Systems and Dignity',
     description: 'Writing on public infrastructure, institutional behavior, policy inertia, and systems that either preserve or erode agency.',
-    tags: ['Civic Systems', 'Public Infrastructure', 'Governance', 'Dignity'],
+    tags: ['Civic Systems', 'Governance', 'Policy', 'Power', 'Dignity', 'Infrastructure'],
   },
   {
     title: 'AI and Decision Systems',
     description: 'Work on AI governance, decision design, risk, human judgment, and systems that must remain accountable under uncertainty.',
-    tags: ['AI', 'AI Safety', 'AI Governance', 'Decision Systems', 'AI & Decision Systems', 'Human-in-the-Loop'],
+    tags: ['AI Governance', 'Decision Design', 'Systems Thinking', 'Governance', 'Metrics', 'Workflows'],
   },
   {
     title: 'Sovereign Reflection',
     description: 'Personal essays on recovery, memory, agency, clarity, and the discipline of becoming legible to oneself.',
-    tags: ['Recovery', 'Agency', 'Voice', 'Reflection', 'Sovereign Reflection'],
+    tags: ['Recovery', 'Agency', 'Voice', 'Reflection', 'Clarity', 'Presence'],
   },
   {
     title: 'Place, Memory, and Continuity',
     description: 'Reflections on cities, inherited landscapes, travel, family memory, and the places that keep speaking after we leave.',
-    tags: ['Place', 'Memory', 'Travel', 'San Francisco', 'History'],
+    tags: ['Place', 'Memory', 'Travel', 'History', 'Continuity', 'Lineage'],
   },
   {
     title: 'Builders, Startups, and Product Judgment',
     description: 'Writing on product judgment, founder behavior, early-stage systems, and the practice of building with consequence.',
-    tags: ['Startup Series', 'Startups', 'Product', 'Product Design', 'Founders'],
+    tags: ['Startups', 'Product', 'Execution', 'Growth', 'Fundraising', 'Users'],
   },
 ];
 
