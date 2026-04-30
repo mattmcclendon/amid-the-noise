@@ -25,17 +25,20 @@ That difference matters more than people admit.
 
 ---
 
-### What Changed
+### When Movement Stops Asking
 
-Today wasn’t about getting somewhere.
+There is a version of movement that requires coordination.
 
-It was the absence of friction you’ve gotten used to. No checking in. No waiting for someone else to decide whether you’re moving today. You stepped into a schedule that didn’t know your name and didn’t need to.
+You check in. You wait. You adjust to someone else’s timing, someone else’s willingness. Even small decisions carry friction.
 
-That kind of movement feels small until you compare it.
+Then there is a different version.
 
-You weren’t relying on the system in the way people mean when they say “dependency.” You were operating inside something that no single person could shut off.
+You show up. You board. You move. No one mediates the interaction. No one grants or withholds access in the moment.
 
-That’s a different kind of freedom.
+The difference is easy to miss until you’ve lived both.
+
+In one case, movement can be taken from you.  
+In the other, it continues whether anyone approves or not.
 
 ---
 
@@ -102,9 +105,9 @@ It’s about never being one decision away from being stuck.
 
 Enough systems in place, working loosely together, make that possible. Not perfect. Not seamless. Just reliable enough that movement doesn’t belong to any one person or gate.
 
-You felt it today.
+You can feel it in moments like this.
 
-Not in some abstract way. In something simple. You got on, you moved, you got off. No one mediated that for you.
+Not in some abstract way. In something simple. You show up, you move, you continue. No one mediates that for you.
 
 That’s the shift.
 
