@@ -10,8 +10,6 @@ tags: ["Civic Systems", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---
 
-## Foreword
-
 Every intelligence system produces outcomes.
 
 Those outcomes do not exist in reports, dashboards, or briefings alone.
