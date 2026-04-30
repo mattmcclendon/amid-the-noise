@@ -4,13 +4,11 @@ title: "From Design to Decision"
 subtitle: "Where governed intelligence becomes operational"
 description: "Human-governed intelligence systems do not succeed at the level of design. They succeed at the point of decision. This paper defines how governance becomes enforceable through workflows, metrics, and system behavior."
 pubDate: "2026-03-10"
-heroImage: "/images/writing/from-design-to-decision.png"
-heroAlt: "Abstract system showing transition from structured design layers into branching decision pathways under constraint"
+heroImage: ""
+heroAlt: ""
 tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---
-
-## Foreword
 
 Design establishes intent.
 
