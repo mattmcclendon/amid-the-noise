@@ -13,6 +13,21 @@ datedPosts.sort((a, b) => {
   return new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate);
 });
 
+const formatPostDate = (pubDate, options = {}) => {
+  const date = new Date(pubDate);
+  const currentYear = new Date().getUTCFullYear();
+  const postYear = date.getUTCFullYear();
+
+  const includeYear = options.alwaysShowYear || postYear !== currentYear;
+
+  return date.toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    ...(includeYear ? { year: 'numeric' } : {}),
+    timeZone: 'UTC',
+  });
+};
+
 const getPostSlug = (post) => post.url?.split('/').filter(Boolean).pop();
 const postsBySlug = new Map(datedPosts.map((post) => [getPostSlug(post), post]));
 
@@ -136,10 +151,7 @@ const themeGroups = [
           </h3>
 
           <p class="entry-meta">
-            {new Date(post.frontmatter.pubDate).toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-            })}
+            {formatPostDate(post.frontmatter.pubDate, { alwaysShowYear: true })}
           </p>
 
           <p>{post.frontmatter.description}</p>
@@ -161,10 +173,7 @@ const themeGroups = [
           </h3>
 
           <p class="entry-meta">
-            {new Date(post.frontmatter.pubDate).toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-            })}
+            {formatPostDate(post.frontmatter.pubDate)}
           </p>
 
           <p>{post.frontmatter.description}</p>
@@ -213,10 +222,7 @@ const themeGroups = [
         </h3>
 
         <p class="entry-meta">
-          {new Date(post.frontmatter.pubDate).toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-          })}
+          {formatPostDate(post.frontmatter.pubDate)}
         </p>
 
         <p>{post.frontmatter.description}</p>
