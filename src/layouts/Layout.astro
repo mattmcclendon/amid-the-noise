@@ -65,6 +65,7 @@ const { title = 'Amid the Noise' } = Astro.props;
                 <p>His work focuses on AI, signal, and the structures that determine what happens when the model is wrong.</p>
                 <p><em>Amid the Noise</em> is a running exploration of that boundary: where systems act, people interpret, and accountability either holds or fails.</p>
                 <p><a href="/about">Read more →</a></p>
+                <p class="sidebar-contact">For roles, collaborations, or speaking inquiries:<br /><a href="mailto:hello@amidthenoise.com">hello@amidthenoise.com</a></p>
               </section>
 
               <section class="sidebar-section">
@@ -93,6 +94,7 @@ const { title = 'Amid the Noise' } = Astro.props;
           </div>
 
           <div class="footer-right">
+            <a href="mailto:hello@amidthenoise.com">Contact</a>
             <a href="/privacy">Privacy Policy</a>
             <a href="/legal">Terms of Use</a>
             <a href="#top" class="back-to-top">Back to Top ↑</a>
@@ -278,6 +280,11 @@ const { title = 'Amid the Noise' } = Astro.props;
 
   .sidebar-section a:hover {
     text-decoration: underline;
+  }
+  .sidebar-contact {
+    padding-top: 16px;
+    margin-top: 18px;
+    border-top: 1px solid var(--line);
   }
 
   h1 {
