@@ -4,8 +4,8 @@ title: "The Real Danger"
 subtitle: "When distortion becomes ambient"
 description: "Saturation flattens distinction. When lies become ambient, truth does not get refuted—it becomes unrecognizable."
 pubDate: "2026-01-21"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Perception", "Truth"]
 tier: "tier-1"
 ---

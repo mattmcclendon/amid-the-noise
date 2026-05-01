@@ -4,8 +4,8 @@ title: "Toward a Human-Centered Intelligence Infrastructure"
 subtitle: "Governance as operational necessity"
 description: "AI-enabled intelligence systems must be treated as governed infrastructure. This paper defines how accountability, auditability, and human direction become enforceable requirements under real-world conditions."
 pubDate: "2026-02-03"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---

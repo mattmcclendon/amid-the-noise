@@ -4,8 +4,8 @@ title: "Operational Empathy as Intelligence Capability"
 subtitle: "Context as an accuracy function"
 description: "Empathy is not a moral overlay in intelligence systems. It is a structured capability for preserving context, reducing distortion, and improving decision accuracy under uncertainty."
 pubDate: "2026-02-10"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---

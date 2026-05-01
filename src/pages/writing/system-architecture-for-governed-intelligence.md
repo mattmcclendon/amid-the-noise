@@ -4,8 +4,8 @@ title: "System Architecture for Governed Intelligence"
 subtitle: "Where governance becomes enforceable"
 description: "Governance does not live in policy alone. It lives in architecture. This paper defines how auditability, control, and signal integrity are enforced at the system level."
 pubDate: "2026-03-31"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---

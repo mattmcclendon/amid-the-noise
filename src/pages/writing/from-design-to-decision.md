@@ -4,8 +4,8 @@ title: "From Design to Decision"
 subtitle: "Where governed intelligence becomes operational"
 description: "Human-governed intelligence systems do not succeed at the level of design. They succeed at the point of decision. This paper defines how governance becomes enforceable through workflows, metrics, and system behavior."
 pubDate: "2026-03-10"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---

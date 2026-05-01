@@ -4,8 +4,8 @@ title: "The Civic Signal"
 subtitle: "Where the public becomes part of the system"
 description: "Intelligence systems do not observe neutral environments. They observe environments shaped by trust, perception, and participation. This paper defines how civic behavior becomes signal."
 pubDate: "2026-02-17"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---

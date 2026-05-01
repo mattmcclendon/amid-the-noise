@@ -4,8 +4,8 @@ title: "Measuring Signal Integrity"
 subtitle: "What accuracy actually requires"
 description: "Signal integrity is not inferred from output volume or speed. It is measured through error, drift, distortion, and alignment with reality over time."
 pubDate: "2026-03-17"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Metrics"]
 tier: "tier-1"
 ---

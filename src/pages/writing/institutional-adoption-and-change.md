@@ -4,8 +4,8 @@ title: "Institutional Adoption and Change"
 subtitle: "Where systems succeed or fail"
 description: "Intelligence systems do not fail in theory. They fail in institutions. This paper defines how governance, incentives, leadership, and culture determine whether systems are adopted or bypassed."
 pubDate: "2026-04-07"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---

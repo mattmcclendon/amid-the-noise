@@ -4,8 +4,8 @@ title: "Designing Analyst Workflows"
 subtitle: "Where intelligence decisions actually happen"
 description: "Intelligence systems are experienced through workflows. This paper defines how structure, friction, and signal presentation determine decision accuracy in AI-mediated environments."
 pubDate: "2026-03-24"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Workflows"]
 tier: "tier-1"
 ---

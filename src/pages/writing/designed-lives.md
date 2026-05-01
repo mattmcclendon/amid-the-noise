@@ -4,8 +4,8 @@ title: "Designed Lives"
 subtitle: "What intelligence systems actually produce"
 description: "Intelligence systems are measured by accuracy and speed, but they produce something else: lived outcomes. This paper shows how governance, interpretation, and signal design shape human trajectories."
 pubDate: "2026-03-03"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Civic Systems", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---

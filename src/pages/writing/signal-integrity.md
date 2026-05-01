@@ -4,13 +4,11 @@ title: "Signal Integrity"
 subtitle: "Trust under adversarial conditions"
 description: "AI amplifies both signal and distortion. This paper defines how governance detects drift, resists manipulation, and preserves alignment between data and reality under pressure."
 pubDate: "2026-02-24"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---
-
-## Foreword
 
 Intelligence systems are not only designed to detect signals.
 

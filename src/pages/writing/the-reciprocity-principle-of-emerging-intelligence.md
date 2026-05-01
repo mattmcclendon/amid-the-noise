@@ -4,8 +4,8 @@ title: "The Reciprocity Principle of Emerging Intelligence"
 subtitle: "How behavior rehearsed with AI shapes human interaction"
 description: "Interactions with AI do not stay contained within the interface. They train behavior, reinforce norms, and feed back into how people treat one another. This paper defines the Reciprocity Principle and its implications for civic systems, national security, and AI design."
 pubDate: "2026-04-11"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/national-security-policy-hero.png"
+heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Signal", "Systems Thinking", "Governance"]
 tier: "tier-1"
 ---
