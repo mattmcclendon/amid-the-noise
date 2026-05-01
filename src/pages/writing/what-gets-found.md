@@ -13,7 +13,6 @@ tier: "tier-1"
 Before search engines, you didn’t ask a system a question.
 
 You moved through something that had already been organized.
-
 ---
 
 Start simple.
@@ -25,7 +24,6 @@ Then it becomes shared.
 A directory.
 
 Now placement matters.
-
 ---
 
 Someone prints a list and distributes it.
@@ -39,7 +37,6 @@ Or make their entry stand out.
 Nothing breaks.
 
 The system just adds a feature.
-
 ---
 
 Over time, those features become standard.
@@ -55,13 +52,11 @@ Others are bold. Larger. Boxed. Repeated.
 The list is still the list.
 
 But it’s no longer neutral.
-
 ---
 
 The system didn’t change what existed.
 
 It changed what was easier to find.
-
 ---
 
 The same pattern shows up elsewhere.
@@ -77,13 +72,11 @@ Others are compressed into a few numbers.
 More space means more entry points.
 
 More entry points means more ways to be found.
-
 ---
 
 No one has to tell you what matters.
 
 The structure does it for them.
-
 ---
 
 Most people never notice.
@@ -91,13 +84,11 @@ Most people never notice.
 They don’t need to.
 
 The system is doing the work.
-
 ---
 
 These weren’t flaws.
 
 They were features.
-
 ---
 
 A bold listing in a directory isn’t an accident.
@@ -111,21 +102,17 @@ Each one makes something slightly easier to encounter.
 Slightly more visible.
 
 Slightly more likely to be chosen.
-
 ---
 
 Over time, those small differences compound.
-
 ---
 
 That pattern didn’t disappear.
 
 It changed form.
-
 ---
 
 What used to be visible as placement is now invisible as ranking.
-
 ---
 
 Modern systems don’t expand categories or print larger ads.
@@ -135,19 +122,16 @@ They sort.
 They rank.
 
 They decide what appears first.
-
 ---
 
 The mechanics feel different.
 
 The effect is the same.
-
 ---
 
 The system doesn’t need to tell you what to choose.
 
 It only needs to make some things easier to choose than others.
-
 ---
 
 That’s how discovery works.
