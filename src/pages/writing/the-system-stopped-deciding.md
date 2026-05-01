@@ -6,7 +6,7 @@ description: "Before everything was captured, it was selected. What we kept carr
 pubDate: "2026-08-04"
 heroImage: "/images/writing/the-system-stopped-deciding.png"
 heroAlt: "Edmon Low Library with softened tones against a light neutral background"
-tags: ["Signal", "Decision Systems", "Agency"]
+tags: ["Signal", "Decision Systems", "Filtering"]
 tier: "tier-1"
 ---
 
