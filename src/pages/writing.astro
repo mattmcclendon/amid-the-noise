@@ -15,16 +15,17 @@ datedPosts.sort((a, b) => {
 
 const formatPostDate = (pubDate, options = {}) => {
   const date = new Date(pubDate);
-  const currentYear = new Date().getUTCFullYear();
-  const postYear = date.getUTCFullYear();
 
-  const includeYear = options.alwaysShowYear || postYear !== currentYear;
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const postYear = date.getFullYear();
+
+  const includeYear = options.alwaysShowYear === true ? true : postYear !== currentYear;
 
   return date.toLocaleDateString('en-US', {
     month: 'long',
     day: 'numeric',
     ...(includeYear ? { year: 'numeric' } : {}),
-    timeZone: 'UTC',
   });
 };
 
@@ -151,7 +152,7 @@ const themeGroups = [
           </h3>
 
           <p class="entry-meta">
-            {formatPostDate(post.frontmatter.pubDate, { alwaysShowYear: true })}
+            {formatPostDate(post.frontmatter.pubDate)}
           </p>
 
           <p>{post.frontmatter.description}</p>
