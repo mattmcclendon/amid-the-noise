@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: "Trust Is a System Property"
 subtitle: "Inside a county election system built to absorb uncertainty without losing integrity."
 description: "A field note from Santa Clara County on elections, trust, and civic systems designed to carry messy real-world inputs under pressure."
-pubDate: 2026-08-11
+pubDate: "2026-08-11"
 heroImage: "/images/writing/trust-is-a-system-property.png"
 heroAlt: "Minimal polling place scene with soft geometric forms and a neutral palette, suggesting order and flow without visible text"
 tags: ["civic systems", "decision systems", "elections"]
