@@ -7,7 +7,7 @@ pubDate: 2026-08-11
 heroImage: "/images/writing/trust-is-a-system-property.png"
 heroAlt: "Minimal polling place scene with soft geometric forms and a neutral palette, suggesting order and flow without visible text"
 tags: ["civic systems", "decision systems", "elections"]
-tier: "featured"
+tier: "tier-1"
 ---
 
 A man walks in with a name that doesn’t match the rolls.
