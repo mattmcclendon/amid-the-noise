@@ -27,6 +27,7 @@ const { title = 'Amid the Noise' } = Astro.props;
       </>
     )}
     <title>{title}</title>
+    <slot name="head" />
   </head>
 
   <body id="top">
