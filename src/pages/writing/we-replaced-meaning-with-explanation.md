@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "We Replaced Meaning with Explanation"
 subtitle: "What gets lost when everything has to make sense"
 description: "In New Mexico, meaning is embedded in everyday design. When we reduce those signals to utility, we don’t clarify them—we erase the systems they were meant to hold."
-pubDate: "2026-07-30"
+pubDate: "2026-08-20"
 heroImage: "/images/writing/we-replaced-meaning-with-explanation.png"
 heroAlt: "Adobe wall with three wooden vigas casting long shadows, fading into a soft neutral background"
 tags: ["Signal", "Design", "Civic Systems"]
