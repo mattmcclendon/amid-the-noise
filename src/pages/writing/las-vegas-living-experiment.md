@@ -14,7 +14,7 @@ Las Vegas is a living experiment in broad daylight.
 
 No consent form. No debrief. The variables are human. The outcomes are money, time, attention, fatigue. The system runs continuously.
 
-This is not a metaphor. It is a place where behavior is measured, shaped, and refined at scale.
+>This is not a metaphor. It is a place where behavior is measured, shaped, and refined at scale.
 
 ---
 ### The Floor
