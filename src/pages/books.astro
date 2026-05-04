@@ -1,0 +1,42 @@
+
+
+---
+import PublicationLayout from "../../layouts/PublicationLayout.astro";
+
+const title = "Books";
+const description = "Long-form work extending beyond the page.";
+---
+
+<PublicationLayout
+  title={title}
+  description={description}
+>
+  <section class="publication" data-pagefind-body>
+
+    <h1>Exit Wounds</h1>
+
+    <p>
+      A work on recovery, identity, and the mechanics of breaking patterns that reinforce harm. Written to move from observation to agency.
+    </p>
+
+    <blockquote>
+      You learn the pattern long before you name it.
+      <br /><br />
+      You adjust. You accommodate. You survive inside it.
+      <br /><br />
+      The break does not happen all at once.
+      It happens the moment you decide the pattern is not inevitable.
+    </blockquote>
+
+    <p class="meta">
+      Independent publisher · Paperback · eBook
+    </p>
+
+    <p>
+      <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer">
+        Available on Amazon
+      </a>
+    </p>
+
+  </section>
+</PublicationLayout>
