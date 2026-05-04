@@ -74,13 +74,28 @@ const description = "Long-form work extending beyond the page.";
     grid-template-columns: minmax(0, 1fr) 280px;
     gap: 2rem;
     align-items: start;
-    margin-block: 1.5rem 2rem;
+    margin-block: 1rem 1.25rem;
   }
 
   .book-cover img {
     display: block;
     width: 100%;
     height: auto;
+  }
+
+  /* Pull the excerpt section closer to the intro */
+  .book-intro + h2 {
+    margin-top: 0.5rem;
+  }
+
+  /* Tighten spacing above the blockquote */
+  h2 + .poem {
+    margin-top: 0.5rem;
+  }
+
+  /* Reduce default paragraph gap before the excerpt header if any */
+  .books-page p + h2 {
+    margin-top: 1rem;
   }
 
   @media (max-width: 760px) {
