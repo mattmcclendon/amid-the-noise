@@ -21,6 +21,30 @@ const description = "Long-form work extending beyond the page.";
         <p>
           For a deeper look at the thinking behind the work, see <a href="/writing/exit-wounds" title="Exit Wounds">the accompanying post</a>.
         </p>
+
+        <h2>Excerpt</h2>
+        <blockquote class="poem">
+          You called it a bond.
+          <br /><br />
+          I call it a house made of mirrors,
+          <br />
+          every room shaped like your absence.
+          <br /><br />
+          A devotion with a detonator
+          <br />
+          tucked inside a kiss.
+          <br /><br />
+          The worst thing you ever did
+          <br />
+          was make me apologize
+          <br />
+          for drowning in water
+          <br />
+          you swore wasn’t there,
+          <br />
+          from a well you never meant to fill.
+        </blockquote>
+        <p class="citation">From “Exit Wounds”</p>
       </div>
 
       <div class="book-cover">
@@ -32,29 +56,6 @@ const description = "Long-form work extending beyond the page.";
       </div>
     </div>
 
-    <h2>Excerpt</h2>
-    <blockquote class="poem">
-      You called it a bond.
-      <br /><br />
-      I call it a house made of mirrors,
-      <br />
-      every room shaped like your absence.
-      <br /><br />
-      A devotion with a detonator
-      <br />
-      tucked inside a kiss.
-      <br /><br />
-      The worst thing you ever did
-      <br />
-      was make me apologize
-      <br />
-      for drowning in water
-      <br />
-      you swore wasn’t there,
-      <br />
-      from a well you never meant to fill.
-    </blockquote>
-    <p class="citation">From “Exit Wounds”</p>
 
     <h2>Availability</h2>
     <p>
@@ -83,19 +84,12 @@ const description = "Long-form work extending beyond the page.";
     height: auto;
   }
 
-  /* Pull the excerpt section closer to the intro */
-  .book-intro + h2 {
-    margin-top: 0.5rem;
+  .book-copy h2 {
+    margin-top: 1.25rem;
   }
 
-  /* Tighten spacing above the blockquote */
-  h2 + .poem {
+  .book-copy h2 + .poem {
     margin-top: 0.5rem;
-  }
-
-  /* Reduce default paragraph gap before the excerpt header if any */
-  .books-page p + h2 {
-    margin-top: 1rem;
   }
 
   @media (max-width: 760px) {
