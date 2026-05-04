@@ -372,6 +372,45 @@ const { title = 'Amid the Noise' } = Astro.props;
     margin-bottom: 0;
   }
 
+  .books-page {
+    max-width: 48rem;
+    padding: 36px 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .books-page:first-of-type {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .books-page p {
+    margin: 0 0 12px;
+    max-width: 48rem;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .books-page p:last-child {
+    margin-bottom: 0;
+  }
+
+  .books-page .poem {
+    margin: 18px 0 8px;
+    padding-left: 1.25rem;
+    border-left: 2px solid #d6d9df;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text);
+  }
+
+  .books-page .citation {
+    margin-top: 0;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--secondary);
+  }
+
   .entry {
     padding: 22px 0 38px;
     border-top: 1px solid var(--line);
