@@ -9,7 +9,7 @@ const description = "Long-form work extending beyond the page.";
   title={title}
   description={description}
 >
-  <section data-pagefind-body>
+  <section class="books-page" data-pagefind-body>
 
     <h1>Exit Wounds</h1>
 
@@ -17,7 +17,7 @@ const description = "Long-form work extending beyond the page.";
       A collection of poetry exploring recovery, identity, and the mechanics of breaking patterns that reinforce harm. The work traces a toxic relationship with both a person and a substance, alongside a period of homelessness captured in pieces like “Room 223” and “11am.” Written to move from observation to agency.
     </p>
 
-    <blockquote>
+    <blockquote class="poem">
       You called it a bond.
       <br /><br />
       I call it a house made of mirrors,
@@ -51,3 +51,29 @@ const description = "Long-form work extending beyond the page.";
 
   </section>
 </Layout>
+
+<style>
+  .books-page {
+    max-width: 760px;
+  }
+
+  .books-page p,
+  .books-page blockquote {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .books-page .poem {
+    margin: 2rem 0;
+    padding: 0;
+    border-left: 0;
+    font-style: normal;
+  }
+
+  .books-page .meta {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+    color: #5f6876;
+  }
+</style>
