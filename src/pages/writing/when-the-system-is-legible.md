@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "When the System Is Legible"
 subtitle: "What Tokyo Revealed About Collective Action"
 description: "After the 2011 energy crisis, Japan didn’t enforce conservation. It designed for it. A look at what happens when a system makes the right behavior obvious."
-pubDate: "2026-10-06"
+pubDate: "2026-11-03"
 heroImage: "/images/writing/when-the-system-is-legible.png"
 heroAlt: "A softly lit Tokyo residential street at night fading into a light background, with subtle signage, overhead wires, and balcony clotheslines"
 tags: ["Decision Systems", "Signal", "Civic Systems"]
