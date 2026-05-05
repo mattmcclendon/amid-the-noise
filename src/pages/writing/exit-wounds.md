@@ -130,4 +130,4 @@ That was enough to start.
 
 ---
 
-Print edition: https://a.co/d/04uwYYSu
+Available in print and digital editions: [See books](/books)
