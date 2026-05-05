@@ -17,11 +17,15 @@ At the time, the problem wasn’t a lack of ideas. It was what happened to those
 
 They stalled. They fragmented. They died quietly under scrutiny.
 
+This sat inside work on Yahoo! frontdoor experiences, including the homepage, MyYahoo!, and Yahoo360°. The scale changed the stakes. Nearly a billion unique users visited each month, so even small decisions had wide reach.
+
 ---
 
 Improv has a rule.
 
 “Yes, and.”
+
+We used it to change how ideas moved through the team while designing at that scale.
 
 It’s simple. It’s also difficult.
 
@@ -68,6 +72,8 @@ People build on each other instead of competing for position.
 
 The room stops optimizing for correctness and starts optimizing for progression.
 
+That shift mattered. It changed how we generated and tested ideas before they reached A/B experiments.
+
 ---
 
 This changed how I think about teams.
@@ -94,6 +100,6 @@ Because once evaluation enters too early, the system collapses into caution.
 
 We didn’t go to Stanford to learn improv.
 
-We went to understand what happens when thinking is allowed to continue.
+We went to understand what happens when thinking is allowed to continue under real constraints.
 
-That turned out to be the more useful lesson.
+That approach carried into the product. At Yahoo! scale, preserving continuity early meant better decisions when they reached millions of users.
