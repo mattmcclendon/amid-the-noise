@@ -186,7 +186,7 @@ const description = "How I trained my judgment through sustained study and appli
 
   .foundation-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 16px;
     max-width: 56rem;
   }
@@ -210,7 +210,7 @@ const description = "How I trained my judgment through sustained study and appli
 
   .theme-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 16px;
   }
 
@@ -247,9 +247,7 @@ const description = "How I trained my judgment through sustained study and appli
   }
 
   @media (max-width: 760px) {
-    .decision-grid,
-    .foundation-grid,
-    .theme-grid {
+    .decision-grid {
       grid-template-columns: 1fr;
     }
   }
