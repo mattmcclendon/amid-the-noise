@@ -92,7 +92,9 @@ const description = "How I trained my judgment through sustained study and appli
         <p>We observed preschool children fingerpaint to understand how people explore color without constraint. That work informed how palettes could behave in a digital product, shifting from rigid selection to fluid exploration.</p>
       </article>
       <article class="theme-card">
-        <h3>Yahoo!</h3>
+        <h3>
+          <a href="/learning/stanford-improv">Yahoo!</a>
+        </h3>
         <p>Through improvisation training at Stanford, we practiced building on each other’s ideas in real time. It reshaped how I think about collaboration: systems should extend thinking, not shut it down.</p>
       </article>
       <article class="theme-card">
@@ -110,31 +112,40 @@ const description = "How I trained my judgment through sustained study and appli
       <p>Learning only matters here if it changes how decisions are designed, challenged, and made accountable.</p>
     </div>
 
-    <article class="entry">
-      <h3>
-        <a href="/writing/when-ai-is-wrong-a-simple-operating-model-for-real-world-systems">
-          Separate signal from output
-        </a>
-      </h3>
+    <article class="entry proof-entry">
+      <h3>Separate signal from output</h3>
       <p>Applied in systems where outputs must be interpreted under real conditions.</p>
+      <p class="entry-meta">Supporting post</p>
+      <h4>
+        <a href="/writing/when-ai-is-wrong-a-simple-operating-model-for-real-world-systems">
+          When AI Is Wrong: A Simple Operating Model for Real-World Systems
+        </a>
+      </h4>
+      <p>A practical operating model for separating signal, interpretation, escalation, and response when AI systems produce outputs that require human judgment.</p>
     </article>
 
-    <article class="entry">
-      <h3>
-        <a href="/writing/designing-dignity">
-          Design for interpretation
-        </a>
-      </h3>
+    <article class="entry proof-entry">
+      <h3>Design for interpretation</h3>
       <p>Applied where human judgment is designed into systems with ambiguity, escalation, and accountability.</p>
+      <p class="entry-meta">Supporting post</p>
+      <h4>
+        <a href="/writing/designing-dignity">
+          Designing Dignity
+        </a>
+      </h4>
+      <p>A civic systems argument for rebuilding public infrastructure around human agency, interpretation, and dignity under real-world constraints.</p>
     </article>
 
-    <article class="entry">
-      <h3>
-        <a href="/writing/the-lineage-of-signal">
-          Stay accountable when wrong
-        </a>
-      </h3>
+    <article class="entry proof-entry">
+      <h3>Stay accountable when wrong</h3>
       <p>Applied in systems that must remain legible, correctable, and trustworthy under pressure.</p>
+      <p class="entry-meta">Supporting post</p>
+      <h4>
+        <a href="/writing/the-lineage-of-signal">
+          The Lineage of Signal
+        </a>
+      </h4>
+      <p>A reflection on the disciplines that make systems legible, durable, and accountable when interpretation carries consequence.</p>
     </article>
   </section>
 
@@ -296,6 +307,28 @@ const description = "How I trained my judgment through sustained study and appli
     line-height: 1.35;
     font-weight: 600;
     margin: 0 0 4px;
+  }
+
+  .proof-entry h4 {
+    font-size: 1rem;
+    line-height: 1.35;
+    font-weight: 600;
+    margin: 4px 0 6px;
+  }
+
+  .proof-entry h4 a {
+    color: var(--title);
+    text-decoration: none;
+  }
+
+  .proof-entry h4 a:hover,
+  .proof-entry h4 a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+  }
+
+  .proof-entry .entry-meta {
+    margin-top: 14px;
   }
 
   .learning-close p:last-child {
