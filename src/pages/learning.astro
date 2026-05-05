@@ -121,33 +121,39 @@ const description = "How I trained my judgment through sustained study and appli
       <article class="proof-entry">
         <p class="proof-principle">Separate signal from output</p>
         <p class="proof-application">Applied in systems where outputs must be interpreted under real conditions.</p>
-        <p class="entry-meta">Supporting post</p>
-        <h3>
-          <a href="/writing/when-ai-is-wrong-a-simple-operating-model-for-real-world-systems">
-            When AI Is Wrong: A Simple Operating Model for Real-World Systems
-          </a>
-        </h3>
-        <p>A practical operating model for separating signal, interpretation, escalation, and response when AI systems produce outputs that require human judgment.</p>
+        <div class="supporting-post">
+          <span>Supporting post</span>
+          <h3>
+            <a href="/writing/when-ai-is-wrong-a-simple-operating-model-for-real-world-systems">
+              When AI Is Wrong: A Simple Operating Model for Real-World Systems
+            </a>
+          </h3>
+          <p>A practical operating model for separating signal, interpretation, escalation, and response when AI systems produce outputs that require human judgment.</p>
+        </div>
       </article>
 
       <article class="proof-entry">
         <p class="proof-principle">Design for interpretation</p>
         <p class="proof-application">Applied where human judgment is designed into systems with ambiguity, escalation, and accountability.</p>
-        <p class="entry-meta">Supporting post</p>
-        <h3>
-          <a href="/writing/designing-dignity">Designing Dignity</a>
-        </h3>
-        <p>A civic systems argument for rebuilding public infrastructure around human agency, interpretation, and dignity under real-world constraints.</p>
+        <div class="supporting-post">
+          <span>Supporting post</span>
+          <h3>
+            <a href="/writing/designing-dignity">Designing Dignity</a>
+          </h3>
+          <p>A civic systems argument for rebuilding public infrastructure around human agency, interpretation, and dignity under real-world constraints.</p>
+        </div>
       </article>
 
       <article class="proof-entry">
         <p class="proof-principle">Stay accountable when wrong</p>
         <p class="proof-application">Applied in systems that must remain legible, correctable, and trustworthy under pressure.</p>
-        <p class="entry-meta">Supporting post</p>
-        <h3>
-          <a href="/writing/the-lineage-of-signal">The Lineage of Signal</a>
-        </h3>
-        <p>A reflection on the disciplines that make systems legible, durable, and accountable when interpretation carries consequence.</p>
+        <div class="supporting-post">
+          <span>Supporting post</span>
+          <h3>
+            <a href="/writing/the-lineage-of-signal">The Lineage of Signal</a>
+          </h3>
+          <p>A reflection on the disciplines that make systems legible, durable, and accountable when interpretation carries consequence.</p>
+        </div>
       </article>
     </div>
   </section>
@@ -293,24 +299,20 @@ const description = "How I trained my judgment through sustained study and appli
     padding-top: 0;
   }
 
-  .field-entry h3,
-  .proof-entry h3 {
+  .field-entry h3 {
     font-size: 1.1rem;
     line-height: 1.35;
     font-weight: 600;
     margin: 0 0 8px;
   }
 
-  .field-entry h3 a,
-  .proof-entry h3 a {
+  .field-entry h3 a {
     color: var(--title);
     text-decoration: none;
   }
 
   .field-entry h3 a:hover,
-  .field-entry h3 a:focus-visible,
-  .proof-entry h3 a:hover,
-  .proof-entry h3 a:focus-visible {
+  .field-entry h3 a:focus-visible {
     text-decoration: underline;
     text-underline-offset: 0.14em;
   }
@@ -320,8 +322,7 @@ const description = "How I trained my judgment through sustained study and appli
     margin: 0 0 8px;
   }
 
-  .field-entry p:last-child,
-  .proof-entry p:last-child {
+  .field-entry p:last-child {
     margin: 0;
     font-size: 0.92rem;
     line-height: 1.5;
@@ -338,6 +339,53 @@ const description = "How I trained my judgment through sustained study and appli
 
   .proof-application {
     margin: 0 0 14px;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--text);
+  }
+
+  .supporting-post {
+    position: relative;
+    border: 1px solid var(--line);
+    padding: 20px;
+    margin-top: 18px;
+  }
+
+  .supporting-post span {
+    position: absolute;
+    top: -0.62rem;
+    left: 14px;
+    padding: 0 8px;
+    background: var(--background);
+    font-size: 0.68rem;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--secondary);
+    font-weight: 400;
+    opacity: 0.75;
+  }
+
+  .supporting-post h3 {
+    margin: 0 0 8px;
+    font-size: 1.05rem;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+
+  .supporting-post h3 a {
+    color: var(--title);
+    text-decoration: none;
+  }
+
+  .supporting-post h3 a:hover,
+  .supporting-post h3 a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+  }
+
+  .supporting-post p {
+    margin: 0;
     font-size: 0.92rem;
     line-height: 1.5;
     color: var(--text);
