@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/PublicationLayout.astro"
-title: "Stanford"
+title: "Yahoo!"
 subtitle: "Field Study"
 description: "What improvisation revealed about collaboration, articulation, and how teams think together under pressure."
 pubDate: "2026-01-02"
