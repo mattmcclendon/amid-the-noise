@@ -13,16 +13,25 @@ import Layout from '../layouts/Layout.astro';
         Selected case studies across AI, enterprise systems, automation, and regulated environments, focusing on problem framing, design decisions, constraints, and outcomes.
       </p>
 
-      <div class="work-map" aria-label="Work section overview">
-        <p><strong>Recent Work</strong> examines applied systems and outcomes.</p>
-        <p><strong>Foundations</strong> traces the early patterns that shaped how systems behave.</p>
-        <p><strong>Current Work</strong> reflects ongoing advisory and civic system design.</p>
+      <div class="decision-grid" aria-label="Work section overview">
+        <a class="decision-card" href="#recent-work">
+          <span>Recent Work</span>
+          <p>Applied systems and outcomes across enterprise environments.</p>
+        </a>
+        <a class="decision-card" href="#foundations">
+          <span>Foundations</span>
+          <p>Early patterns that shaped how systems behave.</p>
+        </a>
+        <a class="decision-card" href="#current-work">
+          <span>Current Work</span>
+          <p>Ongoing advisory, civic systems, and applied research.</p>
+        </a>
       </div>
     </article>
   </section>
 
   <section class="section work-list" data-pagefind-ignore>
-    <h2>Recent Work</h2>
+    <h2 id="recent-work">Recent Work</h2>
 
     <article class="work-entry">
       <h3>Dremio</h3>
@@ -52,7 +61,7 @@ import Layout from '../layouts/Layout.astro';
       <p><a href="/work/ca-technologies">Read case study →</a></p>
     </article>
 
-    <h2>Foundations</h2>
+    <h2 id="foundations">Foundations</h2>
 
     <article class="work-entry">
       <h3>Autodesk</h3>
@@ -67,7 +76,7 @@ import Layout from '../layouts/Layout.astro';
       <p><a href="/work/designing-systems-before-they-were-called-systems">Read case study →</a></p>
     </article>
 
-    <h2>Current Work</h2>
+    <h2 id="current-work">Current Work</h2>
 
     <article class="work-entry">
       <h3>Amid the Noise</h3>
@@ -113,16 +122,52 @@ import Layout from '../layouts/Layout.astro';
     margin-bottom: 1rem;
   }
 
-  .work-map {
-    margin-top: 1rem;
+
+  .decision-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 34px;
+    max-width: 56rem;
   }
 
-  .work-map p {
-    margin: 0.35rem 0;
+  .decision-card {
+    display: block;
+    border: 1px solid var(--line);
+    padding: 18px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s ease, transform 0.2s ease;
   }
 
-  .work-map strong {
+  .decision-card:hover,
+  .decision-card:focus-visible {
+    border-color: var(--text);
+    transform: translateY(-2px);
+  }
+
+  .decision-card span {
+    display: block;
+    font-size: 0.76rem;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 12px;
     font-weight: 600;
+  }
+
+  .decision-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--text);
+  }
+
+  @media (max-width: 760px) {
+    .decision-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   .work-list {
