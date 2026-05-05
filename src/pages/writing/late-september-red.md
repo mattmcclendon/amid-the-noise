@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Late September, Red"
 subtitle: "A garden that blooms with the memory of others"
 description: "Each fall, red spider lilies return without warning. In one Oklahoma yard, they carry the quiet inheritance of dozens of lives."
-pubDate: "2026-09-20"
+pubDate: "2026-09-29"
 heroImage: "/images/writing/late-september-red.png"
 heroAlt: "Red spider lilies in bloom against a soft neutral background"
 tags: ["Memory", "Place", "Signal"]
