@@ -6,20 +6,20 @@ const description = "How I trained my judgment through sustained study and appli
 ---
 
 <Layout title={title} description={description}>
-<main class="writing-page learning-page">
-  <header class="writing-header learning-header">
-    <p class="eyebrow">Learning as method</p>
+<main class="learning-page">
+  <header class="learning-header">
+    <p class="learning-eyebrow">Learning as method</p>
     <h1>Learning</h1>
-    <p class="writing-intro">I follow where the questions get harder.</p>
-    <p class="writing-description">
+    <p class="learning-intro">I follow where the questions get harder.</p>
+    <p class="learning-description">
       Since 1992, I’ve returned to structured learning alongside my work. Not for credentials. For constraint. The goal has been consistent: sharpen how I think when decisions carry consequence.
     </p>
   </header>
 
-  <section class="writing-list learning-section" aria-labelledby="formal-learning">
+  <section class="learning-section" aria-labelledby="formal-learning">
     <h2 id="formal-learning">Formal study</h2>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">1992–1994</div>
       <div>
         <h3>Oklahoma State University</h3>
@@ -29,7 +29,7 @@ const description = "How I trained my judgment through sustained study and appli
       </div>
     </article>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">2005</div>
       <div>
         <h3>Stanford University</h3>
@@ -39,7 +39,7 @@ const description = "How I trained my judgment through sustained study and appli
       </div>
     </article>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">2016</div>
       <div>
         <h3>Stanford ICME</h3>
@@ -49,7 +49,7 @@ const description = "How I trained my judgment through sustained study and appli
       </div>
     </article>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">2017–today</div>
       <div>
         <h3>MIT</h3>
@@ -60,10 +60,10 @@ const description = "How I trained my judgment through sustained study and appli
     </article>
   </section>
 
-  <section class="writing-list learning-section" aria-labelledby="field-learning">
+  <section class="learning-section" aria-labelledby="field-learning">
     <h2 id="field-learning">Learning in the field</h2>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">Evernote</div>
       <div>
         <h3>User research</h3>
@@ -73,7 +73,7 @@ const description = "How I trained my judgment through sustained study and appli
       </div>
     </article>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">Yahoo!</div>
       <div>
         <h3>Team learning</h3>
@@ -83,7 +83,7 @@ const description = "How I trained my judgment through sustained study and appli
       </div>
     </article>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">Civic systems</div>
       <div>
         <h3>Field observation</h3>
@@ -94,10 +94,10 @@ const description = "How I trained my judgment through sustained study and appli
     </article>
   </section>
 
-  <section class="writing-list learning-section learning-proof" aria-labelledby="proof">
+  <section class="learning-section learning-proof" aria-labelledby="proof">
     <h2 id="proof">How it shows up in the work</h2>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">01</div>
       <div>
         <h3>Separate signal from output</h3>
@@ -105,7 +105,7 @@ const description = "How I trained my judgment through sustained study and appli
       </div>
     </article>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">02</div>
       <div>
         <h3>Design for interpretation</h3>
@@ -113,7 +113,7 @@ const description = "How I trained my judgment through sustained study and appli
       </div>
     </article>
 
-    <article class="writing-item learning-entry">
+    <article class="learning-entry">
       <div class="learning-meta">03</div>
       <div>
         <h3>Stay accountable when wrong</h3>
@@ -132,67 +132,3 @@ const description = "How I trained my judgment through sustained study and appli
   </section>
 </main>
 </Layout>
-
-<style>
-  .learning-page {
-    max-width: var(--content-width, 760px);
-    margin: 0 auto;
-    padding: var(--page-padding, 3rem 1.25rem 5rem);
-  }
-
-  .learning-header {
-    margin-bottom: 3rem;
-  }
-
-  .eyebrow,
-  .learning-meta {
-    color: #3e5a82;
-    font-size: 0.72rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-  }
-
-  .eyebrow {
-    margin-bottom: 0.5rem;
-  }
-
-  .learning-section {
-    margin-top: 3rem;
-  }
-
-  .learning-section h2 {
-    margin: 0 0 1.5rem;
-  }
-
-  .learning-entry {
-    display: grid;
-    grid-template-columns: 8rem minmax(0, 1fr);
-    column-gap: 2rem;
-  }
-
-  .learning-entry h3 {
-    margin: 0 0 0.35rem;
-  }
-
-  .learning-entry p {
-    margin: 0;
-  }
-
-  .learning-close {
-    border-top: 1px solid rgba(62, 90, 130, 0.22);
-    margin-top: 3rem;
-    padding-top: 2rem;
-  }
-
-  .learning-close p:first-child {
-    font-size: 1.25rem;
-    line-height: 1.45;
-  }
-
-  @media (max-width: 700px) {
-    .learning-entry {
-      grid-template-columns: 1fr;
-      row-gap: 0.35rem;
-    }
-  }
-</style>
