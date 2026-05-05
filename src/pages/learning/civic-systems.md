@@ -103,6 +103,4 @@ And whether the people inside it are supported well enough to make decisions tha
 
 ---
 
-That’s the work.
-
-Designing systems that don’t just operate correctly, but hold under pressure when people have to decide what correctness means.
+I design systems that don’t just operate correctly, but hold under pressure when people have to decide what correctness means.
