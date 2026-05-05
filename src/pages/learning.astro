@@ -112,41 +112,37 @@ const description = "How I trained my judgment through sustained study and appli
       <p>Learning only matters here if it changes how decisions are designed, challenged, and made accountable.</p>
     </div>
 
-    <article class="entry proof-entry">
-      <h3>Separate signal from output</h3>
-      <p>Applied in systems where outputs must be interpreted under real conditions.</p>
-      <p class="entry-meta">Supporting post</p>
-      <h4>
-        <a href="/writing/when-ai-is-wrong-a-simple-operating-model-for-real-world-systems">
+    <div class="proof-grid">
+      <article class="proof-card">
+        <p class="proof-principle">Separate signal from output</p>
+        <p class="proof-application">Applied in systems where outputs must be interpreted under real conditions.</p>
+        <a class="proof-link" href="/writing/when-ai-is-wrong-a-simple-operating-model-for-real-world-systems">
+          <span>Supporting post</span>
           When AI Is Wrong: A Simple Operating Model for Real-World Systems
         </a>
-      </h4>
-      <p>A practical operating model for separating signal, interpretation, escalation, and response when AI systems produce outputs that require human judgment.</p>
-    </article>
+        <p>A practical operating model for separating signal, interpretation, escalation, and response when AI systems produce outputs that require human judgment.</p>
+      </article>
 
-    <article class="entry proof-entry">
-      <h3>Design for interpretation</h3>
-      <p>Applied where human judgment is designed into systems with ambiguity, escalation, and accountability.</p>
-      <p class="entry-meta">Supporting post</p>
-      <h4>
-        <a href="/writing/designing-dignity">
+      <article class="proof-card">
+        <p class="proof-principle">Design for interpretation</p>
+        <p class="proof-application">Applied where human judgment is designed into systems with ambiguity, escalation, and accountability.</p>
+        <a class="proof-link" href="/writing/designing-dignity">
+          <span>Supporting post</span>
           Designing Dignity
         </a>
-      </h4>
-      <p>A civic systems argument for rebuilding public infrastructure around human agency, interpretation, and dignity under real-world constraints.</p>
-    </article>
+        <p>A civic systems argument for rebuilding public infrastructure around human agency, interpretation, and dignity under real-world constraints.</p>
+      </article>
 
-    <article class="entry proof-entry">
-      <h3>Stay accountable when wrong</h3>
-      <p>Applied in systems that must remain legible, correctable, and trustworthy under pressure.</p>
-      <p class="entry-meta">Supporting post</p>
-      <h4>
-        <a href="/writing/the-lineage-of-signal">
+      <article class="proof-card">
+        <p class="proof-principle">Stay accountable when wrong</p>
+        <p class="proof-application">Applied in systems that must remain legible, correctable, and trustworthy under pressure.</p>
+        <a class="proof-link" href="/writing/the-lineage-of-signal">
+          <span>Supporting post</span>
           The Lineage of Signal
         </a>
-      </h4>
-      <p>A reflection on the disciplines that make systems legible, durable, and accountable when interpretation carries consequence.</p>
-    </article>
+        <p>A reflection on the disciplines that make systems legible, durable, and accountable when interpretation carries consequence.</p>
+      </article>
+    </div>
   </section>
 
   <section class="section learning-close" data-pagefind-ignore>
@@ -302,33 +298,70 @@ const description = "How I trained my judgment through sustained study and appli
     line-height: 1.5;
   }
 
-  .entry h3 {
-    font-size: 1.15rem;
-    line-height: 1.35;
-    font-weight: 600;
-    margin: 0 0 4px;
+  /* Removed .entry h3, .proof-entry h4, .proof-entry h4 a, .proof-entry h4 a:hover, .proof-entry h4 a:focus-visible, and .proof-entry .entry-meta styles */
+
+  .proof-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 56rem;
   }
 
-  .proof-entry h4 {
+  .proof-card {
+    border: 1px solid var(--line);
+    padding: 20px;
+  }
+
+  .proof-principle {
+    margin: 0 0 6px;
+    font-size: 1.05rem;
+    line-height: 1.35;
+    font-weight: 600;
+    color: var(--title);
+  }
+
+  .proof-application {
+    margin: 0 0 18px;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--text);
+  }
+
+  .proof-link {
+    display: block;
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+    margin-bottom: 10px;
+    color: var(--title);
+    text-decoration: none;
     font-size: 1rem;
     line-height: 1.35;
     font-weight: 600;
-    margin: 4px 0 6px;
   }
 
-  .proof-entry h4 a {
-    color: var(--title);
-    text-decoration: none;
+  .proof-link span {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.68rem;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--secondary);
+    font-weight: 400;
+    opacity: 0.7;
   }
 
-  .proof-entry h4 a:hover,
-  .proof-entry h4 a:focus-visible {
+  .proof-link:hover,
+  .proof-link:focus-visible {
     text-decoration: underline;
     text-underline-offset: 0.14em;
   }
 
-  .proof-entry .entry-meta {
-    margin-top: 14px;
+  .proof-card p:last-child {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--text);
   }
 
   .learning-close p:last-child {
