@@ -51,7 +51,7 @@ const description = "How I trained my judgment through sustained study and appli
         <p>Coursework marked a deliberate turn toward data and systems. I focused on how decisions get made when information is incomplete, and how reasoning breaks under pressure.</p>
       </article>
       <article class="foundation-card">
-        <h3>MIT</h3>
+        <h3>Massachusetts Institute of Technology</h3>
         <p class="entry-meta">2017–today</p>
         <p>Sustained study through MIT programs has focused on design, AI, and decision systems. This work has been self-directed and ongoing, built on repetition rather than milestones.</p>
       </article>
@@ -66,7 +66,9 @@ const description = "How I trained my judgment through sustained study and appli
 
     <div class="theme-grid">
       <article class="theme-card">
-        <h3>Evernote</h3>
+        <h3>
+          <a href="/writing/evernote-user-research">Evernote</a>
+        </h3>
         <p>We observed preschool children fingerpaint to understand how people explore color without constraint. That work informed how palettes could behave in a digital product, shifting from rigid selection to fluid exploration.</p>
       </article>
       <article class="theme-card">
@@ -74,7 +76,9 @@ const description = "How I trained my judgment through sustained study and appli
         <p>Through improvisation training at Stanford, we practiced building on each other’s ideas in real time. It reshaped how I think about collaboration: systems should extend thinking, not shut it down.</p>
       </article>
       <article class="theme-card">
-        <h3>Civic Systems</h3>
+        <h3>
+          <a href="/writing/civic-systems">Civic Systems</a>
+        </h3>
         <p>Work in election environments reinforced how systems behave under pressure. Procedures matter, but interpretation determines whether participation and trust hold.</p>
       </article>
     </div>
@@ -223,6 +227,17 @@ const description = "How I trained my judgment through sustained study and appli
     font-size: 1rem;
     line-height: 1.35;
     margin: 0 0 8px;
+  }
+
+  .theme-card h3 a {
+    color: var(--title);
+    text-decoration: none;
+  }
+
+  .theme-card h3 a:hover,
+  .theme-card h3 a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
   }
 
   .theme-card p {
