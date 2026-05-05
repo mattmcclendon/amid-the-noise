@@ -38,7 +38,7 @@ const selectedPosts = selectedSlugs
 <Layout title="Amid the Noise">
   <section class="section hero">
     <p class="eyebrow">Matthew McClendon</p>
-    <h1>I design AI systems that support human judgment under pressure.</h1>
+    <p class="hero-quote">I design AI systems that support human judgment under pressure.</p>
       <p class="intro intro-lead">
         <em>Amid the Noise</em> is where I show the systems I’ve built and how they operate when decisions carry real consequences.
       </p>
@@ -113,13 +113,16 @@ const selectedPosts = selectedSlugs
 
 <style>
 
-  .hero h1 {
-    font-size: 1.72em;
-    line-height: 1.22;
-    font-weight: 600;
+  .hero-quote {
+    max-width: 42rem;
+    margin: 0 0 16px;
+    padding-left: 16px;
+    border-left: 2px solid var(--line);
+    font-size: 1.28rem;
+    line-height: 1.5;
+    font-weight: 500;
     font-style: italic;
-    max-width: 43rem;
-    margin-bottom: 8px;
+    color: var(--title);
   }
 
   .eyebrow {
@@ -131,7 +134,7 @@ const selectedPosts = selectedSlugs
 
   .intro.intro-lead {
     max-width: 44rem;
-    margin: 12px 0 16px;
+    margin: 0 0 16px;
     font-size: 1.04rem;
     line-height: 1.58;
     font-weight: 500;

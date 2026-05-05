@@ -13,7 +13,10 @@ We went to a preschool.
 
 Not a lab. Not a usability suite. A classroom with paint, paper, and children who had no interest in using anything “correctly.”
 
+
 We weren’t testing an interface. We were trying to understand how people move through color before constraint is introduced.
+
+This work came from a push to rethink how markup tools were presented in Skitch. Rather than iterate on existing UI patterns, I recommended we step outside the product entirely. The idea was met with skepticism by the team, but Phil Libin supported it directly.
 
 ---
 
@@ -36,7 +39,10 @@ They assume selection:
 
 A palette becomes a menu. A decision point. A moment of interruption.
 
+
 What we were watching suggested something else.
+
+That observation directly informed how we approached palettes in Skitch, shifting away from rigid selection toward more fluid, exploratory interaction patterns.
 
 The palette wasn’t a list. It was a space.
 
@@ -78,6 +84,6 @@ Interfaces stop asking for answers too early. Systems stop interrupting behavior
 
 We didn’t go there to redesign a palette.
 
-We went there to watch what happens before design gets involved.
+We went there to understand what people do before design asks them to decide.
 
-That turned out to be the more useful lesson.
+That decision reshaped how we approached the product. It’s still how I approach systems now: observe behavior first, then decide where constraint belongs.
