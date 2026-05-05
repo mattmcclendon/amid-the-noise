@@ -23,7 +23,7 @@ const description = "How I trained my judgment through sustained study and appli
       </a>
       <a class="decision-card" href="#proof">
         <span>Applied Work</span>
-        <p>How learning becomes judgment, interpretation, accountability, and system design.</p>
+        <p>How learning becomes judgment, accountability, and system design.</p>
       </a>
     </div>
   </section>
@@ -351,7 +351,7 @@ const description = "How I trained my judgment through sustained study and appli
     position: relative;
     border: 1px solid var(--line);
     padding: 24px 20px 20px;
-    margin-top: 22px;
+    margin-top: 30px;
   }
 
   .supporting-post span {
@@ -394,11 +394,16 @@ const description = "How I trained my judgment through sustained study and appli
     color: var(--text);
   }
 
-  .learning-close p:last-child {
+  .learning-close > p {
     max-width: 42rem;
+    margin: 0 0 18px;
     font-size: 0.95rem;
-    line-height: 1.5;
+    line-height: 1.6;
     color: var(--text);
+  }
+
+  .learning-close > p:last-child {
+    margin-bottom: 0;
   }
 
   @media (max-width: 760px) {
