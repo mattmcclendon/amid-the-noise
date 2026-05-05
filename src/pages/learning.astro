@@ -1,0 +1,177 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const title = "Learning";
+const description = "How I trained my judgment through sustained study and applied practice.";
+---
+
+<Layout title={title} description={description}>
+<section class="learning-page">
+  <header class="learning-hero">
+    <p class="eyebrow">Learning as method</p>
+    <h1>Learning</h1>
+    <p class="learning-kicker">I follow where the questions get harder.</p>
+    <p class="learning-lede">
+      Since 1992, I’ve returned to structured learning alongside my work. Not for credentials. For constraint. The goal has been consistent: sharpen how I think when decisions carry consequence.
+    </p>
+  </header>
+
+  <section class="learning-timeline" aria-label="Learning timeline">
+    <article class="learning-moment">
+      <span class="learning-year">1992–1994</span>
+      <h2>Oklahoma State University</h2>
+      <p>
+        Early study established the pattern. I was drawn to environments that forced clarity, even before I knew where it would lead.
+      </p>
+    </article>
+
+    <article class="learning-moment">
+      <span class="learning-year">2005</span>
+      <h2>Stanford University</h2>
+      <p>
+        I brought my team at Yahoo! into a course focused on improvisation. The objective wasn’t performance. It was collaboration: learning how to build on each other’s thinking, articulate ideas in motion, and design without shutting down possibility.
+      </p>
+    </article>
+
+    <article class="learning-moment">
+      <span class="learning-year">2016</span>
+      <h2>Stanford ICME</h2>
+      <p>
+        Coursework marked a deliberate turn toward data and systems. I focused on how decisions get made when information is incomplete, and how reasoning breaks under pressure.
+      </p>
+    </article>
+
+    <article class="learning-moment">
+      <span class="learning-year">2017–today</span>
+      <h2>MIT</h2>
+      <p>
+        Sustained study through MIT programs has focused on design, AI, and decision systems. This work has been self-directed and ongoing, built on repetition rather than milestones.
+      </p>
+    </article>
+  </section>
+
+  <section class="learning-proof" aria-label="How learning shows up in the work">
+    <div class="proof-card">
+      <span>01</span>
+      <h2>Separate signal from output</h2>
+      <p>I look past what a system returns and ask what the output actually means under real conditions.</p>
+    </div>
+
+    <div class="proof-card">
+      <span>02</span>
+      <h2>Design for interpretation</h2>
+      <p>I build for the human layer where uncertainty, escalation, and judgment determine whether a system holds.</p>
+    </div>
+
+    <div class="proof-card">
+      <span>03</span>
+      <h2>Stay accountable when wrong</h2>
+      <p>I treat failure as expected, not exceptional, and design systems that can be challenged, corrected, and trusted again.</p>
+    </div>
+  </section>
+
+  <section class="learning-close">
+    <p>
+      I don’t use learning to expand what I know. I use it to reduce how often I’m wrong in systems that matter.
+    </p>
+    <p>
+      Learning is still active. Today it meant explaining equatorial storms and jet streams to my six-year-old.
+    </p>
+  </section>
+</section>
+</Layout>
+
+<style>
+  .learning-page {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 5rem;
+  }
+
+  .learning-hero {
+    max-width: 760px;
+    margin-bottom: 3.5rem;
+  }
+
+  .eyebrow,
+  .learning-year,
+  .proof-card span {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #3e5a82;
+  }
+
+  .learning-hero h1 {
+    margin: 0.25rem 0 1rem;
+  }
+
+  .learning-kicker {
+    font-size: clamp(1.6rem, 3vw, 2.6rem);
+    line-height: 1.08;
+    margin: 0 0 1.5rem;
+    max-width: 720px;
+  }
+
+  .learning-lede {
+    font-size: 1.12rem;
+    line-height: 1.7;
+    max-width: 680px;
+  }
+
+  .learning-timeline {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 0 0 3.5rem;
+  }
+
+  .learning-moment,
+  .proof-card {
+    border: 1px solid rgba(62, 90, 130, 0.22);
+    background: rgba(248, 247, 244, 0.58);
+    padding: 1.25rem;
+  }
+
+  .learning-moment h2,
+  .proof-card h2 {
+    font-size: 1.05rem;
+    line-height: 1.2;
+    margin: 0.6rem 0 0.65rem;
+  }
+
+  .learning-moment p,
+  .proof-card p,
+  .learning-close p {
+    line-height: 1.65;
+  }
+
+  .learning-proof {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .learning-close {
+    max-width: 720px;
+    border-left: 3px solid #3e5a82;
+    padding-left: 1.25rem;
+  }
+
+  .learning-close p:first-child {
+    font-size: 1.35rem;
+    line-height: 1.45;
+  }
+
+  @media (max-width: 860px) {
+    .learning-timeline,
+    .learning-proof {
+      grid-template-columns: 1fr;
+    }
+
+    .learning-page {
+      padding-top: 2rem;
+    }
+  }
+</style>
