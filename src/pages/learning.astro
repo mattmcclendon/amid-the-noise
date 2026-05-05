@@ -84,26 +84,28 @@ const description = "How I trained my judgment through sustained study and appli
       <p>Some of the most useful learning happens outside a classroom, where behavior is visible and assumptions have nowhere elegant to hide.</p>
     </div>
 
-    <div class="theme-grid">
-      <article class="theme-card">
+    <div class="field-list">
+      <article class="field-entry">
+        <p class="entry-meta">Evernote</p>
         <h3>
           <a href="/learning/evernote-research">Palette as Exploration</a>
         </h3>
-        <p class="entry-meta">Evernote</p>
         <p>For the Skitch product, we observed preschool children fingerpaint to understand how people explore color without constraint. The work shifted the palette from rigid selection toward fluid exploration.</p>
       </article>
-      <article class="theme-card">
+
+      <article class="field-entry">
+        <p class="entry-meta">Yahoo!</p>
         <h3>
           <a href="/learning/stanford-improv">Collaboration at Scale</a>
         </h3>
-        <p class="entry-meta">Yahoo!</p>
         <p>Through improvisation training at Stanford, we practiced building on each other’s ideas in real time while supporting frontdoor experiences including the Yahoo! homepage, MyYahoo!, and Yahoo360°. At the time, Yahoo! reached nearly a billion unique users each month, and A/B tests touched millions while affecting only fractions of traffic.</p>
       </article>
-      <article class="theme-card">
+
+      <article class="field-entry">
+        <p class="entry-meta">Santa Clara County Registrar of Voters</p>
         <h3>
           <a href="/learning/civic-systems">Trust Under Pressure</a>
         </h3>
-        <p class="entry-meta">Santa Clara County Registrar of Voters</p>
         <p>Work inside election operations reinforced how civic systems behave under pressure. Procedures matter, but interpretation determines whether participation and trust hold when real people meet real edge cases.</p>
       </article>
     </div>
@@ -115,34 +117,36 @@ const description = "How I trained my judgment through sustained study and appli
       <p>Learning only matters here if it changes how decisions are designed, challenged, and made accountable.</p>
     </div>
 
-    <div class="proof-grid">
-      <article class="proof-card">
+    <div class="proof-list">
+      <article class="proof-entry">
         <p class="proof-principle">Separate signal from output</p>
         <p class="proof-application">Applied in systems where outputs must be interpreted under real conditions.</p>
-        <a class="proof-link" href="/writing/when-ai-is-wrong-a-simple-operating-model-for-real-world-systems">
-          <span>Supporting post</span>
-          When AI Is Wrong: A Simple Operating Model for Real-World Systems
-        </a>
+        <p class="entry-meta">Supporting post</p>
+        <h3>
+          <a href="/writing/when-ai-is-wrong-a-simple-operating-model-for-real-world-systems">
+            When AI Is Wrong: A Simple Operating Model for Real-World Systems
+          </a>
+        </h3>
         <p>A practical operating model for separating signal, interpretation, escalation, and response when AI systems produce outputs that require human judgment.</p>
       </article>
 
-      <article class="proof-card">
+      <article class="proof-entry">
         <p class="proof-principle">Design for interpretation</p>
         <p class="proof-application">Applied where human judgment is designed into systems with ambiguity, escalation, and accountability.</p>
-        <a class="proof-link" href="/writing/designing-dignity">
-          <span>Supporting post</span>
-          Designing Dignity
-        </a>
+        <p class="entry-meta">Supporting post</p>
+        <h3>
+          <a href="/writing/designing-dignity">Designing Dignity</a>
+        </h3>
         <p>A civic systems argument for rebuilding public infrastructure around human agency, interpretation, and dignity under real-world constraints.</p>
       </article>
 
-      <article class="proof-card">
+      <article class="proof-entry">
         <p class="proof-principle">Stay accountable when wrong</p>
         <p class="proof-application">Applied in systems that must remain legible, correctable, and trustworthy under pressure.</p>
-        <a class="proof-link" href="/writing/the-lineage-of-signal">
-          <span>Supporting post</span>
-          The Lineage of Signal
-        </a>
+        <p class="entry-meta">Supporting post</p>
+        <h3>
+          <a href="/writing/the-lineage-of-signal">The Lineage of Signal</a>
+        </h3>
         <p>A reflection on the disciplines that make systems legible, durable, and accountable when interpretation carries consequence.</p>
       </article>
     </div>
@@ -272,57 +276,56 @@ const description = "How I trained my judgment through sustained study and appli
     margin-bottom: 6px;
   }
 
-  .theme-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
+  .field-list,
+  .proof-list {
+    max-width: 56rem;
   }
 
-  .theme-card {
-    border: 1px solid var(--line);
-    padding: 20px;
+  .field-entry,
+  .proof-entry {
+    border-top: 1px solid var(--line);
+    padding: 22px 0;
   }
 
-  .theme-card h3 {
-    font-size: 1rem;
+  .field-entry:first-child,
+  .proof-entry:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .field-entry h3,
+  .proof-entry h3 {
+    font-size: 1.1rem;
     line-height: 1.35;
+    font-weight: 600;
     margin: 0 0 8px;
   }
 
-  .theme-card .entry-meta {
-    margin: 0 0 12px;
-  }
-
-  .theme-card h3 a {
+  .field-entry h3 a,
+  .proof-entry h3 a {
     color: var(--title);
     text-decoration: none;
   }
 
-  .theme-card h3 a:hover,
-  .theme-card h3 a:focus-visible {
+  .field-entry h3 a:hover,
+  .field-entry h3 a:focus-visible,
+  .proof-entry h3 a:hover,
+  .proof-entry h3 a:focus-visible {
     text-decoration: underline;
     text-underline-offset: 0.14em;
   }
 
-  .theme-card p {
+  .field-entry .entry-meta,
+  .proof-entry .entry-meta {
+    margin: 0 0 8px;
+  }
+
+  .field-entry p:last-child,
+  .proof-entry p:last-child {
     margin: 0;
-    color: var(--text);
     font-size: 0.92rem;
     line-height: 1.5;
-  }
-
-  /* Removed .entry h3, .proof-entry h4, .proof-entry h4 a, .proof-entry h4 a:hover, .proof-entry h4 a:focus-visible, and .proof-entry .entry-meta styles */
-
-  .proof-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-    max-width: 56rem;
-  }
-
-  .proof-card {
-    border: 1px solid var(--line);
-    padding: 20px;
+    color: var(--text);
   }
 
   .proof-principle {
@@ -334,44 +337,7 @@ const description = "How I trained my judgment through sustained study and appli
   }
 
   .proof-application {
-    margin: 0 0 18px;
-    font-size: 0.92rem;
-    line-height: 1.5;
-    color: var(--text);
-  }
-
-  .proof-link {
-    display: block;
-    border-top: 1px solid var(--line);
-    padding-top: 16px;
-    margin-bottom: 10px;
-    color: var(--title);
-    text-decoration: none;
-    font-size: 1rem;
-    line-height: 1.35;
-    font-weight: 600;
-  }
-
-  .proof-link span {
-    display: block;
-    margin-bottom: 6px;
-    font-size: 0.68rem;
-    line-height: 1;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--secondary);
-    font-weight: 400;
-    opacity: 0.7;
-  }
-
-  .proof-link:hover,
-  .proof-link:focus-visible {
-    text-decoration: underline;
-    text-underline-offset: 0.14em;
-  }
-
-  .proof-card p:last-child {
-    margin: 0;
+    margin: 0 0 14px;
     font-size: 0.92rem;
     line-height: 1.5;
     color: var(--text);
