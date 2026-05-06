@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Copy, Paste, and the Myth of the Inventor"
 subtitle: "Most things arrive carrying more people than history remembers."
 description: "Innovation rarely emerges from a single flash of genius. More often, it accumulates through refinement, mentorship, and invisible lineage."
-pubDate: "2026-10-24"
+pubDate: "2026-10-22"
 heroImage: "/images/writing/copy-paste-and-the-myth-of-the-inventor.png"
 heroAlt: "Fragmented monochrome interface elements layered over archival-style portraits and geometric forms"
 tags: ["Systems", "Design", "Signal"]
