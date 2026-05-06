@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/PublicationLayout.astro"
-title: "Field Study: Dremio"
-subtitle: "Designing trust, discoverability, and cognitive legibility inside modern data infrastructure"
+title: "Dremio"
+subtitle: "Field Study"
 description: "Across financial services, healthcare, and enterprise infrastructure, the same pattern emerged repeatedly: modern data systems rarely failed at storage or compute. They failed at interpretation."
 pubDate: "2026-11-10"
 heroImage: "/images/writing/field-study-dremio.png"
@@ -9,6 +9,8 @@ heroAlt: "Abstract semantic data structures resolving into navigable pathways"
 tags: ["Field Studies", "Enterprise Systems", "Decision Systems"]
 tier: "tier-1"
 ---
+
+>Designing trust, discoverability, and cognitive legibility inside modern data infrastructure
 
 Modern data infrastructure rarely fails because organizations lack data.
 

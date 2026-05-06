@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/PublicationLayout.astro"
-title: "Field Study: Automation Anywhere"
-subtitle: "Designing trust, explainability, and human oversight inside AI-assisted enterprise automation"
+title: "Automation Anywhere"
+subtitle: "Field Study"
 description: "As enterprise automation evolved from deterministic bots toward adaptive AI systems, the central challenge shifted from execution speed to operational trust."
 pubDate: "2026-11-12"
 heroImage: "/images/writing/field-study-automation-anywhere.png"
@@ -9,6 +9,8 @@ heroAlt: "Abstract automation workflows intersecting with human oversight and ad
 tags: ["Field Studies", "AI Systems", "Enterprise Automation"]
 tier: "tier-1"
 ---
+
+>Designing trust, explainability, and human oversight inside AI-assisted enterprise automation
 
 Enterprise automation historically depended on predictability.
 
