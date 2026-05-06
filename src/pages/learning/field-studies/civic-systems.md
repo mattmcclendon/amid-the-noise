@@ -10,8 +10,6 @@ tags: ["Field Studies", "Civic Systems", "Human-Centered Design"]
 tier: "tier-1"
 ---
 
-# Civic Systems
-
 Public systems are often discussed as logistical systems.
 
 Housing capacity.

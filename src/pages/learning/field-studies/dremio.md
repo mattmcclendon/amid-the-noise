@@ -10,8 +10,6 @@ tags: ["Field Studies", "Enterprise Systems", "Decision Systems"]
 tier: "tier-1"
 ---
 
-# Dremio
-
 Modern data infrastructure rarely fails because organizations lack data.
 
 It fails because people cannot confidently interpret what they are seeing.

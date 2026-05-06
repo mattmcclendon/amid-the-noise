@@ -10,8 +10,6 @@ tags: ["Field Studies", "AI Systems", "Enterprise Automation"]
 tier: "tier-1"
 ---
 
-# Automation Anywhere
-
 Enterprise automation historically depended on predictability.
 
 Rules were defined.
