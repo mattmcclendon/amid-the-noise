@@ -146,7 +146,9 @@ const themeGroups = [
 
     <div class="foundation-grid">
       {foundationalPosts.map((post) => (
-        <article class="foundation-card">
+        <article class="supporting-post">
+          <span>Foundational Paper</span>
+
           <h3>
             <a href={post.url}>{post.frontmatter.title}</a>
           </h3>
@@ -321,30 +323,41 @@ const themeGroups = [
     max-width: 56rem;
   }
 
-  .foundation-card {
+  .supporting-post {
     border: 1px solid var(--line);
     padding: 20px;
   }
 
-  .foundation-card h3 {
+  .supporting-post span {
+    display: block;
+    margin: 0 0 12px;
+    font-size: 0.72rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--secondary);
+  }
+
+  .supporting-post h3 {
     font-size: 1.1rem;
     line-height: 1.35;
     font-weight: 600;
     margin: 0 0 4px;
   }
 
-  .foundation-card h3 a {
+  .supporting-post h3 a {
     color: var(--title);
     text-decoration: none;
   }
 
-  .foundation-card h3 a:hover,
-  .foundation-card h3 a:focus-visible {
+  .supporting-post h3 a:hover,
+  .supporting-post h3 a:focus-visible {
     text-decoration: underline;
     text-underline-offset: 0.14em;
   }
 
-  .foundation-card p:last-child {
+  .supporting-post p:last-child {
     margin-bottom: 0;
   }
 
