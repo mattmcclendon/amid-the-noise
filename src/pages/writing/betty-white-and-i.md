@@ -10,21 +10,17 @@ tags: ["Reflection", "Ocean", "Signal"]
 tier: "tier-2"
 ---
 
-I never met Betty White.
-
-I met her sister a handful of times instead.
-
-That somehow made Betty feel less like a celebrity and more like a real person whose life had simply unfolded at a different scale than mine. Fame stopped being the defining feature. It became background noise.
-
 For most of my life, I did not think Betty White and I had much in common.
 
 She was a television icon. I grew up in Oklahoma watching the seasons change through spider lilies, lodge halls, library stacks, thunderstorms, and long conversations about the future. Our worlds did not appear adjacent.
 
-Then the Monterey Bay Aquarium renamed its ocean legacy circle after her, and something quietly shifted for me.
+I had already been part of the Aquarium’s ocean legacy circle before the name change happened.
 
-Not because I was starstruck.
+That is what caught me off guard.
 
-Because underneath all the machinery of celebrity was a person who loved the ocean deeply enough to help protect it.
+The announcement did not feel like celebrity branding or institutional theater. It felt strangely personal. Somewhere beneath one of the most recognizable public personas in American culture was a person who cared deeply about the same living systems I did.
+
+The farther I thought about it, the less interesting the fame itself became. What stayed with me was the realization that someone I assumed I had almost nothing in common with had quietly organized part of her life around conservation, stewardship, and awe toward the natural world.
 
 That felt familiar.
 
