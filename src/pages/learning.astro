@@ -84,43 +84,33 @@ const description = "How I trained my judgment through sustained study and appli
       <p>Field work translates real environments into usable patterns for designing trust, interpretation, and accountability.</p>
     </div>
 
-    <div class="field-study-grid">
-      <article class="field-study-card">
-        <a href="/learning/field-studies/dremio" aria-label="Read Field Study: Dremio">
-          <img src="/images/writing/field-study-dremio.png" alt="Abstract semantic data structures resolving into navigable pathways" loading="lazy" />
-          <div class="field-study-content">
-            <p class="entry-meta">Enterprise Data Infrastructure</p>
-            <h3>Field Study: Dremio</h3>
-            <p>How semantic systems, lineage, and cognitive legibility help people trust complex data environments.</p>
-          </div>
-        </a>
-      </article>
-
-      <article class="field-study-card">
-        <a href="/learning/field-studies/automation-anywhere" aria-label="Read Field Study: Automation Anywhere">
-          <img src="/images/writing/field-study-automation-anywhere.png" alt="Abstract automation workflows intersecting with human oversight and adaptive systems" loading="lazy" />
-          <div class="field-study-content">
-            <p class="entry-meta">AI-Assisted Automation</p>
-            <h3>Field Study: Automation Anywhere</h3>
-            <p>How explainability, confidence calibration, and human oversight shape trust in adaptive automation.</p>
-          </div>
-        </a>
-      </article>
-
-      <article class="field-study-card">
-        <a href="/learning/field-studies/civic-systems" aria-label="Read Field Study: Civic Systems">
-          <img src="/images/writing/field-study-civic-systems.png" alt="Abstract civic infrastructure and human pathways intersecting across a public system" loading="lazy" />
-          <div class="field-study-content">
-            <p class="entry-meta">Public Systems</p>
-            <h3>Field Study: Civic Systems</h3>
-            <p>How navigability, dignity, and operational clarity shape trust inside public systems under stress.</p>
-          </div>
-        </a>
-      </article>
-    </div>
+    
 
 
     <div class="field-list">
+      <article class="field-entry">
+        <p class="entry-meta">Dremio</p>
+        <h3>
+          <a href="/learning/field-studies/dremio">Designing Trust Inside Modern Data Infrastructure</a>
+        </h3>
+        <p>Across financial services, healthcare, and enterprise infrastructure, the work clarified how semantic systems, lineage, and cognitive legibility help people trust complex data environments.</p>
+      </article>
+
+      <article class="field-entry">
+        <p class="entry-meta">Automation Anywhere</p>
+        <h3>
+          <a href="/learning/field-studies/automation-anywhere">Designing Trust Inside AI-Assisted Automation</a>
+        </h3>
+        <p>As automation moved from deterministic rules toward adaptive systems, the work focused on explainability, confidence calibration, and human oversight inside operational workflows.</p>
+      </article>
+
+      <article class="field-entry">
+        <p class="entry-meta">Civic Systems</p>
+        <h3>
+          <a href="/learning/field-studies/civic-systems">Designing Dignity Inside Public Systems Under Stress</a>
+        </h3>
+        <p>Public systems rarely fail at a single touchpoint. This field study looks at how navigability, dignity, and operational clarity shape trust when people encounter institutions under pressure.</p>
+      </article>
       <article class="field-entry">
         <p class="entry-meta">Evernote</p>
         <h3>
@@ -313,58 +303,6 @@ const description = "How I trained my judgment through sustained study and appli
     margin-bottom: 6px;
   }
 
-  .field-study-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 18px;
-    max-width: 68rem;
-    margin-bottom: 54px;
-  }
-
-  .field-study-card {
-    border: 1px solid var(--line);
-    background: #f8f7f4;
-  }
-
-  .field-study-card a {
-    display: block;
-    color: inherit;
-    text-decoration: none;
-    height: 100%;
-  }
-
-  .field-study-card a:hover h3,
-  .field-study-card a:focus-visible h3 {
-    text-decoration: underline;
-    text-underline-offset: 0.14em;
-  }
-
-  .field-study-card img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .field-study-content {
-    padding: 18px;
-  }
-
-  .field-study-content h3 {
-    margin: 0 0 10px;
-    font-size: 1.05rem;
-    line-height: 1.3;
-    font-weight: 600;
-    color: var(--title);
-  }
-
-  .field-study-content p:last-child {
-    margin: 0;
-    font-size: 0.9rem;
-    line-height: 1.48;
-    color: var(--text);
-  }
 
 
   .field-list,
@@ -489,8 +427,7 @@ const description = "How I trained my judgment through sustained study and appli
   }
 
   @media (max-width: 760px) {
-    .decision-grid,
-    .field-study-grid {
+    .decision-grid {
       grid-template-columns: 1fr;
     }
   }
