@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Party That Never Started"
 subtitle: "On preparing yourself for opportunities that may never have been real to begin with"
 description: "Modern professional life increasingly asks people to perform exhaustive readiness for opportunities that may not materially exist."
-pubDate: "2026-10-28"
+pubDate: "2026-10-27"
 heroImage: "/images/writing/the-party-that-never-started.png"
 heroAlt: "An immaculate dining room waiting in silence"
 tags: ["Work", "Systems", "Reflection"]
