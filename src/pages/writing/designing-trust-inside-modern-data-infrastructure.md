@@ -65,7 +65,7 @@ The humans inside them still needed orientation.
 
 ## FactSet: Speed Without Friction
 
-At FactSet, the challenge centered around high-volume financial datasets distributed across multiple systems. Data scientists needed to move rapidly between exploration, modeling, and validation without sacrificing auditability or trust.  [oai_citation:0‡2021-10-CaseStudy-FactSet:Dremio.docx](sediment://file_00000000c2dc71f6b932133359f3cde1)
+At FactSet, the challenge centered around high-volume financial datasets distributed across multiple systems. Data scientists needed to move rapidly between exploration, modeling, and validation without sacrificing auditability or trust.
 
 The technical problem was substantial.
 
@@ -87,7 +87,7 @@ They reduced the cognitive distance between:
 - interpretation,
 - and operational confidence.
 
-Performance mattered too. Query times dropped below ten seconds across extremely large datasets. Data preparation overhead decreased significantly.  [oai_citation:1‡2021-10-CaseStudy-FactSet:Dremio.docx](sediment://file_00000000c2dc71f6b932133359f3cde1)
+Performance mattered too. Query times dropped below ten seconds across extremely large datasets. Data preparation overhead decreased significantly.
 
 But the larger outcome was psychological:
 
@@ -97,9 +97,7 @@ Users began trusting the system enough to think inside it.
 
 ## NetApp: Self-Service Requires Orientation
 
-At NetApp, the scale problem became impossible to ignore.
-
-Petabytes of telemetry data already existed. The infrastructure itself was not the bottleneck. The issue was discoverability and usability across non-expert users.  [oai_citation:2‡2021-10-CaseStudy-NetApp:Dremio.docx](sediment://file_00000000ca0471f6be174e02f774c0e2)
+Petabytes of telemetry data already existed. The infrastructure itself was not the bottleneck. The issue was discoverability and usability across non-expert users.
 
 The organization did not merely need faster queries.
 
@@ -125,7 +123,7 @@ That confidence is designed.
 
 ## TransUnion: Trust at Scale
 
-At TransUnion, the challenge shifted toward governance, compliance, and organizational trust.  [oai_citation:3‡2021-10-CaseStudy-TransUnion:Dremio.docx](sediment://file_000000005af071f6a98435879057b6e7)
+At TransUnion, the challenge shifted toward governance, compliance, and organizational trust.
 
 Highly regulated environments create a unique design tension:
 
@@ -139,7 +137,7 @@ The solution was not simplification through removal.
 
 It was contextual clarity.
 
-Role-aware interfaces, trust indicators, insight previews, and contextual onboarding reduced ambiguity while preserving institutional safeguards.  [oai_citation:4‡2021-10-CaseStudy-TransUnion:Dremio.docx](sediment://file_000000005af071f6a98435879057b6e7)
+Role-aware interfaces, trust indicators, insight previews, and contextual onboarding reduced ambiguity while preserving institutional safeguards.
 
 One detail proved especially important:
 
@@ -159,7 +157,7 @@ It emerges from:
 
 ## Designing for Depth
 
-The pattern became clearest during work involving large-scale healthcare data systems.  [oai_citation:5‡2023-06-CaseStudy-DesigningforDepth.docx](sediment://file_00000000218871f69418a9683c930a85)
+The pattern became clearest during work involving large-scale healthcare data systems.
 
 The architecture itself was technically sound:
 - distributed storage,
@@ -169,7 +167,7 @@ The architecture itself was technically sound:
 
 Still, adoption remained weak outside engineering teams.
 
-The system was functionally rich but experientially impoverished.  [oai_citation:6‡2023-06-CaseStudy-DesigningforDepth.docx](sediment://file_00000000218871f69418a9683c930a85)
+The system was functionally rich but experientially impoverished.
 
 The intervention shifted from infrastructure-first thinking toward cognitive design:
 - semantic overlays,
