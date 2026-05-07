@@ -30,25 +30,25 @@ const selectedWork = [
 
 const selectedLearning = [
   {
-    title: 'Wells Fargo Field Study',
-    href: '/learning/wells-fargo',
-    description:
-      'A field study on decision governance, model accountability, and the operational layer where AI-supported decisions become reviewable and owned.',
-    tags: ['Field Study', 'AI Governance', 'Risk'],
-  },
-  {
-    title: 'Automation Anywhere Field Study',
+    kicker: 'Automation Anywhere',
+    title: 'Designing Trust Inside AI-Assisted Automation',
     href: '/learning/automation-anywhere',
     description:
-      'A field study on human-in-the-loop automation, observability, and the design controls required when enterprise AI systems act under supervision.',
-    tags: ['Field Study', 'Enterprise AI', 'Control'],
+      'As automation moved from deterministic rules toward adaptive systems, the work focused on explainability, confidence calibration, and human oversight inside operational workflows.',
   },
   {
-    title: 'CA Technologies Field Study',
+    kicker: 'Wells Fargo',
+    title: 'Designing Human-Governed AI in a Regulated Enterprise',
+    href: '/learning/wells-fargo',
+    description:
+      'Inside Wells Fargo AI Enterprise Solutions, the work focused on operationalizing trust in regulated AI systems through governance frameworks, human oversight, interpretability, and scalable experimentation across 17 business units.',
+  },
+  {
+    kicker: 'CA Technologies',
+    title: 'Designing Signal in Emerging Systems',
     href: '/learning/ca-technologies',
     description:
-      'A field study on executive facilitation, product incubation, and designing alignment across complex technical portfolios under pressure.',
-    tags: ['Field Study', 'Facilitation', 'Systems'],
+      'Inside the CA Accelerator, design became infrastructure for experimentation, validation, and trust across emerging technology ventures working in NLP, predictive DevOps, and operational analytics.',
   },
 ];
 
@@ -100,17 +100,13 @@ const selectedPosts = selectedSlugs
 
     {selectedLearning.map((item) => (
       <article class="entry learning-entry">
+        <p class="learning-kicker">{item.kicker}</p>
+
         <h3>
           <a href={item.href}>{item.title}</a>
         </h3>
 
         <p>{item.description}</p>
-
-        <div class="entry-tags">
-          {item.tags.map((tag) => (
-            <span class="entry-tag">{tag}</span>
-          ))}
-        </div>
       </article>
     ))}
   </section>
@@ -264,9 +260,17 @@ const selectedPosts = selectedSlugs
     margin-top: 8px;
   }
 
+  .learning-kicker {
+    margin: 0 0 8px;
+    font-size: 0.98rem;
+    line-height: 1.35;
+    color: var(--secondary);
+  }
+
   .learning-entry h3 {
-    font-size: 1.08rem;
-    line-height: 1.32;
+    font-size: 1.15rem;
+    line-height: 1.35;
+    font-weight: 600;
     margin: 0 0 10px;
     color: var(--text);
   }
@@ -276,8 +280,8 @@ const selectedPosts = selectedSlugs
   }
 
   .learning-entry + .learning-entry {
-    margin-top: 14px;
-    padding-top: 14px;
+    margin-top: 32px;
+    padding-top: 30px;
     border-top: 1px solid var(--line);
   }
 
