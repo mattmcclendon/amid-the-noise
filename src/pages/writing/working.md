@@ -12,24 +12,78 @@ tier: "tier-2"
 
 I almost quit because of one word.
 
-Robert Petkoff, doing the voice, hits the old Star Trek: The Original Series computer tone. “Working.” Dead flat. Exact. Fully committed. It didn’t land. It pulled me out of it in that immediate way where you suddenly remember you’re listening to a performance instead of being inside a story. I remember thinking, *this is ridiculous,* and reaching for the off switch.
+Robert Petkoff, doing the voice, hits the old *Star Trek: The Original Series* computer tone.
 
-I didn’t turn it off. I shifted something else.
+“Working.”
 
-Back then I was driving from Niles in Fremont into Santa Clara every day. Anyone who’s done that run knows it’s either 30 minutes or 90, and the difference has nothing to do with you. Just… luck. Which meant I had time, or I didn’t, or I had too much of it. Either way, it was enough for a story if I could ever get one to stick. I’d tried before, Audible and Kindle, and it never worked. I told myself it just wasn’t for me. That wasn’t true. I was sitting there judging every sentence like it owed me something, picking at tone, delivery, whether it matched whatever version I had in my head.
+Dead flat. Exact. Fully committed.
 
-Somewhere in that drive, right after that “Working,” I caught myself doing it again. Measuring it. Keeping it at arm’s length. So I tried something that felt a little dumb at the time. I stopped listening like an adult. I let myself listen like a kid. No critique, no comparison, just let someone tell me a story and don’t interrupt. Nothing dramatic happened. No clean turning point. I just stopped getting in the way, and that was enough.
+It pulled me completely out of the story. I remember thinking, *this is ridiculous,* and reaching for the off switch.
 
-The series was Star Trek: Legacies. Different authors across the books, and you can feel it. The first one is tight. The second one drifts. The voice changes just enough to notice. Back then that kind of shift would’ve been enough for me to bail. Now it isn’t, because I’m not there to score it. I’m there to stay with it.
+I didn’t turn it off.
 
-That one small adjustment turned into something larger over time. One book became a habit, then a lot of books. Hundreds at this point. Drives that used to feel like dead time started to feel claimed. Nothing about the narrator changed. Nothing about the writing changed. I did.
+I shifted something else.
 
-I’m back on that trilogy now. Same voice, same moments that used to pull me out. They still do sometimes. I just don’t follow them out anymore.
+Back then I was driving from Niles in Fremont into Santa Clara every day. Anyone who has done that run knows it is either thirty minutes or ninety, and the difference usually has nothing to do with you. Some mornings traffic moved like a system with intent. Other mornings the whole freeway felt emotionally unavailable.
 
-I used to think the entertainment was beneath me. I thought I was better than it.
+Either way, I had time.
 
-That was just my arrogance, showing up in a small, ordinary way.
+Enough for a story if I could ever get one to stick.
 
-What I needed was to loosen my grip on expectation.
+I had tried Audible before. Kindle too. None of it worked for me. At least that is what I told myself. Looking back, the problem was not the format.
 
-It turns out I enjoy things a lot more when I’m not measuring them against what I think they should be.
+It was me.
+
+I was listening like a critic instead of a participant.
+
+Every sentence got evaluated. Every voice got compared against the version in my head. If the delivery felt slightly off, I would detach from the experience and start grading it from a distance.
+
+Somewhere during that commute, right after that absurdly serious “Working,” I caught myself doing it again.
+
+So I tried something that felt embarrassingly simple.
+
+I stopped listening like an adult.
+
+I let myself listen like a kid again.
+
+No scoring. No comparison. No constant internal editing.
+
+Just let somebody tell the story.
+
+Nothing dramatic happened after that. No cinematic breakthrough. I just stopped interrupting the experience long enough for it to work.
+
+The series was *Star Trek: Legacies.* Different authors across the trilogy, and you can feel the handoff. The first book is tighter. The second wanders a bit. Years ago, that shift alone would have been enough for me to quit.
+
+Now it is not.
+
+Because I am not there to measure it anymore.
+
+I am there to stay with it.
+
+That one small adjustment quietly turned into a larger change.
+
+One audiobook became a habit. Then a routine. Then hundreds of books over time.
+
+Commutes that used to feel like dead space started feeling reclaimed. Long drives stopped feeling empty. Even ordinary errands began carrying narrative weight.
+
+Nothing about the narrator changed.
+
+Nothing about the writing changed.
+
+I did.
+
+I’m back on that trilogy now. Same voice. Same overly precise “Working.” Same little moments that used to eject me from the experience.
+
+They still catch me sometimes.
+
+I just do not follow them out anymore.
+
+For a long time I thought entertainment had to justify itself intellectually before I could enjoy it. I thought noticing flaws meant I was paying attention.
+
+Most of the time it just meant I was holding everything too tightly.
+
+What finally changed was not my taste.
+
+It was my posture.
+
+It turns out stories work a lot better once you stop standing between yourself and the experience of hearing them.
