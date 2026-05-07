@@ -124,7 +124,7 @@ The system reduced confusion between executive expectations and engineering exec
 
 Pilot groups reduced average time from concept to testable initiative by approximately sixfold.
 
-More importantly, the organization began developing a shared operational language around AI. fileciteturn0file2L1-L32
+More importantly, the organization began developing a shared operational language around AI.
 
 ---
 
@@ -159,7 +159,7 @@ This transformed operational usage into an ongoing learning system rather than a
 
 Language patterns associated with compliance risk, customer retention concerns, or operational urgency were surfaced proactively to support earlier intervention.
 
-The resulting workflows reduced average response lag for high-risk customer communications while improving user confidence in triage prioritization. fileciteturn0file0L1-L33
+The resulting workflows reduced average response lag for high-risk customer communications while improving user confidence in triage prioritization.
 
 The broader lesson was clear:
 
@@ -189,7 +189,7 @@ The work introduced collaborative rituals and governance structures that allowed
 
 This changed the institutional posture toward experimentation.
 
-Several dormant machine learning initiatives that had previously stalled were eventually reevaluated and approved for deployment once governance and interpretability structures became clearer. fileciteturn0file1L1-L31
+Several dormant machine learning initiatives that had previously stalled were eventually reevaluated and approved for deployment once governance and interpretability structures became clearer.
 
 The cultural shift was subtle but important.
 
