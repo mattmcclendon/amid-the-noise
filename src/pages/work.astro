@@ -63,11 +63,11 @@ import Layout from '../layouts/Layout.astro';
 
     <aside class="work-learning-note" aria-label="Related field studies">
       <p>
-        For deeper operational analysis, see <a href="/learning">Learning</a>, where field studies examine governance, AI decision workflows, and complex systems in greater detail.
+        For deeper operational analysis, field studies examine governance, AI decision workflows, and complex systems in greater detail.
       </p>
 
       <p class="work-learning-link">
-        <a href="/learning">Browse Field Studies →</a>
+        <a href="/learning">Field Studies →</a>
       </p>
     </aside>
 
@@ -134,25 +134,27 @@ import Layout from '../layouts/Layout.astro';
 
   .work-learning-note {
     max-width: 46rem;
-    margin: 1.1rem 0 0.75rem;
-    padding: 1rem 0 0;
-    border-top: 1px solid var(--line);
-    color: var(--secondary);
+    margin: 0.75rem 0 1.75rem;
+    padding: 1rem 0 1.15rem;
+    border-top: 1px solid var(--border-color, #e5e7eb);
+    border-bottom: 1px solid var(--border-color, #e5e7eb);
+    color: var(--secondary, #64748b);
   }
 
   .work-learning-note p {
     margin: 0;
-    font-size: 0.95rem;
-    line-height: 1.55;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--secondary, #64748b);
   }
 
   .work-learning-link {
-    margin-top: 0.75rem;
+    margin-top: 0.45rem;
   }
 
   .work-learning-link a {
-    font-size: 0.92rem;
-    color: var(--text);
+    font-size: inherit;
+    color: inherit;
     text-decoration: none;
   }
 
@@ -160,18 +162,6 @@ import Layout from '../layouts/Layout.astro';
   .work-learning-link a:focus-visible {
     text-decoration: underline;
     text-underline-offset: 0.14em;
-  }
-
-  .work-learning-note a {
-    color: var(--text);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s ease;
-  }
-
-  .work-learning-note a:hover,
-  .work-learning-note a:focus-visible {
-    border-bottom-color: var(--text);
   }
 
   .decision-grid {
