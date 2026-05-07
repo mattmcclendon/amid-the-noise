@@ -65,6 +65,10 @@ import Layout from '../layouts/Layout.astro';
       <p>
         For deeper operational analysis, see <a href="/learning">Learning</a>, where field studies examine governance, AI decision workflows, and complex systems in greater detail.
       </p>
+
+      <p class="work-learning-link">
+        <a href="/learning">Browse Field Studies →</a>
+      </p>
     </aside>
 
     <h2 id="foundations">Foundations</h2>
@@ -140,6 +144,22 @@ import Layout from '../layouts/Layout.astro';
     margin: 0;
     font-size: 0.95rem;
     line-height: 1.55;
+  }
+
+  .work-learning-link {
+    margin-top: 0.75rem;
+  }
+
+  .work-learning-link a {
+    font-size: 0.92rem;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .work-learning-link a:hover,
+  .work-learning-link a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
   }
 
   .work-learning-note a {
