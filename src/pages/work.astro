@@ -12,6 +12,9 @@ import Layout from '../layouts/Layout.astro';
       <p class="work-intro">
         Selected case studies across AI, enterprise systems, automation, and regulated environments, focused on problem framing, decision clarity, constraints, and outcomes.
       </p>
+      <p class="work-learning-note">
+        Additional operational analysis and field studies are available in <a href="/learning">Learning</a>, where governance, AI decision workflows, and complex systems are examined in greater depth.
+      </p>
 
       <div class="decision-grid" aria-label="Work section overview">
         <a class="decision-card" href="#recent-work">
@@ -120,6 +123,26 @@ import Layout from '../layouts/Layout.astro';
 
   .work-intro {
     margin-bottom: 1rem;
+  }
+
+  .work-learning-note {
+    max-width: 46rem;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--secondary);
+    margin-bottom: 1.75rem;
+  }
+
+  .work-learning-note a {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+
+  .work-learning-note a:hover,
+  .work-learning-note a:focus-visible {
+    border-bottom-color: var(--text);
   }
 
   .decision-grid {
