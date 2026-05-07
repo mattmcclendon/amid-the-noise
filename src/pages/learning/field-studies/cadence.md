@@ -43,7 +43,7 @@ That gap became the work.
 
 ## The Assignment
 
-My focus centered primarily on DaVinci and the broader Virtuoso ecosystem.
+My focus centered primarily on the Virtuoso ecosystem.
 
 The work included:
 
@@ -63,7 +63,24 @@ The users were highly specialized engineers operating inside environments where 
 
 The design objective was not simplification for its own sake.
 
+
 The objective was preserving expert power while reducing cognitive friction.
+
+One of the unusual constraints of the environment was that many customers were still deeply attached to older Virtuoso IC5141-era workflows, even as newer IC6 platforms emerged.
+
+In practice, many engineering teams preferred stability over novelty.
+
+Muscle memory mattered.
+
+Workflow predictability mattered.
+
+Even relatively minor interface changes could generate resistance if they interrupted highly optimized expert behaviors developed over years of daily use.
+
+In some environments, adding or moving a single icon could create frustration.
+
+That tension created an important design constraint:
+
+Modernization could not come at the expense of operational familiarity.
 
 ## UX as Operational Infrastructure
 
@@ -71,7 +88,7 @@ One of the most important realizations during the engagement was that the organi
 
 It needed operational UX infrastructure.
 
-At the time, UX maturity across groups varied significantly. Some processes existed, but there was no consistent organizational framework governing interaction patterns, engagement models, or long-term experience strategy. fileciteturn0file0L3-L8
+At the time, UX maturity across groups varied significantly. Some processes existed, but there was no consistent organizational framework governing interaction patterns, engagement models, or long-term experience strategy.
 
 Part of the work involved helping move the organization from reactive UX implementation toward a more defined systems-based model.
 
