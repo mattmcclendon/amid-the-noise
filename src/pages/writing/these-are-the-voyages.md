@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "These Are the Voyages"
 subtitle: "A new exploration vessel for a more complicated frontier"
 description: "A christening of the USS Kepler and an exploration of why modern Star Trek works best when ships feel inhabited, adaptive, and alive enough for people to evolve inside them."
-pubDate: "2026-05-08"
+pubDate: "2026-12-08"
 heroImage: "/images/writing/these-are-the-voyages.png"
 heroAlt: "A Sagan-class Federation starship drifts through a pale stellar cartography field while subtle architectural overlays evoke systems diagrams and exploration routes."
 tags: ["Star Trek", "Systems Thinking", "World-Building", "Storytelling", "Governance", "Signal", "Culture"]
