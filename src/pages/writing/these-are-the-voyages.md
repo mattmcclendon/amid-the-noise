@@ -6,7 +6,7 @@ description: "A christening of the USS Kepler and an exploration of why modern S
 pubDate: "2026-12-08"
 heroImage: "/images/writing/these-are-the-voyages.png"
 heroAlt: "A Sagan-class Federation starship drifts through a pale stellar cartography field while subtle architectural overlays evoke systems diagrams and exploration routes."
-tags: ["Star Trek", "Systems Thinking", "World-Building", "Storytelling", "Governance", "Signal", "Culture"]
+tags: ["Star Trek", "Systems", "Governance"]
 tier: "tier-2"
 ---
 

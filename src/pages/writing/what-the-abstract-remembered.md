@@ -6,7 +6,7 @@ description: "A rent house in southwest Oklahoma reveals how governance survives
 pubDate: "2026-12-10"
 heroImage: "/images/writing/what-the-abstract-remembered.png"
 heroAlt: "An aged territorial land abstract layered over a faded Oklahoma street grid and distant grain elevators beneath a storm-dark sky."
-tags: ["Governance", "Infrastructure", "Systems", "Memory", "Oklahoma", "Place"]
+tags: ["Governance", "Infrastructure", "Oklahoma"]
 tier: "tier-1"
 ---
 
