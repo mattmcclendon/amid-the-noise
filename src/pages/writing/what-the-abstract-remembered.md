@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PublicationLayout.astro"
 title: "What the Abstract Remembered"
-subtitle: "A rent house in Altus and the systems buried beneath ordinary ground"
+subtitle: "A house in Altus and the systems buried beneath ordinary ground"
 description: "A house in southwest Oklahoma reveals how governance survives long after the people who wrote it are gone."
 pubDate: "2026-12-10"
 heroImage: "/images/writing/what-the-abstract-remembered.png"
@@ -12,7 +12,7 @@ tier: "tier-1"
 
 I bought a house in Altus, Oklahoma in 1996 for $28,400.
 
-Three bedrooms. One bathroom. Around a thousand square feet. I rented it out for three hundred dollars a month, which even then felt less like some grand investment strategy and more like participation in the local rhythm of the town. People still thought in practical terms there. A house was a house. Rent was rent. Most folks were just trying to keep the wheels turning another month.
+Three bedrooms. One bathroom. Around a thousand square feet. I rented it out for three hundred and fifty dollars a month, and at twenty-three years old I was enormously proud of it. It did not feel like a real estate investment so much as proof that my life was beginning to move forward in a tangible way. The house was modest, but it felt like the first solid thing I had built for myself. Honestly, I loved the floor plan too. For such a small house, the space had been divided surprisingly well. It felt practical without feeling cramped, which probably says something about the era it was built in.
 
 The interesting part was never the house itself.
 
