@@ -2,7 +2,7 @@
 layout: "../../layouts/PublicationLayout.astro"
 title: "What the Abstract Remembered"
 subtitle: "A rent house in Altus and the systems buried beneath ordinary ground"
-description: "A rent house in southwest Oklahoma reveals how governance survives long after the people who wrote it are gone."
+description: "A house in southwest Oklahoma reveals how governance survives long after the people who wrote it are gone."
 pubDate: "2026-12-10"
 heroImage: "/images/writing/what-the-abstract-remembered.png"
 heroAlt: "An aged territorial land abstract layered over a faded Oklahoma street grid and distant grain elevators beneath a storm-dark sky."
@@ -10,7 +10,7 @@ tags: ["Governance", "Infrastructure", "Oklahoma"]
 tier: "tier-1"
 ---
 
-I bought a rent house in Altus, Oklahoma in 1996 for $28,400.
+I bought a house in Altus, Oklahoma in 1996 for $28,400.
 
 Three bedrooms. One bathroom. Around a thousand square feet. I rented it out for three hundred dollars a month, which even then felt less like some grand investment strategy and more like participation in the local rhythm of the town. People still thought in practical terms there. A house was a house. Rent was rent. Most folks were just trying to keep the wheels turning another month.
 
