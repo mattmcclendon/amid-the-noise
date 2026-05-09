@@ -6,7 +6,7 @@ description: "Battlestar Galactica was never really about space warfare. It was 
 pubDate: "2026-12-22"
 heroImage: "/images/writing/so-say-we-all.png"
 heroAlt: "A worn spacecraft drifting through a pale fractured starfield as scattered lights resemble the last remnants of civilization."
-tags: ["Battlestar Galactica", "Systems Thinking", "Infrastructure", "Scarcity", "Civilization", "Signal", "Trust"]
+tags: ["Civilization", "Scarcity", "Signal"]
 tier: "tier-1"
 ---
 
