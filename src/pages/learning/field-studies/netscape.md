@@ -4,7 +4,7 @@ title: "Netscape & America Online"
 subtitle: "Field Study"
 description: "A field study on personalization, messaging convergence, and the systems that helped ordinary people trust the early internet."
 pubDate: "2000-04-17"
-heroImage: "/images/learning/netscape-field-study.png"
+heroImage: "/images/writing/netscape-field-study.png"
 heroAlt: "Abstract browser windows, messaging signals, and connected interface geometry surrounding the Netscape logo on a soft off-white background."
 tags: ["Netscape", "Field Study", "Internet History"]
 tier: "tier-1"
