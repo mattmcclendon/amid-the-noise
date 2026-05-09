@@ -13,7 +13,6 @@ tier: "tier-1"
 # Designing Human-Governed AI in a Regulated Enterprise
 >How Wells Fargo operationalized AI experimentation, trust, and decision governance across 17 business units
 
-
 ---
 ## Context
 
