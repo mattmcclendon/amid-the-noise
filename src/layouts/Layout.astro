@@ -88,6 +88,8 @@ const { title = 'Amid the Noise' } = Astro.props;
       </div>
     </main>
 
+    <div class="topography-anchor" aria-hidden="true"></div>
+
     <footer class="site-footer">
       <div class="site-frame">
         <div class="footer-inner">
@@ -474,8 +476,18 @@ const { title = 'Amid the Noise' } = Astro.props;
     opacity: 1;
   }
 
+  .topography-anchor {
+    height: clamp(280px, 34vw, 450px);
+    margin-top: -96px;
+    background-image: url('/amid-the-noise-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: min(720px, 72vw) auto;
+    pointer-events: none;
+  }
+
   .site-footer {
-    margin-top: 88px;
+    margin-top: 0;
     padding: 24px 0 28px;
     border-top: 1px solid var(--line);
   }
@@ -571,6 +583,10 @@ const { title = 'Amid the Noise' } = Astro.props;
 
     .site-main {
       padding: 44px 0 68px;
+    }
+
+    .topography-anchor {
+      display: none;
     }
 
     .footer-inner {
