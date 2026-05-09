@@ -481,10 +481,12 @@ const { title = 'Amid the Noise' } = Astro.props;
     margin-top: -34px;
     background-image: url('/amid-the-noise-grid.png');
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: 68% bottom;
     background-size: min(1400px, 82vw) auto;
     opacity: 1;
     pointer-events: none;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 14%, #000 86%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, #000 14%, #000 86%, transparent 100%);
   }
 
   .site-footer {
