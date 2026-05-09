@@ -12,7 +12,7 @@ tier: "tier-1"
 
 Some symbols feel designed.
 
-Others feel discovered.
+Others feel divine.
 
 The Zia sun symbol has always belonged in the second category for me.
 
