@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PublicationLayout.astro"
 title: "Doan's Crossing"
-subtitle: "The American West moved north one crossing at a time."
+subtitle: "The American West moved north, one crossing at a time."
 description: "A reflection on Doan’s Crossing, cattle drives, anthrax folklore, and the forgotten infrastructure that carried the American West north one herd at a time."
 pubDate: "2026-12-29"
 heroImage: "/images/writing/the-last-crossing-before-territory.png"
