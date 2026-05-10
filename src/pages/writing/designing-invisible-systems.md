@@ -6,7 +6,7 @@ description: "From social identity systems and ambient memory to semiconductor t
 pubDate: "2026-05-10"
 heroImage: "/images/writing/designing-invisible-systems.png"
 heroAlt: "Abstract network structures and system diagrams fading into layered interface fragments against a soft neutral background."
-tags: ["Systems Design", "Human-Computer Interaction", "Infrastructure", "Enterprise UX", "AI Systems"]
+tags: ["Systems Design", "Infrastructure", "AI Systems"]
 tier: "tier-1"
 ---
 
