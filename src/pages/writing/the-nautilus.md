@@ -1,5 +1,5 @@
 ---
-tayout: "../../layouts/PublicationLayout.astro"
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Nautilus"
 subtitle: "Growth is not escape. It is structural memory."
 description: "The nautilus does not abandon its previous chambers. It survives by building forward."
