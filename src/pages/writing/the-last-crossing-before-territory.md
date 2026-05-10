@@ -6,7 +6,7 @@ description: "A reflection on Doan’s Crossing, cattle drives, anthrax folklore
 pubDate: "2026-12-29"
 heroImage: "/images/writing/the-last-crossing-before-territory.png"
 heroAlt: "Abstract western landscape with a river crossing, faint cattle trail lines, and weathered infrastructure forms fading into dust-toned geometry."
-tags: ["Infrastructure", "American West", "Systems Thinking", "History", "Signal", "Civic Systems"]
+tags: ["American West", "Infrastructure", "History"]
 tier: "tier-1"
 ---
 
