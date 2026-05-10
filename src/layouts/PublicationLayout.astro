@@ -103,12 +103,9 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
       <slot />
     </div>
 
-    <div class="publication-threshold" aria-hidden="true">
-      <img src="/threshold-mark.svg" alt="" loading="lazy" />
-    </div>
-
     {nextArticle && (
       <nav class="publication-pagination section" aria-label="Next article">
+        <img class="publication-pagination-threshold" src="/threshold-mark.svg" alt="" loading="lazy" aria-hidden="true" />
         <div class="publication-pagination-next">
           <span class="publication-pagination-label">Next article →</span>
           <a href={nextArticle.url} class="publication-pagination-title">
@@ -290,11 +287,21 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
 
   .publication-pagination {
     max-width: 46rem;
-    margin-top: 1.25rem;
+    margin-top: 3rem;
     padding-top: 1rem;
     border-top: 1px solid var(--line);
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .publication-pagination-threshold {
+    width: 36px;
+    height: 36px;
+    display: block;
+    opacity: 0.72;
+    flex: 0 0 auto;
   }
 
   .publication-pagination-next {
@@ -329,20 +336,6 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
   .publication-pagination-title:hover {
     color: var(--accent);
     text-decoration: underline;
-  }
-
-  .publication-threshold {
-    max-width: 46rem;
-    margin: 4rem 0 1.15rem;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .publication-threshold img {
-    width: 52px;
-    height: 52px;
-    display: block;
-    opacity: 0.9;
   }
 
   @media (max-width: 720px) {
@@ -384,7 +377,8 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
     }
 
     .publication-pagination {
-      justify-content: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
     }
 
     .publication-pagination-next {
@@ -398,13 +392,9 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
       white-space: normal;
     }
 
-    .publication-threshold {
-      margin-top: 3rem;
-    }
-
-    .publication-threshold img {
-      width: 46px;
-      height: 46px;
+    .publication-pagination-threshold {
+      width: 32px;
+      height: 32px;
     }
   }
 </style>
