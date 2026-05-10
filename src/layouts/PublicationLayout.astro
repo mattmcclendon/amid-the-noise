@@ -103,7 +103,9 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
       <slot />
     </div>
 
-    <div class="publication-terminal" aria-hidden="true">■</div>
+    <div class="publication-threshold" aria-hidden="true">
+      <img src="/threshold-mark.svg" alt="" loading="lazy" />
+    </div>
 
     {nextArticle && (
       <nav class="publication-pagination section" aria-label="Next article">
@@ -329,12 +331,17 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
     text-decoration: underline;
   }
 
-  .publication-terminal {
+  .publication-threshold {
     max-width: 46rem;
-    margin-top: 1.25rem;
-    font-size: 1rem;
-    line-height: 1;
-    color: #3e5a82;
+    margin: 4.5rem 0 1.35rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .publication-threshold img {
+    width: 64px;
+    height: 64px;
+    display: block;
   }
 
   @media (max-width: 720px) {
@@ -388,6 +395,15 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
     .publication-pagination-title {
       max-width: 100%;
       white-space: normal;
+    }
+
+    .publication-threshold {
+      margin-top: 3.5rem;
+    }
+
+    .publication-threshold img {
+      width: 56px;
+      height: 56px;
     }
   }
 </style>
