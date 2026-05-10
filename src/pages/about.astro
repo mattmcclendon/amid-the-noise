@@ -1,8 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+
+const title = "About";
+const description = "A short profile of Matthew McClendon and the work behind Amid the Noise.";
 ---
 
-<Layout title="About | Amid the Noise">
+<Layout title={title} description={description}>
   <section class="section about-hero" data-pagefind-ignore>
     <h1>About</h1>
     <div class="about-grid">

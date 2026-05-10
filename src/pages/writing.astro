@@ -1,6 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
+const title = "Writing";
+const description = "Essays, field notes, research, and systems thinking from Amid the Noise.";
+
 const postModules = import.meta.glob('./writing/*.md', { eager: true });
 const posts = Object.values(postModules);
 
@@ -117,7 +120,7 @@ const themeGroups = [
 
 ---
 
-<Layout title="Writing | Amid the Noise">
+<Layout title={title} description={description}>
   <section class="section writing-hero" data-pagefind-ignore>
     <h1>Writing</h1>
     <p class="intro-lead">
