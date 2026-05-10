@@ -333,15 +333,16 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
 
   .publication-threshold {
     max-width: 46rem;
-    margin: 4.5rem 0 1.35rem;
+    margin: 4rem 0 1.15rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .publication-threshold img {
-    width: 64px;
-    height: 64px;
+    width: 52px;
+    height: 52px;
     display: block;
+    opacity: 0.9;
   }
 
   @media (max-width: 720px) {
@@ -398,12 +399,12 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
     }
 
     .publication-threshold {
-      margin-top: 3.5rem;
+      margin-top: 3rem;
     }
 
     .publication-threshold img {
-      width: 56px;
-      height: 56px;
+      width: 46px;
+      height: 46px;
     }
   }
 </style>
