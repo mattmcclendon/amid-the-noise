@@ -3,7 +3,7 @@ layout: "../../../layouts/PublicationLayout.astro"
 title: "Dremio"
 subtitle: "Field Study"
 description: "Across financial services, healthcare, and enterprise infrastructure, the same pattern emerged repeatedly: modern data systems rarely failed at storage or compute. They failed at interpretation."
-pubDate: "2026-11-10"
+pubDate: "2022-01-01"
 heroImage: "/images/writing/field-study-dremio.png"
 heroAlt: "Abstract semantic data structures resolving into navigable pathways"
 tags: ["Field Studies", "Enterprise Systems", "Decision Systems"]

@@ -1,10 +1,9 @@
 ---
 layout: ../../../layouts/PublicationLayout.astro
-
 title: "Cadence Design Systems"
 subtitle: "Field Study"
 description: "Field study on rebuilding user experience systems for Cadence Virtuoso and DaVinci during the transition toward AI-assisted semiconductor design workflows."
-pubDate: 2026-05-07
+pubDate: "2015-06-15"
 heroImage: "/images/writing/field-study-cadence.png"
 heroAlt: "Abstract semiconductor visualization with layered circuit structures and spatial design systems"
 tags: ["Field Studies", "AI Systems", "Enterprise UX"]

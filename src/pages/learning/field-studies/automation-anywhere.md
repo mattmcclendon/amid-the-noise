@@ -3,7 +3,7 @@ layout: "../../../layouts/PublicationLayout.astro"
 title: "Automation Anywhere"
 subtitle: "Field Study"
 description: "As enterprise automation evolved from deterministic bots toward adaptive AI systems, the central challenge shifted from execution speed to operational trust."
-pubDate: "2026-11-12"
+pubDate: "2020-10-15"
 heroImage: "/images/writing/field-study-automation-anywhere.png"
 heroAlt: "Abstract automation workflows intersecting with human oversight and adaptive systems"
 tags: ["Field Studies", "AI Systems", "Enterprise Automation"]

@@ -3,7 +3,7 @@ layout: "../../../layouts/PublicationLayout.astro"
 title: "CA Technologies (Accelerator)"
 subtitle: "Field Study"
 description: "A field study on building human-centered systems for emerging technology ventures inside the CA Accelerator, spanning predictive DevOps, NLP, UXOps, and AI-assisted decision workflows."
-pubDate: "2026-05-06"
+pubDate: "2018-02-15"
 heroImage: "/images/writing/field-study-ca-technologies.png"
 heroAlt: "Abstract visualization of interconnected emerging technology systems and operational signal flows"
 tags: ["Systems Thinking", "Emerging Technology", "Decision Systems"]

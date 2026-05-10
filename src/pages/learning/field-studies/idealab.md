@@ -3,7 +3,7 @@ layout: "../../../layouts/PublicationLayout.astro"
 title: "idealab!"
 subtitle: "Field Study"
 description: "A field study on startup incubation, early internet culture, and the years when the web seemed capable of absorbing every part of daily life."
-pubDate: "2026-02-12"
+pubDate: "2000-02-10"
 heroImage: "/images/writing/field-study-idealab.png"
 heroAlt: "A glowing saltwater aquarium beside an early webcam setup surrounded by fragmented startup diagrams and orbital sketches."
 tags: ["idealab!", "Field Study", "Internet History"]
