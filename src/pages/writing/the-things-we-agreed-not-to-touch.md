@@ -2,7 +2,7 @@
 layout: "../../layouts/PublicationLayout.astro"
 title: "The Things We Agreed Not to Touch"
 subtitle: "Chernobyl was supposed to become untouchable."
-description: "On Chernobyl, containment, and the collapse of the boundaries modern civilization once assumed would hold."
+description: "Chernobyl, containment, and the collapse of the boundaries modern civilization once assumed would hold."
 pubDate: "2026-12-31"
 heroImage: "/images/writing/the-things-we-agreed-not-to-touch.png"
 heroAlt: "A stark abstract rendering of the Chernobyl containment structure beneath a pale overcast sky, with power lines fading into the distance."
