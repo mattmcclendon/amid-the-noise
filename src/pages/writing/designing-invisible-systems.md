@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Designing Invisible Systems"
 subtitle: "A career spent translating complexity into human judgment"
 description: "From social identity systems and ambient memory to semiconductor tooling and infrastructure topology, a reflection on three decades spent designing interfaces for systems most people never see."
-pubDate: "2026-11-12"
+pubDate: "2026-05-10"
 heroImage: "/images/writing/designing-invisible-systems.png"
 heroAlt: "Abstract network structures and system diagrams fading into layered interface fragments against a soft neutral background."
 tags: ["Systems Design", "Human-Computer Interaction", "Infrastructure", "Enterprise UX", "AI Systems"]
