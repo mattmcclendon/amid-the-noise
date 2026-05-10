@@ -44,7 +44,7 @@ How do humans make decisions inside systems too large, fast, or abstract to full
 That question quietly connected nearly every environment I worked in, even when the industries appeared completely unrelated.
 
 <figure class="artifact-figure artifact-figure--wide">
-  <img src="/images/writing/aol-quickview-modular-dashboar.png" alt="Early AOL QuickView dashboard showing modular widgets for weather, trends, maps, and personalized information surfaces." />
+  <img src="/images/writing/aol-quickview-modular-dashboard.png" alt="Early AOL QuickView dashboard showing modular widgets for weather, trends, maps, and personalized information surfaces." />
   <figcaption>Long before modern AI assistants, early dashboard systems experimented with ambient information architecture and passive cognitive support.</figcaption>
 </figure>
 
