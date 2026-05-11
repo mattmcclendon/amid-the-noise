@@ -107,12 +107,12 @@ const pageTitle = title === siteTitle ? siteTitle : `${title} | ${siteTitle}`;
             <p>© {new Date().getFullYear()} Matthew McClendon</p>
           </div>
 
-          <div class="footer-links">
+          <div class="footer-right">
             <a href="mailto:hello@amidthenoise.com">Contact</a>
-            <a href="/rss.xml">RSS Feed</a>
-            <a href="/privacy">Privacy Policy</a>
-            <a href="/legal">Terms of Use</a>
-            <a href="#top" class="back-to-top">Back to Top ↑</a>
+            <a href="/rss.xml" label="RSS">RSS</a>
+            <a href="/privacy" label="Privacy Policy">Privacy Policy</a>
+            <a href="/legal" label="Terms of Use">Terms of Use</a>
+            <a href="#top" class="back-to-top" label="Back to Top">Back to Top ↑</a>
           </div>
         </div>
       </div>
@@ -518,21 +518,19 @@ const pageTitle = title === siteTitle ? siteTitle : `${title} | ${siteTitle}`;
     color: var(--secondary);
   }
 
-  .footer-links {
+  .footer-right {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 44px;
+    gap: 22px;
     flex-wrap: wrap;
   }
 
-  .footer-links a {
+  .footer-right a {
     font-size: 0.9rem;
     color: var(--secondary);
     text-decoration: none;
   }
 
-  .footer-links a:hover {
+  .footer-right a:hover {
     color: var(--accent);
   }
 
@@ -610,9 +608,8 @@ const pageTitle = title === siteTitle ? siteTitle : `${title} | ${siteTitle}`;
       gap: 12px;
     }
 
-    .footer-links {
-      justify-content: flex-start;
-      gap: 14px 28px;
+    .footer-right {
+      gap: 16px;
     }
 
     h1 {
