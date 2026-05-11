@@ -19,7 +19,7 @@ I would look at them and feel outside of life.
 Priced out.  
 Left out.
 
-Like everyone else had crossed some invisible threshold into adulthood, stability, continuity, and I was still standing across the street looking through the glass.
+Like everyone else had crossed some invisible threshold into adulthood or stability while I was still standing across the street looking through the glass.
 
 I realized recently that this feeling has followed me for a long time.
 
@@ -29,21 +29,17 @@ I have felt it in San Francisco too. Driving through neighborhoods and wondering
 
 For a long time, I thought this feeling was about money.
 
-I do not think that anymore.
+Maybe part of it was.
 
-I think it was about legitimacy.
-
-About believing other people were somehow fully inside life while I remained adjacent to it.
+Still, I do not think money was the real thing I was looking at.
 
 The townhouse became a symbol.  
 The lobby became a symbol.  
 The neighborhood became a symbol.
 
-Evidence that everyone else had been admitted somewhere I had not.
+Not of wealth exactly.
 
-What I am starting to realize, though, is that other people’s lives are not my withheld inheritance.
-
-Their homes are not proof of my exclusion.
+More like proof that everyone else had figured something out before I did.
 
 Maybe the shift is not learning to stop wanting beautiful or stable things. Maybe the shift is finally understanding that my life is not happening somewhere else.
 
@@ -51,4 +47,6 @@ I do not think this realization is finished yet.
 
 Something about it still feels unresolved.
 
-Still, for the first time in a long time, I can feel myself standing a little closer to my own front door.
+I just know the townhouse was never really the point.
+
+I think I have been looking through windows for a very long time.
