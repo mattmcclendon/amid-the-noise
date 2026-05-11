@@ -23,6 +23,12 @@ const pageTitle = title === siteTitle ? siteTitle : `${title} | ${siteTitle}`;
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200..900&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Amid the Noise RSS Feed"
+      href="/rss.xml"
+    />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
     {description && <meta name="description" content={description} />}
@@ -102,9 +108,10 @@ const pageTitle = title === siteTitle ? siteTitle : `${title} | ${siteTitle}`;
           </div>
 
           <div class="footer-right">
-            <a href="mailto:hello@amidthenoise.com">Contact</a>
-            <a href="/privacy">Privacy Policy</a>
-            <a href="/legal">Terms of Use</a>
+            <a href="mailto:hello@amidthenoise.com">Contact</a> ·
+            <a href="/rss.xml">RSS feed</a> ·
+            <a href="/privacy">Privacy Policy</a> ·
+            <a href="/legal">Terms of Use</a> ·
             <a href="#top" class="back-to-top">Back to Top ↑</a>
           </div>
         </div>
