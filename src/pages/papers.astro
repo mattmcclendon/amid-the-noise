@@ -50,11 +50,11 @@ const papers = [
       {
         papers.map((paper) => (
           <article class="paper-card">
-            <div class="paper-meta">{paper.meta}</div>
-
             <h2>
               <a href={paper.href}>{paper.title}</a>
             </h2>
+
+            <p class="paper-meta">{paper.meta}</p>
 
             <p class="paper-subtitle">{paper.subtitle}</p>
 
@@ -72,7 +72,7 @@ const papers = [
   }
 
   .papers-intro {
-    margin-bottom: 3rem;
+    margin-bottom: 3.25rem;
   }
 
   .papers-intro h1 {
@@ -89,10 +89,11 @@ const papers = [
   .papers-list {
     display: flex;
     flex-direction: column;
+    border-top: 1px solid rgba(49, 64, 86, 0.18);
   }
 
   .paper-card {
-    padding: 1.75rem 0 2.25rem;
+    padding: 1.75rem 0 2.6rem;
     border-bottom: 1px solid rgba(49, 64, 86, 0.18);
   }
 
@@ -102,18 +103,15 @@ const papers = [
   }
 
   .paper-meta {
-    margin-bottom: 0.9rem;
-    font-family: var(--font-sans);
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--color-text);
+    margin: 0 0 0.8rem;
+    font-size: 0.82rem;
+    line-height: 1.4;
+    color: var(--color-text-muted);
   }
 
   .papers-page .paper-card h2 {
-    margin: 0 0 0.35rem;
-    font-size: clamp(1.1rem, 1.35vw, 1.25rem) !important;
+    margin: 0 0 0.25rem;
+    font-size: clamp(1.08rem, 1.25vw, 1.22rem) !important;
     line-height: 1.3;
     letter-spacing: normal !important;
     text-transform: none !important;
@@ -130,16 +128,17 @@ const papers = [
   }
 
   .paper-subtitle {
-    margin: 0 0 0.65rem;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    color: var(--color-text-muted);
+    margin: 0 0 0.7rem;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--color-text);
   }
 
   .paper-description {
     margin: 0;
     font-size: 0.95rem;
-    line-height: 1.6;
+    line-height: 1.65;
+    color: var(--color-text-muted);
     max-width: 68ch;
   }
 </style>
