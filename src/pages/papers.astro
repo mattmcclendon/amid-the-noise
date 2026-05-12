@@ -2,12 +2,137 @@
 import Layout from '../layouts/Layout.astro';
 
 const title = "Papers";
-const description = "Long-form research, white papers, and systems thinking from Amid the Noise.";
+const description = "Long-form research, white papers, and operational systems thinking from Amid the Noise.";
+
+const papers = [
+  {
+    title: "From Passive Monitoring to Self-Stabilizing Infrastructure",
+    subtitle:
+      "Reaction latency, persistent operational presence, and the future of machine response.",
+    href: "/papers/from-passive-monitoring-to-self-stabilizing-infrastructure.pdf",
+    meta: "PDF • 26 pages • May 2026",
+    description:
+      "A white paper exploring the evolution of infrastructure from passive monitoring systems toward actively self-stabilizing systems capable of bounded autonomous intervention.",
+  },
+  {
+    title: "Toward a Human-Centered Intelligence Infrastructure",
+    subtitle:
+      "Operational trust, escalation governance, and human judgment in AI-supported systems.",
+    href: "/writing/toward-a-human-centered-intelligence-infrastructure",
+    meta: "Essay • Foundational Paper",
+    description:
+      "A framework for designing intelligence systems that preserve human agency, accountability, and operational trust under pressure.",
+  },
+  {
+    title: "The Reciprocity Principle of Emerging Intelligence",
+    subtitle:
+      "Behavioral ethics, digital civility, and the human consequences of machine interaction.",
+    href: "/writing/the-reciprocity-principle-of-emerging-intelligence",
+    meta: "Essay • Foundational Paper",
+    description:
+      "An exploration of how human interaction with AI systems may reinforce broader social norms, empathy structures, and institutional behavior.",
+  },
+];
 ---
 
 <Layout title={title} description={description}>
-  <section class="section">
-    <h1>Papers</h1>
-    <p>A structured archive of longer-form work.</p>
+  <section class="section papers-page">
+    <div class="papers-intro">
+      <h1>Papers</h1>
+      <p>
+        Long-form research, operational frameworks, and systems-level thinking
+        exploring infrastructure, governance, artificial intelligence, and
+        human-centered design.
+      </p>
+    </div>
+
+    <div class="papers-list">
+      {
+        papers.map((paper) => (
+          <article class="paper-card">
+            <div class="paper-meta">{paper.meta}</div>
+
+            <h2>
+              <a href={paper.href}>{paper.title}</a>
+            </h2>
+
+            <p class="paper-subtitle">{paper.subtitle}</p>
+
+            <p class="paper-description">{paper.description}</p>
+          </article>
+        ))
+      }
+    </div>
   </section>
 </Layout>
+
+<style>
+  .papers-page {
+    max-width: 760px;
+  }
+
+  .papers-intro {
+    margin-bottom: 4rem;
+  }
+
+  .papers-intro h1 {
+    margin-bottom: 1rem;
+  }
+
+  .papers-intro p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+    max-width: 62ch;
+  }
+
+  .papers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .paper-card {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .paper-card:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .paper-meta {
+    margin-bottom: 0.85rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+
+  .paper-card h2 {
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.6rem, 2vw, 2rem);
+    line-height: 1.2;
+  }
+
+  .paper-card h2 a {
+    text-decoration: none;
+  }
+
+  .paper-card h2 a:hover {
+    text-decoration: underline;
+  }
+
+  .paper-subtitle {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+  }
+
+  .paper-description {
+    line-height: 1.8;
+    max-width: 65ch;
+  }
+</style>
