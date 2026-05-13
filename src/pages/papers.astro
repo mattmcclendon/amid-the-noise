@@ -90,6 +90,14 @@ const papers = [
         ))
       }
     </div>
+
+    <div class="papers-next-path">
+      <p class="papers-next-label">Next Path</p>
+      <p>
+        For applied examples of these ideas in product, infrastructure, and
+        decision-system work, explore the <a href="/learning">Field Studies</a>.
+      </p>
+    </div>
   </section>
 </Layout>
 
@@ -168,5 +176,34 @@ const papers = [
     line-height: 1.65;
     color: var(--color-text-muted);
     max-width: 68ch;
+  }
+
+  .papers-next-path {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(49, 64, 86, 0.18);
+    max-width: 68ch;
+  }
+
+  .papers-next-label {
+    margin: 0 0 0.65rem;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+
+  .papers-next-path p:last-child {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.68;
+    color: var(--color-text-muted);
+  }
+
+  .papers-next-path a {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
   }
 </style>
