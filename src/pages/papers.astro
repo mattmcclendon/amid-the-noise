@@ -93,9 +93,16 @@ const papers = [
 
     <div class="papers-next-path">
       <p class="papers-next-label">Next Path</p>
-      <p>
-        For applied examples of these ideas in product, infrastructure, and
-        decision-system work, explore the <a href="/learning">Field Studies</a>.
+
+      <p class="papers-next-copy">
+        These papers focus on governance, infrastructure, intelligence, and
+        systems-level theory. For applied examples of how those ideas translate
+        into operational environments, product systems, and institutional
+        decision-making, continue to the learning archive.
+      </p>
+
+      <p class="papers-next-link">
+        <a href="/learning">Explore Field Studies →</a>
       </p>
     </div>
   </section>
@@ -194,15 +201,26 @@ const papers = [
     color: var(--color-text-muted);
   }
 
-  .papers-next-path p:last-child {
-    margin: 0;
+  .papers-next-copy {
+    margin: 0 0 1rem;
     font-size: 0.98rem;
-    line-height: 1.68;
+    line-height: 1.72;
     color: var(--color-text-muted);
+    max-width: 66ch;
   }
 
-  .papers-next-path a {
+  .papers-next-link {
+    margin: 0;
+  }
+
+  .papers-next-link a {
+    font-size: 0.98rem;
+    font-weight: 600;
     color: var(--color-text);
+    text-decoration: none;
+  }
+
+  .papers-next-link a:hover {
     text-decoration: underline;
     text-underline-offset: 0.16em;
   }
