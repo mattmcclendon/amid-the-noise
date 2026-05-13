@@ -100,6 +100,4 @@ The paper examines:
 - adversarial risks,
 - and the emergence of AI as an autonomic layer for civilization.
 
-[Download the White Paper ↓](/papers/from-passive-monitoring-to-self-stabilizing-infrastructure.pdf)
-
-[Explore All Papers →](/papers)
+[Download the White Paper ↓](/papers/from-passive-monitoring-to-self-stabilizing-infrastructure.pdf) | [Explore All Papers →](/papers)
