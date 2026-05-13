@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "From Distance to Surface"
 subtitle: "Crossing from observation into use"
 description: "What looks inaccessible from a distance often becomes usable the moment you engage with it. The barrier is not complexity. It is distance."
-pubDate: "2026-05-19"
+pubDate: "2026-05-17"
 heroImage: "/images/writing/from-distance-to-surface.png"
 heroAlt: "Partially open door in a quiet, minimalist space with warm light spilling in, suggesting transition, access, and crossing a threshold"
 tags: ["Signal", "Systems Thinking", "UX"]

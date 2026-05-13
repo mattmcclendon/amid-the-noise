@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Real AI Race Is Diffusion"
 subtitle: "Why the future of AI may belong to the systems that quietly increase human capacity."
 description: "The most important divide in artificial intelligence may not be East versus West, but whether AI is treated as spectacle or infrastructure."
-pubDate: "2026-05-17"
+pubDate: "2026-05-19"
 heroImage: "/images/writing/the-real-ai-race-is-diffusion.png"
 heroAlt: "Abstract interconnected systems and infrastructure lines suggesting distributed intelligence across civic and industrial networks."
 tags: ["Artificial Intelligence", "AI Governance", "Civic Systems"]
