@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Limbic Hit Job"
 subtitle: "Interrupting the jump condition"
 description: "Frustration can trigger a rapid state shift that feels like relief because it is familiar. This piece maps the pattern and shows how to interrupt it before it becomes direction."
-pubDate: "2026-05-21"
+pubDate: "2026-05-24"
 heroImage: "/images/writing/the-limbic-hit-job.png"
 heroAlt: "split-state image showing a man at a desk divided between warm nostalgic light and cool present tension"
 tags: ["Signal", "Recovery", "Reflection"]
