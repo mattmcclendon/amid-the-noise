@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "When Decisions Move Faster Than Responsibility"
 subtitle: "AI, blockchain, and the part of the system that won’t disappear"
 description: "AI is compressing decision-making. Blockchain is compressing settlement. What remains is the layer that absorbs failure when both are wrong."
-pubDate: "2026-09-10"
+pubDate: "2026-08-09"
 heroImage: "/images/writing/when-decisions-move-faster-than-responsibility.png"
 heroAlt: "Abstract system diagram showing two opposing forces compressing toward a narrow center point, representing decision acceleration and settlement finality"
 tags: ["Decision Systems", "AI", "Finance"]

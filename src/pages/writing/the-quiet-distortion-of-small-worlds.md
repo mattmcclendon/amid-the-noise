@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Quiet Distortion of Small Worlds"
 subtitle: "When contact thins, thinking narrows"
 description: "When most human contact lives at a different altitude, something subtle begins to shift. Not isolation, but distortion."
-pubDate: "2026-06-30"
+pubDate: "2026-06-21"
 heroImage: "/images/writing/the-quiet-distortion-of-small-worlds.png"
 heroAlt: "A softly lit, minimalist living space with a wooden table in the foreground holding a notebook and coffee cup, while scattered children's drawings and toys sit in the background, suggesting presence without visible people."
 tags: ["Signal", "Reflection", "Civic Systems"]

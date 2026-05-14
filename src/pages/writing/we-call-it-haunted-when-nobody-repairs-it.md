@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "We Call It Haunted When Nobody Repairs It"
 subtitle: "Places remember what they were built to survive"
 description: "A reflection on abandoned infrastructure, inherited instability, and the systems that continue shaping behavior long after their original purpose has been forgotten."
-pubDate: "2026-12-03"
+pubDate: "2026-10-01"
 heroImage: "/images/writing/we-call-it-haunted-when-nobody-repairs-it.png"
 heroAlt: "An aging industrial corridor with fractured geometry and soft atmospheric lighting against an ivory-toned background"
 tags: ["Civic Systems", "Infrastructure", "Systems Thinking"]

@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Hotel and the Hard Reset"
 subtitle: "What A Gentleman in Moscow taught me about surviving paradigm change"
 description: "A reflection on identity, adaptation, and the strange discipline of remaining yourself after the architecture of your life changes."
-pubDate: "2026-11-12"
+pubDate: "2026-09-17"
 heroImage: "/images/writing/the-hotel-and-the-hard-reset.png"
 heroAlt: "A quiet hotel corridor overlooking a distant winter Moscow skyline"
 tags: ["Reflection", "Identity", "Systems"]

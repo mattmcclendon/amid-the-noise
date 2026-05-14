@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Las Vegas Is a Living Experiment"
 subtitle: "A decision system in plain sight"
 description: "Las Vegas reveals what most systems hide. It does not decide for you. It designs the conditions where your decisions become predictable."
-pubDate: "2026-08-27"
+pubDate: "2026-07-30"
 heroImage: "/images/writing/las-vegas-living-experiment.png"
 heroAlt: "A casino floor glowing with slot machines and patterned carpet, stretching into the distance under artificial light"
 tags: ["Decision Systems", "Signal", "Behavior"]

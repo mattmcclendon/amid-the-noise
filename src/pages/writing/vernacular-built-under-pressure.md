@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "A Vernacular Built Under Pressure"
 subtitle: "What my work repeats, whether I intend it or not"
 description: "Across systems, essays, and case studies, the same words keep resurfacing. Not as style, but as habit. This is the vernacular that holds when decisions carry consequence."
-pubDate: "2026-09-03"
+pubDate: "2026-08-04"
 heroImage: "/images/writing/vernacular-built-under-pressure.png"
 heroAlt: "A restrained composition of clustered words arranged in subtle groupings, suggesting structure and repetition emerging from a quiet field"
 tags: ["Signal", "Systems", "Writing"]

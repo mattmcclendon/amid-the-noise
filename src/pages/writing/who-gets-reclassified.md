@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Who Gets Reclassified"
 subtitle: "How systems actually change once they harden"
 description: "Hardened systems don’t soften. They change when pressure forces them to redefine who and what they include."
-pubDate: "2026-10-07"
+pubDate: "2026-08-25"
 heroImage: "/images/writing/who-gets-reclassified.png"
 heroAlt: "Orbital telemetry arcs surrounding Earth, with some paths fading or breaking off"
 tags: ["Systems", "Signal", "Civic Systems"]

@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Elysium Wasn’t Broken"
 subtitle: "What systems choose when pressure shows up"
 description: "A system can be perfectly understandable and still be fundamentally unjust. The real question is what it protects when it comes under pressure."
-pubDate: "2026-10-03"
+pubDate: "2026-08-23"
 heroImage: "/images/writing/elysium-wasnt-broken.png"
 heroAlt: "A pristine orbital habitat suspended above a dense, deteriorating city below"
 tags: ["Systems", "Signal", "Civic Systems"]

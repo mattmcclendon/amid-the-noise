@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Reclaiming Signal"
 subtitle: "Holding uncertainty past the point of comfort"
 description: "You don’t escape the system. You learn how to move within it without surrendering your judgment, even when clarity arrives too easily."
-pubDate: "2026-07-09"
+pubDate: "2026-06-28"
 heroImage: "/images/writing/reclaiming-signal.png"
 heroAlt: "A narrow maritime channel with several ships aligned in formation while one vessel subtly diverges from the path, suggesting quiet deviation within constraint."
 tags: ["Signal", "Systems Thinking", "Decision Design"]

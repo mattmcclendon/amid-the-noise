@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Future Had Rounded Corners"
 subtitle: "Michael and Denise Okuda imagined interfaces that felt less like machines and more like trust."
 description: "LCARS did more than define the visual language of Star Trek. It quietly reshaped how generations of designers imagined the relationship between people and technology."
-pubDate: "2027-01-19"
+pubDate: "2026-11-01"
 heroImage: "/images/writing/the-future-had-rounded-corners.png"
 heroAlt: "Abstract LCARS-inspired interface panels in soft tones against a warm minimalist background."
 tags: ["User Experience", "Interface Design", "Star Trek"]

@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Betty White and I"
 subtitle: "What the ocean revealed beneath the machinery of fame."
 description: "A reflection on Betty White, the Monterey Bay Aquarium, and the strange intimacy of discovering shared values beneath public identity."
-pubDate: "2026-10-15"
+pubDate: "2026-08-30"
 heroImage: "/images/writing/betty-white-and-i.png"
 heroAlt: "Sea otters floating in calm kelp forest water beneath shafts of Pacific light"
 tags: ["Reflection", "Ocean", "Signal"]

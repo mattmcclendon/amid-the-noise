@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Conflicting Clarity"
 subtitle: "Why teams struggle to align on what their MVP is really for."
 description: "Most teams do not struggle to define an MVP technically. They struggle to align on what uncertainty the MVP is supposed to reduce."
-pubDate: "2026-11-05"
+pubDate: "2026-09-13"
 heroImage: "/images/writing/conflicting-clarity.png"
 heroAlt: "A wall covered in colorful sticky notes arranged into collaborative affinity diagrams"
 tags: ["Product Strategy", "Systems Thinking", "AI"]

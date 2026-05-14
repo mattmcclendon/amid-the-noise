@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Counting Peace, Miscounting Power"
 subtitle: "What the six-year statistic actually measures"
 description: "The claim that the United States has only known a handful of years of peace depends less on history than on how peace is defined. The number measures activity, not character."
-pubDate: "2026-06-16"
+pubDate: "2026-06-11"
 heroImage: "/images/writing/counting-peace-miscounting-power.png"
 heroAlt: "A minimalist composition of a world map with faint concentric signal lines radiating from the United States, suggesting global entanglement and influence"
 tags: ["Civic Systems", "Power", "History"]

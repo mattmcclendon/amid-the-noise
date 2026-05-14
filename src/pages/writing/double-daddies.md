@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Double Daddies"
 subtitle: "When a cartoon removes a question before it forms"
 description: "A small moment in our home. A children’s show, two dads, and the quiet disappearance of a question that never needed to be asked."
-pubDate: "2026-09-17"
+pubDate: "2026-08-13"
 heroImage: "/images/writing/double-daddies.png"
 heroAlt: "Abstract illustration of a simple living room scene with two adult silhouettes and a child, rendered in a soft, minimal palette with subtle television glow"
 tags: ["Signal", "Systems", "Reflection"]

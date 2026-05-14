@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "What Compression Took From Us"
 subtitle: "When narrative reduces reality"
 description: "Narrative compression flattens complexity into labels. What remains is easier to carry, but further from truth."
-pubDate: "2026-07-16"
+pubDate: "2026-07-02"
 heroImage: "/images/writing/what-compression-took-from-us.png"
 heroAlt: "A minimal, off-white room with a single door slightly ajar, light spilling into an otherwise empty space."
 tags: ["Signal", "Narrative", "Perception"]

@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Poll Site Is a Decision System"
 subtitle: "Resolve uncertainty without denying participation"
 description: "Inside a Santa Clara County vote center, elections operate as human-governed decision systems that absorb uncertainty, preserve participation, and produce auditable outcomes."
-pubDate: "2026-07-21"
+pubDate: "2026-07-05"
 heroImage: "/images/writing/the-poll-site-is-a-decision-system.png"
 heroAlt: "Abstract loop of paper forms circulating through a closed system on a soft off-white background"
 tags: ["Civic Systems", "Signal", "Systems Thinking"]

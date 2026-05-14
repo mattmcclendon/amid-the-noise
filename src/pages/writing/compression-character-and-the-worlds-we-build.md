@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Compression, Character, and the Worlds We Build"
 subtitle: "Signal through omission"
 description: "A persona is not a mask. It is a compression algorithm. This piece explores how omission, structure, and pressure reveal truth across characters, systems, and institutions."
-pubDate: "2026-06-11"
+pubDate: "2026-06-09"
 heroImage: "/images/writing/compression-character-and-the-worlds-we-build.png"
 heroAlt: "Minimalist writing desk in soft cream tones with an open journal facing a circular window that frames a distant, futuristic city, suggesting reflection, identity, and imagined worlds."
 tags: ["Signal", "Systems Thinking", "Creative Process"]

@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "History Prefers Clean Narratives"
 subtitle: "What we lose when people become symbols."
 description: "Public memory compresses people into simple stories. Reality rarely cooperates."
-pubDate: "2026-10-20"
+pubDate: "2026-09-01"
 heroImage: "/images/writing/history-prefers-clean-narratives.png"
 heroAlt: "Fragmented black and white portraits dissolving into geometric shapes"
 tags: ["Signal", "Systems", "Reflection"]

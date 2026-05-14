@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Luggage Never Left"
 subtitle: "I spent twenty years preparing for a life that addiction quietly interrupted."
 description: "A reflection on aspiration, relapse, systems failure, and the strange grief of losing the objects tied to a future you thought was still approaching."
-pubDate: "2027-02-09"
+pubDate: "2026-11-15"
 heroImage: "/images/writing/the-luggage-never-left.png"
 heroAlt: "Minimal stainless steel luggage sitting motionless in soft light against a pale background."
 tags: ["Addiction", "Recovery", "Systems Failure"]

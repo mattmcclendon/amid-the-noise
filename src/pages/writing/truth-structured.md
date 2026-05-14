@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Truth, Structured"
 subtitle: "How systems shape what becomes visible"
 description: "Truth does not arrive raw. It is shaped upstream by systems that select, order, and frame information before it reaches us, influencing interpretation before evaluation begins."
-pubDate: "2026-07-02"
+pubDate: "2026-06-23"
 heroImage: "/images/writing/truth-structured.png"
 heroAlt: "A wide, minimalist ocean scene with cargo ships slightly misaligned from faint route lines, suggesting a subtle divergence between mapped structure and lived reality."
 tags: ["Signal", "Systems Thinking", "Civic Systems"]

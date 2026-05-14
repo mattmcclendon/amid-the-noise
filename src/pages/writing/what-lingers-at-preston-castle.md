@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "What Lingers at Preston Castle"
 subtitle: "When systems leave a trace"
 description: "Preston Castle reveals how systems do not simply end. They leave residue in memory, behavior, and place, long after their formal function disappears."
-pubDate: "2026-06-23"
+pubDate: "2026-06-16"
 heroImage: "/images/writing/what-lingers-at-preston-castle.png"
 heroAlt: "Preston Castle in Ione, California, standing in quiet isolation under a pale sky, its stone facade weathered by time"
 tags: ["Signal", "Civic Systems", "Reflection"]

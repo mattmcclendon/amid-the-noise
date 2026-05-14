@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Designing Trust Inside Modern Data Infrastructure"
 subtitle: "How semantic systems and cognitive legibility transform data platforms into decision environments"
 description: "Across healthcare, financial services, and enterprise infrastructure, the same pattern kept emerging: modern data systems did not fail at storage or compute. They failed at interpretation."
-pubDate: "2026-11-10"
+pubDate: "2026-09-15"
 heroImage: "/images/writing/designing-trust-inside-modern-data-infrastructure.png"
 heroAlt: "Abstract layered data structures resolving into clear pathways"
 tags: ["FIELD STUDY", "DECISION SYSTEMS", "ENTERPRISE SYSTEMS"]

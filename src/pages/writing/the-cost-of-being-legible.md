@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Cost of Being Legible"
 subtitle: "Clarity is not free"
 description: "Clarity makes systems work. It also extracts something from the people inside them. Not everyone pays that cost equally."
-pubDate: "2026-10-01"
+pubDate: "2026-08-20"
 heroImage: "/images/writing/the-cost-of-being-legible.png"
 heroAlt: "abstract forms resolving into structured lines on a soft neutral background"
 tags: ["Civic Systems", "Signal", "Design"]

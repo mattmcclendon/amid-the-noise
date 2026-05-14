@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Amityville and the Architecture of Missing Information"
 subtitle: "Why the mind completes what systems leave unfinished"
 description: "At Amityville, people don’t just encounter a place. They encounter a narrative that refuses to resolve. The result reveals something more important than whether ghosts exist."
-pubDate: "2026-08-25"
+pubDate: "2026-07-28"
 heroImage: "/images/writing/amityville-architecture-of-missing-information.png"
 heroAlt: "A waterfront house at dusk on a narrow lot, with its backyard falling directly into the water, suggesting an abrupt and unresolved boundary"
 tags: ["AI", "Signal", "Decision Systems"]

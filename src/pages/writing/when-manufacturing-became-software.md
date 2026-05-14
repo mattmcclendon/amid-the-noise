@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "When Manufacturing Became Software"
 subtitle: "A 2012 keynote, additive manufacturing, and the moment production joined the network."
 description: "A reflection on Autodesk, early 3D printing, and the quiet transition from industrial manufacturing to computational production."
-pubDate: "2027-01-12"
+pubDate: "2026-10-27"
 heroImage: "/images/writing/when-manufacturing-became-software.png"
 heroAlt: "Abstract industrial geometry dissolving into computational wireframes."
 tags: ["Manufacturing", "Technology", "Systems Thinking"]

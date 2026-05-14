@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Outside Looking In"
 subtitle: "Legitimacy, belonging, and the quiet feeling of standing outside your own life."
 description: "A reflection on addiction, exclusion, and the quiet realization that other people’s lives are not proof of your absence from your own."
-pubDate: "2027-01-28"
+pubDate: "2026-11-08"
 heroImage: "/images/writing/outside-looking-in.png"
 heroAlt: "Abstract residential windows and soft evening light suggesting distance, longing, and quiet observation."
 tags: ["Recovery", "Belonging", "Identity"]

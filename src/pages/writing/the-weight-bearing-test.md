@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Weight-Bearing Test"
 subtitle: "Sometimes survival reveals who was actually carrying the structure."
 description: "A reflection on survival, asymmetry, and the painful realization that presence and partnership are not always the same thing."
-pubDate: "2027-02-02"
+pubDate: "2026-11-10"
 heroImage: "/images/writing/the-weight-bearing-test.png"
 heroAlt: "Abstract structural forms under tension against a pale background."
 tags: ["Recovery", "Relationships", "Survival"]

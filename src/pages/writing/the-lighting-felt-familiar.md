@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Lighting Felt Familiar"
 subtitle: "Why certain experiences feel more like recognition than entertainment"
 description: "Some performances do more than entertain. They reveal the hidden structures through which certain people experience sound, emotion, and the world itself."
-pubDate: "2026-11-24"
+pubDate: "2026-09-24"
 heroImage: "/images/writing/the-lighting-felt-familiar.png"
 heroAlt: "Abstract concert lighting dissolving into layered geometric patterns"
 tags: ["Signal", "Systems Thinking", "Reflection"]

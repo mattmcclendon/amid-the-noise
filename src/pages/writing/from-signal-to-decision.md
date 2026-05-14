@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "From Signal to Decision"
 subtitle: "Carrying uncertainty to the point of action"
 description: "Better decisions do not come from better answers alone. They come from systems that preserve uncertainty long enough for it to matter."
-pubDate: "2026-07-14"
+pubDate: "2026-06-30"
 heroImage: "/images/writing/from-signal-to-decision.png"
 heroAlt: "A minimalist abstract surface with multiple structured paths, subtle interruptions, and dotted alternative routes, suggesting deliberate decision points rather than a single predetermined outcome."
 tags: ["Signal", "Systems Thinking", "Decision Design"]

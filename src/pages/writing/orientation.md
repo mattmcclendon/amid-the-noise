@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Orientation"
 subtitle: "Why the Zia sun continues to feel timeless"
 description: "A reflection on the Zia sun symbol, sacred geometry, and why certain forms continue to anchor human meaning across generations."
-pubDate: "2026-12-15"
+pubDate: "2026-10-08"
 heroImage: "/images/writing/orientation.png"
 heroAlt: "A minimal Zia sun symbol rendered over textured desert tones and soft geometric field lines."
 tags: ["Design", "Symbolism", "Culture"]

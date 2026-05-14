@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Designing Systems That Learn: A Practitioner’s Update"
 subtitle: "Revisiting the UX–Data Science partnership in the age of continuous learning systems"
 description: "A refreshed perspective on feedback loops, machine learning, and the evolving partnership between designers and data scientists."
-pubDate: "2026-07-30"
+pubDate: "2026-07-12"
 heroImage: "/images/writing/designing-systems-that-learn.png"
 heroAlt: "Abstract loop of data, algorithm, interface, and action forming a continuous system"
 tags: ["Signal", "AI Systems", "UX"]

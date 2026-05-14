@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Exposure Rewrites Normal"
 subtitle: "The world expands quietly, then suddenly your old assumptions no longer fit inside it."
 description: "What travel, systems, and exposure teach us about the difference between familiarity and universality."
-pubDate: "2027-02-11"
+pubDate: "2026-11-17"
 heroImage: "/images/writing/exposure-rewrites-normal.png"
 heroAlt: "Abstract international transit board and layered time systems in a minimalist editorial composition."
 tags: ["Culture", "Perspective", "Travel"]

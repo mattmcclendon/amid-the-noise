@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Before I Had the Language"
 subtitle: "On growing up inside systems"
 description: "Long before I designed systems, I was shaped by them. A reflection on early exposure to structured environments and how they quietly teach us to see."
-pubDate: "2026-08-13"
+pubDate: "2026-07-21"
 heroImage: "/images/writing/before-i-had-the-language.png"
 heroAlt: "A quiet, symmetrical interior with light falling across a structured space, suggesting order and continuity without revealing its purpose"
 tags: ["Signal", "Systems", "Reflection"]

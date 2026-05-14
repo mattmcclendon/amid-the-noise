@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Future Still Needs Real Tomatoes"
 subtitle: "What modern Star Trek understands about abundance, convenience, and staying human."
 description: "Kurtzman-era Star Trek may be messier than earlier Trek, but beneath it is a deeply contemporary question: what parts of being human are we willing to trade away for stability, optimization, and abundance?"
-pubDate: "2027-02-04"
+pubDate: "2026-11-12"
 heroImage: "/images/writing/the-future-still-needs-real-tomatoes.png"
 heroAlt: "An abstract futuristic still life featuring a single tomato against a minimalist Federation-inspired backdrop."
 tags: ["Star Trek", "Technology", "Humanity"]

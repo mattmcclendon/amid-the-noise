@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Version That Stayed"
 subtitle: "Some identities are assigned. Others survive."
 description: "At a certain point, survival stops looking like reinvention and starts looking like recognition."
-pubDate: "2026-10-13"
+pubDate: "2026-08-27"
 heroImage: "/images/writing/the-version-that-stayed.png"
 heroAlt: "An abstract autumn corridor fading into warm light with long architectural shadows."
 tags: ["Identity", "Signal", "Reflection"]

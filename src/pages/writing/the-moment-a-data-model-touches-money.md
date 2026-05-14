@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Moment a Data Model Touches Money"
 subtitle: "Designing decisions when there is no neutral outcome"
 description: "A transaction is flagged. The model assigns risk. The system has to decide whether money moves or stops. This piece shows how to design that decision so it holds under real-world conditions."
-pubDate: "2026-07-28"
+pubDate: "2026-07-09"
 heroImage: "/images/writing/the-moment-a-data-model-touches-money.png"
 heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered at dawn"
 tags: ["Signal", "Systems Thinking", "AI Governance"]

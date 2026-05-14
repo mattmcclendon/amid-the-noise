@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Avenue Q, Four Times"
 subtitle: "What changes when the system stays the same but the room does not"
 description: "I saw the same show in four cities. The script never changed. Everything else did. What I learned about signal, scale, and why experience fails."
-pubDate: "2026-09-01"
+pubDate: "2026-08-02"
 heroImage: "/images/writing/avenue-q-four-times.png"
 heroAlt: "A minimalist sequence of theater interiors shifting from large and ornate to small and intimate, rendered in a soft neutral palette"
 tags: ["Signal", "Design", "Systems"]

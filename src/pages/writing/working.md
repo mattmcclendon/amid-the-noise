@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Working"
 subtitle: "How I learned to be read to again"
 description: "A small shift in posture turned audiobooks from something I resisted into something that stayed."
-pubDate: "2026-09-15"
+pubDate: "2026-08-11"
 heroImage: "/images/writing/working.png"
 heroAlt: "Abstract highway lines dissolving into soft signal waves, suggesting a commute turning into narrative flow"
 tags: ["Signal", "Behavior", "Reflection"]

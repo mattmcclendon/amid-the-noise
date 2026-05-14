@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Exit Wounds"
 subtitle: "Written from the trailing edge"
 description: "Exit Wounds was written in the early days of recovery, while still in rehab and at the trailing edge of housing instability. It became a way to express the pain of a toxic relationship with both a person and a drug."
-pubDate: "2026-09-08"
+pubDate: "2026-08-06"
 heroImage: "/images/writing/exit-wounds.png"
 heroAlt: "A minimal light-toned composition with a faint trailing line cutting across the frame, suggesting movement away from impact"
 tags: ["Recovery", "Signal", "Writing"]

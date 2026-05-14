@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "What the Abstract Remembered"
 subtitle: "A house in Altus and the systems buried beneath ordinary ground"
 description: "A house in southwest Oklahoma reveals how governance survives long after the people who wrote it are gone."
-pubDate: "2026-12-10"
+pubDate: "2026-10-06"
 heroImage: "/images/writing/what-the-abstract-remembered.png"
 heroAlt: "An aged territorial land abstract layered over a faded Oklahoma street grid and distant grain elevators beneath a storm-dark sky."
 tags: ["Governance", "Infrastructure", "Oklahoma"]

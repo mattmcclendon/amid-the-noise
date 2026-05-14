@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Paper or Plastic"
 subtitle: "How Safeway forgot the dignity of being a grocer"
 description: "A reflection on executive identity drift, operational reality, and what happens when institutions become embarrassed by their own purpose."
-pubDate: "2026-11-17"
+pubDate: "2026-09-20"
 heroImage: "/images/writing/paper-or-plastic.png"
 heroAlt: "An aging grocery store fading into modern corporate office buildings"
 tags: ["Systems", "Leadership", "Signal"]

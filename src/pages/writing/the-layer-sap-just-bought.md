@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Layer SAP Just Bought"
 subtitle: "Where data becomes decision"
 description: "SAP’s acquisition of Dremio signals a shift toward systems that govern how data is interpreted and acted on."
-pubDate: "2026-09-24"
+pubDate: "2026-08-18"
 heroImage: "/images/writing/the-layer-sap-just-bought.png"
 heroAlt: "Abstract diagram of data flowing through a system with lineage paths and decision points highlighted"
 tags: ["Decision Systems", "Signal", "Systems"]

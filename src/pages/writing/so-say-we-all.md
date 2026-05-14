@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "So Say We All"
 subtitle: "Scarcity is the ultimate teacher."
 description: "Battlestar Galactica was never really about space warfare. It was about what happens when replacement disappears and civilization survives on maintenance, memory, and trust."
-pubDate: "2026-12-22"
+pubDate: "2026-10-13"
 heroImage: "/images/writing/so-say-we-all.png"
 heroAlt: "A worn spacecraft drifting through a pale fractured starfield as scattered lights resemble the last remnants of civilization."
 tags: ["Civilization", "Scarcity", "Signal"]

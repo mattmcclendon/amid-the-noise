@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Designing Under Constraint at Autodesk"
 subtitle: "Aligning systems and decisions without authority"
 description: "A real-world case study from Autodesk showing how fragmented legacy systems were audited, aligned, and unified into a cloud licensing platform through influence, transparency, and system-level design—an approach that continues to hold across modern enterprise and AI systems."
-pubDate: "2026-08-18"
+pubDate: "2026-07-23"
 heroImage: "/images/writing/designing-under-constraint-autodesk.png"
 heroAlt: "Fragmented systems converging into a unified structure, representing alignment, integration, and decision flow"
 tags: ["Case Study", "Decision Systems", "Enterprise Systems"]

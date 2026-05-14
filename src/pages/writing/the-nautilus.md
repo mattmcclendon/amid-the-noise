@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Nautilus"
 subtitle: "Growth is not escape. It is structural memory."
 description: "The nautilus does not abandon its previous chambers. It survives by building forward."
-pubDate: "2027-01-07"
+pubDate: "2026-10-25"
 heroImage: "/images/writing/the-nautilus.png"
 heroAlt: "An abstract nautilus shell rendered in soft geometric lines against a pale background."
 tags: ["Nature", "Systems Thinking", "Growth"]

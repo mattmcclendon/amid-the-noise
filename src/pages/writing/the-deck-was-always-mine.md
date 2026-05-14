@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Deck Was Always Mine"
 subtitle: "Ownership without revision"
 description: "Recovery does not rewrite the past. It clarifies it. A reflection on voice, agency, and the reality that we are shaped by what we live through, not what we avoid."
-pubDate: "2026-06-18"
+pubDate: "2026-06-14"
 heroImage: "/images/writing/the-deck-was-always-mine.png"
 heroAlt: "A minimal, text-free composition of a slightly imperfect stack of playing cards on a warm off-white surface, softly lit with shallow depth of field."
 tags: ["Recovery", "Agency", "Voice"]

@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "What Gets Found"
 subtitle: "How small features shape discovery"
 description: "Systems don’t need to tell you what to choose. They only need to make some things easier to find than others."
-pubDate: "2026-08-06"
+pubDate: "2026-07-16"
 heroImage: "/images/writing/what-gets-found.png"
 heroAlt: "Minimal composition with structured space and subtle archival texture"
 tags: ["signal", "decision systems", "filtering"]

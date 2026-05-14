@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Infrastructure Is Not Dependency"
 subtitle: "Redundancy as independence"
 description: "Independence is not the absence of systems. It is the presence of enough systems that no single one can take your movement away."
-pubDate: "2026-07-23"
+pubDate: "2026-07-07"
 heroImage: "/images/writing/infrastructure-is-not-dependency.png"
 heroAlt: "Quiet electric train interior with soft daylight and empty seats"
 tags: ["Civic Systems", "Signal", "Agency"]

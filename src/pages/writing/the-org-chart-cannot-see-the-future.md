@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Org Chart Cannot See the Future"
 subtitle: "Why the best hires often do not fit the existing org chart."
 description: "Modern hiring systems are optimized for known problems, stable categories, and predefined roles. Innovation rarely works that way."
-pubDate: "2027-01-26"
+pubDate: "2026-11-05"
 heroImage: "/images/writing/the-org-chart-cannot-see-the-future.png"
 heroAlt: "Abstract organizational chart dissolving into interconnected lines beyond predefined boxes."
 tags: ["Hiring", "Systems Thinking", "Organizational Design"]

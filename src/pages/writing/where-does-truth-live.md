@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Where Does Truth Live?"
 subtitle: "Entry points without convergence"
 description: "When information is shaped at the point of entry, understanding fragments. This piece examines how framing without convergence leaves readers informed, but unanchored."
-pubDate: "2026-06-28"
+pubDate: "2026-06-18"
 heroImage: "/images/writing/where-does-truth-live.png"
 heroAlt: "A minimal, softly lit scene of overlapping glass panels"
 tags: ["Signal", "Civic Systems", "Perception"]

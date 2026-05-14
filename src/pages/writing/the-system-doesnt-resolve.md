@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The System Doesn’t Resolve"
 subtitle: "What St. Elsewhere understood about decision systems that most software still ignores"
 description: "A childhood memory of unresolved television reveals a deeper truth about how real systems behave: decisions persist, consequences accumulate, and nothing cleanly resets."
-pubDate: "2026-09-22"
+pubDate: "2026-08-16"
 heroImage: "/images/writing/the-system-doesnt-resolve.png"
 heroAlt: "A hospital corridor fading into darkness with faint lines tracing paths that continue beyond view"
 tags: ["Decision Systems", "Signal", "Systems"]

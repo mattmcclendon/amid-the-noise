@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Before the Tool Exists"
 subtitle: "What children taught us about interaction design before they learned interfaces."
 description: "A field study from Evernote on how learned behavior shapes interface expectations, and why familiarity is often mistaken for clarity."
-pubDate: "2027-01-21"
+pubDate: "2026-11-03"
 heroImage: "/images/writing/before-the-tool-exists.png"
 heroAlt: "Abstract paint gestures spreading across a minimal surface without visible interface controls."
 tags: ["Design", "UX", "Interaction Design"]

@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Eye of the Storm"
 subtitle: "What becomes visible after sustained observation"
 description: "After 200 posts, the archive stopped feeling like output and started feeling like evidence."
-pubDate: "2026-11-26"
+pubDate: "2026-09-27"
 heroImage: "/images/writing/the-eye-of-the-storm.png"
 heroAlt: "An abstract storm system with a calm center emerging through layered signal patterns"
 tags: ["Signal", "Reflection", "Systems"]

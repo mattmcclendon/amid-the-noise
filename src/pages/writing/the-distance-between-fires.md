@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Distance Between Fires"
 subtitle: "Humanity has always survived by finding the next light."
 description: "From ancient signal fires to truck stops at midnight, civilization has always depended on small illuminated places that tell people they are not alone."
-pubDate: "2026-12-24"
+pubDate: "2026-10-15"
 heroImage: "/images/writing/the-distance-between-fires.png"
 heroAlt: "A distant roadside building glowing beside a winding winter road beneath a vast quiet sky."
 tags: ["Signal", "Trust", "Civilization"]

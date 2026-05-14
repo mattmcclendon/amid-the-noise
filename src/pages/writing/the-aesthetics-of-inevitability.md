@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Aesthetics of Inevitability"
 subtitle: "What Bad Blood revealed about power, pride, and manufactured significance"
 description: "Theranos was not simply a fraud. It was a story about what happens when narrative gravity becomes stronger than verification."
-pubDate: "2026-12-01"
+pubDate: "2026-09-29"
 heroImage: "/images/writing/the-aesthetics-of-inevitability.png"
 heroAlt: "An abstract editorial composition of fragmented laboratory systems and staged corporate symbolism"
 tags: ["Signal", "Systems", "Leadership"]

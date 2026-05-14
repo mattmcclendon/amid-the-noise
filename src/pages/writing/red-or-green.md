@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Red or Green"
 subtitle: "Some places are too culturally alive to become interchangeable."
 description: "A reflection on New Mexico, civic identity, and the rare places that still resist flattening."
-pubDate: "2026-12-17"
+pubDate: "2026-10-11"
 heroImage: "/images/writing/red-or-green.png"
 heroAlt: "Adobe patios, chile ristras, pottery, and high desert light beneath deep blue New Mexico skies."
 tags: ["Culture", "New Mexico", "Place"]

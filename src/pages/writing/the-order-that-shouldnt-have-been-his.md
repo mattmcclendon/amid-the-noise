@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Order That Shouldn’t Have Been His"
 subtitle: "Authority, Identity, and the Gap Between Command and Control"
 description: "When institutions become too dependent on symbolic figures, operational legitimacy begins to dissolve around them."
-pubDate: "2026-11-19"
+pubDate: "2026-09-22"
 heroImage: "/images/writing/the-order-that-shouldnt-have-been-his.png"
 heroAlt: "A portrait of Jean-Luc Picard beside the silhouette of the Stargazer in an abstract editorial composition"
 tags: ["Systems", "Signal", "Governance"]
