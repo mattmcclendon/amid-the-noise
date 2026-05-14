@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Hints of Poverty"
 subtitle: "The most dangerous borders are often drawn around dignity."
 description: "In 1936, California deployed police to stop poor Americans from crossing state lines. The logic behind that moment never fully disappeared."
-pubDate: "2026-10-22"
+pubDate: "2027-01-05"
 heroImage: "/images/writing/hints-of-poverty.png"
 heroAlt: "Abstract checkpoint imagery inspired by Depression-era California border enforcement, with rail lines, faded inspection marks, and soft geographic contours."
 tags: ["Poverty", "Civic Systems", "California"]

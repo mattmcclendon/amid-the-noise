@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Future as Projection"
 subtitle: "Science fiction often reveals what societies fear becoming."
 description: "From Weyland-Yutani to cyberpunk megacorporations, science fiction reflects the anxieties of the cultures creating it."
-pubDate: "2026-11-19"
+pubDate: "2027-02-16"
 heroImage: "/images/writing/the-future-as-projection.png"
 heroAlt: "Abstract futuristic structures dissolving into layered institutional forms."
 tags: ["science-fiction", "systems", "culture"]

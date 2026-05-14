@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Costume That Ate the Person"
 subtitle: "The hiding place becomes the person"
 description: "Halloween used to end at midnight. Modern life increasingly rewards the performance that survives daylight."
-pubDate: "2026-09-08"
+pubDate: "2026-10-29"
 heroImage: "/images/writing/the-costume-that-ate-the-person.png"
 heroAlt: "An abandoned retail storefront glowing under fluorescent lights at night"
 tags: ["Identity", "Signal", "Systems"]
