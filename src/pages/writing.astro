@@ -145,8 +145,8 @@ const themeGroups = [
   <section class="section" id="foundational" data-pagefind-ignore>
     <div class="section-heading">
       <h2>Core Writing</h2>
-      <p>The pieces that define the central operating model behind the archive: how systems behave, how signal degrades, and how trust survives contact with reality.</p>
     </div>
+    <p class="section-intro">The pieces that define the central operating model behind the archive: how systems behave, how signal degrades, and how trust survives contact with reality.</p>
 
     <div class="foundation-grid">
       {foundationalPosts.map((post) => (
@@ -167,8 +167,8 @@ const themeGroups = [
   <section class="section" id="start-here" data-pagefind-ignore>
     <div class="section-heading">
       <h2>Start Here</h2>
-      <p>Seven reader-friendly entry points into the archive, chosen to introduce the voice, range, and recurring questions behind the work.</p>
     </div>
+    <p class="section-intro">Seven reader-friendly entry points into the archive, chosen to introduce the voice, range, and recurring questions behind the work.</p>
 
     <div class="featured-list">
       {startHerePosts.map((post) => (
@@ -190,8 +190,8 @@ const themeGroups = [
   <section class="section" id="themes" data-pagefind-ignore>
     <div class="section-heading">
       <h2>Reader Pathways</h2>
-      <p>Six ways into the archive, organized by reader intent rather than chronology.</p>
     </div>
+    <p class="section-intro">Six ways into the archive, organized by reader intent rather than chronology.</p>
 
     <div class="theme-grid">
       {themeGroups.map((theme) => {
@@ -217,8 +217,8 @@ const themeGroups = [
   <section class="section" data-pagefind-ignore>
     <div class="section-heading">
       <h2>Recent Writing</h2>
-      <p>The latest additions to the collection. <a href="/writing/archive">View the full archive</a>.</p>
     </div>
+    <p class="section-intro">The latest additions to the collection. <a href="/writing/archive">View the full archive</a>.</p>
 
     {recentPosts.map((post) => (
       <article class="entry">
@@ -247,12 +247,6 @@ const themeGroups = [
     color: var(--secondary);
   }
 
-  .intro-lead {
-    max-width: 42rem;
-    font-size: 0.98rem;
-    line-height: 1.58;
-    color: var(--text);
-  }
 
   .decision-grid {
     display: grid;
@@ -296,27 +290,6 @@ const themeGroups = [
     color: var(--text);
   }
 
-  .section-heading {
-    margin-bottom: 44px;
-  }
-
-  .section-heading h2 {
-    margin: 0 0 22px;
-    font-size: 0.92rem;
-    line-height: 1.3;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--secondary);
-  }
-
-  .section-heading p {
-    margin: 0 0 20px;
-    max-width: 38rem;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--text);
-  }
 
   .foundation-grid {
     display: grid;

@@ -216,34 +216,42 @@ const description = "Selected systems design, AI governance, enterprise UX, and 
   }
 
   .work-entry {
-    padding: 1.1rem 0 1.25rem;
+    padding: var(--space-entry-y) 0 38px;
+    border-top: 1px solid var(--line);
   }
 
-  .work-meta {
-    font-size: 0.85rem;
-    color: var(--secondary, #64748b);
-    margin-bottom: 0.25rem;
+  .work-list h2 + .work-entry {
+    border-top: none;
+    padding-top: 44px;
   }
 
   .work-entry h3 {
-    margin-bottom: 0.35rem;
+    margin: 0 0 8px;
+    font-size: 1.28rem;
+    line-height: 1.28;
+    font-weight: 600;
   }
 
   .work-entry p {
-    margin: 0.3rem 0;
+    margin: 0 0 12px;
+  }
+
+  .work-meta {
+    margin: 0 0 8px;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    color: var(--secondary);
   }
 
   .work-list h2 {
     margin-top: 2rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid var(--border-color, #e5e7eb);
-    margin-bottom: 1rem;
+    padding-top: 0;
+    border-top: none;
+    margin-bottom: 0;
   }
 
   .work-list h2:first-of-type {
     margin-top: 0.5rem;
-    margin-bottom: 0.4rem;
-    border-top: none;
-    padding-top: 0;
+    margin-bottom: 0;
   }
 </style>
