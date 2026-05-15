@@ -52,7 +52,9 @@ const pageTitle = title === siteTitle ? siteTitle : `${title} | ${siteTitle}`;
             <a href="/learning">Learning</a>
             <a href="/papers">Papers</a>
             <a href="/about">About</a>
-            <a href="/search">🔍</a>
+            <a href="/search" class="site-search-link" aria-label="Search">
+              <img src="/search.svg" alt="" aria-hidden="true" class="site-search-icon" />
+            </a>
           </nav>
         </div>
       </div>
@@ -238,6 +240,31 @@ const pageTitle = title === siteTitle ? siteTitle : `${title} | ${siteTitle}`;
 
   .site-nav a:hover {
     color: var(--title);
+  }
+
+  .site-search-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1rem;
+    height: 1.1rem;
+    transform: translateY(1px);
+  }
+
+  .site-search-icon {
+    display: block;
+    width: 1.05rem;
+    height: 1.05rem;
+    opacity: 0.82;
+    transition: opacity 0.2s ease;
+  }
+
+  .site-search-link:hover {
+    text-decoration: none;
+  }
+
+  .site-search-link:hover .site-search-icon {
+    opacity: 1;
   }
 
   .site-main {
