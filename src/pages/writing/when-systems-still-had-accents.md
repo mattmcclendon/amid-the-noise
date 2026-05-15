@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "When Systems Still Had Accents"
 subtitle: "National products once carried traces of the places that made them."
 description: "A reflection on regional bottling plants, local variation, and the quiet disappearance of geography inside modern distribution systems."
-pubDate: "2027-01-12"
+pubDate: "2027-01-14"
 heroImage: "/images/writing/when-systems-still-had-accents.png"
 heroAlt: "Vintage glass soda bottles in wooden crates outside a small regional bottling facility."
 tags: ["INFRASTRUCTURE", "MEMORY", "SYSTEMS THINKING"]
