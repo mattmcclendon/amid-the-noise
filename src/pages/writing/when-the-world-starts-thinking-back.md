@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PublicationLayout.astro"
-title: "When the World Starts Thinking Back"
-subtitle: "The feedback loops were always there. We simply lacked the instruments to hear them."
+title: "The World Told Us"
+subtitle: "We were just too busy to pay attention."
 description: "A reflection on feedback systems, environmental consequence, AI, and the growing reality that civilization can no longer act faster than it can observe itself."
 pubDate: "2026-11-19"
 heroImage: "/images/writing/when-the-world-starts-thinking-back.png"
@@ -18,7 +18,7 @@ Factories dumped waste into rivers before environmental monitoring existed at me
 
 The systems were always responding.
 
-We simply lacked the instrumentation, visibility, computational capacity, or collective willingness to interpret the response clearly.
+Sometimes we lacked the instrumentation to understand the response clearly. Other times we understood enough and continued anyway because the incentives, convenience, or momentum of the system made stopping feel harder than proceeding.
 
 That may be what is changing now.
 
@@ -26,9 +26,9 @@ People often describe artificial intelligence as though the world itself has sud
 
 I do not think that is quite right.
 
-The world was already thinking back.
+The world was already responding.
 
-We just were not listening carefully enough.
+We were often simply too busy, too economically entangled, or too institutionally committed to slow down and listen carefully enough.
 
 Signal has always existed inside systems.
 
@@ -39,7 +39,7 @@ Supply chains.
 Public health systems.
 Social ecosystems.
 
-Human civilization has always generated feedback loops. Most were simply too slow, too distributed, or too difficult to measure for human institutions to fully absorb in real time.
+Human civilization has always generated feedback loops. Many were simply slow enough, distributed enough, or economically inconvenient enough that institutions could treat the consequences as distant problems rather than immediate realities.
 
 Now the loops are tightening.
 
