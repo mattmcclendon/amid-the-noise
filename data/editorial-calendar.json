@@ -170,24 +170,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-07-17",
-    "title": "Healing, Not Blame",
-    "subtitle": "Ownership as the start of recovery",
-    "slug": "healing-not-blame",
-    "description": "Recovery does not begin with exposing what they did. It begins with taking responsibility for what you allowed, ignored, and chose, and reclaiming your agency from it.",
-    "tags": [
-      "Recovery",
-      "Reflection",
-      "Agency"
-    ],
-    "tier": "tier-2",
-    "heroImage": "/images/writing/healing-not-blame.png",
-    "heroAlt": "A lone figure walking forward into light while a fragmented silhouette dissolves behind them, symbolizing release, accountability, and personal healing",
-    "url": "https://amidthenoise.com/writing/healing-not-blame",
-    "status": "Published"
-  },
-  {
-    "pubDate": "2025-07-17",
+    "pubDate": "2025-07-16",
     "title": "Reading Between the Lines",
     "subtitle": "How manipulation hides in ordinary messages",
     "slug": "reading-between-the-lines",
@@ -205,19 +188,19 @@
   },
   {
     "pubDate": "2025-07-17",
-    "title": "Used, Spent, and Forgotten",
-    "subtitle": "When performance replaces partnership",
-    "slug": "used-spent-forgotten",
-    "description": "Narcissistic abuse does not begin with cruelty. It begins with recognition, then shifts into performance that replaces real connection. This piece traces the pattern and the path out.",
+    "title": "Healing, Not Blame",
+    "subtitle": "Ownership as the start of recovery",
+    "slug": "healing-not-blame",
+    "description": "Recovery does not begin with exposing what they did. It begins with taking responsibility for what you allowed, ignored, and chose, and reclaiming your agency from it.",
     "tags": [
       "Recovery",
-      "Relationships",
-      "Psychology"
+      "Reflection",
+      "Agency"
     ],
-    "tier": "tier-1",
-    "heroImage": "/images/writing/used-spent-forgotten.png",
-    "heroAlt": "A man with a fractured mask revealing his true self beneath, dissolving into soft textures against a calm horizon",
-    "url": "https://amidthenoise.com/writing/used-spent-forgotten",
+    "tier": "tier-2",
+    "heroImage": "/images/writing/healing-not-blame.png",
+    "heroAlt": "A lone figure walking forward into light while a fragmented silhouette dissolves behind them, symbolizing release, accountability, and personal healing",
+    "url": "https://amidthenoise.com/writing/healing-not-blame",
     "status": "Published"
   },
   {
@@ -235,6 +218,23 @@
     "heroImage": "/images/writing/they-lied-about-the-story.png",
     "heroAlt": "A fractured mask and shadowed figure against an open horizon, symbolizing the divide between public narrative and private truth",
     "url": "https://amidthenoise.com/writing/they-lied-about-the-story",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-19",
+    "title": "Used, Spent, and Forgotten",
+    "subtitle": "When performance replaces partnership",
+    "slug": "used-spent-forgotten",
+    "description": "Narcissistic abuse does not begin with cruelty. It begins with recognition, then shifts into performance that replaces real connection. This piece traces the pattern and the path out.",
+    "tags": [
+      "Recovery",
+      "Relationships",
+      "Psychology"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/used-spent-forgotten.png",
+    "heroAlt": "A man with a fractured mask revealing his true self beneath, dissolving into soft textures against a calm horizon",
+    "url": "https://amidthenoise.com/writing/used-spent-forgotten",
     "status": "Published"
   },
   {
@@ -305,6 +305,23 @@
     "status": "Published"
   },
   {
+    "pubDate": "2025-07-25",
+    "title": "My “Passengers” Moment",
+    "subtitle": "Waking up inside your own life",
+    "slug": "passengers-moment",
+    "description": "The story I thought I needed was somewhere in the future. It turns out I was already living it. This is what it means to wake up inside your own life.",
+    "tags": [
+      "Reflection",
+      "Recovery",
+      "Voice"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/passengers-moment.png",
+    "heroAlt": "A solitary figure sitting upright in a softly lit room just after waking, symbolizing awareness, return, and the moment of personal clarity",
+    "url": "https://amidthenoise.com/writing/passengers-moment",
+    "status": "Published"
+  },
+  {
     "pubDate": "2025-07-26",
     "title": "Confessions of a Literary Pickpocket",
     "subtitle": "Influence, voice, and earned permission",
@@ -319,23 +336,6 @@
     "heroImage": "/images/writing/literary-pickpocket.png",
     "heroAlt": "A vintage-style portrait of a writer facing a fountain pen across a bold ink stroke, symbolizing influence, authorship, and the evolution of voice",
     "url": "https://amidthenoise.com/writing/literary-pickpocket",
-    "status": "Published"
-  },
-  {
-    "pubDate": "2025-07-26",
-    "title": "My “Passengers” Moment",
-    "subtitle": "Waking up inside your own life",
-    "slug": "passengers-moment",
-    "description": "The story I thought I needed was somewhere in the future. It turns out I was already living it. This is what it means to wake up inside your own life.",
-    "tags": [
-      "Reflection",
-      "Recovery",
-      "Voice"
-    ],
-    "tier": "tier-2",
-    "heroImage": "/images/writing/passengers-moment.png",
-    "heroAlt": "A solitary figure sitting upright in a softly lit room just after waking, symbolizing awareness, return, and the moment of personal clarity",
-    "url": "https://amidthenoise.com/writing/passengers-moment",
     "status": "Published"
   },
   {
@@ -356,7 +356,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-07-27",
+    "pubDate": "2025-07-28",
     "title": "Trauma by Design",
     "subtitle": "When harm is built into the system",
     "slug": "trauma-by-design",
@@ -424,7 +424,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-08-17",
+    "pubDate": "2025-08-18",
     "title": "The Kingdom of Small Things",
     "subtitle": "Sovereignty as a form of love",
     "slug": "the-kingdom-of-small-things",
@@ -593,7 +593,24 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-09-26",
+    "pubDate": "2025-09-27",
+    "title": "Too Much City, Too Much Me",
+    "subtitle": "When the city stops being the problem",
+    "slug": "too-much-city-too-much-me",
+    "description": "Sometimes the place does not change. The lens does. A reflection on arrogance, recovery, and learning to see a city without projecting yourself onto it.",
+    "tags": [
+      "Recovery",
+      "Reflection",
+      "Place"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/too-much-city-too-much-me.png",
+    "heroAlt": "A lone figure standing by the water facing a hazy city skyline and bridge",
+    "url": "https://amidthenoise.com/writing/too-much-city-too-much-me",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-28",
     "title": "The Problem Isn’t ChatGPT — It’s Us",
     "subtitle": "When cynicism becomes the default",
     "slug": "the-problem-isnt-chatgpt-its-us",
@@ -610,20 +627,20 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-09-27",
-    "title": "Too Much City, Too Much Me",
-    "subtitle": "When the city stops being the problem",
-    "slug": "too-much-city-too-much-me",
-    "description": "Sometimes the place does not change. The lens does. A reflection on arrogance, recovery, and learning to see a city without projecting yourself onto it.",
+    "pubDate": "2025-09-29",
+    "title": "The Day the End Began for AOL",
+    "subtitle": "When protecting the present killed the future",
+    "slug": "the-day-the-end-began-for-aol",
+    "description": "Companies rarely fail from a lack of resources. They fail when they protect the current model instead of investing in what replaces it.",
     "tags": [
-      "Recovery",
-      "Reflection",
-      "Place"
+      "Signal",
+      "Systems Thinking",
+      "Leadership"
     ],
     "tier": "tier-2",
-    "heroImage": "/images/writing/too-much-city-too-much-me.png",
-    "heroAlt": "A lone figure standing by the water facing a hazy city skyline and bridge",
-    "url": "https://amidthenoise.com/writing/too-much-city-too-much-me",
+    "heroImage": "/images/writing/the-day-the-end-began-for-aol.png",
+    "heroAlt": "A crowd gathered on a corporate lawn near a large dinosaur statue with a dial-up modem in the foreground",
+    "url": "https://amidthenoise.com/writing/the-day-the-end-began-for-aol",
     "status": "Published"
   },
   {
@@ -644,20 +661,20 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-09-30",
-    "title": "The Day the End Began for AOL",
-    "subtitle": "When protecting the present killed the future",
-    "slug": "the-day-the-end-began-for-aol",
-    "description": "Companies rarely fail from a lack of resources. They fail when they protect the current model instead of investing in what replaces it.",
+    "pubDate": "2025-10-01",
+    "title": "When We Rob Moments of Their Weight",
+    "subtitle": "Naming without anesthesia",
+    "slug": "when-we-rob-moments-of-their-weight",
+    "description": "Euphemism does not just soften language. It reshapes reality. This piece traces how institutions, recovery culture, and personal identity use language to reduce weight, and why truth requires precision.",
     "tags": [
       "Signal",
-      "Systems Thinking",
-      "Leadership"
+      "Language",
+      "Civic Systems"
     ],
-    "tier": "tier-2",
-    "heroImage": "/images/writing/the-day-the-end-began-for-aol.png",
-    "heroAlt": "A crowd gathered on a corporate lawn near a large dinosaur statue with a dial-up modem in the foreground",
-    "url": "https://amidthenoise.com/writing/the-day-the-end-began-for-aol",
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-we-rob-moments-of-their-weight.png",
+    "heroAlt": "A person standing at a crossroads between two signs representing softened language and plain truth",
+    "url": "https://amidthenoise.com/writing/when-we-rob-moments-of-their-weight",
     "status": "Published"
   },
   {
@@ -675,23 +692,6 @@
     "heroImage": "/images/writing/2025-10-01.jpg",
     "heroAlt": "walking through a rainy campus",
     "url": "https://amidthenoise.com/writing/walking-through-a-reset",
-    "status": "Published"
-  },
-  {
-    "pubDate": "2025-10-02",
-    "title": "When We Rob Moments of Their Weight",
-    "subtitle": "Naming without anesthesia",
-    "slug": "when-we-rob-moments-of-their-weight",
-    "description": "Euphemism does not just soften language. It reshapes reality. This piece traces how institutions, recovery culture, and personal identity use language to reduce weight, and why truth requires precision.",
-    "tags": [
-      "Signal",
-      "Language",
-      "Civic Systems"
-    ],
-    "tier": "tier-1",
-    "heroImage": "/images/writing/when-we-rob-moments-of-their-weight.png",
-    "heroAlt": "A person standing at a crossroads between two signs representing softened language and plain truth",
-    "url": "https://amidthenoise.com/writing/when-we-rob-moments-of-their-weight",
     "status": "Published"
   },
   {
@@ -729,23 +729,6 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-10-04",
-    "title": "The Examined Life",
-    "subtitle": "Looking without escape",
-    "slug": "the-examined-life",
-    "description": "Examination is not abstract. It is a daily practice of noticing, naming, and refusing to look away from what is true.",
-    "tags": [
-      "Reflection",
-      "Philosophy",
-      "Recovery"
-    ],
-    "tier": "tier-2",
-    "heroImage": "/images/writing/the-examined-life.png",
-    "heroAlt": "A person sitting quietly by still water facing a faint, distant structure in a pale landscape",
-    "url": "https://amidthenoise.com/writing/the-examined-life",
-    "status": "Published"
-  },
-  {
     "pubDate": "2025-10-05",
     "title": "Nevertheless, I Persist",
     "subtitle": "Refusing the story written for you",
@@ -760,6 +743,23 @@
     "heroImage": "/images/writing/nevertheless-i-persist.png",
     "heroAlt": "A solitary figure standing calmly while a blurred crowd gestures and shouts behind him",
     "url": "https://amidthenoise.com/writing/nevertheless-i-persist",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-06",
+    "title": "The Examined Life",
+    "subtitle": "Looking without escape",
+    "slug": "the-examined-life",
+    "description": "Examination is not abstract. It is a daily practice of noticing, naming, and refusing to look away from what is true.",
+    "tags": [
+      "Reflection",
+      "Philosophy",
+      "Recovery"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-examined-life.png",
+    "heroAlt": "A person sitting quietly by still water facing a faint, distant structure in a pale landscape",
+    "url": "https://amidthenoise.com/writing/the-examined-life",
     "status": "Published"
   },
   {
@@ -864,7 +864,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-10-14",
+    "pubDate": "2025-10-15",
     "title": "Radiance and the Stars",
     "subtitle": "Circulation is survival",
     "slug": "radiance-and-the-stars",
@@ -915,23 +915,6 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-10-19",
-    "title": "The Porch With Two Doors",
-    "subtitle": "Return without permission",
-    "slug": "the-porch-with-two-doors",
-    "description": "Home is not a place you enter. It is the moment you recognize yourself and no longer need to ask to stay.",
-    "tags": [
-      "Reflection",
-      "Belonging",
-      "Poetry"
-    ],
-    "tier": "tier-2",
-    "heroImage": "/images/writing/the-porch-with-two-doors.png",
-    "heroAlt": "A warmly lit porch with two front doors side by side at night",
-    "url": "https://amidthenoise.com/writing/the-porch-with-two-doors",
-    "status": "Published"
-  },
-  {
     "pubDate": "2025-10-20",
     "title": "Bodega Run",
     "subtitle": "Where a city remembers itself",
@@ -946,6 +929,23 @@
     "heroImage": "/images/writing/bodega-run.jpg",
     "heroAlt": "A corner bodega at dusk with people gathered outside, warm light spilling onto the street and sunflowers by the entrance",
     "url": "https://amidthenoise.com/writing/bodega-run",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-21",
+    "title": "The Porch With Two Doors",
+    "subtitle": "Return without permission",
+    "slug": "the-porch-with-two-doors",
+    "description": "Home is not a place you enter. It is the moment you recognize yourself and no longer need to ask to stay.",
+    "tags": [
+      "Reflection",
+      "Belonging",
+      "Poetry"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-porch-with-two-doors.png",
+    "heroAlt": "A warmly lit porch with two front doors side by side at night",
+    "url": "https://amidthenoise.com/writing/the-porch-with-two-doors",
     "status": "Published"
   },
   {
@@ -999,23 +999,6 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-10-26",
-    "title": "The Well I Poured From",
-    "subtitle": "Clarity without revision",
-    "slug": "the-well-i-poured-from",
-    "description": "Clarity does not repair what broke. It names it. A reflection on recognition, reciprocity, and leaving what cannot return you.",
-    "tags": [
-      "Recovery",
-      "Reflection",
-      "Relationships"
-    ],
-    "tier": "tier-1",
-    "heroImage": "/images/writing/the-well-i-poured-from.png",
-    "heroAlt": "A stone well with faint light rising as a lone figure walks away into a pale landscape",
-    "url": "https://amidthenoise.com/writing/the-well-i-poured-from",
-    "status": "Published"
-  },
-  {
     "pubDate": "2025-10-27",
     "title": "The Privilege of Perspective",
     "subtitle": "Stability makes the future visible",
@@ -1030,6 +1013,23 @@
     "heroImage": "/images/writing/the-privilege-of-perspective.png",
     "heroAlt": "A lone figure standing near a fence dividing two quiet poolside spaces",
     "url": "https://amidthenoise.com/writing/the-privilege-of-perspective",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-28",
+    "title": "The Well I Poured From",
+    "subtitle": "Clarity without revision",
+    "slug": "the-well-i-poured-from",
+    "description": "Clarity does not repair what broke. It names it. A reflection on recognition, reciprocity, and leaving what cannot return you.",
+    "tags": [
+      "Recovery",
+      "Reflection",
+      "Relationships"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-well-i-poured-from.png",
+    "heroAlt": "A stone well with faint light rising as a lone figure walks away into a pale landscape",
+    "url": "https://amidthenoise.com/writing/the-well-i-poured-from",
     "status": "Published"
   },
   {
@@ -1067,24 +1067,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-11-06",
-    "title": "From Collapse to Construction",
-    "subtitle": "From rescue to systems that hold",
-    "slug": "from-collapse-to-construction",
-    "description": "Empathy without boundaries collapses. A reflection on moving from rescuing individuals to building systems that protect everyone, including yourself.",
-    "tags": [
-      "Civic Systems",
-      "Agency",
-      "Reflection"
-    ],
-    "tier": "tier-2",
-    "heroImage": "/images/writing/from-collapse-to-construction.jpg",
-    "heroAlt": "A solitary figure crossing an empty city street at sunrise, skyline silhouetted in warm light",
-    "url": "https://amidthenoise.com/writing/from-collapse-to-construction",
-    "status": "Published"
-  },
-  {
-    "pubDate": "2025-11-06",
+    "pubDate": "2025-11-05",
     "title": "The Architecture of Scarcity",
     "subtitle": "What reconstruction teaches that stability forgets",
     "slug": "the-architecture-of-scarcity",
@@ -1102,19 +1085,19 @@
   },
   {
     "pubDate": "2025-11-06",
-    "title": "The City That Finally Learned to Move",
-    "subtitle": "Flow instead of fight",
-    "slug": "the-city-that-finally-learned-to-move",
-    "description": "The city didn’t change. My relationship to it did. A reflection on moving with a system rather than against it.",
+    "title": "From Collapse to Construction",
+    "subtitle": "From rescue to systems that hold",
+    "slug": "from-collapse-to-construction",
+    "description": "Empathy without boundaries collapses. A reflection on moving from rescuing individuals to building systems that protect everyone, including yourself.",
     "tags": [
-      "Reflection",
-      "Growth",
-      "Place"
+      "Civic Systems",
+      "Agency",
+      "Reflection"
     ],
     "tier": "tier-2",
-    "heroImage": "/images/writing/the-city-that-finally-learned-to-move.png",
-    "heroAlt": "Two trains resting on parallel tracks in a quiet, softly lit station",
-    "url": "https://amidthenoise.com/writing/the-city-that-finally-learned-to-move",
+    "heroImage": "/images/writing/from-collapse-to-construction.jpg",
+    "heroAlt": "A solitary figure crossing an empty city street at sunrise, skyline silhouetted in warm light",
+    "url": "https://amidthenoise.com/writing/from-collapse-to-construction",
     "status": "Published"
   },
   {
@@ -1165,6 +1148,23 @@
     "heroImage": "/images/writing/the-subtle-art-of-beginning-again.jpg",
     "heroAlt": "A handwritten letter on a wooden desk beside a fountain pen and a softly lit lamp, suggesting reflection, clarity, and quiet renewal",
     "url": "https://amidthenoise.com/writing/the-subtle-art-of-beginning-again",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-10",
+    "title": "The City That Finally Learned to Move",
+    "subtitle": "Flow instead of fight",
+    "slug": "the-city-that-finally-learned-to-move",
+    "description": "The city didn’t change. My relationship to it did. A reflection on moving with a system rather than against it.",
+    "tags": [
+      "Reflection",
+      "Growth",
+      "Place"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-city-that-finally-learned-to-move.png",
+    "heroAlt": "Two trains resting on parallel tracks in a quiet, softly lit station",
+    "url": "https://amidthenoise.com/writing/the-city-that-finally-learned-to-move",
     "status": "Published"
   },
   {
@@ -1285,23 +1285,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-11-26",
-    "title": "Bathyal Line",
-    "subtitle": "Where pressure clarifies",
-    "slug": "bathyal-line",
-    "description": "Pressure reveals shape. A reflection on depth, silence, and the quiet intelligence learned beneath the surface.",
-    "tags": [
-      "Reflection",
-      "Systems Thinking"
-    ],
-    "tier": "tier-3",
-    "heroImage": "/images/writing/bathyal-line.jpg",
-    "heroAlt": "Child standing before a large aquarium window looking into deep blue water with kelp rising upward",
-    "url": "https://amidthenoise.com/writing/bathyal-line",
-    "status": "Published"
-  },
-  {
-    "pubDate": "2025-11-26",
+    "pubDate": "2025-11-25",
     "title": "Seven Months",
     "subtitle": "Momentum built quietly",
     "slug": "seven-months",
@@ -1315,6 +1299,22 @@
     "heroImage": "/images/writing/seven-months.jpg",
     "heroAlt": "Quiet train platform at sunrise with long shadows and a distant light at the end of the tracks",
     "url": "https://amidthenoise.com/writing/seven-months",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-26",
+    "title": "Bathyal Line",
+    "subtitle": "Where pressure clarifies",
+    "slug": "bathyal-line",
+    "description": "Pressure reveals shape. A reflection on depth, silence, and the quiet intelligence learned beneath the surface.",
+    "tags": [
+      "Reflection",
+      "Systems Thinking"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/bathyal-line.jpg",
+    "heroAlt": "Child standing before a large aquarium window looking into deep blue water with kelp rising upward",
+    "url": "https://amidthenoise.com/writing/bathyal-line",
     "status": "Published"
   },
   {
@@ -1368,7 +1368,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-12-04",
+    "pubDate": "2025-12-05",
     "title": "No Metaphor",
     "subtitle": "Clarity without performance",
     "slug": "no-metaphor",
@@ -1435,7 +1435,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-12-18",
+    "pubDate": "2025-12-19",
     "title": "The Cursive Q",
     "subtitle": "What disappears without failing",
     "slug": "the-cursive-q",
@@ -1536,7 +1536,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2025-12-28",
+    "pubDate": "2025-12-29",
     "title": "The Scene That Names the Drift",
     "subtitle": "Recognition before admission",
     "slug": "the-scene-that-names-the-drift",
@@ -1604,7 +1604,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2026-01-15",
+    "pubDate": "2026-01-16",
     "title": "When Choice Isn’t Freedom",
     "subtitle": "Choice as a screening mechanism",
     "slug": "when-choice-isnt-freedom",
@@ -1706,7 +1706,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2026-01-22",
+    "pubDate": "2026-01-23",
     "title": "Gumption",
     "subtitle": "Trajectory over outcome",
     "slug": "gumption",
@@ -1740,7 +1740,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2026-01-27",
+    "pubDate": "2026-01-28",
     "title": "Operational Empathy",
     "subtitle": "Friction is a design choice",
     "slug": "operational-empathy",
@@ -1807,7 +1807,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2026-02-03",
+    "pubDate": "2026-02-04",
     "title": "Toward a Human-Centered Intelligence Infrastructure",
     "subtitle": "Governance as operational necessity",
     "slug": "toward-a-human-centered-intelligence-infrastructure",
@@ -1858,7 +1858,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2026-02-10",
+    "pubDate": "2026-02-11",
     "title": "Operational Empathy as Intelligence Capability",
     "subtitle": "Context as an accuracy function",
     "slug": "operational-empathy-as-intelligence-capability",
@@ -1875,24 +1875,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2026-02-15",
-    "title": "Atlantic Temper",
-    "subtitle": "Belonging here is practiced, not granted",
-    "slug": "atlantic-temper",
-    "description": "Boston does not grant belonging. It tests for it. A reflection on place, endurance, and the posture required to remain.",
-    "tags": [
-      "Reflection",
-      "Place",
-      "Endurance"
-    ],
-    "tier": "tier-3",
-    "heroImage": "/images/writing/atlantic-temper.png",
-    "heroAlt": "Sunrise over the Charles River with Boston skyline, warm light reflecting on water and a quiet riverside path",
-    "url": "https://amidthenoise.com/writing/atlantic-temper",
-    "status": "Published"
-  },
-  {
-    "pubDate": "2026-02-15",
+    "pubDate": "2026-02-14",
     "title": "Designed to Fail, Excused by Scarcity",
     "subtitle": "Scarcity as system behavior",
     "slug": "designed-to-fail-excused-by-scarcity",
@@ -1910,18 +1893,19 @@
   },
   {
     "pubDate": "2026-02-15",
-    "title": "Just Enough to Cancel School",
-    "subtitle": "When interruption still felt like a gift",
-    "slug": "just-enough-to-cancel-school",
-    "description": "Small disruptions once felt like freedom. Perspective changes what interruption means, but the memory of it still holds.",
+    "title": "Atlantic Temper",
+    "subtitle": "Belonging here is practiced, not granted",
+    "slug": "atlantic-temper",
+    "description": "Boston does not grant belonging. It tests for it. A reflection on place, endurance, and the posture required to remain.",
     "tags": [
       "Reflection",
-      "Memory"
+      "Place",
+      "Endurance"
     ],
     "tier": "tier-3",
-    "heroImage": "/images/writing/just-enough-to-cancel-school.jpg",
-    "heroAlt": "A quiet residential street at dawn with a light winter glaze reflecting soft morning light",
-    "url": "https://amidthenoise.com/writing/just-enough-to-cancel-school",
+    "heroImage": "/images/writing/atlantic-temper.png",
+    "heroAlt": "Sunrise over the Charles River with Boston skyline, warm light reflecting on water and a quiet riverside path",
+    "url": "https://amidthenoise.com/writing/atlantic-temper",
     "status": "Published"
   },
   {
@@ -1955,6 +1939,22 @@
     "heroImage": "/images/writing/national-security-policy-hero.png",
     "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
     "url": "https://amidthenoise.com/writing/the-civic-signal",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-18",
+    "title": "Just Enough to Cancel School",
+    "subtitle": "When interruption still felt like a gift",
+    "slug": "just-enough-to-cancel-school",
+    "description": "Small disruptions once felt like freedom. Perspective changes what interruption means, but the memory of it still holds.",
+    "tags": [
+      "Reflection",
+      "Memory"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/just-enough-to-cancel-school.jpg",
+    "heroAlt": "A quiet residential street at dawn with a light winter glaze reflecting soft morning light",
+    "url": "https://amidthenoise.com/writing/just-enough-to-cancel-school",
     "status": "Published"
   },
   {
@@ -2076,7 +2076,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2026-03-24",
+    "pubDate": "2026-03-25",
     "title": "Drift Under Load",
     "subtitle": "When stability erodes quietly",
     "slug": "drift-under-load",
@@ -2244,7 +2244,7 @@
     "status": "Published"
   },
   {
-    "pubDate": "2026-04-19",
+    "pubDate": "2026-04-20",
     "title": "Amid the Noise: Identity Evolution",
     "subtitle": "From expression to authorship",
     "slug": "amid-the-noise-identity-evolution",
@@ -2257,23 +2257,6 @@
     "heroImage": "/images/writing/amid-the-noise-identity-evolution.png",
     "heroAlt": "A minimalist identity mark featuring a grounded blue square paired with a classical serif wordmark reading 'amid the noise'",
     "url": "https://amidthenoise.com/writing/amid-the-noise-identity-evolution",
-    "status": "Published"
-  },
-  {
-    "pubDate": "2026-04-19",
-    "title": "Two Distances",
-    "subtitle": "Inside the event, and after it settles",
-    "slug": "two-distances",
-    "description": "Oklahoma City and September 11 reveal two forms of proximity: living through an event as it unfolds, and arriving after it has already changed everything.",
-    "tags": [
-      "Signal",
-      "Memory",
-      "Civic Systems"
-    ],
-    "tier": "tier-1",
-    "heroImage": "/images/writing/two-distances.png",
-    "heroAlt": "Chain-link fence memorial with flowers, ribbon, and a worn teddy bear in warm evening light, no people present",
-    "url": "https://amidthenoise.com/writing/two-distances",
     "status": "Published"
   },
   {
@@ -2291,6 +2274,23 @@
     "heroImage": "/images/writing/submitted-for-your-consideration.png",
     "heroAlt": "Black and white alien landscape under a star-filled sky",
     "url": "https://amidthenoise.com/writing/submitted-for-your-consideration",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-22",
+    "title": "Two Distances",
+    "subtitle": "Inside the event, and after it settles",
+    "slug": "two-distances",
+    "description": "Oklahoma City and September 11 reveal two forms of proximity: living through an event as it unfolds, and arriving after it has already changed everything.",
+    "tags": [
+      "Signal",
+      "Memory",
+      "Civic Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/two-distances.png",
+    "heroAlt": "Chain-link fence memorial with flowers, ribbon, and a worn teddy bear in warm evening light, no people present",
+    "url": "https://amidthenoise.com/writing/two-distances",
     "status": "Published"
   },
   {
