@@ -1,0 +1,4098 @@
+[
+  {
+    "pubDate": "2019-03-04",
+    "title": "UX and the Human Experience",
+    "subtitle": "Fluency over novelty",
+    "slug": "ux-human-experience",
+    "description": "User experience is not a layer. It is the system as it is felt. Design aligns with memory, reduces cognitive cost, and earns trust through predictable behavior under real conditions.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "UX"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/ux-human-experience.png",
+    "heroAlt": "Minimal abstract composition showing a human profile integrated with interface elements and soft geometric forms, representing cognition, pattern recognition, and system interaction",
+    "url": "https://amidthenoise.com/writing/ux-human-experience",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-06-01",
+    "title": "13 Principles for Building a Startup That Lasts",
+    "subtitle": "Timeless habits that separate survivors from statistics",
+    "slug": "13-principles-for-building-a-startup-that-lasts",
+    "description": "Enduring principles that persist across markets, products, and cycles.",
+    "tags": [
+      "Signal",
+      "Startups",
+      "Execution"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/13-principles-for-building-a-startup-that-lasts.png",
+    "heroAlt": "Minimal abstract composition showing a central anchor point with surrounding structures forming around it",
+    "url": "https://amidthenoise.com/writing/13-principles-for-building-a-startup-that-lasts",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-06-02",
+    "title": "18 Ways to Sabotage Your Startup",
+    "subtitle": "The mistakes that kill promising ideas before they scale.",
+    "slug": "18-ways-to-sabotage-your-startup",
+    "description": "Promising startups rarely fail all at once. They erode through quiet decisions that compound before anyone calls them fatal.",
+    "tags": [
+      "Signal",
+      "Startups",
+      "Execution"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/18-ways-to-sabotage-your-startup.png",
+    "heroAlt": "Minimal abstract composition showing divergence, fragmentation, and misalignment resolving into clarity",
+    "url": "https://amidthenoise.com/writing/18-ways-to-sabotage-your-startup",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-06-03",
+    "title": "Founder Mode",
+    "subtitle": "Why scaling doesn’t mean disappearing",
+    "slug": "founder-mode",
+    "description": "The difference between managing a company and animating it.",
+    "tags": [
+      "Signal",
+      "Startups",
+      "Leadership"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/founder-mode.png",
+    "heroAlt": "Minimal abstract composition showing layered systems with a central presence interacting across boundaries",
+    "url": "https://amidthenoise.com/writing/founder-mode",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-06-04",
+    "title": "Growth Defines a Startup",
+    "subtitle": "Growth as the operating constraint",
+    "slug": "growth-defines-a-startup",
+    "description": "Growth is not an outcome. It is the constraint that shapes what a startup becomes and how it behaves under pressure.",
+    "tags": [
+      "Signal",
+      "Startups",
+      "Growth"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/growth-defines-a-startup.png",
+    "heroAlt": "Minimal abstract composition showing a rising curve emerging from constraint into expansion",
+    "url": "https://amidthenoise.com/writing/growth-defines-a-startup",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-06-05",
+    "title": "How to Convince Investors",
+    "subtitle": "Proof before pitch",
+    "slug": "how-to-convince-investors",
+    "description": "Conviction comes from truth. Fundraising works when the substance is already there and the pitch becomes translation.",
+    "tags": [
+      "Signal",
+      "Startups",
+      "Fundraising"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/how-to-convince-investors.png",
+    "heroAlt": "Minimal abstract composition showing signal strengthening into clarity and alignment",
+    "url": "https://amidthenoise.com/writing/how-to-convince-investors",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-06-06",
+    "title": "Do the Things That Don’t Scale (Yet)",
+    "subtitle": "Momentum before scale",
+    "slug": "do-things-that-dont-scale-yet",
+    "description": "Early traction is not discovered. It is created. A practical look at how manual effort forces the first layer of reality into place.",
+    "tags": [
+      "Signal",
+      "Startups",
+      "Execution"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/do-things-that-dont-scale-yet.png",
+    "heroAlt": "Minimal abstract composition showing small manual effort compounding into structured momentum",
+    "url": "https://amidthenoise.com/writing/do-things-that-dont-scale-yet",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-06-07",
+    "title": "Finding Startup Ideas That Stick",
+    "subtitle": "Where real ideas actually come from",
+    "slug": "finding-startup-ideas-that-stick",
+    "description": "Most startup ideas don’t arrive fully formed. They emerge from proximity to change and the discipline to follow friction long enough to understand it.",
+    "tags": [
+      "Signal",
+      "Startups",
+      "Product"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/finding-startup-ideas-that-stick.png",
+    "heroAlt": "Minimal abstract composition showing emergence, convergence, and signal forming from noise",
+    "url": "https://amidthenoise.com/writing/finding-startup-ideas-that-stick",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-06-08",
+    "title": "The Founder’s North Star",
+    "subtitle": "Users as the only durable signal",
+    "slug": "the-founders-north-star",
+    "description": "Enduring companies are built on deep user understanding, not exploitation. This piece shows how proximity to users predicts survival and alignment under pressure.",
+    "tags": [
+      "Signal",
+      "Startups",
+      "Users"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-founders-north-star.png",
+    "heroAlt": "Minimal abstract composition showing a fixed point of reference with surrounding motion oriented toward it",
+    "url": "https://amidthenoise.com/writing/the-founders-north-star",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-06-09",
+    "title": "The Hardest Startup Lessons",
+    "subtitle": "Rules that hold under pressure",
+    "slug": "hardest-startup-lessons",
+    "description": "A field guide to the patterns that quietly determine whether startups survive or stall, drawn from repeated failure modes and what actually works in the wild.",
+    "tags": [
+      "Signal",
+      "Startups",
+      "Execution"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/hardest-startup-lessons.png",
+    "heroAlt": "Minimal abstract composition suggesting iteration, pressure, and forward motion",
+    "url": "https://amidthenoise.com/writing/hardest-startup-lessons",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-17",
+    "title": "Healing, Not Blame",
+    "subtitle": "Ownership as the start of recovery",
+    "slug": "healing-not-blame",
+    "description": "Recovery does not begin with exposing what they did. It begins with taking responsibility for what you allowed, ignored, and chose, and reclaiming your agency from it.",
+    "tags": [
+      "Recovery",
+      "Reflection",
+      "Agency"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/healing-not-blame.png",
+    "heroAlt": "A lone figure walking forward into light while a fragmented silhouette dissolves behind them, symbolizing release, accountability, and personal healing",
+    "url": "https://amidthenoise.com/writing/healing-not-blame",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-17",
+    "title": "Reading Between the Lines",
+    "subtitle": "How manipulation hides in ordinary messages",
+    "slug": "reading-between-the-lines",
+    "description": "Real exchanges reveal how subtle tactics create confusion, dependency, and control. This piece names the patterns and outlines a path to recovery.",
+    "tags": [
+      "Recovery",
+      "Psychology",
+      "Abuse"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/reading-between-the-lines.png",
+    "heroAlt": "A smartphone in a minimalist space displays abstracted message fragments that drift and misalign, suggesting confusion, inconsistency, and emotional signal loss",
+    "url": "https://amidthenoise.com/writing/reading-between-the-lines",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-17",
+    "title": "Used, Spent, and Forgotten",
+    "subtitle": "When performance replaces partnership",
+    "slug": "used-spent-forgotten",
+    "description": "Narcissistic abuse does not begin with cruelty. It begins with recognition, then shifts into performance that replaces real connection. This piece traces the pattern and the path out.",
+    "tags": [
+      "Recovery",
+      "Relationships",
+      "Psychology"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/used-spent-forgotten.png",
+    "heroAlt": "A man with a fractured mask revealing his true self beneath, dissolving into soft textures against a calm horizon",
+    "url": "https://amidthenoise.com/writing/used-spent-forgotten",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-18",
+    "title": "They Lied About the Story",
+    "subtitle": "Narrative as a continuation of control",
+    "slug": "they-lied-about-the-story",
+    "description": "Abuse does not end with silence. It often continues through narrative, shaping perception to preserve the abuser’s identity while erasing the lived reality of the survivor.",
+    "tags": [
+      "Recovery",
+      "Relationships",
+      "Psychology"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/they-lied-about-the-story.png",
+    "heroAlt": "A fractured mask and shadowed figure against an open horizon, symbolizing the divide between public narrative and private truth",
+    "url": "https://amidthenoise.com/writing/they-lied-about-the-story",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-20",
+    "title": "Stay Dangerous",
+    "subtitle": "When adaptation replaces protection",
+    "slug": "stay-dangerous",
+    "description": "When safety disappears, behavior adapts. This piece reads a GlockBoyz track as signal, not spectacle, evidence of systems that have stopped showing up.",
+    "tags": [
+      "Civic Systems",
+      "Signal",
+      "Power"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/stay-dangerous.png",
+    "heroAlt": "A fractured urban landscape with a lone figure moving forward, symbolizing resilience within systemic collapse and absence of institutional support",
+    "url": "https://amidthenoise.com/writing/stay-dangerous",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-21",
+    "title": "5 Soups",
+    "subtitle": "The Currency of Survival in Street Vernacular",
+    "slug": "5-soups",
+    "description": "Language compresses under constraint. 'Five soups' becomes trust, debt, and survival encoded in a shared grammar.",
+    "tags": [
+      "Civic Systems",
+      "Systems Thinking"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/5-soups.png",
+    "heroAlt": "Five packs of ramen noodles stacked on a table in a softly lit institutional setting, symbolizing informal currency and survival within constrained systems",
+    "url": "https://amidthenoise.com/writing/5-soups",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-22",
+    "title": "When Systems Break People",
+    "subtitle": "Hostility as design output",
+    "slug": "when-systems-break-people",
+    "description": "What looks like inefficiency in public systems is often something else entirely. Design, when paired with policy, can function as a mechanism of exclusion.",
+    "tags": [
+      "Civic Systems",
+      "Signal",
+      "Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-systems-break-people.png",
+    "heroAlt": "A solitary figure seated at a government kiosk in an empty institutional space, head bowed in quiet frustration",
+    "url": "https://amidthenoise.com/writing/when-systems-break-people",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-24",
+    "title": "A Designer Walks into a Welfare Office",
+    "subtitle": "What the system communicates before it serves",
+    "slug": "designer-welfare-office",
+    "description": "Public systems do not just process people. They shape how people feel. A firsthand account of a welfare office reveals how design decisions encode dignity, power, and expectation.",
+    "tags": [
+      "Civic Systems",
+      "UX",
+      "Design Ethics"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/designer-welfare-office.png",
+    "heroAlt": "A sparse welfare office waiting area with rows of metal chairs and a lone figure seated in quiet stillness, conveying institutional distance and emotional isolation",
+    "url": "https://amidthenoise.com/writing/designer-welfare-office",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-26",
+    "title": "Confessions of a Literary Pickpocket",
+    "subtitle": "Influence, voice, and earned permission",
+    "slug": "literary-pickpocket",
+    "description": "Influence is not theft. It is transformation. A reflection on Mark Twain, voice, and the small acts of rebellion that shape how we write.",
+    "tags": [
+      "Signal",
+      "Writing",
+      "Voice"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/literary-pickpocket.png",
+    "heroAlt": "A vintage-style portrait of a writer facing a fountain pen across a bold ink stroke, symbolizing influence, authorship, and the evolution of voice",
+    "url": "https://amidthenoise.com/writing/literary-pickpocket",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-26",
+    "title": "My “Passengers” Moment",
+    "subtitle": "Waking up inside your own life",
+    "slug": "passengers-moment",
+    "description": "The story I thought I needed was somewhere in the future. It turns out I was already living it. This is what it means to wake up inside your own life.",
+    "tags": [
+      "Reflection",
+      "Recovery",
+      "Voice"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/passengers-moment.png",
+    "heroAlt": "A solitary figure sitting upright in a softly lit room just after waking, symbolizing awareness, return, and the moment of personal clarity",
+    "url": "https://amidthenoise.com/writing/passengers-moment",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-27",
+    "title": "Ghost in the House Called Solace",
+    "subtitle": "Presence without participation",
+    "slug": "ghost-in-the-house-called-solace",
+    "description": "Emotional sobriety is tested not in isolation, but in proximity to what no longer includes you. A reflection on erasure, restraint, and remaining intact.",
+    "tags": [
+      "Reflection",
+      "Recovery",
+      "Emotional Sobriety"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/ghost-in-the-house-called-solace.png",
+    "heroAlt": "A solitary figure stands outside a softly lit room, looking in through a window at others gathered inside, symbolizing distance, erasure, and quiet observation",
+    "url": "https://amidthenoise.com/writing/ghost-in-the-house-called-solace",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-27",
+    "title": "Trauma by Design",
+    "subtitle": "When harm is built into the system",
+    "slug": "trauma-by-design",
+    "description": "Trauma is not always the result of singular events. In civic systems, it is often produced through design decisions that diminish dignity and repeat harm.",
+    "tags": [
+      "Civic Systems",
+      "Signal",
+      "Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/trauma-by-design.png",
+    "heroAlt": "A solitary figure stands in a minimalist interior space facing an open passage leading to a sunlit path, symbolizing the transition from systemic constraint to dignity and possibility",
+    "url": "https://amidthenoise.com/writing/trauma-by-design",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-29",
+    "title": "Fixing What Isn’t Broken for Us",
+    "subtitle": "The false neutrality of public interfaces",
+    "slug": "fixing-what-isnt-broken-for-us",
+    "description": "Public systems often appear neutral while quietly privileging some users over others. This piece examines how interface design encodes bias and why 'works for me' is not a valid measure of equity.",
+    "tags": [
+      "Civic Systems",
+      "UX",
+      "Design Ethics"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/fixing-what-isnt-broken-for-us.png",
+    "heroAlt": "A solitary figure stands between a maze of rigid partitions and an open path leading into light, symbolizing the contrast between systemic constraint and equitable access",
+    "url": "https://amidthenoise.com/writing/fixing-what-isnt-broken-for-us",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-07-31",
+    "title": "UX Shouldn’t Hurt",
+    "subtitle": "When interfaces extend punishment",
+    "slug": "ux-shouldnt-hurt",
+    "description": "A heuristic evaluation of local jail websites shows how poor design decisions create real harm for families and incarcerated individuals trying to stay connected.",
+    "tags": [
+      "Civic Systems",
+      "UX",
+      "Signal"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/ux-shouldnt-hurt.png",
+    "heroAlt": "A solitary figure sits at a desk in a softly lit room, facing a laptop near a barred window, symbolizing frustration, confinement, and digital isolation",
+    "url": "https://amidthenoise.com/writing/ux-shouldnt-hurt",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-08-17",
+    "title": "Leading Without Authority",
+    "subtitle": "Influence outlasts instruction",
+    "slug": "leading-without-authority",
+    "description": "Authority directs behavior. Influence changes it. A reflection on leadership, relationships, and systems that model behavior instead of enforcing it.",
+    "tags": [
+      "Signal",
+      "Leadership",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/leading-without-authority.png",
+    "heroAlt": "Two minimal figures in a quiet architectural space, one elevated on steps and one below, symbolizing the difference between authority and influence",
+    "url": "https://amidthenoise.com/writing/leading-without-authority",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-08-17",
+    "title": "The Kingdom of Small Things",
+    "subtitle": "Sovereignty as a form of love",
+    "slug": "the-kingdom-of-small-things",
+    "description": "Defined roles do not limit relationships. They protect them. A reflection on boundaries, restraint, and how trust is built through what we choose not to control.",
+    "tags": [
+      "Reflection",
+      "Relationships",
+      "Family"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-kingdom-of-small-things.png",
+    "heroAlt": "A minimalist split scene showing a kitchen on one side and a small yard on the other, divided by a clean boundary, symbolizing shared space and personal sovereignty within a home",
+    "url": "https://amidthenoise.com/writing/the-kingdom-of-small-things",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-01",
+    "title": "Borrowed Time, Fragile Hearts",
+    "subtitle": "Reset versus recovery",
+    "slug": "borrowed-time-fragile-hearts",
+    "description": "The Lazarus logic is not only science fiction. It reflects a pattern of living on borrowed time, where survival postpones change instead of transforming it.",
+    "tags": [
+      "Reflection",
+      "Recovery",
+      "Systems Thinking"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/borrowed-time-fragile-hearts.png",
+    "heroAlt": "A surreal, fractured landscape resembling a looping horizon.",
+    "url": "https://amidthenoise.com/writing/borrowed-time-fragile-hearts",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-02",
+    "title": "Peek-a-Boo Was Never Innocent",
+    "subtitle": "Early games, lasting patterns",
+    "slug": "peek-a-boo-was-never-innocent",
+    "description": "Some of our earliest games are not trivial. They are blueprints for how we endure, trust, and interpret absence.",
+    "tags": [
+      "Reflection",
+      "Psychology",
+      "Attachment"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/peek-a-boo-was-never-innocent.png",
+    "heroAlt": "Illustrated figure with one eye covered and a faint offset duplicate behind it",
+    "url": "https://amidthenoise.com/writing/peek-a-boo-was-never-innocent",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-03",
+    "title": "Between Perception and Perspective",
+    "subtitle": "How obedience disguises itself as clarity",
+    "slug": "between-perception-and-perspective",
+    "description": "Perception is what we see. Perspective is the story we accept. When we confuse the two, we surrender the act of thinking.",
+    "tags": [
+      "Signal",
+      "Cognitive Bias",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/between-perception-and-perspective.png",
+    "heroAlt": "A group of people looking upward in the same direction while one person looks away",
+    "url": "https://amidthenoise.com/writing/between-perception-and-perspective",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-04",
+    "title": "The Action Button Is Ours",
+    "subtitle": "Prompts as the new interface",
+    "slug": "the-action-button-is-ours",
+    "description": "The action button has moved from the interface into the user. Every prompt is an act of design, shaping how systems respond and how decisions take form.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "UX"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-action-button-is-ours.png",
+    "heroAlt": "A person pressing a glowing button that dissolves into particles",
+    "url": "https://amidthenoise.com/writing/the-action-button-is-ours",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-09",
+    "title": "The Exhaustion of Solving Puzzles",
+    "subtitle": "When patterns stop surprising you",
+    "slug": "the-exhaustion-of-solving-puzzles",
+    "description": "Clarity is not always relief. When patterns repeat and outcomes converge, recognition can feel more like weight than insight.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-exhaustion-of-solving-puzzles.png",
+    "heroAlt": "A lone figure standing in a vast pale landscape facing a distant horizon",
+    "url": "https://amidthenoise.com/writing/the-exhaustion-of-solving-puzzles",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-12",
+    "title": "The Science of Boredom",
+    "subtitle": "When calm feels unfamiliar",
+    "slug": "the-science-of-boredom",
+    "description": "What we call boredom is often the nervous system learning to live without chaos. A reflection on recovery, fatherhood, and the slow retraining of attention.",
+    "tags": [
+      "Recovery",
+      "Reflection",
+      "Fatherhood"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-science-of-boredom.png",
+    "heroAlt": "A person sitting alone in a wide pale landscape with birds in the distance",
+    "url": "https://amidthenoise.com/writing/the-science-of-boredom",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-23",
+    "title": "Betrayal by Another Name",
+    "subtitle": "How Political Ego Endangers the Republic",
+    "slug": "betrayal-by-another-name",
+    "description": "When leaders prioritize ego and fear over duty, the cost is borne by the Republic itself.",
+    "tags": [
+      "Civic Systems",
+      "Leadership"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/betrayal-by-another-name.png",
+    "heroAlt": "A ship’s wheel resting on jagged rocks",
+    "url": "https://amidthenoise.com/writing/betrayal-by-another-name",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-25",
+    "title": "When the Music Stops",
+    "subtitle": "Continuity is the hidden structure",
+    "slug": "when-the-music-stops",
+    "description": "Systems rarely fail at the point of leadership. They fail when continuity withdraws. A reflection on the second chair, deferred priorities, and the cost of taking stability for granted.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Leadership"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/2025-09-25.jpg",
+    "heroAlt": "second violin resting beside a music stand",
+    "url": "https://amidthenoise.com/writing/when-the-music-stops",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-26",
+    "title": "Ellipses and Proof: A Family Method",
+    "subtitle": "Truth carried across generations",
+    "slug": "ellipses-and-proof-a-family-method",
+    "description": "Across generations and continents, one method endures: measure carefully, state plainly, and honor the shape truth actually takes.",
+    "tags": [
+      "Reflection",
+      "Lineage",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/ellipses-and-proof-a-family-method.png",
+    "heroAlt": "A lone figure standing between faint historical scenes with an abstract orbital diagram above",
+    "url": "https://amidthenoise.com/writing/ellipses-and-proof-a-family-method",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-26",
+    "title": "The Problem Isn’t ChatGPT — It’s Us",
+    "subtitle": "When cynicism becomes the default",
+    "slug": "the-problem-isnt-chatgpt-its-us",
+    "description": "The issue isn’t that machines affirm too much. It’s that we’ve normalized dismissing curiosity before it has a chance to become anything.",
+    "tags": [
+      "Signal",
+      "Culture",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-problem-isnt-chatgpt-its-us.png",
+    "heroAlt": "A group of people facing one direction while a single person stands before a glowing doorway",
+    "url": "https://amidthenoise.com/writing/the-problem-isnt-chatgpt-its-us",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-27",
+    "title": "Too Much City, Too Much Me",
+    "subtitle": "When the city stops being the problem",
+    "slug": "too-much-city-too-much-me",
+    "description": "Sometimes the place does not change. The lens does. A reflection on arrogance, recovery, and learning to see a city without projecting yourself onto it.",
+    "tags": [
+      "Recovery",
+      "Reflection",
+      "Place"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/too-much-city-too-much-me.png",
+    "heroAlt": "A lone figure standing by the water facing a hazy city skyline and bridge",
+    "url": "https://amidthenoise.com/writing/too-much-city-too-much-me",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-30",
+    "title": "Respect Without Martyrdom",
+    "subtitle": "Respect without agreement",
+    "slug": "respect-without-martyrdom",
+    "description": "Civic maturity requires holding disagreement without dehumanization and refusing to let violence redefine the terms of public life.",
+    "tags": [
+      "Civic Systems",
+      "Politics",
+      "Power"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/respect-without-martyrdom.png",
+    "heroAlt": "A lone figure standing before a distant civic skyline with scattered people in the foreground",
+    "url": "https://amidthenoise.com/writing/respect-without-martyrdom",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-09-30",
+    "title": "The Day the End Began for AOL",
+    "subtitle": "When protecting the present killed the future",
+    "slug": "the-day-the-end-began-for-aol",
+    "description": "Companies rarely fail from a lack of resources. They fail when they protect the current model instead of investing in what replaces it.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Leadership"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-day-the-end-began-for-aol.png",
+    "heroAlt": "A crowd gathered on a corporate lawn near a large dinosaur statue with a dial-up modem in the foreground",
+    "url": "https://amidthenoise.com/writing/the-day-the-end-began-for-aol",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-02",
+    "title": "Walking Through a Reset",
+    "subtitle": "A season turning, quietly",
+    "slug": "walking-through-a-reset",
+    "description": "A light drizzle over a campus in motion reframes the day. Renewal shows up as continuity, carried in how people move, learn, and begin again.",
+    "tags": [
+      "Reflection",
+      "Presence",
+      "Renewal"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/2025-10-01.jpg",
+    "heroAlt": "walking through a rainy campus",
+    "url": "https://amidthenoise.com/writing/walking-through-a-reset",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-02",
+    "title": "When We Rob Moments of Their Weight",
+    "subtitle": "Naming without anesthesia",
+    "slug": "when-we-rob-moments-of-their-weight",
+    "description": "Euphemism does not just soften language. It reshapes reality. This piece traces how institutions, recovery culture, and personal identity use language to reduce weight, and why truth requires precision.",
+    "tags": [
+      "Signal",
+      "Language",
+      "Civic Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-we-rob-moments-of-their-weight.png",
+    "heroAlt": "A person standing at a crossroads between two signs representing softened language and plain truth",
+    "url": "https://amidthenoise.com/writing/when-we-rob-moments-of-their-weight",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-03",
+    "title": "Turning Toward What Holds",
+    "subtitle": "Alignment over comfort",
+    "slug": "turning-toward-what-holds",
+    "description": "Self-deception builds quietly, then breaks all at once. A reflection on truth, discipline, and the cost of staying aligned with what holds.",
+    "tags": [
+      "Reflection",
+      "Clarity",
+      "Alignment"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/2025-10-03.jpg",
+    "heroAlt": "autumn walking path",
+    "url": "https://amidthenoise.com/writing/turning-toward-what-holds",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-04",
+    "title": "Blackjack",
+    "subtitle": "What we risk when we stay",
+    "slug": "blackjack",
+    "description": "Every moment we stay is another hand played, and another chance to walk away.",
+    "tags": [
+      "Reflection",
+      "Recovery",
+      "Poetry"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/blackjack.png",
+    "heroAlt": "Two playing cards resting on a pale surface in a minimalist composition",
+    "url": "https://amidthenoise.com/writing/blackjack",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-04",
+    "title": "The Examined Life",
+    "subtitle": "Looking without escape",
+    "slug": "the-examined-life",
+    "description": "Examination is not abstract. It is a daily practice of noticing, naming, and refusing to look away from what is true.",
+    "tags": [
+      "Reflection",
+      "Philosophy",
+      "Recovery"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-examined-life.png",
+    "heroAlt": "A person sitting quietly by still water facing a faint, distant structure in a pale landscape",
+    "url": "https://amidthenoise.com/writing/the-examined-life",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-05",
+    "title": "Nevertheless, I Persist",
+    "subtitle": "Refusing the story written for you",
+    "slug": "nevertheless-i-persist",
+    "description": "Persistence is not about proving others wrong. It is about refusing to surrender to the story others assign to you and continuing anyway.",
+    "tags": [
+      "Reflection",
+      "Recovery",
+      "Identity"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/nevertheless-i-persist.png",
+    "heroAlt": "A solitary figure standing calmly while a blurred crowd gestures and shouts behind him",
+    "url": "https://amidthenoise.com/writing/nevertheless-i-persist",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-07",
+    "title": "Majority Rule Isn’t Democracy",
+    "subtitle": "When gerrymandering becomes bipartisan betrayal",
+    "slug": "majority-rule-isnt-democracy",
+    "description": "Democracy is not defined by who wins, but by whether the process preserves representation for those who lose.",
+    "tags": [
+      "Civic Systems",
+      "Politics",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/majority-rule-isnt-democracy.png",
+    "heroAlt": "A hand drawing distorted district lines across a muted map of the United States",
+    "url": "https://amidthenoise.com/writing/majority-rule-isnt-democracy",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-09",
+    "title": "The Dopamine of Dialogue",
+    "subtitle": "Curiosity as a creative environment",
+    "slug": "the-dopamine-of-dialogue",
+    "description": "Creativity depends on environment. When ideas are met with curiosity instead of dismissal, exploration expands and confidence follows.",
+    "tags": [
+      "Signal",
+      "Reflection",
+      "Creativity"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-dopamine-of-dialogue.png",
+    "heroAlt": "A typewriter with soft branching lines of light rising upward in a minimalist composition",
+    "url": "https://amidthenoise.com/writing/the-dopamine-of-dialogue",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-10",
+    "title": "The House of Many Doorknobs",
+    "subtitle": "Marking progress you can touch",
+    "slug": "the-house-of-many-doorknobs",
+    "description": "Success rarely arrives all at once. This piece traces a simple ritual that turns small wins into something visible, durable, and worth remembering.",
+    "tags": [
+      "Reflection",
+      "Persistence",
+      "Writing"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/2025-10-09.jpg",
+    "heroAlt": "autumn walking path",
+    "url": "https://amidthenoise.com/writing/the-house-of-many-doorknobs",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-12",
+    "title": "Lunch with the Mayor",
+    "subtitle": "Presence recognizes presence",
+    "slug": "lunch-with-the-mayor",
+    "description": "An unexpected lunch becomes a conversation about identity, visibility, and what it means to become someone the room can recognize.",
+    "tags": [
+      "Reflection",
+      "Presence",
+      "Identity"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/lunch-with-the-mayor.jpg",
+    "heroAlt": "Le Central in San Francisco, CA",
+    "url": "https://amidthenoise.com/writing/lunch-with-the-mayor",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-13",
+    "title": "52",
+    "subtitle": "What I’ve learned about truth, trust, and becoming real.",
+    "slug": "52",
+    "description": "Clarity settles over time. Fifty-two lessons on truth, trust, and becoming real.",
+    "tags": [
+      "Reflection",
+      "Recovery"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/52.png",
+    "heroAlt": "A solitary figure standing on a cliff overlooking a calm, hazy landscape at sunrise",
+    "url": "https://amidthenoise.com/writing/52",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-14",
+    "title": "Let Them Shine",
+    "subtitle": "Joy doesn’t need correction",
+    "slug": "let-them-shine",
+    "description": "Joy doesn’t require understanding to be respected. A reflection on allowing others to exist without correction and the dignity of unfiltered expression.",
+    "tags": [
+      "Reflection",
+      "Relationships",
+      "Empathy"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/let-them-shine.jpg",
+    "heroAlt": "An empty park bench at sunrise, bathed in warm light with a quiet path leading forward",
+    "url": "https://amidthenoise.com/writing/let-them-shine",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-14",
+    "title": "Radiance and the Stars",
+    "subtitle": "Circulation is survival",
+    "slug": "radiance-and-the-stars",
+    "description": "From cities to civilizations, systems survive by circulating what they generate. Concentration creates brilliance. Circulation creates continuity.",
+    "tags": [
+      "Civic Systems",
+      "Systems Thinking",
+      "Theory"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/radiance-and-the-stars.png",
+    "heroAlt": "A soft arc of light flowing from a dense cluster into branching paths and fading into a sparse field",
+    "url": "https://amidthenoise.com/writing/radiance-and-the-stars",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-18",
+    "title": "The Air Jordan Paradox",
+    "subtitle": "Signal, story, and what we carry",
+    "slug": "the-air-jordan-paradox",
+    "description": "What we wear is not just style. It is signal, identity, and memory, often revealing more about where someone is than where they say they’re going.",
+    "tags": [
+      "Reflection",
+      "Relationships",
+      "Signal"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-air-jordan-paradox.png",
+    "heroAlt": "A pair of brown Chelsea boots facing red and white sneakers on a soft reflective surface",
+    "url": "https://amidthenoise.com/writing/the-air-jordan-paradox",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-19",
+    "title": "The Physics of Stillness",
+    "subtitle": "Equilibrium, not absence",
+    "slug": "the-physics-of-stillness",
+    "description": "Stillness is not the absence of motion. It is motion held in balance. A reflection on equilibrium, perception, and the quiet geometry of constant movement.",
+    "tags": [
+      "Signal",
+      "Science",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-physics-of-stillness.jpg",
+    "heroAlt": "A solitary figure illuminated by a phone under a star-filled night sky, suggesting quiet contemplation within vast motion",
+    "url": "https://amidthenoise.com/writing/the-physics-of-stillness",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-19",
+    "title": "The Porch With Two Doors",
+    "subtitle": "Return without permission",
+    "slug": "the-porch-with-two-doors",
+    "description": "Home is not a place you enter. It is the moment you recognize yourself and no longer need to ask to stay.",
+    "tags": [
+      "Reflection",
+      "Belonging",
+      "Poetry"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-porch-with-two-doors.png",
+    "heroAlt": "A warmly lit porch with two front doors side by side at night",
+    "url": "https://amidthenoise.com/writing/the-porch-with-two-doors",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-20",
+    "title": "Bodega Run",
+    "subtitle": "Where a city remembers itself",
+    "slug": "bodega-run",
+    "description": "Ritual turns a corner store into a neighborhood pulse. A reflection on how small places hold memory, connection, and continuity in a city.",
+    "tags": [
+      "Reflection",
+      "Place",
+      "Memory"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/bodega-run.jpg",
+    "heroAlt": "A corner bodega at dusk with people gathered outside, warm light spilling onto the street and sunflowers by the entrance",
+    "url": "https://amidthenoise.com/writing/bodega-run",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-22",
+    "title": "From One of Love’s Slower Learners",
+    "subtitle": "Timing refuses instruction",
+    "slug": "from-one-of-loves-slower-learners",
+    "description": "Love resists optimization. A reflection on patience, timing, and the quiet absurdity of trying to understand what can only be lived.",
+    "tags": [
+      "Reflection",
+      "Relationships"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/from-one-of-loves-slower-learners.jpg",
+    "heroAlt": "An empty park bench beside a softly glowing lamppost in a misty autumn setting",
+    "url": "https://amidthenoise.com/writing/from-one-of-loves-slower-learners",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-25",
+    "title": "You Don’t Fix Democracy by Breaking It",
+    "subtitle": "Process as the safeguard",
+    "slug": "you-dont-fix-democracy-by-breaking-it",
+    "description": "Efforts to correct unfairness by manipulating process undermine the system itself. This piece examines why integrity in governance must hold, even under pressure.",
+    "tags": [
+      "Civic Systems",
+      "Governance",
+      "Signal"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/you-dont-fix-democracy-by-breaking-it.png",
+    "heroAlt": "A hand holding a pen poised over a map, about to redraw a boundary line",
+    "url": "https://amidthenoise.com/writing/you-dont-fix-democracy-by-breaking-it",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-26",
+    "title": "The Pool & the Fence",
+    "subtitle": "Belonging and Babel",
+    "slug": "the-pool-and-the-fence",
+    "description": "What divides us is rarely distance. It is the language we use to describe where we stand, and who gets to understand it.",
+    "tags": [
+      "Civic Systems",
+      "Language",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-pool-and-the-fence.png",
+    "heroAlt": "Two adjacent pools divided by a wooden fence, one worn and muted, the other clean and minimal",
+    "url": "https://amidthenoise.com/writing/the-pool-and-the-fence",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-26",
+    "title": "The Well I Poured From",
+    "subtitle": "Clarity without revision",
+    "slug": "the-well-i-poured-from",
+    "description": "Clarity does not repair what broke. It names it. A reflection on recognition, reciprocity, and leaving what cannot return you.",
+    "tags": [
+      "Recovery",
+      "Reflection",
+      "Relationships"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-well-i-poured-from.png",
+    "heroAlt": "A stone well with faint light rising as a lone figure walks away into a pale landscape",
+    "url": "https://amidthenoise.com/writing/the-well-i-poured-from",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-10-27",
+    "title": "The Privilege of Perspective",
+    "subtitle": "Stability makes the future visible",
+    "slug": "the-privilege-of-perspective",
+    "description": "Perspective is not a trait. It is a condition. When survival pressure lifts, the mind regains the ability to think beyond the present.",
+    "tags": [
+      "Civic Systems",
+      "Reflection",
+      "Growth"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-privilege-of-perspective.png",
+    "heroAlt": "A lone figure standing near a fence dividing two quiet poolside spaces",
+    "url": "https://amidthenoise.com/writing/the-privilege-of-perspective",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-02",
+    "title": "The Unavoidable Ugliness of Policy Inertia",
+    "subtitle": "When systems protect themselves",
+    "slug": "the-unavoidable-ugliness-of-policy-inertia",
+    "description": "Policy inertia is not delay. It is architecture, feedback loops that preserve familiar failure over uncertain reform.",
+    "tags": [
+      "Civic Systems",
+      "Governance",
+      "Signal"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-unavoidable-ugliness-of-policy-inertia.png",
+    "heroAlt": "Pre-dawn street in San Francisco’s Tenderloin, dim and quiet before sunrise, with wet pavement and faint artificial light suggesting motion without progress",
+    "url": "https://amidthenoise.com/writing/the-unavoidable-ugliness-of-policy-inertia",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-03",
+    "title": "The Slow Death of Interest",
+    "subtitle": "Indifference arrives quietly",
+    "slug": "the-slow-death-of-interest",
+    "description": "Connection rarely ends in conflict. It fades through routine, distance, and the gradual loss of curiosity that once made presence feel alive.",
+    "tags": [
+      "Reflection",
+      "Relationships",
+      "Clarity"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-slow-death-of-interest.jpg",
+    "heroAlt": "A cup of coffee on a table beside a rain-speckled window, with blurred figures passing outside",
+    "url": "https://amidthenoise.com/writing/the-slow-death-of-interest",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-06",
+    "title": "From Collapse to Construction",
+    "subtitle": "From rescue to systems that hold",
+    "slug": "from-collapse-to-construction",
+    "description": "Empathy without boundaries collapses. A reflection on moving from rescuing individuals to building systems that protect everyone, including yourself.",
+    "tags": [
+      "Civic Systems",
+      "Agency",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/from-collapse-to-construction.jpg",
+    "heroAlt": "A solitary figure crossing an empty city street at sunrise, skyline silhouetted in warm light",
+    "url": "https://amidthenoise.com/writing/from-collapse-to-construction",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-06",
+    "title": "The Architecture of Scarcity",
+    "subtitle": "What reconstruction teaches that stability forgets",
+    "slug": "the-architecture-of-scarcity",
+    "description": "Nations that rebuild carry memory in their infrastructure. Those that do not risk mistaking stability for strength.",
+    "tags": [
+      "Civic Systems",
+      "History",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-architecture-of-scarcity.png",
+    "heroAlt": "A foggy canal lined with modest homes on one side and damaged buildings on the other",
+    "url": "https://amidthenoise.com/writing/the-architecture-of-scarcity",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-06",
+    "title": "The City That Finally Learned to Move",
+    "subtitle": "Flow instead of fight",
+    "slug": "the-city-that-finally-learned-to-move",
+    "description": "The city didn’t change. My relationship to it did. A reflection on moving with a system rather than against it.",
+    "tags": [
+      "Reflection",
+      "Growth",
+      "Place"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-city-that-finally-learned-to-move.png",
+    "heroAlt": "Two trains resting on parallel tracks in a quiet, softly lit station",
+    "url": "https://amidthenoise.com/writing/the-city-that-finally-learned-to-move",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-07",
+    "title": "The Ocean Connects Us",
+    "subtitle": "Continuity without contact",
+    "slug": "the-ocean-connects-us",
+    "description": "The ocean carries memory without intention. A reflection on tide, time, and the quiet continuity that binds distant lives.",
+    "tags": [
+      "Reflection",
+      "Memory",
+      "Travel"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/the-ocean-connects-us.jpg",
+    "heroAlt": "A rocky beach in Antibes under a cloudy sky, with waves rolling in and a lone figure walking along the shoreline",
+    "url": "https://amidthenoise.com/writing/the-ocean-connects-us",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-08",
+    "title": "A Visitor from Elsewhere",
+    "subtitle": "What interstellar motion reveals about systems that don’t belong",
+    "slug": "a-visitor-from-elsewhere",
+    "description": "Interstellar objects don’t orbit. They pass through. A reflection on orbital geometry, belonging, and what systems reveal when something doesn’t fit.",
+    "tags": [
+      "Signal",
+      "Systems Thinking"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/a-visitor-from-elsewhere.jpg",
+    "heroAlt": "A glowing interstellar object streaking across space on a hyperbolic trajectory, passing through a star system before disappearing into the dark",
+    "url": "https://amidthenoise.com/writing/a-visitor-from-elsewhere",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-09",
+    "title": "The Subtle Art of Beginning Again",
+    "subtitle": "Awareness as the starting line",
+    "slug": "the-subtle-art-of-beginning-again",
+    "description": "Beginnings rarely look like motion. They look like recognition. A reflection on awareness, renewal, and evolving without starting over.",
+    "tags": [
+      "Reflection",
+      "Growth",
+      "Clarity"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-subtle-art-of-beginning-again.jpg",
+    "heroAlt": "A handwritten letter on a wooden desk beside a fountain pen and a softly lit lamp, suggesting reflection, clarity, and quiet renewal",
+    "url": "https://amidthenoise.com/writing/the-subtle-art-of-beginning-again",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-11",
+    "title": "Waking Into the World",
+    "subtitle": "Renewal without reset",
+    "slug": "waking-into-the-world",
+    "description": "Each day offers continuity, not reinvention. A reflection on attention, agency, and the quiet discipline of choosing what to carry forward.",
+    "tags": [
+      "Reflection",
+      "Agency",
+      "Presence"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/waking-into-the-world.jpg",
+    "heroAlt": "A quiet city street at dawn, freshly washed, with warm light spilling from storefront windows as someone cleans the sidewalk",
+    "url": "https://amidthenoise.com/writing/waking-into-the-world",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-16",
+    "title": "Fractured Grace",
+    "subtitle": "The weight we carry, chosen and not",
+    "slug": "fractured-grace",
+    "description": "Empathy becomes clearer when you see both sides of responsibility. A reflection on inherited burden, chosen captivity, and the discipline of staying awake.",
+    "tags": [
+      "Reflection",
+      "Empathy",
+      "Responsibility"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/fractured-grace.jpg",
+    "heroAlt": "A quiet city street at sunrise, long shadows stretching across the sidewalk, suggesting solitude, reflection, and forward motion",
+    "url": "https://amidthenoise.com/writing/fractured-grace",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-17",
+    "title": "Finding the Line",
+    "subtitle": "Where alignment replaces negotiation",
+    "slug": "finding-the-line",
+    "description": "Direction is not a plan. It is alignment. A reflection on recognizing what holds and moving without internal resistance.",
+    "tags": [
+      "Reflection",
+      "Agency"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/finding-the-line.jpg",
+    "heroAlt": "A quiet river at golden hour, a single vessel moving forward through still water toward an open horizon",
+    "url": "https://amidthenoise.com/writing/finding-the-line",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-18",
+    "title": "The Twelve Phrases of Emotional Immaturity",
+    "subtitle": "Language reveals the pattern",
+    "slug": "the-twelve-phrases-of-emotional-immaturity",
+    "description": "Emotional immaturity reveals itself in language long before it reveals itself in behavior. These phrases signal how someone manages accountability, discomfort, and connection.",
+    "tags": [
+      "Reflection",
+      "Relationships",
+      "Psychology"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-twelve-phrases-of-emotional-immaturity.png",
+    "heroAlt": "An empty playground with swings at dusk, quiet and still",
+    "url": "https://amidthenoise.com/writing/the-twelve-phrases-of-emotional-immaturity",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-20",
+    "title": "Learning From the Outside In",
+    "subtitle": "Capability starts at the threshold",
+    "slug": "learning-from-the-outside-in",
+    "description": "Capability isn’t given. It’s entered. A reflection on learning, access, and the moment unfamiliar becomes possible.",
+    "tags": [
+      "Reflection",
+      "Growth",
+      "Learning"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/learning-from-the-outside-in.png",
+    "heroAlt": "A soft watercolor skyline seen through a window, with a quiet interior in the foreground",
+    "url": "https://amidthenoise.com/writing/learning-from-the-outside-in",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-21",
+    "title": "Ambition, With Better Manners",
+    "subtitle": "Restraint as a form of direction",
+    "slug": "ambition-with-better-manners",
+    "description": "Ambition can refine purpose or replace it. A reflection on restraint, direction, and the difference between building and performing.",
+    "tags": [
+      "Reflection",
+      "Leadership"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/ambition-with-better-manners.jpg",
+    "heroAlt": "A neatly arranged set of silverware in a velvet-lined box, suggesting order, restraint, and quiet refinement",
+    "url": "https://amidthenoise.com/writing/ambition-with-better-manners",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-23",
+    "title": "Triptych for Thanksgiving",
+    "subtitle": "Three light verses for a heavy table",
+    "slug": "triptych-for-thanksgiving",
+    "description": "A modern triptych of limericks for the Thanksgiving table, holding tension lightly without pretending it isn’t there.",
+    "tags": [
+      "Culture",
+      "Humor",
+      "Reflection"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/triptych-for-thanksgiving.jpg",
+    "heroAlt": "Autumn table centerpiece with pumpkins, candles, and fall leaves arranged for Thanksgiving",
+    "url": "https://amidthenoise.com/writing/triptych-for-thanksgiving",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-26",
+    "title": "Bathyal Line",
+    "subtitle": "Where pressure clarifies",
+    "slug": "bathyal-line",
+    "description": "Pressure reveals shape. A reflection on depth, silence, and the quiet intelligence learned beneath the surface.",
+    "tags": [
+      "Reflection",
+      "Systems Thinking"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/bathyal-line.jpg",
+    "heroAlt": "Child standing before a large aquarium window looking into deep blue water with kelp rising upward",
+    "url": "https://amidthenoise.com/writing/bathyal-line",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-26",
+    "title": "Seven Months",
+    "subtitle": "Momentum built quietly",
+    "slug": "seven-months",
+    "description": "Recovery compounds through small, consistent choices. Clarity returns first, then direction, then momentum.",
+    "tags": [
+      "Reflection",
+      "Recovery",
+      "Momentum"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/seven-months.jpg",
+    "heroAlt": "Quiet train platform at sunrise with long shadows and a distant light at the end of the tracks",
+    "url": "https://amidthenoise.com/writing/seven-months",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-11-27",
+    "title": "Seven Things I’m Thankful For",
+    "subtitle": "Gratitude as orientation",
+    "slug": "seven-things-i-am-thankful-for-this-year",
+    "description": "Gratitude clarifies direction. A reflection on what holds, what compounds, and what continues to shape the path forward.",
+    "tags": [
+      "Reflection",
+      "Growth",
+      "Gratitude"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/seven-things-i-am-thankful-for-this-year.jpg",
+    "heroAlt": "Sunlit colonnade with long shadows leading through an arched passage into a park",
+    "url": "https://amidthenoise.com/writing/seven-things-i-am-thankful-for-this-year",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-02",
+    "title": "Some Days the Truth Is Heavier",
+    "subtitle": "When neglect becomes visible",
+    "slug": "some-days-the-truth-is-heavier",
+    "description": "Public cruelty rarely appears in isolation. It emerges from systems left unattended long enough for indifference to take hold.",
+    "tags": [
+      "Civic Systems",
+      "Dignity",
+      "Power"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/some-days-the-truth-is-heavier.jpg",
+    "heroAlt": "Empty subway platform with a person sleeping on a bench as a train passes",
+    "url": "https://amidthenoise.com/writing/some-days-the-truth-is-heavier",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-04",
+    "title": "Clarity Is a Civic Function",
+    "subtitle": "Understanding infrastructure without distortion",
+    "slug": "clarity-is-a-civic-function",
+    "description": "Misunderstanding infrastructure creates risk. The systems don’t change, only the language used to describe them.",
+    "tags": [
+      "Civic Systems",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/clarity-is-a-civic-function.jpg",
+    "heroAlt": "Modern data center building at dusk with cooling systems visible on the exterior",
+    "url": "https://amidthenoise.com/writing/clarity-is-a-civic-function",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-04",
+    "title": "No Metaphor",
+    "subtitle": "Clarity without performance",
+    "slug": "no-metaphor",
+    "description": "Clarity is not something you describe. It is something you live. A reflection on presence, honesty, and the cost of performing understanding.",
+    "tags": [
+      "Reflection",
+      "Presence",
+      "Clarity"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/no-metaphor.jpg",
+    "heroAlt": "Sunrise over a suspension bridge, casting direct light across calm water",
+    "url": "https://amidthenoise.com/writing/no-metaphor",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-08",
+    "title": "The Truth About Santa",
+    "subtitle": "A practice, not a person",
+    "slug": "the-truth-about-santa",
+    "description": "Santa is not a myth to outgrow. It is a practice to carry forward. A reflection on generosity without recognition and the quiet discipline of giving.",
+    "tags": [
+      "Reflection",
+      "Generosity",
+      "Civic Systems"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-truth-about-santa.jpg",
+    "heroAlt": "Ornate red velvet chair beside a decorated Christmas tree in a grand hall, suggesting the presence of Santa as an idea rather than a person",
+    "url": "https://amidthenoise.com/writing/the-truth-about-santa",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-15",
+    "title": "Astronaut, Not Astronomer",
+    "subtitle": "When instinct outlives the path",
+    "slug": "astronaut-not-astronomer",
+    "description": "A path toward physics closed, but the instinct to engage systems directly remained. The tools changed. The orientation did not.",
+    "tags": [
+      "Reflection",
+      "Trajectory"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/astronaut-not-astronomer.jpg",
+    "heroAlt": "Modernist research facility set against wooded hills at dusk, with contrails overhead suggesting paths once imagined",
+    "url": "https://amidthenoise.com/writing/astronaut-not-astronomer",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-18",
+    "title": "The Civic Threshold",
+    "subtitle": "Signals of strain, paths to repair",
+    "slug": "the-civic-threshold",
+    "description": "Systems rarely fail at once. They drift through infrastructure decay, misaligned incentives, and eroding memory, then recover through deliberate maintenance and aligned purpose.",
+    "tags": [
+      "Civic Systems",
+      "Systems Thinking",
+      "Policy"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-civic-threshold.png",
+    "heroAlt": "An aging freight train on weathered tracks near a hazy industrial skyline",
+    "url": "https://amidthenoise.com/writing/the-civic-threshold",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-18",
+    "title": "The Cursive Q",
+    "subtitle": "What disappears without failing",
+    "slug": "the-cursive-q",
+    "description": "Some things do not break or improve. They drift out of use. A reflection on memory, transmission, and the quiet loss of what is no longer carried forward.",
+    "tags": [
+      "Reflection",
+      "Memory",
+      "Change"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-cursive-q.jpg",
+    "heroAlt": "Black-and-white photo of two vintage transit vehicles side by side, one reading 'I Start Sunday' and the other 'I Quit Tomorrow,' suggesting the quiet deferral of change",
+    "url": "https://amidthenoise.com/writing/the-cursive-q",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-21",
+    "title": "Choosing the Epoch",
+    "subtitle": "Where we decide to start counting",
+    "slug": "choosing-the-epoch",
+    "description": "An epoch is a chosen beginning. A reflection on authorship, starting points, and measuring from the moment that actually explains the present.",
+    "tags": [
+      "Reflection",
+      "Time"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/choosing-the-epoch.jpg",
+    "heroAlt": "A runway stretching toward the horizon at sunrise, lights guiding a clear point of departure.",
+    "url": "https://amidthenoise.com/writing/choosing-the-epoch",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-23",
+    "title": "The Story That Almost Cost Me My Life",
+    "subtitle": "Addiction’s most dangerous grip is the story it tells",
+    "slug": "the-story-that-almost-cost-me-my-life",
+    "description": "Addiction sustains itself through narrative, making collapse feel survivable and repetition feel inevitable. Recovery begins when that story breaks.",
+    "tags": [
+      "Recovery",
+      "Signal",
+      "Identity"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-story-that-almost-cost-me-my-life.png",
+    "heroAlt": "Dimly lit path with a subtle divide, suggesting a turning point between repetition and clarity",
+    "url": "https://amidthenoise.com/writing/the-story-that-almost-cost-me-my-life",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-24",
+    "title": "Christmas Eve, As I Learned It",
+    "subtitle": "Gratitude without spectacle",
+    "slug": "christmas-eve-as-i-learned-it",
+    "description": "A disciplined form of gratitude shaped by scarcity and inheritance, where presence matters more than abundance.",
+    "tags": [
+      "Reflection",
+      "Holiday",
+      "Gratitude"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/christmas-eve-as-i-learned-it.jpg",
+    "heroAlt": "A simple holiday arrangement of fruit, nuts, and wrapped candy spilling from a brown paper bag on a wooden table, lit by warm Christmas lights.",
+    "url": "https://amidthenoise.com/writing/christmas-eve-as-i-learned-it",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-25",
+    "title": "A Very Grinchy Aftermath",
+    "subtitle": "",
+    "slug": "a-very-grinchy-aftermath",
+    "description": "A holiday poem about expectation, indulgence, and what gets left behind.",
+    "tags": [
+      "Reflection",
+      "Poetry",
+      "Holiday"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/a-very-grinchy-aftermath.jpg",
+    "heroAlt": "A glass bowl filled with bright green candy on a holiday table surrounded by pine branches and wrapped gifts.",
+    "url": "https://amidthenoise.com/writing/a-very-grinchy-aftermath",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-28",
+    "title": "Eight Months. No Applause.",
+    "subtitle": "Learning the difference between stopping and staying",
+    "slug": "eight-months-no-applause",
+    "description": "Sobriety is not the hard part. Longevity is. The difference is not discipline. It is participation.",
+    "tags": [
+      "Reflection",
+      "Recovery",
+      "Systems Thinking"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/eight-months-no-applause.png",
+    "heroAlt": "A quiet minimalist room with a chair and table in soft morning light",
+    "url": "https://amidthenoise.com/writing/eight-months-no-applause",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2025-12-28",
+    "title": "The Scene That Names the Drift",
+    "subtitle": "Recognition before admission",
+    "slug": "the-scene-that-names-the-drift",
+    "description": "A quiet moment in Star Trek Beyond reveals how drift is often seen by others before we name it ourselves, and how recognition can become a turning point rather than a judgment.",
+    "tags": [
+      "Signal",
+      "Leadership",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-scene-that-names-the-drift.png",
+    "heroAlt": "Two silhouetted figures seated across a table in quiet conversation, with a soft cityscape beyond a wide window",
+    "url": "https://amidthenoise.com/writing/the-scene-that-names-the-drift",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-06",
+    "title": "The Quiet Collapse of the War Threshold",
+    "subtitle": "When escalation becomes ambient",
+    "slug": "the-quiet-collapse-of-the-war-threshold",
+    "description": "Conflict is no longer defined by clear lines. It emerges through normalization, habituation, and AI-mediated systems that move action upstream while diffusing responsibility downstream.",
+    "tags": [
+      "Signal",
+      "Governance",
+      "National Security"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-quiet-collapse-of-the-war-threshold.png",
+    "heroAlt": "Minimal horizon with a faint dividing line, suggesting the erosion of boundaries and thresholds",
+    "url": "https://amidthenoise.com/writing/the-quiet-collapse-of-the-war-threshold",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-13",
+    "title": "Subtraction",
+    "subtitle": "Precision through removal",
+    "slug": "subtraction",
+    "description": "Growth does not always come from adding more. It comes from removing what no longer holds and allowing what remains to sharpen.",
+    "tags": [
+      "Reflection",
+      "Clarity",
+      "Growth"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/subtraction.jpg",
+    "heroAlt": "A calm waterfront city at sunset with boats at a dock, warm light fading into open sky, suggesting reflection and reduction.",
+    "url": "https://amidthenoise.com/writing/subtraction",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-15",
+    "title": "The Hardest Job",
+    "subtitle": "Waiting without abandoning yourself",
+    "slug": "the-hardest-job",
+    "description": "Searching for work becomes a test of identity. A reflection on patience, alignment, and trusting timing without performing urgency.",
+    "tags": [
+      "Reflection",
+      "Work",
+      "Transition"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-hardest-job.jpg",
+    "heroAlt": "A quiet city pier at dusk with empty benches and warm lights leading toward the skyline, suggesting patience and forward movement.",
+    "url": "https://amidthenoise.com/writing/the-hardest-job",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-15",
+    "title": "When Choice Isn’t Freedom",
+    "subtitle": "Choice as a screening mechanism",
+    "slug": "when-choice-isnt-freedom",
+    "description": "What we call user choice often functions as a filter. The most capable advance. The most vulnerable disappear. This piece reframes accessibility as a question of power, not preference.",
+    "tags": [
+      "Civic Systems",
+      "UX",
+      "Signal"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-choice-isnt-freedom.png",
+    "heroAlt": "A minimalist architectural space with a distant figure framed by layered doorways and soft light",
+    "url": "https://amidthenoise.com/writing/when-choice-isnt-freedom",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-17",
+    "title": "Clarity Sorts",
+    "subtitle": "What remains when you stop negotiating",
+    "slug": "clarity-sorts",
+    "description": "Clarity changes relationships. A reflection on growth, boundaries, and what falls away when alignment replaces approval.",
+    "tags": [
+      "Reflection",
+      "Growth",
+      "Boundaries"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/clarity-sorts.jpg",
+    "heroAlt": "A black and white portrait of a man leaning on a wooden fence, looking out over an open landscape in quiet contemplation.",
+    "url": "https://amidthenoise.com/writing/clarity-sorts",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-18",
+    "title": "On Being Told We Should Have Learned",
+    "subtitle": "When language normalizes harm",
+    "slug": "on-being-told-we-should-have-learned",
+    "description": "Moral drift rarely announces itself. It arrives in calm sentences, delivered without urgency, until implication replaces command.",
+    "tags": [
+      "Civic Systems",
+      "Power",
+      "Language"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/on-being-told-we-should-have-learned.png",
+    "heroAlt": "A minimalist pale landscape with a wall casting a long shadow and faint quotation marks",
+    "url": "https://amidthenoise.com/writing/on-being-told-we-should-have-learned",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-20",
+    "title": "Trust Is Not a Feature",
+    "subtitle": "Behavior defines belief",
+    "slug": "trust-is-not-a-feature",
+    "description": "Trust is not added through messaging. It is inferred from how a system behaves under pressure, especially when users make mistakes or need to recover.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "UX"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/trust-is-not-a-feature.png",
+    "heroAlt": "A minimalist architectural composition with a sphere resting on a block, casting a soft shadow",
+    "url": "https://amidthenoise.com/writing/trust-is-not-a-feature",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-21",
+    "title": "The Real Danger",
+    "subtitle": "When distortion becomes ambient",
+    "slug": "the-real-danger",
+    "description": "Saturation flattens distinction. When lies become ambient, truth does not get refuted—it becomes unrecognizable.",
+    "tags": [
+      "Signal",
+      "Perception",
+      "Truth"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/the-real-danger",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-22",
+    "title": "Becoming the Edge Case",
+    "subtitle": "When the system no longer sees you",
+    "slug": "becoming-the-edge-case",
+    "description": "Systems rarely fail loudly. They exclude quietly. When you become the edge case, you see what the system was optimized to ignore.",
+    "tags": [
+      "Civic Systems",
+      "UX",
+      "Accessibility"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/becoming-the-edge-case.png",
+    "heroAlt": "A minimalist grid of blocks with one element misaligned near the edge and a solitary figure nearby",
+    "url": "https://amidthenoise.com/writing/becoming-the-edge-case",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-22",
+    "title": "Gumption",
+    "subtitle": "Trajectory over outcome",
+    "slug": "gumption",
+    "description": "Gumption is not force. It is systems awareness applied over time. A reflection on restraint, judgment, and choosing for trajectory rather than immediate result.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Judgment"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/gumption.jpg",
+    "heroAlt": "Vintage Las Vegas at night with glowing casino signs and traffic along the Strip, evoking energy, decision, and consequence over time.",
+    "url": "https://amidthenoise.com/writing/gumption",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-27",
+    "title": "Hard-Won Moment",
+    "subtitle": "The present is not neutral",
+    "slug": "hard-won-moment",
+    "description": "The present is not a default state. It is the result of accumulated effort, conflict, and survival. Recognizing that changes what we owe it.",
+    "tags": [
+      "Reflection",
+      "Responsibility",
+      "History"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/hard-won-moment.jpg",
+    "heroAlt": "A coastal town at dusk beneath an active volcano, smoke rising as lights begin to glow along the shoreline.",
+    "url": "https://amidthenoise.com/writing/hard-won-moment",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-27",
+    "title": "Operational Empathy",
+    "subtitle": "Friction is a design choice",
+    "slug": "operational-empathy",
+    "description": "Empathy is not a personality trait in system design. It is an operational choice that determines whether systems scale or collapse under their own friction.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "UX"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/operational-empathy.png",
+    "heroAlt": "A minimalist abstract system showing rigid angular paths on one side and smooth flowing curves on the other",
+    "url": "https://amidthenoise.com/writing/operational-empathy",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-01-29",
+    "title": "What I No Longer Optimize For",
+    "subtitle": "Refusal as design judgment",
+    "slug": "what-i-no-longer-optimize-for",
+    "description": "Maturity shows up in what you refuse to optimize. This piece reframes restraint, reversibility, and judgment as operational design choices rather than philosophical ones.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "UX"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/what-i-no-longer-optimize-for.png",
+    "heroAlt": "A minimalist stepped structure with a single cube placed near an empty outlined space, suggesting a deliberate decision not to complete the system",
+    "url": "https://amidthenoise.com/writing/what-i-no-longer-optimize-for",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-01",
+    "title": "Calibrated Generosity",
+    "subtitle": "Helping without removing agency",
+    "slug": "calibrated-generosity",
+    "description": "Generosity that removes effort can erode agency. A reflection on restraint, trust, and supporting growth without creating dependency.",
+    "tags": [
+      "Reflection",
+      "Agency"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/calibrated-generosity.jpg",
+    "heroAlt": "A rope ladder hanging in an empty space against a bare wall, suggesting support that must still be climbed.",
+    "url": "https://amidthenoise.com/writing/calibrated-generosity",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-03",
+    "title": "The Smell of Summer",
+    "subtitle": "Learning before language",
+    "slug": "the-smell-of-summer",
+    "description": "Some lessons arrive before they have names. A reflection on heat, risk, and the early environments that teach us how to move through the world.",
+    "tags": [
+      "Reflection",
+      "Memory",
+      "Growth"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-smell-of-summer.jpg",
+    "heroAlt": "A satellite view of Sunset Elementary in Altus, Oklahoma, showing the school buildings and playground where childhood memories took shape.",
+    "url": "https://amidthenoise.com/writing/the-smell-of-summer",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-03",
+    "title": "Toward a Human-Centered Intelligence Infrastructure",
+    "subtitle": "Governance as operational necessity",
+    "slug": "toward-a-human-centered-intelligence-infrastructure",
+    "description": "AI-enabled intelligence systems must be treated as governed infrastructure. This paper defines how accountability, auditability, and human direction become enforceable requirements under real-world conditions.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/toward-a-human-centered-intelligence-infrastructure",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-06",
+    "title": "In Praise of the Caboose",
+    "subtitle": "Someone has to watch the whole train",
+    "slug": "in-praise-of-the-caboose",
+    "description": "Progress prioritizes speed and arrival, but systems still require observation. A reflection on continuity, memory, and the role of noticing what remains attached.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Memory"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/in-praise-of-the-caboose.jpg",
+    "heroAlt": "A red caboose at the end of a freight train at sunset, with a conductor standing on the rear platform watching the tracks behind.",
+    "url": "https://amidthenoise.com/writing/in-praise-of-the-caboose",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-10",
+    "title": "Conserved Energy",
+    "subtitle": "Allocation over exhaustion",
+    "slug": "conserved-energy",
+    "description": "Energy is finite. A reflection on limits, attention, and choosing what actually deserves fuel.",
+    "tags": [
+      "Reflection",
+      "Presence",
+      "Recovery"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/conserved-energy.jpg",
+    "heroAlt": "A softly lit table with a warm lamp, a steaming mug, a closed book, and glasses, evoking rest and low-energy presence.",
+    "url": "https://amidthenoise.com/writing/conserved-energy",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-10",
+    "title": "Operational Empathy as Intelligence Capability",
+    "subtitle": "Context as an accuracy function",
+    "slug": "operational-empathy-as-intelligence-capability",
+    "description": "Empathy is not a moral overlay in intelligence systems. It is a structured capability for preserving context, reducing distortion, and improving decision accuracy under uncertainty.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/operational-empathy-as-intelligence-capability",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-15",
+    "title": "Atlantic Temper",
+    "subtitle": "Belonging here is practiced, not granted",
+    "slug": "atlantic-temper",
+    "description": "Boston does not grant belonging. It tests for it. A reflection on place, endurance, and the posture required to remain.",
+    "tags": [
+      "Reflection",
+      "Place",
+      "Endurance"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/atlantic-temper.png",
+    "heroAlt": "Sunrise over the Charles River with Boston skyline, warm light reflecting on water and a quiet riverside path",
+    "url": "https://amidthenoise.com/writing/atlantic-temper",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-15",
+    "title": "Designed to Fail, Excused by Scarcity",
+    "subtitle": "Scarcity as system behavior",
+    "slug": "designed-to-fail-excused-by-scarcity",
+    "description": "Scarcity in public systems is not a symptom of failure. It is an output of design. This paper reframes civic infrastructure through participation, dignity, and distributed capacity.",
+    "tags": [
+      "Civic Systems",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/designed-to-fail-excused-by-scarcity",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-15",
+    "title": "Just Enough to Cancel School",
+    "subtitle": "When interruption still felt like a gift",
+    "slug": "just-enough-to-cancel-school",
+    "description": "Small disruptions once felt like freedom. Perspective changes what interruption means, but the memory of it still holds.",
+    "tags": [
+      "Reflection",
+      "Memory"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/just-enough-to-cancel-school.jpg",
+    "heroAlt": "A quiet residential street at dawn with a light winter glaze reflecting soft morning light",
+    "url": "https://amidthenoise.com/writing/just-enough-to-cancel-school",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-16",
+    "title": "A Storm in the Bay",
+    "subtitle": "",
+    "slug": "a-storm-in-the-bay",
+    "description": "A brief stillness where even noise steps aside.",
+    "tags": [
+      "Reflection",
+      "Poetry"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/a-storm-in-the-bay.jpg",
+    "heroAlt": "A warm cup of coffee by a rain-streaked window overlooking a softly lit outdoor market, evoking calm within a passing storm.",
+    "url": "https://amidthenoise.com/writing/a-storm-in-the-bay",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-17",
+    "title": "The Civic Signal",
+    "subtitle": "Where the public becomes part of the system",
+    "slug": "the-civic-signal",
+    "description": "Intelligence systems do not observe neutral environments. They observe environments shaped by trust, perception, and participation. This paper defines how civic behavior becomes signal.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/the-civic-signal",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-22",
+    "title": "Residual Heat",
+    "subtitle": "Pull before it feels finished",
+    "slug": "residual-heat",
+    "description": "Timing asks for trust more than certainty. Leave heat on too long and you ruin it; pull too soon and you learn. The right moment rarely feels confident, just clear enough to act.",
+    "tags": [
+      "Reflection",
+      "Timing",
+      "Judgment"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/residual-heat.jpg",
+    "heroAlt": "a perfectly cooked frittata",
+    "url": "https://amidthenoise.com/writing/residual-heat",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-02-24",
+    "title": "Signal Integrity",
+    "subtitle": "Trust under adversarial conditions",
+    "slug": "signal-integrity",
+    "description": "AI amplifies both signal and distortion. This paper defines how governance detects drift, resists manipulation, and preserves alignment between data and reality under pressure.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/signal-integrity",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-03-03",
+    "title": "Designed Lives",
+    "subtitle": "What intelligence systems actually produce",
+    "slug": "designed-lives",
+    "description": "Intelligence systems are measured by accuracy and speed, but they produce something else: lived outcomes. This paper shows how governance, interpretation, and signal design shape human trajectories.",
+    "tags": [
+      "Civic Systems",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/designed-lives",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-03-10",
+    "title": "From Design to Decision",
+    "subtitle": "Where governed intelligence becomes operational",
+    "slug": "from-design-to-decision",
+    "description": "Human-governed intelligence systems do not succeed at the level of design. They succeed at the point of decision. This paper defines how governance becomes enforceable through workflows, metrics, and system behavior.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/from-design-to-decision",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-03-17",
+    "title": "Measuring Signal Integrity",
+    "subtitle": "What accuracy actually requires",
+    "slug": "measuring-signal-integrity",
+    "description": "Signal integrity is not inferred from output volume or speed. It is measured through error, drift, distortion, and alignment with reality over time.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Metrics"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/measuring-signal-integrity",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-03-18",
+    "title": "Borrowing From the Future",
+    "subtitle": "Living ahead of yourself",
+    "slug": "borrowing-from-the-future",
+    "description": "Living ahead of yourself turns the present into a holding pen. A reflection on returning attention to where your feet are.",
+    "tags": [
+      "Reflection",
+      "Presence"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/borrowing-from-the-future.jpg",
+    "heroAlt": "A quiet room filled with neatly stacked moving boxes, suggesting transition, anticipation, and an unsettled future.",
+    "url": "https://amidthenoise.com/writing/borrowing-from-the-future",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-03-24",
+    "title": "Designing Analyst Workflows",
+    "subtitle": "Where intelligence decisions actually happen",
+    "slug": "designing-analyst-workflows",
+    "description": "Intelligence systems are experienced through workflows. This paper defines how structure, friction, and signal presentation determine decision accuracy in AI-mediated environments.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Workflows"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/designing-analyst-workflows",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-03-24",
+    "title": "Drift Under Load",
+    "subtitle": "When stability erodes quietly",
+    "slug": "drift-under-load",
+    "description": "Drift is not always a choice. It can be a mechanical response to sustained instability, fatigue, and the loss of margin.",
+    "tags": [
+      "Reflection",
+      "Recovery",
+      "Stability"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/drift-under-load.png",
+    "heroAlt": "Empty residential street at golden hour, quiet and still, suggesting pause, distance, and slow return",
+    "url": "https://amidthenoise.com/writing/drift-under-load",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-03-31",
+    "title": "System Architecture for Governed Intelligence",
+    "subtitle": "Where governance becomes enforceable",
+    "slug": "system-architecture-for-governed-intelligence",
+    "description": "Governance does not live in policy alone. It lives in architecture. This paper defines how auditability, control, and signal integrity are enforced at the system level.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/system-architecture-for-governed-intelligence",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-05",
+    "title": "I Didn’t Climb the Ladder. I Followed the Signal.",
+    "subtitle": "Progression as exposure to consequence",
+    "slug": "i-didnt-climb-the-ladder-i-followed-the-signal",
+    "description": "Progression is not hierarchy. It is exposure to systems where decisions carry consequence under uncertainty.",
+    "tags": [
+      "Signal",
+      "Career",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/i-didnt-climb-the-ladder-i-followed-the-signal.png",
+    "heroAlt": "A lone figure walking along a glowing path through a landscape of finance, data, and AI systems, surrounded by signals and networks",
+    "url": "https://amidthenoise.com/writing/i-didnt-climb-the-ladder-i-followed-the-signal",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-07",
+    "title": "Institutional Adoption and Change",
+    "subtitle": "Where systems succeed or fail",
+    "slug": "institutional-adoption-and-change",
+    "description": "Intelligence systems do not fail in theory. They fail in institutions. This paper defines how governance, incentives, leadership, and culture determine whether systems are adopted or bypassed.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/institutional-adoption-and-change",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-11",
+    "title": "The Reciprocity Principle of Emerging Intelligence",
+    "subtitle": "How behavior rehearsed with AI shapes human interaction",
+    "slug": "the-reciprocity-principle-of-emerging-intelligence",
+    "description": "Interactions with AI do not stay contained within the interface. They train behavior, reinforce norms, and feed back into how people treat one another. This paper defines the Reciprocity Principle and its implications for civic systems, national security, and AI design.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/national-security-policy-hero.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise",
+    "url": "https://amidthenoise.com/writing/the-reciprocity-principle-of-emerging-intelligence",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-14",
+    "title": "Rebuilding California’s Homelessness Systems from First Principles",
+    "subtitle": "Dignity as system behavior",
+    "slug": "designing-dignity",
+    "description": "Homelessness persists not because people fail systems, but because systems fail people in consistent, measurable ways. This paper reframes public infrastructure around agency, continuity, and trust.",
+    "tags": [
+      "Civic Systems",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/designing-dignity.png",
+    "heroAlt": "Architectural system diagram showing fragmented pathways converging into a unified, coherent flow",
+    "url": "https://amidthenoise.com/writing/designing-dignity",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-16",
+    "title": "Before We Called It Social",
+    "subtitle": "Designing presence before the category existed",
+    "slug": "before-we-called-it-social",
+    "description": "Human systems were designed before we had language for them. Early constraints around identity, trust, and continuity still shape how networks behave at scale.",
+    "tags": [
+      "Civic Systems",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/before-we-called-it-social.png",
+    "heroAlt": "An abstract, early-internet-style network with sparse nodes and faint connections emerging in low light",
+    "url": "https://amidthenoise.com/writing/before-we-called-it-social",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-17",
+    "title": "One Degree of Drift",
+    "subtitle": "How small deviations become destiny",
+    "slug": "one-degree-of-drift",
+    "description": "Small deviations rarely announce themselves. Over time, they compound into direction, culture, and outcome, especially in systems that stop learning.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Leadership"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/one-degree-of-drift.jpg",
+    "heroAlt": "A ship at sea at dawn viewed from a navigation console, with a radar display showing a slight deviation from its intended course.",
+    "url": "https://amidthenoise.com/writing/one-degree-of-drift",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-18",
+    "title": "When AI Is Wrong",
+    "subtitle": "Structuring signal under uncertainty",
+    "slug": "when-ai-is-wrong-a-simple-operating-model-for-real-world-systems",
+    "description": "AI systems rarely fail in obvious ways. This paper defines a simple operating model for structuring signal, interpretation, escalation, and response so decisions hold under real-world conditions.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "AI Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-ai-is-wrong.png",
+    "heroAlt": "Minimal abstract landscape showing a human figure observing signal converging into a central decision boundary, symbolizing AI systems under uncertainty",
+    "url": "https://amidthenoise.com/writing/when-ai-is-wrong-a-simple-operating-model-for-real-world-systems",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-19",
+    "title": "A Minute",
+    "subtitle": "Continuity breaks faster than we expect",
+    "slug": "a-minute",
+    "description": "Less than a minute reshaped San Francisco in 1906. A reflection on continuity, disruption, and the moment we assume will continue.",
+    "tags": [
+      "Signal",
+      "Systems Thinking"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/a-minute.png",
+    "heroAlt": "Early morning San Francisco street in soft fog, empty and still, with cable car tracks leading toward a quiet skyline",
+    "url": "https://amidthenoise.com/writing/a-minute",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-19",
+    "title": "Amid the Noise: Identity Evolution",
+    "subtitle": "From expression to authorship",
+    "slug": "amid-the-noise-identity-evolution",
+    "description": "The identity shifts toward clarity, restraint, and permanence, trading expressiveness for authorship and continuity.",
+    "tags": [
+      "Signal",
+      "Design Systems"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/amid-the-noise-identity-evolution.png",
+    "heroAlt": "A minimalist identity mark featuring a grounded blue square paired with a classical serif wordmark reading 'amid the noise'",
+    "url": "https://amidthenoise.com/writing/amid-the-noise-identity-evolution",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-19",
+    "title": "Two Distances",
+    "subtitle": "Inside the event, and after it settles",
+    "slug": "two-distances",
+    "description": "Oklahoma City and September 11 reveal two forms of proximity: living through an event as it unfolds, and arriving after it has already changed everything.",
+    "tags": [
+      "Signal",
+      "Memory",
+      "Civic Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/two-distances.png",
+    "heroAlt": "Chain-link fence memorial with flowers, ribbon, and a worn teddy bear in warm evening light, no people present",
+    "url": "https://amidthenoise.com/writing/two-distances",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-21",
+    "title": "Submitted for Your Consideration…",
+    "subtitle": "The loss of shared frequency",
+    "slug": "submitted-for-your-consideration",
+    "description": "The problem is not attention. It is fragmentation. When signal can no longer cross audiences, meaning stops traveling.",
+    "tags": [
+      "Signal",
+      "Media",
+      "Culture"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/submitted-for-your-consideration.png",
+    "heroAlt": "Black and white alien landscape under a star-filled sky",
+    "url": "https://amidthenoise.com/writing/submitted-for-your-consideration",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-23",
+    "title": "The Lineage of Signal",
+    "subtitle": "Five disciplines for making systems visible",
+    "slug": "the-lineage-of-signal",
+    "description": "Twain, Baldwin, Serling, Orwell, and Kubrick each solve the same problem in different ways. Together, they form a method for making systems legible.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Writing"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-lineage-of-signal.png",
+    "heroAlt": "Minimal black and white abstract landscape suggesting depth and structure",
+    "url": "https://amidthenoise.com/writing/the-lineage-of-signal",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-28",
+    "title": "AI Is a Stack",
+    "subtitle": "Most conversations start at the surface",
+    "slug": "ai-is-a-stack",
+    "description": "AI is not a single breakthrough but a layered system. The real decisions sit beneath the interface in how each layer acts and is governed.",
+    "tags": [
+      "Signal",
+      "AI Systems",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/ai-is-a-stack.png",
+    "heroAlt": "Layered AI stack diagram from classical AI to agentic AI",
+    "url": "https://amidthenoise.com/writing/ai-is-a-stack",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-29",
+    "title": "The Only Metric",
+    "subtitle": "Twenty-four hours at a time",
+    "slug": "the-only-metric",
+    "description": "Sobriety does not fail in years. It fails in moments. A reflection on recovery, presence, and why the only metric that matters is today.",
+    "tags": [
+      "Recovery",
+      "Agency",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-only-metric.png",
+    "heroAlt": "A cluster of partially melted candles on a dark slate surface, their uneven flames casting a warm glow over hardened layers of wax",
+    "url": "https://amidthenoise.com/writing/the-only-metric",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-04-30",
+    "title": "Human Compatible Is Not Sufficient",
+    "subtitle": "Alignment breaks at the point of use",
+    "slug": "human-compatible-is-not-sufficient",
+    "description": "Alignment is necessary, but it does not survive contact with real systems without governance, interpretation, and human judgment.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/human-compatible-is-not-sufficient.png",
+    "heroAlt": "Operator observing AI system dashboards with warning signals and fluctuating data visualizations in a dark environment",
+    "url": "https://amidthenoise.com/writing/human-compatible-is-not-sufficient",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-05-05",
+    "title": "The Last Giant",
+    "subtitle": "When structure gives way to chaos",
+    "slug": "the-last-giant",
+    "description": "The destruction of the Antonov An-225 marks a shift from structured rivalry to unbounded conflict, revealing how assumptions about stability quietly collapse.",
+    "tags": [
+      "Signal",
+      "Civic Systems",
+      "Geopolitics"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-last-giant.png",
+    "heroAlt": "The Antonov An-225 Mriya grounded on a runway, massive and silent, under a gray sky",
+    "url": "https://amidthenoise.com/writing/the-last-giant",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-05-07",
+    "title": "Before It Was Empty, It Was Everything",
+    "subtitle": "What a depot reveals about the system it served",
+    "slug": "before-it-was-empty-it-was-everything",
+    "description": "The Katy Depot in Altus was never just a building. It was a node that connected a town to the wider world, until the system around it changed.",
+    "tags": [
+      "Civic Systems",
+      "Systems Thinking",
+      "Place"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/before-it-was-empty-it-was-everything.png",
+    "heroAlt": "Katy Depot in Altus, Oklahoma shown in a blended past-to-present scene with a working steam-era platform transitioning into its current abandoned state.",
+    "url": "https://amidthenoise.com/writing/before-it-was-empty-it-was-everything",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-05-10",
+    "title": "Designing Invisible Systems",
+    "subtitle": "A career spent translating complexity into human judgment",
+    "slug": "designing-invisible-systems",
+    "description": "From social identity systems and ambient memory to semiconductor tooling and infrastructure topology, a reflection on three decades spent designing interfaces for systems most people never see.",
+    "tags": [
+      "Systems Design",
+      "Infrastructure",
+      "AI Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/designing-invisible-systems.png",
+    "heroAlt": "Abstract network structures and system diagrams fading into layered interface fragments against a soft neutral background.",
+    "url": "https://amidthenoise.com/writing/designing-invisible-systems",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-05-12",
+    "title": "Even the Enterprise Has Down Days",
+    "subtitle": "Continuity is the work",
+    "slug": "even-the-enterprise-has-down-days",
+    "description": "Most of a system’s life is not crisis or breakthrough. It is continuity. The unseen work that prevents drift is what keeps everything else possible.",
+    "tags": [
+      "Systems Thinking",
+      "Signal",
+      "Continuity"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/even-the-enterprise-has-down-days-hero.jpg",
+    "heroAlt": "The NCC-1701-D gliding through deep space beneath a warm planetary glow, evoking continuity, vigilance, and quiet motion",
+    "url": "https://amidthenoise.com/writing/even-the-enterprise-has-down-days",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-05-14",
+    "title": "When Design Ships, It Becomes Policy",
+    "subtitle": "Decision authority without a buffer",
+    "slug": "when-design-ships-it-becomes-policy",
+    "description": "As AI collapses the distance between design and production, the handoff disappears. Design no longer proposes. It decides, making accountability and system behavior inseparable from what ships.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "UX"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/design-ships-policy.png",
+    "heroAlt": "Minimalist architectural corridor with soft light leading toward a bright threshold, symbolizing transition, consequence, and system boundary",
+    "url": "https://amidthenoise.com/writing/when-design-ships-it-becomes-policy",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-05-17",
+    "title": "From Distance to Surface",
+    "subtitle": "Crossing from observation into use",
+    "slug": "from-distance-to-surface",
+    "description": "What looks inaccessible from a distance often becomes usable the moment you engage with it. The barrier is not complexity. It is distance.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "UX"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/from-distance-to-surface.png",
+    "heroAlt": "Partially open door in a quiet, minimalist space with warm light spilling in, suggesting transition, access, and crossing a threshold",
+    "url": "https://amidthenoise.com/writing/from-distance-to-surface",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-05-19",
+    "title": "The Real AI Race Is Diffusion",
+    "subtitle": "Why the future of AI may belong to the systems that quietly increase human capacity.",
+    "slug": "the-real-ai-race-is-diffusion",
+    "description": "The most important divide in artificial intelligence may not be East versus West, but whether AI is treated as spectacle or infrastructure.",
+    "tags": [
+      "Artificial Intelligence",
+      "AI Governance",
+      "Civic Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-real-ai-race-is-diffusion.png",
+    "heroAlt": "Abstract interconnected systems and infrastructure lines suggesting distributed intelligence across civic and industrial networks.",
+    "url": "https://amidthenoise.com/writing/the-real-ai-race-is-diffusion",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-05-21",
+    "title": "AI as Infrastructure",
+    "subtitle": "The future significance of artificial intelligence may emerge through continuity, not conversation.",
+    "slug": "ai-as-infrastructure",
+    "description": "A reflection on reaction latency, autonomous stabilization, and the emergence of AI as an infrastructural layer woven throughout modern civilization.",
+    "tags": [
+      "Artificial Intelligence",
+      "Infrastructure",
+      "Systems Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/ai-as-infrastructure.png",
+    "heroAlt": "Abstract infrastructure systems responding autonomously to emerging operational signals.",
+    "url": "https://amidthenoise.com/writing/ai-as-infrastructure",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-05-24",
+    "title": "The Limbic Hit Job",
+    "subtitle": "Interrupting the jump condition",
+    "slug": "the-limbic-hit-job",
+    "description": "Frustration can trigger a rapid state shift that feels like relief because it is familiar. This piece maps the pattern and shows how to interrupt it before it becomes direction.",
+    "tags": [
+      "Signal",
+      "Recovery",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-limbic-hit-job.png",
+    "heroAlt": "split-state image showing a man at a desk divided between warm nostalgic light and cool present tension",
+    "url": "https://amidthenoise.com/writing/the-limbic-hit-job",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-05-26",
+    "title": "Rancho Seco",
+    "subtitle": "A future that was told to stop",
+    "slug": "rancho-seco",
+    "description": "Two energy systems share the same ground. One built for permanence, the other for replacement. The difference is not technology. It is trust.",
+    "tags": [
+      "Civic Systems",
+      "Infrastructure",
+      "Energy"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/rancho-seco.png",
+    "heroAlt": "Rancho Seco with solar panels in the foreground and the remaining nuclear structures in the distance",
+    "url": "https://amidthenoise.com/writing/rancho-seco",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-05-28",
+    "title": "Standing on the Edge",
+    "subtitle": "Where certainty ends and systems begin",
+    "slug": "standing-on-the-edge",
+    "description": "Nuclear risk had a boundary. Artificial intelligence does not. This piece explores what it means to govern systems where the edge is no longer fixed.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/standing-on-the-edge.png",
+    "heroAlt": "A solitary figure stands at the edge of a stark cliff above a pale, fog-filled expanse, suggesting quiet tension, uncertainty, and the shifting boundary between control and consequence.",
+    "url": "https://amidthenoise.com/writing/standing-on-the-edge",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-05-31",
+    "title": "The Last Illusion to Go",
+    "subtitle": "Recovery began when I stopped negotiating with gravity.",
+    "slug": "the-last-illusion-to-go",
+    "description": "A reflection on Step One, collapse, control, and the strange relief that arrives when the performance finally ends.",
+    "tags": [
+      "recovery",
+      "AA",
+      "reflection"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/the-last-illusion-to-go.png",
+    "heroAlt": "Abstract threshold imagery with subtle geometric lines fading into open space.",
+    "url": "https://amidthenoise.com/writing/the-last-illusion-to-go",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-02",
+    "title": "QuickBooks Works Exactly as Designed. That’s the Problem.",
+    "subtitle": "When expectations outpace system design",
+    "slug": "quickbooks-works-exactly-as-designed",
+    "description": "QuickBooks is not broken. It is operating as a system of record in a world that increasingly expects systems to decide. The model has not caught up to the expectation.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Decision Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/quickbooks-works-exactly-as-designed.png",
+    "heroAlt": "Abstract depiction of a financial system transitioning from static records to dynamic decision-making under uncertainty",
+    "url": "https://amidthenoise.com/writing/quickbooks-works-exactly-as-designed",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-04",
+    "title": "Most Software Was Never Designed to Decide",
+    "subtitle": "When systems cross into responsibility",
+    "slug": "most-software-was-never-designed-to-decide",
+    "description": "Software has moved from recording and recommending into deciding, but most systems were never designed to handle the responsibility that shift requires.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Decision Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/most-software-was-never-designed-to-decide.png",
+    "heroAlt": "Minimal abstract transition from structured data systems to decision-making environments under uncertainty",
+    "url": "https://amidthenoise.com/writing/most-software-was-never-designed-to-decide",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-07",
+    "title": "What a Decision System Actually Requires",
+    "subtitle": "From records to decisions under uncertainty",
+    "slug": "quickbooks-decision-engine",
+    "description": "AI will not transform accounting by adding features. It will transform it by turning records into decisions and software into a system of reasoning.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Decision Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/quickbooks-decision-engine.png",
+    "heroAlt": "Abstract transition from financial records to forward-looking decision signals",
+    "url": "https://amidthenoise.com/writing/quickbooks-decision-engine",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-09",
+    "title": "Compression, Character, and the Worlds We Build",
+    "subtitle": "Signal through omission",
+    "slug": "compression-character-and-the-worlds-we-build",
+    "description": "A persona is not a mask. It is a compression algorithm. This piece explores how omission, structure, and pressure reveal truth across characters, systems, and institutions.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Creative Process"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/compression-character-and-the-worlds-we-build.png",
+    "heroAlt": "Minimalist writing desk in soft cream tones with an open journal facing a circular window that frames a distant, futuristic city, suggesting reflection, identity, and imagined worlds.",
+    "url": "https://amidthenoise.com/writing/compression-character-and-the-worlds-we-build",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-11",
+    "title": "Counting Peace, Miscounting Power",
+    "subtitle": "What the six-year statistic actually measures",
+    "slug": "counting-peace-miscounting-power",
+    "description": "The claim that the United States has only known a handful of years of peace depends less on history than on how peace is defined. The number measures activity, not character.",
+    "tags": [
+      "Civic Systems",
+      "Power",
+      "History"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/counting-peace-miscounting-power.png",
+    "heroAlt": "A minimalist composition of a world map with faint concentric signal lines radiating from the United States, suggesting global entanglement and influence",
+    "url": "https://amidthenoise.com/writing/counting-peace-miscounting-power",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-14",
+    "title": "The Deck Was Always Mine",
+    "subtitle": "Ownership without revision",
+    "slug": "the-deck-was-always-mine",
+    "description": "Recovery does not rewrite the past. It clarifies it. A reflection on voice, agency, and the reality that we are shaped by what we live through, not what we avoid.",
+    "tags": [
+      "Recovery",
+      "Agency",
+      "Voice"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-deck-was-always-mine.png",
+    "heroAlt": "A minimal, text-free composition of a slightly imperfect stack of playing cards on a warm off-white surface, softly lit with shallow depth of field.",
+    "url": "https://amidthenoise.com/writing/the-deck-was-always-mine",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-16",
+    "title": "What Lingers at Preston Castle",
+    "subtitle": "When systems leave a trace",
+    "slug": "what-lingers-at-preston-castle",
+    "description": "Preston Castle reveals how systems do not simply end. They leave residue in memory, behavior, and place, long after their formal function disappears.",
+    "tags": [
+      "Signal",
+      "Civic Systems",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/what-lingers-at-preston-castle.png",
+    "heroAlt": "Preston Castle in Ione, California, standing in quiet isolation under a pale sky, its stone facade weathered by time",
+    "url": "https://amidthenoise.com/writing/what-lingers-at-preston-castle",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-18",
+    "title": "Where Does Truth Live?",
+    "subtitle": "Entry points without convergence",
+    "slug": "where-does-truth-live",
+    "description": "When information is shaped at the point of entry, understanding fragments. This piece examines how framing without convergence leaves readers informed, but unanchored.",
+    "tags": [
+      "Signal",
+      "Civic Systems",
+      "Perception"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/where-does-truth-live.png",
+    "heroAlt": "A minimal, softly lit scene of overlapping glass panels",
+    "url": "https://amidthenoise.com/writing/where-does-truth-live",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-21",
+    "title": "The Quiet Distortion of Small Worlds",
+    "subtitle": "When contact thins, thinking narrows",
+    "slug": "the-quiet-distortion-of-small-worlds",
+    "description": "When most human contact lives at a different altitude, something subtle begins to shift. Not isolation, but distortion.",
+    "tags": [
+      "Signal",
+      "Reflection",
+      "Civic Systems"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-quiet-distortion-of-small-worlds.png",
+    "heroAlt": "A softly lit, minimalist living space with a wooden table in the foreground holding a notebook and coffee cup, while scattered children's drawings and toys sit in the background, suggesting presence without visible people.",
+    "url": "https://amidthenoise.com/writing/the-quiet-distortion-of-small-worlds",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-23",
+    "title": "Truth, Structured",
+    "subtitle": "How systems shape what becomes visible",
+    "slug": "truth-structured",
+    "description": "Truth does not arrive raw. It is shaped upstream by systems that select, order, and frame information before it reaches us, influencing interpretation before evaluation begins.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Civic Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/truth-structured.png",
+    "heroAlt": "A wide, minimalist ocean scene with cargo ships slightly misaligned from faint route lines, suggesting a subtle divergence between mapped structure and lived reality.",
+    "url": "https://amidthenoise.com/writing/truth-structured",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-25",
+    "title": "The System Decides First",
+    "subtitle": "Choice shaped before awareness",
+    "slug": "the-system-decides-first",
+    "description": "Decisions rarely begin at the moment of choice. They are shaped upstream by systems that select, rank, and frame what becomes visible.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Decision Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-system-decides-first.png",
+    "heroAlt": "A minimalist interface-like composition where ordered elements subtly guide attention, suggesting decisions shaped before they are consciously made.",
+    "url": "https://amidthenoise.com/writing/the-system-decides-first",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-28",
+    "title": "Reclaiming Signal",
+    "subtitle": "Holding uncertainty past the point of comfort",
+    "slug": "reclaiming-signal",
+    "description": "You don’t escape the system. You learn how to move within it without surrendering your judgment, even when clarity arrives too easily.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Decision Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/reclaiming-signal.png",
+    "heroAlt": "A narrow maritime channel with several ships aligned in formation while one vessel subtly diverges from the path, suggesting quiet deviation within constraint.",
+    "url": "https://amidthenoise.com/writing/reclaiming-signal",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-30",
+    "title": "From Signal to Decision",
+    "subtitle": "Carrying uncertainty to the point of action",
+    "slug": "from-signal-to-decision",
+    "description": "Better decisions do not come from better answers alone. They come from systems that preserve uncertainty long enough for it to matter.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Decision Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/from-signal-to-decision.png",
+    "heroAlt": "A minimalist abstract surface with multiple structured paths, subtle interruptions, and dotted alternative routes, suggesting deliberate decision points rather than a single predetermined outcome.",
+    "url": "https://amidthenoise.com/writing/from-signal-to-decision",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-02",
+    "title": "What Compression Took From Us",
+    "subtitle": "When narrative reduces reality",
+    "slug": "what-compression-took-from-us",
+    "description": "Narrative compression flattens complexity into labels. What remains is easier to carry, but further from truth.",
+    "tags": [
+      "Signal",
+      "Narrative",
+      "Perception"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/what-compression-took-from-us.png",
+    "heroAlt": "A minimal, off-white room with a single door slightly ajar, light spilling into an otherwise empty space.",
+    "url": "https://amidthenoise.com/writing/what-compression-took-from-us",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-05",
+    "title": "The Poll Site Is a Decision System",
+    "subtitle": "Resolve uncertainty without denying participation",
+    "slug": "the-poll-site-is-a-decision-system",
+    "description": "Inside a Santa Clara County vote center, elections operate as human-governed decision systems that absorb uncertainty, preserve participation, and produce auditable outcomes.",
+    "tags": [
+      "Civic Systems",
+      "Signal",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-poll-site-is-a-decision-system.png",
+    "heroAlt": "Abstract loop of paper forms circulating through a closed system on a soft off-white background",
+    "url": "https://amidthenoise.com/writing/the-poll-site-is-a-decision-system",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-07",
+    "title": "Infrastructure Is Not Dependency",
+    "subtitle": "Redundancy as independence",
+    "slug": "infrastructure-is-not-dependency",
+    "description": "Independence is not the absence of systems. It is the presence of enough systems that no single one can take your movement away.",
+    "tags": [
+      "Civic Systems",
+      "Signal",
+      "Agency"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/infrastructure-is-not-dependency.png",
+    "heroAlt": "Quiet electric train interior with soft daylight and empty seats",
+    "url": "https://amidthenoise.com/writing/infrastructure-is-not-dependency",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-09",
+    "title": "The Moment a Data Model Touches Money",
+    "subtitle": "Designing decisions when there is no neutral outcome",
+    "slug": "the-moment-a-data-model-touches-money",
+    "description": "A transaction is flagged. The model assigns risk. The system has to decide whether money moves or stops. This piece shows how to design that decision so it holds under real-world conditions.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "AI Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-moment-a-data-model-touches-money.png",
+    "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered at dawn",
+    "url": "https://amidthenoise.com/writing/the-moment-a-data-model-touches-money",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-12",
+    "title": "Designing Systems That Learn: A Practitioner’s Update",
+    "subtitle": "Revisiting the UX–Data Science partnership in the age of continuous learning systems",
+    "slug": "designing-systems-that-learn",
+    "description": "A refreshed perspective on feedback loops, machine learning, and the evolving partnership between designers and data scientists.",
+    "tags": [
+      "Signal",
+      "AI Systems",
+      "UX"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/designing-systems-that-learn.png",
+    "heroAlt": "Abstract loop of data, algorithm, interface, and action forming a continuous system",
+    "url": "https://amidthenoise.com/writing/designing-systems-that-learn",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-14",
+    "title": "The System Stopped Deciding",
+    "subtitle": "From curated memory to infinite capture",
+    "slug": "the-system-stopped-deciding",
+    "description": "Before everything was captured, it was selected. What we kept carried weight because someone decided it should.",
+    "tags": [
+      "Signal",
+      "Decision Systems",
+      "Filtering"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-system-stopped-deciding.png",
+    "heroAlt": "Edmon Low Library with softened tones against a light neutral background",
+    "url": "https://amidthenoise.com/writing/the-system-stopped-deciding",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-16",
+    "title": "What Gets Found",
+    "subtitle": "How small features shape discovery",
+    "slug": "what-gets-found",
+    "description": "Systems don’t need to tell you what to choose. They only need to make some things easier to find than others.",
+    "tags": [
+      "signal",
+      "decision systems",
+      "filtering"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/what-gets-found.png",
+    "heroAlt": "Minimal composition with structured space and subtle archival texture",
+    "url": "https://amidthenoise.com/writing/what-gets-found",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-19",
+    "title": "Trust Is a System Property",
+    "subtitle": "Inside a county election system built to absorb uncertainty without losing integrity.",
+    "slug": "trust-is-a-system-property",
+    "description": "A field note from Santa Clara County on elections, trust, and civic systems designed to carry messy real-world inputs under pressure.",
+    "tags": [
+      "civic systems",
+      "decision systems",
+      "elections"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/trust-is-a-system-property.png",
+    "heroAlt": "Minimal polling place scene with soft geometric forms and a neutral palette, suggesting order and flow without visible text",
+    "url": "https://amidthenoise.com/writing/trust-is-a-system-property",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-21",
+    "title": "Before I Had the Language",
+    "subtitle": "On growing up inside systems",
+    "slug": "before-i-had-the-language",
+    "description": "Long before I designed systems, I was shaped by them. A reflection on early exposure to structured environments and how they quietly teach us to see.",
+    "tags": [
+      "Signal",
+      "Systems",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/before-i-had-the-language.png",
+    "heroAlt": "A quiet, symmetrical interior with light falling across a structured space, suggesting order and continuity without revealing its purpose",
+    "url": "https://amidthenoise.com/writing/before-i-had-the-language",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-23",
+    "title": "Designing Under Constraint at Autodesk",
+    "subtitle": "Aligning systems and decisions without authority",
+    "slug": "designing-under-constraint-autodesk",
+    "description": "A real-world case study from Autodesk showing how fragmented legacy systems were audited, aligned, and unified into a cloud licensing platform through influence, transparency, and system-level design—an approach that continues to hold across modern enterprise and AI systems.",
+    "tags": [
+      "Case Study",
+      "Decision Systems",
+      "Enterprise Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/designing-under-constraint-autodesk.png",
+    "heroAlt": "Fragmented systems converging into a unified structure, representing alignment, integration, and decision flow",
+    "url": "https://amidthenoise.com/writing/designing-under-constraint-autodesk",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-26",
+    "title": "We Replaced Meaning with Explanation",
+    "subtitle": "What gets lost when everything has to make sense",
+    "slug": "we-replaced-meaning-with-explanation",
+    "description": "In New Mexico, meaning is embedded in everyday design. When we reduce those signals to utility, we don’t clarify them—we erase the systems they were meant to hold.",
+    "tags": [
+      "Signal",
+      "Design",
+      "Civic Systems"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/we-replaced-meaning-with-explanation.png",
+    "heroAlt": "Adobe wall with three wooden vigas casting long shadows, fading into a soft neutral background",
+    "url": "https://amidthenoise.com/writing/we-replaced-meaning-with-explanation",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-28",
+    "title": "Amityville and the Architecture of Missing Information",
+    "subtitle": "Why the mind completes what systems leave unfinished",
+    "slug": "amityville-architecture-of-missing-information",
+    "description": "At Amityville, people don’t just encounter a place. They encounter a narrative that refuses to resolve. The result reveals something more important than whether ghosts exist.",
+    "tags": [
+      "AI",
+      "Signal",
+      "Decision Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/amityville-architecture-of-missing-information.png",
+    "heroAlt": "A waterfront house at dusk on a narrow lot, with its backyard falling directly into the water, suggesting an abrupt and unresolved boundary",
+    "url": "https://amidthenoise.com/writing/amityville-architecture-of-missing-information",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-07-30",
+    "title": "Las Vegas Is a Living Experiment",
+    "subtitle": "A decision system in plain sight",
+    "slug": "las-vegas-living-experiment",
+    "description": "Las Vegas reveals what most systems hide. It does not decide for you. It designs the conditions where your decisions become predictable.",
+    "tags": [
+      "Decision Systems",
+      "Signal",
+      "Behavior"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/las-vegas-living-experiment.png",
+    "heroAlt": "A casino floor glowing with slot machines and patterned carpet, stretching into the distance under artificial light",
+    "url": "https://amidthenoise.com/writing/las-vegas-living-experiment",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-02",
+    "title": "Avenue Q, Four Times",
+    "subtitle": "What changes when the system stays the same but the room does not",
+    "slug": "avenue-q-four-times",
+    "description": "I saw the same show in four cities. The script never changed. Everything else did. What I learned about signal, scale, and why experience fails.",
+    "tags": [
+      "Signal",
+      "Design",
+      "Systems"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/avenue-q-four-times.png",
+    "heroAlt": "A minimalist sequence of theater interiors shifting from large and ornate to small and intimate, rendered in a soft neutral palette",
+    "url": "https://amidthenoise.com/writing/avenue-q-four-times",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-04",
+    "title": "A Vernacular Built Under Pressure",
+    "subtitle": "What my work repeats, whether I intend it or not",
+    "slug": "vernacular-built-under-pressure",
+    "description": "Across systems, essays, and case studies, the same words keep resurfacing. Not as style, but as habit. This is the vernacular that holds when decisions carry consequence.",
+    "tags": [
+      "Signal",
+      "Systems",
+      "Writing"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/vernacular-built-under-pressure.png",
+    "heroAlt": "A restrained composition of clustered words arranged in subtle groupings, suggesting structure and repetition emerging from a quiet field",
+    "url": "https://amidthenoise.com/writing/vernacular-built-under-pressure",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-06",
+    "title": "Exit Wounds",
+    "subtitle": "Written from the trailing edge",
+    "slug": "exit-wounds",
+    "description": "Exit Wounds was written in the early days of recovery, while still in rehab and at the trailing edge of housing instability. It became a way to express the pain of a toxic relationship with both a person and a drug.",
+    "tags": [
+      "Recovery",
+      "Signal",
+      "Writing"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/exit-wounds.png",
+    "heroAlt": "A minimal light-toned composition with a faint trailing line cutting across the frame, suggesting movement away from impact",
+    "url": "https://amidthenoise.com/writing/exit-wounds",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-09",
+    "title": "When Decisions Move Faster Than Responsibility",
+    "subtitle": "AI, blockchain, and the part of the system that won’t disappear",
+    "slug": "when-decisions-move-faster-than-responsibility",
+    "description": "AI is compressing decision-making. Blockchain is compressing settlement. What remains is the layer that absorbs failure when both are wrong.",
+    "tags": [
+      "Decision Systems",
+      "AI",
+      "Finance"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/when-decisions-move-faster-than-responsibility.png",
+    "heroAlt": "Abstract system diagram showing two opposing forces compressing toward a narrow center point, representing decision acceleration and settlement finality",
+    "url": "https://amidthenoise.com/writing/when-decisions-move-faster-than-responsibility",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-11",
+    "title": "Working",
+    "subtitle": "How I learned to be read to again",
+    "slug": "working",
+    "description": "A small shift in posture turned audiobooks from something I resisted into something that stayed.",
+    "tags": [
+      "Signal",
+      "Behavior",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/working.png",
+    "heroAlt": "Abstract highway lines dissolving into soft signal waves, suggesting a commute turning into narrative flow",
+    "url": "https://amidthenoise.com/writing/working",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-13",
+    "title": "Double Daddies",
+    "subtitle": "When a cartoon removes a question before it forms",
+    "slug": "double-daddies",
+    "description": "A small moment in our home. A children’s show, two dads, and the quiet disappearance of a question that never needed to be asked.",
+    "tags": [
+      "Signal",
+      "Systems",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/double-daddies.png",
+    "heroAlt": "Abstract illustration of a simple living room scene with two adult silhouettes and a child, rendered in a soft, minimal palette with subtle television glow",
+    "url": "https://amidthenoise.com/writing/double-daddies",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-16",
+    "title": "The System Doesn’t Resolve",
+    "subtitle": "What St. Elsewhere understood about decision systems that most software still ignores",
+    "slug": "the-system-doesnt-resolve",
+    "description": "A childhood memory of unresolved television reveals a deeper truth about how real systems behave: decisions persist, consequences accumulate, and nothing cleanly resets.",
+    "tags": [
+      "Decision Systems",
+      "Signal",
+      "Systems"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-system-doesnt-resolve.png",
+    "heroAlt": "A hospital corridor fading into darkness with faint lines tracing paths that continue beyond view",
+    "url": "https://amidthenoise.com/writing/the-system-doesnt-resolve",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-18",
+    "title": "The Layer SAP Just Bought",
+    "subtitle": "Where data becomes decision",
+    "slug": "the-layer-sap-just-bought",
+    "description": "SAP’s acquisition of Dremio signals a shift toward systems that govern how data is interpreted and acted on.",
+    "tags": [
+      "Decision Systems",
+      "Signal",
+      "Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-layer-sap-just-bought.png",
+    "heroAlt": "Abstract diagram of data flowing through a system with lineage paths and decision points highlighted",
+    "url": "https://amidthenoise.com/writing/the-layer-sap-just-bought",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-20",
+    "title": "The Cost of Being Legible",
+    "subtitle": "Clarity is not free",
+    "slug": "the-cost-of-being-legible",
+    "description": "Clarity makes systems work. It also extracts something from the people inside them. Not everyone pays that cost equally.",
+    "tags": [
+      "Civic Systems",
+      "Signal",
+      "Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-cost-of-being-legible.png",
+    "heroAlt": "abstract forms resolving into structured lines on a soft neutral background",
+    "url": "https://amidthenoise.com/writing/the-cost-of-being-legible",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-23",
+    "title": "Elysium Wasn’t Broken",
+    "subtitle": "What systems choose when pressure shows up",
+    "slug": "elysium-wasnt-broken",
+    "description": "A system can be perfectly understandable and still be fundamentally unjust. The real question is what it protects when it comes under pressure.",
+    "tags": [
+      "Systems",
+      "Signal",
+      "Civic Systems"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/elysium-wasnt-broken.png",
+    "heroAlt": "A pristine orbital habitat suspended above a dense, deteriorating city below",
+    "url": "https://amidthenoise.com/writing/elysium-wasnt-broken",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-25",
+    "title": "Who Gets Reclassified",
+    "subtitle": "How systems actually change once they harden",
+    "slug": "who-gets-reclassified",
+    "description": "Hardened systems don’t soften. They change when pressure forces them to redefine who and what they include.",
+    "tags": [
+      "Systems",
+      "Signal",
+      "Civic Systems"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/who-gets-reclassified.png",
+    "heroAlt": "Orbital telemetry arcs surrounding Earth, with some paths fading or breaking off",
+    "url": "https://amidthenoise.com/writing/who-gets-reclassified",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-27",
+    "title": "The Museum Effect",
+    "subtitle": "Why curated environments feel restorative in an age of constant contextual switching.",
+    "slug": "the-museum-effect",
+    "description": "A reflection on Disneyland, museums, concerts, and the hidden psychology of immersive environments that reduce interpretive fatigue by keeping their governing logic legible.",
+    "tags": [
+      "SIGNAL",
+      "DESIGN",
+      "CULTURE"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-museum-effect.png",
+    "heroAlt": "An atmospheric, carefully curated public environment with controlled lighting and architectural continuity.",
+    "url": "https://amidthenoise.com/writing/the-museum-effect",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-08-30",
+    "title": "Betty White and I",
+    "subtitle": "What the ocean revealed beneath the machinery of fame.",
+    "slug": "betty-white-and-i",
+    "description": "A reflection on Betty White, the Monterey Bay Aquarium, and the strange intimacy of discovering shared values beneath public identity.",
+    "tags": [
+      "Reflection",
+      "Ocean",
+      "Signal"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/betty-white-and-i.png",
+    "heroAlt": "Sea otters floating in calm kelp forest water beneath shafts of Pacific light",
+    "url": "https://amidthenoise.com/writing/betty-white-and-i",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-01",
+    "title": "History Prefers Clean Narratives",
+    "subtitle": "What we lose when people become symbols.",
+    "slug": "history-prefers-clean-narratives",
+    "description": "Public memory compresses people into simple stories. Reality rarely cooperates.",
+    "tags": [
+      "Signal",
+      "Systems",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/history-prefers-clean-narratives.png",
+    "heroAlt": "Fragmented black and white portraits dissolving into geometric shapes",
+    "url": "https://amidthenoise.com/writing/history-prefers-clean-narratives",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-03",
+    "title": "Copy, Paste, and the Myth of the Inventor",
+    "subtitle": "Most things arrive carrying more people than history remembers.",
+    "slug": "copy-paste-and-the-myth-of-the-inventor",
+    "description": "Innovation rarely emerges from a single flash of genius. More often, it accumulates through refinement, mentorship, and invisible lineage.",
+    "tags": [
+      "Systems",
+      "Design",
+      "Signal"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/copy-paste-and-the-myth-of-the-inventor.png",
+    "heroAlt": "Fragmented monochrome interface elements layered over archival-style portraits and geometric forms",
+    "url": "https://amidthenoise.com/writing/copy-paste-and-the-myth-of-the-inventor",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-06",
+    "title": "The Party That Never Started",
+    "subtitle": "On preparing yourself for opportunities that may never have been real to begin with",
+    "slug": "the-party-that-never-started",
+    "description": "Modern professional life increasingly asks people to perform exhaustive readiness for opportunities that may not materially exist.",
+    "tags": [
+      "Work",
+      "Systems",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-party-that-never-started.png",
+    "heroAlt": "An immaculate dining room waiting in silence",
+    "url": "https://amidthenoise.com/writing/the-party-that-never-started",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-08",
+    "title": "The First Calm Room",
+    "subtitle": "Recovery began the moment I stopped performing long enough to simply exist.",
+    "slug": "the-first-calm-room",
+    "description": "A reflection on Muriel Wright, private rooms, recovery, and the strange disorientation of entering an environment where identity maintenance finally stopped.",
+    "tags": [
+      "RECOVERY",
+      "IDENTITY",
+      "REFLECTION"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-first-calm-room.png",
+    "heroAlt": "A quiet, minimally furnished room lit by soft morning light.",
+    "url": "https://amidthenoise.com/writing/the-first-calm-room",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-10",
+    "title": "When the System Is Legible",
+    "subtitle": "What Tokyo Revealed About Collective Action",
+    "slug": "when-the-system-is-legible",
+    "description": "After the 2011 energy crisis, Japan didn’t enforce conservation. It designed for it. A look at what happens when a system makes the right behavior obvious.",
+    "tags": [
+      "Decision Systems",
+      "Signal",
+      "Civic Systems"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/when-the-system-is-legible.png",
+    "heroAlt": "A softly lit Tokyo residential street at night fading into a light background, with subtle signage, overhead wires, and balcony clotheslines",
+    "url": "https://amidthenoise.com/writing/when-the-system-is-legible",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-13",
+    "title": "Conflicting Clarity",
+    "subtitle": "Why teams struggle to align on what their MVP is really for.",
+    "slug": "conflicting-clarity",
+    "description": "Most teams do not struggle to define an MVP technically. They struggle to align on what uncertainty the MVP is supposed to reduce.",
+    "tags": [
+      "Product Strategy",
+      "Systems Thinking",
+      "AI"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/conflicting-clarity.png",
+    "heroAlt": "A wall covered in colorful sticky notes arranged into collaborative affinity diagrams",
+    "url": "https://amidthenoise.com/writing/conflicting-clarity",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-15",
+    "title": "Designing Trust Inside Modern Data Infrastructure",
+    "subtitle": "How semantic systems and cognitive legibility transform data platforms into decision environments",
+    "slug": "designing-trust-inside-modern-data-infrastructure",
+    "description": "Across healthcare, financial services, and enterprise infrastructure, the same pattern kept emerging: modern data systems did not fail at storage or compute. They failed at interpretation.",
+    "tags": [
+      "FIELD STUDY",
+      "DECISION SYSTEMS",
+      "ENTERPRISE SYSTEMS"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/designing-trust-inside-modern-data-infrastructure.png",
+    "heroAlt": "Abstract layered data structures resolving into clear pathways",
+    "url": "https://amidthenoise.com/writing/designing-trust-inside-modern-data-infrastructure",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-17",
+    "title": "The Hotel and the Hard Reset",
+    "subtitle": "What A Gentleman in Moscow taught me about surviving paradigm change",
+    "slug": "the-hotel-and-the-hard-reset",
+    "description": "A reflection on identity, adaptation, and the strange discipline of remaining yourself after the architecture of your life changes.",
+    "tags": [
+      "Reflection",
+      "Identity",
+      "Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-hotel-and-the-hard-reset.png",
+    "heroAlt": "A quiet hotel corridor overlooking a distant winter Moscow skyline",
+    "url": "https://amidthenoise.com/writing/the-hotel-and-the-hard-reset",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-20",
+    "title": "Paper or Plastic",
+    "subtitle": "How Safeway forgot the dignity of being a grocer",
+    "slug": "paper-or-plastic",
+    "description": "A reflection on executive identity drift, operational reality, and what happens when institutions become embarrassed by their own purpose.",
+    "tags": [
+      "Systems",
+      "Leadership",
+      "Signal"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/paper-or-plastic.png",
+    "heroAlt": "An aging grocery store fading into modern corporate office buildings",
+    "url": "https://amidthenoise.com/writing/paper-or-plastic",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-22",
+    "title": "The Order That Shouldn’t Have Been His",
+    "subtitle": "Authority, Identity, and the Gap Between Command and Control",
+    "slug": "the-order-that-shouldnt-have-been-his",
+    "description": "When institutions become too dependent on symbolic figures, operational legitimacy begins to dissolve around them.",
+    "tags": [
+      "Systems",
+      "Signal",
+      "Governance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-order-that-shouldnt-have-been-his.png",
+    "heroAlt": "A portrait of Jean-Luc Picard beside the silhouette of the Stargazer in an abstract editorial composition",
+    "url": "https://amidthenoise.com/writing/the-order-that-shouldnt-have-been-his",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-24",
+    "title": "The Lighting Felt Familiar",
+    "subtitle": "Why certain experiences feel more like recognition than entertainment",
+    "slug": "the-lighting-felt-familiar",
+    "description": "Some performances do more than entertain. They reveal the hidden structures through which certain people experience sound, emotion, and the world itself.",
+    "tags": [
+      "Signal",
+      "Systems Thinking",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-lighting-felt-familiar.png",
+    "heroAlt": "Abstract concert lighting dissolving into layered geometric patterns",
+    "url": "https://amidthenoise.com/writing/the-lighting-felt-familiar",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-27",
+    "title": "The Archive Started Talking Back",
+    "subtitle": "The writing stopped feeling like output and started feeling like a mirror.",
+    "slug": "the-archive-started-talking-back",
+    "description": "A reflection on long-form writing, continuity, and the strange experience of discovering that the archive preserved patterns and values long before they were fully visible in real time.",
+    "tags": [
+      "WRITING",
+      "MEMORY",
+      "REFLECTION"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-archive-started-talking-back.png",
+    "heroAlt": "A dimly lit workspace with layered pages, notes, and soft evening light.",
+    "url": "https://amidthenoise.com/writing/the-archive-started-talking-back",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-09-29",
+    "title": "Late September, Red",
+    "subtitle": "A garden that blooms with the memory of others",
+    "slug": "late-september-red",
+    "description": "Each fall, red spider lilies return without warning. In one Oklahoma yard, they carry the quiet inheritance of dozens of lives.",
+    "tags": [
+      "Memory",
+      "Place",
+      "Signal"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/late-september-red.png",
+    "heroAlt": "Red spider lilies in bloom against a soft neutral background",
+    "url": "https://amidthenoise.com/writing/late-september-red",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-01",
+    "title": "We Call It Haunted When Nobody Repairs It",
+    "subtitle": "Places remember what they were built to survive",
+    "slug": "we-call-it-haunted-when-nobody-repairs-it",
+    "description": "A reflection on abandoned infrastructure, inherited instability, and the systems that continue shaping behavior long after their original purpose has been forgotten.",
+    "tags": [
+      "Civic Systems",
+      "Infrastructure",
+      "Systems Thinking"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/we-call-it-haunted-when-nobody-repairs-it.png",
+    "heroAlt": "An aging industrial corridor with fractured geometry and soft atmospheric lighting against an ivory-toned background",
+    "url": "https://amidthenoise.com/writing/we-call-it-haunted-when-nobody-repairs-it",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-04",
+    "title": "These Are the Voyages",
+    "subtitle": "A new exploration vessel for a more complicated frontier",
+    "slug": "these-are-the-voyages",
+    "description": "A christening of the USS Kepler and an exploration of why modern Star Trek works best when ships feel inhabited, adaptive, and alive enough for people to evolve inside them.",
+    "tags": [
+      "Star Trek",
+      "Systems",
+      "Governance"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/these-are-the-voyages.png",
+    "heroAlt": "A Sagan-class Federation starship drifts through a pale stellar cartography field while subtle architectural overlays evoke systems diagrams and exploration routes.",
+    "url": "https://amidthenoise.com/writing/these-are-the-voyages",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-06",
+    "title": "What the Abstract Remembered",
+    "subtitle": "A house in Altus and the systems buried beneath ordinary ground",
+    "slug": "what-the-abstract-remembered",
+    "description": "A house in southwest Oklahoma reveals how governance survives long after the people who wrote it are gone.",
+    "tags": [
+      "Governance",
+      "Infrastructure",
+      "Oklahoma"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/what-the-abstract-remembered.png",
+    "heroAlt": "An aged territorial land abstract layered over a faded Oklahoma street grid and distant grain elevators beneath a storm-dark sky.",
+    "url": "https://amidthenoise.com/writing/what-the-abstract-remembered",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-08",
+    "title": "Orientation",
+    "subtitle": "Why the Zia sun continues to feel timeless",
+    "slug": "orientation",
+    "description": "A reflection on the Zia sun symbol, sacred geometry, and why certain forms continue to anchor human meaning across generations.",
+    "tags": [
+      "Design",
+      "Symbolism",
+      "Culture"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/orientation.png",
+    "heroAlt": "A minimal Zia sun symbol rendered over textured desert tones and soft geometric field lines.",
+    "url": "https://amidthenoise.com/writing/orientation",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-11",
+    "title": "Red or Green",
+    "subtitle": "Some places are too culturally alive to become interchangeable.",
+    "slug": "red-or-green",
+    "description": "A reflection on New Mexico, civic identity, and the rare places that still resist flattening.",
+    "tags": [
+      "Culture",
+      "New Mexico",
+      "Place"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/red-or-green.png",
+    "heroAlt": "Adobe patios, chile ristras, pottery, and high desert light beneath deep blue New Mexico skies.",
+    "url": "https://amidthenoise.com/writing/red-or-green",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-13",
+    "title": "The Version That Stayed",
+    "subtitle": "Some identities are assigned. Others survive.",
+    "slug": "the-version-that-stayed",
+    "description": "At a certain point, survival stops looking like reinvention and starts looking like recognition.",
+    "tags": [
+      "Identity",
+      "Signal",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-version-that-stayed.png",
+    "heroAlt": "An abstract autumn corridor fading into warm light with long architectural shadows.",
+    "url": "https://amidthenoise.com/writing/the-version-that-stayed",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-15",
+    "title": "The Electricity of Campus at Night",
+    "subtitle": "The lights stay on for people still becoming.",
+    "slug": "the-electricity-of-campus-at-night",
+    "description": "A reflection on universities, visible effort, and why campuses carry a kind of hopeful energy that many adult environments quietly lose.",
+    "tags": [
+      "LEARNING",
+      "CULTURE",
+      "REFLECTION"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-electricity-of-campus-at-night.png",
+    "heroAlt": "A university campus at dusk with illuminated library windows and students crossing between buildings.",
+    "url": "https://amidthenoise.com/writing/the-electricity-of-campus-at-night",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-18",
+    "title": "Doan's Crossing",
+    "subtitle": "The American West moved north, one crossing at a time.",
+    "slug": "the-last-crossing-before-territory",
+    "description": "A reflection on Doan’s Crossing, cattle drives, anthrax folklore, and the forgotten infrastructure that carried the American West north one herd at a time.",
+    "tags": [
+      "American West",
+      "Infrastructure",
+      "History"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-last-crossing-before-territory.png",
+    "heroAlt": "Abstract western landscape with a river crossing, faint cattle trail lines, and weathered infrastructure forms fading into dust-toned geometry.",
+    "url": "https://amidthenoise.com/writing/the-last-crossing-before-territory",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-20",
+    "title": "Operationally Dead",
+    "subtitle": "Some systems stop moving long before they disappear.",
+    "slug": "operationally-dead",
+    "description": "A reflection on abandoned rail spurs, closed subway platforms, and the strange emotional residue left behind when infrastructure outlives the future it was built to serve.",
+    "tags": [
+      "INFRASTRUCTURE",
+      "CIVIC SYSTEMS",
+      "REFLECTION"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/operationally-dead.png",
+    "heroAlt": "An empty rail platform with dim lighting, faded signage, and tracks disappearing into darkness.",
+    "url": "https://amidthenoise.com/writing/operationally-dead",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-22",
+    "title": "Who Keeps the Lights On?",
+    "subtitle": "Civilization depends on people most systems barely acknowledge.",
+    "slug": "who-keeps-the-lights-on",
+    "description": "A reflection on maintenance, public infrastructure, and the quiet dignity systems that determine whether people can continue participating in public life.",
+    "tags": [
+      "CIVIC SYSTEMS",
+      "INFRASTRUCTURE",
+      "DIGNITY"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/who-keeps-the-lights-on.png",
+    "heroAlt": "An illuminated bus stop at dusk with empty benches beneath warm street lighting in a quiet urban setting.",
+    "url": "https://amidthenoise.com/writing/who-keeps-the-lights-on",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-25",
+    "title": "The Nautilus",
+    "subtitle": "Growth is not escape. It is structural memory.",
+    "slug": "the-nautilus",
+    "description": "The nautilus does not abandon its previous chambers. It survives by building forward.",
+    "tags": [
+      "Nature",
+      "Systems Thinking",
+      "Growth"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-nautilus.png",
+    "heroAlt": "An abstract nautilus shell rendered in soft geometric lines against a pale background.",
+    "url": "https://amidthenoise.com/writing/the-nautilus",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-27",
+    "title": "When Manufacturing Became Software",
+    "subtitle": "A 2012 keynote, additive manufacturing, and the moment production joined the network.",
+    "slug": "when-manufacturing-became-software",
+    "description": "A reflection on Autodesk, early 3D printing, and the quiet transition from industrial manufacturing to computational production.",
+    "tags": [
+      "Manufacturing",
+      "Technology",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-manufacturing-became-software.png",
+    "heroAlt": "Abstract industrial geometry dissolving into computational wireframes.",
+    "url": "https://amidthenoise.com/writing/when-manufacturing-became-software",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-10-29",
+    "title": "The Costume That Ate the Person",
+    "subtitle": "The hiding place becomes the person",
+    "slug": "the-costume-that-ate-the-person",
+    "description": "Halloween used to end at midnight. Modern life increasingly rewards the performance that survives daylight.",
+    "tags": [
+      "Identity",
+      "Signal",
+      "Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-costume-that-ate-the-person.png",
+    "heroAlt": "An abandoned retail storefront glowing under fluorescent lights at night",
+    "url": "https://amidthenoise.com/writing/the-costume-that-ate-the-person",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-01",
+    "title": "The Future Had Rounded Corners",
+    "subtitle": "Michael and Denise Okuda imagined interfaces that felt less like machines and more like trust.",
+    "slug": "the-future-had-rounded-corners",
+    "description": "LCARS did more than define the visual language of Star Trek. It quietly reshaped how generations of designers imagined the relationship between people and technology.",
+    "tags": [
+      "User Experience",
+      "Interface Design",
+      "Star Trek"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-future-had-rounded-corners.png",
+    "heroAlt": "Abstract LCARS-inspired interface panels in soft tones against a warm minimalist background.",
+    "url": "https://amidthenoise.com/writing/the-future-had-rounded-corners",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-03",
+    "title": "Before the Tool Exists",
+    "subtitle": "What children taught us about interaction design before they learned interfaces.",
+    "slug": "before-the-tool-exists",
+    "description": "A field study from Evernote on how learned behavior shapes interface expectations, and why familiarity is often mistaken for clarity.",
+    "tags": [
+      "Design",
+      "UX",
+      "Interaction Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/before-the-tool-exists.png",
+    "heroAlt": "Abstract paint gestures spreading across a minimal surface without visible interface controls.",
+    "url": "https://amidthenoise.com/writing/before-the-tool-exists",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-05",
+    "title": "The Org Chart Cannot See the Future",
+    "subtitle": "Why the best hires often do not fit the existing org chart.",
+    "slug": "the-org-chart-cannot-see-the-future",
+    "description": "Modern hiring systems are optimized for known problems, stable categories, and predefined roles. Innovation rarely works that way.",
+    "tags": [
+      "Hiring",
+      "Systems Thinking",
+      "Organizational Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-org-chart-cannot-see-the-future.png",
+    "heroAlt": "Abstract organizational chart dissolving into interconnected lines beyond predefined boxes.",
+    "url": "https://amidthenoise.com/writing/the-org-chart-cannot-see-the-future",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-08",
+    "title": "Outside Looking In",
+    "subtitle": "Legitimacy, belonging, and the quiet feeling of standing outside your own life.",
+    "slug": "outside-looking-in",
+    "description": "A reflection on addiction, exclusion, and the quiet realization that other people’s lives are not proof of your absence from your own.",
+    "tags": [
+      "Recovery",
+      "Belonging",
+      "Identity"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/outside-looking-in.png",
+    "heroAlt": "Abstract residential windows and soft evening light suggesting distance, longing, and quiet observation.",
+    "url": "https://amidthenoise.com/writing/outside-looking-in",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-10",
+    "title": "The Weight-Bearing Test",
+    "subtitle": "Sometimes survival reveals who was actually carrying the structure.",
+    "slug": "the-weight-bearing-test",
+    "description": "A reflection on survival, asymmetry, and the painful realization that presence and partnership are not always the same thing.",
+    "tags": [
+      "Recovery",
+      "Relationships",
+      "Survival"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-weight-bearing-test.png",
+    "heroAlt": "Abstract structural forms under tension against a pale background.",
+    "url": "https://amidthenoise.com/writing/the-weight-bearing-test",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-12",
+    "title": "The Future Still Needs Real Tomatoes",
+    "subtitle": "What modern Star Trek understands about abundance, convenience, and staying human.",
+    "slug": "the-future-still-needs-real-tomatoes",
+    "description": "Kurtzman-era Star Trek may be messier than earlier Trek, but beneath it is a deeply contemporary question: what parts of being human are we willing to trade away for stability, optimization, and abundance?",
+    "tags": [
+      "Star Trek",
+      "Technology",
+      "Humanity"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-future-still-needs-real-tomatoes.png",
+    "heroAlt": "An abstract futuristic still life featuring a single tomato against a minimalist Federation-inspired backdrop.",
+    "url": "https://amidthenoise.com/writing/the-future-still-needs-real-tomatoes",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-15",
+    "title": "The Luggage Never Left",
+    "subtitle": "I spent twenty years preparing for a life that addiction quietly interrupted.",
+    "slug": "the-luggage-never-left",
+    "description": "A reflection on aspiration, relapse, systems failure, and the strange grief of losing the objects tied to a future you thought was still approaching.",
+    "tags": [
+      "Addiction",
+      "Recovery",
+      "Systems Failure"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-luggage-never-left.png",
+    "heroAlt": "Minimal stainless steel luggage sitting motionless in soft light against a pale background.",
+    "url": "https://amidthenoise.com/writing/the-luggage-never-left",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-17",
+    "title": "Exposure Rewrites Normal",
+    "subtitle": "The world expands quietly, then suddenly your old assumptions no longer fit inside it.",
+    "slug": "exposure-rewrites-normal",
+    "description": "What travel, systems, and exposure teach us about the difference between familiarity and universality.",
+    "tags": [
+      "Culture",
+      "Perspective",
+      "Travel"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/exposure-rewrites-normal.png",
+    "heroAlt": "Abstract international transit board and layered time systems in a minimalist editorial composition.",
+    "url": "https://amidthenoise.com/writing/exposure-rewrites-normal",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-19",
+    "title": "The World Told Us",
+    "subtitle": "We were just too busy to pay attention.",
+    "slug": "when-the-world-starts-thinking-back",
+    "description": "A reflection on feedback systems, environmental consequence, AI, and the growing reality that civilization can no longer act faster than it can observe itself.",
+    "tags": [
+      "SYSTEMS THINKING",
+      "AI",
+      "SIGNAL"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-the-world-starts-thinking-back.png",
+    "heroAlt": "An illuminated globe-like network suspended in darkness with layered data lines and atmospheric textures suggesting planetary-scale feedback systems.",
+    "url": "https://amidthenoise.com/writing/when-the-world-starts-thinking-back",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-22",
+    "title": "The Aesthetics of Inevitability",
+    "subtitle": "What Bad Blood revealed about power, pride, and manufactured significance",
+    "slug": "the-aesthetics-of-inevitability",
+    "description": "Theranos was not simply a fraud. It was a story about what happens when narrative gravity becomes stronger than verification.",
+    "tags": [
+      "Signal",
+      "Systems",
+      "Leadership"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-aesthetics-of-inevitability.png",
+    "heroAlt": "An abstract editorial composition of fragmented laboratory systems and staged corporate symbolism",
+    "url": "https://amidthenoise.com/writing/the-aesthetics-of-inevitability",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-26",
+    "title": "The Eye of the Storm",
+    "subtitle": "What becomes visible after sustained observation",
+    "slug": "the-eye-of-the-storm",
+    "description": "After 200 posts, the archive stopped feeling like output and started feeling like evidence.",
+    "tags": [
+      "Signal",
+      "Reflection",
+      "Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-eye-of-the-storm.png",
+    "heroAlt": "An abstract storm system with a calm center emerging through layered signal patterns",
+    "url": "https://amidthenoise.com/writing/the-eye-of-the-storm",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-11-29",
+    "title": "The Cupboard Under the Stairs Was the Better Story",
+    "subtitle": "You may matter more than the world currently sees.",
+    "slug": "the-cupboard-under-the-stairs-was-the-better-story",
+    "description": "Harry Potter begins as a story about invisibility and hidden worth. Then it quietly becomes a story about inherited exceptionalism.",
+    "tags": [
+      "Storytelling",
+      "Narrative Design",
+      "Identity"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-cupboard-under-the-stairs-was-the-better-story.png",
+    "heroAlt": "A narrow cupboard beneath a staircase illuminated by soft light from a partially opened door.",
+    "url": "https://amidthenoise.com/writing/the-cupboard-under-the-stairs-was-the-better-story",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-12-08",
+    "title": "The Quiet Builders of Los Angeles",
+    "subtitle": "The city kept changing because people kept showing up to build it.",
+    "slug": "the-quiet-builders-of-los-angeles",
+    "description": "A reflection on Los Angeles Metro, invisible civic labor, and the long effort to reconnect one of the world’s most fragmented cities.",
+    "tags": [
+      "CIVIC SYSTEMS",
+      "INFRASTRUCTURE",
+      "TRANSIT"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-quiet-builders-of-los-angeles.png",
+    "heroAlt": "A Los Angeles Metro train moving beneath layered freeway infrastructure at dusk.",
+    "url": "https://amidthenoise.com/writing/the-quiet-builders-of-los-angeles",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-12-10",
+    "title": "The World Through My Eyes",
+    "subtitle": "What color assumes.",
+    "slug": "the-world-through-my-eyes",
+    "description": "A reflection on colorblindness, cooking, sensory ambiguity, and the quiet assumptions built into everyday life.",
+    "tags": [
+      "systems",
+      "observation",
+      "signal"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-world-through-my-eyes.png",
+    "heroAlt": "Blurred produce and soft status lights against a neutral background.",
+    "url": "https://amidthenoise.com/writing/the-world-through-my-eyes",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-12-22",
+    "title": "So Say We All",
+    "subtitle": "Scarcity is the ultimate teacher.",
+    "slug": "so-say-we-all",
+    "description": "Battlestar Galactica was never really about space warfare. It was about what happens when replacement disappears and civilization survives on maintenance, memory, and trust.",
+    "tags": [
+      "Civilization",
+      "Scarcity",
+      "Signal"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/so-say-we-all.png",
+    "heroAlt": "A worn spacecraft drifting through a pale fractured starfield as scattered lights resemble the last remnants of civilization.",
+    "url": "https://amidthenoise.com/writing/so-say-we-all",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-12-24",
+    "title": "The Distance Between Fires",
+    "subtitle": "Humanity has always survived by finding the next light.",
+    "slug": "the-distance-between-fires",
+    "description": "From ancient signal fires to truck stops at midnight, civilization has always depended on small illuminated places that tell people they are not alone.",
+    "tags": [
+      "Signal",
+      "Trust",
+      "Civilization"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-distance-between-fires.png",
+    "heroAlt": "A distant roadside building glowing beside a winding winter road beneath a vast quiet sky.",
+    "url": "https://amidthenoise.com/writing/the-distance-between-fires",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-12-31",
+    "title": "The Things We Agreed Not to Touch",
+    "subtitle": "Chernobyl was supposed to become untouchable.",
+    "slug": "the-things-we-agreed-not-to-touch",
+    "description": "Chernobyl, containment, and the collapse of the boundaries modern civilization once assumed would hold.",
+    "tags": [
+      "Infrastructure",
+      "Systems Thinking",
+      "Ukraine"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-things-we-agreed-not-to-touch.png",
+    "heroAlt": "A stark abstract rendering of the Chernobyl containment structure beneath a pale overcast sky, with power lines fading into the distance.",
+    "url": "https://amidthenoise.com/writing/the-things-we-agreed-not-to-touch",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-01-05",
+    "title": "Hints of Poverty",
+    "subtitle": "The most dangerous borders are often drawn around dignity.",
+    "slug": "hints-of-poverty",
+    "description": "In 1936, California deployed police to stop poor Americans from crossing state lines. The logic behind that moment never fully disappeared.",
+    "tags": [
+      "Poverty",
+      "Civic Systems",
+      "California"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/hints-of-poverty.png",
+    "heroAlt": "Abstract checkpoint imagery inspired by Depression-era California border enforcement, with rail lines, faded inspection marks, and soft geographic contours.",
+    "url": "https://amidthenoise.com/writing/hints-of-poverty",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-01-07",
+    "title": "Rewatching Burnham",
+    "subtitle": "What changes when restraint stops looking weak.",
+    "slug": "rewatching-burnham",
+    "description": "A reflection on Star Trek: Discovery, institutional trust, and how experience changes our relationship to certainty.",
+    "tags": [
+      "systems",
+      "signal",
+      "observation"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/rewatching-burnham.png",
+    "heroAlt": "A solitary figure framed against the glow of a starship viewport.",
+    "url": "https://amidthenoise.com/writing/rewatching-burnham",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-01-10",
+    "title": "When the Future Sounded Confident",
+    "subtitle": "A reflection on Concorde, ambition, and the shrinking horizon of modern imagination.",
+    "slug": "when-the-future-sounded-confident",
+    "description": "Concorde represented more than supersonic travel. It reflected a civilization still willing to pursue difficult and extraordinary things.",
+    "tags": [
+      "Concorde",
+      "Systems",
+      "Modernity"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/when-the-future-sounded-confident.png",
+    "heroAlt": "Concorde climbing into dawn above the curvature of Earth.",
+    "url": "https://amidthenoise.com/writing/when-the-future-sounded-confident",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-01-12",
+    "title": "Systems So Complex They Resemble Faith",
+    "subtitle": "The singularity drive, invisible infrastructure, and the modern crisis of trust",
+    "slug": "systems-so-complex-they-resemble-faith",
+    "description": "A reflection on Foundation’s singularity drive, quantum singularity navigation, and the growing dependence on systems most people can no longer meaningfully understand.",
+    "tags": [
+      "systems",
+      "signal-integrity",
+      "science-fiction"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/systems-so-complex-they-resemble-faith.png",
+    "heroAlt": "Minimal technical diagram of a quantum singularity on a warm off-white background",
+    "url": "https://amidthenoise.com/writing/systems-so-complex-they-resemble-faith",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-01-14",
+    "title": "When Systems Still Had Accents",
+    "subtitle": "National products once carried traces of the places that made them.",
+    "slug": "when-systems-still-had-accents",
+    "description": "A reflection on regional bottling plants, local variation, and the quiet disappearance of geography inside modern distribution systems.",
+    "tags": [
+      "INFRASTRUCTURE",
+      "MEMORY",
+      "SYSTEMS THINKING"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/when-systems-still-had-accents.png",
+    "heroAlt": "Vintage glass soda bottles in wooden crates outside a small regional bottling facility.",
+    "url": "https://amidthenoise.com/writing/when-systems-still-had-accents",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-01-17",
+    "title": "Where the Ground Never Settles",
+    "subtitle": "The city changes. The ground remembers.",
+    "slug": "where-the-ground-never-settles",
+    "description": "A reflection on the La Brea Tar Pits, unstable ground, buried history, and the strange civic poetry of Los Angeles.",
+    "tags": [
+      "Los Angeles",
+      "Infrastructure",
+      "Memory"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/where-the-ground-never-settles.png",
+    "heroAlt": "The La Brea Tar Pits at sunrise with the Los Angeles skyline beyond.",
+    "url": "https://amidthenoise.com/writing/where-the-ground-never-settles",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-01-19",
+    "title": "The Families Aboard the Enterprise",
+    "subtitle": "What communities choose to protect when conditions become dangerous",
+    "slug": "the-families-aboard-the-enterprise",
+    "description": "The Galaxy-class Enterprise was not merely a warship. It was a floating civilization built around the idea that ordinary life should continue even at the edge of the unknown.",
+    "tags": [
+      "SYSTEMS",
+      "CIVIC-INFRASTRUCTURE",
+      "SCIENCE-FICTION"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-families-aboard-the-enterprise.png",
+    "heroAlt": "A contemplative interpretation of the Enterprise-D traveling through space with illuminated civilian windows visible across the saucer section.",
+    "url": "https://amidthenoise.com/writing/the-families-aboard-the-enterprise",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-02-16",
+    "title": "The Future as Projection",
+    "subtitle": "Science fiction often reveals what societies fear becoming.",
+    "slug": "the-future-as-projection",
+    "description": "From Weyland-Yutani to cyberpunk megacorporations, science fiction reflects the anxieties of the cultures creating it.",
+    "tags": [
+      "science-fiction",
+      "systems",
+      "culture"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-future-as-projection.png",
+    "heroAlt": "Abstract futuristic structures dissolving into layered institutional forms.",
+    "url": "https://amidthenoise.com/writing/the-future-as-projection",
+    "status": "Scheduled"
+  }
+]
