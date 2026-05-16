@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The World Through My Eyes"
 subtitle: "What color assumes."
 description: "A reflection on colorblindness, cooking, sensory ambiguity, and the quiet assumptions built into everyday life."
-pubDate: "2026-12-08"
+pubDate: "2026-12-10"
 heroImage: "/images/writing/the-world-through-my-eyes.png"
 heroAlt: "Blurred produce and soft status lights against a neutral background."
 tags: ["systems", "observation", "signal"]

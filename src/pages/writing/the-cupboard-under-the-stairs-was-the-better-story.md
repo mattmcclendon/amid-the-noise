@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Cupboard Under the Stairs Was the Better Story"
 subtitle: "You may matter more than the world currently sees."
 description: "Harry Potter begins as a story about invisibility and hidden worth. Then it quietly becomes a story about inherited exceptionalism."
-pubDate: "2026-10-29"
+pubDate: "2026-11-29"
 heroImage: "/images/writing/the-cupboard-under-the-stairs-was-the-better-story.png"
 heroAlt: "A narrow cupboard beneath a staircase illuminated by soft light from a partially opened door."
 tags: ["Storytelling", "Narrative Design", "Identity"]

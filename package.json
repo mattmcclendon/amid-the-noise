@@ -11,7 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "sync:calendar": "node scripts/sync-google-calendar.js",
-    "sync:sheet": "node scripts/sync-google-sheet.js"
+    "sync:sheet": "node scripts/sync-google-sheet.js",
+    "audit:dates": "node scripts/audit-editorial-dates.js"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
