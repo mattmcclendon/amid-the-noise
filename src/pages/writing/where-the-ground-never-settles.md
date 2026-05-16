@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PublicationLayout.astro"
 title: "Where the Ground Never Settles"
-subtitle: "At the La Brea Tar Pits, history still rises through the surface."
+subtitle: "The city changes. The ground remembers."
 description: "A reflection on the La Brea Tar Pits, unstable ground, buried history, and the strange civic poetry of Los Angeles."
 pubDate: "2026-05-17"
 heroImage: "/images/writing/where-the-ground-never-settles.png"
