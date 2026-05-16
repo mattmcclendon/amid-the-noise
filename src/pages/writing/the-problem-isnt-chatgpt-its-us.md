@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Problem Isn’t ChatGPT — It’s Us"
 subtitle: "When cynicism becomes the default"
 description: "The issue isn’t that machines affirm too much. It’s that we’ve normalized dismissing curiosity before it has a chance to become anything."
-pubDate: "2025-09-26"
+pubDate: "2025-09-28"
 heroImage: "/images/writing/the-problem-isnt-chatgpt-its-us.png"
 heroAlt: "A group of people facing one direction while a single person stands before a glowing doorway"
 tags: ["Signal", "Culture", "Reflection"]

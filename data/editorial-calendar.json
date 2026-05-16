@@ -3909,6 +3909,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2026-12-13",
+    "title": "The City Was Still Awake",
+    "subtitle": "A city at night, briefly softer than usual",
+    "slug": "the-city-was-still-awake",
+    "description": "A late-night drive home becomes a reflection on recovery, endurance, and the quiet warmth cities sometimes reveal in winter.",
+    "tags": [
+      "RECOVERY",
+      "CITIES",
+      "REFLECTION"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-city-was-still-awake.png",
+    "heroAlt": "Nighttime California cityscape with distant Christmas lights and winter haze",
+    "url": "https://amidthenoise.com/writing/the-city-was-still-awake",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2026-12-22",
     "title": "So Say We All",
     "subtitle": "Scarcity is the ultimate teacher.",

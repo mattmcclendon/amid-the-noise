@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Radiance and the Stars"
 subtitle: "Circulation is survival"
 description: "From cities to civilizations, systems survive by circulating what they generate. Concentration creates brilliance. Circulation creates continuity."
-pubDate: "2025-10-14"
+pubDate: "2025-10-15"
 heroImage: "/images/writing/radiance-and-the-stars.png"
 heroAlt: "A soft arc of light flowing from a dense cluster into branching paths and fading into a sparse field"
 tags: ["Civic Systems", "Systems Thinking", "Theory"]

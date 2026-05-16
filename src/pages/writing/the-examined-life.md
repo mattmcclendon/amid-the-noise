@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Examined Life"
 subtitle: "Looking without escape"
 description: "Examination is not abstract. It is a daily practice of noticing, naming, and refusing to look away from what is true."
-pubDate: "2025-10-04"
+pubDate: "2025-10-06"
 heroImage: "/images/writing/the-examined-life.png"
 heroAlt: "A person sitting quietly by still water facing a faint, distant structure in a pale landscape"
 tags: ["Reflection", "Philosophy", "Recovery"]

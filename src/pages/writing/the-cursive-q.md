@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Cursive Q"
 subtitle: "What disappears without failing"
 description: "Some things do not break or improve. They drift out of use. A reflection on memory, transmission, and the quiet loss of what is no longer carried forward."
-pubDate: "2025-12-18"
+pubDate: "2025-12-19"
 heroImage: "/images/writing/the-cursive-q.jpg"
 heroAlt: "Black-and-white photo of two vintage transit vehicles side by side, one reading 'I Start Sunday' and the other 'I Quit Tomorrow,' suggesting the quiet deferral of change"
 tags: ["Reflection", "Memory", "Change"]

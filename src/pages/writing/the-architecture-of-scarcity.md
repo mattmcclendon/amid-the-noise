@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Architecture of Scarcity"
 subtitle: "What reconstruction teaches that stability forgets"
 description: "Nations that rebuild carry memory in their infrastructure. Those that do not risk mistaking stability for strength."
-pubDate: "2025-11-06"
+pubDate: "2025-11-05"
 heroImage: "/images/writing/the-architecture-of-scarcity.png"
 heroAlt: "A foggy canal lined with modest homes on one side and damaged buildings on the other"
 tags: ["Civic Systems", "History", "Reflection"]

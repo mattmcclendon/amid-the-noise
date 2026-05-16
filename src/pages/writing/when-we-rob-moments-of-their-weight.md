@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "When We Rob Moments of Their Weight"
 subtitle: "Naming without anesthesia"
 description: "Euphemism does not just soften language. It reshapes reality. This piece traces how institutions, recovery culture, and personal identity use language to reduce weight, and why truth requires precision."
-pubDate: "2025-10-02"
+pubDate: "2025-10-01"
 heroImage: "/images/writing/when-we-rob-moments-of-their-weight.png"
 heroAlt: "A person standing at a crossroads between two signs representing softened language and plain truth"
 tags: ["Signal", "Language", "Civic Systems"]

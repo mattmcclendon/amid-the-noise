@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Day the End Began for AOL"
 subtitle: "When protecting the present killed the future"
 description: "Companies rarely fail from a lack of resources. They fail when they protect the current model instead of investing in what replaces it."
-pubDate: "2025-09-30"
+pubDate: "2025-09-29"
 heroImage: "/images/writing/the-day-the-end-began-for-aol.png"
 heroAlt: "A crowd gathered on a corporate lawn near a large dinosaur statue with a dial-up modem in the foreground"
 tags: ["Signal", "Systems Thinking", "Leadership"]

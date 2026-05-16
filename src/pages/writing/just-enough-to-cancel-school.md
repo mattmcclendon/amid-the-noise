@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Just Enough to Cancel School"
 subtitle: "When interruption still felt like a gift"
 description: "Small disruptions once felt like freedom. Perspective changes what interruption means, but the memory of it still holds."
-pubDate: "2026-02-15"
+pubDate: "2026-02-18"
 heroImage: "/images/writing/just-enough-to-cancel-school.jpg"
 heroAlt: "A quiet residential street at dawn with a light winter glaze reflecting soft morning light"
 tags: ["Reflection", "Memory"]

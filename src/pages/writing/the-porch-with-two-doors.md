@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Porch With Two Doors"
 subtitle: "Return without permission"
 description: "Home is not a place you enter. It is the moment you recognize yourself and no longer need to ask to stay."
-pubDate: "2025-10-19"
+pubDate: "2025-10-21"
 heroImage: "/images/writing/the-porch-with-two-doors.png"
 heroAlt: "A warmly lit porch with two front doors side by side at night"
 tags: ["Reflection", "Belonging", "Poetry"]

@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Scene That Names the Drift"
 subtitle: "Recognition before admission"
 description: "A quiet moment in Star Trek Beyond reveals how drift is often seen by others before we name it ourselves, and how recognition can become a turning point rather than a judgment."
-pubDate: "2025-12-28"
+pubDate: "2025-12-29"
 heroImage: "/images/writing/the-scene-that-names-the-drift.png"
 heroAlt: "Two silhouetted figures seated across a table in quiet conversation, with a soft cityscape beyond a wide window"
 tags: ["Signal", "Leadership", "Reflection"]

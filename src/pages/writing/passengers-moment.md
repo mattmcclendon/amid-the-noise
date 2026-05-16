@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "My “Passengers” Moment"
 subtitle: "Waking up inside your own life"
 description: "The story I thought I needed was somewhere in the future. It turns out I was already living it. This is what it means to wake up inside your own life."
-pubDate: "2025-07-26"
+pubDate: "2025-07-25"
 heroImage: "/images/writing/passengers-moment.png"
 heroAlt: "A solitary figure sitting upright in a softly lit room just after waking, symbolizing awareness, return, and the moment of personal clarity"
 tags: ["Reflection", "Recovery", "Voice"]

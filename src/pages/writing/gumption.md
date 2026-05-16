@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Gumption"
 subtitle: "Trajectory over outcome"
 description: "Gumption is not force. It is systems awareness applied over time. A reflection on restraint, judgment, and choosing for trajectory rather than immediate result."
-pubDate: "2026-01-22"
+pubDate: "2026-01-23"
 heroImage: "/images/writing/gumption.jpg"
 heroAlt: "Vintage Las Vegas at night with glowing casino signs and traffic along the Strip, evoking energy, decision, and consequence over time."
 tags: ["Signal", "Systems Thinking", "Judgment"]

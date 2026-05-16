@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Amid the Noise: Identity Evolution"
 subtitle: "From expression to authorship"
 description: "The identity shifts toward clarity, restraint, and permanence, trading expressiveness for authorship and continuity."
-pubDate: "2026-04-19"
+pubDate: "2026-04-20"
 heroImage: "/images/writing/amid-the-noise-identity-evolution.png"
 heroAlt: "A minimalist identity mark featuring a grounded blue square paired with a classical serif wordmark reading 'amid the noise'"
 tags: ["Signal", "Design Systems"]

@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Designed to Fail, Excused by Scarcity"
 subtitle: "Scarcity as system behavior"
 description: "Scarcity in public systems is not a symptom of failure. It is an output of design. This paper reframes civic infrastructure through participation, dignity, and distributed capacity."
-pubDate: "2026-02-15"
+pubDate: "2026-02-14"
 heroImage: "/images/writing/national-security-policy-hero.png"
 heroAlt: "Reflecting Pool on the National Mall with the Washington Monument centered and the U.S. Capitol in the distance at sunrise"
 tags: ["Civic Systems", "Systems Thinking", "Governance"]

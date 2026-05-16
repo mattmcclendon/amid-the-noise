@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "No Metaphor"
 subtitle: "Clarity without performance"
 description: "Clarity is not something you describe. It is something you live. A reflection on presence, honesty, and the cost of performing understanding."
-pubDate: "2025-12-04"
+pubDate: "2025-12-05"
 heroImage: "/images/writing/no-metaphor.jpg"
 heroAlt: "Sunrise over a suspension bridge, casting direct light across calm water"
 tags: ["Reflection", "Presence", "Clarity"]

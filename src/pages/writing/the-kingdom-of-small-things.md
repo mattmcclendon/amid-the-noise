@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Kingdom of Small Things"
 subtitle: "Sovereignty as a form of love"
 description: "Defined roles do not limit relationships. They protect them. A reflection on boundaries, restraint, and how trust is built through what we choose not to control."
-pubDate: "2025-08-17"
+pubDate: "2025-08-18"
 heroImage: "/images/writing/the-kingdom-of-small-things.png"
 heroAlt: "A minimalist split scene showing a kitchen on one side and a small yard on the other, divided by a clean boundary, symbolizing shared space and personal sovereignty within a home"
 tags: ["Reflection", "Relationships", "Family"]

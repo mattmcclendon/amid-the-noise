@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "When Choice Isn’t Freedom"
 subtitle: "Choice as a screening mechanism"
 description: "What we call user choice often functions as a filter. The most capable advance. The most vulnerable disappear. This piece reframes accessibility as a question of power, not preference."
-pubDate: "2026-01-15"
+pubDate: "2026-01-16"
 heroImage: "/images/writing/when-choice-isnt-freedom.png"
 heroAlt: "A minimalist architectural space with a distant figure framed by layered doorways and soft light"
 tags: ["Civic Systems", "UX", "Signal"]

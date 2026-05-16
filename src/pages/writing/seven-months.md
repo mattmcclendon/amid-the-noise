@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Seven Months"
 subtitle: "Momentum built quietly"
 description: "Recovery compounds through small, consistent choices. Clarity returns first, then direction, then momentum."
-pubDate: "2025-11-26"
+pubDate: "2025-11-25"
 heroImage: "/images/writing/seven-months.jpg"
 heroAlt: "Quiet train platform at sunrise with long shadows and a distant light at the end of the tracks"
 tags: ["Reflection", "Recovery", "Momentum"]

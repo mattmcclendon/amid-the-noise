@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Operational Empathy"
 subtitle: "Friction is a design choice"
 description: "Empathy is not a personality trait in system design. It is an operational choice that determines whether systems scale or collapse under their own friction."
-pubDate: "2026-01-27"
+pubDate: "2026-01-28"
 heroImage: "/images/writing/operational-empathy.png"
 heroAlt: "A minimalist abstract system showing rigid angular paths on one side and smooth flowing curves on the other"
 tags: ["Signal", "Systems Thinking", "UX"]

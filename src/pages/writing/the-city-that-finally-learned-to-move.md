@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The City That Finally Learned to Move"
 subtitle: "Flow instead of fight"
 description: "The city didn’t change. My relationship to it did. A reflection on moving with a system rather than against it."
-pubDate: "2025-11-06"
+pubDate: "2025-11-10"
 heroImage: "/images/writing/the-city-that-finally-learned-to-move.png"
 heroAlt: "Two trains resting on parallel tracks in a quiet, softly lit station"
 tags: ["Reflection", "Growth", "Place"]

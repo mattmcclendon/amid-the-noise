@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Trauma by Design"
 subtitle: "When harm is built into the system"
 description: "Trauma is not always the result of singular events. In civic systems, it is often produced through design decisions that diminish dignity and repeat harm."
-pubDate: "2025-07-27"
+pubDate: "2025-07-28"
 heroImage: "/images/writing/trauma-by-design.png"
 heroAlt: "A solitary figure stands in a minimalist interior space facing an open passage leading to a sunlit path, symbolizing the transition from systemic constraint to dignity and possibility"
 tags: ["Civic Systems", "Signal", "Design"]

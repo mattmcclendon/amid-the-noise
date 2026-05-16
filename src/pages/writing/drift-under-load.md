@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Drift Under Load"
 subtitle: "When stability erodes quietly"
 description: "Drift is not always a choice. It can be a mechanical response to sustained instability, fatigue, and the loss of margin."
-pubDate: "2026-03-24"
+pubDate: "2026-03-25"
 heroImage: "/images/writing/drift-under-load.png"
 heroAlt: "Empty residential street at golden hour, quiet and still, suggesting pause, distance, and slow return"
 tags: ["Reflection", "Recovery", "Stability"]

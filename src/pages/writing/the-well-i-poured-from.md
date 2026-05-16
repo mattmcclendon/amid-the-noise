@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Well I Poured From"
 subtitle: "Clarity without revision"
 description: "Clarity does not repair what broke. It names it. A reflection on recognition, reciprocity, and leaving what cannot return you."
-pubDate: "2025-10-26"
+pubDate: "2025-10-28"
 heroImage: "/images/writing/the-well-i-poured-from.png"
 heroAlt: "A stone well with faint light rising as a lone figure walks away into a pale landscape"
 tags: ["Recovery", "Reflection", "Relationships"]

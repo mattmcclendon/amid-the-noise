@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Reading Between the Lines"
 subtitle: "How manipulation hides in ordinary messages"
 description: "Real exchanges reveal how subtle tactics create confusion, dependency, and control. This piece names the patterns and outlines a path to recovery."
-pubDate: "2025-07-17"
+pubDate: "2025-07-16"
 heroImage: "/images/writing/reading-between-the-lines.png"
 heroAlt: "A smartphone in a minimalist space displays abstracted message fragments that drift and misalign, suggesting confusion, inconsistency, and emotional signal loss"
 tags: ["Recovery", "Psychology", "Abuse"]

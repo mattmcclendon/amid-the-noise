@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Used, Spent, and Forgotten"
 subtitle: "When performance replaces partnership"
 description: "Narcissistic abuse does not begin with cruelty. It begins with recognition, then shifts into performance that replaces real connection. This piece traces the pattern and the path out."
-pubDate: "2025-07-17"
+pubDate: "2025-07-19"
 heroImage: "/images/writing/used-spent-forgotten.png"
 heroAlt: "A man with a fractured mask revealing his true self beneath, dissolving into soft textures against a calm horizon"
 tags: ["Recovery", "Relationships", "Psychology"]
