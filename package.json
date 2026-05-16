@@ -9,11 +9,16 @@
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "sync:calendar": "node scripts/sync-google-calendar.js",
+    "sync:sheet": "node scripts/sync-google-sheet.js"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
-    "astro": "^6.1.7"
+    "astro": "^6.1.7",
+    "fast-glob": "^3.3.3",
+    "googleapis": "^171.4.0",
+    "gray-matter": "^4.0.3"
   },
   "devDependencies": {
     "pagefind": "^1.5.2"

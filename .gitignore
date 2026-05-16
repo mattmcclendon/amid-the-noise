@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Google Calendar sync credentials
+scripts/credentials.json
+scripts/token.json

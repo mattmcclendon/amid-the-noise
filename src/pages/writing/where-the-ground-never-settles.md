@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "Where the Ground Never Settles"
 subtitle: "The city changes. The ground remembers."
 description: "A reflection on the La Brea Tar Pits, unstable ground, buried history, and the strange civic poetry of Los Angeles."
-pubDate: "2026-05-17"
+pubDate: "2027-01-17"
 heroImage: "/images/writing/where-the-ground-never-settles.png"
 heroAlt: "The La Brea Tar Pits at sunrise with the Los Angeles skyline beyond."
 tags: ["Los Angeles", "Infrastructure", "Memory"]
