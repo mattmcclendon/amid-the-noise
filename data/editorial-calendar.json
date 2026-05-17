@@ -4266,6 +4266,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-02-04",
+    "title": "Copyright Topography",
+    "subtitle": "You can feel the shape of cultural power through the hesitation of a machine.",
+    "slug": "copyright-topography",
+    "description": "A reflection on AI image generation, invisible governance systems, and the behavioral geography users begin mapping through interaction.",
+    "tags": [
+      "AI",
+      "GOVERNANCE",
+      "SYSTEMS"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/copyright-topography.png",
+    "heroAlt": "Abstract editorial illustration inspired by AI governance, invisible systems, and cultural gravity.",
+    "url": "https://amidthenoise.com/writing/copyright-topography",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-02-14",
     "title": "You Don’t Have to Meet Me Everywhere",
     "subtitle": "Love became easier once I stopped asking one person to carry every part of me.",
