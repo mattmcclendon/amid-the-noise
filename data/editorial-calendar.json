@@ -2461,7 +2461,7 @@
     "heroImage": "/images/writing/from-distance-to-surface.png",
     "heroAlt": "Partially open door in a quiet, minimalist space with warm light spilling in, suggesting transition, access, and crossing a threshold",
     "url": "https://amidthenoise.com/writing/from-distance-to-surface",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-05-19",
@@ -3892,6 +3892,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2026-12-03",
+    "title": "The Emotional Architecture of Waiting",
+    "subtitle": "Pumpkin spice is not really about flavor.",
+    "slug": "the-emotional-architecture-of-waiting",
+    "description": "A reflection on seasonal living, anticipation, and what abundance quietly removed from modern emotional life.",
+    "tags": [
+      "Culture",
+      "Signal",
+      "Memory"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-emotional-architecture-of-waiting.png",
+    "heroAlt": "A softly lit European market transitioning from autumn into winter beneath muted seasonal colors.",
+    "url": "https://amidthenoise.com/writing/the-emotional-architecture-of-waiting",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2026-12-08",
     "title": "The Quiet Builders of Los Angeles",
     "subtitle": "The city kept changing because people kept showing up to build it.",
@@ -3957,6 +3974,23 @@
     "heroImage": "/images/writing/when-the-armor-started-feeling-normal.png",
     "heroAlt": "An armored police vehicle moving through an ordinary civic corridor beside hospitals and transit infrastructure.",
     "url": "https://amidthenoise.com/writing/when-the-armor-started-feeling-normal",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-12-20",
+    "title": "The Magic in the Dark",
+    "subtitle": "The big colored lights made winter feel alive.",
+    "slug": "the-magic-in-the-dark",
+    "description": "A reflection on C9 Christmas lights, melted popcorn decorations, and the childhood magic of incandescent Christmases.",
+    "tags": [
+      "Memory",
+      "Culture",
+      "Winter"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-magic-in-the-dark.png",
+    "heroAlt": "Vintage frosted C9 Christmas bulbs glowing against a winter evening sky.",
+    "url": "https://amidthenoise.com/writing/the-magic-in-the-dark",
     "status": "Scheduled"
   },
   {
