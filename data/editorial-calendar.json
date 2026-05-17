@@ -4383,5 +4383,22 @@
     "heroAlt": "A layered Los Angeles streetscape where production trucks, diners, palm trees, and apartment buildings blend into ordinary city life.",
     "url": "https://amidthenoise.com/writing/hollywood-as-infrastructure",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-02-25",
+    "title": "Worlds Without Blue Skies",
+    "subtitle": "Science fiction lives somewhere between science and emotional survivability",
+    "slug": "worlds-without-blue-skies",
+    "description": "A reflection on alien worlds, environmental psychology, and the possibility that reality may be stranger than science fiction prepares us to imagine.",
+    "tags": [
+      "SCIENCE-FICTION",
+      "SCIENCE",
+      "CULTURE"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/worlds-without-blue-skies.png",
+    "heroAlt": "An alien landscape beneath dim atmospheric light and an unfamiliar sky.",
+    "url": "https://amidthenoise.com/writing/worlds-without-blue-skies",
+    "status": "Scheduled"
   }
 ]
