@@ -4349,5 +4349,22 @@
     "heroAlt": "An atmospheric streetscape inspired by the operational texture and quiet infrastructure of Studio Ghibli worlds.",
     "url": "https://amidthenoise.com/writing/the-quiet-machinery-of-studio-ghibli",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-02-21",
+    "title": "Sketched into Existence",
+    "subtitle": "Every beloved thing was once small enough to fit on a napkin",
+    "slug": "sketched-into-existence",
+    "description": "A reflection on fragile beginnings, collective imagination, and the strange scale of creative work before the world notices it.",
+    "tags": [
+      "CREATIVITY",
+      "CULTURE",
+      "MEMORY"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/sketched-into-existence.png",
+    "heroAlt": "A dimly lit coffee shop table scattered with sketches, notes, and unfinished character drawings.",
+    "url": "https://amidthenoise.com/writing/sketched-into-existence",
+    "status": "Scheduled"
   }
 ]
