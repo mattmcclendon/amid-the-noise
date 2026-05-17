@@ -4079,6 +4079,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2026-12-29",
+    "title": "Toy Story",
+    "subtitle": "And the stories we tell ourselves about being important.",
+    "slug": "toy-story",
+    "description": "A reflection on Woody, hierarchy, favoritism, and how adulthood changes the way we interpret status.",
+    "tags": [
+      "CULTURE",
+      "SYSTEMS",
+      "REFLECTION"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/toy-story.png",
+    "heroAlt": "Abstract editorial illustration inspired by Toy Story, hierarchy, and identity.",
+    "url": "https://amidthenoise.com/writing/toy-story",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2026-12-31",
     "title": "The Things We Agreed Not to Touch",
     "subtitle": "Chernobyl was supposed to become untouchable.",
