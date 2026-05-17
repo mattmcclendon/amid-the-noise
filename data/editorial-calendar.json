@@ -4400,5 +4400,22 @@
     "heroAlt": "An alien landscape beneath dim atmospheric light and an unfamiliar sky.",
     "url": "https://amidthenoise.com/writing/worlds-without-blue-skies",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-02-28",
+    "title": "When Words Become Objects",
+    "subtitle": "Watching language leave the screen and enter the physical world",
+    "slug": "when-words-become-objects",
+    "description": "A reflection on the strange transition that happens when digital writing becomes a hardcover book.",
+    "tags": [
+      "WRITING",
+      "BOOKS",
+      "MEMORY"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-words-become-objects.png",
+    "heroAlt": "A hardcover book resting in natural light.",
+    "url": "https://amidthenoise.com/writing/when-words-become-objects",
+    "status": "Scheduled"
   }
 ]
