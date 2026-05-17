@@ -4417,5 +4417,22 @@
     "heroAlt": "A hardcover book resting in natural light.",
     "url": "https://amidthenoise.com/writing/when-words-become-objects",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-03-02",
+    "title": "The Architecture had Already Failed",
+    "subtitle": "Relapse, identity fracture, and the quiet panic of midlife",
+    "slug": "the-architecture-had-already-failed",
+    "description": "A reflection on relapse, aging, identity, and the moment old survival mechanisms reactivate under pressure.",
+    "tags": [
+      "RECOVERY",
+      "IDENTITY",
+      "SYSTEMS"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-architecture-had-already-failed.png",
+    "heroAlt": "A solitary figure standing beneath a shifting sky.",
+    "url": "https://amidthenoise.com/writing/the-architecture-had-already-failed",
+    "status": "Scheduled"
   }
 ]
