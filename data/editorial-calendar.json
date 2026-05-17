@@ -4332,5 +4332,22 @@
     "heroAlt": "Abstract futuristic structures dissolving into layered institutional forms.",
     "url": "https://amidthenoise.com/writing/the-future-as-projection",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-02-18",
+    "title": "The Quiet Machinery of Studio Ghibli",
+    "subtitle": "Why these worlds feel inhabited instead of staged",
+    "slug": "the-quiet-machinery-of-studio-ghibli",
+    "description": "A reflection on operational texture, invisible labor, and the systems-level realism beneath Studio Ghibli’s worlds.",
+    "tags": [
+      "CULTURE",
+      "SYSTEMS",
+      "DESIGN"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-quiet-machinery-of-studio-ghibli.png",
+    "heroAlt": "An atmospheric streetscape inspired by the operational texture and quiet infrastructure of Studio Ghibli worlds.",
+    "url": "https://amidthenoise.com/writing/the-quiet-machinery-of-studio-ghibli",
+    "status": "Scheduled"
   }
 ]
