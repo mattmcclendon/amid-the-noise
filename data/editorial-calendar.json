@@ -3875,6 +3875,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2026-12-01",
+    "title": "We Scare Because We Care",
+    "subtitle": "New York kept trying to look normal while the city learned how to breathe again.",
+    "slug": "we-scare-because-we-care",
+    "description": "A reflection on Monsters, Inc., post-9/11 New York, and the strange persistence of ordinary life after historical rupture.",
+    "tags": [
+      "Memory",
+      "Culture",
+      "Signal"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/we-scare-because-we-care.png",
+    "heroAlt": "Bright movie advertisements glowing above a subdued Manhattan street during winter 2001.",
+    "url": "https://amidthenoise.com/writing/we-scare-because-we-care",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2026-12-08",
     "title": "The Quiet Builders of Los Angeles",
     "subtitle": "The city kept changing because people kept showing up to build it.",
