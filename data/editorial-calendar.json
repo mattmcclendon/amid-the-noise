@@ -4366,5 +4366,22 @@
     "heroAlt": "A dimly lit coffee shop table scattered with sketches, notes, and unfinished character drawings.",
     "url": "https://amidthenoise.com/writing/sketched-into-existence",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-02-23",
+    "title": "Hollywood as Infrastructure",
+    "subtitle": "Every city normalizes its dominant industry",
+    "slug": "hollywood-as-infrastructure",
+    "description": "A reflection on Los Angeles, visible labor, and the difference between mythology and ordinary civic life.",
+    "tags": [
+      "CITIES",
+      "INFRASTRUCTURE",
+      "CULTURE"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/hollywood-as-infrastructure.png",
+    "heroAlt": "A layered Los Angeles streetscape where production trucks, diners, palm trees, and apartment buildings blend into ordinary city life.",
+    "url": "https://amidthenoise.com/writing/hollywood-as-infrastructure",
+    "status": "Scheduled"
   }
 ]
