@@ -4266,6 +4266,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-01-26",
+    "title": "The Last Row",
+    "subtitle": "Where the periodic table stops feeling settled",
+    "slug": "the-last-row",
+    "description": "A reflection on the outer edge of the periodic table, where certainty gives way to instability, probability, and the unfinished frontier of modern physics.",
+    "tags": [
+      "SCIENCE",
+      "SYSTEMS",
+      "SIGNAL"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-last-row.png",
+    "heroAlt": "An abstract interpretation of the far edge of the periodic table fading into uncertainty.",
+    "url": "https://amidthenoise.com/writing/the-last-row",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-02-04",
     "title": "Copyright Topography",
     "subtitle": "You can feel the shape of cultural power through the hesitation of a machine.",
