@@ -4215,6 +4215,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-01-21",
+    "title": "Theorists and Mechanics",
+    "subtitle": "Every theory eventually collides with a real-world system.",
+    "slug": "theorists-and-mechanics",
+    "description": "A reflection on theorists, practitioners, and why trustworthy AI systems require both architecture and grease under the fingernails.",
+    "tags": [
+      "AI",
+      "SYSTEMS",
+      "GOVERNANCE"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/theorists-and-mechanics.png",
+    "heroAlt": "Abstract illustration inspired by Star Trek engineering culture and AI systems design.",
+    "url": "https://amidthenoise.com/writing/theorists-and-mechanics",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-02-16",
     "title": "The Future as Projection",
     "subtitle": "Science fiction often reveals what societies fear becoming.",
