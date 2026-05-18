@@ -4468,5 +4468,39 @@
     "heroAlt": "A minimalist composition featuring a black baseball cap against a geometric background.",
     "url": "https://amidthenoise.com/writing/single-point-of-failure",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-03-14",
+    "title": "The Comfort of Incomplete Things",
+    "subtitle": "Some truths can be real even if they never end.",
+    "slug": "the-comfort-of-incomplete-things",
+    "description": "A reflection on irrational numbers, human approximation, and why some of the most important things in life cannot be completed.",
+    "tags": [
+      "SYSTEMS",
+      "MATHEMATICS",
+      "PHILOSOPHY"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-comfort-of-incomplete-things.png",
+    "heroAlt": "An abstract geometric spiral fading outward across a pale field.",
+    "url": "https://amidthenoise.com/writing/the-comfort-of-incomplete-things",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-03-16",
+    "title": "When Messages Waited at Home",
+    "subtitle": "There was a time when silence did not mean absence.",
+    "slug": "when-messages-waited-at-home",
+    "description": "A reflection on voicemail lights, unreachable time, and the psychological cost of permanent accessibility.",
+    "tags": [
+      "TECHNOLOGY",
+      "MEMORY",
+      "CULTURE"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-messages-waited-at-home.png",
+    "heroAlt": "A softly lit kitchen window at dusk with the faint glow of a voicemail indicator in the distance.",
+    "url": "https://amidthenoise.com/writing/when-messages-waited-at-home",
+    "status": "Scheduled"
   }
 ]
