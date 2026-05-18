@@ -4502,5 +4502,22 @@
     "heroAlt": "A softly lit kitchen window at dusk with the faint glow of a voicemail indicator in the distance.",
     "url": "https://amidthenoise.com/writing/when-messages-waited-at-home",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-03-25",
+    "title": "Surviving Gravity",
+    "subtitle": "I thought I could outsmart gravity.",
+    "slug": "surviving-gravity",
+    "description": "A reflection on addiction, collapse, recovery, and learning which forces in life are real.",
+    "tags": [
+      "RECOVERY",
+      "REFLECTION",
+      "SYSTEMS"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/surviving-gravity.png",
+    "heroAlt": "Muted spring light over a quiet landscape with orbital forms suspended in the distance.",
+    "url": "https://amidthenoise.com/writing/surviving-gravity",
+    "status": "Scheduled"
   }
 ]
