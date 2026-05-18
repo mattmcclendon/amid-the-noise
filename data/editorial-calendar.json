@@ -4434,5 +4434,22 @@
     "heroAlt": "A solitary figure standing beneath a shifting sky.",
     "url": "https://amidthenoise.com/writing/the-architecture-had-already-failed",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-03-04",
+    "title": "Beam Me Up",
+    "subtitle": "Why adults still need places where imagination is allowed to breathe",
+    "slug": "beam-me-up",
+    "description": "A reflection on cosplay, world-building, imagination, and the quiet human need to keep playing make-believe as adults.",
+    "tags": [
+      "IMAGINATION",
+      "CULTURE",
+      "MEMORY"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/beam-me-up.png",
+    "heroAlt": "A smiling man in a red science-fiction uniform against a soft cosmic backdrop.",
+    "url": "https://amidthenoise.com/writing/beam-me-up",
+    "status": "Scheduled"
   }
 ]
