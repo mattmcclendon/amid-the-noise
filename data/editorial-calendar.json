@@ -4451,5 +4451,22 @@
     "heroAlt": "A smiling man in a red science-fiction uniform against a soft cosmic backdrop.",
     "url": "https://amidthenoise.com/writing/beam-me-up",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-03-09",
+    "title": "Single Point of Failure",
+    "subtitle": "The danger of becoming only one thing.",
+    "slug": "single-point-of-failure",
+    "description": "A reflection on institutional identity, local belonging, and the danger of becoming only one thing.",
+    "tags": [
+      "IDENTITY",
+      "SYSTEMS",
+      "CULTURE"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/single-point-of-failure.png",
+    "heroAlt": "A minimalist composition featuring a black baseball cap against a geometric background.",
+    "url": "https://amidthenoise.com/writing/single-point-of-failure",
+    "status": "Scheduled"
   }
 ]
