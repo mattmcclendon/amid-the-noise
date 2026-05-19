@@ -4554,6 +4554,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-03-21",
+    "title": "Line 4",
+    "subtitle": "A short story about civic efficiency and the people systems fail to measure.",
+    "slug": "line-4",
+    "description": "In a city where almost every public service moved online, one physical desk remains impossible to eliminate.",
+    "tags": [
+      "Fiction",
+      "Systems",
+      "Civic"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/line-4.png",
+    "heroAlt": "Abstract editorial illustration inspired by civic systems, public infrastructure, and human presence.",
+    "url": "https://amidthenoise.com/writing/line-4",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-03-25",
     "title": "Surviving Gravity",
     "subtitle": "I thought I could outsmart gravity.",
