@@ -4470,6 +4470,22 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-03-11",
+    "title": "Quiet Instruments",
+    "subtitle": "Some objects stop being technology and become witnesses.",
+    "slug": "quiet-instruments",
+    "description": "A physician’s gold calculator watch becomes a meditation on durable tools, emotional continuity, and the difference between technology that serves us and technology that consumes us.",
+    "tags": [
+      "systems",
+      "technology"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/quiet-instruments.png",
+    "heroAlt": "A gold calculator watch resting against a soft neutral background.",
+    "url": "https://amidthenoise.com/writing/quiet-instruments",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-03-14",
     "title": "The Comfort of Incomplete Things",
     "subtitle": "Some truths can be real even if they never end.",
