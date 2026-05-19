@@ -2478,7 +2478,7 @@
     "heroImage": "/images/writing/the-real-ai-race-is-diffusion.png",
     "heroAlt": "Abstract interconnected systems and infrastructure lines suggesting distributed intelligence across civic and industrial networks.",
     "url": "https://amidthenoise.com/writing/the-real-ai-race-is-diffusion",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-05-21",
@@ -4450,6 +4450,23 @@
     "heroImage": "/images/writing/beam-me-up.png",
     "heroAlt": "A smiling man in a red science-fiction uniform against a soft cosmic backdrop.",
     "url": "https://amidthenoise.com/writing/beam-me-up",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-03-07",
+    "title": "Mars Broke the Model",
+    "subtitle": "Kepler, AI governance, and the discipline of observing reality honestly.",
+    "slug": "mars-broke-the-model",
+    "description": "A reflection on Johannes Kepler, orbital mechanics, and why trustworthy systems require humility before observed reality.",
+    "tags": [
+      "AI",
+      "GOVERNANCE",
+      "SYSTEMS"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/mars-broke-the-model.png",
+    "heroAlt": "Abstract editorial illustration inspired by orbital mechanics, AI governance, and observational systems thinking.",
+    "url": "https://amidthenoise.com/writing/mars-broke-the-model",
     "status": "Scheduled"
   },
   {
