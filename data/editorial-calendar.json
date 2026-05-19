@@ -4623,5 +4623,56 @@
     "heroAlt": "A restrained futuristic skyline fading into atmospheric haze beneath a civic grid.",
     "url": "https://amidthenoise.com/writing/what-happens-after-survival",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-03-30",
+    "title": "Vestibule",
+    "subtitle": "Designing conditions for living instead of living itself.",
+    "slug": "vestibule",
+    "description": "A reflection on planning, uncertainty, and the strange comfort of living in preparation mode.",
+    "tags": [
+      "reflection",
+      "recovery",
+      "systems-thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/vestibule.png",
+    "heroAlt": "A quiet architectural threshold fading into soft geometric distance.",
+    "url": "https://amidthenoise.com/writing/vestibule",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-01",
+    "title": "Familiar Exits",
+    "subtitle": "What happens when a city becomes an archive.",
+    "slug": "familiar-exits",
+    "description": "A reflection on geography, memory, recovery, and the exhaustion of living among too many archived selves.",
+    "tags": [
+      "reflection",
+      "recovery",
+      "memory"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/familiar-exits.png",
+    "heroAlt": "A freeway interchange dissolving softly into layered memory and distance.",
+    "url": "https://amidthenoise.com/writing/familiar-exits",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-04",
+    "title": "Recursive",
+    "subtitle": "The engagement itself had become the reward.",
+    "slug": "recursive",
+    "description": "A reflection on optimization loops, emotional regulation, and the strange comfort of endless research.",
+    "tags": [
+      "reflection",
+      "psychology",
+      "systems-thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/recursive.png",
+    "heroAlt": "An abstract looping system dissolving softly into layered patterns and unfinished pathways.",
+    "url": "https://amidthenoise.com/writing/recursive",
+    "status": "Scheduled"
   }
 ]
