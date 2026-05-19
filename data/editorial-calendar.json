@@ -4604,5 +4604,24 @@
     "heroAlt": "Muted spring light over a quiet landscape with orbital forms suspended in the distance.",
     "url": "https://amidthenoise.com/writing/surviving-gravity",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-03-28",
+    "title": "What Happens After Survival",
+    "subtitle": "Earth solved collapse. Meaning proved harder.",
+    "slug": "what-happens-after-survival",
+    "description": "The Expanse imagined a future where humanity survived environmental collapse and material scarcity, only to discover that safety alone could not sustain purpose.",
+    "tags": [
+      "Systems Thinking",
+      "Science Fiction",
+      "Civic Infrastructure",
+      "The Expanse",
+      "Agency"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/what-happens-after-survival.png",
+    "heroAlt": "A restrained futuristic skyline fading into atmospheric haze beneath a civic grid.",
+    "url": "https://amidthenoise.com/writing/what-happens-after-survival",
+    "status": "Scheduled"
   }
 ]
