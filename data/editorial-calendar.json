@@ -4571,6 +4571,24 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-03-23",
+    "title": "Graceful Degradation",
+    "subtitle": "Space infrastructure may teach Earth how to survive instability without collapsing all at once.",
+    "slug": "graceful-degradation",
+    "description": "A reflection on resilient systems, distributed infrastructure, and why the future grid may increasingly resemble a space habitat.",
+    "tags": [
+      "Infrastructure",
+      "Space",
+      "Resilience",
+      "Systems Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/graceful-degradation.png",
+    "heroAlt": "Abstract resilient infrastructure systems inspired by orbital engineering and distributed civic networks.",
+    "url": "https://amidthenoise.com/writing/graceful-degradation",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-03-25",
     "title": "Surviving Gravity",
     "subtitle": "I thought I could outsmart gravity.",
