@@ -4674,5 +4674,22 @@
     "heroAlt": "An abstract looping system dissolving softly into layered patterns and unfinished pathways.",
     "url": "https://amidthenoise.com/writing/recursive",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-06",
+    "title": "Invisible Corridors",
+    "subtitle": "Modern power moves through systems most people never see.",
+    "slug": "invisible-corridors",
+    "description": "A reflection on civic legibility, hidden infrastructure, and the growing distance between visible governance and operational power.",
+    "tags": [
+      "systems-thinking",
+      "governance",
+      "geopolitics"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/invisible-corridors.png",
+    "heroAlt": "Abstract geopolitical corridor visualization against a soft neutral background",
+    "url": "https://amidthenoise.com/writing/invisible-corridors",
+    "status": "Scheduled"
   }
 ]
