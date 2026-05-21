@@ -47,6 +47,12 @@ We removed the handoff.
 
 We did not remove the consequences.
 
+When software determines what users can see, which actions are frictionless, which behaviors trigger escalation, or which identities receive trust, design decisions stop behaving like presentation decisions. They become operational policy.
+
+Historically, organizations absorbed some of that risk through process. Engineers questioned assumptions. QA surfaced edge cases. Infrastructure constraints slowed irresponsible decisions down. The friction was inefficient. It was also protective.
+
+AI-assisted production removes much of that procedural drag. Judgment no longer hides inside process. It becomes architectural.
+
 ---
 ## What Breaks First
 
@@ -62,7 +68,11 @@ Underneath, drift begins.
 
 This is not a design quality problem. It is a system integrity problem.
 
-A product can look coherent and still behave unpredictably. It can surface the wrong information, guide users into dead ends, or produce outcomes no one on the team can fully explain.
+A product can look coherent and still behave unpredictably. It can surface the wrong information, guide users into dead ends, quietly prioritize one category of user over another, or produce outcomes no one on the team can fully explain.
+
+None of those decisions arrive labeled as policy.
+
+Users experience them that way anyway.
 
 At scale, that erodes trust.
 
@@ -75,9 +85,9 @@ It has not compressed judgment.
 
 Teams are already feeling the shift. More output, more prototypes, more code. Someone still has to decide what is correct, what is safe, and what is worth shipping.
 
-The constraint is no longer generation speed.
+The bottleneck is no longer production.
 
-It is decision integrity at speed.
+It is governance at production speed.
 
 Can a team:
 
@@ -141,7 +151,7 @@ Because the system requires it.
 ---
 ## What This Actually Means
 
-The tools will improve. The distance between idea and output will shrink.
+The tools will improve. The distance between idea and output will continue to shrink.
 
 That does not reduce the role of design.
 
@@ -149,6 +159,12 @@ It removes the insulation.
 
 There is less space to defer decisions. Fewer layers between intent and consequence.
 
-The work becomes more direct.
+Every interface encodes assumptions.
 
-So does the accountability.
+Every workflow distributes power.
+
+Every default behavior shapes human outcomes at scale.
+
+Once design ships directly into production, those decisions stop behaving like drafts.
+
+They behave like policy.
