@@ -14,7 +14,9 @@ Most people experience technology through apps.
 
 I spent most of my career designing the systems behind them.
 
-Networks. Identity layers. Semiconductor tooling. Cloud infrastructure. Ambient memory systems. Enterprise telemetry. Operational dashboards. Systems so large and interconnected that no single human being could fully hold them in their head all at once.
+Networks. Identity systems. Semiconductor tooling. Cloud infrastructure. Ambient memory systems. Enterprise telemetry. Operational dashboards.
+
+Systems so large and interconnected that no single person could fully hold them in their head all at once.
 
 The public rarely sees these environments directly. They appear only as side effects:
 a recommendation arrives instantly,
@@ -23,7 +25,7 @@ a network outage resolves itself,
 a simulation finishes successfully,
 a relationship resurfaces at the exact moment memory would have otherwise failed.
 
-The interfaces behind those moments are rarely celebrated. They are often dense, technical, and operationally unforgiving. Yet they quietly shape how modern life functions.
+The interfaces behind those moments are rarely witnessed. They are often dense, technical, and operationally unforgiving. Yet they quietly shape how modern life functions.
 
 Over time, I realized I was never really designing screens.
 
@@ -67,7 +69,11 @@ Long before AI assistants normalized ideas like contextual memory and ambient re
 
 Looking back now, the design challenge was not merely organizational. It was cognitive.
 
-Human beings are terrible at maintaining relational continuity at scale. We forget names. Context collapses. Time compresses. Relationships drift into fragments.
+Human beings are terrible at maintaining relational continuity at scale.
+
+Modern life increasingly depended on remembering hundreds of fragmented interactions across conferences, airports, offices, dinners, introductions, and passing conversations. The cognitive load quietly exceeded what human memory evolved to manage comfortably.
+
+We forget names. Context collapses. Time compresses. Relationships drift into fragments.
 
 The interface became an external memory scaffold.
 
@@ -109,6 +115,7 @@ Machines already understood the network.
 Humans needed help understanding the consequences.
 
 One recommendation screen in particular still stays with me:
+It was one of the first times I saw infrastructure software behave less like a monitoring tool and more like a system attempting to anticipate human consequences before failure arrived.
 a DSL line approaching saturation capacity, surfaced alongside upgrade recommendations and operational guidance.
 
 <figure class="artifact-figure artifact-figure--wide">
@@ -141,9 +148,11 @@ People who had spent decades thinking in terms of owned desktop applications sud
 
 Moments like this are historically easy to underestimate while they are happening.
 
-In retrospect, they represent profound shifts in the relationship between humans and technology. Software stopped being a static object and became a living operational environment.
+In retrospect, they represent profound shifts in the relationship between humans and technology. Software stopped behaving like a product people owned and started behaving like an environment they continuously inhabited.
 
 The role of interface design expanded with it.
+
+Losing access no longer felt like misplacing software. It felt like being locked out of part of modern working life.
 
 ---
 
@@ -205,7 +214,7 @@ The screenshots from those years are not especially glamorous by modern standard
 
 That is precisely why they matter.
 
-They document the gradual evolution of machine-mediated human cognition long before the current AI moment gave the industry language dramatic enough to describe it.
+They document the gradual evolution of machine-mediated human judgment long before the current AI moment gave the industry language broad enough to describe it.
 
 ---
 
@@ -224,6 +233,9 @@ How do we build interfaces that clarify rather than obscure?
 The technologies changed constantly.
 
 The responsibility did not.
+
+The work was always the same:
+helping human beings remain oriented inside systems too complex to fully see.
 
 <style>
 .artifact-figure {
