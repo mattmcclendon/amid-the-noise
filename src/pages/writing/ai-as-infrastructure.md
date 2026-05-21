@@ -19,7 +19,7 @@ Voice systems.
 
 Those matter.
 
-They may also prove historically secondary.
+They may ultimately prove less significant than the systems quietly emerging beneath them.
 
 The deeper transformation is happening elsewhere.
 
@@ -38,6 +38,7 @@ Human beings require time to:
 - act.
 
 Machines do not experience surprise.
+
 They experience state change.
 
 That distinction matters more than most people realize.
@@ -46,8 +47,7 @@ Historically, infrastructure detected problems and waited for humans to respond.
 
 That operational model is beginning to change.
 
-We are moving from passive monitoring toward actively self-stabilizing infrastructure:
-systems capable of bounded autonomous intervention before full human engagement.
+We are moving from passive monitoring toward actively self-stabilizing infrastructure: systems capable of bounded autonomous intervention before full human engagement.
 
 Not artificial general intelligence.
 Not machine consciousness.
@@ -77,27 +77,19 @@ The voice interface was merely the membrane humans touched.
 
 That model increasingly resembles where civilization itself may be heading.
 
-The future significance of AI may not primarily reside in conversation.
+The systems now emerging across healthcare, logistics, energy, aerospace, and communications increasingly share the same requirement:
 
-It may reside in infrastructure.
+response continuity faster than human coordination alone can reliably provide.
+
+The question is no longer whether machines can generate language convincingly.
+
+The question is whether civilization can remain governable as operational complexity exceeds the speed of human response.
 
 ---
 
-I explore this idea in far greater depth in a new white paper:
-
 ## *From Passive Monitoring to Self-Stabilizing Infrastructure*
 
-**Reaction latency, persistent operational presence, and the future of machine response.**
 
-The paper examines:
-- panic-window latency,
-- bounded machine autonomy,
-- healthcare telemetry,
-- aerospace stabilization,
-- aviation systems,
-- infrastructure resilience,
-- governance frameworks,
-- adversarial risks,
-- and the emergence of AI as an autonomic layer for civilization.
+A new white paper on panic-window latency, bounded machine response, and the emergence of AI as operational infrastructure rather than conversational software.
 
 [Download the White Paper ↓](/papers/from-passive-monitoring-to-self-stabilizing-infrastructure.pdf) | [Explore All Papers →](/papers)
