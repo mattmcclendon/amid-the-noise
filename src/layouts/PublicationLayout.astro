@@ -106,10 +106,14 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
     <section class="publication-cta section" aria-labelledby="publication-cta-title">
       <h2 id="publication-cta-title">Follow Amid the Noise</h2>
       <p>
-        Essays on signal, systems, governance, AI, and the quiet infrastructure behind human judgment.
+        Amid the Noise is an ongoing body of work on signal, systems, governance, AI, and the structures that shape human judgment under pressure.
+      </p>
+
+      <p class="publication-cta-subscribe-note">
+        Subscribe to receive new essays as they are published.
       </p>
       <div class="publication-cta-actions" aria-label="Follow and explore Amid the Noise">
-        <a href="/rss.xml" class="publication-cta-link publication-cta-primary">Subscribe via RSS →</a>
+        <a href="/rss.xml" class="publication-cta-link publication-cta-primary">Subscribe via RSS</a>
         <div class="publication-cta-secondary" aria-label="Explore Amid the Noise">
           <a href="/writing" class="publication-cta-link">Browse the archive →</a>
           <a href="/about" class="publication-cta-link">About the work →</a>
@@ -322,11 +326,16 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
 
   .publication-cta p {
     max-width: 42rem;
-    margin: 0 0 0.75rem;
+    margin: 0 0 0.9rem;
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 1.05rem;
     line-height: 1.55;
     color: var(--text);
+  }
+
+  .publication-cta-subscribe-note {
+    margin-bottom: 1.35rem;
+    color: var(--secondary);
   }
 
   .publication-cta-actions {
