@@ -326,9 +326,9 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
 
   .publication-cta {
     max-width: 46rem;
-    margin-top: 2.5rem;
-    padding-top: 2.75rem;
-    border-top: 1px solid rgba(62, 90, 130, 0.18);
+    margin-top: 2.75rem;
+    padding-top: 2.4rem;
+    border-top: 1px solid rgba(62, 90, 130, 0.24);
   }
 
   .publication-cta h2 {
@@ -357,74 +357,80 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
   }
 
   .publication-cta-form {
-    max-width: 33rem;
-    margin-top: 1.15rem;
+    max-width: 31.5rem;
+    margin-top: 1rem;
   }
 
   .publication-cta-label {
     display: block;
-    margin: 0 0 0.45rem;
-    font-size: 0.72rem;
-    line-height: 1.25;
-    letter-spacing: 0.08em;
+    margin: 0 0 0.38rem;
+    font-size: 0.68rem;
+    line-height: 1.2;
+    letter-spacing: 0.09em;
     text-transform: uppercase;
     color: var(--secondary);
+    opacity: 0.92;
   }
 
   .publication-cta-form-row {
     display: flex;
     align-items: stretch;
-    gap: 0.45rem;
+    gap: 0.32rem;
   }
 
   .publication-cta-input {
     flex: 1 1 auto;
     min-width: 0;
-    border: 1px solid rgba(62, 90, 130, 0.22);
+    height: 2.7rem;
+    border: 1px solid rgba(62, 90, 130, 0.24);
     border-radius: 0;
-    background: transparent;
+    background: rgba(255, 255, 255, 0.24);
     color: var(--text);
     font-family: Inter, system-ui, sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     line-height: 1.35;
-    padding: 0.52rem 0.65rem;
+    padding: 0 0.78rem;
+    box-sizing: border-box;
   }
 
   .publication-cta-input::placeholder {
     color: var(--secondary);
-    opacity: 0.52;
+    opacity: 0.46;
   }
 
   .publication-cta-input:focus {
-    outline: 1px solid var(--accent);
-    outline-offset: 2px;
+    outline: none;
+    border-color: rgba(62, 90, 130, 0.48);
+    background: rgba(255, 255, 255, 0.34);
   }
 
   .publication-cta-submit {
     flex: 0 0 auto;
-    border: 1px solid rgba(62, 90, 130, 0.55);
+    height: 2.7rem;
+    border: 1px solid rgba(62, 90, 130, 0.24);
     border-radius: 0;
-    background: transparent;
+    background: rgba(255, 255, 255, 0.18);
     color: var(--accent);
     font-family: Inter, system-ui, sans-serif;
-    font-size: 0.72rem;
-    line-height: 1.35;
+    font-size: 0.68rem;
+    line-height: 1;
     font-weight: 600;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.085em;
     text-transform: uppercase;
-    padding: 0.52rem 0.82rem;
+    padding: 0 1rem;
     cursor: pointer;
+    box-sizing: border-box;
   }
 
   .publication-cta-submit:hover {
-    background: rgba(62, 90, 130, 0.045);
-    border-color: rgba(62, 90, 130, 0.72);
+    background: rgba(62, 90, 130, 0.055);
+    border-color: rgba(62, 90, 130, 0.42);
   }
 
 
   .publication-pagination {
     max-width: 46rem;
-    margin-top: 1.25rem;
+    margin-top: 1.4rem;
     display: flex;
     justify-content: flex-end;
   }
