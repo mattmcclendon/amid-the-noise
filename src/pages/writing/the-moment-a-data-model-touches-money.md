@@ -20,11 +20,15 @@ There is no safe choice. Only a tradeoff.
 
 Block a legitimate payment, and you disrupt a business at the moment it needs to operate. Let a fraudulent one through, and you absorb loss that compounds across accounts, time, and trust. Speed matters. Accuracy matters more. The model does not decide. It produces a signal.
 
-That distinction is where most systems start to drift.
+In practice, many teams collapse that signal into a single label. Safe. Risky. Approved. Denied. The uncertainty is still there, but it disappears behind a clean interface. When the system is right, this feels efficient. When it is wrong, there is no place to stand. The decision has already been made, and no one can fully explain how.
 
-In practice, many teams collapse the model’s output into a single label. Safe. Risky. Approved. Denied. The uncertainty is still there, but it’s hidden behind a clean interface. When the system is right, this feels efficient. When it’s wrong, there is no place to stand. The decision has already been made, and no one can fully explain how.
+That is where most systems start to drift.
 
-The alternative is not more explanation. It is better structure.
+Explainability tools help expose pieces of the reasoning, but explanation alone does not resolve the structural problem. A model can still be technically interpretable while the surrounding system remains operationally opaque.
+
+The alternative is not explanation instead of structure. It is systems designed so explanation remains connected to accountability, reversibility, and human judgment.
+
+That requires treating the model as one component inside a larger decision environment rather than the decision itself.
 
 The system I worked on treated the model as one component in a larger decision loop. The model produced a score, a confidence range, and a set of contributing factors. We preserved that signal. We did not collapse it.
 
@@ -38,11 +42,17 @@ Reversibility was not an afterthought. Held transactions could be released. Appr
 
 We also chose where not to automate.
 
-Some decisions remained human by design. Not because the model could not improve, but because the cost of being wrong exceeded the benefit of being fast. That tradeoff was intentional. It was written into the system, not left to interpretation.
+That mattered as much as the model itself.
+
+Some decisions remained human by design. Not because the model lacked capability, but because the operational cost of being wrong exceeded the benefit of moving faster. Certain account actions, transaction patterns, and escalation paths crossed a threshold where judgment needed to remain visible and attributable to a person.
+
+That tradeoff was intentional. It was written into the system, not left to interpretation. Governance did not live in a policy document somewhere outside the workflow. It existed directly inside the workflow itself.
 
 This changed how the system behaved under pressure.
 
-It produced fewer irreversible errors. It made accountability visible. It allowed decisions to be revisited without reconstructing them from logs and guesswork. The system did not become perfect. It became legible.
+It produced meaningfully fewer irreversible errors. Reviewers could revisit decisions without reconstructing events from fragmented logs and guesswork. When the system was wrong, the failure was usually recoverable because the path to the decision remained visible.
+
+The system did not become perfect. It became legible.
 
 That is the difference.
 
