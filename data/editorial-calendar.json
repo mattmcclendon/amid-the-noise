@@ -2495,7 +2495,7 @@
     "heroImage": "/images/writing/ai-as-infrastructure.png",
     "heroAlt": "Abstract infrastructure systems responding autonomously to emerging operational signals.",
     "url": "https://amidthenoise.com/writing/ai-as-infrastructure",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-05-24",
@@ -4690,6 +4690,23 @@
     "heroImage": "/images/writing/invisible-corridors.png",
     "heroAlt": "Abstract geopolitical corridor visualization against a soft neutral background",
     "url": "https://amidthenoise.com/writing/invisible-corridors",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-11",
+    "title": "Forgotten Candy Bars",
+    "subtitle": "Artifacts from previous lives",
+    "slug": "forgotten-candy-bars",
+    "description": "A reflection on Zero bars, memory, relapse, Oklahoma, and the strange things the brain reaches for when trying to find its way back to itself.",
+    "tags": [
+      "Memory",
+      "Recovery",
+      "Reflection"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/forgotten-candy-bars.png",
+    "heroAlt": "A silver-wrapped Zero candy bar resting on a worn convenience store counter beneath fluorescent lights",
+    "url": "https://amidthenoise.com/writing/forgotten-candy-bars",
     "status": "Scheduled"
   }
 ]
