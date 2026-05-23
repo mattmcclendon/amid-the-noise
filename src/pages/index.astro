@@ -69,9 +69,11 @@ const selectedPosts = selectedSlugs
       <p class="intro">
         I work with product, data, and policy teams on the infrastructure that keeps the person responsible actually in control.
       </p>
-      <p class="intro">
-        <em>Amid the Noise</em> is where that work is documented and open for inspection.
-      </p>
+      <img
+        class="signature"
+        src="/images/signature-matthew-mcclendon.svg"
+        alt="Matthew McClendon signature"
+      />
   </section>
 
   <section class="section work-section">
@@ -197,8 +199,12 @@ const selectedPosts = selectedSlugs
     color: var(--text);
   }
 
-  .signature img {
-    max-width: 200px;
+  .signature {
+    display: block;
+    width: 165px;
+    height: auto;
+    margin-top: 22px;
+    opacity: 0.92;
   }
 
   .intro em {
@@ -327,5 +333,12 @@ const selectedPosts = selectedSlugs
   .terminal-block .cmd {
     letter-spacing: 0;
     font-size: 0.95rem;
+  }
+
+  @media (max-width: 900px) {
+    .signature {
+      width: 150px;
+      margin-top: 18px;
+    }
   }
 </style>
