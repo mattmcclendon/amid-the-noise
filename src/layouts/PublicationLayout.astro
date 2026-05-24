@@ -28,8 +28,10 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
 <Layout
   title={frontmatter.title}
   description={frontmatter.description || frontmatter.subtitle || ''}
-  image={frontmatter.heroImage || '/images/og-default.png'}
+  image={frontmatter.heroImage}
   imageAlt={frontmatter.heroAlt || frontmatter.title}
+  ogImage={frontmatter.heroImage}
+  ogImageAlt={frontmatter.heroAlt || frontmatter.title}
 >
   <Fragment slot="head">
     <meta data-pagefind-meta="title[content]" content={frontmatter.title} />
