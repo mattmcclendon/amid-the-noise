@@ -4725,5 +4725,22 @@
     "heroAlt": "A silver-wrapped Zero candy bar resting on a worn convenience store counter beneath fluorescent lights",
     "url": "https://amidthenoise.com/writing/forgotten-candy-bars",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-13",
+    "title": "The Age of Recursive Doubt",
+    "subtitle": "What happens when nobody trusts the people responsible for closing uncertainty",
+    "slug": "the-age-of-recursive-doubt",
+    "description": "Modern citizens increasingly perform fragments of intelligence work without the safeguards intelligence work normally requires. This essay explores what happens when institutions lose the ability to close uncertainty with legitimacy.",
+    "tags": [
+      "Signal",
+      "Governance",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-age-of-recursive-doubt.png",
+    "heroAlt": "Abstract network lines dissolving into layered interference patterns against a warm neutral background",
+    "url": "https://amidthenoise.com/writing/the-age-of-recursive-doubt",
+    "status": "Scheduled"
   }
 ]
