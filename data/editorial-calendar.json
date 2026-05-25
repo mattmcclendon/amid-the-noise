@@ -4742,5 +4742,22 @@
     "heroAlt": "Abstract network lines dissolving into layered interference patterns against a warm neutral background",
     "url": "https://amidthenoise.com/writing/the-age-of-recursive-doubt",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-15",
+    "title": "The Proper Names for Things",
+    "subtitle": "Not reinvention. Recognition.",
+    "slug": "the-proper-names-for-things",
+    "description": "A reflection on lived competence, systems thinking, and the realization that many hard-earned instincts already belong to formal disciplines with names, frameworks, and value.",
+    "tags": [
+      "systems-thinking",
+      "career",
+      "learning"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/the-proper-names-for-things.png",
+    "heroAlt": "Abstract systems diagram fading into a warm neutral background",
+    "url": "https://amidthenoise.com/writing/the-proper-names-for-things",
+    "status": "Scheduled"
   }
 ]
