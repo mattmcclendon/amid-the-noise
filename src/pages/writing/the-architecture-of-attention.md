@@ -6,7 +6,7 @@ description: "A reflection on Sesame Street, public-interest media, and the use 
 pubDate: "2027-04-22"
 heroImage: "/images/writing/the-architecture-of-attention.png"
 heroAlt: "Abstract educational shapes and soft broadcast-style geometry against a warm neutral background."
-tags: ["media", "education", "technology", "systems", "culture"]
+tags: ["media", "education", "attention"]
 tier: "tier-1"
 ---
 

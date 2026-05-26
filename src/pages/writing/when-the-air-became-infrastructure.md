@@ -6,7 +6,7 @@ description: "A reflection on radio as the first ambient communications medium a
 pubDate: "2027-04-20"
 heroImage: "/images/writing/when-the-air-became-infrastructure.png"
 heroAlt: "Abstract atmospheric waveforms and transmission lines fading into a warm neutral background."
-tags: ["technology", "infrastructure", "media", "history", "systems"]
+tags: ["technology", "infrastructure", "media"]
 tier: "tier-1"
 ---
 

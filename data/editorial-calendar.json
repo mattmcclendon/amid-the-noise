@@ -4778,5 +4778,43 @@
     "heroAlt": "Abstract signal lines and soft geometric pathways fading into a warm neutral background.",
     "url": "https://amidthenoise.com/writing/queer-infrastructure",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-20",
+    "title": "When the Air Became Infrastructure",
+    "subtitle": "Radio changed communication from delivery into presence",
+    "slug": "when-the-air-became-infrastructure",
+    "description": "A reflection on radio as the first ambient communications medium and the century-long evolution from broadcast culture to artificial intelligence.",
+    "tags": [
+      "technology",
+      "infrastructure",
+      "media",
+      "history",
+      "systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/when-the-air-became-infrastructure.png",
+    "heroAlt": "Abstract atmospheric waveforms and transmission lines fading into a warm neutral background.",
+    "url": "https://amidthenoise.com/writing/when-the-air-became-infrastructure",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-22",
+    "title": "The Architecture of Attention",
+    "subtitle": "Sesame Street and the last great optimistic media experiment",
+    "slug": "the-architecture-of-attention",
+    "description": "A reflection on Sesame Street, public-interest media, and the use of advertising techniques to distribute educational opportunity at scale.",
+    "tags": [
+      "media",
+      "education",
+      "technology",
+      "systems",
+      "culture"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-architecture-of-attention.png",
+    "heroAlt": "Abstract educational shapes and soft broadcast-style geometry against a warm neutral background.",
+    "url": "https://amidthenoise.com/writing/the-architecture-of-attention",
+    "status": "Scheduled"
   }
 ]

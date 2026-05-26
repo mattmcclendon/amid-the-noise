@@ -6,7 +6,7 @@ description: "A reflection on coming out in 1992, bulletin board systems, coded 
 pubDate: "2027-04-18"
 heroImage: "/images/writing/queer-infrastructure.png"
 heroAlt: "Abstract signal lines and soft geometric pathways fading into a warm neutral background."
-tags: ["identity", "community", "technology", "memory", "culture"]
+tags: ["identity", "community", "technology"]
 tier: "tier-1"
 ---
 
