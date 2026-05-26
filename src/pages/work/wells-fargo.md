@@ -66,7 +66,7 @@ Key changes included:
 
 ## Constraints
 
-The work operated within significant regulatory scrutiny, with little tolerance for ambiguity around accountability, auditability, or operational risk.
+The organization operated under significant regulatory scrutiny, with little tolerance for ambiguity around accountability, auditability, or operational risk.
 
 AI proposals often stalled not because teams lacked technical capability, but because ownership fragmented the moment automated decision-making entered the conversation. Legal, compliance, product, and data teams frequently operated with incompatible definitions of acceptable risk.
 
