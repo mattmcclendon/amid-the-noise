@@ -6,7 +6,7 @@ description: "A reflection on lived competence, systems thinking, and the realiz
 pubDate: "2027-04-15"
 heroImage: "/images/writing/the-proper-names-for-things.png"
 heroAlt: "Abstract systems diagram fading into a warm neutral background"
-tags: ["systems-thinking", "career", "learning"]
+tags: ["systems thinking", "career", "learning"]
 tier: "tier-2"
 ---
 

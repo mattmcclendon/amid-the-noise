@@ -6,7 +6,7 @@ description: "A reflection on resilient systems, distributed infrastructure, and
 pubDate: "2027-03-23"
 heroImage: "/images/writing/graceful-degradation.png"
 heroAlt: "Abstract resilient infrastructure systems inspired by orbital engineering and distributed civic networks."
-tags: ["Infrastructure", "Space", "Resilience", "Systems Design"]
+tags: ["Infrastructure", "Resilience", "Systems Design"]
 tier: "tier-1"
 ---
 

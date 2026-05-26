@@ -6,7 +6,7 @@ description: "A reflection on civic legibility, hidden infrastructure, and the g
 pubDate: "2027-04-06"
 heroImage: "/images/writing/invisible-corridors.png"
 heroAlt: "Abstract geopolitical corridor visualization against a soft neutral background"
-tags: ["systems-thinking", "governance", "geopolitics"]
+tags: ["systems thinking", "governance", "geopolitics"]
 tier: "tier-1"
 ---
 

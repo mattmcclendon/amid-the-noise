@@ -6,7 +6,7 @@ description: "The Expanse imagined a future where humanity survived environmenta
 pubDate: "2027-03-28"
 heroImage: "/images/writing/what-happens-after-survival.png"
 heroAlt: "A restrained futuristic skyline fading into atmospheric haze beneath a civic grid."
-tags: ["Systems Thinking", "Science Fiction", "Civic Infrastructure", "The Expanse", "Agency"]
+tags: ["Systems Thinking", "Science Fiction", "Civic Infrastructure"]
 tier: "tier-1"
 ---
 

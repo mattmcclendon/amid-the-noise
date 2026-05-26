@@ -4765,13 +4765,11 @@
     "title": "Queer Infrastructure",
     "subtitle": "Before discoverability became ordinary",
     "slug": "queer-infrastructure",
-    "description": "A reflection on coming out in 1992, bulletin board systems, coded visibility, and the fragile infrastructure queer people built before the modern internet.",
+    "description": "Queer people once built connection from symbols, phone lines, bookstores, VHS tapes, and the fragile systems that made recognition possible.",
     "tags": [
       "identity",
       "community",
-      "technology",
-      "memory",
-      "culture"
+      "technology"
     ],
     "tier": "tier-1",
     "heroImage": "/images/writing/queer-infrastructure.png",
@@ -4784,13 +4782,11 @@
     "title": "When the Air Became Infrastructure",
     "subtitle": "Radio changed communication from delivery into presence",
     "slug": "when-the-air-became-infrastructure",
-    "description": "A reflection on radio as the first ambient communications medium and the century-long evolution from broadcast culture to artificial intelligence.",
+    "description": "Radio turned distance into presence, making information feel ambient before television, the internet, smartphones, and AI pushed the pattern closer to the mind.",
     "tags": [
       "technology",
       "infrastructure",
-      "media",
-      "history",
-      "systems"
+      "media"
     ],
     "tier": "tier-1",
     "heroImage": "/images/writing/when-the-air-became-infrastructure.png",
@@ -4803,18 +4799,35 @@
     "title": "The Architecture of Attention",
     "subtitle": "Sesame Street and the last great optimistic media experiment",
     "slug": "the-architecture-of-attention",
-    "description": "A reflection on Sesame Street, public-interest media, and the use of advertising techniques to distribute educational opportunity at scale.",
+    "description": "Sesame Street proved that persuasive media systems could be designed around human development instead of extraction.",
     "tags": [
       "media",
       "education",
-      "technology",
-      "systems",
-      "culture"
+      "attention"
     ],
     "tier": "tier-1",
     "heroImage": "/images/writing/the-architecture-of-attention.png",
     "heroAlt": "Abstract educational shapes and soft broadcast-style geometry against a warm neutral background.",
     "url": "https://amidthenoise.com/writing/the-architecture-of-attention",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-25",
+    "title": "Samuel Clemens Keeps Appearing",
+    "subtitle": "On Mark Twain, implication, and the writers who trust the reader.",
+    "slug": "samuel-clemens-keeps-appearing",
+    "description": "A reflection on Disneyland riverboats, Sierra foothill towns, Star Trek, and the enduring influence of Mark Twain’s observational style.",
+    "tags": [
+      "writing",
+      "mark-twain",
+      "storytelling",
+      "culture",
+      "observation"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/samuel-clemens-keeps-appearing.png",
+    "heroAlt": "Minimalist hero image for 'Samuel Clemens Keeps Appearing' featuring subtle riverboat-inspired linework against a warm neutral background.",
+    "url": "https://amidthenoise.com/writing/samuel-clemens-keeps-appearing",
     "status": "Scheduled"
   }
 ]

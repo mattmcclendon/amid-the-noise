@@ -6,7 +6,7 @@ description: "A reflection on Disneyland riverboats, Sierra foothill towns, Star
 pubDate: "2027-04-25"
 heroImage: "/images/writing/samuel-clemens-keeps-appearing.png"
 heroAlt: "Minimalist hero image for 'Samuel Clemens Keeps Appearing' featuring subtle riverboat-inspired linework against a warm neutral background."
-tags: ["writing", "mark-twain", "storytelling", "culture", "observation"]
+tags: ["writing", "mark twain", "observation"]
 tier: "tier-2"
 ---
 

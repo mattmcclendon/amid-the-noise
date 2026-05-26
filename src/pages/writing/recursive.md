@@ -6,7 +6,7 @@ description: "A reflection on optimization loops, emotional regulation, and the 
 pubDate: "2027-04-04"
 heroImage: "/images/writing/recursive.png"
 heroAlt: "An abstract looping system dissolving softly into layered patterns and unfinished pathways."
-tags: ["reflection", "psychology", "systems-thinking"]
+tags: ["reflection", "psychology", "systems thinking"]
 tier: "tier-1"
 ---
 

@@ -6,7 +6,7 @@ description: "A reflection on planning, uncertainty, and the strange comfort of 
 pubDate: "2027-03-30"
 heroImage: "/images/writing/vestibule.png"
 heroAlt: "A quiet architectural threshold fading into soft geometric distance."
-tags: ["reflection", "recovery", "systems-thinking"]
+tags: ["reflection", "recovery", "systems thinking"]
 tier: "tier-1"
 ---
 
