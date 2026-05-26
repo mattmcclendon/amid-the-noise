@@ -3,11 +3,11 @@ layout: ../../layouts/PublicationLayout.astro
 title: "Designing Decision Governance in Regulated AI Systems"
 description: "Enabling safe, testable AI adoption at Wells Fargo by designing decision frameworks that balance innovation with risk, compliance, and accountability."
 author: "Matthew McClendon"
-heroImage: ""
-heroAlt: ""
+heroImage: "/images/writing/designing-decision-governance-in-regulated-ai-systems.png"
+heroAlt: "Hero image for Designing Decision Governance in Regulated AI Systems, showing Wells Fargo-inspired decision governance pathways, human oversight, policy controls, and audit traceability."
 ---
 
-<p class="case-meta">Wells Fargo · Lead Design Thinker, AI Enterprise Solutions · 2019</p>
+<p class="case-meta">Wells Fargo · AI Governance and Decision Systems Lead · 2019 · 6-month engagement</p>
 
 ---
 
@@ -31,7 +31,7 @@ Teams encountered:
 - lack of shared language across legal, product, and data teams  
 - absence of structured pathways from idea → experiment → approval  
 
-The organization had AI ambition, but no reliable way to operationalize it.
+The organization had AI ambition, but no reliable way to test it safely inside a regulated environment.
 
 ---
 
@@ -39,40 +39,40 @@ The organization had AI ambition, but no reliable way to operationalize it.
 
 I led design strategy to create decision governance frameworks that made AI experimentation structured, observable, and compliant.
 
-The focus was not on building models, but on designing the system around them.
+The focus was not on building models, but on designing the governance system around them.
+
+Early conversations revealed that legal and risk stakeholders often viewed experimentation itself as a liability. Initial approaches framed around innovation velocity failed to gain traction. The work shifted toward controlled evaluation instead: defining decision boundaries, escalation paths, and accountability before any model could move into testing.
 
 These frameworks introduced friction intentionally, requiring teams to define risk, ownership, and decision boundaries before experimentation could proceed. This shifted AI work from informal exploration to accountable system design.
 
 Key changes included:
 
 - **Decision framing templates**  
-  Standardized how teams defined assumptions, risks, data requirements, and expected outcomes, translating abstract AI ideas into testable hypotheses.
+  Standardized how teams defined assumptions, risks, data requirements, escalation ownership, and expected outcomes. Each template required teams to document where human override was mandatory and what conditions would trigger review or rollback.
 
 - **Compliance-aligned experiment canvases**  
-  Enabled teams to validate machine learning use cases within regulatory boundaries, reducing friction with legal and governance stakeholders.
+  Created structured review paths for machine learning proposals, allowing legal, compliance, and product teams to evaluate experiments using shared governance criteria rather than competing interpretations of risk.
 
 - **Cross-functional labs**  
-  Created shared environments where risk officers, data scientists, and product leaders could collaborate on controlled experiments.
+  Created controlled working sessions where risk officers, data scientists, and product leaders reviewed live scenarios together instead of handing requirements across organizational silos.
 
 - **Human-in-the-loop checkpoints**  
-  Embedded validation, escalation, and override mechanisms into early-stage AI workflows to ensure accountability.
+  Embedded validation, escalation, and override checkpoints into early-stage workflows so automated recommendations could be challenged, paused, or rejected before downstream impact occurred.
 
 - **Regulatory trust layer**  
-  Introduced interpretability thresholds, audit scaffolding, and decision traceability into the design of AI outputs.
+  Introduced interpretability thresholds, audit traceability, and decision lineage requirements so stakeholders could understand how outputs were generated, reviewed, and approved.
 
 ---
 
 ## Constraints
 
-The work operated within:
+The work operated within significant regulatory scrutiny, with little tolerance for ambiguity around accountability, auditability, or operational risk.
 
-- strict regulatory and compliance requirements  
-- high organizational sensitivity to operational and reputational risk  
-- fragmented ownership across business units and technical teams  
+AI proposals often stalled not because teams lacked technical capability, but because ownership fragmented the moment automated decision-making entered the conversation. Legal, compliance, product, and data teams frequently operated with incompatible definitions of acceptable risk.
 
 Any approach to AI had to be credible to legal and risk stakeholders while remaining actionable for product and engineering teams.
 
-This required aligning stakeholders who were structurally incentivized to avoid risk rather than manage it, creating tension between innovation velocity and institutional accountability.
+Much of the work involved reframing experimentation itself from uncontrolled exposure into a governed process with visible accountability.
 
 ---
 
@@ -82,27 +82,41 @@ AI shifted from a theoretical capability to a structured, testable discipline.
 
 Observed outcomes included:
 
-- **4 AI pilots launched within 3 months** across fraud and compliance workflows  
-- **re-evaluation and approval of previously stalled models**, enabling deployment pathways  
-- **increased stakeholder confidence** in AI initiatives (qualitative: “Feels safe to try”)  
-- **cultural shift** from risk avoidance to structured experimentation  
+- **new governance pathways established** for evaluating machine learning proposals inside regulated environments  
+- **reduced friction between legal, product, and data science teams**, allowing decisions to move through review cycles more consistently  
+- **cultural shift from blanket risk avoidance to controlled experimentation**, particularly in teams that had previously avoided AI proposals altogether  
+- **4 previously stalled AI initiatives moved into pilot phases within 3 months** across fraud and compliance workflows, validating the framework through real operational use
 
-Critically, teams that previously could not initiate AI work due to regulatory ambiguity were now able to frame, test, and advance proposals within defined governance boundaries.
+Teams that previously could not advance AI proposals due to regulatory ambiguity were now able to frame, test, and evaluate them within defined governance boundaries.
 
 ---
 
-## Result
+## Long-Term Impact
 
-Wells Fargo moved from treating AI as a risk to managing it as a governed system.
+The engagement helped shift AI from an abstract innovation initiative into a governed operational capability.
 
-The work reframed innovation as a controlled process rather than an uncontrolled threat.
+The most important outcome was not the number of pilots launched. It was the creation of a shared decision framework that allowed legal, product, risk, and data teams to evaluate machine learning proposals using common governance language.
 
-The system shifted from:
+The conversation shifted from:
 
 > “Is this allowed?”
 
 To:
 
-> “How do we test this safely, and what does success look like?”
+> “How do we test this safely, and what evidence would justify expansion?”
 
-This established a foundation for AI adoption rooted in trust, accountability, and decision clarity.
+That shift created a foundation for future AI adoption rooted in accountability, traceability, and institutional trust rather than informal experimentation.
+
+---
+
+## What I’d Do Differently
+
+Looking back, I would have pushed earlier for a shared governance vocabulary across legal, product, and data science teams.
+
+The technical barriers were often overstated. The deeper challenge was semantic. Different groups were using the same words to describe fundamentally different forms of risk, accountability, and operational exposure.
+
+Once those definitions became visible, alignment accelerated considerably.
+
+---
+
+*Due to the regulated and confidential nature of the engagement, internal governance artifacts, workflows, and review materials are not shown directly. Descriptions have been generalized while preserving the operational structure of the work.*
