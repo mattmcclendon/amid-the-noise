@@ -2,7 +2,7 @@
 layout: "../../layouts/PublicationLayout.astro"
 title: "Queer Infrastructure"
 subtitle: "Before discoverability became ordinary"
-description: "A reflection on coming out in 1992, bulletin board systems, coded visibility, and the fragile infrastructure queer people built before the modern internet."
+description: "Queer people once built connection from symbols, phone lines, bookstores, VHS tapes, and the fragile systems that made recognition possible."
 pubDate: "2027-04-18"
 heroImage: "/images/writing/queer-infrastructure.png"
 heroAlt: "Abstract signal lines and soft geometric pathways fading into a warm neutral background."

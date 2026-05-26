@@ -2,7 +2,7 @@
 layout: "../../layouts/PublicationLayout.astro"
 title: "The Architecture of Attention"
 subtitle: "Sesame Street and the last great optimistic media experiment"
-description: "A reflection on Sesame Street, public-interest media, and the use of advertising techniques to distribute educational opportunity at scale."
+description: "Sesame Street proved that persuasive media systems could be designed around human development instead of extraction."
 pubDate: "2027-04-22"
 heroImage: "/images/writing/the-architecture-of-attention.png"
 heroAlt: "Abstract educational shapes and soft broadcast-style geometry against a warm neutral background."

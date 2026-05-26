@@ -2,7 +2,7 @@
 layout: "../../layouts/PublicationLayout.astro"
 title: "When the Air Became Infrastructure"
 subtitle: "Radio changed communication from delivery into presence"
-description: "A reflection on radio as the first ambient communications medium and the century-long evolution from broadcast culture to artificial intelligence."
+description: "Radio turned distance into presence, making information feel ambient before television, the internet, smartphones, and AI pushed the pattern closer to the mind."
 pubDate: "2027-04-20"
 heroImage: "/images/writing/when-the-air-became-infrastructure.png"
 heroAlt: "Abstract atmospheric waveforms and transmission lines fading into a warm neutral background."
