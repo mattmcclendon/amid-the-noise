@@ -13,6 +13,8 @@ tier: "tier-1"
 # The First Comfortable Internet
 > Inside Netscape and AOL, where the web stopped being experimental and became inhabitable.
 
+The internet was no longer trying to prove it could exist. It was trying to convince ordinary people they belonged there.
+
 People often remember the early internet as primitive.
 
 Slow modems.
@@ -27,8 +29,6 @@ The web was not yet culturally normalized. Most people still approached it cauti
 The technical problems mattered.
 
 The emotional problems mattered more.
-
-By the time I arrived at Netscape and AOL, the internet was no longer trying to prove it could exist. It was trying to convince ordinary people they belonged there.
 
 ## Making the Internet Personal
 
@@ -51,13 +51,13 @@ Users could shape information around:
 - workflows
 - identity
 
-Looking back now, the lineage feels obvious:
+Looking back now, the architecture starts to reveal itself:
 - My Netscape
 - MyYahoo!
 - customizable portals
-- social feeds
-- algorithmic personalization
-- modern recommendation systems
+- personalized feeds
+- behavioral ranking systems
+- modern recommendation engines
 
 At the time, though, the internet was still learning how to adapt itself to individuals instead of forcing individuals to adapt themselves to systems.
 
@@ -136,8 +136,10 @@ They absorb it.
 That distinction matters.
 
 Good onboarding does not make users feel ignorant.
-Good navigation does not make users feel trapped.
-Good systems do not constantly remind people how much they do not understand.
+
+Navigation should not feel like entrapment.
+
+The best systems do not constantly remind people how much they do not understand.
 
 The best infrastructure creates confidence quietly.
 
@@ -174,3 +176,9 @@ Looking back now, I think that was the real work at Netscape and AOL.
 Not building pages.
 
 Building confidence.
+
+I still think about those systems whenever I work on AI interpretability, operational trust, or decision support under uncertainty.
+
+The technologies changed.
+
+The threshold did not.

@@ -23,6 +23,8 @@ Friendster was not a failed idea.
 
 Friendster was an idea that arrived before the surrounding systems were mature enough to support what it unlocked.
 
+As Friendster’s first designer, I was watching social behavior evolve faster than the platform’s own understanding of itself.
+
 At the time, nobody fully understood what social networking would become. Even inside the company, the question remained unsettled:
 - dating platform?
 - social utility?
@@ -50,6 +52,19 @@ Friendster introduced something different:
 > persistent social identity connected to visible human relationships.
 
 That changed the internet permanently.
+
+What made the shift profound was not the interface itself. It was the visibility.
+
+For the first time, ordinary users could publicly inhabit persistent digital identity connected to real human relationships. Friend adjacency became visible. Community structure became visible. Reputation became visible.
+
+The design questions suddenly carried psychological weight.
+
+How public should relationships be?
+How much friction should exist around interaction?
+What happens when identity becomes persistent instead of disposable?
+
+At the time, these felt like product decisions.
+Looking back, they were early governance decisions for digital society.
 
 The social graph itself became the product.
 
@@ -89,6 +104,8 @@ One of the recurring problems involved load-balanced servers drifting out of syn
 
 The system struggled to maintain a stable version of reality under massive social activity.
 
+Users were experiencing different versions of reality depending on which server answered the request.
+
 That problem sounds almost quaint now.
 
 It was not quaint then.
@@ -110,7 +127,14 @@ Social systems generated:
 Every user action altered the network itself.
 
 The infrastructure strain reflected something larger:
-> the internet was transitioning from static publishing to living systems.
+> the internet was transitioning from static publishing to living behavioral systems.
+
+Traditional infrastructure failures usually affect access.
+These failures affected perception.
+
+When a banking system fails, transactions disappear.
+When an electrical grid fails, lights go dark.
+When early social infrastructure drifted out of sync, people experienced unstable social reality itself.
 
 The architecture of the web had not fully adapted yet.
 
@@ -125,6 +149,9 @@ At first, the reaction inside the company was operational annoyance.
 What nobody fully grasped yet was that Friendster had already become culturally significant there.
 
 The audience had shifted faster than the company’s own mental model of itself.
+
+Friendster was no longer merely a Silicon Valley startup experimenting with social networking.
+It had already become cultural infrastructure somewhere else in the world.
 
 That disconnect became increasingly common during the early social era:
 - users understanding products differently than executives
@@ -181,6 +208,10 @@ Neither did status culture itself.
 
 The internet was slowly discovering that small, ambient expressions often generated more participation than carefully constructed publishing.
 
+The shift sounds obvious now.
+At the time, it represented a profound behavioral discovery:
+people often wanted lightweight acknowledgment more than formal communication.
+
 That realization reshaped social behavior globally.
 
 ## The Internet Becomes Behavioral
@@ -198,20 +229,15 @@ Friendster revealed:
 
 Modern social media often gets described as a media evolution.
 
-I think it was actually a behavioral evolution.
+I think it was actually a behavioral and infrastructural evolution.
 
-The systems became mirrors for:
-- belonging
-- loneliness
-- aspiration
-- insecurity
-- performance
-- tribal identity
-- emotional signaling
+The industry still tends to describe social platforms as products.
+In practice, they increasingly behave more like emotional utilities.
 
-Once the internet became social, it stopped being optional infrastructure.
+The systems became mirrors for belonging, loneliness, aspiration, insecurity, performance, tribal identity, and emotional signaling.
 
-It became emotional infrastructure.
+The internet was no longer simply storing information.
+It was actively shaping emotional perception and social behavior in real time.
 
 ## What Friendster Really Was
 
@@ -219,7 +245,7 @@ Friendster is usually remembered as the company Facebook replaced.
 
 That framing misses the point entirely.
 
-Friendster was the moment the internet realized people themselves were the platform.
+Friendster was one of the first moments the internet realized people themselves were the platform.
 
 Everything that followed:
 - feeds
@@ -237,6 +263,35 @@ The infrastructure failed.
 The strategy drifted.
 The scaling collapsed.
 
-The signal itself was correct.
+But the underlying signal was correct.
 
-The world simply had not caught up yet.
+Once identity became network-native, the internet stopped being a collection of destinations and became a behavioral environment.
+
+At the time, most of us still thought we were building websites.
+
+We are still living inside the consequences of that transition now.
+
+The deeper lesson that stayed with me was not simply about technology.
+It was about institutions.
+
+Friendster was one of the first companies where I watched an organization realize it had accidentally become something larger than it understood how to govern.
+
+The existential crisis was not just technical.
+It was philosophical.
+
+What exactly was the company building?
+
+A dating platform?
+A social utility?
+An identity system?
+
+Or something closer to public behavioral infrastructure before anybody had language for such a thing?
+
+The company never fully resolved the question.
+
+Silicon Valley often assumes existential crises happen to individuals.
+What I learned at Friendster is that companies experience them too.
+
+Sometimes entire industries do.
+
+The internet became emotional and behavioral infrastructure long before society developed the language, governance, or institutional maturity to govern it responsibly.
