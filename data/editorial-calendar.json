@@ -4578,7 +4578,6 @@
     "description": "A reflection on resilient systems, distributed infrastructure, and why the future grid may increasingly resemble a space habitat.",
     "tags": [
       "Infrastructure",
-      "Space",
       "Resilience",
       "Systems Design"
     ],
@@ -4614,9 +4613,7 @@
     "tags": [
       "Systems Thinking",
       "Science Fiction",
-      "Civic Infrastructure",
-      "The Expanse",
-      "Agency"
+      "Civic Infrastructure"
     ],
     "tier": "tier-1",
     "heroImage": "/images/writing/what-happens-after-survival.png",
@@ -4633,7 +4630,7 @@
     "tags": [
       "reflection",
       "recovery",
-      "systems-thinking"
+      "systems thinking"
     ],
     "tier": "tier-1",
     "heroImage": "/images/writing/vestibule.png",
@@ -4667,7 +4664,7 @@
     "tags": [
       "reflection",
       "psychology",
-      "systems-thinking"
+      "systems thinking"
     ],
     "tier": "tier-1",
     "heroImage": "/images/writing/recursive.png",
@@ -4682,7 +4679,7 @@
     "slug": "invisible-corridors",
     "description": "A reflection on civic legibility, hidden infrastructure, and the growing distance between visible governance and operational power.",
     "tags": [
-      "systems-thinking",
+      "systems thinking",
       "governance",
       "geopolitics"
     ],
@@ -4750,7 +4747,7 @@
     "slug": "the-proper-names-for-things",
     "description": "A reflection on lived competence, systems thinking, and the realization that many hard-earned instincts already belong to formal disciplines with names, frameworks, and value.",
     "tags": [
-      "systems-thinking",
+      "systems thinking",
       "career",
       "learning"
     ],
@@ -4819,15 +4816,30 @@
     "description": "A reflection on Disneyland riverboats, Sierra foothill towns, Star Trek, and the enduring influence of Mark Twain’s observational style.",
     "tags": [
       "writing",
-      "mark-twain",
-      "storytelling",
-      "culture",
+      "mark twain",
       "observation"
     ],
     "tier": "tier-2",
     "heroImage": "/images/writing/samuel-clemens-keeps-appearing.png",
     "heroAlt": "Minimalist hero image for 'Samuel Clemens Keeps Appearing' featuring subtle riverboat-inspired linework against a warm neutral background.",
     "url": "https://amidthenoise.com/writing/samuel-clemens-keeps-appearing",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-04-27",
+    "title": "The Companies That Forgot",
+    "subtitle": "Why modern institutions increasingly feel unstable.",
+    "slug": "the-companies-that-forgot-what-they-were",
+    "description": "A reflection on Friendster, Yahoo!, Evernote, Safeway, and the growing instability of institutions that evolved into behavioral infrastructure before developing the philosophical maturity to govern it.",
+    "tags": [
+      "SYSTEMS",
+      "INFRASTRUCTURE",
+      "TECHNOLOGY"
+    ],
+    "tier": "",
+    "heroImage": "/images/writing/the-companies-that-forgot.png",
+    "heroAlt": "Abstract structural forms and drifting network geometry representing institutional instability and philosophical drift.",
+    "url": "https://amidthenoise.com/writing/the-companies-that-forgot-what-they-were",
     "status": "Scheduled"
   }
 ]

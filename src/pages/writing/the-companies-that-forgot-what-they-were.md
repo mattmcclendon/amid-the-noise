@@ -30,19 +30,15 @@ Features appear disconnected from the original purpose.
 
 The institution slowly begins behaving like a person trying to reinvent themselves in the middle of a conversation.
 
-Most explanations for institutional decline focus on operational failure.
+Most explanations for institutional decline focus on operational failure:
 
-Bad leadership.
-Competition.
-Technology shifts.
-Market pressure.
-Scaling mistakes.
+bad leadership, competition, technology shifts, market pressure, scaling mistakes.
 
 Those explanations matter.
 
 I think something deeper is happening too.
 
-Many modern institutions appear to be suffering from a kind of existential instability. They no longer fully understand what role they occupy in people’s lives even as that role becomes increasingly consequential.
+Many modern institutions appear to be suffering from existential instability. They no longer fully understand what role they occupy in people’s lives even as that role becomes increasingly consequential.
 
 The internet accelerated this problem dramatically.
 
@@ -74,13 +70,12 @@ Behavioral infrastructure failures affect perception.
 
 That distinction would become increasingly important over the following decades.
 
-Most of us still thought we were building websites.
+Most of us still thought we were building websites, but the architecture was already outgrowing the intent.
 
-Friendster eventually became unstable not simply because of technology, but because the company itself increasingly seemed uncertain about what it actually was.
+Friendster eventually became unstable not simply because of technology, but because the institution itself increasingly seemed uncertain about what it was protecting.
 
 A dating platform?
 A social utility?
-An entertainment network?
 An identity system?
 
 The uncertainty became architectural.
@@ -115,6 +110,14 @@ The institution increasingly seemed uncertain about its own center of gravity wh
 Employees felt this instability before the public did.
 
 Products eventually reflected it.
+
+Over time, this instability escaped Silicon Valley.
+
+As more institutions became software-mediated, data-driven, optimized, financialized, and platform-oriented, the same philosophical drift began appearing far outside the technology sector.
+
+As institutions increasingly began interpreting people as users, engagement metrics, or behavioral signals rather than neighbors, citizens, or communities, the relationship itself started to change.
+
+The systems became more optimized while often becoming less socially coherent.
 
 The pattern extends beyond Silicon Valley.
 
@@ -180,25 +183,17 @@ Possibly emotional infrastructure too.
 
 That transition creates a dangerous mismatch.
 
-Many modern institutions still operate culturally as though they are startup-era product companies optimized for:
-- rapid iteration
-- disruption
-- experimentation
-- growth velocity
-- engagement
+Many modern institutions still operate culturally as though they are startup-era product companies optimized for rapid iteration, disruption, experimentation, growth velocity, and engagement.
 
-But society increasingly depends on these same systems for:
-- trust
-- continuity
-- legitimacy
-- emotional regulation
-- shared perception
+Public markets and venture capital increasingly reward companies for becoming platforms, ecosystems, and identity layers rather than remaining “just” a grocery store, “just” a search engine, or “just” a note-taking application.
+
+But society increasingly depends on these same systems for trust, continuity, legitimacy, emotional regulation, and shared perception.
 
 Those are not the same responsibilities.
 
 Silicon Valley often treats executive turnover as operational renewal.
 
-Increasingly, it feels more like philosophical regime change.
+Increasingly, it resembles philosophical regime change.
 
 A new CEO does not simply change execution.
 
@@ -214,8 +209,7 @@ In behavioral infrastructure, it can destabilize the social environment surround
 
 One of Silicon Valley’s recurring mistakes may be treating existential crises as though they are operational ones.
 
-Operational crises are relatively legible:
-scaling problems, infrastructure instability, competition, declining revenue.
+Operational crises are relatively legible: scaling problems, infrastructure instability, competition, declining revenue.
 
 Existential crises are different.
 
