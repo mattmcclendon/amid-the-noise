@@ -2,7 +2,7 @@
 layout: "../../layouts/PublicationLayout.astro"
 title: "The Companies That Forgot"
 subtitle: "Why modern institutions increasingly feel unstable."
-description: "A reflection on Friendster, Yahoo!, Evernote, Safeway, and the growing instability of institutions that evolved into behavioral infrastructure before developing the philosophical maturity to govern it."
+description: "Modern institutions increasingly behave like systems suffering from identity crises while society depends on them for continuity, trust, and shared perception."
 pubDate: "2027-04-27"
 heroImage: "/images/writing/the-companies-that-forgot.png"
 heroAlt: "Abstract structural forms and drifting network geometry representing institutional instability and philosophical drift."
@@ -115,7 +115,7 @@ Over time, this instability escaped Silicon Valley.
 
 As more institutions became software-mediated, data-driven, optimized, financialized, and platform-oriented, the same philosophical drift began appearing far outside the technology sector.
 
-As institutions increasingly began interpreting people as users, engagement metrics, or behavioral signals rather than neighbors, citizens, or communities, the relationship itself started to change.
+As institutions increasingly began interpreting people as users, engagement metrics, behavioral signals, or experimental cohorts rather than neighbors, citizens, or communities, the relationship itself started to change.
 
 The systems became more optimized while often becoming less socially coherent.
 
@@ -247,6 +247,14 @@ And neither the institutions nor the society surrounding them fully understands 
 
 ---
 
-### Next Path
+### Continue Reading
 
-[View Paper →](/papers/McClendon-Existential-Dread-in-Silicon-Valley.pdf) | [View Field Study →](/learning/field-studies/friendster)
+The research continues below.
+
+If you want the operational architecture behind these ideas, read the full white paper on behavioral infrastructure and institutional instability.
+
+[Read the full white paper →](/papers/McClendon-Existential-Dread-in-Silicon-Valley.pdf)
+
+If you want the early social-web case study that helped shape this framework, go deep into the original Friendster Field Study.
+
+[Read the Friendster Field Study →](/learning/field-studies/friendster)
