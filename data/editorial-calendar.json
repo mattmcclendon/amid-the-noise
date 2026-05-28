@@ -2546,7 +2546,7 @@
     "heroImage": "/images/writing/standing-on-the-edge.png",
     "heroAlt": "A solitary figure stands at the edge of a stark cliff above a pale, fog-filled expanse, suggesting quiet tension, uncertainty, and the shifting boundary between control and consequence.",
     "url": "https://amidthenoise.com/writing/standing-on-the-edge",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-05-31",
@@ -4840,6 +4840,23 @@
     "heroImage": "/images/writing/the-companies-that-forgot.png",
     "heroAlt": "Abstract structural forms and drifting network geometry representing institutional instability and philosophical drift.",
     "url": "https://amidthenoise.com/writing/the-companies-that-forgot-what-they-were",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-07-03",
+    "title": "The Republic Before the Republic",
+    "subtitle": "Ritual, trust, and the disappearing architecture of civic life.",
+    "slug": "the-republic-before-the-republic",
+    "description": "Small-town Oklahoma lodges, inherited ritual, and the quiet civic systems that once taught Americans how to practice continuity, obligation, and belonging.",
+    "tags": [
+      "Civic Systems",
+      "Freemasonry",
+      "Belonging"
+    ],
+    "tier": "",
+    "heroImage": "/images/writing/the-republic-before-the-republic.png",
+    "heroAlt": "An aging Oklahoma Masonic lodge rendered in the Amid the Noise visual language.",
+    "url": "https://amidthenoise.com/writing/the-republic-before-the-republic",
     "status": "Scheduled"
   }
 ]

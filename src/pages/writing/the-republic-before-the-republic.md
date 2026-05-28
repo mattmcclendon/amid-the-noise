@@ -158,5 +158,4 @@ Freemasonry did not secretly create the republic.
 Yet it helped cultivate many of the habits, relationships, symbolic frameworks, and systems of trust upon which republican governance depends.
 
 The old lodges understood something modern America increasingly forgets:
-
 self-government requires rehearsal.
