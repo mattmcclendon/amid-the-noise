@@ -154,12 +154,12 @@ Pilot groups reduced average time from concept to testable initiative by approxi
 
 More importantly, the organization began developing a shared operational language around AI.
 
-| Dimension | Before | After |
-|-----------|-----------|-----------|
-| Risk | Something to avoid | A hypothesis to test |
-| Governance | Approval gate | Design partner |
-| Human Role | Escalation point | Active participant |
-| AI Pilot | Executive aspiration | Testable hypothesis |
+That shift showed up in four practical ways:
+
+- **Risk** moved from something to avoid toward a hypothesis to test.
+- **Governance** moved from an approval gate toward a design partnership.
+- **Human oversight** moved from an escalation point toward active participation.
+- **AI pilots** moved from executive aspiration toward testable hypotheses.
 
 ---
 
