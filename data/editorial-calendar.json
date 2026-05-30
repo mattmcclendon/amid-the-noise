@@ -4830,7 +4830,7 @@
     "title": "The Companies That Forgot",
     "subtitle": "Why modern institutions increasingly feel unstable.",
     "slug": "the-companies-that-forgot-what-they-were",
-    "description": "A reflection on Friendster, Yahoo!, Evernote, Safeway, and the growing instability of institutions that evolved into behavioral infrastructure before developing the philosophical maturity to govern it.",
+    "description": "Modern institutions increasingly behave like systems suffering from identity crises while society depends on them for continuity, trust, and shared perception.",
     "tags": [
       "SYSTEMS",
       "INFRASTRUCTURE",
@@ -4857,6 +4857,23 @@
     "heroImage": "/images/writing/the-republic-before-the-republic.png",
     "heroAlt": "An aging Oklahoma Masonic lodge rendered in the Amid the Noise visual language.",
     "url": "https://amidthenoise.com/writing/the-republic-before-the-republic",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-07-06",
+    "title": "The Signals We Ignore",
+    "subtitle": "What songs, poems, and everyday conversations can tell us about a nation",
+    "slug": "signals-we-ignore",
+    "description": "The most valuable signals are not always hidden. Sometimes they are simply ignored.",
+    "tags": [
+      "National Security",
+      "Signal Intelligence",
+      "Civic Systems"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/signals-we-ignore.png",
+    "heroAlt": "Abstract visualization of cultural signals emerging from everyday public life",
+    "url": "https://amidthenoise.com/writing/signals-we-ignore",
     "status": "Scheduled"
   }
 ]
