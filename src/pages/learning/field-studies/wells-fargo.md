@@ -66,7 +66,20 @@ This shifted the focus away from speculative product thinking and toward operati
 
 Discovery sessions were conducted with stakeholders across legal, fraud, customer operations, compliance, product, and data governance. Rather than treating governance as a downstream constraint, governance became part of the design process itself.
 
+
 The goal was to reduce ambiguity before scaling experimentation.
+
+One recurring example involved the use of natural language processing to identify quiet warning signs buried inside large volumes of customer communications. The technical feasibility was rarely the point of debate.
+
+Product teams saw an opportunity to surface signals earlier. Compliance teams worried about explainability and escalation responsibility. Data scientists could build models, but ownership of decisions remained unclear.
+
+The initiative spent months circulating between stakeholders because nobody could clearly articulate where human judgment ended and automated assistance began.
+
+Once those questions became explicit, the conversation changed.
+
+The problem was no longer whether AI should be used.
+
+The problem became how it could be tested safely.
 
 Several core principles emerged:
 
@@ -84,9 +97,24 @@ These principles became foundational across multiple initiatives.
 
 One major initiative involved designing a repeatable framework for AI discovery and experimentation across business units.
 
+
 The resulting system became known internally as the AI Sprint Kit.
 
-The kit introduced structured workflows that helped teams move from vague interest in AI toward testable operational concepts grounded in governance, feasibility, and user value.
+The goal was not simply to document AI opportunities.
+
+The goal was to change how conversations happened.
+
+Many governance discussions began as presentation decks and ended as circular debates. Teams argued about risk, ownership, and feasibility without a common structure for making assumptions visible.
+
+The Sprint Kit changed the geometry of the room.
+
+Shared canvases, alignment maps, and hypothesis frameworks moved discussions away from abstract ambition and toward explicit decisions. Ownership became visible. Dependencies became visible. Escalation paths became visible.
+
+Ambiguity became harder to hide.
+
+A blank section on a canvas was no longer an abstract concern. It was a visible gap in ownership, accountability, or decision-making. Teams could no longer disagree in the abstract. They had to point to the specific assumption, checkpoint, or dependency creating friction.
+
+The kit introduced structured workflows that helped teams move from executive enthusiasm for AI toward testable operational concepts grounded in governance, feasibility, and user value.
 
 Core components included:
 
@@ -123,7 +151,15 @@ The system reduced confusion between executive expectations and engineering exec
 
 Pilot groups reduced average time from concept to testable initiative by approximately sixfold.
 
+
 More importantly, the organization began developing a shared operational language around AI.
+
+| Dimension | Before | After |
+|-----------|-----------|-----------|
+| Risk | Something to avoid | A hypothesis to test |
+| Governance | Approval gate | Design partner |
+| Human Role | Escalation point | Active participant |
+| AI Pilot | Executive aspiration | Testable hypothesis |
 
 ---
 
@@ -133,9 +169,9 @@ Another major area of focus centered on human oversight inside AI-assisted workf
 
 Rather than positioning machine learning systems as autonomous decision-makers, the work emphasized AI as a support layer for human judgment.
 
-This became especially important in customer operations environments where language, urgency, and compliance risk intersected in real time.
+This became especially important in customer operations environments where language, urgency, and compliance risk did not simply intersect. They collided in real time.
 
-The NLP initiative focused on operationalizing insight from unstructured customer communication including:
+The NLP initiative focused on turning unstructured customer communication into usable signal, including:
 
 - support notes
 - chat transcripts
@@ -232,7 +268,10 @@ They fail because decision-making becomes fragmented across systems, incentives,
 
 AI amplifies that problem if governance, accountability, and interpretability are treated as secondary concerns.
 
-The work at Wells Fargo reinforced a principle that continues to shape my approach today:
+
+The work at Wells Fargo reinforced a principle that continues to shape my approach today.
+
+It also permanently changed how I think about enterprise AI. The hardest problems were rarely technical. They were organizational, human, and ultimately questions of trust.
 
 The most important layer in enterprise AI is often not the model itself.
 
@@ -246,4 +285,4 @@ The future of enterprise AI will not be defined solely by capability.
 
 It will be defined by whether organizations can build systems where people remain capable of understanding, questioning, and governing the decisions being made around them.
 
-█
+The lesson extends well beyond banking. If institutions struggle to govern the algorithms that influence financial decisions, they will struggle even more with the systems that increasingly shape public services, civic infrastructure, and public trust.
