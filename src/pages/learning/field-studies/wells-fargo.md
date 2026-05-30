@@ -33,7 +33,6 @@ The challenge was designing organizational trust around them.
 This work focused on helping Wells Fargo create repeatable, human-centered frameworks for AI experimentation that could survive inside a highly regulated environment without collapsing under ambiguity, fear, or procedural friction.
 
 ---
-
 ## The Institutional Problem
 
 Across 17 business units, teams struggled with the same recurring questions:
@@ -55,7 +54,6 @@ The organization did not need more AI enthusiasm.
 It needed systems capable of making AI legible.
 
 ---
-
 ## Designing Trust Before Scale
 
 The work began with a simple premise:
@@ -92,7 +90,6 @@ Several core principles emerged:
 These principles became foundational across multiple initiatives.
 
 ---
-
 ## The AI Sprint Kit
 
 One major initiative involved designing a repeatable framework for AI discovery and experimentation across business units.
@@ -118,6 +115,7 @@ The kit introduced structured workflows that helped teams move from executive en
 
 Core components included:
 
+---
 ### AI Framing Canvas
 
 A structured framework for defining:
@@ -129,6 +127,7 @@ A structured framework for defining:
 - human checkpoints
 - decision ownership
 
+---
 ### Stakeholder Alignment Maps
 
 Visual systems that clarified who owned:
@@ -139,10 +138,12 @@ Visual systems that clarified who owned:
 - compliance review
 - post-launch accountability
 
+---
 ### Scientific Method Playbook
 
 A hypothesis-driven structure that reframed AI initiatives as measurable experiments rather than aspirational product narratives.
 
+---
 ### Trust and Feedback Loops
 
 Embedded review checkpoints designed to preserve interpretability, auditability, and post-pilot reflection.
@@ -162,7 +163,6 @@ That shift showed up in four practical ways:
 - **AI pilots** moved from executive aspiration toward testable hypotheses.
 
 ---
-
 ## Human-in-the-Loop Governance
 
 Another major area of focus centered on human oversight inside AI-assisted workflows.
@@ -180,16 +180,19 @@ The NLP initiative focused on turning unstructured customer communication into u
 
 Several interaction patterns emerged as critical.
 
+---
 ### Inline Confidence Scores
 
 Prediction confidence and sentiment scoring remained visible to users rather than hidden behind opaque automation.
 
+---
 ### Feedback and Correction Modes
 
 Frontline operators could validate, reject, or correct model outputs directly inside the workflow.
 
 This transformed operational usage into an ongoing learning system rather than a static deployment.
 
+---
 ### Escalation Signal Layers
 
 Language patterns associated with compliance risk, customer retention concerns, or operational urgency were surfaced proactively to support earlier intervention.
@@ -203,7 +206,6 @@ Trust does not emerge from automation alone.
 Trust emerges when people understand how decisions are being shaped and retain meaningful authority within the system.
 
 ---
-
 ## Cross-Functional Alignment as System Design
 
 One of the most important outcomes of the engagement had little to do with interfaces.
@@ -239,7 +241,6 @@ toward:
 That distinction changed the trajectory of adoption.
 
 ---
-
 ## Outcomes
 
 The collective initiatives contributed to measurable operational and organizational outcomes:
@@ -259,7 +260,6 @@ The systems were not designed to remove human judgment.
 They were designed to support it under pressure.
 
 ---
-
 ## Reflections
 
 Large institutions rarely fail because they lack intelligence.
