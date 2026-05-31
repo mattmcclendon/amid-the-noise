@@ -2563,7 +2563,7 @@
     "heroImage": "/images/writing/the-last-illusion-to-go.png",
     "heroAlt": "Abstract threshold imagery with subtle geometric lines fading into open space.",
     "url": "https://amidthenoise.com/writing/the-last-illusion-to-go",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-02",
@@ -2597,6 +2597,23 @@
     "heroImage": "/images/writing/most-software-was-never-designed-to-decide.png",
     "heroAlt": "Minimal abstract transition from structured data systems to decision-making environments under uncertainty",
     "url": "https://amidthenoise.com/writing/most-software-was-never-designed-to-decide",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2026-06-05",
+    "title": "The Day April Voted",
+    "subtitle": "Democracy is measured in ballots. Its success is often measured in something else.",
+    "slug": "the-day-april-voted",
+    "description": "A woman named April came to vote. What happened afterward was a reminder that dignity and belonging are part of democracy too.",
+    "tags": [
+      "Democracy",
+      "Community",
+      "Dignity"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-day-april-voted.png",
+    "heroAlt": "A voter leaving a vote center with a smile after casting a ballot.",
+    "url": "https://amidthenoise.com/writing/the-day-april-voted",
     "status": "Scheduled"
   },
   {
