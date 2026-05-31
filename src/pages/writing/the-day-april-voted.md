@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Day April Voted"
 subtitle: "Democracy is measured in ballots. Its success is often measured in something else."
 description: "A woman named April came to vote. What happened afterward was a reminder that dignity and belonging are part of democracy too."
-pubDate: "2026-06-07"
+pubDate: "2026-06-05"
 heroImage: "/images/writing/the-day-april-voted.png"
 heroAlt: "A voter leaving a vote center with a smile after casting a ballot."
 tags: ["Democracy", "Community", "Dignity"]
