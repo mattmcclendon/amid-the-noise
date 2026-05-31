@@ -4843,6 +4843,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-06-20",
+    "title": "Capability vs. Perceived Capability",
+    "subtitle": "The difference between feeling strong and being strong",
+    "slug": "capability-vs-perceived-capability",
+    "description": "The most dangerous failures often begin when a system loses the ability to accurately perceive itself.",
+    "tags": [
+      "Recovery",
+      "Reflection",
+      "Signal"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/capability-vs-perceived-capability.png",
+    "heroAlt": "Abstract visualization of measurement, feedback, and perception",
+    "url": "https://amidthenoise.com/writing/capability-vs-perceived-capability",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-07-03",
     "title": "The Republic Before the Republic",
     "subtitle": "Ritual, trust, and the disappearing architecture of civic life.",
