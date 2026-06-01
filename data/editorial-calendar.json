@@ -2859,7 +2859,7 @@
     "title": "The Moment a Data Model Touches Money",
     "subtitle": "Designing decisions when there is no neutral outcome",
     "slug": "the-moment-a-data-model-touches-money",
-    "description": "A transaction is flagged. The model assigns risk. The system has to decide whether money moves or stops. This piece shows how to design that decision so it holds under real-world conditions.",
+    "description": "A model can score risk in milliseconds. Deciding what to do with that score is where governance begins.",
     "tags": [
       "Signal",
       "Systems Thinking",
@@ -4908,6 +4908,23 @@
     "heroImage": "/images/writing/signals-we-ignore.png",
     "heroAlt": "Abstract visualization of cultural signals emerging from everyday public life",
     "url": "https://amidthenoise.com/writing/signals-we-ignore",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-07-08",
+    "title": "The Roundhouse That Isn't There",
+    "subtitle": "Most people in Altus drive past it without knowing it ever existed.",
+    "slug": "the-roundhouse-that-isnt-there",
+    "description": "A forgotten railroad roundhouse survived for decades in family stories. Aerial photographs revealed the rest of the story.",
+    "tags": [
+      "Altus",
+      "History",
+      "Infrastructure"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-roundhouse-that-isnt-there.png",
+    "heroAlt": "Ghost outline of the former Altus railroad roundhouse overlaid on modern aerial imagery.",
+    "url": "https://amidthenoise.com/writing/the-roundhouse-that-isnt-there",
     "status": "Scheduled"
   }
 ]
