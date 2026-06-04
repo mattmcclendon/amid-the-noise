@@ -77,6 +77,31 @@ const selectedPosts = selectedSlugs
         src="/images/signature-matthew-mcclendon.svg"
         alt="Matthew McClendon signature"
       />
+      <svg
+        class="hero-artifact"
+        viewBox="0 0 420 320"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <path class="artifact-major" d="M38 286 C112 188, 202 126, 338 102" />
+          <path class="artifact-major artifact-soft" d="M92 302 C168 222, 248 178, 382 152" />
+          <path class="artifact-minor" d="M126 238 C168 168, 220 126, 286 104" />
+          <path class="artifact-minor artifact-dash" d="M168 244 C226 258, 294 240, 340 196" />
+          <circle class="artifact-ring" cx="286" cy="104" r="46" />
+          <circle class="artifact-ring artifact-soft" cx="212" cy="176" r="88" />
+          <circle class="artifact-node" cx="126" cy="238" r="7" />
+          <circle class="artifact-node" cx="286" cy="104" r="9" />
+          <circle class="artifact-node" cx="340" cy="196" r="6" />
+          <circle class="artifact-dot" cx="212" cy="176" r="2.5" />
+          <path class="artifact-mark" d="M274 61 H298" />
+          <path class="artifact-mark" d="M274 147 H298" />
+          <path class="artifact-mark" d="M240 104 H220" />
+          <path class="artifact-mark" d="M332 104 H352" />
+          <path class="artifact-mark artifact-soft" d="M126 216 V204" />
+          <path class="artifact-mark artifact-soft" d="M126 260 V272" />
+        </g>
+      </svg>
   </section>
 
   <section class="section work-section">
@@ -157,9 +182,12 @@ const selectedPosts = selectedSlugs
 </Layout>
 
 <style>
+  .hero {
+    position: relative;
+  }
 
   .hero-quote {
-    max-width: 42rem;
+    max-width: 40rem;
     margin: 12px 0 20px;
     padding: 4px 0 12px 16px;
     border-left: 2px solid var(--line);
@@ -178,7 +206,7 @@ const selectedPosts = selectedSlugs
   }
 
   .intro.intro-lead {
-    max-width: 44rem;
+    max-width: 41rem;
     margin: 0 0 16px;
     font-size: 1.04rem;
     line-height: 1.58;
@@ -195,7 +223,7 @@ const selectedPosts = selectedSlugs
   }
 
   .intro {
-    max-width: 43rem;
+    max-width: 41rem;
     margin: 0 0 14px;
     font-size: 1.02rem;
     line-height: 1.6;
@@ -209,6 +237,50 @@ const selectedPosts = selectedSlugs
     margin-top: 24px;
     margin-left: 28px;
     opacity: 0.92;
+  }
+
+  .hero-artifact {
+    position: absolute;
+    right: 4px;
+    bottom: 18px;
+    width: min(340px, 31vw);
+    color: #3e5a8d;
+    opacity: 0.18;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .hero-artifact .artifact-major {
+    stroke-width: 1.45;
+  }
+
+  .hero-artifact .artifact-minor {
+    stroke-width: 0.95;
+  }
+
+  .hero-artifact .artifact-ring {
+    stroke-width: 0.85;
+  }
+
+  .hero-artifact .artifact-node {
+    stroke-width: 1.2;
+  }
+
+  .hero-artifact .artifact-dot {
+    fill: currentColor;
+    stroke: none;
+  }
+
+  .hero-artifact .artifact-mark {
+    stroke-width: 0.8;
+  }
+
+  .hero-artifact .artifact-soft {
+    opacity: 0.48;
+  }
+
+  .hero-artifact .artifact-dash {
+    stroke-dasharray: 4 10;
   }
 
   .intro em {
@@ -344,6 +416,9 @@ const selectedPosts = selectedSlugs
       width: 170px;
       margin-top: 20px;
       margin-left: 36px;
+    }
+    .hero-artifact {
+      display: none;
     }
   }
 </style>
