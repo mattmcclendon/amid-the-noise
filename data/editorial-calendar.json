@@ -2597,7 +2597,7 @@
     "heroImage": "/images/writing/most-software-was-never-designed-to-decide.png",
     "heroAlt": "Minimal abstract transition from structured data systems to decision-making environments under uncertainty",
     "url": "https://amidthenoise.com/writing/most-software-was-never-designed-to-decide",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-05",
@@ -2614,7 +2614,7 @@
     "heroImage": "/images/writing/the-day-april-voted.png",
     "heroAlt": "A voter leaving a vote center with a smile after casting a ballot.",
     "url": "https://amidthenoise.com/writing/the-day-april-voted",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-07",
@@ -4874,6 +4874,23 @@
     "heroImage": "/images/writing/across-the-street.png",
     "heroAlt": "A city street separating two communities that can see each other but no longer fully recognize one another.",
     "url": "https://amidthenoise.com/writing/across-the-street",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-06-17",
+    "title": "Toy Stories",
+    "subtitle": "A three-year-old sees characters. A six-year-old sees events. An adult sees motivations.",
+    "slug": "toy-stories",
+    "description": "What Toy Story, Pizza Planet, and a six-year-old taught me about how we learn to see beyond the highlights.",
+    "tags": [
+      "Parenting",
+      "Storytelling",
+      "Nuance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/toy-stories.png",
+    "heroAlt": "A child watching familiar toys while seeing a different story with each passing year.",
+    "url": "https://amidthenoise.com/writing/toy-stories",
     "status": "Scheduled"
   },
   {
