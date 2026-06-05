@@ -4894,6 +4894,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-05-25",
+    "title": "Anecdotal Evidence",
+    "subtitle": "What stories reveal that metrics cannot.",
+    "slug": "anecdotal-evidence",
+    "description": "A year after working a Santa Clara County vote center, I found myself thinking less about procedures and more about the stories that revealed what those procedures felt like.",
+    "tags": [
+      "Elections",
+      "Civic Systems",
+      "Trust"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/anecdotal-evidence.png",
+    "heroAlt": "Abstract illustration representing people, stories, and civic systems.",
+    "url": "https://amidthenoise.com/writing/anecdotal-evidence",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-06-17",
     "title": "Toy Stories",
     "subtitle": "A three-year-old sees characters. A six-year-old sees events. An adult sees motivations.",
