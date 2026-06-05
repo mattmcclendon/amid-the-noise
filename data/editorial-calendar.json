@@ -4860,6 +4860,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-04-29",
+    "title": "Next Exit: Mars",
+    "subtitle": "How civilizations turn miracles into infrastructure.",
+    "slug": "next-exit-mars",
+    "description": "We imagine the future as a series of breakthroughs. History suggests something different. The real story begins when someone has to maintain, regulate, and pay for the miracle.",
+    "tags": [
+      "Infrastructure",
+      "Governance",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/next-exit-mars.png",
+    "heroAlt": "A futuristic transit sign pointing toward Mars above a vast transportation network stretching into space.",
+    "url": "https://amidthenoise.com/writing/next-exit-mars",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-05-23",
     "title": "Across the Street",
     "subtitle": "Invisible boundaries can be louder than marked ones.",
