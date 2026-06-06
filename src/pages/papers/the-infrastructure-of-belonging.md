@@ -1108,4 +1108,11 @@ The use of a public service or public space not primarily to move from one desti
 
 ## Institutional Imagination
 
+
 An institution's capacity to recognize populations that may be absent from its default assumptions and design accordingly.
+
+---
+
+# Downloads and Navigation
+
+[Download the PDF version ↓](/papers/McClendon-The-Infrastructure-of-Belonging.pdf) · [Back to Papers ↩](/papers)
