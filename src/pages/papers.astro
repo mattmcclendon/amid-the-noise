@@ -10,6 +10,7 @@ const papers = [
     subtitle:
       "Reducing the Gap Between Services and the People They Serve.",
     href: "/papers/the-infrastructure-of-belonging",
+    pdfHref: "/papers/McClendon-The-Infrastructure-of-Belonging.pdf",
     meta: "Web Paper • June 2026",
     description:
       "A civic systems framework examining how institutions become reachable through connectors, continuity, and the reduction of distance. Drawing from elections, homelessness services, and public transit, the paper argues that belonging emerges when public systems are designed to bridge the gap between services and the people they serve.",
@@ -108,7 +109,17 @@ const papers = [
               <a href={paper.href}>{paper.title}</a>
             </h2>
 
-            <p class="paper-meta">{paper.meta}</p>
+            <p class="paper-meta">
+              {paper.meta}
+              {
+                paper.pdfHref && (
+                  <>
+                    <span class="paper-meta-separator">•</span>
+                    <a class="paper-pdf-link" href={paper.pdfHref}>Download PDF</a>
+                  </>
+                )
+              }
+            </p>
 
             <p class="paper-subtitle">{paper.subtitle}</p>
 
@@ -179,6 +190,21 @@ const papers = [
     line-height: 1.45;
     padding-top: .2rem;
     color: var(--color-text-muted);
+  }
+
+  .paper-meta-separator {
+    margin: 0 0.4rem;
+    color: rgba(49, 64, 86, 0.42);
+  }
+
+  .paper-pdf-link {
+    color: #3f5f8c;
+    text-decoration: none;
+  }
+
+  .paper-pdf-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
   }
 
   .papers-page .paper-card h2 {
