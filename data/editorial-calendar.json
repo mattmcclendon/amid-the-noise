@@ -5011,5 +5011,22 @@
     "heroAlt": "A reflection on a father, memory, and the passage of time.",
     "url": "https://amidthenoise.com/writing/remembering-my-father",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-07-13",
+    "title": "I Forgive You",
+    "subtitle": "Simple words that turned out to be for me, not them.",
+    "slug": "i-forgive-you",
+    "description": "What recovery taught me about forgiveness, attention, and the cost of carrying old grievances.",
+    "tags": [
+      "Recovery",
+      "Forgiveness",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/i-forgive-you.png",
+    "heroAlt": "A reflection on forgiveness, recovery, and letting go.",
+    "url": "https://amidthenoise.com/writing/i-forgive-you",
+    "status": "Scheduled"
   }
 ]
