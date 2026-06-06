@@ -10,9 +10,6 @@ tags: ["Civic Systems", "Public Services", "Design"]
 tier: "tier-1"
 ---
 
-# The Infrastructure of Belonging
-## Reducing the Gap Between Services and the People They Serve
-
 ## Abstract
 
 Public institutions are often evaluated by the services they provide. Individuals experience them differently. They experience them through the distance required to reach those services.
