@@ -1,8 +1,13 @@
 ---
+layout: "../../layouts/PublicationLayout.astro"
 title: "The Infrastructure of Belonging"
 subtitle: "Reducing the Gap Between Services and the People They Serve"
-draft: "0.2"
-status: "working"
+description: "A civic research paper on distance, reachability, and the hidden infrastructure that allows public services to become usable, navigable, and intended for the people they serve."
+pubDate: "2026-06-06"
+heroImage: "/images/writing/the-infrastructure-of-belonging.png"
+heroAlt: "Abstract civic infrastructure map showing connected pathways between public services and people."
+tags: ["Civic Systems", "Public Services", "Design"]
+tier: "tier-1"
 ---
 
 # The Infrastructure of Belonging
@@ -74,19 +79,15 @@ It is the reduction of distance.
 # Methodology
 ## Autoethnography and Qualitative Case Analysis
 
-This paper combines autoethnographic observation with qualitative case study analysis.
+This paper combines autoethnographic observation with qualitative case study analysis. The case studies draw from direct experiences within election administration, homelessness services, recovery systems, and public transit in Santa Clara County between 2025 and 2026.
 
-The case studies draw from direct experiences within election administration, homelessness services, recovery systems, and public transit in Santa Clara County between 2025 and 2026.
+These experiences are not presented as representative samples of entire systems. They function as observational sites through which broader theories of administrative burden, street-level bureaucracy, procedural justice, trauma-informed care, and service design can be examined.
 
-These experiences are not presented as representative samples of entire systems.
+The purpose of the case studies is not to establish universal causality. The purpose is to identify recurring mechanisms that appear to reduce or increase the distance between services and the people attempting to reach them.
 
-Instead, they function as observational sites through which broader theories of administrative burden, street-level bureaucracy, procedural justice, trauma-informed care, and service design can be examined.
+The case studies that follow are examined through a common lens. While services may exist formally, they can remain effectively unreachable in practice. To understand why, this paper categorizes distance into several recurring forms that appear across institutions, including physical, administrative, linguistic, cognitive, psychological, and cultural distance.
 
-The purpose of the case studies is not to establish universal causality.
-
-The purpose is to identify recurring mechanisms that appear to reduce or increase the distance between services and the people attempting to reach them.
 ---
-
 # 2. The Hidden Layer of Institutions
 
 Institutions are typically described through visible structures.
@@ -121,19 +122,11 @@ This paper refers to that challenge as distance.
 
 ### Physical Distance
 
-The literal distance between a person and a service.
-
-Transportation barriers.
-
-Location.
-
-Travel time.
-
-Mobility limitations.
+Physical distance is the literal distance between a person and a service. It includes transportation barriers, location, travel time, and mobility limitations.
 
 ### Administrative Distance
 
-The burden created by applications, referrals, documentation requirements, eligibility verification, and procedural complexity.
+Administrative distance is the burden imposed by forms, referrals, documentation requirements, eligibility verification, and procedural requirements.
 
 ### Linguistic Distance
 
@@ -141,7 +134,7 @@ The gap created when information is unavailable in a language a person can under
 
 ### Cognitive Distance
 
-The difficulty of understanding what services exist, how they work, and what happens next.
+Cognitive distance is the difficulty of understanding what services exist, how they connect, and what steps come next.
 
 ### Psychological Distance
 
@@ -161,23 +154,21 @@ A service can exist while remaining unreachable.
 
 ## Street-Level Bureaucracy
 
-Michael Lipsky argued that people rarely experience public policy directly. They experience it through implementation. Frontline workers become translators between institutional intent and citizen experience.
+Michael Lipsky argued that people rarely experience public policy directly. They experience it through implementation. Frontline workers become translators between institutional intent and individual experience. This matters because two institutions can operate under similar policies while producing very different experiences for the people who encounter them. [Lipsky, 1980]
 
 ## Administrative Burden
 
-Pamela Herd and Donald Moynihan describe administrative burden as the learning costs, compliance costs, and psychological costs associated with accessing public services. Viewed through the lens of this paper, administrative burden functions as a form of distance.
+Pamela Herd and Donald Moynihan describe administrative burden as the learning costs, compliance costs, and psychological costs associated with accessing public services. Viewed through the lens of this paper, administrative burden functions as a form of distance. [Herd & Moynihan, 2018]
 
 ## Procedural Justice
 
-Procedural justice research suggests that people care not only about outcomes but about how they are treated during the process. Voice, respect, neutrality, and trustworthiness shape perceptions of legitimacy.
+Procedural justice research suggests that people care not only about outcomes but about how they are treated during the process. Voice, respect, neutrality, and trustworthiness shape perceptions of legitimacy. [Tyler, 2006]
 
-Procedural justice asks a critical question:
-
-Was I treated fairly?
+Procedural justice asks a critical question: Was I treated fairly?
 
 ## Trauma-Informed Care
 
-Trauma-informed care begins with the observation that people do not arrive at institutions as blank slates. They arrive carrying previous experiences, fear, loss, distrust, shame, and trauma.
+Trauma-informed care begins with the observation that people do not arrive at institutions as blank slates. They arrive carrying previous experiences, fear, loss, distrust, shame, and trauma. [SAMHSA, 2014]
 
 Together these research traditions point toward a common conclusion.
 
@@ -193,49 +184,31 @@ Experience matters.
 
 # 4. The Infrastructure of Belonging Framework
 
-The literature suggests a recurring pattern.
+The literature suggests a recurring pattern: institutional success depends not only on what services exist, but on how people move from need to participation.
 
-Institutional success depends not only on what services exist, but on how people move from need to participation.
-
+```text
 Institutional Intent
-↓
+        ↓
 Preparation
-↓
+        ↓
 Operational Translation
-↓
+        ↓
 Connectors
-↓
+        ↓
 Continuity
-↓
+        ↓
 Navigation
-↓
+        ↓
 Individual Experience
-↓
+        ↓
 Belonging
-↓
+        ↓
 Trust, Legitimacy, and Participation
+```
 
-Institutional intent reflects what organizations claim to value.
+Institutional intent reflects what organizations claim to value. Preparation reduces distance before a crisis emerges. Operational translation converts values into everyday practice. Connectors reduce distance. Continuity prevents distance from reappearing. Navigation helps people move from one step to the next.
 
-Preparation reduces distance before a crisis emerges.
-
-Operational translation converts values into everyday practice.
-
-Connectors reduce distance.
-
-Continuity prevents distance from reappearing.
-
-Navigation helps people move from one step to the next.
-
-Belonging emerges when a person perceives that an institution is available, navigable, and intended for someone like them.
-
-Procedural justice asks:
-
-Was I treated fairly?
-
-Belonging asks:
-
-Was this institution meant for someone like me?
+Belonging emerges when a person perceives that an institution is available, navigable, and intended for someone like them. Procedural justice asks, "Was I treated fairly?" Belonging asks, "Was this institution meant for someone like me?"
 
 ---
 
@@ -457,13 +430,15 @@ Distance is measured not only by difficulty entering a system, but by the instab
 
 Those three days changed how I think about administrative burden.
 
-The burden was not paperwork.
+> The burden was not paperwork.
 
-The burden was surviving long enough for the paperwork to matter.
+> The burden was surviving long enough for the paperwork to matter.
 
 A delay that appears minor from inside an institution can feel enormous when housing, transportation, food, sobriety, and personal safety are uncertain.
 
 Instability itself became a form of distance.
+
+Scarcity research suggests that instability consumes cognitive bandwidth that would otherwise be available for planning, paperwork, appointments, and follow-through. [Mullainathan & Shafir, 2013]
 
 ### Angela
 
@@ -493,6 +468,8 @@ The lesson is not that institutions need more heroes.
 
 The lesson is that institutions need repair pathways when continuity breaks.
 
+Connectors are most effective when institutions give them enough authority to repair broken chains.
+
 ### Tell the Story Once
 
 One of the most overlooked forms of administrative burden is repetition.
@@ -510,6 +487,16 @@ For institutions, information transfer is administrative.
 For people, information transfer is often emotional.
 
 The system remembered.
+
+This principle extends beyond healthcare.
+
+Modern digital governments increasingly pursue what is sometimes called a once-only principle: information should move through systems more easily than people do.
+
+The European Union's once-only principle is built on a similar idea: information should move through institutions more easily than people do whenever lawful internal reuse is possible. [European Commission, 2016]
+
+Viewed through that lens, reducing repetition is not merely an efficiency improvement.
+
+It is a reduction in administrative and emotional burden.
 
 ### The Glue
 
@@ -538,6 +525,56 @@ They coordinated housing transitions.
 The result was not simply service delivery.
 
 The result was cognitive relief.
+
+### Stability as a Resource
+
+Several weeks into treatment, I developed a rapidly growing infection that required medical evaluation.
+
+What I remember most is not the infection itself.
+
+It is that I delayed seeking care.
+
+I was afraid that leaving treatment might somehow jeopardize my place there.
+
+Looking back, that fear reveals how valuable stability had become.
+
+For months, nearly every part of life had felt uncertain.
+
+Food was uncertain.
+
+Housing was uncertain.
+
+Transportation was uncertain.
+
+Safety was uncertain.
+
+At Muriel Wright, many of those uncertainties had temporarily disappeared.
+
+I had a room.
+
+I had food.
+
+I had structure.
+
+I had safety.
+
+The possibility of losing those things felt more threatening than the medical problem itself.
+
+Eventually the infection was treated successfully.
+
+What remained with me was a different realization.
+
+Stability is not simply an outcome.
+
+It is a resource.
+
+People make decisions differently when stability is present.
+
+They make decisions differently when it is absent.
+
+The Infrastructure of Belonging is not only about helping people reach services.
+
+It is also about creating enough stability for those services to matter.
 
 ### Continuity and Thresholds
 
@@ -624,6 +661,68 @@ A way to remain safe while the next part of the day arrives.
 
 For people experiencing homelessness, transit may provide stability as much as mobility.
 
+The value was not movement alone. It was the predictability of the environment through which movement occurred.
+
+### Support Infrastructure and the Geography of Stability
+
+During periods of housing instability, I was not navigating destinations.
+
+I was navigating support infrastructure.
+
+My mental map of the Bay Area looked very different from that of a housed person.
+
+I knew which transit stations had reliable bathrooms.
+
+I knew which libraries offered seating, power outlets, and Wi-Fi.
+
+I knew where I could spend several hours without being asked to leave.
+
+I knew where I could escape the rain.
+
+I knew where I could charge devices.
+
+I knew where I could safely carry a heavy backpack for an entire day.
+
+Sunnyvale Caltrain was valuable in part because it had a THRONE restroom.
+
+The newer Caltrain trains had reliable onboard restrooms.
+
+The Martin Luther King Jr. Library became an anchor because I knew I could use the restroom there.
+
+The Ferry Building, 4th & King, and the Castro Country Club became important nodes within a larger network of support infrastructure.
+
+Public restroom access has also been identified as a dignity, health, and criminalization issue for people experiencing homelessness. [Hochbaum, 2020]
+
+These details may appear minor.
+
+They were not.
+
+Most transportation planning evaluates movement.
+
+The experience described here suggests that support infrastructure deserves attention as well.
+
+Reliable bathrooms, seating, climate control, charging access, and predictable public space can significantly influence whether an entire day remains manageable.
+
+Research on homelessness in transit environments suggests that transit systems increasingly function as places where mobility, public space, shelter, and wellbeing intersect. [TCRP Research Report 242, 2023; UCLA ITS, 2021]
+
+A housed person often navigates destinations.
+
+A person experiencing instability often navigates support infrastructure.
+
+The difference is significant.
+
+Bathrooms, seating, climate control, power outlets, Wi-Fi, shelter from weather, and predictable public space become essential infrastructure when many of those resources are no longer available by default.
+
+Transit connected those places together.
+
+Without transit, each location became less reachable.
+
+Without those locations, the city itself became less navigable.
+
+Viewed this way, transit was not simply moving people through a transportation network.
+
+It was helping people stitch together a temporary ecosystem of stability.
+
 ### The Pass Already Existed
 
 A case manager helped secure a transit pass through an unhoused services program.
@@ -694,6 +793,26 @@ Its greatest contribution may not be transportation.
 
 It may be connection.
 
+This paper refers to that function as mediation.
+
+Mediation is the active reduction of physical and cognitive distance between otherwise disconnected systems.
+
+Transit mediates access to healthcare.
+
+Healthcare may mediate access to recovery.
+
+Recovery may mediate access to housing.
+
+Housing may mediate access to employment.
+
+People experience systems.
+
+Governments administer programs.
+
+The distinction matters because failures are often experienced across chains of dependency rather than within a single agency.
+
+When transit fails, distance can increase across multiple systems simultaneously.
+
 ---
 
 # 8. Failure Cases
@@ -712,6 +831,14 @@ Every handoff creates a risk that a person will be forced to re-enter the system
 When continuity breaks, progress is not merely delayed.
 
 It is reset.
+
+The impact of that reset depends heavily on context.
+
+A three-day delay while safely housed is different from a three-day delay experienced in a vehicle, shelter, or period of housing instability.
+
+Institutions often measure duration.
+
+People experience duration inside the conditions of their lives.
 
 ### Opportunity Without Participation
 
@@ -753,7 +880,7 @@ The challenge is understanding where discretion improves access and where it cre
 
 When outcomes depend heavily on who happens to be working that day, individuals experience a discretion lottery rather than a consistent institution.
 
-### The Invisible Citizen
+### The Invisible Person
 
 Certain populations can become institutionally invisible.
 
@@ -802,7 +929,11 @@ Information should move through systems more easily than people do.
 
 Institutions should ask who never arrived, who stopped halfway, who disappeared during a handoff, and why.
 
-### Principle 7: Design for the Invisible Citizen
+They should also examine the conditions surrounding delay.
+
+The practical impact of waiting is often shaped less by duration than by the instability experienced during that wait.
+
+### Principle 7: Design for the Invisible Person
 
 People cannot belong to systems that fail to see them.
 
@@ -858,6 +989,18 @@ Mediation made other systems reachable.
 
 When these mechanisms functioned effectively, belonging emerged.
 
+Across all three case studies, another pattern emerged.
+
+Distance reduction created stability.
+
+The vote center reduced uncertainty about participation.
+
+VHHP reduced uncertainty about survival and recovery.
+
+Transit reduced uncertainty about how an entire day could function.
+
+Stability made participation possible.
+
 Belonging, as defined in this paper, is not merely a feeling.
 
 It is the perception that an institution is navigable, reachable, and intended for someone like me.
@@ -909,19 +1052,28 @@ It may also be the infrastructure that matters most.
 - Lipsky, Michael. *Street-Level Bureaucracy: Dilemmas of the Individual in Public Services*.
 - Herd, Pamela, and Donald P. Moynihan. *Administrative Burden: Policymaking by Other Means*.
 - Tyler, Tom R. *Why People Obey the Law*.
-- SAMHSA. *Trauma-Informed Care in Behavioral Health Services*.
+- Substance Abuse and Mental Health Services Administration. *Trauma-Informed Care in Behavioral Health Services*. Treatment Improvement Protocol (TIP) Series 57, 2014.
 
 ## Service Design and Public Administration
 
-- [Additional sources to be added during citation audit]
+- Mullainathan, Sendhil, and Eldar Shafir. *Scarcity: Why Having Too Little Means So Much*. Times Books, 2013.
+- European Commission. *EU eGovernment Action Plan 2016–2020: Accelerating the Digital Transformation of Government*. 2016.
 
 ## Transit, Access, and Mobility
 
-- [Additional sources to be added during citation audit]
+- National Academies of Sciences, Engineering, and Medicine. *Homelessness: A Guide for Public Transportation*. TCRP Research Report 242, 2023.
+- Loukaitou-Sideris, Anastasia, et al. *Homelessness in Transit Environments*. UCLA Institute of Transportation Studies, 2021.
+- Hochbaum, Ron S. "Bathrooms as a Homeless Rights Issue." *North Carolina Law Review*, 2020.
 
 ## Santa Clara County, VHHP, and Elections
 
-- [Additional sources to be added during citation audit]
+- County of Santa Clara Registrar of Voters. *County of Santa Clara Election Administration Plan*.
+- County of Santa Clara Registrar of Voters. *Find a Vote Center*.
+- Santa Clara County Registrar of Voters. *Official Vote Center Locations and Early Voting Information: June 2, 2026 Statewide Direct Primary Election*.
+- Santa Clara Valley Healthcare. *Valley Homeless Healthcare Program (VHHP)*.
+- County of Santa Clara Behavioral Health Services. *The Call Center, formerly known as Gateway*.
+- County of Santa Clara Behavioral Health Services. *Get Substance Use Treatment Services*.
+- Santa Clara Valley Healthcare. *Valley Health Center Alexian*.
 
 ---
 
@@ -954,3 +1106,11 @@ The signals an institution sends about who belongs.
 ## Mediation
 
 The ability of one service to make other services reachable.
+
+## Occupancy
+
+The use of a public service or public space not primarily to move from one destination to another, but to safely occupy time, maintain stability, or remain connected to other systems.
+
+## Institutional Imagination
+
+An institution's capacity to recognize populations that may be absent from its default assumptions and design accordingly.
