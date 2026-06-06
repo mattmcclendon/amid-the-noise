@@ -4994,5 +4994,22 @@
     "heroAlt": "Ghost outline of the former Altus railroad roundhouse overlaid on modern aerial imagery.",
     "url": "https://amidthenoise.com/writing/the-roundhouse-that-isnt-there",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-07-11",
+    "title": "Remembering My Father",
+    "subtitle": "The older I get, the younger he seems.",
+    "slug": "remembering-my-father",
+    "description": "A Christmas photograph, a vote center, and the realization that my father was younger than I am today.",
+    "tags": [
+      "Family",
+      "Memory",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/remembering-my-father.png",
+    "heroAlt": "A reflection on a father, memory, and the passage of time.",
+    "url": "https://amidthenoise.com/writing/remembering-my-father",
+    "status": "Scheduled"
   }
 ]
