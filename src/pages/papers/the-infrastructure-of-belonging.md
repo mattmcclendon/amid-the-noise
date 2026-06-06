@@ -183,25 +183,23 @@ Experience matters.
 
 The literature suggests a recurring pattern: institutional success depends not only on what services exist, but on how people move from need to participation.
 
-```text
-Institutional Intent
-        ↓
-Preparation
-        ↓
-Operational Translation
-        ↓
-Connectors
-        ↓
-Continuity
-        ↓
-Navigation
-        ↓
-Individual Experience
-        ↓
-Belonging
-        ↓
-Trust, Legitimacy, and Participation
-```
+**Institutional Intent**  
+↓  
+**Preparation**  
+↓  
+**Operational Translation**  
+↓  
+**Connectors**  
+↓  
+**Continuity**  
+↓  
+**Navigation**  
+↓  
+**Individual Experience**  
+↓  
+**Belonging**  
+↓  
+**Trust, Legitimacy, and Participation**
 
 Institutional intent reflects what organizations claim to value. Preparation reduces distance before a crisis emerges. Operational translation converts values into everyday practice. Connectors reduce distance. Continuity prevents distance from reappearing. Navigation helps people move from one step to the next.
 
