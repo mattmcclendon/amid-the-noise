@@ -2631,7 +2631,7 @@
     "heroImage": "/images/writing/quickbooks-decision-engine.png",
     "heroAlt": "Abstract transition from financial records to forward-looking decision signals",
     "url": "https://amidthenoise.com/writing/quickbooks-decision-engine",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-09",
@@ -5044,6 +5044,23 @@
     "heroImage": "/images/writing/i-forgive-you.png",
     "heroAlt": "A reflection on forgiveness, recovery, and letting go.",
     "url": "https://amidthenoise.com/writing/i-forgive-you",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-07-18",
+    "title": "The First Year",
+    "subtitle": "The pattern emerged before I recognized it.",
+    "slug": "the-first-year",
+    "description": "After nearly three hundred posts, a pattern emerged.",
+    "tags": [
+      "Writing",
+      "Reflection",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-first-year.png",
+    "heroAlt": "A reflection on the first year of Amid the Noise.",
+    "url": "https://amidthenoise.com/writing/the-first-year",
     "status": "Scheduled"
   }
 ]
