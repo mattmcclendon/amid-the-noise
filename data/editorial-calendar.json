@@ -4911,6 +4911,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-05-30",
+    "title": "xiao long bao (小笼包)",
+    "subtitle": "The dumplings were never the story.",
+    "slug": "    xiao-long-bao",
+    "description": "A lunch that almost didn't happen reveals how uncertainty, memory, and cognitive load shape the decisions we think we're making.",
+    "tags": [
+      "Attention",
+      "Recovery",
+      "Decision Making"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/xiao-long-bao.png",
+    "heroAlt": "A bamboo steamer resting on a table beside an open doorway.",
+    "url": "https://amidthenoise.com/writing/    xiao-long-bao",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-06-17",
     "title": "Toy Stories",
     "subtitle": "A three-year-old sees characters. A six-year-old sees events. An adult sees motivations.",
