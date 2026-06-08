@@ -5062,5 +5062,22 @@
     "heroAlt": "A reflection on the first year of Amid the Noise.",
     "url": "https://amidthenoise.com/writing/the-first-year",
     "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-07-20",
+    "title": "Anecdotes to Systems",
+    "subtitle": "The methodology hiding inside the archive.",
+    "slug": "anecdotes-to-systems",
+    "description": "How small observations reveal larger truths.",
+    "tags": [
+      "Systems Thinking",
+      "Writing",
+      "Research"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/anecdotes-to-systems.png",
+    "heroAlt": "A reflection on the relationship between anecdotes and systems.",
+    "url": "https://amidthenoise.com/writing/anecdotes-to-systems",
+    "status": "Scheduled"
   }
 ]

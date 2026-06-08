@@ -2,7 +2,7 @@
 layout: "../../layouts/PublicationLayout.astro"
 title: "Anecdotes to Systems"
 subtitle: "The methodology hiding inside the archive."
-description: "How small observations reveal larger truths."
+description: "How anecdotes became the method behind Amid the Noise."
 pubDate: "2027-07-20"
 heroImage: "/images/writing/anecdotes-to-systems.png"
 heroAlt: "A reflection on the relationship between anecdotes and systems."
