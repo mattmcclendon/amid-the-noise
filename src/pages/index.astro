@@ -122,7 +122,7 @@ const selectedPosts = selectedSlugs
     <h2>Selected Writing</h2>
 
     {selectedPosts.map((post) => (
-      <article class="entry">
+      <article class="entry writing-entry">
         <h3>
           <a href={post.url}>{post.frontmatter.title}</a>
         </h3>
@@ -237,23 +237,35 @@ const selectedPosts = selectedSlugs
     opacity: 1;
   }
 
-  .entry-tags {
-    margin: 2px 0 0;
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
+  .work-entry,
+  .learning-entry,
+  .writing-entry {
+    position: relative;
+    padding-right: 18px;
   }
 
-  .entry-tag {
-    display: inline-block;
-    font-size: 0.72rem;
-    line-height: 1;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--secondary);
-    border: 1px solid var(--line);
-    padding: 5px 7px;
-    background: transparent;
+  .work-entry::after,
+  .learning-entry::after,
+  .writing-entry::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: 0;
+    width: 3px;
+    height: calc(100% - 8px);
+    opacity: 0.82;
+  }
+
+  .work-entry::after {
+    background: var(--accent-rust);
+  }
+
+  .learning-entry::after {
+    background: var(--accent-learning);
+  }
+
+  .writing-entry::after {
+    background: var(--accent-plum);
   }
 
   h2 {

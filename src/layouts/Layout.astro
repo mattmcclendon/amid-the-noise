@@ -71,12 +71,12 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
           </div>
 
           <nav class="site-nav" aria-label="Primary">
-            <a href="/work">Work</a>
-            <a href="/writing">Writing</a>
-            <a href="/learning">Learning</a>
-            <a href="/papers">Papers</a>
-            <a href="/about">About</a>
-            <a href="/search" class="site-search-link" aria-label="Search">
+            <a href="/work" class="nav-work">Work</a>
+            <a href="/writing" class="nav-writing">Writing</a>
+            <a href="/learning" class="nav-learning">Learning</a>
+            <a href="/papers" class="nav-papers">Papers</a>
+            <a href="/about" class="nav-about">About</a>
+            <a href="/search" class="site-search-link nav-search" aria-label="Search">
               <img src="/search.svg" alt="" aria-hidden="true" class="site-search-icon" />
             </a>
           </nav>
@@ -156,6 +156,11 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     --text: #111827;
     --secondary: #334155;
     --accent: #3e5a82;
+    --accent-gold: #d6a444;
+    --accent-rust: #a4633f;
+    --accent-plum: #6b4a6b;
+    --accent-learning: #5b7288;
+    --accent-neutral: #334155;
     --line: #ddd8cf;
 
     --frame-width: 1080px;
@@ -255,6 +260,11 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
   }
 
   .site-nav a {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
     color: var(--secondary);
     font-family: var(--font-serif);
     font-size: 1.1rem;
@@ -262,18 +272,55 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     font-weight: 500;
     font-optical-sizing: auto;
     letter-spacing: -0.01em;
+    text-decoration: none;
+  }
+
+  .site-nav a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--nav-accent, var(--accent-neutral));
+    opacity: 0.76;
+    transform-origin: left center;
+    transition: opacity 0.2s ease, transform 0.2s ease;
   }
 
   .site-nav a:hover {
-    color: var(--title);
+    text-decoration: none;
+  }
+
+  .site-nav a:hover::after {
+    opacity: 1;
+    transform: scaleX(1.12);
+  }
+
+  .site-nav .nav-work {
+    --nav-accent: var(--accent-rust);
+  }
+
+  .site-nav .nav-writing {
+    --nav-accent: var(--accent-plum);
+  }
+
+  .site-nav .nav-learning {
+    --nav-accent: var(--accent-learning);
+  }
+
+  .site-nav .nav-papers {
+    --nav-accent: var(--accent-gold);
+  }
+
+  .site-nav .nav-about,
+  .site-nav .nav-search {
+    --nav-accent: var(--accent-neutral);
   }
 
   .site-search-link {
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 1.1rem;
-    height: 1.1rem;
+    height: calc(1.1rem + 8px);
     transform: translateY(1px);
   }
 
