@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/PublicationLayout.astro"
-title: "Il aimait que je l’aime"
+title: "Il aimait que je l’aime 🇫🇷"
 subtitle: "A poem about the difference between being loved and being needed."
 description: "A poem about recognition, asymmetry, and the moment clarity becomes mercy."
 pubDate: "2027-05-13"
