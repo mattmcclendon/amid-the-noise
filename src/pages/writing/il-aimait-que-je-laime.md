@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/PublicationLayout.astro"
-title: "Il aimait que je l’aime (French)"
+title: "Il aimait que je l’aime"
 subtitle: "A poem about the difference between being loved and being needed."
 description: "A poem about recognition, asymmetry, and the moment clarity becomes mercy."
 pubDate: "2027-05-13"
@@ -8,6 +8,10 @@ heroImage: "/images/writing/il-aimit-que-je-laime.png"
 heroAlt: "A French-language poem about love, clarity, and self-possession."
 tags: ["Poetry", "Relationships", "Self-Discovery"]
 tier: "tier-3"
+---
+
+The French version below is an interpretation of the original English poem that follows. Rather than a literal translation, it seeks to preserve the emotional weight, rhythm, and intent of the original while allowing the language to read naturally in French.
+
 ---
 
 ## Il aimait que je l’aime
@@ -147,9 +151,6 @@ enfin,
 me suffit.
 
 ---
-
-The French version above is an interpretation of the original English poem below. Rather than a literal translation, it seeks to preserve the emotional weight, rhythm, and intent of the original while allowing the language to read naturally in French.
-
 
 ## He Loved That I Loved Him
 
