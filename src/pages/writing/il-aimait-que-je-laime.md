@@ -12,6 +12,7 @@ tier: "tier-3"
 
 ## Il aimait que je l’aime
 
+<br />
 Je ne suis pas tombé sur lui par hasard.
 
 ...
@@ -152,6 +153,7 @@ The French version above is an interpretation of the original English poem below
 
 ## He Loved That I Loved Him
 
+<br />
 I didn’t stumble into him.<br />
 ...<br />
 I chose him—<br />
