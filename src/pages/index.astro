@@ -2,12 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 
 const selectedSlugs = [
-  'designing-under-constraint-autodesk',
-  'when-ai-is-wrong-a-simple-operating-model-for-real-world-systems',
-  'when-design-ships-it-becomes-policy',
-  'most-software-was-never-designed-to-decide',
-  'the-moment-a-data-model-touches-money',
+  'anecdotes-to-systems',
+  'the-first-year',
   'the-poll-site-is-a-decision-system',
+  'xiao-long-bao',
+  'the-lineage-of-signal',
 ];
 
 const selectedWork = [
@@ -53,11 +52,37 @@ const selectedLearning = [
   },
 ];
 
+const featuredPaper = {
+  title: 'The Infrastructure of Belonging',
+  href: '/papers/dignity-in-the-election-process',
+  meta: 'Web Paper • June 2026',
+  description:
+    'A civic systems framework examining how institutions become reachable through connectors, continuity, and the reduction of distance. Drawing from elections, homelessness services, and public transit, the paper argues that belonging emerges when public systems bridge the gap between services and the people they serve.',
+};
+
+const papersNote = {
+  href: '/papers',
+  description:
+    'Browse additional papers, PDFs, and longer-form research on civic infrastructure, institutional design, decision systems, public trust, and the social consequences of technology.',
+};
+
 const postModules = import.meta.glob('./writing/*.md', { eager: true });
 
-const selectedPosts = selectedSlugs
-  .map((slug) => postModules[`./writing/${slug}.md`])
-  .filter(Boolean);
+const selectedPosts = selectedSlugs.map((slug) => {
+  const post = postModules[`./writing/${slug}.md`];
+
+  if (!post) {
+    console.warn(`[index] Selected writing slug not found: ${slug}`);
+  }
+
+  return post;
+}).filter(Boolean);
+
+const normalizeTags = (tags) => {
+  if (Array.isArray(tags)) return tags;
+  if (typeof tags === 'string') return [tags];
+  return [];
+};
 ---
 
 <Layout title="Amid the Noise">
@@ -118,6 +143,25 @@ const selectedPosts = selectedSlugs
     ))}
   </section>
 
+  <section class="section papers-section">
+    <h2>Selected Papers</h2>
+
+    <article class="entry papers-entry">
+      <h3>
+        <a href={featuredPaper.href}>{featuredPaper.title}</a>
+      </h3>
+
+      <p class="papers-meta">{featuredPaper.meta}</p>
+
+      <p>{featuredPaper.description}</p>
+    </article>
+
+    <div class="papers-more">
+      <p>{papersNote.description}</p>
+      <p><a href={papersNote.href}>View all papers</a></p>
+    </div>
+  </section>
+
   <section class="section">
     <h2>Selected Writing</h2>
 
@@ -138,9 +182,9 @@ const selectedPosts = selectedSlugs
 
         <p>{post.frontmatter.description}</p>
 
-        {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
+        {normalizeTags(post.frontmatter.tags).length > 0 && (
           <div class="entry-tags">
-            {post.frontmatter.tags.map((tag) => (
+            {normalizeTags(post.frontmatter.tags).map((tag) => (
               <span class="entry-tag">{tag}</span>
             ))}
           </div>
@@ -237,37 +281,6 @@ const selectedPosts = selectedSlugs
     opacity: 1;
   }
 
-  .work-entry,
-  .learning-entry,
-  .writing-entry {
-    position: relative;
-    padding-right: 18px;
-  }
-
-  .work-entry::after,
-  .learning-entry::after,
-  .writing-entry::after {
-    content: "";
-    position: absolute;
-    top: 4px;
-    right: 0;
-    width: 3px;
-    height: calc(100% - 8px);
-    opacity: 0.82;
-  }
-
-  .work-entry::after {
-    background: var(--accent-rust);
-  }
-
-  .learning-entry::after {
-    background: var(--accent-learning);
-  }
-
-  .writing-entry::after {
-    background: var(--accent-plum);
-  }
-
   h2 {
     font-size: 0.85rem;
     letter-spacing: 0.08em;
@@ -291,12 +304,117 @@ const selectedPosts = selectedSlugs
     color: var(--secondary);
   }
 
+  .entry-tags {
+    margin: 2px 0 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .entry-tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--secondary);
+    border: 1px solid var(--line);
+    padding: 5px 7px;
+    background: transparent;
+  }
+
+  .work-entry,
+  .learning-entry,
+  .papers-entry,
+  .writing-entry {
+    padding-left: 14px;
+  }
+
+  .work-entry h3,
+  .learning-entry h3,
+  .papers-entry h3,
+  .writing-entry h3 {
+    position: relative;
+  }
+
+  .work-entry h3::before,
+  .learning-entry h3::before,
+  .papers-entry h3::before,
+  .writing-entry h3::before {
+    content: "";
+    position: absolute;
+    top: 0.08em;
+    left: -14px;
+    width: 3px;
+    height: 48px;
+    opacity: 0.82;
+    pointer-events: none;
+  }
+
+  .work-entry h3::before {
+    background: var(--accent-rust);
+  }
+
+  .learning-entry h3::before {
+    background: var(--accent-learning);
+  }
+
+  .papers-entry h3::before {
+    background: var(--accent-gold);
+  }
+
+  .writing-entry h3::before {
+    background: var(--accent-plum);
+  }
+
   .work-section {
     margin-top: 8px;
   }
 
   .learning-section {
     margin-top: 8px;
+  }
+
+  .papers-section {
+    margin-top: 8px;
+  }
+
+  .papers-entry h3 {
+    font-size: 1.08rem;
+    line-height: 1.32;
+    margin: 0 0 10px;
+    color: var(--text);
+  }
+
+  .papers-meta {
+    margin: 0 0 10px;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    color: var(--secondary);
+  }
+
+  .papers-entry p {
+    max-width: 46rem;
+  }
+
+  .papers-more {
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+  }
+
+  .papers-more p {
+    max-width: 46rem;
+    margin: 0 0 8px;
+    font-size: 1.02rem;
+    line-height: 1.6;
+    color: var(--text);
+  }
+
+  .papers-more p:last-child {
+    margin-bottom: 0;
   }
 
   .learning-kicker {

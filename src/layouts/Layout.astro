@@ -281,7 +281,8 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     width: 100%;
     height: 2px;
     background: var(--nav-accent, var(--accent-neutral));
-    opacity: 0.76;
+    opacity: 0;
+    transform: scaleX(0.72);
     transform-origin: left center;
     transition: opacity 0.2s ease, transform 0.2s ease;
   }
@@ -290,9 +291,11 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     text-decoration: none;
   }
 
-  .site-nav a:hover::after {
-    opacity: 1;
-    transform: scaleX(1.12);
+  .site-nav a:hover::after,
+  .site-nav a[aria-current="page"]::after,
+  .site-nav a.is-active::after {
+    opacity: 0.9;
+    transform: scaleX(1);
   }
 
   .site-nav .nav-work {
