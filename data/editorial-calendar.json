@@ -2648,7 +2648,7 @@
     "heroImage": "/images/writing/compression-character-and-the-worlds-we-build.png",
     "heroAlt": "Minimalist writing desk in soft cream tones with an open journal facing a circular window that frames a distant, futuristic city, suggesting reflection, identity, and imagined worlds.",
     "url": "https://amidthenoise.com/writing/compression-character-and-the-worlds-we-build",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-11",
@@ -2665,7 +2665,7 @@
     "heroImage": "/images/writing/counting-peace-miscounting-power.png",
     "heroAlt": "A minimalist composition of a world map with faint concentric signal lines radiating from the United States, suggesting global entanglement and influence",
     "url": "https://amidthenoise.com/writing/counting-peace-miscounting-power",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-14",
@@ -4877,6 +4877,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-05-13",
+    "title": "Il aimait que je l’aime (French)",
+    "subtitle": "A poem about the difference between being loved and being needed.",
+    "slug": "il-aimait-que-je-laime",
+    "description": "A poem about recognition, asymmetry, and the moment clarity becomes mercy.",
+    "tags": [
+      "Poetry",
+      "Relationships",
+      "Self-Discovery"
+    ],
+    "tier": "tier-3",
+    "heroImage": "/images/writing/il-aimit-que-je-laime.png",
+    "heroAlt": "A French-language poem about love, clarity, and self-possession.",
+    "url": "https://amidthenoise.com/writing/il-aimait-que-je-laime",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-05-23",
     "title": "Across the Street",
     "subtitle": "Invisible boundaries can be louder than marked ones.",
@@ -5068,7 +5085,7 @@
     "title": "Anecdotes to Systems",
     "subtitle": "The methodology hiding inside the archive.",
     "slug": "anecdotes-to-systems",
-    "description": "How small observations reveal larger truths.",
+    "description": "How anecdotes became the method behind Amid the Noise.",
     "tags": [
       "Systems Thinking",
       "Writing",

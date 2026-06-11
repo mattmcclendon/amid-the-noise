@@ -152,85 +152,85 @@ The French version above is an interpretation of the original English poem below
 
 ## He Loved That I Loved Him
 
-I didn’t stumble into him.
-…
-I chose him—
-clear-eyed, steady,
-hoping choice would mean
-I mattered.
+I didn’t stumble into him.<br />
+...<br />
+I chose him—<br />
+clear-eyed, steady,<br />
+hoping choice would mean<br />
+I mattered.<br />
  
-He liked that.
-The being chosen.
-The way I held him in light
-he didn’t earn.
+He liked that.<br />
+The being chosen.<br />
+The way I held him in light<br />
+he didn’t earn.<br />
  
-He mistook attention
-for affection.
-I mistook silence
-for depth.
+He mistook attention<br />
+for affection.<br />
+I mistook silence<br />
+for depth.<br />
  
-He wanted to be adored.
-…
-I wanted to be seen.
+He wanted to be adored.<br />
+...<br />
+I wanted to be seen.<br />
  
-And so we danced —
-not in rhythm,
-but in need.
+And so we danced —<br />
+not in rhythm,<br />
+but in need.<br />
  
-I bent.
-Shrank.
-Poured from a well
-he never meant to fill.
+I bent.<br />
+Shrank.<br />
+Poured from a well<br />
+he never meant to fill.<br />
 
-He watched me give
-and called it love.
-I watched him take
-and called it hope.
+He watched me give<br />
+and called it love.<br />
+I watched him take<br />
+and called it hope.<br />
  
-What I needed,
-he never asked.
-What he needed,
-I kept giving.
+What I needed,<br />
+he never asked.<br />
+What he needed,<br />
+I kept giving.<br />
 
-Until the ache got louder
-than the illusion.
-Until I saw it:
-He was never in love with me.
-He was in love
-that I loved him.
-There’s a difference.
-…
-And that difference
-cost me years.
+Until the ache got louder<br />
+than the illusion.<br />
+Until I saw it:<br />
+He was never in love with me.<br />
+He was in love<br />
+that I loved him.<br />
+There’s a difference.<br />
+...<br />
+And that difference<br />
+cost me years.<br />
 
-But clarity has its own kind of mercy.
-It doesn’t fix what broke—
-It names it.
-And in that naming,
-I begin again.
+But clarity has its own kind of mercy.<br />
+It doesn’t fix what broke—<br />
+It names it.<br />
+And in that naming,<br />
+I begin again.<br />
 
-No anger.
-No regret.
-Just the quiet relief
-of leaving a room
-where I was never really met.
-I no longer chase
-what cannot hold me.
- I no longer beg
-to be reflected.
+No anger.<br />
+No regret.<br />
+Just the quiet relief<br />
+of leaving a room<br />
+where I was never really met.<br />
+I no longer chase<br />
+what cannot hold me.<br />
+ I no longer beg<br />
+to be reflected.<br />
  
-I have love.
-Mine.
+I have love.<br />
+Mine.<br />
  
-Unreturned, perhaps.
-But not wasted.
+Unreturned, perhaps.<br />
+But not wasted.<br />
  
-Because it taught me
-the line between hunger and truth.
+Because it taught me<br />
+the line between hunger and truth.<br />
  
-And now I eat at my own table,
-with my own hands,
-in my own name.
+And now I eat at my own table,<br />
+with my own hands,<br />
+in my own name.<br />
  
-And that, finally,
-is enough.
+And that, finally,<br />
+is enough.<br />
