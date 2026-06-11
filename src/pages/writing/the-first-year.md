@@ -12,35 +12,13 @@ tier: "tier-1"
 
 A year ago, Amid the Noise was an experiment.
 
-I had ideas, questions, and observations.
-
-Things I wanted to understand.
+I had ideas, questions, and observations. Things I wanted to understand.
 
 What I did not have was a clear answer to a simple question.
 
 What is this publication actually about?
 
-At first, the answer seemed obvious.
-
-Technology.
-
-Artificial intelligence.
-
-Politics.
-
-Governance.
-
-History.
-
-Homelessness.
-
-Recovery.
-
-Relationships.
-
-Cities.
-
-Infrastructure.
+Technology. Artificial intelligence. Politics. Governance. History. Homelessness. Recovery. Relationships. Cities. Infrastructure.
 
 The list kept growing.
 
@@ -54,11 +32,9 @@ The subjects changed.
 
 The process did not.
 
-A story would catch my attention.
+---
 
-A conversation, a memory, or a strange observation.
-
-A moment that refused to leave me alone.
+A story would catch my attention. A conversation, a memory, or a strange observation. A moment that refused to leave me alone.
 
 I would start pulling on the thread.
 
@@ -96,13 +72,7 @@ The same movement.
 
 Again and again.
 
-Anecdote.
-
-Question.
-
-Pattern.
-
-System.
+Anecdote. Question. Pattern. System.
 
 Somewhere around the middle of the year, I started to notice echoes.
 
@@ -120,27 +90,11 @@ Completely different subjects.
 
 Yet my notes kept looking the same.
 
-A story.
-
-A question.
-
-An observation.
-
-A pattern.
+A story. A question. An observation. A pattern.
 
 The same themes surfacing in different forms.
 
-Belonging.
-
-Trust.
-
-Power.
-
-Attention.
-
-Dignity.
-
-Agency.
+Belonging, trust, power, attention, dignity, and agency kept resurfacing in different contexts.
 
 The work was becoming less about the subjects themselves and more about the forces shaping them.
 
@@ -155,6 +109,8 @@ A post about family became a post about perspective.
 The anecdotes were never the destination.
 
 They were the doorway.
+
+---
 
 Looking back, the publication was trying to tell me something.
 
@@ -188,17 +144,11 @@ Archives do not learn.
 
 Yet the evidence was there.
 
-Post after post.
-
-Month after month.
+Post after post. Month after month.
 
 The pattern kept repeating.
 
-That realization changed how I think about Amid the Noise.
-
-It changed how I think about research.
-
-It changed how I think about writing.
+That realization changed how I think about Amid the Noise, research, and writing.
 
 Most importantly, it changed how I think about curiosity.
 
