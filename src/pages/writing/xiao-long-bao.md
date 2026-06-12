@@ -26,7 +26,9 @@ No ambiguity. No decisions. No surprises.
 
 The problem was that I didn’t actually want Jack in the Box.
 
-I wanted dumplings.
+I wanted something more than Jack in the Box.
+
+I wanted to sit down somewhere, order lunch, and feel normal.
 
 That morning had already been full. Election work. Phone calls. Questions about school. Questions about work. Questions about where my life is headed next.
 
@@ -42,25 +44,31 @@ From the inside, it can be the final straw.
 
 The problem was that I still wanted dumplings.
 
-So I walked down Paseo de San Antonio and found a seat at a dumpling place instead.
+I almost skipped lunch entirely.
+
+I walked toward Campus Burger.
+
+Then I started back toward work.
+
+Somewhere along the way, I changed my mind.
+
+I walked down Paseo de San Antonio and tried one more place.
 
 I ordered xiao long bao.
 
 Nothing dramatic happened. Nobody cared that I hesitated in another restaurant. Nobody noticed the debate I had been having with myself. The world continued exactly as before.
 
-Only after I sat down did I notice where I was.
+I got the thing I had been looking for all along.
 
-From my table by the window, I could see the bench.
+A table.
 
-Not long ago, I had sat on that bench with my belongings trying to figure out what came next.
+A menu.
 
-The restaurant and the sidewalk occupied the same address.
+A normal lunch.
 
-They belonged to entirely different lives.
+Nothing about it was remarkable.
 
-One version of me sat outside wondering where he would sleep. Another sat inside worrying about how to order dumplings.
-
-Neither was really thinking about dumplings.
+That was the point.
 
 We do this all the time.
 
