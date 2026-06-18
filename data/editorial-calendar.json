@@ -4945,6 +4945,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-06-10",
+    "title": "The Cost of Small Problems",
+    "subtitle": "When a trivial failure becomes something larger",
+    "slug": "the-cost-of-small-problems",
+    "description": "A missing package becomes a reflection on margin, infrastructure, and why some problems grow larger than their original size.",
+    "tags": [
+      "Infrastructure",
+      "Systems",
+      "Economics"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-cost-of-small-problems.png",
+    "heroAlt": "Packages waiting outside an apartment building entrance",
+    "url": "https://amidthenoise.com/writing/the-cost-of-small-problems",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-06-17",
     "title": "Toy Stories",
     "subtitle": "A three-year-old sees characters. A six-year-old sees events. An adult sees motivations.",
@@ -5095,6 +5112,23 @@
     "heroImage": "/images/writing/anecdotes-to-systems.png",
     "heroAlt": "A reflection on the relationship between anecdotes and systems.",
     "url": "https://amidthenoise.com/writing/anecdotes-to-systems",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-07-22",
+    "title": "The Bunker and the Lighthouse",
+    "subtitle": "On archives, hope, and the signals we leave behind",
+    "slug": "the-bunker-and-the-lighthouse",
+    "description": "What began as a portfolio became an archive. What became an archive began to resemble a lighthouse. A reflection on writing, preservation, and the difference between protecting a light and sharing it.",
+    "tags": [
+      "Writing",
+      "Memory",
+      "Infrastructure"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-bunker-and-the-lighthouse.png",
+    "heroAlt": "A solitary lighthouse standing above a rocky island with a stormy sea beyond",
+    "url": "https://amidthenoise.com/writing/the-bunker-and-the-lighthouse",
     "status": "Scheduled"
   }
 ]
