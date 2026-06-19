@@ -133,7 +133,7 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
       <div class="site-frame">
         <div class="footer-inner">
           <div class="footer-left">
-            <p>© {new Date().getFullYear()} Matthew McClendon</p>
+            <p>© {new Date().getFullYear()} Matthew McClendon (Amid the Noise, LLC)</p>
           </div>
 
           <div class="footer-right">
@@ -711,7 +711,7 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
   .footer-left p {
     margin: 0;
     font-size: 0.9rem;
-    color: #f8f7f4;
+    color: var(--secondary);
   }
 
   .footer-right {
@@ -722,12 +722,12 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
 
   .footer-right a {
     font-size: 0.9rem;
-    color: #f8f7f4;
+    color: var(--secondary);
     text-decoration: none;
   }
 
   .footer-right a:hover {
-    color: #ffffff;
+    color: var(--accent);
   }
 
   .back-to-top {
