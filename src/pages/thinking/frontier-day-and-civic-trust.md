@@ -4,7 +4,7 @@ title: "Frontier Day and Civic Trust"
 subtitle: "Thought Experiment"
 description: "Trust is infrastructure. What follows when that infrastructure breaks?"
 pubDate: "2026-06-03"
-heroImage: "/images/thinking/frontier-day-and-civic-trust.png"
+heroImage: "/images/writing/frontier-day-and-civic-trust.png"
 heroAlt: "A visual exploration of trust, institutions, and recovery after systemic failure"
 tags: ["Thinking", "Governance", "Trust"]
 tier: "tier-1"
