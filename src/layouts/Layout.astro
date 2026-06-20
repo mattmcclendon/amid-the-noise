@@ -75,7 +75,8 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
             <a href="/writing" class="nav-writing">Writing</a>
             <a href="/learning" class="nav-learning">Learning</a>
             <a href="/papers" class="nav-papers">Papers</a>
-            <a href="/about" class="nav-about">About</a>
+            <a href="/thinking" class="nav-thinking">Thinking</a>
+            <!--<a href="/about" class="nav-about">About</a>-->
             <a href="/search" class="site-search-link nav-search" aria-label="Search">
               <img src="/search.svg" alt="" aria-hidden="true" class="site-search-icon" />
             </a>
@@ -98,8 +99,8 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
                 <p><em>Matthew McClendon</em> is a product designer with 30 years of experience designing interfaces, workflows, and decision systems, increasingly in contexts where AI behavior must be legible, contestable, and accountable.</p>
                 <p>His work spans financial, enterprise, civic, and AI-enabled organizations, designing the interfaces, workflows, and governance systems that shape how people make decisions under pressure.</p>
                 <p>The recurring problem: <em>how do you make invisible system behavior legible enough for sound judgment?</em></p>
-                <p><em>Amid the Noise</em> is the evidence.</p>
-                <p class="sidebar-mobile-links"><a href="/about">More about Matthew →</a></p>
+                <p class="sidebar-evidence"><strong><em>Amid the Noise</em></strong> <span>is the</span> <strong>evidence.</strong></p>
+                <p class="sidebar-about-link"><a href="/about">About Matthew →</a></p>
               </section>
 
               <section class="sidebar-section sidebar-contact-section">
@@ -157,9 +158,11 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     --secondary: #334155;
     --accent: #3e5a82;
     --accent-gold: #d6a444;
+    --accent-brass: #b48a4a;
     --accent-rust: #a4633f;
     --accent-plum: #6b4a6b;
     --accent-learning: #5b7288;
+    --accent-papers: #5d6066;
     --accent-neutral: #334155;
     --line: #ddd8cf;
 
@@ -311,7 +314,11 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
   }
 
   .site-nav .nav-papers {
-    --nav-accent: var(--accent-gold);
+    --nav-accent: var(--accent-papers);
+  }
+
+  .site-nav .nav-thinking {
+    --nav-accent: var(--accent-brass);
   }
 
   .site-nav .nav-about,
@@ -402,6 +409,21 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     color: #2f3a4a;
     line-height: 1.5;
   }
+  .sidebar-evidence {
+    font-weight: 400;
+  }
+
+  .sidebar-evidence strong {
+    font-weight: 600;
+  }
+
+  .sidebar-evidence span {
+    font-weight: 400;
+  }
+
+  .sidebar-about-link {
+    text-align: right;
+  }
 
   .sidebar-section a {
     color: var(--accent);
@@ -412,9 +434,6 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     text-decoration: underline;
   }
 
-  .sidebar-mobile-links {
-    display: none;
-  }
 
   .framework-name {
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -760,9 +779,6 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     }
 
 
-    .sidebar-mobile-links {
-      display: block;
-    }
   }
 
   @media (max-width: 720px) {
