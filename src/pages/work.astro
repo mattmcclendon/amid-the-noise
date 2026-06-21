@@ -216,13 +216,28 @@ const description = "Selected systems design, AI governance, enterprise UX, and 
   }
 
   .work-entry {
-    padding: var(--space-entry-y) 0 38px;
+    position: relative;
+    padding: var(--space-entry-y) 0 38px 1rem;
     border-top: 1px solid var(--line);
+  }
+
+  .work-entry::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: var(--space-entry-y);
+    width: 3px;
+    height: 3.35rem;
+    background: var(--accent-work);
   }
 
   .work-list h2 + .work-entry {
     border-top: none;
     padding-top: 44px;
+  }
+
+  .work-list h2 + .work-entry::before {
+    top: 44px;
   }
 
   .work-entry h3 {

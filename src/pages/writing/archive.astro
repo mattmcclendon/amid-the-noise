@@ -335,6 +335,28 @@ const allTags = [...tagCounts.entries()]
     border-top: 0 !important;
   }
 
+  .entry {
+    position: relative;
+    padding-left: 1rem;
+  }
+
+  .entry::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 24px;
+    width: 3px;
+    height: 3.35rem;
+    background: var(--accent-writing);
+    opacity: 1;
+    pointer-events: none;
+  }
+
+  .entry:first-of-type::before,
+  .entry.is-first-visible::before {
+    top: 0;
+  }
+
   .entry-tag {
     display: inline-block;
     font-size: 0.72rem;

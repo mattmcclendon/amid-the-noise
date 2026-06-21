@@ -157,13 +157,21 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     --text: #111827;
     --secondary: #334155;
     --accent: #3e5a82;
-    --accent-gold: #d6a444;
-    --accent-brass: #b48a4a;
-    --accent-rust: #a4633f;
-    --accent-plum: #6b4a6b;
-    --accent-learning: #5b7288;
-    --accent-papers: #5d6066;
-    --accent-neutral: #334155;
+    /* Palette colors */
+    --accent-rust: #a4633f; /* rust */
+    --accent-plum: #7a3f68; /* stronger plum */
+    --accent-blue-gray: #4f7893; /* clearer blue-gray */
+    --accent-graphite: #252b33; /* near-charcoal graphite */
+    --accent-brass: #b48a4a; /* brass */
+    --accent-slate: #334155; /* slate */
+
+    /* Section colors */
+    --accent-work: var(--accent-rust); /* rust */
+    --accent-writing: var(--accent-plum); /* plum */
+    --accent-learning: var(--accent-blue-gray); /* blue-gray */
+    --accent-papers: var(--accent-graphite); /* graphite */
+    --accent-thinking: var(--accent-brass); /* brass */
+    --accent-neutral: var(--accent-slate); /* slate */
     --line: #ddd8cf;
 
     --frame-width: 1080px;
@@ -297,16 +305,16 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
   .site-nav a:hover::after,
   .site-nav a[aria-current="page"]::after,
   .site-nav a.is-active::after {
-    opacity: 0.9;
+    opacity: 1.0;
     transform: scaleX(1);
   }
 
   .site-nav .nav-work {
-    --nav-accent: var(--accent-rust);
+    --nav-accent: var(--accent-work);
   }
 
   .site-nav .nav-writing {
-    --nav-accent: var(--accent-plum);
+    --nav-accent: var(--accent-writing);
   }
 
   .site-nav .nav-learning {
@@ -318,7 +326,7 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
   }
 
   .site-nav .nav-thinking {
-    --nav-accent: var(--accent-brass);
+    --nav-accent: var(--accent-thinking);
   }
 
   .site-nav .nav-about,

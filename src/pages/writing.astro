@@ -221,7 +221,7 @@ const themeGroups = [
     </div>
   </section>
 
-  <section class="section" data-pagefind-ignore>
+  <section class="section recent-writing-section" data-pagefind-ignore>
     <div class="section-heading">
       <h2>Recent Writing</h2>
     </div>
@@ -332,9 +332,36 @@ const themeGroups = [
     margin-bottom: 0;
   }
 
+  .featured-list .entry,
+  .recent-writing-section .entry {
+    position: relative;
+    padding: 34px 0 34px 1rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .featured-list .entry::before,
+  .recent-writing-section .entry::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 34px;
+    width: 3px;
+    height: 3.35rem;
+    background-color: var(--accent-writing);
+    opacity: 1;
+    pointer-events: none;
+  }
+
   .featured-list .entry:first-child,
-  .entry:first-of-type {
+  .recent-writing-section .entry:first-of-type {
     border-top: 0;
+    padding-top: 0;
+  }
+
+  .featured-list .entry:first-child::before,
+  .recent-writing-section .entry:first-of-type::before {
+    top: 0.15rem;
   }
 
   .featured-entry h3 {

@@ -364,10 +364,29 @@ const description = "How I trained my judgment through sustained study and appli
     padding: 34px 0;
   }
 
+  .field-entry {
+    position: relative;
+    padding: 34px 0 34px 1rem;
+  }
+
+  .field-entry::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 34px;
+    width: 3px;
+    height: calc(3.35rem + 7px);
+    background: var(--accent-learning);
+  }
+
   .field-entry:first-child,
   .proof-entry:first-child {
     border-top: 0;
     padding-top: 0;
+  }
+
+  .field-entry:first-child::before {
+    top: 0.15rem;
   }
 
   .field-entry h3 {
