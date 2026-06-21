@@ -2733,6 +2733,23 @@
     "heroImage": "/images/writing/the-quiet-distortion-of-small-worlds.png",
     "heroAlt": "A softly lit, minimalist living space with a wooden table in the foreground holding a notebook and coffee cup, while scattered children's drawings and toys sit in the background, suggesting presence without visible people.",
     "url": "https://amidthenoise.com/writing/the-quiet-distortion-of-small-worlds",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-06-22",
+    "title": "Building a Thought Laboratory",
+    "subtitle": "Why Aurelia Reach exists.",
+    "slug": "building-a-thought-laboratory",
+    "description": "Aurelia Reach did not begin as a fictional world. It began as a collection of questions about infrastructure, belonging, trust, significance, and life beyond scarcity.",
+    "tags": [
+      "Aurelia Reach",
+      "Thought Experiments",
+      "Infrastructure"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/building-a-thought-laboratory.png",
+    "heroAlt": "Planning sketches and civic diagrams exploring the foundations of Aurelia Reach.",
+    "url": "https://amidthenoise.com/writing/building-a-thought-laboratory",
     "status": "Scheduled"
   },
   {

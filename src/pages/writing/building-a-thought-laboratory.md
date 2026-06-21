@@ -22,6 +22,8 @@ Those are artifacts.
 
 The questions came first.
 
+---
+
 Aurelia Reach is often described as a Federation member world in the Aurelia System. Meridian, its capital city, serves as a center of government, education, commerce, and interstellar affairs. While that description is accurate, it has always felt incomplete to me. The city, the infrastructure, and the stories are products of the project rather than the project itself.
 
 Aurelia Reach began as a collection of questions.
@@ -33,6 +35,8 @@ The result was not a world so much as a thought laboratory, a place where assump
 The city emerged because the questions needed somewhere to live.
 
 The setting serves another purpose as well. Difficult conversations often arrive carrying political, cultural, and historical baggage. Aurelia Reach provides enough distance to examine the underlying questions without immediately becoming trapped in contemporary arguments. By moving the discussion into a fictional setting, the goal is not to escape reality. The goal is to see it more clearly.
+
+---
 
 What happens when energy becomes abundant?
 
@@ -65,6 +69,8 @@ Belonging changes governance.
 Governance changes trust.
 
 Pull one thread and the others move.
+
+---
 
 One of the more surprising aspects of the project has been discovering which ideas fail.
 
@@ -106,6 +112,8 @@ Over time, the thought laboratory burns away many things.
 
 These remain.
 
+---
+
 That realization is why Aurelia Reach is not an attempt to imagine a perfect future.
 
 Perfect futures are boring.
@@ -137,6 +145,8 @@ Those are human questions.
 They are the same questions that exist today.
 
 The setting simply allows them to be examined from a different angle.
+
+---
 
 Recently I added a small feature to the Aurelia Reach homepage.
 
@@ -171,3 +181,7 @@ It is the laboratory.
 The city, the stories, and the institutions are simply the artifacts left behind after a collection of questions has been subjected to pressure.
 
 I am less interested in the future itself than in discovering what survives when the assumptions of the present are removed. Aurelia Reach simply provides a clean room in which those questions can be explored.
+
+---
+
+Continue exploring at [aureliareach.org](https://www.aureliareach.org).
