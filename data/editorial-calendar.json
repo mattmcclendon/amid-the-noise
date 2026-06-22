@@ -2719,6 +2719,23 @@
     "status": "Published"
   },
   {
+    "pubDate": "2026-06-19",
+    "title": "The New Scarcity in Product Design",
+    "subtitle": "As AI makes interface creation easier, the scarce resource in product design is shifting from production to judgment.",
+    "slug": "the-new-scarcity-in-product-design",
+    "description": "As AI makes interface creation easier, the scarce resource in product design is shifting from production to judgment.",
+    "tags": [
+      "Product Design",
+      "AI",
+      "Design Leadership"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-new-scarcity-in-product-design.png",
+    "heroAlt": "Abstract design canvas with multiple interface directions emerging from a quiet grid",
+    "url": "https://amidthenoise.com/writing/the-new-scarcity-in-product-design",
+    "status": "Published"
+  },
+  {
     "pubDate": "2026-06-21",
     "title": "The Quiet Distortion of Small Worlds",
     "subtitle": "When contact thins, thinking narrows",
@@ -2750,7 +2767,7 @@
     "heroImage": "/images/writing/building-a-thought-laboratory.png",
     "heroAlt": "Planning sketches and civic diagrams exploring the foundations of Aurelia Reach.",
     "url": "https://amidthenoise.com/writing/building-a-thought-laboratory",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-23",
