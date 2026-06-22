@@ -59,9 +59,7 @@ const allTags = [...tagCounts.entries()]
     <p>
       A working chronological archive of essays and reflections on systems, signal, and the structures that shape how people think, decide, and act. Some entries are scheduled ahead as future releases, offering readers a quiet glimpse into what is still taking shape.
     </p>
-    <p class="archive-summary" data-archive-summary data-total-count={datedPosts.length}>
-      All · {datedPosts.length} Posts
-    </p>
+    <!--<p>{posts.length} posts loaded</p-->
 
     {allTags.length > 0 && (
       <div class="filters" aria-label="Filter posts by tag">
@@ -116,6 +114,8 @@ const allTags = [...tagCounts.entries()]
         )}
       </article>
     ))}
+
+    <p class="archive-count">{datedPosts.length} posts</p>
   </section>
 
 <script>
@@ -125,8 +125,6 @@ const allTags = [...tagCounts.entries()]
   const filterToggle = document.querySelector('.filters-toggle');
   const filterPanel = document.querySelector('.filters-panel');
   const filterToggleValue = document.querySelector('.filters-toggle-value');
-  const archiveSummary = document.querySelector('[data-archive-summary]');
-  const totalCount = Number(archiveSummary?.getAttribute('data-total-count') || entries.length);
 
   const setPanelOpen = (isOpen) => {
     if (!filterToggle || !filterPanel) return;
@@ -137,17 +135,12 @@ const allTags = [...tagCounts.entries()]
 
   const applyFilter = (filter) => {
     let firstVisibleEntry = null;
-    let visibleCount = 0;
 
     entries.forEach((entry) => {
       const tags = (entry.getAttribute('data-tags') || '').split('|').filter(Boolean);
       const matches = filter === 'all' || tags.includes(filter);
       entry.style.display = matches ? '' : 'none';
       entry.classList.remove('is-first-visible');
-
-      if (matches) {
-        visibleCount += 1;
-      }
 
       if (matches && !firstVisibleEntry) {
         firstVisibleEntry = entry;
@@ -164,12 +157,6 @@ const allTags = [...tagCounts.entries()]
 
     if (filterToggleValue) {
       filterToggleValue.textContent = filter === 'all' ? 'All' : filter;
-    }
-
-    if (archiveSummary) {
-      const label = filter === 'all' ? 'All' : filter;
-      const count = filter === 'all' ? totalCount : visibleCount;
-      archiveSummary.textContent = `${label} · ${count} ${count === 1 ? 'Post' : 'Posts'}`;
     }
   };
 
@@ -211,14 +198,6 @@ const allTags = [...tagCounts.entries()]
 </Layout>
 
 <style>
-  .archive-summary {
-    margin: 24px 0 0;
-    font-size: 0.78rem;
-    line-height: 1;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--secondary);
-  }
 
   .filters {
     margin-top: 26px; /* more breathing room from intro */
@@ -407,5 +386,15 @@ const allTags = [...tagCounts.entries()]
     line-height: 1.35;
     font-weight: 600;
     margin: 0 0 4px;
+  }
+
+  .archive-count {
+    margin: 36px 0 0;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--secondary);
   }
 </style>
