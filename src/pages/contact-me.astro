@@ -6,6 +6,7 @@ import FacebookIcon from "../components/icons/facebook.astro";
 import BehanceIcon from "../components/icons/behance.astro";
 import XIcon from "../components/icons/x.astro";
 import RSSIcon from "../components/icons/rss.astro";
+import AdobeIcon from "../components/icons/adobe.astro";
 
 const title = "Contact Me";
 const description = "Contact Matthew McClendon about product design, UX strategy, civic technology, writing, speaking, and consulting inquiries.";
@@ -62,7 +63,11 @@ const description = "Contact Matthew McClendon about product design, UX strategy
         </a>
         <a href="https://www.behance.net/matthewmcclendon" target="_blank" rel="noopener noreferrer">
           <BehanceIcon />
-          <span>Behance</span>
+          <span>Bēhance</span>
+        </a>
+        <a href="https://amidthenoise.myportfolio.com" target="_blank" rel="noopener noreferrer">
+          <AdobeIcon />
+          <span>Adobe Portfolio</span>
         </a>
         <a href="https://x.com/amidthenoise" target="_blank" rel="noopener noreferrer">
           <XIcon />
@@ -182,5 +187,10 @@ const description = "Contact Matthew McClendon about product design, UX strategy
     .contact-social-links {
       grid-template-columns: 1fr;
     }
+  }
+
+  .contact-social-links a[href*="myportfolio.com"] :global(svg) {
+    transform: scale(0.86);
+    transform-origin: center;
   }
 </style>
