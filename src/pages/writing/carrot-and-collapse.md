@@ -4,7 +4,7 @@ title: "The Carrot and the Collapse"
 subtitle: "How scarcity inflates both opportunities and setbacks."
 description: "Scarcity does more than reduce resources. It changes the meaning of events, turning opportunities into lifelines and setbacks into verdicts."
 pubDate: "2027-06-15"
-heroImage: "/images/writing/carrot-and-collapse.png"
+heroImage: "/images/writing/the-carrot-and-the-collapse.png"
 heroAlt: "A lone carrot suspended above a widening shadow, representing the distortion of opportunity and risk under scarcity."
 tags: ["Scarcity", "Systems Thinking", "Decision Making"]
 tier: "tier-1"

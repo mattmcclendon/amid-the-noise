@@ -2784,7 +2784,7 @@
     "heroImage": "/images/writing/truth-structured.png",
     "heroAlt": "A wide, minimalist ocean scene with cargo ships slightly misaligned from faint route lines, suggesting a subtle divergence between mapped structure and lived reality.",
     "url": "https://amidthenoise.com/writing/truth-structured",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-25",
@@ -5011,6 +5011,23 @@
     "heroImage": "/images/writing/the-cost-of-small-problems.png",
     "heroAlt": "Packages waiting outside an apartment building entrance",
     "url": "https://amidthenoise.com/writing/the-cost-of-small-problems",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-06-15",
+    "title": "The Carrot and the Collapse",
+    "subtitle": "How scarcity inflates both opportunities and setbacks.",
+    "slug": "carrot-and-collapse",
+    "description": "Scarcity does more than reduce resources. It changes the meaning of events, turning opportunities into lifelines and setbacks into verdicts.",
+    "tags": [
+      "Scarcity",
+      "Systems Thinking",
+      "Decision Making"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/carrot-and-collapse.png",
+    "heroAlt": "A lone carrot suspended above a widening shadow, representing the distortion of opportunity and risk under scarcity.",
+    "url": "https://amidthenoise.com/writing/carrot-and-collapse",
     "status": "Scheduled"
   },
   {
