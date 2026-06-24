@@ -3,13 +3,10 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Brilliance of Elias Thorne"
 description: "A reflection on AI folklore, recurring characters, and the need to understand where a compelling story came from before mistaking it for truth."
 subtitle: "And the importance of not letting the story carry you away."
-pubDate: 2027-05-02
+pubDate: "2027-05-02"
 heroImage: "/images/writing/the-brilliance-of-elias-thorne.png"
 heroAlt: "An atmospheric abstract image suggesting a half-remembered figure, a signal, and a story emerging from pattern."
-tags:
-  - AI
-  - folklore
-  - truth
+tags: ["AI", "folklore", "truth"]
 tier: "tier-1"
 ---
 

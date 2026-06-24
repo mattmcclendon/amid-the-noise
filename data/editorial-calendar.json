@@ -4911,6 +4911,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2027-05-02T00:00:00.000Z",
+    "title": "The Brilliance of Elias Thorne",
+    "subtitle": "And the importance of not letting the story carry you away.",
+    "slug": "the-brilliance-of-elias-thorne",
+    "description": "A reflection on AI folklore, recurring characters, and the need to understand where a compelling story came from before mistaking it for truth.",
+    "tags": [
+      "AI",
+      "folklore",
+      "truth"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-brilliance-of-elias-thorne.png",
+    "heroAlt": "An atmospheric abstract image suggesting a half-remembered figure, a signal, and a story emerging from pattern.",
+    "url": "https://amidthenoise.com/writing/the-brilliance-of-elias-thorne",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2027-05-13",
     "title": "Il aimait que je l’aime 🇫🇷",
     "subtitle": "A poem about the difference between being loved and being needed.",
@@ -5025,7 +5042,7 @@
       "Decision Making"
     ],
     "tier": "tier-1",
-    "heroImage": "/images/writing/carrot-and-collapse.png",
+    "heroImage": "/images/writing/the-carrot-and-the-collapse.png",
     "heroAlt": "A lone carrot suspended above a widening shadow, representing the distortion of opportunity and risk under scarcity.",
     "url": "https://amidthenoise.com/writing/carrot-and-collapse",
     "status": "Scheduled"
