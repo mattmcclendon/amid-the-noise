@@ -4,6 +4,39 @@ import Layout from '../layouts/Layout.astro';
 const title = "Papers";
 const description = "Long-form research, white papers, and operational systems thinking from Amid the Noise.";
 
+const inProgressPapers = [
+  {
+    title: "Graceful Governance",
+    workingTitle: true,
+    subtitle:
+      "Building institutions that remain legitimate under stress.",
+    href: null,
+    meta: "Web Paper • August 2026 (Forthcoming)",
+    description:
+      "Coming soon. A study of governance architectures that preserve adaptability, accountability, and public legitimacy during periods of disruption.",
+  },
+  {
+    title: "Habitation",
+    workingTitle: true,
+    subtitle:
+      "Why the measure of a system is whether people can continue living meaningfully within it.",
+    href: null,
+    meta: "Web Paper • July 2026 (Forthcoming)",
+    description:
+      "Coming soon. A systems framework arguing that the ultimate purpose of governance, infrastructure, and institutions is not optimization, but sustaining human habitation across changing conditions.",
+  },
+  {
+    title: "Trust, Fairness, and the Space Between",
+    workingTitle: true,
+    subtitle:
+      "Data, perception, and emotion as the foundations of institutional legitimacy.",
+    href: null,
+    meta: "Web Paper • July 2026 (Forthcoming)",
+    description:
+      "Coming soon. An examination of how measurable outcomes, public perception, and emotional experience combine to shape trust in civic and organizational systems.",
+  },
+];
+
 const papers = [
   {
     title: "The Infrastructure of Belonging",
@@ -88,6 +121,7 @@ const papers = [
       "A civic systems paper examining how public infrastructure often fails the people closest to instability, and what becomes possible when dignity is treated as a design requirement.",
   },
 ];
+
 ---
 
 <Layout title={title} description={description}>
@@ -99,6 +133,11 @@ const papers = [
         exploring infrastructure, governance, artificial intelligence, and
         human-centered design.
       </p>
+
+      <p class="papers-thesis">
+        A system succeeds not when it performs optimally, but when people can
+        continue living meaningfully inside it.
+      </p>
     </div>
 
     <div class="papers-list">
@@ -106,7 +145,14 @@ const papers = [
         papers.map((paper) => (
           <article class="paper-card">
             <h2>
-              <a href={paper.href}>{paper.title}</a>
+              <a href={paper.href}>
+                {paper.title}
+                {
+                  paper.workingTitle && (
+                    <span class="working-title"> (working title)</span>
+                  )
+                }
+              </a>
             </h2>
 
             <p class="paper-meta">
@@ -127,6 +173,35 @@ const papers = [
           </article>
         ))
       }
+    </div>
+
+    <div class="papers-in-progress">
+      <div class="section-heading">
+        <h2>In Progress</h2>
+      </div>
+
+      <div class="papers-list in-progress-list">
+        {
+          inProgressPapers.map((paper) => (
+            <article class="paper-card in-progress-card">
+              <h2>
+                {paper.title}
+                {
+                  paper.workingTitle && (
+                    <span class="working-title"> (working title)</span>
+                  )
+                }
+              </h2>
+
+              <p class="paper-meta">{paper.meta}</p>
+
+              <p class="paper-subtitle">{paper.subtitle}</p>
+
+              <p class="paper-description">{paper.description}</p>
+            </article>
+          ))
+        }
+      </div>
     </div>
 
     <div class="papers-next-path">
@@ -168,10 +243,44 @@ const papers = [
     max-width: 62ch;
   }
 
+  .papers-thesis {
+    margin-top: 1.15rem;
+    padding-left: 0.85rem;
+    border-left: 3px solid var(--accent-papers);
+    font-size: clamp(1rem, 1.15vw, 1.12rem) !important;
+    line-height: 1.7 !important;
+    font-style: italic;
+    color: var(--color-text) !important;
+    max-width: 60ch !important;
+  }
+
   .papers-list {
     display: flex;
     flex-direction: column;
     border-top: 1px solid rgba(49, 64, 86, 0.18);
+  }
+
+  .papers-in-progress {
+    margin-top: 4rem;
+  }
+
+  .papers-in-progress .section-heading {
+    margin-bottom: 1.2rem;
+  }
+
+  .papers-in-progress .section-heading h2 {
+    font-size: 0.82rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+
+  .in-progress-list {
+    border-top-color: rgba(49, 64, 86, 0.12);
+  }
+
+  .in-progress-card {
+    opacity: 0.86;
   }
 
   .paper-card {
@@ -234,6 +343,14 @@ const papers = [
 
   .papers-page .paper-card h2 a:hover {
     text-decoration: underline;
+  }
+
+  .working-title {
+    font-size: 0.75em;
+    font-style: italic;
+    font-weight: 400;
+    opacity: 0.75;
+    white-space: nowrap;
   }
 
   .paper-subtitle {
