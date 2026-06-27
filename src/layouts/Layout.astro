@@ -733,12 +733,12 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
 
 
   .footer-treeline {
-    height: clamp(72px, 6vw, 96px);
+    height: clamp(160px, 12vw, 240px);
     background-color: var(--bg);
-    background-image: url('/images/atn-footer-treeline.png');
-    background-repeat: repeat-x;
+    background-image: url('/images/atn-footer-coastline.png');
+    background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: auto clamp(72px, 6vw, 96px);
+    background-size: min(100%, 2400px) auto;
     pointer-events: none;
   }
 
@@ -850,8 +850,8 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
 
 
     .footer-treeline {
-      height: 58px;
-      background-size: auto 58px;
+      height: 140px;
+      background-size: min(100%, 2400px) auto;
       background-position: center bottom;
     }
 
