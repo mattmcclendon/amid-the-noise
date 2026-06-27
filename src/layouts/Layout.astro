@@ -63,6 +63,24 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
+    <style is:inline>
+      .sidebar {
+        font-size: 0.9rem;
+        color: #334155;
+      }
+
+      .sidebar p {
+        margin: 0 0 0.9em;
+        color: #2f3a4a;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 900px) {
+        .sidebar {
+          font-size: 0.96rem;
+        }
+      }
+    </style>
     <slot name="head" />
   </head>
 
@@ -102,20 +120,12 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
           <aside class="sidebar">
             <div class="sidebar-inner">
               <section class="sidebar-section">
-                <!--<h3>Who is Matthew McClendon?</h3>-->
-                <p><em>Matthew McClendon</em> is a product designer with 30 years of experience designing interfaces, workflows, and decision systems, increasingly in contexts where AI behavior must be legible, contestable, and accountable.</p>
-                <p>His work spans financial, enterprise, civic, and AI-enabled organizations, designing the interfaces, workflows, and governance systems that shape how people make decisions under pressure.</p>
+                <p><em>Matthew McClendon</em> is a systems designer with 30 years of experience helping organizations make complex systems understandable, from enterprise software and financial services to civic institutions and AI.</p>
+                <p>His curiosity allows him to understand complex domains quickly, revealing the hidden structures, decisions, and assumptions that determine how those systems actually behave.</p>
                 <p>The recurring problem: <em>how do you make invisible system behavior legible enough for sound judgment?</em></p>
-                <p class="sidebar-evidence"><strong><em>Amid the Noise</em></strong> <span>is the</span> <strong>evidence.</strong></p>
+                <p class="sidebar-evidence"><em>Amid the Noise</em> is the <em>evidence</em>.</p>
                 <p class="sidebar-about-link"><a href="/about">read more →</a></p>
               </section>
-
-              <!--
-              <section class="sidebar-section sidebar-contact-section">
-                <h3>Contact</h3>
-                <p>For collaborations, speaking inquiries, or related work, <a href="mailto:hello@amidthenoise.com">contact me</a>.</p>
-              </section>
-              -->
 
               <section class="sidebar-section">
                 <h3>Follow</h3>
@@ -389,10 +399,6 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
   .sidebar-inner {
     position: sticky;
     top: 72px;
-    max-height: calc(100vh - 96px);
-    overflow-y: auto;
-    padding-right: 4px;
-    scrollbar-width: thin;
   }
 
   .sidebar-section {
@@ -802,11 +808,7 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
 
     .sidebar-inner {
       position: static;
-      max-height: none;
-      overflow: visible;
-      padding-right: 0;
     }
-
 
   }
 
