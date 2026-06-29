@@ -2801,7 +2801,7 @@
     "heroImage": "/images/writing/the-system-decides-first.png",
     "heroAlt": "A minimalist interface-like composition where ordered elements subtly guide attention, suggesting decisions shaped before they are consciously made.",
     "url": "https://amidthenoise.com/writing/the-system-decides-first",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-28",
@@ -2818,7 +2818,7 @@
     "heroImage": "/images/writing/reclaiming-signal.png",
     "heroAlt": "A narrow maritime channel with several ships aligned in formation while one vessel subtly diverges from the path, suggesting quiet deviation within constraint.",
     "url": "https://amidthenoise.com/writing/reclaiming-signal",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-06-30",
@@ -4911,7 +4911,7 @@
     "status": "Scheduled"
   },
   {
-    "pubDate": "2027-05-02T00:00:00.000Z",
+    "pubDate": "2027-05-02",
     "title": "The Brilliance of Elias Thorne",
     "subtitle": "And the importance of not letting the story carry you away.",
     "slug": "the-brilliance-of-elias-thorne",
@@ -5079,6 +5079,23 @@
     "heroImage": "/images/writing/capability-vs-perceived-capability.png",
     "heroAlt": "Abstract visualization of measurement, feedback, and perception",
     "url": "https://amidthenoise.com/writing/capability-vs-perceived-capability",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-06-24",
+    "title": "Ni siquiera lo intentó",
+    "subtitle": "A Spanish Translation of He Didn’t Even Try",
+    "slug": "ni-siquiera-lo-intento",
+    "description": "A European Spanish translation of He Didn’t Even Try, preserving the poem's emotional restraint, longing, and final boundary.",
+    "tags": [
+      "poetry",
+      "translation",
+      "spanish"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/ni-siquiera-lo-intento.png",
+    "heroAlt": "Abstract image evoking absence, longing, and emotional distance",
+    "url": "https://amidthenoise.com/writing/ni-siquiera-lo-intento",
     "status": "Scheduled"
   },
   {

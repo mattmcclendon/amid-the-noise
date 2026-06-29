@@ -18,6 +18,7 @@ No hubo mentiras elaboradas,
 ni una seducción cuidadosamente tejida.
 Solo un encogimiento de hombros,
 envuelto en encanto,
+
 una chispa de atención
 cuando le convenía.
 
@@ -29,6 +30,7 @@ lo llamé amor.
 
 Construí significado
 con las migajas que dejaba,
+
 como si tuviera que agradecerlas.
 
 Era descuidado
@@ -37,6 +39,7 @@ indiferente
 a la forma en que yo me inclinaba hacia él.
 
 No daba nada,
+
 pero conseguía que pareciera
 un sacrificio.
 
@@ -70,6 +73,7 @@ Yo ya estaba enamorado
 de la idea que había construido de él.
 
 Ya estaba escribiendo una historia
+
 en la que él apenas aparecía.
 
 Y permití que ocurriera.
