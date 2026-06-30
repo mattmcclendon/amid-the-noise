@@ -1,4 +1,5 @@
 ---
+import { ACTION_QUERY_PARAMS } from "astro:actions";
 import Layout from "../layouts/Layout.astro";
 
 const title = "About";
@@ -10,20 +11,9 @@ const description = "A short profile of Matthew McClendon and the work behind Am
     <h1>About</h1>
     <div class="about-grid">
       <div class="about-text">
-        <p>
-          I’m Matthew McClendon, a San Francisco–based designer, technologist,
-          writer, and father.
-        </p>
-        <p>
-          I design AI-assisted decision systems where the interface is only the
-          visible layer. Underneath it, something more consequential is usually
-          happening: a model is scoring, a workflow is routing, a signal is
-          being interpreted, or a decision is being made under uncertainty.
-        </p>
-        <p>
-          That is where I do my best work: turning AI output into decisions
-          people can trust, challenge, and defend in the real world.
-        </p>
+        <p>I'm Matthew McClendon, a San Francisco-based designer, technologist, writer, and father.</p>
+        <p>I design products where AI assists human judgment, especially when decisions carry operational, financial, or civic consequence. Underneath it, something more consequential is usually happening: a model is scoring, a workflow is routing, a signal is being interpreted, or a decision is being made under uncertainty.</p>
+        <p>That is where I do my best work: turning AI output into decisions people can trust, challenge, and defend in the real world.</p>
       </div>
 
       <div class="about-image-wrap">
@@ -40,80 +30,38 @@ const description = "A short profile of Matthew McClendon and the work behind Am
     <div class="section-heading">
       <h2>What Amid the Noise is for</h2>
     </div>
-    <p>
-      <em>Amid the Noise</em> is an ongoing body of work that serves as evidence: how I think, how I design, and how I translate complex system behavior into decisions people can trust, challenge, and defend.
-    </p>
-    <p>
-      Some of that writing is professional by design. It helps people understand the kinds of problems I find worth solving. Some of it is broader and more reflective. I am interested in how people and systems shape each other, and in what it takes to preserve clarity when complexity starts to sprawl.
-    </p>
-    <p>
-      The site is not a feed. It is collateral with a point of view.
-    </p>
+      <p><em>Amid the Noise</em> is an ongoing record of practice. It captures the ideas, frameworks, and observations that emerge while designing complex systems where trust, judgment, and accountability matter.</p>
+      <p>Some of that writing is professional by design. It helps people understand the kinds of problems I find worth solving. Some of it is broader and more reflective. I am interested in how people and systems shape each other, and in what it takes to preserve clarity when complexity starts to sprawl.</p>
+      <p>The site is not a feed. It is collateral with a point of view.</p>
   </section>
 
   <section class="section" data-pagefind-ignore>
     <div class="section-heading">
       <h2>How I work</h2>
     </div>
-    <p>
-      I tend to do my best work where stakes are real and behavior is hard to
-      read at a glance. AI-assisted products. Decision systems. Financial and
-      operational environments where a clean interface is not enough because the
-      real question is whether the system can be understood, challenged, and
-      trusted.
-    </p>
-    <p>
-      My background spans early internet platforms, enterprise systems, financial workflows, and environments where AI is becoming part of the decision process. Across all of them, the recurring problem is familiar: how do you make invisible system behavior legible enough for a human to exercise sound judgment?
-    </p>
-    <p>
-      The HARMONIC Framework grew out of a question that followed me across decades of work: how do complex systems remain coherent, trustworthy, and understandable as they scale? It is a patent-backed body of work on how systems maintain integrity and trust under real-world conditions, and an attempt to make years of intuition and pattern recognition formal, defensible, and durable.
-    </p>
-    <p>
-      I care about explainability, oversight, escalation paths, and feedback
-      loops that help people stay oriented when the machine has more speed than
-      context.
-    </p>
-    <p>
-      That is the throughline: I design systems where AI supports human
-      judgment instead of quietly replacing it.
-    </p>
+    <p>I do my best work where the stakes are real and system behavior is difficult to see at a glance. AI-assisted products. Enterprise workflows. Financial, operational, and civic environments where the interface is only one layer of a much larger decision system.</p>
+    <p>Across every domain, the underlying question is remarkably consistent: <em>how do you make invisible system behavior legible enough for sound judgment?</em></p>
+    <p>That question has shaped three decades of design practice. It also led to the development of the HARMONIC Framework, a patent-backed body of work exploring how complex systems remain coherent, accountable, and trustworthy as they evolve.</p>
+    <p>I care about explainability, oversight, escalation paths, and feedback loops that help people remain oriented when software moves faster than human context.</p>
+    <p>My role is rarely to simplify complexity away. It is to make complexity understandable enough for people to exercise judgment with confidence. </p>
   </section>
 
   <section class="section" data-pagefind-ignore>
     <div class="section-heading">
       <h2>A little more personally</h2>
     </div>
-    <p>
-      I have spent enough years around technology to know that novelty is not
-      the same thing as progress. I still love the craft. I still love the
-      systems thinking. I still get excited by elegant infrastructure, by good
-      tools, by the moment a hard problem becomes briefly clear.
-    </p>
-    <p>
-      I am a writer by instinct. Part of that comes from observation. Part
-      of it comes from survival. Part of it probably comes from spending a life admiring people like Mark Twain and James Baldwin, who understood that wit and clarity are often just truth arriving with better timing.
-    </p>
-    <p>
-      Increasingly, that work takes the form of thought laboratories: fictional worlds and speculative systems used to explore governance, infrastructure, belonging, significance, and life beyond scarcity.
-    </p>
-    <p>
-      I have always been drawn to places that make human timescales feel small. Forest trails, coastlines, mountain roads, historic towns, and landscapes shaped long before I arrived. Many of the questions explored on <em>Amid the Noise</em> began during long walks, road trips, and quiet mornings spent paying attention to places most people pass through.
-    </p>
-    <p>
-      I often spend weekends driving into the Sierra, walking among giant sequoias, or following trails through the mountains. During work trips to Boston, I would wake before dawn to walk the waterfront and watch the sun rise over the Atlantic. After flying home, I would often drive directly to Pacifica to watch the sun set over the Pacific. Those rituals were less about travel than perspective.
-    </p>
-    <p>
-      I live in San Francisco, with an eye toward Boston. I believe a lifetime of learning is the only way to stay awake in the world. I hope, in time, my son finds his own path into that same pursuit.
-    </p>
+    <p>Technology has changed dramatically over the past thirty years. The questions that interest me have not.</p>
+    <p>I am fascinated by the relationship between people and the systems they inhabit, whether those systems are software platforms, civic institutions, organizations, or cities. Good systems expand human agency. Poor ones quietly narrow it.</p>
+    <p>Writing has always been how I test ideas before they become frameworks. Increasingly, that takes the form of essays, speculative fiction, and thought laboratories that explore governance, infrastructure, belonging, significance, and life beyond scarcity.</p>
+    <p>I have always been drawn to places that make human timescales feel small. Forest trails, coastlines, mountain roads, historic towns, and landscapes shaped long before I arrived. Many of the ideas explored throughout Amid the Noise began during long walks, road trips, and quiet mornings spent paying attention to places most people pass through.</p>
+    <p>Learning has never felt separate from living. It is simply the habit of remaining curious.</p>
   </section>
 
   <section class="section books-note" data-pagefind-ignore>
     <div class="section-heading">
       <h2>Published Writing</h2>
     </div>
-    <p>
-      <a href="/books"><em>Exit Wounds</em></a> extends the themes explored throughout <em>Amid the Noise</em> into poetry: recovery, toxic attachment, substance use, homelessness, and the cost of naming what survival required.
-    </p>
+      <p><a href="/books"><em>Exit Wounds</em></a> extends many of the themes explored throughout <em>Amid the Noise</em> into poetry, examining recovery, homelessness, addiction, attachment, and the quiet cost of survival.</p>
   </section>
 
   <section class="section" data-pagefind-ignore>
@@ -121,11 +69,11 @@ const description = "A short profile of Matthew McClendon and the work behind Am
       <h2>Related Projects</h2>
     </div>
     <p>
-      I also maintain <a href="https://usskepler.org" target="_blank" rel="noopener">USS Kepler</a>, a Star Trek-inspired archive and worldbuilding project exploring civic infrastructure, institutional memory, public service, and systems design through speculative fiction.
+      I also maintain <a href="https://usskepler.org" target="_blank" rel="noopener">USS Kepler</a>, a Star Trek-inspired archive and worldbuilding project that explores civic infrastructure, institutional memory, public service, and systems design through speculative fiction.
     </p>
 
     <p>
-      Its companion project, <a href="https://aureliareach.org" target="_blank" rel="noopener">Aurelia Reach</a>, uses a fictional Federation world as a civic thought laboratory for exploring governance, belonging, significance, trust, education, and life beyond scarcity. Many of the thought experiments that begin there eventually find their way back into essays published on <em>Amid the Noise</em>.
+      Its companion project, <a href="https://aureliareach.org" target="_blank" rel="noopener">Aurelia Reach</a>, imagines a Federation world as a civic thought laboratory for governance, education, belonging, significance, trust, and life beyond scarcity. Many of the questions explored there eventually return as essays published on <em>Amid the Noise</em>.
     </p>
   </section>
 
@@ -133,49 +81,17 @@ const description = "A short profile of Matthew McClendon and the work behind Am
     <div class="section-heading">
       <h2>Focus</h2>
     </div>
-    <p>
-      AI-native product design, trust and safety, explainability,
-      human-in-the-loop systems, decision workflows, signal integrity, and the
-      design of products that need to remain accountable under pressure.
-    </p>
+    <p>AI-native product design • Enterprise UX • Human-in-the-loop systems • Explainability • Decision workflows • Trust & Safety • Signal integrity • Governance • Civic infrastructure • Organizational design</p>
   </section>
 
   <section class="section" data-pagefind-ignore>
     <div class="section-heading">
       <h2>In Practice</h2>
     </div>
-    <p>
-      I work inside the systems I write about.
-    </p>
-    <p>
-      I am interested in how trust is established, maintained, and repaired within complex systems. That interest informs my work in AI, civic infrastructure, governance, and organizational design.
-    </p>
-    <p>
-      I spend time with communities that are often overlooked in system design but are central to understanding how institutions succeed or fail in practice.
-    </p>
-    <p>
-      I serve in election operations in Santa Clara County, where policy meets
-      the public in real time. It is one of the clearest expressions of civic
-      infrastructure: fragile, essential, and deeply human.
-    </p>
-    <p>
-      Fatherhood grounds everything. Working with my son's charter school keeps
-      me close to the environments shaping how the next generation learns and
-      participates.
-    </p>
-    <p>
-      I mentor early-stage builders navigating complexity for the first time,
-      with a focus on judgment, restraint, and learning how to see systems as
-      they are.
-    </p>
-    <p>
-      I also write at the policy level on national security, intelligence
-      infrastructure, and system design under pressure, extending the same
-      focus on trust, signal, and decision-making into institutional contexts.
-    </p>
-    <p>
-      Learning remains the constant. Not as a goal, but as a condition.
-    </p>
+      <p>I design the kinds of systems I write about.</p>
+      <p>My work explores how trust is established, maintained, and repaired inside complex organizations where decisions increasingly involve automation, AI, and distributed responsibility. The writing extends those same questions into public institutions, civic infrastructure, governance, and everyday life.</p>
+      <p>Outside of product design, I stay close to the systems that shape communities directly. Election operations in Santa Clara County, involvement with my son's school, mentoring early-stage builders, and research into public policy all provide opportunities to observe how institutions succeed, where they struggle, and how thoughtful design can strengthen public trust.</p>
+      <p>The common thread is curiosity grounded in practice. I believe the best systems designers spend as much time observing the world as they do designing software.</p>
   </section>
 
   <section class="section" data-pagefind-ignore>
@@ -219,15 +135,8 @@ const description = "A short profile of Matthew McClendon and the work behind Am
     <div class="section-heading">
       <h2>Contact</h2>
     </div>
-    <p>
-      I am always interested in thoughtful conversations about product design,
-      AI governance, decision systems, civic infrastructure, trust and safety,
-      and the challenges of making complex systems understandable.
-    </p>
-    <p>
-      For collaborations, consulting opportunities, speaking engagements, or
-      related work, email <a href="mailto:hello@amidthenoise.com">hello@amidthenoise.com</a>.
-    </p>
+    <p>I am always interested in conversations about product design, AI governance, decision systems, civic infrastructure, organizational design, and the challenge of making complex systems understandable.</p>
+    <p>For collaborations, consulting, speaking engagements, or other opportunities, email  <a href="mailto:info@amidthenoise.com">info@amidthenoise.com</a>.</p>
   </section>
 
   <section class="section" data-pagefind-ignore>
