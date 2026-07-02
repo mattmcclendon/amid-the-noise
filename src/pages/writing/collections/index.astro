@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import SectionPage from '../../../components/SectionPage.astro';
+import ContentRow from '../../../components/ContentRow.astro';
 import { writingCollections } from '../../../data/writingCollections';
 
 const title = 'Collections | Writing | Amid the Noise';
@@ -22,13 +23,13 @@ const pageIntro = 'Curated reading paths through the archive. Essays organized b
   >
     <section class="collections-list" aria-label="Writing collections">
       {writingCollections.map((collection) => (
-        <article class="collection-card">
-          <a href={`/writing/collections/${collection.slug}`}>
-            <h2>{collection.title}</h2>
-            <p>{collection.description}</p>
-            <span>read more →</span>
-          </a>
-        </article>
+        <ContentRow
+          href={`/writing/collections/${collection.slug}`}
+          title={collection.title}
+          meta="Collection"
+          description={collection.description}
+          tags={[]}
+        />
       ))}
     </section>
   </SectionPage>
@@ -37,47 +38,6 @@ const pageIntro = 'Curated reading paths through the archive. Essays organized b
 <style>
   .collections-list {
     display: grid;
-    gap: 1rem;
-  }
-
-  .collection-card {
-    border: 1px solid rgba(31, 31, 31, 0.14);
-    background: rgba(248, 247, 244, 0.42);
-  }
-
-  .collection-card a {
-    display: block;
-    padding: 1.05rem 1.15rem 1.1rem;
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .collection-card h2 {
-    margin: 0 0 0.5rem;
-    font-size: clamp(1.02rem, 1.35vw, 1.16rem);
-    line-height: 1.18;
-    letter-spacing: -0.01em;
-    font-weight: 600;
-  }
-
-  .collection-card p {
-    max-width: 44rem;
-    margin: 0 0 0.85rem;
-    font-family: Inter, system-ui, sans-serif;
-    font-size: 0.92rem;
-    line-height: 1.5;
-    color: rgba(31, 31, 31, 0.82);
-  }
-
-  .collection-card span {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 0.88rem;
-    color: var(--link, #3f5f8f);
-  }
-
-  .collection-card a:hover h2,
-  .collection-card a:hover span {
-    color: var(--section-accent);
+    gap: 0;
   }
 </style>
