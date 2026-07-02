@@ -1,0 +1,65 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+import SectionMoreLink from '../../../components/SectionMoreLink.astro';
+
+const title = 'Timeline | Career | Amid the Noise';
+const description = 'A career timeline tracing the environments, industries, and transitions that shaped Matthew McClendon’s work.';
+const sectionIntro = 'A record of exposure. Three decades navigating the products, organizations, and environments that shaped the work.';
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="career"
+    title="Timeline"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/career' },
+      { label: 'Case Studies', href: '/career/case-studies' },
+      { label: 'Timeline', href: '/career/timeline' },
+      { label: 'Learning', href: '/career/learning' },
+    ]}
+  >
+    <section class="timeline-placeholder" aria-labelledby="timeline-in-progress-title">
+      <h2 id="timeline-in-progress-title">In Development</h2>
+      <div class="timeline-note">
+        <p>
+          This page will become a narrative chronology of the work: the organizations, roles, projects, interruptions, recoveries, and transitions that shaped the larger pattern. It will not be a list of job titles. It will show how each environment contributed a different form of exposure, and how those exposures gradually converged into the work behind Amid the Noise.
+        </p>
+      </div>
+      <SectionMoreLink href="/career" label="Back to Career overview" />
+    </section>
+  </SectionPage>
+</Layout>
+
+<style>
+  .timeline-placeholder {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .timeline-placeholder h2 {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.72);
+  }
+
+  .timeline-note {
+    max-width: 42rem;
+  }
+
+  .timeline-note p {
+    margin: 0 0 1rem;
+    font-size: 0.96rem;
+    line-height: 1.6;
+    color: rgba(31, 31, 31, 0.82);
+  }
+
+  .timeline-note p:last-child {
+    margin-bottom: 0;
+  }
+</style>

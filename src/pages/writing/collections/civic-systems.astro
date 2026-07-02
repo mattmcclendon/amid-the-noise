@@ -1,0 +1,20 @@
+---
+import CollectionPage from '../../../components/CollectionPage.astro';
+import { writingCollections } from '../../../data/writingCollections';
+
+const collection = writingCollections.find(
+  (entry) => entry.slug === 'civic-systems'
+);
+
+if (!collection) {
+  throw new Error('Collection not found: civic-systems');
+}
+---
+
+<CollectionPage
+  title={`${collection.title} | Amid the Noise`}
+  description={collection.description}
+  collectionTitle={collection.title}
+  collectionIntro={collection.intro}
+  postTitles={collection.postTitles}
+/>

@@ -1,0 +1,139 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SectionPage from './SectionPage.astro';
+import PublicationRow from './PublicationRow.astro';
+
+interface CollectionPost {
+  slug: string;
+  title: string;
+  description?: string;
+  pubDate?: Date | string | null;
+  tags?: string[];
+}
+
+interface Props {
+  title: string;
+  description: string;
+  collectionTitle: string;
+  collectionIntro: string;
+  posts?: CollectionPost[];
+  postTitles?: string[];
+}
+
+const {
+  title,
+  description,
+  collectionTitle,
+  collectionIntro,
+  posts = [],
+  postTitles = [],
+} = Astro.props;
+
+const postModules = import.meta.glob('../pages/writing/*.md', { eager: true });
+
+const allPosts = Object.entries(postModules)
+  .map(([path, module]) => {
+    const mod = module as {
+      frontmatter?: {
+        title?: string;
+        description?: string;
+        pubDate?: Date | string;
+        date?: Date | string;
+        tags?: string[];
+        draft?: boolean;
+      };
+    };
+
+    const frontmatter = mod.frontmatter ?? {};
+    const slug = path.replace('../pages/writing/', '').replace('.md', '');
+
+    return {
+      slug,
+      title: frontmatter.title ?? slug,
+      description: frontmatter.description ?? '',
+      pubDate: frontmatter.pubDate ?? frontmatter.date ?? null,
+      tags: frontmatter.tags ?? [],
+      draft: frontmatter.draft ?? false,
+    };
+  })
+  .filter((post) => !post.draft);
+
+const resolvedPosts = posts.length > 0
+  ? posts
+  : postTitles
+      .map((postTitle) => allPosts.find((post) => post.title === postTitle))
+      .filter(Boolean);
+
+const formatDate = (date: Date | string | null | undefined) => {
+  if (!date) return '';
+
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  }).format(new Date(date));
+};
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="writing"
+    title="Collections"
+    intro={collectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/writing' },
+      { label: 'Collections', href: '/writing/collections' },
+      { label: 'Archive', href: '/writing/archive' },
+    ]}
+  >
+    <section class="collection-list" aria-label={`${collectionTitle} essays`}>
+      {resolvedPosts.map((post) => (
+        <PublicationRow
+          href={`/writing/${post.slug}`}
+          title={post.title}
+          date={formatDate(post.pubDate)}
+          datetime={post.pubDate ? new Date(post.pubDate).toISOString() : undefined}
+          description={post.description}
+          tags={post.tags ?? []}
+          accent="var(--accent-writing)"
+        />
+      ))}
+    </section>
+    <nav class="collection-nav" aria-label="Writing collection navigation">
+      <a href="/writing/collections">All collections</a>
+      <a href="/writing/archive">Full archive →</a>
+    </nav>
+  </SectionPage>
+</Layout>
+
+<style>
+  .collection-list {
+    display: grid;
+    gap: 0;
+  }
+
+  .collection-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.25rem;
+    margin-top: 2rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid rgba(31,31,31,0.12);
+  }
+
+  .collection-nav a {
+    color: var(--link, #3f5f8f);
+    font-family: inherit;
+    font-size: 0.96rem;
+    line-height: 1.4;
+    text-decoration: none;
+  }
+
+  .collection-nav a:hover {
+    color: var(--section-accent);
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+    text-decoration-thickness: 1px;
+  }
+</style>

@@ -1,0 +1,33 @@
+
+
+---
+interface Props {
+  href: string;
+  label: string;
+}
+
+const { href, label } = Astro.props;
+---
+
+<div class="section-more-link">
+  <a href={href}>{label} →</a>
+</div>
+
+<style>
+  .section-more-link {
+    margin-top: 1rem;
+    font-size: 0.96rem;
+    line-height: 1.6;
+  }
+
+  .section-more-link a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .section-more-link a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+    text-decoration-thickness: 1px;
+  }
+</style>

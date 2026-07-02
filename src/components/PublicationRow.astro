@@ -1,0 +1,112 @@
+---
+interface Props {
+  title: string;
+  href: string;
+  date?: string;
+  datetime?: string;
+  description?: string;
+  tags?: string[];
+  accent?: string;
+  showAccentBar?: boolean;
+}
+
+const {
+  title,
+  href,
+  date,
+  datetime,
+  description,
+  tags = [],
+  accent = 'var(--section-accent)',
+  showAccentBar = true,
+} = Astro.props;
+---
+
+<article class="publication-row">
+  <a href={href} class:list={{ 'has-accent': showAccentBar }} style={`--row-accent:${accent}`}>
+    <div>
+      <h3>{title}</h3>
+      {date && <time datetime={datetime}>{date}</time>}
+      {description && <p>{description}</p>}
+
+      {tags.length > 0 && (
+        <ul class="publication-tags" aria-label="Tags">
+          {tags.map((tag) => (
+            <li>{tag}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </a>
+</article>
+
+<style>
+  .publication-row + .publication-row {
+    border-top: 1px solid rgba(31,31,31,.14);
+  }
+
+  .publication-row a {
+    position: relative;
+    display: grid;
+    padding: 1.65rem 0 1.75rem 1rem;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .publication-row a.has-accent::before {
+    content: '';
+    position: absolute;
+    top: 1.45rem;
+    left: 0;
+    width: 3px;
+    height: 56px;
+    background: var(--row-accent);
+  }
+
+  .publication-row h3 {
+    margin: 0 0 .35rem;
+    font-size: clamp(1.02rem,1.45vw,1.18rem);
+    line-height: 1.18;
+    letter-spacing: -.014em;
+    font-weight: 700;
+  }
+
+  .publication-row time {
+    display:block;
+    margin:0 0 .65rem;
+    font-size:.88rem;
+    color:rgba(31,31,31,.62);
+  }
+
+  .publication-row p {
+    margin:0 0 .75rem;
+    font-family:Inter,system-ui,sans-serif;
+    font-size:.92rem;
+    line-height:1.5;
+    color:rgba(31,31,31,.82);
+  }
+
+  .publication-tags {
+    display:flex;
+    flex-wrap:wrap;
+    gap:.4rem;
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+
+  .publication-tags li {
+    border:1px solid rgba(31,31,31,.14);
+    padding:.16rem .45rem;
+    font-family:Inter,system-ui,sans-serif;
+    font-size:.68rem;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    color:rgba(31,31,31,.72);
+    background:rgba(248,247,244,.4);
+  }
+
+  .publication-row a:hover h3 {
+    color: var(--row-accent);
+  }
+</style>

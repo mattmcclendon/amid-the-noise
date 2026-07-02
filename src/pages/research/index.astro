@@ -1,0 +1,152 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SectionPage from '../../components/SectionPage.astro';
+import ContentRow from '../../components/ContentRow.astro';
+import SectionMoreLink from '../../components/SectionMoreLink.astro';
+
+const title = 'Research | Amid the Noise';
+const description = 'Research papers, field studies, frameworks, and operating models by Matthew McClendon.';
+const sectionIntro = 'The space where recurring questions become formal. Papers advance arguments, field studies test them against lived systems, and the bibliography provides the intellectual bedrock. Together they are models for judgment designed for real conditions.';
+
+const featuredPapers = [
+  {
+    title: 'The Infrastructure of Belonging',
+    href: '/research/papers/content/the-infrastructure-of-belonging',
+    meta: 'Web Paper • June 2026',
+    description:
+      'A civic systems framework examining how institutions become reachable through connectors, continuity, and the reduction of distance.',
+  },
+  {
+    title: 'Existential Dread in Silicon Valley',
+    href: '/papers/McClendon-Existential-Dread-in-Silicon-Valley.pdf',
+    meta: 'PDF • June 2026',
+    description:
+      'A systems-level examination of behavioral infrastructure, institutional drift, and the crisis of philosophical coherence inside technology companies.',
+  },
+  {
+    title: 'Graceful Degradation',
+    href: '/papers/McClendon_Graceful-Degradation_2027.pdf',
+    meta: 'PDF • May 2026',
+    description:
+      'A white paper arguing that the infrastructural logic emerging from space habitation may offer a model for resilient terrestrial systems.',
+  },
+];
+
+const featuredFieldStudies = [
+  {
+    title: 'Designing Trust Inside Modern Data Infrastructure',
+    href: '/research/field-studies/content/dremio',
+    meta: 'Dremio',
+    description:
+      'Across financial services, healthcare, and enterprise infrastructure, the work clarified how semantic systems, lineage, and cognitive legibility help people trust complex data environments.',
+  },
+  {
+    title: 'Designing Human-Governed AI in a Regulated Enterprise',
+    href: '/research/field-studies/content/wells-fargo',
+    meta: 'Wells Fargo',
+    description:
+      'Inside Wells Fargo AI Enterprise Solutions, the work focused on operationalizing trust in regulated AI systems through governance frameworks, human oversight, interpretability, and scalable experimentation across 17 business units.',
+  },
+];
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="research"
+    title="Research"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/research' },
+      { label: 'Papers', href: '/research/papers' },
+      { label: 'Field Studies', href: '/research/field-studies' },
+      { label: 'Bibliography', href: '/research/bibliography' },
+    ]}
+  >
+
+    <section class="research-section" aria-labelledby="papers-title">
+      <h2 id="papers-title">Papers</h2>
+
+      <div class="content-list" aria-label="Featured papers">
+        {featuredPapers.map((item) => (
+          <ContentRow
+            title={item.title}
+            href={item.href}
+            meta={item.meta}
+            description={item.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+
+      <SectionMoreLink href="/research/papers" label="View all papers" />
+    </section>
+
+    <section class="research-section" aria-labelledby="field-studies-title">
+      <h2 id="field-studies-title">Field Studies</h2>
+      <div class="content-list" aria-label="Featured field studies">
+        {featuredFieldStudies.map((item) => (
+          <ContentRow
+            title={item.title}
+            href={item.href}
+            meta={item.meta}
+            description={item.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+
+      <SectionMoreLink href="/research/field-studies" label="Explore field studies" />
+    </section>
+
+    <section class="research-section" aria-labelledby="bibliography-title">
+      <h2 id="bibliography-title">Bibliography</h2>
+      <div class="research-note">
+        <p>
+          Bibliography maps the books, papers, thinkers, stories, and reference points that shaped the research vocabulary behind Amid the Noise.
+        </p>
+        <SectionMoreLink href="/research/bibliography" label="View the bibliography" />
+      </div>
+    </section>
+  </SectionPage>
+</Layout>
+
+<style>
+  .research-section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .research-section h2 {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.72);
+  }
+
+  .content-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+  }
+
+  .research-note {
+    max-width: 42rem;
+  }
+
+  .research-note p {
+    margin: 0 0 1rem;
+    font-size: 0.96rem;
+    line-height: 1.6;
+    color: rgba(31, 31, 31, 0.82);
+  }
+
+  .research-note p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 820px) {
+  }
+</style>

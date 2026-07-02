@@ -1,0 +1,490 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SectionPage from '../../components/SectionPage.astro';
+import { tagMetadata } from '../../data/tagMetadata';
+
+const title = 'Lexicon | Amid the Noise';
+const description = 'A working lexicon of recurring concepts, language, and frameworks used across Amid the Noise.';
+const sectionIntro = 'A collection of precision instruments. Terms, concepts, and frameworks for naming patterns and making invisible structures legible. The shared vocabulary required to discuss the work with clarity.';
+
+const nascentConcepts = [
+  {
+    title: 'Epistemic Integrity',
+    description:
+      "The degree to which an institution's internal representation of reality corresponds to reality itself.",
+  },
+  {
+    title: 'Epistemic Divergence',
+    description:
+      "The gradual separation between reality and an institution's internal representation of reality.",
+  },
+  {
+    title: 'Institutional Perception',
+    description:
+      'The ability of an institution to perceive, interpret, and respond to reality through the information available to it.',
+  },
+  {
+    title: 'Second Cognitive Surface',
+    description:
+      'AI functioning as an external layer of reasoning, memory, and synthesis that extends human cognition without replacing human judgment.',
+  },
+];
+
+const evolvingConcepts = [
+  {
+    title: 'Signal Integrity',
+    description:
+      'The degree to which information remains aligned with reality as it moves through systems, interfaces, institutions, and incentives.',
+  },
+  {
+    title: 'Decision Systems',
+    description:
+      'The structures that determine what becomes visible, how options are framed, and where responsibility ultimately resides.',
+  },
+  {
+    title: 'Human Judgment',
+    description:
+      'The interpretive human act of weighing context, uncertainty, consequence, responsibility, and values before action is taken.',
+  },
+  {
+    title: 'Human-Governed Intelligence',
+    description:
+      'Intelligence systems designed so human direction, accountability, escalation, and judgment remain structurally present.',
+  },
+  {
+    title: 'AI as Infrastructure',
+    description:
+      'The treatment of artificial intelligence as a civic, operational, and institutional layer rather than a standalone product or spectacle.',
+  },
+  {
+    title: 'Institutional Transparency',
+    description:
+      'The degree to which an institution makes its reasoning, constraints, evidence, and decision pathways visible enough to be examined.',
+  },
+  {
+    title: 'Decision Support',
+    description:
+      'Systems that help people perceive, compare, interpret, and act without transferring responsibility away from human judgment.',
+  },
+  {
+    title: 'Interpretability',
+    description:
+      'The capacity to understand why a system produced a result, what inputs shaped it, and where uncertainty remains.',
+  },
+  {
+    title: 'Auditability',
+    description:
+      'The ability to reconstruct what happened inside a system well enough to evaluate behavior, accountability, and consequence.',
+  },
+  {
+    title: 'Reciprocal Intelligence',
+    description:
+      'The feedback relationship between intelligent systems and human behavior, where each shapes the other over time.',
+  },
+  {
+    title: 'Operational Intelligence',
+    description:
+      'Intelligence expressed through workflows, roles, escalation paths, and repeatable decisions rather than insight alone.',
+  },
+  {
+    title: 'Operational Empathy',
+    description:
+      'Empathy translated into system behavior through workflows, defaults, escalation paths, and governance.',
+  },
+  {
+    title: 'Decision Architecture',
+    description:
+      'The design of how choices are structured, sequenced, framed, constrained, and made visible before a decision occurs.',
+  },
+  {
+    title: 'Visible Understanding',
+    description:
+      'The use of AI and design to replace invisible complexity with forms people can inspect, question, and act upon.',
+  },
+  {
+    title: 'Trust Is a System Property',
+    description:
+      'Trust is not added through messaging. It is inferred from how a system behaves under pressure.',
+  },
+  {
+    title: 'Design Becomes Policy',
+    description:
+      'Design becomes policy the moment it ships because shipped systems constrain real choices and produce lived outcomes.',
+  },
+  {
+    title: 'The System Decides First',
+    description:
+      'Decisions begin before the moment of choice, in the systems that select, rank, frame, hide, and make options available.',
+  },
+  {
+    title: 'Truth Is Shaped Before It Is Interpreted',
+    description:
+      'Understanding begins upstream, where systems decide what information appears, how it is framed, and what context survives.',
+  },
+];
+
+const establishedConcepts = [
+  {
+    title: 'Signal',
+    description:
+      'Information that retains enough integrity to support judgment, interpretation, or action.',
+  },
+  {
+    title: 'Civic Systems',
+    description:
+      'The public institutions, infrastructure, and social systems that organize participation, trust, access, and belonging.',
+  },
+  {
+    title: 'Civic Legibility',
+    description:
+      'The degree to which public systems can be understood, navigated, questioned, and used by the people they affect.',
+  },
+  {
+    title: 'Civic Infrastructure',
+    description:
+      'The physical, administrative, social, and informational systems that allow public life to function.',
+  },
+  {
+    title: 'Civic Signal',
+    description:
+      'The information produced by public behavior, participation, trust, avoidance, friction, and institutional response.',
+  },
+  {
+    title: 'Public Trust',
+    description:
+      'Trust earned by the behavior of institutions under pressure, especially when systems must serve people who arrive with complexity.',
+  },
+  {
+    title: 'Participation',
+    description:
+      'The ability to meaningfully enter, use, influence, or be represented by a system rather than merely being subject to it.',
+  },
+  {
+    title: 'Belonging',
+    description:
+      'The condition of being recognized by a system, place, or community without having to prove one belongs there first.',
+  },
+  {
+    title: 'Interaction Cost',
+    description:
+      'The effort, attention, uncertainty, and emotional labor required to move through a system or interface.',
+  },
+  {
+    title: 'Cognitive Load',
+    description:
+      'The mental effort required to interpret information, make choices, remember context, and avoid error.',
+  },
+  {
+    title: 'Affordance',
+    description:
+      'A visible or implied cue that suggests what action is possible, expected, or safe within a system.',
+  },
+  {
+    title: 'Legibility',
+    description:
+      'The quality that makes a system, interface, institution, or situation understandable enough for informed action.',
+  },
+  {
+    title: 'Failure Mode',
+    description:
+      'A predictable way a system breaks, excludes, distorts, or produces harm under pressure.',
+  },
+  {
+    title: 'Feedback Loop',
+    description:
+      'A cycle in which system outputs return as inputs, shaping future behavior, interpretation, or decisions.',
+  },
+  {
+    title: 'Emergence',
+    description:
+      'Behavior or meaning that appears from the interaction of parts rather than from any single part alone.',
+  },
+  {
+    title: 'Redundancy',
+    description:
+      'Additional capacity, pathways, or supports that allow a system or person to keep functioning when one layer fails.',
+  },
+  {
+    title: 'Margin',
+    description:
+      'The spare capacity that allows error, delay, uncertainty, or disruption to be absorbed without collapse.',
+  },
+  {
+    title: 'Resilience',
+    description:
+      'The ability to absorb pressure, adapt under strain, and preserve essential function without pretending nothing changed.',
+  },
+  {
+    title: 'Single Point of Failure',
+    description:
+      'A dependency whose breakdown can compromise the larger system because no adequate backup, pathway, or substitute exists.',
+  },
+  {
+    title: 'Compression',
+    description:
+      'The reduction of complexity into a simpler form, useful when handled carefully and dangerous when it erases what matters.',
+  },
+  {
+    title: 'Continuity',
+    description:
+      'The preservation of function, memory, identity, or care across disruption, transition, and time.',
+  },
+  {
+    title: 'Dependency',
+    description:
+      'A reliance on a person, institution, system, or resource that shapes what movement remains possible.',
+  },
+  {
+    title: 'Drift',
+    description:
+      'The gradual movement away from intended behavior, observed reality, or stated purpose before failure becomes obvious.',
+  },
+  {
+    title: 'Path Dependence',
+    description:
+      'The way earlier choices constrain later possibilities, making some futures easier to reach than others.',
+  },
+  {
+    title: 'Agency',
+    description:
+      'The practical ability to act with meaningful choice, direction, and consequence inside the conditions one actually inhabits.',
+  },
+  {
+    title: 'Presence',
+    description:
+      'The discipline of returning attention to the current moment rather than living entirely inside fear, memory, projection, or performance.',
+  },
+  {
+    title: 'Scarcity',
+    description:
+      'A condition that reduces margin, narrows attention, changes the meaning of choices, and turns ordinary friction into threat.',
+  },
+  {
+    title: 'Stability',
+    description:
+      'The condition in which enough supports hold long enough for judgment, recovery, planning, or participation to become possible.',
+  },
+  {
+    title: 'Recognition',
+    description:
+      'The moment when a person, pattern, truth, or system becomes visible enough to be named honestly.',
+  },
+  {
+    title: 'Narrative',
+    description:
+      'The story that organizes experience into meaning, sometimes clarifying reality and sometimes protecting distortion.',
+  },
+  {
+    title: 'Collapse',
+    description:
+      'The point at which accumulated pressure, lost margin, or broken feedback overwhelms the supports that previously held.',
+  },
+  {
+    title: 'Recovery',
+    description:
+      'The ongoing work of restoring honesty, agency, stability, and presence after collapse.',
+  },
+  {
+    title: 'Institutional Authority',
+    description:
+      'The power of institutions to act, decide, classify, enforce, or allocate consequence on behalf of larger systems.',
+  },
+];
+
+const slugifyTerm = (term: string) =>
+  term
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+
+const getTagMetadata = (term: string) => {
+  const tagSlug = slugifyTerm(term);
+  const metadata = tagMetadata[tagSlug];
+
+  return metadata ? { tagSlug, metadata } : null;
+};
+
+---
+
+<Layout title={title} description={description}>
+  <SectionPage section="lexicon" title="Lexicon" intro={sectionIntro} showHeader={false}>
+    <section class="lexicon-section" aria-labelledby="lexicon-title">
+      <h2 id="lexicon-title" class="lexicon-group-title">Nascent from Amid the Noise</h2>
+      <p class="lexicon-group-intro">
+        These concepts are actively developing through the essays, research, and thought experiments published here. Their definitions may evolve as the work continues.
+      </p>
+      <div class="lexicon-list" aria-label="Nascent lexicon terms">
+        {nascentConcepts.map((entry) => (
+          <article class="lexicon-row" id={slugifyTerm(entry.title)}>
+            <div>
+              <h3>
+                {getTagMetadata(entry.title) ? (
+                  <a class="term-anchor" href={`/writing/tag/${getTagMetadata(entry.title)?.tagSlug}`}>
+                    {entry.title}<span class="term-arrow" aria-hidden="true"> →</span>
+                  </a>
+                ) : (
+                  <span>{entry.title}</span>
+                )}
+              </h3>
+              <p>{entry.description}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <h2 class="lexicon-group-title">Evolving Concepts</h2>
+      <p class="lexicon-group-intro">
+        Established ideas that Amid the Noise continues to refine, connect, and extend through ongoing writing and research.
+      </p>
+      <div class="lexicon-list" aria-label="Evolving lexicon terms">
+        {evolvingConcepts.map((entry) => (
+          <article class="lexicon-row" id={slugifyTerm(entry.title)}>
+            <div>
+              <h3>
+                {getTagMetadata(entry.title) ? (
+                  <a class="term-anchor" href={`/writing/tag/${getTagMetadata(entry.title)?.tagSlug}`}>
+                    {entry.title}<span class="term-arrow" aria-hidden="true"> →</span>
+                  </a>
+                ) : (
+                  <span>{entry.title}</span>
+                )}
+              </h3>
+              <p>{entry.description}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <h2 class="lexicon-group-title">Established Concepts</h2>
+      <p class="lexicon-group-intro">
+        Widely recognized concepts that provide the shared vocabulary and intellectual foundation for the work.
+      </p>
+      <div class="lexicon-list" aria-label="Established lexicon terms">
+        {establishedConcepts.map((entry) => (
+          <article class="lexicon-row" id={slugifyTerm(entry.title)}>
+            <div>
+              <h3>
+                {getTagMetadata(entry.title) ? (
+                  <a class="term-anchor" href={`/writing/tag/${getTagMetadata(entry.title)?.tagSlug}`}>
+                    {entry.title}<span class="term-arrow" aria-hidden="true"> →</span>
+                  </a>
+                ) : (
+                  <span>{entry.title}</span>
+                )}
+              </h3>
+              <p>{entry.description}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </SectionPage>
+</Layout>
+
+<style>
+  .lexicon-section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .lexicon-section h2 {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--section-accent);
+  }
+
+  .lexicon-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+  }
+
+  .lexicon-row + .lexicon-row {
+    background-image: repeating-linear-gradient(
+      to right,
+      rgba(31, 31, 31, 0.2) 0,
+      rgba(31, 31, 31, 0.2) 1px,
+      transparent 1px,
+      transparent 6px
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: top left;
+  }
+
+  .lexicon-row > div {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.42rem;
+    padding: 1.35rem 0 1.45rem;
+  }
+
+  .lexicon-row h3 {
+    margin: 0;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: clamp(0.96rem, 1.25vw, 1.06rem);
+    line-height: 1.22;
+    letter-spacing: -0.004em;
+    font-weight: 400;
+  }
+
+  .term-anchor {
+    color: inherit;
+    text-decoration: none;
+  }
+  .term-arrow {
+    color: var(--section-accent);
+  }
+
+  .term-anchor:hover {
+    color: var(--section-accent);
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
+    text-decoration-thickness: 1px;
+  }
+
+  .lexicon-row:target h3 {
+    color: var(--section-accent);
+  }
+
+  .lexicon-row p {
+    margin: 0;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.91rem;
+    line-height: 1.65;
+    color: rgba(31, 31, 31, 0.88);
+    max-width: 72ch;
+  }
+
+
+  .lexicon-group-title {
+    margin: 0 0 1.25rem 0;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--section-accent);
+  }
+
+  .lexicon-list + .lexicon-group-title {
+    margin-top: 3rem;
+  }
+
+  .lexicon-group-intro {
+    margin: 0 0 1.5rem;
+    max-width: 72ch;
+    /*font-family: Inter, system-ui, sans-serif;*/
+    font-size: 0.96rem;
+    line-height: 1.65;
+    color: rgba(31,31,31,.72);
+  }
+
+  @media (max-width: 820px) {
+  }
+</style>

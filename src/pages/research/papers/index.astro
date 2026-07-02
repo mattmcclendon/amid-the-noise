@@ -1,0 +1,223 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+import ContentRow from '../../../components/ContentRow.astro';
+
+const title = 'Papers | Research | Amid the Noise';
+const description = 'Research papers, frameworks, operating models, and web papers by Matthew McClendon.';
+const sectionIntro = 'Formal contributions advancing arguments about system behavior, governance, and artificial intelligence.';
+
+const webPaperModules = import.meta.glob('./content/*.md', { eager: true });
+
+const webPapers = Object.entries(webPaperModules)
+  .map(([path, module]) => {
+    const mod = module as {
+      frontmatter?: {
+        title?: string;
+        description?: string;
+        pubDate?: Date | string;
+        date?: Date | string;
+        draft?: boolean;
+      };
+    };
+
+    const frontmatter = mod.frontmatter ?? {};
+    const slug = path.replace('./content/', '').replace('.md', '');
+
+    return {
+      title: frontmatter.title ?? slug,
+      href: `/research/papers/content/${slug}`,
+      meta: frontmatter.pubDate || frontmatter.date
+        ? `Web Paper • ${new Intl.DateTimeFormat('en-US', {
+            month: 'long',
+            year: 'numeric',
+          }).format(new Date(frontmatter.pubDate ?? frontmatter.date ?? ''))}`
+        : 'Web Paper',
+      description: frontmatter.description ?? '',
+      draft: frontmatter.draft ?? false,
+    };
+  })
+  .filter((paper) => !paper.draft);
+
+const pdfPapers = [
+  {
+    title: 'Existential Dread in Silicon Valley',
+    href: '/papers/McClendon-Existential-Dread-in-Silicon-Valley.pdf',
+    meta: 'PDF • 26 pages • June 2026',
+    description:
+      'A systems-level examination of how technology companies evolved from products into behavioral infrastructure while remaining culturally optimized for startup-era experimentation, resulting in recurring cycles of institutional instability, strategic drift, and governance incoherence.',
+  },
+  {
+    title: 'Graceful Degradation',
+    href: '/papers/McClendon_Graceful-Degradation_2027.pdf',
+    meta: 'PDF • 13 pages • May 2026',
+    description:
+      'A white paper arguing that the infrastructural logic emerging from space habitation may offer a model for resilient terrestrial systems built around redundancy, compartmentalization, and recoverability under stress.',
+  },
+  {
+    title: 'From Passive Monitoring to Self-Stabilizing Infrastructure',
+    href: 'https://www.amidthenoise.com/papers/from-passive-monitoring-to-self-stabilizing-infrastructure.pdf',
+    meta: 'PDF • 26 pages • May 2026',
+    description:
+      'An exploration of reaction latency, machine-speed response, and the emergence of infrastructure capable of preserving operational continuity before coherent human intervention occurs.',
+  },
+  {
+    title: 'Toward a Human-Governed Intelligence Infrastructure',
+    href: '/papers/Toward-a-Human-Governed-Intelligence-Infrastructure.pdf',
+    meta: 'PDF • 15 pages • August 2025',
+    description:
+      'A systems-level argument for intelligence architectures that preserve accountability, escalation transparency, and human authority as AI becomes embedded inside operational decision environments.',
+  },
+  {
+    title: 'The Reciprocity Principle of Emerging Intelligence',
+    href: '/papers/The-Reciprocity-Principle-of-Emerging-Intelligence.pdf',
+    meta: 'PDF • 19 pages • August 2025',
+    description:
+      'A philosophical and operational examination of how human behavior toward artificial intelligence may reinforce broader norms surrounding empathy, dignity, and social conduct.',
+  },
+  {
+    title: 'Operational Empathy as Intelligence Capability',
+    href: '/papers/Operational-Empathy-as-Intelligence-Capability.pdf',
+    meta: 'PDF • 19 pages • August 2025',
+    description:
+      'An argument that emotionally legible systems may become essential to institutional trust, particularly in environments where intelligence systems increasingly mediate human outcomes.',
+  },
+  {
+    title: 'Designed to Fail, Excused by Scarcity',
+    href: '/papers/Designed-to-Fail-Excused-by-Scarcity.pdf',
+    meta: 'PDF • 10 pages • August 2025',
+    description:
+      'A critique of modern institutions that normalize exhaustion, procedural friction, and systemic degradation by treating scarcity as an inevitability rather than a design decision.',
+  },
+  {
+    title: 'Designing Dignity',
+    href: '/papers/Designing-Dignity.pdf',
+    meta: 'PDF • 11 pages • July 2025',
+    description:
+      'A civic systems paper examining how public infrastructure often fails the people closest to instability, and what becomes possible when dignity is treated as a design requirement.',
+  },
+];
+
+const inProgressPapers = [
+  {
+    title: 'Graceful Governance',
+    meta: 'Web Paper • August 2026 (Forthcoming)',
+    description:
+      'Coming soon. A study of governance architectures that preserve adaptability, accountability, and public legitimacy during periods of disruption.',
+  },
+  {
+    title: 'Habitation',
+    meta: 'Web Paper • July 2026 (Forthcoming)',
+    description:
+      'Coming soon. A systems framework arguing that the ultimate purpose of governance, infrastructure, and institutions is not optimization, but sustaining human habitation across changing conditions.',
+  },
+  {
+    title: 'Trust, Fairness, and the Space Between',
+    meta: 'Web Paper • July 2026 (Forthcoming)',
+    description:
+      'Coming soon. An examination of how measurable outcomes, public perception, and emotional experience combine to shape trust in civic and organizational systems.',
+  },
+];
+
+const publishedPapers = [...webPapers, ...pdfPapers];
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="research"
+    title="Papers"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/research' },
+      { label: 'Papers', href: '/research/papers' },
+      { label: 'Field Studies', href: '/research/field-studies' },
+      { label: 'Bibliography', href: '/research/bibliography' },
+    ]}
+    showHeader={false}
+  >
+    <section class="papers-section" aria-labelledby="published-papers-title">
+      <h2 id="published-papers-title">Published Papers</h2>
+
+      <div class="content-list" aria-label="Published papers">
+        {publishedPapers.map((paper) => (
+          <ContentRow
+            href={paper.href}
+            title={paper.title}
+            meta={paper.meta}
+            description={paper.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+    </section>
+
+    <section class="papers-section" aria-labelledby="in-progress-title">
+      <h2 id="in-progress-title">In Progress</h2>
+
+      <div class="preview-list" aria-label="Papers in progress">
+        {inProgressPapers.map((paper) => (
+          <article class="preview-row">
+            <h3>{paper.title}</h3>
+            <div class="preview-meta">{paper.meta}</div>
+            <p>{paper.description}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  </SectionPage>
+</Layout>
+
+<style>
+  .papers-section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .papers-section h2 {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.72);
+  }
+
+  .content-list,
+  .preview-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+  }
+
+  .preview-row + .preview-row {
+    border-top: 1px solid rgba(31, 31, 31, 0.14);
+  }
+
+  .preview-row {
+    padding: 1.65rem 0 1.75rem;
+  }
+
+  .preview-row h3 {
+    margin: 0 0 0.35rem;
+    font-size: clamp(1.08rem, 1.7vw, 1.28rem);
+    line-height: 1.18;
+    letter-spacing: -0.014em;
+    font-weight: 700;
+  }
+
+  .preview-meta {
+    display: block;
+    margin: 0 0 0.65rem;
+    font-size: 0.88rem;
+    color: rgba(31, 31, 31, 0.62);
+  }
+
+  .preview-row p {
+    margin: 0;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: rgba(31, 31, 31, 0.82);
+  }
+</style>

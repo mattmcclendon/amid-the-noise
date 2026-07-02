@@ -1,0 +1,74 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+import ContentRow from '../../../components/ContentRow.astro';
+import SectionMoreLink from '../../../components/SectionMoreLink.astro';
+
+const title = 'Case Studies | Career | Amid the Noise';
+const description = 'Case studies from Matthew McClendon’s career across enterprise software, AI, civic systems, and consumer internet.';
+const sectionIntro = 'Evidence in practice. Selected projects illustrating decision governance, human-centered AI, and the design of complex systems.';
+
+const studyModules = import.meta.glob('./content/*.md', { eager: true });
+
+const studies = Object.entries(studyModules)
+  .map(([path, module]) => {
+    const mod = module as {
+      frontmatter?: {
+        title?: string;
+        description?: string;
+        company?: string;
+        organization?: string;
+        client?: string;
+        context?: string;
+        role?: string;
+        draft?: boolean;
+      };
+    };
+
+    const frontmatter = mod.frontmatter ?? {};
+    const slug = path.replace('./content/', '').replace('.md', '');
+    const meta =
+      frontmatter.company ??
+      frontmatter.organization ??
+      frontmatter.client ??
+      frontmatter.context ??
+      frontmatter.role ??
+      'Case Study';
+
+    return {
+      slug,
+      title: frontmatter.title ?? slug,
+      href: `/career/case-studies/content/${slug}`,
+      meta,
+      description: frontmatter.description ?? '',
+      draft: frontmatter.draft ?? false,
+    };
+  })
+  .filter((study) => !study.draft)
+  .sort((a, b) => a.meta.localeCompare(b.meta));
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="career"
+    title="Case Studies"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/career' },
+      { label: 'Case Studies', href: '/career/case-studies' },
+      { label: 'Timeline', href: '/career/timeline' },
+      { label: 'Learning', href: '/career/learning' }
+    ]}
+  >
+    {studies.map((study) => (
+      <ContentRow
+        href={study.href}
+        title={study.title}
+        meta={study.meta}
+        description={study.description}
+        tags={[]}
+      />
+    ))}
+    <SectionMoreLink href="/career" label="Back to Career overview" />
+  </SectionPage>
+</Layout>

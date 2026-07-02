@@ -1,5 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import SectionPage from '../../components/SectionPage.astro';
+import PublicationRow from '../../components/PublicationRow.astro';
 
 const postModules = import.meta.glob('./*.md', { eager: true });
 
@@ -42,7 +44,7 @@ const tagCounts = datedPosts.reduce((acc, post) => {
   }
   return acc;
 }, new Map());
-
+/*
 const allTags = [...tagCounts.entries()]
   .filter(([, count]) => count >= 2)
   .sort((a, b) => {
@@ -51,16 +53,26 @@ const allTags = [...tagCounts.entries()]
   })
   .slice(0, 14)
   .map(([tag]) => tag);
+  */
+
+const title = 'Archive | Writing | Amid the Noise';
+const pageTitle = 'Archive';
+const pageIntro = 'The complete publication record. Every essay, reflection, and note published since the project’s inception.';
 ---
 
-<Layout title="Archive | Amid the Noise">
-<section class="section" data-pagefind-ignore>
-    <h1>Archive</h1>
-    <p>
-      A working chronological archive of essays and reflections on systems, signal, and the structures that shape how people think, decide, and act. Some entries are scheduled ahead as future releases, offering readers a quiet glimpse into what is still taking shape.
-    </p>
+<Layout title={title}>
+  <SectionPage
+    section="writing"
+    title={pageTitle}
+    intro={pageIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/writing' },
+      { label: 'Collections', href: '/writing/collections' },
+      { label: 'Archive', href: '/writing/archive' },
+    ]}
+  >
     <!--<p>{posts.length} posts loaded</p-->
-
+<!--
     {allTags.length > 0 && (
       <div class="filters" aria-label="Filter posts by tag">
         <div class="filters-header">
@@ -85,114 +97,120 @@ const allTags = [...tagCounts.entries()]
         </div>
       </div>
     )}
-  </section>
+  -->
+  
 
   <section class="section" data-pagefind-ignore>
-    {datedPosts.map((post) => (
-      <article class="entry" data-tags={(post.frontmatter.tags ?? []).join('|')}>
-        <h3>
-          <a href={post.url}>{post.frontmatter.title}</a>
-        </h3>
+    {datedPosts.map((post) => {
+      const tags = post.frontmatter.tags ?? [];
+      const displayDate = new Date(post.postTime).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        timeZone: 'UTC',
+      });
+      const datetime = new Date(post.postTime).toISOString();
 
-        <p class="entry-meta">
-          {new Date(post.postTime).toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-            timeZone: 'UTC',
-          })}
-        </p>
-
-        <p>{post.frontmatter.description}</p>
-
-        {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-          <div class="entry-tags">
-            {post.frontmatter.tags.map((tag) => (
-              <button class="entry-tag" type="button" data-filter-trigger={tag}>{tag}</button>
-            ))}
-          </div>
-        )}
-      </article>
-    ))}
+      return (
+        <PublicationRow
+          className="entry"
+          dataTags={tags.join('|')}
+          href={post.url}
+          title={post.frontmatter.title}
+          date={displayDate}
+          datetime={datetime}
+          description={post.frontmatter.description}
+          tags={tags}
+          tagsAsButtons={true}
+          accent="var(--accent-writing)"
+        />
+      );
+    })}
 
     <p class="archive-count">{datedPosts.length} posts</p>
   </section>
+  </SectionPage>
 
 <script>
-  const chips = Array.from(document.querySelectorAll('.filter-chip'));
-  const entries = Array.from(document.querySelectorAll('.entry'));
-  const tagTriggers = Array.from(document.querySelectorAll('[data-filter-trigger]'));
-  const filterToggle = document.querySelector('.filters-toggle');
-  const filterPanel = document.querySelector('.filters-panel');
-  const filterToggleValue = document.querySelector('.filters-toggle-value');
+  document.addEventListener('DOMContentLoaded', () => {
+    const chips = Array.from(document.querySelectorAll('.filter-chip'));
+    const entries = Array.from(document.querySelectorAll('.entry'));
+    const tagTriggers = Array.from(document.querySelectorAll('[data-filter-trigger]'));
+    const filterToggle = document.querySelector('.filters-toggle');
+    const filterPanel = document.querySelector('.filters-panel');
+    const filterToggleValue = document.querySelector('.filters-toggle-value');
 
-  const setPanelOpen = (isOpen) => {
-    if (!filterToggle || !filterPanel) return;
-    filterToggle.setAttribute('aria-expanded', String(isOpen));
-    filterPanel.hidden = !isOpen;
-    filterToggle.classList.toggle('is-open', isOpen);
-  };
+    const setPanelOpen = (isOpen) => {
+      if (!filterToggle || !filterPanel) return;
+      filterToggle.setAttribute('aria-expanded', String(isOpen));
+      filterPanel.hidden = !isOpen;
+      filterToggle.classList.toggle('is-open', isOpen);
+    };
 
-  const applyFilter = (filter) => {
-    let firstVisibleEntry = null;
+    const applyFilter = (filter) => {
+      let firstVisibleEntry = null;
 
-    entries.forEach((entry) => {
-      const tags = (entry.getAttribute('data-tags') || '').split('|').filter(Boolean);
-      const matches = filter === 'all' || tags.includes(filter);
-      entry.style.display = matches ? '' : 'none';
-      entry.classList.remove('is-first-visible');
+      entries.forEach((entry) => {
+        const tags = (entry.getAttribute('data-tags') || '').split('|').filter(Boolean);
+        const matches = filter === 'all' || tags.includes(filter);
+        entry.style.display = matches ? '' : 'none';
+        entry.classList.remove('is-first-visible');
 
-      if (matches && !firstVisibleEntry) {
-        firstVisibleEntry = entry;
+        if (matches && !firstVisibleEntry) {
+          firstVisibleEntry = entry;
+        }
+      });
+
+      if (firstVisibleEntry) {
+        firstVisibleEntry.classList.add('is-first-visible');
       }
-    });
 
-    if (firstVisibleEntry) {
-      firstVisibleEntry.classList.add('is-first-visible');
+      chips.forEach((chip) => {
+        chip.classList.toggle('is-active', chip.dataset.filter === filter);
+      });
+
+      if (filterToggleValue) {
+        filterToggleValue.textContent = filter === 'all' ? 'All' : filter;
+      }
+    };
+
+    if (filterToggle) {
+      filterToggle.addEventListener('click', () => {
+        const isOpen = filterToggle.getAttribute('aria-expanded') === 'true';
+        setPanelOpen(!isOpen);
+      });
     }
 
     chips.forEach((chip) => {
-      chip.classList.toggle('is-active', chip.dataset.filter === filter);
+      chip.addEventListener('click', () => {
+        applyFilter(chip.dataset.filter || 'all');
+        setPanelOpen(false);
+      });
     });
 
-    if (filterToggleValue) {
-      filterToggleValue.textContent = filter === 'all' ? 'All' : filter;
-    }
-  };
+    tagTriggers.forEach((trigger) => {
+      trigger.addEventListener('click', (event) => {
+        event.preventDefault();
+        event.stopPropagation();
 
-  if (filterToggle) {
-    filterToggle.addEventListener('click', () => {
-      const isOpen = filterToggle.getAttribute('aria-expanded') === 'true';
-      setPanelOpen(!isOpen);
+        const tag = trigger.getAttribute('data-filter-trigger') || 'all';
+        applyFilter(tag);
+        setPanelOpen(false);
+        const filterRow = document.querySelector('.filters');
+        if (filterRow) {
+          filterRow.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      });
     });
-  }
 
-  chips.forEach((chip) => {
-    chip.addEventListener('click', () => {
-      applyFilter(chip.dataset.filter || 'all');
-      setPanelOpen(false);
-    });
-  });
-
-  tagTriggers.forEach((trigger) => {
-    trigger.addEventListener('click', () => {
-      const tag = trigger.getAttribute('data-filter-trigger') || 'all';
-      applyFilter(tag);
-      setPanelOpen(false);
-      const filterRow = document.querySelector('.filters');
-      if (filterRow) {
-        filterRow.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    document.addEventListener('click', (event) => {
+      if (!filterToggle || !filterPanel) return;
+      const target = event.target;
+      if (!(target instanceof Node)) return;
+      if (!filterToggle.contains(target) && !filterPanel.contains(target)) {
+        setPanelOpen(false);
       }
     });
-  });
-
-  document.addEventListener('click', (event) => {
-    if (!filterToggle || !filterPanel) return;
-    const target = event.target;
-    if (!(target instanceof Node)) return;
-    if (!filterToggle.contains(target) && !filterPanel.contains(target)) {
-      setPanelOpen(false);
-    }
   });
 </script>
 </Layout>
@@ -324,52 +342,21 @@ const allTags = [...tagCounts.entries()]
     font-style: italic;
   }
 
-  .entry-tags {
-    margin: 2px 0 0;
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
   .entry.is-first-visible {
     border-top: 0 !important;
   }
 
-  .entry {
-    position: relative;
-    padding-left: 1rem;
-  }
-
-  .entry::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 24px;
-    width: 3px;
-    height: 3.35rem;
-    background: var(--accent-writing);
-    opacity: 1;
-    pointer-events: none;
-  }
-
-  .entry:first-of-type::before,
-  .entry.is-first-visible::before {
-    top: 0;
-  }
-
-  .entry-tag {
-    display: inline-block;
-    font-size: 0.72rem;
-    line-height: 1;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--secondary);
-    border: 1px solid var(--line);
-    padding: 5px 7px;
-    background: transparent;
+  .publication-tag-button {
     appearance: none;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
     cursor: pointer;
-    font-family: inherit;
   }
 
   h2 {
@@ -379,13 +366,6 @@ const allTags = [...tagCounts.entries()]
     color: var(--secondary);
     margin: 0 0 22px;
     font-weight: 500;
-  }
-
-  .entry h3 {
-    font-size: 1.15rem;
-    line-height: 1.35;
-    font-weight: 600;
-    margin: 0 0 4px;
   }
 
   .archive-count {

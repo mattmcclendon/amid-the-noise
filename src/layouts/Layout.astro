@@ -96,12 +96,17 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
           </div>
 
           <nav class="site-nav" aria-label="Primary">
+            <a href="/writing" class="nav-writing">Writing</a>
+            <a href="/research" class="nav-research">Research</a>
+            <a href="/lexicon" class="nav-lexicon">Lexicon</a>
+            <a href="/career" class="nav-career">Career</a>
+            <!--
             <a href="/work" class="nav-work">Work</a>
             <a href="/writing" class="nav-writing">Writing</a>
             <a href="/thinking" class="nav-thinking">Ideas</a>
             <a href="/papers" class="nav-papers">Papers</a>
             <a href="/learning" class="nav-learning">Learning</a>
-            <!--<a href="/about" class="nav-about">About</a>-->
+            <a href="/about" class="nav-about">About</a>-->
             <a href="/search" class="site-search-link nav-search" aria-label="Search">
               <img src="/search.svg" alt="" aria-hidden="true" class="site-search-icon" />
             </a>
@@ -181,12 +186,17 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     --accent-slate: #334155; /* slate */
 
     /* Section colors */
-    --accent-work: var(--accent-rust); /* rust */
     --accent-writing: var(--accent-plum); /* plum */
-    --accent-learning: var(--accent-blue-gray); /* blue-gray */
-    --accent-papers: var(--accent-graphite); /* graphite */
-    --accent-thinking: var(--accent-brass); /* brass */
+    --accent-research: var(--accent-brass); /* brass, formerly Ideas */
+    --accent-lexicon: var(--accent-blue-gray); /* blue-gray, formerly Learning */
+    --accent-career: var(--accent-rust); /* rust, formerly Work */
     --accent-neutral: var(--accent-slate); /* slate */
+
+    /* Legacy section aliases */
+    --accent-work: var(--accent-career);
+    --accent-learning: var(--accent-lexicon);
+    --accent-papers: var(--accent-graphite);
+    --accent-thinking: var(--accent-research);
     --line: #ddd8cf;
 
     --frame-width: 1080px;
@@ -324,12 +334,29 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     transform: scaleX(1);
   }
 
-  .site-nav .nav-work {
-    --nav-accent: var(--accent-work);
-  }
-
   .site-nav .nav-writing {
     --nav-accent: var(--accent-writing);
+  }
+
+  .site-nav .nav-research {
+    --nav-accent: var(--accent-research);
+  }
+
+  .site-nav .nav-lexicon {
+    --nav-accent: var(--accent-lexicon);
+  }
+
+  .site-nav .nav-career {
+    --nav-accent: var(--accent-career);
+  }
+
+  .site-nav .nav-search {
+    --nav-accent: var(--accent-neutral);
+  }
+
+  /* Legacy nav aliases */
+  .site-nav .nav-work {
+    --nav-accent: var(--accent-work);
   }
 
   .site-nav .nav-learning {
@@ -344,8 +371,7 @@ const ogImageUrl = new URL(ogImage, siteUrl).toString();
     --nav-accent: var(--accent-thinking);
   }
 
-  .site-nav .nav-about,
-  .site-nav .nav-search {
+  .site-nav .nav-about {
     --nav-accent: var(--accent-neutral);
   }
 

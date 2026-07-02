@@ -1,0 +1,124 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SectionPage from '../../components/SectionPage.astro';
+import ContentRow from '../../components/ContentRow.astro';
+import SectionMoreLink from '../../components/SectionMoreLink.astro';
+
+const title = 'Career | Amid the Noise';
+const description = 'Career, case studies, timeline, and learning from Matthew McClendon.';
+const sectionIntro = 'The provenance of the work. A record of the projects, systems, and environments that trained the judgment behind the writing. It maps where the patterns were tested, refined, and formalized.';
+
+const featuredCaseStudies = [
+  {
+    title: 'Designing Trust Inside Modern Data Infrastructure',
+    href: '/career/case-studies/content/dremio',
+    meta: 'Dremio',
+    description:
+      'Across financial services, healthcare, and enterprise infrastructure, the work clarified how semantic systems, lineage, and cognitive legibility help people trust complex data environments.',
+  },
+  {
+    title: 'Designing Human-Governed AI in a Regulated Enterprise',
+    href: '/career/case-studies/content/wells-fargo',
+    meta: 'Wells Fargo',
+    description:
+      'Inside Wells Fargo AI Enterprise Solutions, the work focused on operationalizing trust in regulated AI systems through governance frameworks, human oversight, interpretability, and scalable experimentation across 17 business units.',
+  },
+  {
+    title: 'Designing Trust Inside AI-Assisted Automation',
+    href: '/career/case-studies/content/automation-anywhere',
+    meta: 'Automation Anywhere',
+    description:
+      'As automation moved from deterministic rules toward adaptive systems, the work focused on explainability, confidence calibration, and human oversight inside operational workflows.',
+  },
+];
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="career"
+    title="Career"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/career' },
+      { label: 'Case Studies', href: '/career/case-studies' },
+      { label: 'Timeline', href: '/career/timeline' },
+      { label: 'Learning', href: '/career/learning' },
+    ]}
+  >
+    <section class="career-section" aria-labelledby="case-studies-title">
+      <h2 id="case-studies-title">Case Studies</h2>
+
+      <div class="content-list" aria-label="Featured case studies">
+        {featuredCaseStudies.map((study) => (
+          <ContentRow
+            href={study.href}
+            title={study.title}
+            meta={study.meta}
+            description={study.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+
+      <SectionMoreLink href="/career/case-studies" label="View all case studies" />
+    </section>
+
+    <section class="career-section" aria-labelledby="timeline-title">
+      <h2 id="timeline-title">Timeline</h2>
+      <div class="career-note">
+        <p>
+          The career timeline shows how the work moved through consumer internet, enterprise software, financial services, automation, data infrastructure, civic systems, and AI. The titles changed, but the central pattern remained: make complex systems legible enough for decisions to hold.
+        </p>
+        <SectionMoreLink href="/career/timeline" label="View the timeline" />
+      </div>
+    </section>
+
+    <section class="career-section" aria-labelledby="learning-title">
+      <h2 id="learning-title">Learning</h2>
+      <div class="career-note">
+        <p>
+          Learning gathers the formal study, applied practice, and continuous education behind the work. It includes universities, executive programs, technical study, and the slower discipline of turning exposure into judgment.
+        </p>
+        <SectionMoreLink href="/career/learning" label="Explore learning" />
+      </div>
+    </section>
+  </SectionPage>
+</Layout>
+
+<style>
+  .career-section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .career-section h2 {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.72);
+  }
+
+  .content-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+  }
+
+  .career-note {
+    max-width: 42rem;
+  }
+
+  .career-note p {
+    margin: 0 0 1rem;
+    font-size: 0.96rem;
+    line-height: 1.6;
+    color: rgba(31, 31, 31, 0.82);
+  }
+
+  .career-note p:last-child {
+    margin-bottom: 0;
+  }
+</style>

@@ -1,0 +1,244 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+import DestinationRow from '../../../components/DestinationRow.astro';
+
+const title = 'Bibliography | Research | Amid the Noise';
+const description = 'Books, papers, authors, references, and influences that shape the research vocabulary of Amid the Noise.';
+const sectionIntro = 'The intellectual bedrock. A curated body of sources, references, and further reading that informs the research.';
+
+const bibliographySections = [
+  {
+    title: 'Systems, Governance, and Institutions',
+    description:
+      'Works that shape the language of institutions, public systems, legitimacy, civic trust, and the design of durable structures under pressure.',
+    entries: [
+      {
+        title: 'Seeing Like a State',
+        creator: 'James C. Scott',
+        note:
+          'A foundational text for thinking about legibility, administrative simplification, and the gap between institutional models and lived reality.',
+      },
+      {
+        title: 'The Death and Life of Great American Cities',
+        creator: 'Jane Jacobs',
+        note:
+          'An essential influence on observing cities as living systems rather than abstract plans imposed from above.',
+      },
+      {
+        title: 'The Fifth Discipline',
+        creator: 'Peter M. Senge',
+        note:
+          'A systems-thinking reference point for learning organizations, feedback loops, and the habits that allow institutions to perceive themselves more accurately.',
+      },
+      {
+        title: 'Normal Accidents',
+        creator: 'Charles Perrow',
+        note:
+          'A useful framework for understanding how tightly coupled, complex systems fail in ways no single actor fully controls.',
+      },
+    ],
+  },
+  {
+    title: 'Technology, Intelligence, and Human Judgment',
+    description:
+      'References that inform the site’s approach to AI, decision systems, interpretability, governance, and human accountability.',
+    entries: [
+      {
+        title: 'Human Compatible',
+        creator: 'Stuart Russell',
+        note:
+          'Important background for thinking about alignment, human preference, and the limits of technical capability without governance.',
+      },
+      {
+        title: 'The Design of Everyday Things',
+        creator: 'Don Norman',
+        note:
+          'A core design text for understanding affordance, feedback, error, and the ways systems teach people how to act.',
+      },
+      {
+        title: 'Weapons of Math Destruction',
+        creator: 'Cathy O’Neil',
+        note:
+          'A practical reminder that models become political when they affect people at scale while hiding assumptions behind technical authority.',
+      },
+      {
+        title: 'Algorithms of Oppression',
+        creator: 'Safiya Umoja Noble',
+        note:
+          'A key influence for thinking about search, classification, bias, and the social consequences of computational systems.',
+      },
+    ],
+  },
+  {
+    title: 'Writing, Signal, and Cultural Interpretation',
+    description:
+      'Writers and observers whose work models compression, moral clarity, cultural reading, and the discipline of making complex systems visible.',
+    entries: [
+      {
+        title: 'Essays and criticism',
+        creator: 'James Baldwin',
+        note:
+          'A recurring influence on moral perception, clarity under pressure, and the refusal to let public language evade human consequence.',
+      },
+      {
+        title: 'Essays, lectures, and fiction',
+        creator: 'Mark Twain',
+        note:
+          'An influence on observational method, compression, irony, and the ability to make systems legible through ordinary speech.',
+      },
+      {
+        title: 'The Twilight Zone',
+        creator: 'Rod Serling',
+        note:
+          'A model for using speculative premises to expose civic, institutional, and moral structures that ordinary realism can miss.',
+      },
+      {
+        title: 'Nineteen Eighty-Four and essays',
+        creator: 'George Orwell',
+        note:
+          'A durable reference for language, power, institutional truth, and the fragility of shared reality under political pressure.',
+      },
+    ],
+  },
+  {
+    title: 'Science, Space, and Thought Experiments',
+    description:
+      'Sources that shape the site’s habit of using astronomy, science fiction, physics, and world-building as laboratories for civic thought.',
+    entries: [
+      {
+        title: 'Astronomia Nova',
+        creator: 'Johannes Kepler',
+        note:
+          'A historical anchor for the discipline of honoring observed reality when inherited models fail to explain what the world is doing.',
+      },
+      {
+        title: '2001: A Space Odyssey',
+        creator: 'Stanley Kubrick and Arthur C. Clarke',
+        note:
+          'A recurring reference point for intelligence, tools, human evolution, and the unease that appears when systems exceed familiar understanding.',
+      },
+      {
+        title: 'Star Trek',
+        creator: 'Gene Roddenberry and successors',
+        note:
+          'A long-running civic thought experiment about institutions, exploration, governance, pluralism, and life inside designed systems.',
+      },
+      {
+        title: 'HALO',
+        creator: 'Bungie, 343 Industries, and Greg Bear',
+        note:
+          'A major influence on thinking about ancillas, augmented intelligence, human-machine partnership, governance across civilizations, and the relationship between memory, identity, and decision-making.',
+      },
+      {
+        title: 'Battlestar Galactica',
+        creator: 'Ronald D. Moore',
+        note:
+          'A recurring influence on legitimacy under crisis, institutional continuity, scarcity, civilian governance, and the moral burden of leadership when every decision carries existential consequence.',
+      },
+      {
+        title: 'The Expanse',
+        creator: 'James S. A. Corey',
+        note:
+          'A useful modern reference for infrastructure, scarcity, political legitimacy, and the consequences of human systems expanding beyond their original scale.',
+      },
+    ],
+  },
+];
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="research"
+    title="Bibliography"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/research' },
+      { label: 'Papers', href: '/research/papers' },
+      { label: 'Field Studies', href: '/research/field-studies' },
+      { label: 'Bibliography', href: '/research/bibliography' },
+    ]}
+    showHeader={false}
+  >
+    {bibliographySections.map((section) => (
+      <section class="bibliography-section" aria-labelledby={`${section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-title`}>
+        <h2 id={`${section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-title`}>{section.title}</h2>
+        <p class="section-note">{section.description}</p>
+
+        <div class="source-list">
+          {section.entries.map((entry) => (
+            <article class="source-row">
+              <h3>{entry.title}</h3>
+              <div class="source-meta">{entry.creator}</div>
+              <p>{entry.note}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+    ))}
+  </SectionPage>
+</Layout>
+
+<style>
+  .bibliography-section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .bibliography-section h2 {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.72);
+  }
+
+  .section-note {
+    margin: 0 0 1rem;
+    max-width: 72ch;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: rgba(31, 31, 31, 0.82);
+  }
+
+  .source-list,
+  .destination-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+  }
+
+  .source-row + .source-row {
+    border-top: 1px solid rgba(31, 31, 31, 0.14);
+  }
+
+  .source-row {
+    padding: 1.65rem 0 1.75rem;
+  }
+
+  .source-row h3 {
+    margin: 0 0 0.35rem;
+    font-size: clamp(1.08rem, 1.7vw, 1.28rem);
+    line-height: 1.18;
+    letter-spacing: -0.014em;
+    font-weight: 700;
+  }
+
+  .source-meta {
+    display: block;
+    margin: 0 0 0.65rem;
+    font-size: 0.88rem;
+    color: rgba(31, 31, 31, 0.62);
+  }
+
+  .source-row p {
+    margin: 0;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: rgba(31, 31, 31, 0.82);
+  }
+</style>

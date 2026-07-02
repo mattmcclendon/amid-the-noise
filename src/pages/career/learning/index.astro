@@ -1,0 +1,61 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+import SectionMoreLink from '../../../components/SectionMoreLink.astro';
+
+const title = 'Learning | Career | Amid the Noise';
+const description = 'Formal study, continuous education, and lifelong learning that shaped Matthew McClendon’s work.';
+const sectionIntro = 'The formal foundation. Academic study and sustained learning that underpin the research and systems thinking practice.';
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="career"
+    title="Learning"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/career' },
+      { label: 'Case Studies', href: '/career/case-studies' },
+      { label: 'Timeline', href: '/career/timeline' },
+      { label: 'Learning', href: '/career/learning' },
+    ]}
+  >
+    <section class="learning-placeholder" aria-labelledby="learning-in-progress-title">
+      <h2 id="learning-in-progress-title">In Development</h2>
+      <div class="learning-note">
+        <p>
+          This page will document the formal education, technical disciplines, executive programs, field observation, and sustained self-directed study that underpin the work throughout this site. Rather than collecting credentials, it will show how continuous learning became a practical method for entering unfamiliar domains, understanding complex systems, and strengthening judgment over time.
+        </p>
+      </div>
+      <SectionMoreLink href="/career" label="Back to Career overview" />
+    </section>
+  </SectionPage>
+</Layout>
+
+<style>
+  .learning-placeholder {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .learning-placeholder h2 {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.72);
+  }
+
+  .learning-note {
+    max-width: 42rem;
+  }
+
+  .learning-note p {
+    margin: 0;
+    font-size: 0.96rem;
+    line-height: 1.6;
+    color: rgba(31, 31, 31, 0.82);
+  }
+</style>

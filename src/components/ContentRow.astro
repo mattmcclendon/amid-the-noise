@@ -1,0 +1,122 @@
+---
+interface Props {
+  title: string;
+  href: string;
+  meta?: string;
+  datetime?: string;
+  metaLabel?: string;
+  description?: string;
+  tags?: string[];
+  accent?: string;
+  showAccentBar?: boolean;
+}
+
+const {
+  title,
+  href,
+  meta,
+  datetime,
+  metaLabel,
+  description,
+  tags = [],
+  accent = 'var(--section-accent)',
+  showAccentBar = true,
+} = Astro.props;
+---
+
+<article class="content-row">
+  <a href={href} class:list={{ 'has-accent': showAccentBar }} style={`--row-accent:${accent}`}>
+    <div>
+      <h3>{title}</h3>
+      {meta && datetime ? (
+        <time datetime={datetime}>{meta}</time>
+      ) : meta ? (
+        <div class="content-meta" aria-label={metaLabel}>{meta}</div>
+      ) : null}
+      {description && <p>{description}</p>}
+
+      {tags.length > 0 && (
+        <ul class="content-tags" aria-label="Tags">
+          {tags.map((tag) => (
+            <li>{tag}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </a>
+</article>
+
+<style>
+  .content-row + .content-row {
+    border-top: 1px solid rgba(31,31,31,.14);
+  }
+
+  .content-row a {
+    position: relative;
+    display: grid;
+    padding: 1.65rem 0 1.75rem 1rem;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .content-row a.has-accent::before {
+    content: '';
+    position: absolute;
+    top: 1.45rem;
+    left: 0;
+    width: 3px;
+    height: 56px;
+    background: var(--row-accent);
+  }
+
+  .content-row h3 {
+    margin: 0 0 .35rem;
+    font-size: clamp(1.02rem,1.45vw,1.18rem);
+    line-height: 1.18;
+    letter-spacing: -.014em;
+    font-weight: 700;
+  }
+
+  .content-row time,
+  .content-meta {
+    display:block;
+    margin:0 0 .65rem;
+    font-size:.88rem;
+    color:rgba(31,31,31,.62);
+  }
+
+  .content-row p {
+    margin:0 0 .75rem;
+    font-family:Inter,system-ui,sans-serif;
+    font-size:.92rem;
+    line-height:1.5;
+    color:rgba(31,31,31,.82);
+  }
+
+  .content-tags {
+    display:flex;
+    flex-wrap:wrap;
+    gap:.4rem;
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+
+  .content-tags li {
+    border:1px solid rgba(31,31,31,.14);
+    padding:.16rem .45rem;
+    font-family:Inter,system-ui,sans-serif;
+    font-size:.68rem;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    color:rgba(31,31,31,.72);
+    background:rgba(248,247,244,.4);
+  }
+
+  .content-row a:hover h3 {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+    text-decoration-thickness: 1px;
+  }
+</style>
