@@ -1,0 +1,264 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+import ContentRow from '../../../components/ContentRow.astro';
+import SectionMoreLink from '../../../components/SectionMoreLink.astro';
+
+const title = 'Evolving | Lexicon | Amid the Noise';
+const description = 'Evolving concepts in the Amid the Noise lexicon.';
+const sectionIntro = 'These concepts have survived first contact with the work. They appear across multiple essays, papers, field studies, or case studies, but their definitions are still being refined as better evidence emerges.';
+
+const sectionNav = [
+  { label: 'Overview', href: '/lexicon' },
+  { label: 'Evolving', href: '/lexicon/evolving' },
+  { label: 'Established', href: '/lexicon/established' },
+];
+
+const featuredConcepts = [
+  {
+    title: 'Signal Integrity',
+    description:
+      'The degree to which information remains aligned with reality as it moves through systems, interfaces, institutions, incentives, and interpretation. Signal integrity is not a property of data alone. It is preserved or degraded by the structures that carry it.',
+  },
+  {
+    title: 'Decision Systems',
+    description:
+      'The structures that determine what becomes visible, how options are framed, how uncertainty is handled, and where responsibility ultimately resides. A decision system begins before the moment of choice.',
+  },
+  {
+    title: 'Operational Empathy',
+    description:
+      'Empathy translated into system behavior through workflows, defaults, escalation paths, and governance. It is not a tone or sentiment. It is the operational capacity to preserve dignity and context under pressure.',
+  },
+];
+
+const relatedWork = [
+  {
+    title: 'Truth, Structured',
+    href: '/writing/truth-structured',
+    meta: 'Writing',
+    accent: 'var(--accent-writing)',
+    description:
+      'An essay on how truth is shaped upstream by systems that select, order, and frame information before interpretation begins.',
+  },
+  {
+    title: 'System Architecture for Governed Intelligence',
+    href: '/writing/system-architecture-for-governed-intelligence',
+    meta: 'Writing',
+    accent: 'var(--accent-writing)',
+    description:
+      'A paper-style essay defining how auditability, control, and signal integrity become enforceable at the system level.',
+  },
+  {
+    title: 'Designing Human-Governed AI in a Regulated Enterprise',
+    href: '/research/field-studies/content/wells-fargo',
+    meta: 'Field Study',
+    accent: 'var(--accent-research)',
+    description:
+      'A field study of governance, human oversight, interpretability, and scalable experimentation inside regulated AI systems.',
+  },
+];
+
+const evolvingConcepts = [
+  {
+    title: 'Human Judgment',
+    description:
+      'The interpretive human act of weighing context, uncertainty, consequence, responsibility, and values before action is taken.',
+  },
+  {
+    title: 'Human-Governed Intelligence',
+    description:
+      'Intelligence systems designed so human direction, accountability, escalation, and judgment remain structurally present.',
+  },
+  {
+    title: 'AI as Infrastructure',
+    description:
+      'The treatment of artificial intelligence as a civic, operational, and institutional layer rather than a standalone product or spectacle.',
+  },
+  {
+    title: 'Institutional Transparency',
+    description:
+      'The degree to which an institution makes its reasoning, constraints, evidence, and decision pathways visible enough to be examined.',
+  },
+  {
+    title: 'Decision Support',
+    description:
+      'Systems that help people perceive, compare, interpret, and act without transferring responsibility away from human judgment.',
+  },
+  {
+    title: 'Interpretability',
+    description:
+      'The capacity to understand why a system produced a result, what inputs shaped it, and where uncertainty remains.',
+  },
+  {
+    title: 'Auditability',
+    description:
+      'The ability to reconstruct what happened inside a system well enough to evaluate behavior, accountability, and consequence.',
+  },
+  {
+    title: 'Reciprocal Intelligence',
+    description:
+      'The feedback relationship between intelligent systems and human behavior, where each shapes the other over time.',
+  },
+  {
+    title: 'Operational Intelligence',
+    description:
+      'Intelligence expressed through workflows, roles, escalation paths, and repeatable decisions rather than insight alone.',
+  },
+  {
+    title: 'Decision Architecture',
+    description:
+      'The design of how choices are structured, sequenced, framed, constrained, and made visible before a decision occurs.',
+  },
+  {
+    title: 'Visible Understanding',
+    description:
+      'The use of AI and design to replace invisible complexity with forms people can inspect, question, and act upon.',
+  },
+  {
+    title: 'Design Becomes Policy',
+    description:
+      'Design becomes policy the moment it ships because shipped systems constrain real choices and produce lived outcomes.',
+  },
+  {
+    title: 'The System Decides First',
+    description:
+      'Decisions begin before the moment of choice, in the systems that select, rank, frame, hide, and make options available.',
+  },
+  {
+    title: 'Truth Is Shaped Before It Is Interpreted',
+    description:
+      'Understanding begins upstream, where systems decide what information appears, how it is framed, and what context survives.',
+  },
+];
+
+const slugifyTerm = (term: string) =>
+  term
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="lexicon"
+    title="Evolving"
+    intro={sectionIntro}
+    sectionNav={sectionNav}
+    showHeader={false}
+  >
+    <section class="lexicon-section" aria-labelledby="featured-concepts-title">
+      <h2 id="featured-concepts-title">Currently Stabilizing</h2>
+      <div class="featured-concepts" aria-label="Featured evolving concepts">
+        {featuredConcepts.map((entry) => (
+          <article class="featured-concept" id={slugifyTerm(entry.title)}>
+            <h3>{entry.title}</h3>
+            <p>{entry.description}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="lexicon-section" aria-labelledby="related-work-title">
+      <h2 id="related-work-title">Where This Thinking Appears</h2>
+      <div class="content-list" aria-label="Related writing and research">
+        {relatedWork.map((item) => (
+          <ContentRow
+            href={item.href}
+            title={item.title}
+            meta={item.meta}
+            accent={item.accent}
+            description={item.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+    </section>
+
+    <section class="lexicon-section" aria-labelledby="additional-concepts-title">
+      <h2 id="additional-concepts-title">Additional Evolving Concepts</h2>
+      <div class="lexicon-list" aria-label="Additional evolving lexicon terms">
+        {evolvingConcepts.map((entry) => (
+          <article class="lexicon-row" id={slugifyTerm(entry.title)}>
+            <h3>{entry.title}</h3>
+            <p>{entry.description}</p>
+          </article>
+        ))}
+      </div>
+      <SectionMoreLink href="/lexicon/established" label="Explore established concepts" />
+    </section>
+  </SectionPage>
+</Layout>
+
+<style>
+  .lexicon-section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .lexicon-section:first-child {
+    margin-top: 0;
+  }
+
+  .lexicon-section:first-child h2 {
+    margin-top: 1.75rem;
+  }
+
+  .lexicon-section h2 {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--section-accent);
+  }
+
+  .featured-concepts,
+  .content-list,
+  .lexicon-list {
+    display: grid;
+    gap: 0;
+  }
+
+  .featured-concept {
+    border-top: 1px solid var(--line);
+    padding: 1.35rem 0 1.45rem;
+  }
+
+  .featured-concept:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .featured-concept h3,
+  .lexicon-row h3 {
+    margin: 0 0 0.5rem;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: clamp(0.96rem, 1.25vw, 1.06rem);
+    line-height: 1.22;
+    letter-spacing: -0.004em;
+    font-weight: 400;
+    color: var(--title);
+  }
+
+  .featured-concept p,
+  .lexicon-row p {
+    max-width: 72ch;
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: rgba(31, 31, 31, 0.88);
+  }
+
+  .lexicon-row {
+    border-top: 1px solid var(--line);
+    padding: 1.35rem 0 1.45rem;
+  }
+
+  .lexicon-row:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+</style>

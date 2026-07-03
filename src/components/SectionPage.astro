@@ -93,7 +93,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     margin: 0;
     font-size: 1rem;
     line-height: 1.6;
-    color: rgba(31, 31, 31, 0.82);
+    color: rgba(31, 31, 31, 0.9);
   }
 
   .section-page__nav {
@@ -112,23 +112,23 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   }
 
   .section-page__nav a {
-    color: rgba(31, 31, 31, 0.5);
+    color: rgba(31, 31, 31, 0.76);
     text-decoration: none;
   }
 
   .section-page__nav a + a::before {
     content: '/';
     margin-right: 0.75rem;
-    color: rgba(31, 31, 31, 0.28);
+    color: rgba(31, 31, 31, 0.42);
   }
 
   .section-page__nav a[aria-current='page'] {
-    color: rgba(31, 31, 31, 0.76);
-    font-weight: 600;
+    color: var(--section-accent);
+    font-weight: 700;
   }
 
   .section-page__nav a:hover {
-    color: rgba(31, 31, 31, 0.9);
+    color: var(--section-accent);
     text-decoration: underline;
     text-underline-offset: 0.14em;
     text-decoration-thickness: 1px;
