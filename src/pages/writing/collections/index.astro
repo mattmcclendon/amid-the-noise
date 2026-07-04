@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import SectionPage from '../../../components/SectionPage.astro';
 import ContentRow from '../../../components/ContentRow.astro';
 import { writingCollections } from '../../../data/writingCollections';
+import ArchiveImageModule from '../../../components/ArchiveImageModule.astro';
 
 const title = 'Collections | Writing | Amid the Noise';
 const description = 'Curated reading paths through Amid the Noise.';
@@ -22,14 +23,25 @@ const pageIntro = 'Curated reading paths through the archive. Essays organized b
     ]}
   >
     <section class="collections-list" aria-label="Writing collections">
-      {writingCollections.map((collection) => (
-        <ContentRow
-          href={`/writing/collections/${collection.slug}`}
-          title={collection.title}
-          meta="Collection"
-          description={collection.description}
-          tags={[]}
-        />
+      {writingCollections.map((collection, index) => (
+        <>
+          <ContentRow
+            href={`/writing/collections/${collection.slug}`}
+            title={collection.title}
+            meta="Collection"
+            description={collection.description}
+            tags={[]}
+          />
+
+          {index === 3 && (
+            <div class="collections-image-break">
+              <ArchiveImageModule
+                src="/images/pages/atn-writing-collections-001.png"
+                alt="Archival illustration representing curated reading paths across Amid the Noise."
+              />
+            </div>
+          )}
+        </>
       ))}
     </section>
   </SectionPage>
@@ -39,5 +51,8 @@ const pageIntro = 'Curated reading paths through the archive. Essays organized b
   .collections-list {
     display: grid;
     gap: 0;
+  }
+  .collections-image-break {
+    margin: -4rem 0 -3rem 0;
   }
 </style>

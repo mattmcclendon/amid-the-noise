@@ -2,6 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import SectionPage from '../../../components/SectionPage.astro';
 import DestinationRow from '../../../components/DestinationRow.astro';
+import ArchiveImageModule from '../../../components/ArchiveImageModule.astro';
 
 const title = 'Bibliography | Research | Amid the Noise';
 const description = 'Books, papers, authors, references, and influences that shape the research vocabulary of Amid the Noise.';
@@ -160,21 +161,32 @@ const bibliographySections = [
     ]}
     showHeader={false}
   >
-    {bibliographySections.map((section) => (
-      <section class="bibliography-section" aria-labelledby={`${section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-title`}>
-        <h2 id={`${section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-title`}>{section.title}</h2>
-        <p class="section-note">{section.description}</p>
+    {bibliographySections.map((section, index) => (
+      <>
+        <section class="bibliography-section" aria-labelledby={`${section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-title`}>
+          <h2 id={`${section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-title`}>{section.title}</h2>
+          <p class="section-note">{section.description}</p>
 
-        <div class="source-list">
-          {section.entries.map((entry) => (
-            <article class="source-row">
-              <h3>{entry.title}</h3>
-              <div class="source-meta">{entry.creator}</div>
-              <p>{entry.note}</p>
-            </article>
-          ))}
-        </div>
-      </section>
+          <div class="source-list">
+            {section.entries.map((entry) => (
+              <article class="source-row">
+                <h3>{entry.title}</h3>
+                <div class="source-meta">{entry.creator}</div>
+                <p>{entry.note}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        {index === 2 && (
+          <div class="bibliography-image-break">
+            <ArchiveImageModule
+              src="/images/pages/atn-research-bibliography-001.png"
+              alt="Archival illustration representing research sources, references, and intellectual foundations."
+            />
+          </div>
+        )}
+      </>
     ))}
   </SectionPage>
 </Layout>
@@ -240,5 +252,8 @@ const bibliographySections = [
     font-size: 0.92rem;
     line-height: 1.5;
     color: rgba(31, 31, 31, 0.82);
+  }
+  .bibliography-image-break {
+    margin: -5rem 0 -4rem;
   }
 </style>

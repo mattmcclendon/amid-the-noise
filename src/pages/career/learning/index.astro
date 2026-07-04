@@ -2,10 +2,11 @@
 import Layout from '../../../layouts/Layout.astro';
 import SectionPage from '../../../components/SectionPage.astro';
 import SectionMoreLink from '../../../components/SectionMoreLink.astro';
+import ArchiveImageModule from '../../../components/ArchiveImageModule.astro';
 
 const title = 'Learning | Career | Amid the Noise';
 const description = 'Formal study, continuous education, and lifelong learning that shaped Matthew McClendon’s work.';
-const sectionIntro = 'The formal foundation. Academic study and sustained learning that underpin the research and systems thinking practice.';
+const sectionIntro = 'A record of formal study, failed starts, continuing education, and the return to mathematics.';
 ---
 
 <Layout title={title} description={description}>
@@ -21,12 +22,63 @@ const sectionIntro = 'The formal foundation. Academic study and sustained learni
     ]}
   >
     <section class="learning-placeholder" aria-labelledby="learning-in-progress-title">
-      <h2 id="learning-in-progress-title">In Development</h2>
+      <h2 id="learning-in-progress-title">Introduction</h2>
+
       <div class="learning-note">
+        <blockquote class="hero-quote">
+          <p>“Knowledge doesn’t simply accumulate. It reshapes the person who acquires it.”</p>
+        </blockquote>
+
         <p>
-          This page will document the formal education, technical disciplines, executive programs, field observation, and sustained self-directed study that underpin the work throughout this site. Rather than collecting credentials, it will show how continuous learning became a practical method for entering unfamiliar domains, understanding complex systems, and strengthening judgment over time.
+          College did not go as planned. The learning continued anyway.
+        </p>
+
+        <p>
+          Work became the classroom. Writing made the gaps visible. School became useful again.
         </p>
       </div>
+
+      <ArchiveImageModule
+        src="/images/pages/atn-learning-001.png"
+        alt="Archival illustration representing lifelong learning, formal study, and intellectual formation"
+        caption="Learning, treated as an archive rather than a credential list."
+        width="standard"
+      />
+
+      <div class="learning-list" aria-label="Educational journey">
+        <article class="learning-entry">
+          <div class="learning-years">1992–1994</div>
+          <div class="learning-content">
+            <h3>Oklahoma State University</h3>
+            <p>The failed start. Physics was the plan. Readiness was not.</p>
+          </div>
+        </article>
+
+        <article class="learning-entry">
+          <div class="learning-years">2004–2018</div>
+          <div class="learning-content">
+            <h3>Stanford University</h3>
+            <p>Improv, the d.school, and ICME. Learning returned through practice.</p>
+          </div>
+        </article>
+
+        <article class="learning-entry">
+          <div class="learning-years">2017–Present</div>
+          <div class="learning-content">
+            <h3>Massachusetts Institute of Technology</h3>
+            <p>Structured curiosity across AI, mathematics, economics, philosophy, computer science, and systems thinking. More than twenty executive certificates.</p>
+          </div>
+        </article>
+
+        <article class="learning-entry">
+          <div class="learning-years">2026–2031</div>
+          <div class="learning-content">
+            <h3>California State University, East Bay</h3>
+            <p>Bachelor's degree in Mathematics with a concentration in Statistics.</p>
+          </div>
+        </article>
+      </div>
+
       <SectionMoreLink href="/career" label="Back to Career overview" />
     </section>
   </SectionPage>
@@ -52,10 +104,73 @@ const sectionIntro = 'The formal foundation. Academic study and sustained learni
     max-width: 42rem;
   }
 
-  .learning-note p {
+  .learning-note > * + * {
+    margin-top: 1.35rem;
+  }
+
+  blockquote.hero-quote {
+    max-width: 40rem;
+    margin: 12px 0 2rem;
+    padding: 4px 0 12px 16px;
+    border: 0;
+    border-left: 2px solid var(--line);
+    font-size: 1.28rem;
+    line-height: 1.5;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--title);
+  }
+
+  blockquote.hero-quote > p {
     margin: 0;
-    font-size: 0.96rem;
-    line-height: 1.6;
-    color: rgba(31, 31, 31, 0.82);
+    font: inherit;
+    font-style: italic;
+    color: inherit;
+  }
+
+  .learning-list {
+    margin-top: 3rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .learning-entry {
+    display: grid;
+    grid-template-columns: 9rem 1fr;
+    gap: 1.0rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .learning-years {
+    padding-top: .2rem;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: rgba(31,31,31,.50);
+  }
+
+  .learning-content h3 {
+    margin: 0 0 .6rem;
+    font-size: clamp(1.35rem,2vw,1.7rem);
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+  }
+
+  .learning-content p {
+    margin: 0;
+    max-width: 40rem;
+    font-size: .98rem;
+    line-height: 1.7;
+    color: rgba(31,31,31,.78);
+  }
+
+  @media (max-width:720px){
+    .learning-entry {
+      grid-template-columns: 1fr;
+      gap: .5rem;
+    }
   }
 </style>

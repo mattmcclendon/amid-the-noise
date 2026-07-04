@@ -1,0 +1,77 @@
+
+
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+  credit?: string;
+  width?: 'narrow' | 'standard' | 'wide';
+}
+
+const {
+  src,
+  alt,
+  caption,
+  credit,
+  width = 'standard',
+} = Astro.props;
+---
+
+<figure class={`archive-image ${width}`}>
+  <img src={src} alt={alt} loading="lazy" />
+
+  {(caption || credit) && (
+    <figcaption>
+      {caption && <p class="caption">{caption}</p>}
+      {credit && <p class="credit">{credit}</p>}
+    </figcaption>
+  )}
+</figure>
+
+<style>
+  .archive-image {
+    margin: 3rem 0;
+  }
+
+  .archive-image.narrow {
+    max-width: 34rem;
+  }
+
+  .archive-image.standard {
+    max-width: 44rem;
+  }
+
+  .archive-image.wide {
+    max-width: 100%;
+  }
+
+  .archive-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /*border: 1px solid var(--line);*/
+    background: var(--surface);
+  }
+
+  figcaption {
+    margin-top: .9rem;
+  }
+
+  .caption {
+    margin: 0;
+    font-size: .86rem;
+    line-height: 1.6;
+    font-style:italic;
+    color: rgba(31,31,31,.82);
+    text-align:center;
+  }
+
+  .credit {
+    margin: .35rem 0 0;
+    font-size: .74rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: rgba(31,31,31,.55);
+  }
+</style>

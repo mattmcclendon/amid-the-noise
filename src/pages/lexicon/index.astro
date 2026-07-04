@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import SectionPage from '../../components/SectionPage.astro';
 import ContentRow from '../../components/ContentRow.astro';
 import SectionMoreLink from '../../components/SectionMoreLink.astro';
+import ArchiveImageModule from '../../components/ArchiveImageModule.astro';
 
 const title = 'Lexicon | Amid the Noise';
 const description = 'A working lexicon of emerging language, concepts, and frameworks used across Amid the Noise.';
@@ -138,6 +139,10 @@ const slugifyTerm = (term: string) =>
         ))}
       </div>
       <SectionMoreLink href="/lexicon/evolving" label="Explore evolving concepts" />
+      <ArchiveImageModule
+        src="/images/pages/atn-lexicon-001.png"
+        alt="Archival illustration representing the evolving language and concepts of Amid the Noise."
+      />
     </section>
   </SectionPage>
 </Layout>
