@@ -3,6 +3,7 @@ layout: ../../../../layouts/PublicationLayout.astro
 title: "Designing Systems Before They Were Called Systems"
 description: "Early lessons from Friendster, Autodesk, and Evernote on how systems can appear to function while failing beneath the surface—and how those patterns shape system design today."
 author: "Matthew McClendon"
+company: "Friendster/Autodesk/Evernote"
 heroImage: ""
 heroAlt: ""
 ---

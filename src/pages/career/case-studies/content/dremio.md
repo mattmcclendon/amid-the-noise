@@ -3,6 +3,7 @@ layout: ../../../../layouts/PublicationLayout.astro
 title: "Designing Decision Clarity in Distributed Data Systems"
 description: "Restructuring data workflows at Dremio to reduce ambiguity, improve trust, and accelerate decision-making across enterprise environments."
 author: "Matthew McClendon"
+company: "Dremio"
 heroImage: ""
 heroAlt: ""
 ---

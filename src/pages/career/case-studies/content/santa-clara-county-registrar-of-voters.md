@@ -3,6 +3,7 @@ layout: ../../../../layouts/PublicationLayout.astro
 title: "Designing Access in Civic Decision Systems"
 description: "Examining how large-scale voting systems establish access, trust, and defensibility through language, staffing, and observable design."
 author: "Matthew McClendon"
+company: "Santa Clara County Registrar of Voters"
 heroImage: ""
 heroAlt: ""
 ---

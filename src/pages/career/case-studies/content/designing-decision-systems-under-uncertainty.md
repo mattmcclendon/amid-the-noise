@@ -3,6 +3,7 @@ layout: ../../../../layouts/PublicationLayout.astro
 title: "Designing Decision Systems Under Uncertainty"
 description: "Operating inside ambiguous environments to surface decision boundaries, align stakeholders, and make complex systems actionable."
 author: "Matthew McClendon"
+company: "Amid the Noise"
 heroImage: ""
 heroAlt: ""
 ---

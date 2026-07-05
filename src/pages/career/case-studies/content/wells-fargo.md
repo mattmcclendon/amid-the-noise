@@ -3,6 +3,7 @@ layout: ../../../../layouts/PublicationLayout.astro
 title: "Designing Decision Governance in Regulated AI Systems"
 description: "Enabling safe, testable AI adoption at Wells Fargo by designing decision frameworks that balance innovation with risk, compliance, and accountability."
 author: "Matthew McClendon"
+company: "Wells Fargo"
 heroImage: "/images/writing/designing-decision-governance-in-regulated-ai-systems.png"
 heroAlt: "Hero image for Designing Decision Governance in Regulated AI Systems, showing Wells Fargo-inspired decision governance pathways, human oversight, policy controls, and audit traceability."
 ---

@@ -3,6 +3,7 @@ layout: ../../../../layouts/PublicationLayout.astro
 title: "Designing 0→1 Systems Inside a Legacy Enterprise"
 description: "Leading internal incubation at CA Technologies to de-risk emerging technologies and build new product pathways beyond legacy enterprise constraints."
 author: "Matthew McClendon"
+company: "CA Technologies"
 heroImage: ""
 heroAlt: ""
 ---

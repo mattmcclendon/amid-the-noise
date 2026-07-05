@@ -3,6 +3,7 @@ layout: ../../../../layouts/PublicationLayout.astro
 title: "Designing Human-in-the-Loop Control for AI Automation"
 description: "Restructuring AI-driven automation at Automation Anywhere to improve trust, control, and decision clarity in high-stakes workflows."
 author: "Matthew McClendon"
+company: "Automation Anywhere"
 heroImage: "/images/writing/designing-human-in-the-loop-control-for-ai-automation.png"
 heroAlt: "Hero image for the Automation Anywhere case study 'Designing Human-in-the-Loop Control for AI Automation.'"
 ---
