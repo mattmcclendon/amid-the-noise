@@ -26,15 +26,18 @@ const sectionIntro = 'A record of formal study, failed starts, continuing educat
 
       <div class="learning-note">
         <blockquote class="hero-quote">
-          <p>“Knowledge doesn’t simply accumulate. It reshapes the person who acquires it.”</p>
+          <p>
+            “Knowledge doesn’t simply accumulate. It reshapes the person acquiring it.”<br />
+            <span class="quote-attribution">— Matthew McClendon</span>
+          </p>
         </blockquote>
 
         <p>
-          College did not go as planned. The learning continued anyway.
+          My education has never followed a straight line. It has been shaped as much by failure, curiosity, and experience as by classrooms and degrees.
         </p>
 
         <p>
-          Work became the classroom. Writing made the gaps visible. School became useful again.
+          Each chapter answered a different question. Oklahoma State taught me I wasn't ready. Stanford rekindled my love of learning. MIT closed an important gap. I had the intuition and experience, but not the formal vocabulary to communicate it. Self-education became a genuine passion for learning, leading to forty courses and twenty-plus executive certificates.
         </p>
       </div>
 
@@ -50,7 +53,7 @@ const sectionIntro = 'A record of formal study, failed starts, continuing educat
           <div class="learning-years">1992–1994</div>
           <div class="learning-content">
             <h3>Oklahoma State University</h3>
-            <p>The failed start. Physics was the plan. Readiness was not.</p>
+            <p>The burden of expectation. I arrived assuming success was inevitable, then discovered that intelligence and readiness are not the same. Physics became civil engineering, then undecided, before uncertainty took over.</p>
           </div>
         </article>
 
@@ -58,15 +61,15 @@ const sectionIntro = 'A record of formal study, failed starts, continuing educat
           <div class="learning-years">2004–2018</div>
           <div class="learning-content">
             <h3>Stanford University</h3>
-            <p>Improv, the d.school, and ICME. Learning returned through practice.</p>
+            <p>For years, Stanford represented the world I wanted to be part of. What started as prestige chasing became a genuine love of learning. Improv changed how I communicate; ICME sparked my passion for data science.</p>
           </div>
         </article>
 
         <article class="learning-entry">
-          <div class="learning-years">2017–Present</div>
+          <div class="learning-years">2017–2026</div>
           <div class="learning-content">
             <h3>Massachusetts Institute of Technology</h3>
-            <p>Structured curiosity across AI, mathematics, economics, philosophy, computer science, and systems thinking. More than twenty executive certificates.</p>
+            <p>MIT closed an important gap. I had the intuition and experience, but not the formal vocabulary to communicate it. Self-education became a genuine passion for learning, leading to forty courses and twenty-plus executive certificates.</p>
           </div>
         </article>
 
@@ -74,7 +77,7 @@ const sectionIntro = 'A record of formal study, failed starts, continuing educat
           <div class="learning-years">2026–2031</div>
           <div class="learning-content">
             <h3>California State University, East Bay</h3>
-            <p>Bachelor's degree in Mathematics with a concentration in Statistics.</p>
+            <p>People often asked what I would study if I could start over at eighteen. My answer was always statistics and probability. Eventually I realized I didn't have to be eighteen to begin. A B.S. in Mathematics with a concentration in Statistics is the result.</p>
           </div>
         </article>
       </div>
@@ -128,6 +131,17 @@ const sectionIntro = 'A record of formal study, failed starts, continuing educat
     color: inherit;
   }
 
+  .quote-attribution {
+    display: block;
+    margin-top: 0.9rem;
+    margin-left: 1.75rem;
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: 500;
+    color: rgba(31, 31, 31, 0.62);
+    letter-spacing: 0.01em;
+  }
+
   .learning-list {
     margin-top: 3rem;
     border-top: 1px solid var(--line);
@@ -135,7 +149,7 @@ const sectionIntro = 'A record of formal study, failed starts, continuing educat
 
   .learning-entry {
     display: grid;
-    grid-template-columns: 9rem 1fr;
+    grid-template-columns: 7rem 1fr;
     gap: 1.0rem;
     padding: 2rem 0;
     border-bottom: 1px solid var(--line);

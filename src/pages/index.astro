@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import SectionMoreLink from '../components/SectionMoreLink.astro';
+import ArchiveImageModule from '../components/ArchiveImageModule.astro';
 
 const selectedSlugs = [
   'anecdotes-to-systems',
@@ -89,7 +90,12 @@ const normalizeTags = (tags) => {
     <img class="signature" src="/images/signature-matthew-mcclendon.svg" alt="Matthew McClendon signature" />
     <p class="signature-motto">Anecdotes are where I start. Systems are where we end up.</p>
   </section>
-
+  <div class="home-archive-plate">
+    <ArchiveImageModule
+      src="/images/pages/atn-home-001.png"
+      alt="Archival illustration introducing Amid the Noise."
+    />
+  </div>
   <section class="section work-section">
     <h2>Selected Work</h2>
 
@@ -352,8 +358,20 @@ const normalizeTags = (tags) => {
     background: var(--accent-writing);
   }
 
+  .home-archive-plate {
+    margin: 0 0 -1rem 0;
+    padding-top: 30px;
+    padding-bottom: -30px;
+    border-top: 1px solid var(--line);
+  }
+
+  .home-archive-plate :global(.archive-image) {
+    margin: 0 0 40px;
+  }
+
   .work-section {
     margin-top: 8px;
+    border-top: 0 !important;
   }
 
   .learning-section {
