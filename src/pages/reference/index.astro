@@ -1,0 +1,41 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SectionPage from "../../components/SectionPage.astro";
+import DestinationRow from "../../components/DestinationRow.astro";
+
+const title = 'Reference > Overview: Amid the Noise';
+const description = 'A shared vocabulary for understanding the ideas, methods, and sources that shape Amid the Noise.';
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="reference"
+    title="Reference"
+    intro="A shared vocabulary for understanding the ideas, methods, and sources that shape Amid the Noise."
+    sectionNav={[
+      { label: 'Overview', href: '/reference' },
+      { label: 'About Amid the Noise', href: '/reference/about-amid-the-noise' },
+      { label: 'Lexicon', href: '/reference/lexicon' },
+      { label: 'Bibliography', href: '/reference/bibliography' },
+    ]}
+  >
+    <p>
+      Reference brings together the conceptual foundations of <em>Amid the Noise</em>: the project's purpose, shared vocabulary, and the sources that have shaped its thinking.
+    </p>
+    <DestinationRow
+      title="About Amid the Noise"
+      description="The story, purpose, and evolution of the project itself."
+      href="/reference/about-amid-the-noise"
+    />
+    <DestinationRow
+      title="Lexicon"
+      description="Definitions and terminology used consistently throughout the site."
+      href="/reference/lexicon"
+    />
+    <DestinationRow
+      title="Bibliography"
+      description="Books, papers, articles, and other sources that have influenced the work."
+      href="/reference/bibliography"
+    />
+  </SectionPage>
+</Layout>

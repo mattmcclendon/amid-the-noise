@@ -1,0 +1,20 @@
+---
+import CollectionPage from '../../../components/CollectionPage.astro';
+import { writingCollections } from '../../../data/writingCollections';
+
+const collection = writingCollections.find(
+  (entry) => entry.slug === 'recovery-and-identity'
+);
+
+if (!collection) {
+  throw new Error('Collection not found: recovery-and-identity');
+}
+---
+
+<CollectionPage
+  title={`${collection.title} | Amid the Noise`}
+  description={collection.description}
+  collectionTitle={collection.title}
+  collectionIntro={collection.intro}
+  postTitles={collection.postTitles}
+/>

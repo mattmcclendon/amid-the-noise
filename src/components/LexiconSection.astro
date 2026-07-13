@@ -1,0 +1,107 @@
+---
+import EditorialSection from './EditorialSection.astro';
+import ContentRow from './ContentRow.astro';
+
+interface Concept {
+  title: string;
+  description: string;
+  href?: string;
+}
+
+interface RelatedWork {
+  title: string;
+  href: string;
+  meta: string;
+  description: string;
+}
+
+interface Props {
+  title: string;
+  featured: Concept[];
+  related: RelatedWork[];
+  additionalTitle: string;
+  additional: Concept[];
+}
+
+const { title, featured, related, additionalTitle, additional } = Astro.props;
+
+const slugify = (term: string) =>
+  term
+    .toLowerCase()
+    .replace(/→/g, '')
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+---
+
+<div class="lexicon-section">
+  <EditorialSection>
+    <h2 class="lexicon-heading">{title}</h2>
+
+  <div class="concept-list">
+    {featured.map((entry) => (
+      <article class="concept-card" id={slugify(entry.title)}>
+        <h3>{entry.href ? <a href={entry.href}>{entry.title} →</a> : entry.title}</h3>
+        <p class="concept-definition">{entry.description}</p>
+      </article>
+    ))}
+  </div>
+
+  <section class="related-work">
+    <h3>Where this thinking appears</h3>
+    <div class="content-list">
+      {related.map((item) => (
+        <ContentRow
+          href={item.href}
+          title={item.title}
+          meta={item.meta}
+          metaLabel="Content type"
+          description={item.description}
+          tags={[]}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="additional-concepts">
+    <h3>{additionalTitle}</h3>
+    <div class="concept-grid">
+      {additional.map((entry) => (
+        <article class="concept-card concept-card--compact" id={slugify(entry.title)}>
+          <h4>{entry.href ? <a href={entry.href}>{entry.title} →</a> : entry.title}</h4>
+          <p class="concept-definition">{entry.description}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+  </EditorialSection>
+</div>
+
+<style>
+.lexicon-section {
+  margin-top: 3rem;
+}
+
+.lexicon-heading,
+.related-work > h3,
+.additional-concepts > h3 {
+  margin: 0 0 1.25rem;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: .95rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--section-accent);
+}
+.concept-list,.content-list{display:grid;gap:0}
+.concept-card{padding:1.35rem 0 1.45rem;border-top:1px solid var(--line)}
+.concept-card:first-child{border-top:0;padding-top:0}
+.concept-card h3,.concept-card h4{margin:0 0 .5rem;font-family:Inter,system-ui,sans-serif;font-size:clamp(.96rem,1.25vw,1.06rem);font-weight:400;line-height:1.22}
+.concept-card a{color:inherit;text-decoration:none}
+.concept-card a:hover{text-decoration:underline;text-underline-offset:.14em}
+.concept-definition{margin:0;max-width:72ch;font-family:Inter,system-ui,sans-serif;font-size:.92rem;line-height:1.65;color:rgba(31,31,31,.88)}
+.related-work,.additional-concepts{margin-top:3rem}
+.concept-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2.5rem}
+.concept-card--compact:nth-child(-n+2){border-top:0;padding-top:0}
+@media(max-width:760px){.concept-grid{grid-template-columns:1fr}.concept-card--compact:nth-child(2){border-top:1px solid var(--line);padding-top:1.35rem}}
+</style>

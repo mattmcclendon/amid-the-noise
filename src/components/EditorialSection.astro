@@ -1,0 +1,22 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<section class:list={["editorial-section", className]}>
+  <slot />
+</section>
+
+<style>
+  .editorial-section + .editorial-section {
+    margin-top: 60px;
+  }
+
+  .editorial-section h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+</style>

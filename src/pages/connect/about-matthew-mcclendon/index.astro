@@ -1,0 +1,189 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+
+const title = 'Connect > About Matthew: Amid the Noise';
+const description = 'A short profile of Matthew McClendon and the work behind Amid the Noise.';
+const sectionIntro = 'Background, experience, interests, and the perspective behind the work.';
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="connect"
+    title="About Matthew"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/connect' },
+      { label: 'About Matthew', href: '/connect/about-matthew-mcclendon' },
+      { label: 'Résumé', href: '/connect/about-matthew-mcclendon/career/resume' },
+      { label: 'Education', href: '/connect/about-matthew-mcclendon/career/education' },
+    ]}
+  >
+  <section class="section about-hero" data-pagefind-ignore>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm Matthew McClendon, a San Francisco-based designer, technologist, writer, and father.</p>
+        <p>I design products where AI assists human judgment, especially when decisions carry operational, financial, or civic consequence. Underneath it, something more consequential is usually happening: a model is scoring, a workflow is routing, a signal is being interpreted, or a decision is being made under uncertainty.</p>
+        <p>That is where I do my best work: turning AI output into decisions people can trust, challenge, and defend in the real world.</p>
+      </div>
+
+      <div class="about-image-wrap">
+        <img
+          class="about-image"
+          src="/headshot-personal.png"
+          alt="Matthew McClendon portrait"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" data-pagefind-ignore>
+    <h2 class="section-heading">How I work</h2>
+    <p>I do my best work where the stakes are real and system behavior is difficult to see at a glance. AI-assisted products. Enterprise workflows. Financial, operational, and civic environments where the interface is only one layer of a much larger decision system.</p>
+    <p>Across every domain, the underlying question is remarkably consistent: <em>how do you make invisible system behavior legible enough for sound judgment?</em></p>
+    <p>That question has shaped three decades of design practice. It also led to the development of the HARMONIC Framework, a patent-backed body of work exploring how complex systems remain coherent, accountable, and trustworthy as they evolve.</p>
+    <p>I care about explainability, oversight, escalation paths, and feedback loops that help people remain oriented when software moves faster than human context.</p>
+    <p>My role is rarely to simplify complexity away. It is to make complexity understandable enough for people to exercise judgment with confidence. </p>
+  </section>
+
+  <section class="section" data-pagefind-ignore>
+    <h2 class="section-heading">A little more personally</h2>
+    <p>Technology has changed dramatically over the past thirty years. The questions that interest me have not.</p>
+    <p>I am fascinated by the relationship between people and the systems they inhabit, whether those systems are software platforms, civic institutions, organizations, or cities. Good systems expand human agency. Poor ones quietly narrow it.</p>
+    <p>Writing has always been how I test ideas before they become frameworks. Increasingly, that takes the form of essays, speculative fiction, and thought laboratories that explore governance, infrastructure, belonging, significance, and life beyond scarcity.</p>
+    <p>I have always been drawn to places that make human timescales feel small. Forest trails, coastlines, mountain roads, historic towns, and landscapes shaped long before I arrived. Many of the ideas explored throughout Amid the Noise began during long walks, road trips, and quiet mornings spent paying attention to places most people pass through.</p>
+    <p>Learning has never felt separate from living. It is simply the habit of remaining curious.</p>
+  </section>
+
+  <section class="section about-archive-plate" data-pagefind-ignore>
+    <img
+      class="about-archive-image"
+      src="/images/pages/atn-abt-001.png"
+      alt="Archival ink illustration of an empty reading chair and research table for the Amid the Noise About page"
+      loading="lazy"
+    />
+  </section>
+
+  <section class="section" data-pagefind-ignore>
+    <h2 class="section-heading">Focus</h2>
+    <p>AI-native product design • Enterprise UX • Human-in-the-loop systems • Explainability • Decision workflows • Trust & Safety • Signal integrity • Governance • Civic infrastructure • Organizational design</p>
+  </section>
+
+  <section class="section" data-pagefind-ignore>
+    <h2 class="section-heading">In Practice</h2>
+      <p>I design the kinds of systems I write about.</p>
+      <p>My work explores how trust is established, maintained, and repaired inside complex organizations where decisions increasingly involve automation, AI, and distributed responsibility. The writing extends those same questions into public institutions, civic infrastructure, governance, and everyday life.</p>
+      <p>Outside of product design, I stay close to the systems that shape communities directly. Election operations in Santa Clara County, involvement with my son's school, mentoring early-stage builders, and research into public policy all provide opportunities to observe how institutions succeed, where they struggle, and how thoughtful design can strengthen public trust.</p>
+      <p>The common thread is curiosity grounded in practice. I believe the best systems designers spend as much time observing the world as they do designing software.</p>
+  </section>
+
+  <section class="section" data-pagefind-ignore>
+    <h2 class="section-heading">Affiliations</h2>
+
+    <p>
+      <strong>Design, research & technology</strong><br />
+      Member, <a href="https://baychi.org" target="_blank" rel="noopener">BayCHI</a> (San Francisco Bay Area chapter of ACM SIGCHI)<br />
+      Member, <a href="https://ixda.org" target="_blank" rel="noopener">Interaction Design Association (IxDA)</a><br />
+      Member, <a href="https://uxpa.org" target="_blank" rel="noopener">UXPA International</a><br />
+      Member, <a href="https://www.computer.org" target="_blank" rel="noopener">IEEE Computer Society</a><br />
+      Member, <a href="https://www.aiga.org" target="_blank" rel="noopener">AIGA</a> (American Institute of Graphic Arts)<br />
+      Contributor, <a href="https://uxdesign.cc/" target="_blank" rel="noopener">UX Collective</a>
+    </p>
+
+    <br />
+
+    <p>
+      <strong>Civic, policy & community</strong><br />
+      Advisor, <a href="https://www.wacsv.org" target="_blank" rel="noopener">World Affairs Council of Silicon Valley</a><br />
+      Member, <a href="https://baymec.org" target="_blank" rel="noopener">BAYMEC</a> (Bay Area Municipal Elections Committee)<br />
+      Member, <a href="https://www.aclu.org" target="_blank" rel="noopener">American Civil Liberties Union</a><br />
+      Member, <a href="https://www.freelancersunion.org" target="_blank" rel="noopener">Freelancers Union</a><br />
+      Member, <a href="https://www.seiu521.org" target="_blank" rel="noopener">SEIU Local 521</a><br />
+      Election Operations, <a href="https://www.sccvote.org" target="_blank" rel="noopener">Santa Clara County Registrar of Voters</a><br />
+      Volunteer, <a href="https://www.castrocountryclub.org/" target="_blank" rel="noopener">Castro Country Club</a>, San Francisco, California
+    </p>
+
+    <br />
+
+    <p>
+      <strong>Professional & fraternal</strong><br />
+      Member, <a href="https://www.mensa.org" target="_blank" rel="noopener">MENSA International</a><br />
+      Master Mason, <a href="https://okmasons.org" target="_blank" rel="noopener">Altus Lodge No. 62, A.F. &amp; A.M.</a>, Altus, Oklahoma<br />
+    </p>
+  </section>
+
+  <section class="section" data-pagefind-ignore>
+    <h2 class="section-heading">Contact</h2>
+    <p>I am always interested in conversations about product design, AI governance, decision systems, civic infrastructure, organizational design, and the challenge of making complex systems understandable.</p>
+    <p>For collaborations, consulting, speaking engagements, or other opportunities, email  <a href="mailto:info@amidthenoise.com">info@amidthenoise.com</a>.</p>
+  </section>
+
+  </SectionPage>
+</Layout>
+
+<style>
+  .section-heading {
+    margin: 0 0 1.25rem;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--section-accent);
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 56px;
+    align-items: start;
+  }
+
+  .about-text {
+    min-width: 0;
+  }
+
+  .about-image-wrap {
+    justify-self: end;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .about-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line);
+    background: var(--bg);
+  }
+
+  .about-archive-plate {
+    padding-top: 1rem;
+  }
+
+  .about-archive-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: var(--bg);
+  }
+
+
+  @media (max-width: 900px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .about-image-wrap {
+      justify-self: start;
+      max-width: 260px;
+    }
+
+    .about-archive-plate {
+      padding-top: 0.5rem;
+    }
+  }
+</style>

@@ -1,0 +1,314 @@
+---
+import Layout from '../../../../../layouts/Layout.astro';
+import SectionPage from '../../../../../components/SectionPage.astro';
+import ArchiveImageModule from '../../../../../components/ArchiveImageModule.astro';
+import StudyLinks from '../../../../../components/StudyLinks.astro';
+
+const title = 'Connect > Résumé: Amid the Noise';
+const description = 'A concise professional résumé for Matthew McClendon, including selected leadership roles across AI systems, enterprise software, data platforms, and product design.';
+const sectionIntro = 'A concise professional record: roles, organizations, and the through-line behind the work.';
+
+const resumeEntries = [
+  {
+    years: '2026–Present',
+    title: 'Senior Experience Designer',
+    organization: 'Punchcut',
+    location: 'Remote',
+    text: 'Design enterprise experiences for Fortune 500 clients, translating complex business requirements into clear workflows, systems, and decision-support interfaces while partnering across design, product, and engineering.',
+  },
+  {
+    years: '2022–Present',
+    title: 'Founder & Chief Architect',
+    organization: 'Amid the Noise',
+    location: 'San Francisco, CA',
+    text: 'Lead a design and research practice focused on AI-enabled systems, decision workflows, interpretability, escalation, accountability, and human-AI collaboration.',
+  },
+  {
+    years: '2021–2022',
+    title: 'Principal UX Designer',
+    organization: 'Dremio',
+    location: 'San Jose, CA',
+    text: 'Led UX strategy and design for a data-intensive analytics platform, building the design function and improving onboarding, adoption, cognitive load, and decision reliability.',
+    links: [
+      { label: 'Case Study', href: '/read/studies/case-studies/content/dremio' },
+      { label: 'Field Study', href: '/read/studies/field-studies/content/dremio' },
+    ],
+  },
+  {
+    years: '2020–2021',
+    title: 'Principal UX Designer',
+    organization: 'Automation Anywhere',
+    location: 'San Jose, CA',
+    text: 'Designed AI-powered automation workflows, human-in-the-loop systems, explainable interaction models, telemetry, feedback systems, and operational controls for enterprise clients.',
+    links: [
+      { label: 'Case Study', href: '/read/studies/case-studies/content/automation-anywhere' },
+      { label: 'Field Study', href: '/read/studies/field-studies/content/automation-anywhere' },
+    ],
+  },
+  {
+    years: '2019',
+    title: 'Lead Design Thinker, AI Enterprise Solutions',
+    organization: 'Wells Fargo',
+    location: 'San Francisco, CA',
+    text: 'Worked with executive leadership on early AI and data-driven decision systems in a regulated environment, translating ML and NLP capabilities into usable product concepts.',
+    links: [
+      { label: 'Case Study', href: '/read/studies/case-studies/content/wells-fargo' },
+      { label: 'Field Study', href: '/read/studies/field-studies/content/wells-fargo' },
+    ],
+  },
+  {
+    years: '2017–2019',
+    title: 'Principal UX Designer',
+    organization: 'CA Technologies',
+    location: 'San Jose, CA',
+    text: 'Guided early-stage enterprise and data-driven product teams from concept toward scalable system design, usability, workflow clarity, and long-term product integrity.',
+    links: [
+      { label: 'Field Study', href: '/read/studies/field-studies/content/ca-technologies' },
+    ],
+  },
+  {
+    years: '1996–2016',
+    title: 'Product Design & Systems Innovation',
+    organization: 'Selected Roles',
+    location: 'Netscape · Friendster · Yahoo · Autodesk · Evernote',
+    text: 'Designed large-scale consumer and enterprise systems across web, mobile, personalization, social systems, content platforms, professional tools, and data environments.',
+    links: [
+      { label: 'Field Study', href: '/read/studies/field-studies/content/netscape' },
+      { label: 'Field Study', href: '/read/studies/field-studies/content/friendster' },
+    ],
+  },
+];
+
+const capabilities = [
+  'AI-assisted product design',
+  'Human-in-the-loop workflows',
+  'AI explainability and trust design',
+  'Complex workflow and decision systems',
+  'Data and analytics platforms',
+  'Enterprise software',
+  '0→1 product development',
+  'UX strategy and design systems',
+  'Interaction design and information architecture',
+  'Cross-functional leadership',
+];
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="connect"
+    title="Résumé"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/connect' },
+      { label: 'About Matthew', href: '/connect/about-matthew-mcclendon' },
+      { label: 'Résumé', href: '/connect/about-matthew-mcclendon/career/resume' },
+      { label: 'Education', href: '/connect/about-matthew-mcclendon/career/education' },
+    ]}
+  >
+    <section class="resume-section" aria-labelledby="resume-summary-title">
+      <h2 id="resume-summary-title" class="section-heading">Summary</h2>
+      <div class="resume-note">
+        <p>
+          Design executive with 30 years of experience building data-intensive platforms where clarity, trust, and decision speed directly impact outcomes. Focused on AI-assisted systems, data-driven workflows, and enterprise software where ambiguity must be translated into clear, usable decisions.
+        </p>
+        <p>
+          Specializes in human-in-the-loop systems, AI explainability, and complex workflow design. Known for making probabilistic systems understandable, designing for real-world use under pressure, and aligning product, engineering, and leadership around environments that are both powerful and accountable.
+        </p>
+      </div>
+    </section>
+
+    <section class="resume-section" aria-labelledby="resume-capabilities-title">
+      <h2 id="resume-capabilities-title" class="section-heading">Core capabilities</h2>
+      <ul class="capability-list">
+        {capabilities.map((capability) => (
+          <li>{capability}</li>
+        ))}
+      </ul>
+    </section>
+
+    <div class="resume-archive-image">
+      <ArchiveImageModule
+        src="/images/pages/atn-resume-001.png"
+        alt="An archival illustration tracing the evolution of computing and the practice of digital design."
+        width="60rem"
+      />
+    </div>
+    <section class="resume-section" aria-labelledby="resume-experience-title">
+      <h2 id="resume-experience-title" class="section-heading">Professional experience</h2>
+
+      <div class="resume-list" aria-label="Professional experience timeline">
+        {resumeEntries.map((entry) => (
+          <article class="resume-entry">
+            <div class="resume-years">{entry.years}</div>
+            <div class="resume-content">
+              <h3>{entry.title}</h3>
+              <p class="resume-organization">
+                <span class="resume-company">{entry.organization}</span>
+                <span class="resume-location">{entry.location}</span>
+              </p>
+              <p>{entry.text}</p>
+              <StudyLinks links={entry.links} />
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="resume-section" aria-labelledby="resume-engagement-title">
+      <h2 id="resume-engagement-title" class="section-heading">Thought leadership & public engagement</h2>
+      <div class="resume-note">
+        <p>
+          Author of Amid the Noise, with writing and frameworks focused on AI systems, trust, governance, decision workflows, and societal impact. Contributor to public-facing analysis and publications including the San Francisco Chronicle, Los Angeles Times, and Lawfare.
+        </p>
+      </div>
+    </section>
+
+    {}
+  </SectionPage>
+</Layout>
+
+<style>
+  .resume-section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-heading {
+    margin: 0 0 1.25rem;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--section-accent);
+  }
+
+  .resume-note {
+    max-width: 42rem;
+  }
+
+  .resume-note > * + * {
+    margin-top: 1.35rem;
+  }
+
+  .resume-note p {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: rgba(31, 31, 31, 0.78);
+    font-family: Inter, system-ui, sans-serif;
+  }
+
+  .resume-archive-image {
+    margin: -2.0rem 0 -1.0rem 0;
+  }
+
+  .capability-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem 1.25rem;
+    max-width: 46rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .capability-list li {
+    position: relative;
+    padding-left: 1rem;
+    font-size: 0.94rem;
+    line-height: 1.55;
+    color: rgba(31, 31, 31, 0.78);
+    font-family: Inter, system-ui, sans-serif;
+  }
+
+  .capability-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.68em;
+    width: 0.34rem;
+    height: 0.34rem;
+    border-radius: 999px;
+    background: rgba(31, 31, 31, 0.38);
+  }
+
+  .resume-list {
+    margin-top: 1.25rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .resume-entry {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: 1rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .resume-years {
+    padding-top: 0.2rem;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.5);
+  }
+
+  .resume-content h3 {
+    margin: 0 0 0.65rem;
+    font-size: clamp(1.28rem, 2vw, 1.6rem);
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+
+  .resume-organization {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.65rem;
+    row-gap: 0.1rem;
+    margin: 0 0 0.7rem;
+    font-family: Inter, system-ui, sans-serif;
+    line-height: 1.35;
+  }
+
+  .resume-company {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.64);
+  }
+
+  .resume-location {
+    white-space: nowrap;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: rgba(31, 31, 31, 0.5);
+  }
+
+  .resume-content p:not(.resume-organization) {
+    margin: 0;
+    max-width: 42rem;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(31, 31, 31, 0.78);
+  }
+
+  @media (max-width: 720px) {
+    .capability-list,
+    .resume-entry {
+      grid-template-columns: 1fr;
+    }
+
+    .resume-entry {
+      gap: 0.5rem;
+    }
+  }
+</style>

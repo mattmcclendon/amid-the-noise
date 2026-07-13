@@ -1,0 +1,63 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SectionPage from '../../components/SectionPage.astro';
+import EditorialSection from '../../components/EditorialSection.astro';
+import DestinationRow from '../../components/DestinationRow.astro';
+
+const title = 'Connect: Amid the Noise';
+const description = 'Connect with Matthew McClendon for collaboration, speaking, consulting, podcast conversations, and professional context.';
+const sectionIntro = 'The place to begin a conversation with the publication, its author, and the work behind it.';
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="connect"
+    title="Connect"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/connect' },
+      { label: 'About Matthew', href: '/connect/about-matthew-mcclendon' },
+      { label: 'Résumé', href: '/connect/about-matthew-mcclendon/career/resume' },
+      { label: 'Education', href: '/connect/about-matthew-mcclendon/career/education' },
+    ]}
+  >
+    <EditorialSection>
+      <p>
+        Whether you're interested in collaboration, speaking, consulting, the podcast, or simply reaching out, this is the starting point. From here you can learn more about Matthew or download a concise résumé.
+      </p>
+
+      <div class="destination-list" aria-label="Connect destinations">
+        <DestinationRow
+          href="mailto:hello@amidthenoise.com"
+          title="Contact"
+          description="Start a conversation about collaboration, speaking, consulting, podcast appearances, or research."
+        />
+        <DestinationRow
+          href="/connect/about-matthew-mcclendon"
+          title="About Matthew"
+          description="Background, experience, values, and the practice behind Amid the Noise."
+        />
+        <DestinationRow
+          href="/connect/about-matthew-mcclendon/career/resume"
+          title="Résumé"
+          description="A concise professional record for employers, collaborators, and clients."
+        />
+        <DestinationRow
+          href="/connect/about-matthew-mcclendon/career/education"
+          title="Education"
+          description="Formal study, continuing education, and the learning path behind the work."
+        />
+      </div>
+    </EditorialSection>
+
+  </SectionPage>
+</Layout>
+
+<style>
+  .destination-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+</style>

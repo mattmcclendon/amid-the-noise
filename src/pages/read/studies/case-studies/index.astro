@@ -1,0 +1,151 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import SectionPage from '../../../../components/SectionPage.astro';
+import EditorialSection from '../../../../components/EditorialSection.astro';
+import ContentRow from '../../../../components/ContentRow.astro';
+import SectionMoreLink from '../../../../components/SectionMoreLink.astro';
+
+const title = 'Read > Studies > Case Studies: Amid the Noise';
+const description = 'Case studies from Amid the Noise on design work, product decisions, organizational systems, and project outcomes.';
+const sectionIntro = 'Project-based studies of design work, product decisions, organizational outcomes, and the systems that shaped them.';
+
+const caseStudyModules = import.meta.glob('./content/*.md', { eager: true });
+
+type CaseStudyModule = {
+  frontmatter?: {
+    title?: string;
+    subtitle?: string;
+    description?: string;
+    company?: string;
+    organization?: string;
+    client?: string;
+    role?: string;
+    context?: string;
+    pubDate?: string | Date;
+    date?: string | Date;
+    draft?: boolean;
+    featured?: boolean;
+    featuredOrder?: number;
+    tags?: string[];
+  };
+};
+
+type CaseStudyItem = {
+  slug: string;
+  title: string;
+  href: string;
+  meta: string;
+  description: string;
+  draft: boolean;
+  featured: boolean;
+  featuredOrder: number;
+  date?: string | Date;
+};
+
+const getSlug = (path: string) => path.split('/').pop()?.replace('.md', '') ?? '';
+
+const getMeta = (frontmatter: CaseStudyModule['frontmatter'], fallback: string) =>
+  frontmatter?.company ??
+  frontmatter?.organization ??
+  frontmatter?.client ??
+  frontmatter?.context ??
+  frontmatter?.role ??
+  fallback;
+
+const getTime = (date?: string | Date) => {
+  if (!date) return 0;
+  const value = new Date(date).getTime();
+  return Number.isNaN(value) ? 0 : value;
+};
+
+const caseStudies: CaseStudyItem[] = Object.entries(caseStudyModules)
+  .map(([path, module]) => {
+    const mod = module as CaseStudyModule;
+    const frontmatter = mod.frontmatter ?? {};
+    const slug = getSlug(path);
+
+    return {
+      slug,
+      title: frontmatter.title ?? slug,
+      href: `/read/studies/case-studies/content/${slug}`,
+      meta: getMeta(frontmatter, 'Case Study'),
+      description: frontmatter.description ?? '',
+      draft: frontmatter.draft ?? false,
+      featured: frontmatter.featured ?? false,
+      featuredOrder: frontmatter.featuredOrder ?? 999,
+      date: frontmatter.pubDate ?? frontmatter.date,
+    };
+  })
+  .filter((study) => !study.draft)
+  .sort((a, b) => {
+    if (a.featuredOrder !== b.featuredOrder) return a.featuredOrder - b.featuredOrder;
+    return getTime(b.date) - getTime(a.date) || a.title.localeCompare(b.title);
+  });
+
+const featuredCaseStudies = caseStudies.filter((study) => study.featured).slice(0, 4);
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="read"
+    title="Case Studies"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/read' },
+      { label: 'Studies', href: '/read/studies' },
+      { label: 'Collections', href: '/read/collections' },
+      { label: 'Archive', href: '/read/archive' },
+    ]}
+  >
+    <EditorialSection>
+      <h2>Featured case studies</h2>
+      <p>
+        A starting set for the projects, decisions, and design systems that best show how strategy became practice.
+      </p>
+
+      <div class="content-list" aria-label="Featured case studies">
+        {(featuredCaseStudies.length > 0 ? featuredCaseStudies : caseStudies.slice(0, 4)).map((study) => (
+          <ContentRow
+            href={study.href}
+            title={study.title}
+            meta={study.meta}
+            metaLabel="Organization or context"
+            description={study.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+    </EditorialSection>
+
+    <EditorialSection>
+      <h2>All case studies</h2>
+      <p>
+        Case studies examine the work behind design decisions: goals, constraints, tradeoffs, artifacts, outcomes, and what the project revealed.
+      </p>
+
+      <div class="content-list" aria-label="All case studies">
+        {caseStudies.map((study) => (
+          <ContentRow
+            href={study.href}
+            title={study.title}
+            meta={study.meta}
+            metaLabel="Organization or context"
+            description={study.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+    </EditorialSection>
+
+    <SectionMoreLink href="/read/studies" label="Back to Studies" />
+  </SectionPage>
+</Layout>
+
+<style>
+  .content-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+</style>

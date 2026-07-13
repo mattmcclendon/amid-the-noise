@@ -1,0 +1,286 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+import ContentRow from '../../../components/ContentRow.astro';
+import EditorialSection from '../../../components/EditorialSection.astro';
+import DestinationRow from '../../../components/DestinationRow.astro';
+import SectionMoreLink from '../../../components/SectionMoreLink.astro';
+
+const title = 'Studies | Read | Amid the Noise';
+const description = 'Studies from Amid the Noise, including field studies, case studies, and papers on systems, institutions, technology, and decision infrastructure.';
+const sectionIntro = 'Longer investigations into the systems people live and work inside: field studies, case studies, and papers gathered into one reading surface.';
+
+const fieldStudyModules = import.meta.glob('./field-studies/content/*.md', { eager: true });
+const caseStudyModules = import.meta.glob('./case-studies/content/*.md', { eager: true });
+const paperModules = import.meta.glob('./papers/content/*.md', { eager: true });
+
+type StudyModule = {
+  frontmatter?: {
+    title?: string;
+    description?: string;
+    company?: string;
+    organization?: string;
+    client?: string;
+    role?: string;
+    context?: string;
+    pubDate?: string | Date;
+    date?: string | Date;
+    draft?: boolean;
+    featured?: boolean;
+    featuredOrder?: number;
+  };
+};
+
+type StudyItem = {
+  slug: string;
+  title: string;
+  href: string;
+  meta: string;
+  description: string;
+  draft: boolean;
+  featured: boolean;
+  featuredOrder: number;
+  type: 'Field Study' | 'Case Study' | 'Paper';
+};
+
+const fieldStudyMetadata: Record<string, { title: string; meta: string; description: string; featuredOrder?: number }> = {
+  'dremio': {
+    meta: 'Dremio',
+    title: 'Designing Trust Inside Modern Data Infrastructure',
+    description:
+      'Across financial services, healthcare, and enterprise infrastructure, the work clarified how semantic systems, lineage, and cognitive legibility help people trust complex data environments.',
+    featuredOrder: 1,
+  },
+  'automation-anywhere': {
+    meta: 'Automation Anywhere',
+    title: 'Designing Trust Inside AI-Assisted Automation',
+    description:
+      'As automation moved from deterministic rules toward adaptive systems, the work focused on explainability, confidence calibration, and human oversight inside operational workflows.',
+    featuredOrder: 2,
+  },
+  'wells-fargo': {
+    meta: 'Wells Fargo',
+    title: 'Designing Human-Governed AI in a Regulated Enterprise',
+    description:
+      'Inside Wells Fargo AI Enterprise Solutions, the work focused on operationalizing trust in regulated AI systems through governance frameworks, human oversight, interpretability, and scalable experimentation across 17 business units.',
+    featuredOrder: 3,
+  },
+  'ca-technologies': {
+    meta: 'CA Technologies',
+    title: 'Designing Signal in Emerging Systems',
+    description:
+      'Inside the CA Accelerator, design became infrastructure for experimentation, validation, and trust across emerging technology ventures working in NLP, predictive DevOps, and operational analytics.',
+  },
+  'cadence': {
+    meta: 'Cadence Design Systems',
+    title: 'Designing Human-Guided Systems for Semiconductor Complexity',
+    description:
+      'Inside advanced semiconductor design tooling, the work focused on user research, in-canvas interaction, UX maturity, and early machine-learning-assisted workflows for engineers operating at the edge of technical complexity.',
+  },
+  'civic-systems': {
+    meta: 'Civic Systems',
+    title: 'Designing Dignity Inside Public Systems Under Stress',
+    description:
+      'Public systems rarely fail at a single touchpoint. This field study looks at how navigability, dignity, and operational clarity shape trust when people encounter institutions under pressure.',
+  },
+  'evernote-research': {
+    meta: 'Evernote',
+    title: 'Palette as Exploration',
+    description:
+      'For Skitch, we observed preschool children fingerpaint to understand how people explore color before constraint. The work shifted markup palettes from rigid selection toward fluid exploration.',
+  },
+  'level-studios': {
+    meta: 'LEVEL Studios',
+    title: 'Portable Trust',
+    description:
+      'Embedded agency work across Fidelity and other enterprise clients showed how mobile strategy, behavioral segmentation, and content targeting shaped trust as digital systems began following people everywhere.',
+  },
+  'stanford-improv': {
+    meta: 'Yahoo!',
+    title: 'Collaboration at Scale',
+    description:
+      'Through Stanford improv training, we practiced building on each other’s ideas while designing Yahoo! frontdoor experiences at global scale. Even fractional A/B tests reached millions of users.',
+  },
+  'friendster': {
+    meta: 'Friendster',
+    title: "The Network Couldn't Hold",
+    description:
+      'Inside the first real social network, unstable infrastructure, shifting product identity, global usage patterns, and early social graph behavior revealed how quickly users could define a platform faster than the company itself.',
+  },
+  'netscape': {
+    meta: 'Netscape / AOL',
+    title: 'The First Comfortable Internet',
+    description:
+      'Work across personalization systems, messaging convergence, and large-scale onboarding helped transform the internet from a technical frontier into an environment ordinary people could navigate with confidence.',
+  },
+  'idealab': {
+    meta: 'idealab!',
+    title: 'The Future Arrived Early',
+    description:
+      'Inside the dot-com invention factory, design functioned as early-stage scaffolding for startups translating everyday life into the internet before the infrastructure, economics, and ethics had caught up.',
+  },
+};
+
+const getSlug = (path: string) => path.split('/').pop()?.replace('.md', '') ?? '';
+
+const getMeta = (frontmatter: StudyModule['frontmatter'], fallback: string) =>
+  frontmatter?.company ??
+  frontmatter?.organization ??
+  frontmatter?.client ??
+  frontmatter?.context ??
+  frontmatter?.role ??
+  fallback;
+
+const buildStudies = (
+  modules: Record<string, unknown>,
+  type: StudyItem['type'],
+  pathSegment: 'field-studies' | 'case-studies' | 'papers',
+  fallbackMeta: string,
+): StudyItem[] =>
+  Object.entries(modules).map(([path, module]) => {
+    const mod = module as StudyModule;
+    const frontmatter = mod.frontmatter ?? {};
+    const slug = getSlug(path);
+    const metadata = type === 'Field Study' ? fieldStudyMetadata[slug] : undefined;
+
+    return {
+      slug,
+      title: metadata?.title ?? frontmatter.title ?? slug,
+      href: `/read/studies/${pathSegment}/content/${slug}`,
+      meta: metadata?.meta ?? getMeta(frontmatter, fallbackMeta),
+      description: metadata?.description ?? frontmatter.description ?? '',
+      draft: frontmatter.draft ?? false,
+      featured: frontmatter.featured ?? Boolean(metadata?.featuredOrder),
+      featuredOrder: frontmatter.featuredOrder ?? metadata?.featuredOrder ?? 999,
+      type,
+    };
+  });
+
+const fieldStudies = buildStudies(fieldStudyModules, 'Field Study', 'field-studies', 'Field Study');
+const caseStudies = buildStudies(caseStudyModules, 'Case Study', 'case-studies', 'Case Study');
+const papers = buildStudies(paperModules, 'Paper', 'papers', 'Paper');
+
+const allStudies = [...fieldStudies, ...caseStudies, ...papers]
+  .filter((study) => !study.draft)
+  .sort((a, b) => {
+    if (a.featuredOrder !== b.featuredOrder) return a.featuredOrder - b.featuredOrder;
+    return a.title.localeCompare(b.title);
+  });
+
+const featuredStudies = allStudies.filter((study) => study.featured).slice(0, 6);
+
+const studyGroups = [
+  {
+    title: 'Field Studies',
+    description: 'Observed systems in real operational contexts: companies, institutions, platforms, and civic environments under stress.',
+    items: fieldStudies.filter((study) => !study.draft),
+  },
+  {
+    title: 'Case Studies',
+    description: 'Project-based studies of design work, product decisions, and organizational outcomes.',
+    items: caseStudies.filter((study) => !study.draft),
+  },
+  {
+    title: 'Papers',
+    description: 'Longer-form research and argumentation, usually more formal than essays and broader than individual studies.',
+    items: papers.filter((study) => !study.draft),
+  },
+].filter((group) => group.items.length > 0);
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="read"
+    title="Studies"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/read' },
+      { label: 'Studies', href: '/read/studies' },
+      { label: 'Collections', href: '/read/collections' },
+      { label: 'Archive', href: '/read/archive' },
+    ]}
+  >
+    <EditorialSection>
+      <h2 id="featured-studies-title">Start with these studies</h2>
+      <p>
+        A curated entry point into the field studies, case studies, and papers that best introduce the research spine of Amid the Noise.
+      </p>
+
+      <div class="content-list" aria-label="Featured studies">
+        {(featuredStudies.length > 0 ? featuredStudies : allStudies.slice(0, 6)).map((study) => (
+          <ContentRow
+            href={study.href}
+            title={study.title}
+            meta={`${study.type} · ${study.meta}`}
+            metaLabel="Study type and context"
+            description={study.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+    </EditorialSection>
+
+    <EditorialSection>
+      <h2>Study types</h2>
+      <p>
+        Studies are organized by the kind of work they document: observed systems, project-based evidence, and longer-form research.
+      </p>
+
+      <div class="destination-list" aria-label="Study type destinations">
+        <DestinationRow
+          href="/read/studies/field-studies"
+          title="Field Studies"
+          description="Observed systems in real operational contexts: companies, institutions, platforms, and civic environments under stress."
+        />
+        <DestinationRow
+          href="/read/studies/case-studies"
+          title="Case Studies"
+          description="Project-based studies of design work, product decisions, and organizational outcomes."
+        />
+        <DestinationRow
+          href="/read/studies/papers"
+          title="Papers"
+          description="Longer-form research and argumentation, usually more formal than essays and broader than individual studies."
+        />
+      </div>
+    </EditorialSection>
+
+    {studyGroups.map((group) => (
+      <EditorialSection>
+        <h2 id={`${group.title.toLowerCase().replaceAll(' ', '-')}-title`}>{group.title}</h2>
+        <p>{group.description}</p>
+
+        <div class="content-list" aria-label={group.title}>
+          {group.items.map((study) => (
+            <ContentRow
+              href={study.href}
+              title={study.title}
+              meta={study.meta}
+              metaLabel="Organization or context"
+              description={study.description}
+              tags={[]}
+            />
+          ))}
+        </div>
+      </EditorialSection>
+    ))}
+
+    <SectionMoreLink href="/read/archive" label="Browse the full Read archive" />
+  </SectionPage>
+</Layout>
+
+<style>
+  .content-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .destination-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+</style>

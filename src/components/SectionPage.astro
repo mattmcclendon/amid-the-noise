@@ -5,7 +5,7 @@ interface SectionNavItem {
 }
 
 interface Props {
-  section?: 'writing' | 'research' | 'lexicon' | 'career';
+  section?: 'read' | 'listen' | 'reference' | 'connect' | 'writing' | 'research' | 'lexicon' | 'career';
   title: string;
   intro?: string;
   showHeader?: boolean;
@@ -22,7 +22,17 @@ const {
 
 void showHeader;
 
-const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+const normalizePath = (path: string) => path.replace(/\/$/, '') || '/';
+const currentPath = normalizePath(Astro.url.pathname);
+
+const sectionNavMatches = sectionNav
+  .map((item) => normalizePath(item.href))
+  .filter((itemPath) => currentPath === itemPath || currentPath.startsWith(`${itemPath}/`))
+  .sort((a, b) => b.length - a.length);
+
+const activeSectionNavPath = sectionNavMatches[0];
+
+const isActiveSectionNavItem = (href: string) => normalizePath(href) === activeSectionNavPath;
 ---
 
 <section class={`section section-page section-page--${section}`}>
@@ -34,8 +44,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     {sectionNav.length > 0 && (
       <nav class="section-page__nav" aria-label={`${title} navigation`}>
         {sectionNav.map((item) => {
-          const itemPath = item.href.replace(/\/$/, '') || '/';
-          const isActive = currentPath === itemPath;
+          const isActive = isActiveSectionNavItem(item.href);
 
           return (
             <a href={item.href} aria-current={isActive ? 'page' : undefined}>
@@ -71,6 +80,22 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   }
 
   .section-page--career {
+    --section-accent: var(--accent-career);
+  }
+
+  .section-page--read {
+    --section-accent: var(--accent-writing);
+  }
+
+  .section-page--listen {
+    --section-accent: var(--accent-writing);
+  }
+
+  .section-page--reference {
+    --section-accent: var(--accent-lexicon);
+  }
+
+  .section-page--connect {
     --section-accent: var(--accent-career);
   }
 

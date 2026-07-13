@@ -1,0 +1,95 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import SectionPage from '../../../../components/SectionPage.astro';
+import EditorialSection from '../../../../components/EditorialSection.astro';
+import ContentRow from '../../../../components/ContentRow.astro';
+import SectionMoreLink from '../../../../components/SectionMoreLink.astro';
+
+const title = 'Read > Studies > Papers: Amid the Noise';
+const description = 'Research papers from Amid the Noise exploring systems, governance, trust, civic infrastructure, and decision-making.';
+const sectionIntro = 'Long-form research and essays that develop ideas beyond individual field studies or case studies.';
+
+const paperModules = import.meta.glob('./content/*.md', { eager: true });
+
+type Frontmatter = {
+  title: string;
+  subtitle?: string;
+  description?: string;
+  company?: string;
+  organization?: string;
+  client?: string;
+  role?: string;
+  context?: string;
+  pubDate?: string;
+  date?: string;
+  draft?: boolean;
+  featured?: boolean;
+  featuredOrder?: number;
+  tags?: string[];
+};
+
+const papers = Object.entries(paperModules)
+  .map(([path, module]) => {
+    const slug = path.replace('./content/', '').replace(/\.md$/, '');
+    const frontmatter = (module as { frontmatter: Frontmatter }).frontmatter;
+    return {
+      href: `/read/studies/papers/content/${slug}`,
+      frontmatter,
+      meta:
+        frontmatter.company ??
+        frontmatter.organization ??
+        frontmatter.client ??
+        frontmatter.context ??
+        frontmatter.role ??
+        'Paper',
+    };
+  })
+  .filter(({ frontmatter }) => !frontmatter.draft)
+  .sort((a, b) => {
+    const aOrder = a.frontmatter.featuredOrder ?? Number.MAX_SAFE_INTEGER;
+    const bOrder = b.frontmatter.featuredOrder ?? Number.MAX_SAFE_INTEGER;
+    if (aOrder !== bOrder) return aOrder - bOrder;
+
+    const aDate = new Date(a.frontmatter.pubDate ?? a.frontmatter.date ?? 0).getTime();
+    const bDate = new Date(b.frontmatter.pubDate ?? b.frontmatter.date ?? 0).getTime();
+    if (bDate !== aDate) return bDate - aDate;
+
+    return a.frontmatter.title.localeCompare(b.frontmatter.title);
+  });
+
+const featuredPapers = papers.filter(p => p.frontmatter.featured).slice(0, 4);
+const displayFeatured = featuredPapers.length ? featuredPapers : papers.slice(0, 4);
+---
+
+<Layout title={title} description={description}>
+  <style>
+    .content-list {
+      display: grid;
+      gap: 0;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+
+  <SectionPage
+    title={title}
+    description={sectionIntro}
+    tier="Read"
+    nav={[
+      { href: '/read/overview', label: 'Overview' },
+      { href: '/read/studies', label: 'Studies' },
+      { href: '/read/collections', label: 'Collections' },
+      { href: '/read/archive', label: 'Archive' },
+    ]}
+  >
+    <EditorialSection title="Featured papers" intro="Highlighted long-form research and essays from Amid the Noise.">
+      <ContentRow class="content-list" items={displayFeatured} />
+    </EditorialSection>
+
+    <EditorialSection title="All papers" intro="Explore all research papers published by Amid the Noise.">
+      <ContentRow class="content-list" items={papers} />
+    </EditorialSection>
+
+    <SectionMoreLink href="/read/studies" label="Back to Studies" />
+  </SectionPage>
+</Layout>

@@ -1,0 +1,226 @@
+
+
+---
+import Layout from '../../../../layouts/Layout.astro';
+import SectionPage from '../../../../components/SectionPage.astro';
+import EditorialSection from '../../../../components/EditorialSection.astro';
+import ContentRow from '../../../../components/ContentRow.astro';
+import SectionMoreLink from '../../../../components/SectionMoreLink.astro';
+
+const title = 'Read > Studies > Field Studies: Amid the Noise';
+const description = 'Field studies from Amid the Noise on enterprise systems, civic systems, product design, decision infrastructure, and operational trust.';
+const sectionIntro = 'Observed systems in real operational contexts: companies, institutions, platforms, and civic environments under stress.';
+
+const fieldStudyModules = import.meta.glob('./content/*.md', { eager: true });
+
+type FieldStudyModule = {
+  frontmatter?: {
+    title?: string;
+    subtitle?: string;
+    description?: string;
+    company?: string;
+    organization?: string;
+    client?: string;
+    role?: string;
+    context?: string;
+    pubDate?: string | Date;
+    date?: string | Date;
+    draft?: boolean;
+    featured?: boolean;
+    featuredOrder?: number;
+    tags?: string[];
+  };
+};
+
+type FieldStudyItem = {
+  slug: string;
+  title: string;
+  href: string;
+  meta: string;
+  description: string;
+  draft: boolean;
+  featured: boolean;
+  featuredOrder: number;
+  date?: string | Date;
+};
+
+const fieldStudyMetadata: Record<string, { title: string; meta: string; description: string; featuredOrder?: number }> = {
+  'dremio': {
+    meta: 'Dremio',
+    title: 'Designing Trust Inside Modern Data Infrastructure',
+    description:
+      'Across financial services, healthcare, and enterprise infrastructure, the work clarified how semantic systems, lineage, and cognitive legibility help people trust complex data environments.',
+    featuredOrder: 1,
+  },
+  'automation-anywhere': {
+    meta: 'Automation Anywhere',
+    title: 'Designing Trust Inside AI-Assisted Automation',
+    description:
+      'As automation moved from deterministic rules toward adaptive systems, the work focused on explainability, confidence calibration, and human oversight inside operational workflows.',
+    featuredOrder: 2,
+  },
+  'wells-fargo': {
+    meta: 'Wells Fargo',
+    title: 'Designing Human-Governed AI in a Regulated Enterprise',
+    description:
+      'Inside Wells Fargo AI Enterprise Solutions, the work focused on operationalizing trust in regulated AI systems through governance frameworks, human oversight, interpretability, and scalable experimentation across 17 business units.',
+    featuredOrder: 3,
+  },
+  'ca-technologies': {
+    meta: 'CA Technologies',
+    title: 'Designing Signal in Emerging Systems',
+    description:
+      'Inside the CA Accelerator, design became infrastructure for experimentation, validation, and trust across emerging technology ventures working in NLP, predictive DevOps, and operational analytics.',
+  },
+  'cadence': {
+    meta: 'Cadence Design Systems',
+    title: 'Designing Human-Guided Systems for Semiconductor Complexity',
+    description:
+      'Inside advanced semiconductor design tooling, the work focused on user research, in-canvas interaction, UX maturity, and early machine-learning-assisted workflows for engineers operating at the edge of technical complexity.',
+  },
+  'civic-systems': {
+    meta: 'Civic Systems',
+    title: 'Designing Dignity Inside Public Systems Under Stress',
+    description:
+      'Public systems rarely fail at a single touchpoint. This field study looks at how navigability, dignity, and operational clarity shape trust when people encounter institutions under pressure.',
+  },
+  'evernote-research': {
+    meta: 'Evernote',
+    title: 'Palette as Exploration',
+    description:
+      'For Skitch, we observed preschool children fingerpaint to understand how people explore color before constraint. The work shifted markup palettes from rigid selection toward fluid exploration.',
+  },
+  'level-studios': {
+    meta: 'LEVEL Studios',
+    title: 'Portable Trust',
+    description:
+      'Embedded agency work across Fidelity and other enterprise clients showed how mobile strategy, behavioral segmentation, and content targeting shaped trust as digital systems began following people everywhere.',
+  },
+  'stanford-improv': {
+    meta: 'Yahoo!',
+    title: 'Collaboration at Scale',
+    description:
+      'Through Stanford improv training, we practiced building on each other’s ideas while designing Yahoo! frontdoor experiences at global scale. Even fractional A/B tests reached millions of users.',
+  },
+  'friendster': {
+    meta: 'Friendster',
+    title: "The Network Couldn't Hold",
+    description:
+      'Inside the first real social network, unstable infrastructure, shifting product identity, global usage patterns, and early social graph behavior revealed how quickly users could define a platform faster than the company itself.',
+  },
+  'netscape': {
+    meta: 'Netscape / AOL',
+    title: 'The First Comfortable Internet',
+    description:
+      'Work across personalization systems, messaging convergence, and large-scale onboarding helped transform the internet from a technical frontier into an environment ordinary people could navigate with confidence.',
+  },
+  'idealab': {
+    meta: 'idealab!',
+    title: 'The Future Arrived Early',
+    description:
+      'Inside the dot-com invention factory, design functioned as early-stage scaffolding for startups translating everyday life into the internet before the infrastructure, economics, and ethics had caught up.',
+  },
+};
+
+const getSlug = (path: string) => path.split('/').pop()?.replace('.md', '') ?? '';
+
+const getMeta = (frontmatter: FieldStudyModule['frontmatter'], fallback: string) =>
+  frontmatter?.company ??
+  frontmatter?.organization ??
+  frontmatter?.client ??
+  frontmatter?.context ??
+  frontmatter?.role ??
+  fallback;
+
+const fieldStudies: FieldStudyItem[] = Object.entries(fieldStudyModules)
+  .map(([path, module]) => {
+    const mod = module as FieldStudyModule;
+    const frontmatter = mod.frontmatter ?? {};
+    const slug = getSlug(path);
+    const metadata = fieldStudyMetadata[slug];
+
+    return {
+      slug,
+      title: metadata?.title ?? frontmatter.title ?? slug,
+      href: `/read/studies/field-studies/content/${slug}`,
+      meta: metadata?.meta ?? getMeta(frontmatter, 'Field Study'),
+      description: metadata?.description ?? frontmatter.description ?? '',
+      draft: frontmatter.draft ?? false,
+      featured: frontmatter.featured ?? Boolean(metadata?.featuredOrder),
+      featuredOrder: frontmatter.featuredOrder ?? metadata?.featuredOrder ?? 999,
+      date: frontmatter.pubDate ?? frontmatter.date,
+    };
+  })
+  .filter((study) => !study.draft)
+  .sort((a, b) => {
+    if (a.featuredOrder !== b.featuredOrder) return a.featuredOrder - b.featuredOrder;
+    return a.title.localeCompare(b.title);
+  });
+
+const featuredFieldStudies = fieldStudies.filter((study) => study.featured).slice(0, 4);
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="read"
+    title="Field Studies"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/read' },
+      { label: 'Studies', href: '/read/studies' },
+      { label: 'Collections', href: '/read/collections' },
+      { label: 'Archive', href: '/read/archive' },
+    ]}
+  >
+    <EditorialSection>
+      <h2>Featured field studies</h2>
+      <p>
+        A starting set for the organizations, platforms, and civic systems that most clearly shaped the research posture behind Amid the Noise.
+      </p>
+
+      <div class="content-list" aria-label="Featured field studies">
+        {(featuredFieldStudies.length > 0 ? featuredFieldStudies : fieldStudies.slice(0, 4)).map((study) => (
+          <ContentRow
+            href={study.href}
+            title={study.title}
+            meta={study.meta}
+            metaLabel="Organization or context"
+            description={study.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+    </EditorialSection>
+
+    <EditorialSection>
+      <h2>All field studies</h2>
+      <p>
+        Field studies examine what systems reveal when they are observed under real conditions: scale, constraint, institutional pressure, and lived use.
+      </p>
+
+      <div class="content-list" aria-label="All field studies">
+        {fieldStudies.map((study) => (
+          <ContentRow
+            href={study.href}
+            title={study.title}
+            meta={study.meta}
+            metaLabel="Organization or context"
+            description={study.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+    </EditorialSection>
+
+    <SectionMoreLink href="/read/studies" label="Back to Studies" />
+  </SectionPage>
+</Layout>
+
+<style>
+  .content-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+</style>

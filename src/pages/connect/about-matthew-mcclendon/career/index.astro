@@ -1,0 +1,147 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import SectionPage from '../../../../components/SectionPage.astro';
+import EditorialSection from '../../../../components/EditorialSection.astro';
+import DestinationRow from '../../../../components/DestinationRow.astro';
+import SectionMoreLink from '../../../../components/SectionMoreLink.astro';
+import ContentRow from '../../../../components/ContentRow.astro';
+
+const title = 'Connect > About Matthew > Career: Amid the Noise';
+const description = 'Matthew McClendon’s professional background, selected studies, résumé, education, and career timeline.';
+const sectionIntro = 'A professional overview of the work, study, and timeline behind the practice.';
+
+const fieldStudiesModules = import.meta.glob('../../../read/studies/field-studies/content/*.md', { eager: true });
+const caseStudiesModules = import.meta.glob('../../../read/studies/case-studies/content/*.md', { eager: true });
+
+const fieldStudyDisplayMetadata = {
+  netscape: {
+    title: 'The First Comfortable Internet',
+    meta: 'Netscape / AOL',
+    description:
+      'Work across personalization systems, messaging convergence, and large-scale onboarding helped transform the internet from a technical frontier into an environment ordinary people could navigate with confidence.',
+  },
+  friendster: {
+    title: "The Network Couldn't Hold",
+    meta: 'Friendster',
+    description:
+      'Inside the first real social network, unstable infrastructure, shifting product identity, global usage patterns, and early social graph behavior revealed how quickly users could define a platform faster than the company itself.',
+  },
+};
+
+function getContentRows(modules, slugs, baseHref) {
+  return slugs.map(slug => {
+    const mod = modules[`../../../read/studies/${baseHref}/content/${slug}.md`];
+    if (!mod) return null;
+    const { title, description, company, organization, client, context, role } = mod.frontmatter || {};
+    const displayMetadata = baseHref === 'field-studies' ? fieldStudyDisplayMetadata[slug] : undefined;
+    return {
+      href: `/read/studies/${baseHref}/content/${slug}`,
+      title: displayMetadata?.title || title || slug,
+      description: displayMetadata?.description || description || '',
+      meta: displayMetadata?.meta || company || organization || client || context || role || ''
+    };
+  }).filter(Boolean);
+}
+
+const featuredFieldStudies = getContentRows(fieldStudiesModules, ['netscape', 'friendster'], 'field-studies');
+const featuredCaseStudies = getContentRows(caseStudiesModules, ['wells-fargo', 'automation-anywhere', 'dremio'], 'case-studies');
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="connect"
+    title="Career"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/connect' },
+      { label: 'About Matthew', href: '/connect/about-matthew-mcclendon' },
+      { label: 'Résumé', href: '/connect/about-matthew-mcclendon/career/resume' },
+      { label: 'Education', href: '/connect/about-matthew-mcclendon/career/education' },
+    ]}
+  >
+    <EditorialSection>
+      <h2>Professional practice</h2>
+      <p>
+        My work sits at the intersection of design strategy, enterprise systems, data infrastructure, AI governance, civic technology, and organizational decision-making. This page gathers the professional context behind that work.
+      </p>
+    </EditorialSection>
+
+    <EditorialSection>
+      <h2>Featured Field Studies</h2>
+      <div class="content-list" aria-label="Featured Field Studies">
+        {featuredFieldStudies.map(({ href, title, description, meta }) => (
+          <ContentRow
+            href={href}
+            title={title}
+            meta={`Field Study · ${meta}`}
+            metaLabel="Organization or context"
+            description={description}
+            tags={[]}
+          />
+        ))}
+      </div>
+      <SectionMoreLink
+        href="/read/studies/field-studies"
+        label="See all Field Studies"
+      />
+    </EditorialSection>
+
+    <EditorialSection>
+      <h2>Featured Case Studies</h2>
+      <div class="content-list" aria-label="Featured Case Studies">
+        {featuredCaseStudies.map(({ href, title, description, meta }) => (
+          <ContentRow
+            href={href}
+            title={title}
+            meta={`Case Study · ${meta}`}
+            metaLabel="Organization or context"
+            description={description}
+            tags={[]}
+          />
+        ))}
+      </div>
+      <SectionMoreLink
+        href="/read/studies/case-studies"
+        label="See all Case Studies"
+      />
+    </EditorialSection>
+
+    <EditorialSection>
+      <h2>Professional Resources</h2>
+      <p>
+        For a more conventional overview, these pages collect my résumé and educational background.
+      </p>
+
+      <div class="destination-list" aria-label="Professional resources">
+        <DestinationRow
+          href="/connect/about-matthew-mcclendon/career/resume"
+          title="Résumé"
+          description="A concise professional record for employers, collaborators, and clients."
+        />
+
+        <DestinationRow
+          href="/connect/about-matthew-mcclendon/career/education"
+          title="Education"
+          description="Formal study, continuing education, and lifelong learning."
+        />
+      </div>
+    </EditorialSection>
+
+    <SectionMoreLink href="/connect/about-matthew-mcclendon" label="Back to About Matthew" />
+  </SectionPage>
+</Layout>
+
+<style>
+  .destination-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .content-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+</style>

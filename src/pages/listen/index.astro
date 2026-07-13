@@ -1,0 +1,118 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SectionPage from "../../components/SectionPage.astro";
+import EditorialSection from "../../components/EditorialSection.astro";
+import AppleIcon from "../../components/icons/apple.astro";
+import SpotifyIcon from "../../components/icons/spotify.astro";
+import YouTubeIcon from "../../components/icons/youtube.astro";
+
+const title = "Listen > Overview: Amid the Noise";
+const description = "The Amid the Noise podcast is in development for Q4 2026.";
+const sectionIntro = "The conversation continues.";
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="listen"
+    title="Listen"
+    intro={sectionIntro}
+    sectionNav={[
+      { label: 'Overview', href: '/listen' },
+    ]}
+  >
+      <div class="listen-first-section">
+        <EditorialSection>
+          <h2 class="section-heading">Introduction</h2>
+          <p>Before the first essay was published, <em>Amid the Noise</em> was imagined as a podcast.</p>
+          <p>Writing came first. That was the right decision. It gave the publication time to find its voice before expanding into another medium.</p>
+          <p>The podcast is planned for Q4 2026.</p>
+        </EditorialSection>
+      </div>
+
+      <figure class="archive-image-module listen-archive-image" aria-label="Podcast conversation table illustration">
+        <img
+          src="/images/pages/atn-listen-001.png"
+          alt="Podcast conversation table illustration"
+          loading="lazy"
+          decoding="async"
+        />
+      </figure>
+
+      <EditorialSection>
+        <h2 class="section-heading">Availability</h2>
+        <div class="platform-row">
+          <ul class="platform-list" aria-label="Podcast availability">
+            <li class="spotify"><SpotifyIcon /></li>
+            <li><AppleIcon /></li>
+            <li><YouTubeIcon /></li>
+          </ul>
+          <p class="platform-status"><em>Coming soon</em></p>
+        </div>
+      </EditorialSection>
+
+      <EditorialSection>
+        <h2 class="section-heading">Contribute</h2>
+        <p>Have an idea, guest, story, or collaboration?</p>
+        <p><a href="mailto:podcast@amidthenoise.com">podcast@amidthenoise.com</a></p>
+      </EditorialSection>
+
+      <EditorialSection>
+        <h2 class="section-heading">Setup</h2>
+        <p>The studio is still coming together. Recommendations for equipment, recording workflows, remote interviews, or production are welcome.</p>
+      </EditorialSection>
+  </SectionPage>
+</Layout>
+<style>
+  .listen-first-section {
+    margin-top: 3rem;
+  }
+
+  .listen-archive-image {
+    max-width: 1200px;
+    width: 100%;
+    margin: 2.75rem auto 3rem;
+  }
+
+  .listen-archive-image img {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .platform-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .platform-list {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .platform-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .platform-list :global(svg) {
+    display: block;
+    width: 28px;
+    height: 28px;
+    flex: 0 0 28px;
+  }
+
+
+  .platform-status {
+    margin: 0;
+    color: var(--secondary);
+  }
+</style>

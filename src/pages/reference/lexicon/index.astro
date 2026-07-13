@@ -1,0 +1,25 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+import LexiconSection from '../../../components/LexiconSection.astro';
+import { conceptGroups } from '../../../data/lexiconData';
+
+const title = 'Reference > Lexicon: Amid the Noise';
+const description = 'A working lexicon of recurring terms, concepts, and frameworks used across Amid the Noise.';
+const sectionIntro = 'A working vocabulary for the ideas that recur across Amid the Noise: signal, trust, judgment, belonging, infrastructure, recovery, and the systems that shape them.';
+
+const sectionNav = [
+  { label: 'Overview', href: '/reference' },
+  { label: 'About Amid the Noise', href: '/reference/about-amid-the-noise' },
+  { label: 'Lexicon', href: '/reference/lexicon' },
+  { label: 'Bibliography', href: '/reference/bibliography' },
+];
+---
+
+<Layout title={title} description={description}>
+  <SectionPage section="reference" title="Lexicon" intro={sectionIntro} sectionNav={sectionNav}>
+    {conceptGroups.map((group) => (
+      <LexiconSection {...group} />
+    ))}
+  </SectionPage>
+</Layout>
