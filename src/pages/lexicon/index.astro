@@ -1,89 +1,13 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import SectionPage from '../../components/SectionPage.astro';
-import ContentRow from '../../components/ContentRow.astro';
-import SectionMoreLink from '../../components/SectionMoreLink.astro';
+import LexiconSection from '../../components/LexiconSection.astro';
 import ArchiveImageModule from '../../components/ArchiveImageModule.astro';
+import { conceptGroups } from '../../data/lexiconData';
 
 const title = 'Lexicon | Amid the Noise';
-const description = 'A working lexicon of emerging language, concepts, and frameworks used across Amid the Noise.';
-const sectionIntro = 'The lexicon begins with ideas still taking shape. These are recurring observations from Amid the Noise that have started to develop into usable language. Some will mature into stable concepts. Others will be refined, merged, or discarded as the work continues.';
-
-const featuredConcepts = [
-  {
-    title: 'Epistemic Integrity',
-    description:
-      "The degree to which an institution's internal representation of reality corresponds to reality itself. A system with epistemic integrity can still be wrong, but it remains corrigible because its errors can be detected, examined, and brought back into contact with evidence.",
-  },
-  {
-    title: 'Institutional Perception',
-    description:
-      'The ability of an institution to perceive, interpret, and respond to reality through the information available to it. This includes what the institution can see, what it cannot see, and what its internal structures make difficult to notice.',
-  },
-  {
-    title: 'Second Cognitive Surface',
-    description:
-      'AI functioning as an external layer of reasoning, memory, and synthesis that extends human cognition without replacing human judgment. The question is not whether the surface is intelligent, but whether it improves what a person can notice, hold, and decide.',
-  },
-];
-
-const relatedWork = [
-  {
-    title: 'From Signal to Decision',
-    href: '/writing/from-signal-to-decision',
-    meta: 'Writing',
-    accent: 'var(--accent-writing)',
-    description:
-      'A practical essay on preserving uncertainty long enough for it to matter at the point of decision.',
-  },
-  {
-    title: 'The Infrastructure of Belonging',
-    href: '/research/papers/content/the-infrastructure-of-belonging',
-    meta: 'Research Paper',
-    accent: 'var(--accent-research)',
-    description:
-      'A civic systems framework examining how institutions become reachable through connectors, continuity, and reduced distance.',
-  },
-  {
-    title: 'Designing Trust Inside Modern Data Infrastructure',
-    href: '/research/field-studies/content/dremio',
-    meta: 'Field Study',
-    accent: 'var(--accent-research)',
-    description:
-      'A field study on semantic systems, lineage, and cognitive legibility inside modern data infrastructure.',
-  },
-];
-
-const emergingConcepts = [
-  {
-    title: 'Epistemic Divergence',
-    description:
-      "The gradual separation between reality and an institution's internal representation of reality.",
-  },
-  {
-    title: 'Decision Weather',
-    description:
-      'The surrounding conditions that shape judgment before a formal decision occurs: pressure, incentives, fatigue, visibility, uncertainty, and the emotional climate of the system.',
-  },
-  {
-    title: 'Institutional Blind Spot',
-    description:
-      'A recurring area of reality that an institution cannot reliably perceive because its tools, incentives, categories, or reporting structures were not built to see it.',
-  },
-  {
-    title: 'Cognitive Stewardship',
-    description:
-      'The practice of designing systems that protect human attention, judgment, memory, and interpretive capacity rather than exhausting them through unmanaged complexity.',
-  },
-];
-
-const slugifyTerm = (term: string) =>
-  term
-    .toLowerCase()
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-
+const description = 'A working lexicon of recurring terms, concepts, and frameworks used across Amid the Noise.';
+const sectionIntro = 'A working vocabulary for the ideas that recur across Amid the Noise: signal, trust, judgment, belonging, infrastructure, recovery, and the systems that shape them.';
 ---
 
 <Layout title={title} description={description}>
@@ -93,117 +17,21 @@ const slugifyTerm = (term: string) =>
     intro={sectionIntro}
     showHeader={false}
   >
-    <section class="lexicon-section" aria-labelledby="featured-concepts-title">
-      <h2 id="featured-concepts-title">Currently Emerging</h2>
-      <div class="featured-concepts" aria-label="Featured emerging concepts">
-        {featuredConcepts.map((entry) => (
-          <article class="featured-concept" id={slugifyTerm(entry.title)}>
-            <h3>{entry.title}</h3>
-            <p>{entry.description}</p>
-          </article>
-        ))}
-      </div>
-    </section>
+    {conceptGroups.map((group) => (
+      <LexiconSection {...group} />
+    ))}
 
-    <section class="lexicon-section" aria-labelledby="related-work-title">
-      <h2 id="related-work-title">Where This Thinking Appears</h2>
-      <div class="content-list" aria-label="Related writing and research">
-        {relatedWork.map((item) => (
-          <ContentRow
-            href={item.href}
-            title={item.title}
-            meta={item.meta}
-            accent={item.accent}
-            description={item.description}
-            tags={[]}
-          />
-        ))}
-      </div>
-    </section>
-
-    <section class="lexicon-section" aria-labelledby="additional-concepts-title">
-      <h2 id="additional-concepts-title">Additional Emerging Concepts</h2>
-      <div class="lexicon-list" aria-label="Additional emerging lexicon terms">
-        {emergingConcepts.map((entry) => (
-          <article class="lexicon-row" id={slugifyTerm(entry.title)}>
-            <h3>{entry.title}</h3>
-            <p>{entry.description}</p>
-          </article>
-        ))}
-      </div>
-      <SectionMoreLink href="/lexicon/evolving" label="Explore evolving concepts" />
+    <div class="lexicon-image">
       <ArchiveImageModule
         src="/images/pages/atn-lexicon-001.png"
         alt="Archival illustration representing the evolving language and concepts of Amid the Noise."
       />
-    </section>
+    </div>
   </SectionPage>
 </Layout>
 
 <style>
-  .lexicon-section {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-  }
-
-  .lexicon-section:first-child {
-    margin-top: 3rem;
-  }
-
-  .lexicon-section h2 {
-    margin: 0 0 1.25rem;
-    font-size: 0.95rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    line-height: 1.2;
-    text-transform: uppercase;
-    color: var(--section-accent);
-  }
-
-  .featured-concepts,
-  .content-list,
-  .lexicon-list {
-    display: grid;
-    gap: 0;
-  }
-
-  .featured-concept {
-    border-top: 1px solid var(--line);
-    padding: 1.35rem 0 1.45rem;
-  }
-
-  .featured-concept:first-child {
-    border-top: 0;
-    padding-top: 0;
-  }
-
-  .featured-concept h3,
-  .lexicon-row h3 {
-    margin: 0 0 0.5rem;
-    font-family: Inter, system-ui, sans-serif;
-    font-size: clamp(0.96rem, 1.25vw, 1.06rem);
-    line-height: 1.22;
-    letter-spacing: -0.004em;
-    font-weight: 400;
-    color: var(--title);
-  }
-
-  .featured-concept p,
-  .lexicon-row p {
-    max-width: 72ch;
-    margin: 0;
-    font-size: 0.92rem;
-    line-height: 1.65;
-    color: rgba(31, 31, 31, 0.88);
-  }
-
-  .lexicon-row {
-    border-top: 1px solid var(--line);
-    padding: 1.35rem 0 1.45rem;
-  }
-
-  .lexicon-row:first-child {
-    border-top: 0;
-    padding-top: 0;
+  .lexicon-image {
+    margin-top: 1rem;
   }
 </style>

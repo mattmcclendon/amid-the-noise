@@ -1,12 +1,11 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import SectionPage from '../../../components/SectionPage.astro';
-import DestinationRow from '../../../components/DestinationRow.astro';
 import ArchiveImageModule from '../../../components/ArchiveImageModule.astro';
 
-const title = 'Bibliography | Research | Amid the Noise';
-const description = 'Books, papers, authors, references, and influences that shape the research vocabulary of Amid the Noise.';
-const sectionIntro = 'The intellectual bedrock. A curated body of sources, references, and further reading that informs the research.';
+const title = 'Bibliography | Amid the Noise';
+const description = 'Books, papers, authors, references, and influences that shape the vocabulary of Amid the Noise.';
+const sectionIntro = 'The intellectual bedrock: a curated body of sources, references, and further reading that informs the work.';
 
 const bibliographySections = [
   {
@@ -150,7 +149,7 @@ const bibliographySections = [
 
 <Layout title={title} description={description}>
   <SectionPage
-    section="research"
+    section="reference"
     title="Bibliography"
     intro={sectionIntro}
     showHeader={false}
@@ -175,7 +174,7 @@ const bibliographySections = [
         {index === 2 && (
           <div class="bibliography-image-break">
             <ArchiveImageModule
-              src="/images/pages/atn-research-bibliography-001.png"
+              src="/images/pages/atn-bibliography-001.png"
               alt="Archival illustration representing research sources, references, and intellectual foundations."
             />
           </div>
@@ -204,7 +203,7 @@ const bibliographySections = [
   .section-note {
     margin: 0 0 1rem;
     max-width: 72ch;
-    font-family: Inter, system-ui, sans-serif;
+    font-family: var(--font-ui);
     font-size: 0.92rem;
     line-height: 1.6;
     color: rgba(31, 31, 31, 0.82);
@@ -242,7 +241,7 @@ const bibliographySections = [
 
   .source-row p {
     margin: 0;
-    font-family: Inter, system-ui, sans-serif;
+    font-family: var(--font-ui);
     font-size: 0.92rem;
     line-height: 1.5;
     color: rgba(31, 31, 31, 0.82);

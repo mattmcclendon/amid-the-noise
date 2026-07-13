@@ -48,6 +48,8 @@ Date: 2026-07-13
 14. Added `mattm.cc` to Related Projects on the About page.
 15. Reduced `Layout.astro` from more than 1,000 lines to the document shell and extracted the header, primary navigation, right rail, and footer.
 16. Moved global CSS into a dedicated stylesheet, removed duplicated inline rail styles, and established explicit display, reading, UI, and mono font tokens.
+17. Restored the complete v4 lexicon source and consolidated emerging, stabilizing, and established concepts into the single `/lexicon` page.
+18. Reframed the v4 bibliography content as a standalone reference page at `/research/bibliography`; both reference destinations remain discoverable through the human sitemap.
 
 ## Findings and next actions
 
@@ -76,7 +78,7 @@ Date: 2026-07-13
 ## Verification
 
 - `npm run build` passes.
-- 527 static pages build successfully.
+- 525 static pages build successfully after retiring the two split lexicon routes.
 - Pagefind indexes 337 pages.
 - Desktop and narrow mobile checks show no horizontal overflow.
 - Writing and Podcast receive the correct active primary-navigation state.
