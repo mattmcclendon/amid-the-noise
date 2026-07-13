@@ -11,23 +11,6 @@ const selectedSlugs = [
   'the-lineage-of-signal',
 ];
 
-const selectedWork = [
-  {
-    title: 'Designing Decision Governance in Regulated AI Systems',
-    href: '/career/case-studies/content/wells-fargo',
-    company: 'Wells Fargo',
-    description:
-      'Designed decision-governance workflows that made probabilistic model behavior reviewable, contestable, and accountable inside a high-stakes underwriting environment.',
-  },
-  {
-    title: 'Designing Human-in-the-Loop Control for AI Automation',
-    href: '/career/case-studies/content/automation-anywhere',
-    company: 'Automation Anywhere',
-    description:
-      'Led product and systems design for automation workflows where visibility, trust, and operational control determined whether human-in-the-loop AI could be used safely.',
-  },
-];
-
 const selectedLearning = [
   {
     kicker: 'Netscape / AOL',
@@ -101,23 +84,6 @@ const slugifyTag = (tag) =>
       alt="Archival illustration introducing Amid the Noise."
     />
   </div>
-  <section class="section work-section">
-    <h2>Selected Work</h2>
-
-    {selectedWork.map((item) => (
-      <article class="entry work-entry">
-        <h3>
-          <a href={item.href}>{item.title}</a>
-        </h3>
-
-        <p class="work-company">{item.company}</p>
-
-        <p>{item.description}</p>
-
-      </article>
-    ))}
-  </section>
-
   <section class="section learning-section">
     <h2>Selected Field Studies</h2>
 
@@ -327,21 +293,18 @@ const slugifyTag = (tag) =>
     text-underline-offset: 0.14em;
   }
 
-  .work-entry,
   .learning-entry,
   .papers-entry,
   .writing-entry {
     padding-left: 14px;
   }
 
-  .work-entry h3,
   .learning-entry h3,
   .papers-entry h3,
   .writing-entry h3 {
     position: relative;
   }
 
-  .work-entry h3::before,
   .learning-entry h3::before,
   .papers-entry h3::before,
   .writing-entry h3::before {
@@ -353,10 +316,6 @@ const slugifyTag = (tag) =>
     height: 48px;
     opacity: 1;
     pointer-events: none;
-  }
-
-  .work-entry h3::before {
-    background: var(--accent-case-studies);
   }
 
   .learning-entry h3::before {
@@ -384,11 +343,6 @@ const slugifyTag = (tag) =>
 
   .home-archive-plate :global(.archive-image) {
     margin: 0 0 40px;
-  }
-
-  .work-section {
-    margin-top: 8px;
-    border-top: 0 !important;
   }
 
   .learning-section {
@@ -462,32 +416,6 @@ const slugifyTag = (tag) =>
   }
 
   .learning-entry + .learning-entry {
-    margin-top: 14px;
-    padding-top: 14px;
-    border-top: 1px solid var(--line);
-  }
-
-  .work-entry h3 {
-    font-size: 1.08rem;
-    line-height: 1.32;
-    margin: 0 0 10px;
-    color: var(--text);
-  }
-
-  .work-company {
-    margin: 0 0 10px;
-    font-size: 0.78rem;
-    line-height: 1.4;
-    letter-spacing: 0.02em;
-    text-transform: none;
-    color: var(--secondary);
-  }
-
-  .work-entry p {
-    max-width: 46rem;
-  }
-
-  .work-entry + .work-entry {
     margin-top: 14px;
     padding-top: 14px;
     border-top: 1px solid var(--line);

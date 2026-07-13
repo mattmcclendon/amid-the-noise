@@ -55,6 +55,7 @@ Date: 2026-07-13
 21. Established a site-wide embedded-link contract: prose links use a persistent underline in addition to color, while structurally identifiable navigation, cards, tags, and standalone actions retain their component treatments.
 22. Moved Books into the Writing library at `/writing/books`, added contextual discovery from Home, Writing, About, and Sitemap, and retained `/books` as a compatibility redirect.
 23. Audited Home link semantics: renamed Selected Learning to Selected Field Studies, restored explicit content-type colors, removed inert tag-like controls, and linked genuine Writing tags to subject pages.
+24. Removed Selected Work from Home so the editor's-desk sequence now moves directly from the introduction into Field Studies, Papers, Writing, and Published Writing.
 
 ## Findings and next actions
 
@@ -83,7 +84,7 @@ Date: 2026-07-13
 ## Verification
 
 - `npm run build` passes.
-- 541 static pages build successfully, including 16 compatibility redirects.
+- 542 static pages build successfully, including 17 compatibility redirects.
 - Pagefind indexes 337 pages.
 - Desktop and narrow mobile checks show no horizontal overflow.
 - Writing and Podcast receive the correct active primary-navigation state.
