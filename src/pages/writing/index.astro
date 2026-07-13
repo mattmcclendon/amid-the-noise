@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import PublicationRow from '../../components/PublicationRow.astro';
 import SectionPage from '../../components/SectionPage.astro';
+import SectionMoreLink from '../../components/SectionMoreLink.astro';
 
 interface WritingPost {
   slug: string;
@@ -120,6 +121,12 @@ const formatDate = (date: Date | string | null) => {
           />
         ))}
       </div>
+    </section>
+
+    <section class="writing-section papers-shelf" aria-labelledby="papers-title">
+      <h2 id="papers-title">Papers</h2>
+      <p class="section-intro">Longer-form arguments, frameworks, and downloadable research on systems, governance, human judgment, and artificial intelligence.</p>
+      <SectionMoreLink href="/writing/papers" label="See all papers" />
     </section>
 
     <section class="writing-section" aria-labelledby="subjects-title">
