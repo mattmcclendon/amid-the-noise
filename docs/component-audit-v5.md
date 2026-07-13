@@ -51,6 +51,7 @@ Date: 2026-07-13
 17. Restored the complete v4 lexicon source and consolidated emerging, stabilizing, and established concepts into the single `/lexicon` page.
 18. Reframed the v4 bibliography content as a standalone reference page at `/research/bibliography`; both reference destinations remain discoverable through the human sitemap.
 19. Moved Papers into the Writing library at `/writing/papers`, moved the web paper to `/writing/papers/[slug]`, and retained compatibility redirects for the previous Research and `/papers` index URLs.
+20. Moved Field Studies into the Writing library at `/writing/field-studies`, added the complete archive to Home, Writing, and Sitemap, and retained compatibility redirects for all previous Research URLs.
 
 ## Findings and next actions
 
@@ -79,7 +80,7 @@ Date: 2026-07-13
 ## Verification
 
 - `npm run build` passes.
-- 528 static pages build successfully, including three compatibility redirects.
+- 541 static pages build successfully, including 16 compatibility redirects.
 - Pagefind indexes 337 pages.
 - Desktop and narrow mobile checks show no horizontal overflow.
 - Writing and Podcast receive the correct active primary-navigation state.

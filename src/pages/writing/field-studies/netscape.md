@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "Netscape & America Online"
 subtitle: "Field Study"
 description: "A field study on personalization, messaging convergence, and the systems that helped ordinary people trust the early internet."

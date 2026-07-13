@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "Wells Fargo"
 subtitle: "Field Study"
 description: "A field study on designing trustworthy AI systems inside a regulated financial institution, focusing on governance, human oversight, operational alignment, and scalable experimentation."

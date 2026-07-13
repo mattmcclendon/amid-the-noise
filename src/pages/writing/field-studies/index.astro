@@ -1,0 +1,200 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SectionPage from '../../../components/SectionPage.astro';
+import ContentRow from '../../../components/ContentRow.astro';
+
+const title = 'Field Studies | Writing | Amid the Noise';
+const description = 'Field studies from Matthew McClendon on enterprise systems, civic systems, product design, and decision infrastructure.';
+const sectionIntro = 'The stress test. Direct observations from real systems where theory meets lived operational conditions.';
+
+const fieldStudyModules = import.meta.glob('./*.md', { eager: true });
+
+const fieldStudyMetadata: Record<string, { title: string; meta: string; description: string }> = {
+  'dremio': {
+    meta: 'Dremio',
+    title: 'Designing Trust Inside Modern Data Infrastructure',
+    description:
+      'Across financial services, healthcare, and enterprise infrastructure, the work clarified how semantic systems, lineage, and cognitive legibility help people trust complex data environments.',
+  },
+  'automation-anywhere': {
+    meta: 'Automation Anywhere',
+    title: 'Designing Trust Inside AI-Assisted Automation',
+    description:
+      'As automation moved from deterministic rules toward adaptive systems, the work focused on explainability, confidence calibration, and human oversight inside operational workflows.',
+  },
+  'wells-fargo': {
+    meta: 'Wells Fargo',
+    title: 'Designing Human-Governed AI in a Regulated Enterprise',
+    description:
+      'Inside Wells Fargo AI Enterprise Solutions, the work focused on operationalizing trust in regulated AI systems through governance frameworks, human oversight, interpretability, and scalable experimentation across 17 business units.',
+  },
+  'ca-technologies': {
+    meta: 'CA Technologies',
+    title: 'Designing Signal in Emerging Systems',
+    description:
+      'Inside the CA Accelerator, design became infrastructure for experimentation, validation, and trust across emerging technology ventures working in NLP, predictive DevOps, and operational analytics.',
+  },
+  'cadence': {
+    meta: 'Cadence Design Systems',
+    title: 'Designing Human-Guided Systems for Semiconductor Complexity',
+    description:
+      'Inside advanced semiconductor design tooling, the work focused on user research, in-canvas interaction, UX maturity, and early machine-learning-assisted workflows for engineers operating at the edge of technical complexity.',
+  },
+  'civic-systems': {
+    meta: 'Civic Systems',
+    title: 'Designing Dignity Inside Public Systems Under Stress',
+    description:
+      'Public systems rarely fail at a single touchpoint. This field study looks at how navigability, dignity, and operational clarity shape trust when people encounter institutions under pressure.',
+  },
+  'evernote-research': {
+    meta: 'Evernote',
+    title: 'Palette as Exploration',
+    description:
+      'For Skitch, we observed preschool children fingerpaint to understand how people explore color before constraint. The work shifted markup palettes from rigid selection toward fluid exploration.',
+  },
+  'level-studios': {
+    meta: 'LEVEL Studios',
+    title: 'Portable Trust',
+    description:
+      'Embedded agency work across Fidelity and other enterprise clients showed how mobile strategy, behavioral segmentation, and content targeting shaped trust as digital systems began following people everywhere.',
+  },
+  'stanford-improv': {
+    meta: 'Yahoo!',
+    title: 'Collaboration at Scale',
+    description:
+      'Through Stanford improv training, we practiced building on each other’s ideas while designing Yahoo! frontdoor experiences at global scale. Even fractional A/B tests reached millions of users.',
+  },
+  'friendster': {
+    meta: 'Friendster',
+    title: "The Network Couldn't Hold",
+    description:
+      'Inside the first real social network, unstable infrastructure, shifting product identity, global usage patterns, and early social graph behavior revealed how quickly users could define a platform faster than the company itself.',
+  },
+  'netscape': {
+    meta: 'Netscape / AOL',
+    title: 'The First Comfortable Internet',
+    description:
+      'Work across personalization systems, messaging convergence, and large-scale onboarding helped transform the internet from a technical frontier into an environment ordinary people could navigate with confidence.',
+  },
+  'idealab': {
+    meta: 'idealab!',
+    title: 'The Future Arrived Early',
+    description:
+      'Inside the dot-com invention factory, design functioned as early-stage scaffolding for startups translating everyday life into the internet before the infrastructure, economics, and ethics had caught up.',
+  },
+};
+
+const fieldStudies = Object.entries(fieldStudyModules)
+  .map(([path, module]) => {
+    const mod = module as {
+      frontmatter?: {
+        title?: string;
+        description?: string;
+        company?: string;
+        organization?: string;
+        client?: string;
+        role?: string;
+        context?: string;
+        draft?: boolean;
+      };
+    };
+
+    const frontmatter = mod.frontmatter ?? {};
+    const slug = path.replace('./', '').replace('.md', '');
+    const metadata = fieldStudyMetadata[slug];
+    const meta =
+      metadata?.meta ??
+      frontmatter.company ??
+      frontmatter.organization ??
+      frontmatter.client ??
+      frontmatter.context ??
+      frontmatter.role ??
+      'Field Study';
+
+    return {
+      slug,
+      title: metadata?.title ?? frontmatter.title ?? slug,
+      href: `/writing/field-studies/${slug}`,
+      meta,
+      description: metadata?.description ?? frontmatter.description ?? '',
+      draft: frontmatter.draft ?? false,
+    };
+  })
+  .filter((study) => !study.draft)
+  .sort((a, b) => {
+    const order = [
+      'dremio',
+      'automation-anywhere',
+      'wells-fargo',
+      'ca-technologies',
+      'cadence',
+      'civic-systems',
+      'civic-systems-copy',
+      'evernote-research',
+      'level-studios',
+      'stanford-improv',
+      'friendster',
+      'netscape',
+      'idealab',
+    ];
+
+    const aIndex = order.indexOf(a.slug);
+    const bIndex = order.indexOf(b.slug);
+
+    if (aIndex === -1 && bIndex === -1) {
+      return a.title.localeCompare(b.title);
+    }
+
+    if (aIndex === -1) return 1;
+    if (bIndex === -1) return -1;
+
+    return aIndex - bIndex;
+  });
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="writing"
+    title="Field Studies"
+    intro={sectionIntro}
+    showHeader={false}
+  >
+    <section class="field-studies-section">
+      <div class="content-list" aria-label="Published field studies">
+        {fieldStudies.map((study) => (
+          <ContentRow
+            href={study.href}
+            title={study.title}
+            meta={study.meta}
+            metaLabel="Organization or context"
+            description={study.description}
+            tags={[]}
+          />
+        ))}
+      </div>
+    </section>
+  </SectionPage>
+</Layout>
+
+<style>
+  .field-studies-section {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .field-studies-section h2 {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.72);
+  }
+
+  .content-list {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+  }
+</style>

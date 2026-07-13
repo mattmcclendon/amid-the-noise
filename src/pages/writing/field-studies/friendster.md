@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "Friendster"
 subtitle: "Field Study"
 description: "A field study on the emergence of social networking, behavioral identity online, infrastructure collapse under viral growth, and the moment the internet became social by default."

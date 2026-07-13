@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "Automation Anywhere"
 subtitle: "Field Study"
 description: "As enterprise automation evolved from deterministic bots toward adaptive AI systems, the central challenge shifted from execution speed to operational trust."

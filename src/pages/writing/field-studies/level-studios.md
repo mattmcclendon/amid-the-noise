@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "LEVEL Studios"
 subtitle: "Field Study"
 description: "A field study on agency life, behavioral systems, mobile strategy, and the transition from desktop-era interaction to continuous digital presence."

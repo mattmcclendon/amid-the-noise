@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "idealab!"
 subtitle: "Field Study"
 description: "A field study on startup incubation, early internet culture, and the years when the web seemed capable of absorbing every part of daily life."

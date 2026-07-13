@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "Yahoo!"
 subtitle: "Field Study"
 description: "What improvisation revealed about collaboration, articulation, and how teams think together under pressure."

@@ -1,0 +1,23 @@
+---
+export function getStaticPaths() {
+  const slugs = [
+    'automation-anywhere',
+    'ca-technologies',
+    'cadence',
+    'civic-systems',
+    'dremio',
+    'evernote-research',
+    'friendster',
+    'idealab',
+    'level-studios',
+    'netscape',
+    'stanford-improv',
+    'wells-fargo',
+  ];
+
+  return slugs.map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+return Astro.redirect(`/writing/field-studies/${slug}`, 301);
+---

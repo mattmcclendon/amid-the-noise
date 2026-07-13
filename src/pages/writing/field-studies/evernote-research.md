@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "Palette as Exploration"
 subtitle: "Evernote"
 description: "What observing children at a preschool revealed about color, constraint, and how people actually explore interfaces."

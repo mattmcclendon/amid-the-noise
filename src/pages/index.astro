@@ -34,21 +34,21 @@ const selectedLearning = [
   {
     kicker: 'Netscape / AOL',
     title: 'The First Comfortable Internet',
-    href: '/research/field-studies/content/netscape',
+    href: '/writing/field-studies/netscape',
     description:
       'Early work across personalization, messaging convergence, and large-scale onboarding helped make the internet feel usable, familiar, and trustworthy for ordinary people.',
   },
   {
     kicker: 'Friendster',
     title: 'The Network Couldn’t Hold',
-    href: '/research/field-studies/content/friendster',
+    href: '/writing/field-studies/friendster',
     description:
       'Inside the first real social network, unstable infrastructure, shifting product identity, and early social graph behavior revealed how quickly users could define a platform faster than the company itself.',
   },
   {
     kicker: 'Wells Fargo',
     title: 'Designing Human-Governed AI in a Regulated Enterprise',
-    href: '/research/field-studies/content/wells-fargo',
+    href: '/writing/field-studies/wells-fargo',
     description:
       'Inside Wells Fargo AI Enterprise Solutions, the work focused on operationalizing trust in regulated AI systems through governance frameworks, human oversight, interpretability, and scalable experimentation across 17 business units.',
   },
@@ -132,6 +132,10 @@ const normalizeTags = (tags) => {
         <p>{item.description}</p>
       </article>
     ))}
+    <div class="learning-more">
+      <p>Browse the complete field-study archive for observations from enterprise, civic, technical, and cultural systems under real operating conditions.</p>
+      <SectionMoreLink href="/writing/field-studies" label="See all field studies" />
+    </div>
   </section>
 
   <section class="section papers-section">
@@ -402,14 +406,16 @@ const normalizeTags = (tags) => {
     max-width: 46rem;
   }
 
-  .papers-more {
+  .papers-more,
+  .learning-more {
     margin-top: 16px;
     padding-top: 14px;
     padding-left: 14px;
     border-top: 1px solid var(--line);
   }
 
-  .papers-more p {
+  .papers-more p,
+  .learning-more p {
     max-width: 46rem;
     margin: 0 0 8px;
     font-size: 0.98rem;
@@ -417,7 +423,8 @@ const normalizeTags = (tags) => {
     color: var(--text);
   }
 
-  .papers-more p:last-child {
+  .papers-more p:last-child,
+  .learning-more p:last-child {
     margin-bottom: 0;
   }
 

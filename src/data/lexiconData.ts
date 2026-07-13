@@ -61,7 +61,7 @@ export const conceptGroups: LexiconSectionData[] = [
       },
       {
         title: 'Designing Trust Inside Modern Data Infrastructure',
-        href: '/research/field-studies/content/dremio',
+        href: '/writing/field-studies/dremio',
         meta: 'Field Study',
         description:
           'A field study on semantic systems, lineage, and cognitive legibility inside modern data infrastructure.',
@@ -130,7 +130,7 @@ export const conceptGroups: LexiconSectionData[] = [
       },
       {
         title: 'Designing Human-Governed AI in a Regulated Enterprise',
-        href: '/research/field-studies/content/wells-fargo',
+        href: '/writing/field-studies/wells-fargo',
         meta: 'Field Study',
         description:
           'A field study of governance, human oversight, interpretability, and scalable experimentation inside regulated AI systems.',
@@ -251,7 +251,7 @@ export const conceptGroups: LexiconSectionData[] = [
       },
       {
         title: 'Designing Dignity Inside Public Systems Under Stress',
-        href: '/research/field-studies/content/civic-systems',
+        href: '/writing/field-studies/civic-systems',
         meta: 'Field Study',
         description:
           'A field study of navigability, dignity, and operational clarity inside public systems under pressure.',

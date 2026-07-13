@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "Dremio"
 subtitle: "Field Study"
 description: "Across financial services, healthcare, and enterprise infrastructure, the same pattern emerged repeatedly: modern data systems rarely failed at storage or compute. They failed at interpretation."

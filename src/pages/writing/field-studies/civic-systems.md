@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "Civic Systems"
 subtitle: "Field Study"
 description: "Public systems rarely fail because people refuse help. They fail because the path to receiving help becomes cognitively exhausting, emotionally punishing, or operationally impossible to navigate."

@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "CA Technologies (Accelerator)"
 subtitle: "Field Study"
 description: "A field study on building human-centered systems for emerging technology ventures inside the CA Accelerator, spanning predictive DevOps, NLP, UXOps, and AI-assisted decision workflows."

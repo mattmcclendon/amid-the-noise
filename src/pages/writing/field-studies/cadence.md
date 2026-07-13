@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "Cadence Design Systems"
 subtitle: "Field Study"
 description: "Field study on rebuilding user experience systems for Cadence Virtuoso and DaVinci during the transition toward AI-assisted semiconductor design workflows."
