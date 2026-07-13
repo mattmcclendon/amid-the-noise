@@ -130,4 +130,4 @@ That was enough to start.
 
 ---
 
-Available in print and digital editions: [See books](/books)
+Available in print and digital editions: [See books](/writing/books)

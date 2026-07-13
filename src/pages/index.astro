@@ -18,7 +18,6 @@ const selectedWork = [
     company: 'Wells Fargo',
     description:
       'Designed decision-governance workflows that made probabilistic model behavior reviewable, contestable, and accountable inside a high-stakes underwriting environment.',
-    tags: ['AI Systems', 'Decision Support', 'Risk'],
   },
   {
     title: 'Designing Human-in-the-Loop Control for AI Automation',
@@ -26,7 +25,6 @@ const selectedWork = [
     company: 'Automation Anywhere',
     description:
       'Led product and systems design for automation workflows where visibility, trust, and operational control determined whether human-in-the-loop AI could be used safely.',
-    tags: ['Enterprise AI', 'Observability', 'Complex Systems'],
   },
 ];
 
@@ -79,6 +77,13 @@ const normalizeTags = (tags) => {
   if (typeof tags === 'string') return [tags];
   return [];
 };
+
+const slugifyTag = (tag) =>
+  tag
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
 ---
 
 <Layout title="Amid the Noise">
@@ -109,17 +114,12 @@ const normalizeTags = (tags) => {
 
         <p>{item.description}</p>
 
-        <div class="entry-tags">
-          {item.tags.map((tag) => (
-            <span class="entry-tag">{tag}</span>
-          ))}
-        </div>
       </article>
     ))}
   </section>
 
   <section class="section learning-section">
-    <h2>Selected Learning</h2>
+    <h2>Selected Field Studies</h2>
 
     {selectedLearning.map((item) => (
       <article class="entry learning-entry">
@@ -180,7 +180,7 @@ const normalizeTags = (tags) => {
         {normalizeTags(post.frontmatter.tags).length > 0 && (
           <div class="entry-tags">
             {normalizeTags(post.frontmatter.tags).map((tag) => (
-              <span class="entry-tag">{tag}</span>
+              <a class="entry-tag" href={`/writing/tag/${slugifyTag(tag)}`}>{tag}</a>
             ))}
           </div>
         )}
@@ -189,9 +189,9 @@ const normalizeTags = (tags) => {
   </section>
 
   <section class="section books-note">
-    <h2>Published Writing</h2>
+    <h2>Books</h2>
     <p>
-      <a href="/books"><em>Exit Wounds</em></a> extends the themes explored throughout <em>Amid the Noise</em> into poetry: recovery, toxic attachment, substance use, homelessness, and the cost of naming what survival required.
+      <a href="/writing/books"><em>Exit Wounds</em></a> extends the themes explored throughout <em>Amid the Noise</em> into poetry: recovery, toxic attachment, substance use, homelessness, and the cost of naming what survival required.
     </p>
   </section>
 </Layout>
@@ -316,6 +316,15 @@ const normalizeTags = (tags) => {
     border: 1px solid var(--line);
     padding: 5px 7px;
     background: transparent;
+    text-decoration: none;
+  }
+
+  .entry-tag:hover,
+  .entry-tag:focus-visible {
+    color: var(--accent-posts);
+    border-color: var(--accent-posts);
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
   }
 
   .work-entry,
@@ -347,19 +356,23 @@ const normalizeTags = (tags) => {
   }
 
   .work-entry h3::before {
-    background: var(--accent-career);
+    background: var(--accent-case-studies);
   }
 
   .learning-entry h3::before {
-    background: var(--accent-research);
+    background: var(--accent-field-studies);
   }
 
   .papers-entry h3::before {
-    background: var(--accent-research);
+    background: var(--accent-papers);
   }
 
   .writing-entry h3::before {
-    background: var(--accent-writing);
+    background: var(--accent-posts);
+  }
+
+  .books-note a {
+    color: var(--accent-posts);
   }
 
   .home-archive-plate {

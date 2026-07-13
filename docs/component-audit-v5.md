@@ -53,6 +53,8 @@ Date: 2026-07-13
 19. Moved Papers into the Writing library at `/writing/papers`, moved the web paper to `/writing/papers/[slug]`, and retained compatibility redirects for the previous Research and `/papers` index URLs.
 20. Moved Field Studies into the Writing library at `/writing/field-studies`, added the complete archive to Home, Writing, and Sitemap, and retained compatibility redirects for all previous Research URLs.
 21. Established a site-wide embedded-link contract: prose links use a persistent underline in addition to color, while structurally identifiable navigation, cards, tags, and standalone actions retain their component treatments.
+22. Moved Books into the Writing library at `/writing/books`, added contextual discovery from Home, Writing, About, and Sitemap, and retained `/books` as a compatibility redirect.
+23. Audited Home link semantics: renamed Selected Learning to Selected Field Studies, restored explicit content-type colors, removed inert tag-like controls, and linked genuine Writing tags to subject pages.
 
 ## Findings and next actions
 
