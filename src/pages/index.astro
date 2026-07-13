@@ -123,7 +123,7 @@ const slugifyTag = (tag) =>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section writing-section">
     <h2>Selected Writing</h2>
 
     {selectedPosts.map((post) => (
@@ -152,6 +152,9 @@ const slugifyTag = (tag) =>
         )}
       </article>
     ))}
+    <div class="writing-more">
+      <SectionMoreLink href="/writing" label="See all writing" />
+    </div>
   </section>
 
   <section class="section books-note">
@@ -159,6 +162,7 @@ const slugifyTag = (tag) =>
     <p>
       <a href="/writing/books"><em>Exit Wounds</em></a> extends the themes explored throughout <em>Amid the Noise</em> into poetry: recovery, toxic attachment, substance use, homelessness, and the cost of naming what survival required.
     </p>
+    <SectionMoreLink href="/writing/books" label="See books" />
   </section>
 </Layout>
 
@@ -374,7 +378,8 @@ const slugifyTag = (tag) =>
   }
 
   .papers-more,
-  .learning-more {
+  .learning-more,
+  .writing-more {
     margin-top: 16px;
     padding-top: 14px;
     padding-left: 14px;
@@ -382,7 +387,8 @@ const slugifyTag = (tag) =>
   }
 
   .papers-more p,
-  .learning-more p {
+  .learning-more p,
+  .writing-more p {
     max-width: 46rem;
     margin: 0 0 8px;
     font-size: 0.98rem;
@@ -391,7 +397,8 @@ const slugifyTag = (tag) =>
   }
 
   .papers-more p:last-child,
-  .learning-more p:last-child {
+  .learning-more p:last-child,
+  .writing-more p:last-child {
     margin-bottom: 0;
   }
 
