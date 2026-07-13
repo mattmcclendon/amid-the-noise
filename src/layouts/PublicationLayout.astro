@@ -16,6 +16,7 @@ const plainTextBody = renderedBody
 const wordCount = plainTextBody ? plainTextBody.split(/\s+/).length : 0;
 const readingTime = Math.max(1, Math.ceil(wordCount / 225));
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
+const isCareerRoute = currentPath === '/career' || currentPath.startsWith('/career/');
 
 const writingModules = Object.values(import.meta.glob('../pages/writing/*.md', { eager: true }));
 
@@ -60,7 +61,10 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
     )}
   </Fragment>
 
-  <article class="publication publication-doc" data-pagefind-body>
+  <article
+    class="publication publication-doc"
+    data-pagefind-body={isCareerRoute ? undefined : true}
+  >
     {frontmatter.heroImage && (
       <figure class="publication-hero">
         <img
