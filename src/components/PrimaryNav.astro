@@ -1,0 +1,33 @@
+---
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+
+const primaryNav = [
+  { label: 'Writing', href: '/writing', section: '/writing', className: 'nav-writing' },
+  { label: 'Podcast', href: '/podcast', section: '/podcast', className: 'nav-podcast' },
+  { label: 'About', href: '/about', section: '/about', className: 'nav-about' },
+];
+---
+
+<nav class="site-nav" aria-label="Primary">
+  {primaryNav.map((item) => {
+    const isActive = currentPath === item.section || currentPath.startsWith(`${item.section}/`);
+
+    return (
+      <a href={item.href} class={item.className} aria-current={isActive ? 'page' : undefined}>
+        {item.label}
+      </a>
+    );
+  })}
+  <a
+    href="/search"
+    class="site-search-link nav-search"
+    aria-label="Search"
+    aria-current={currentPath === '/search' || currentPath.startsWith('/search/') ? 'page' : undefined}
+  >
+    <img src="/search.svg" alt="" aria-hidden="true" class="site-search-icon" />
+  </a>
+</nav>

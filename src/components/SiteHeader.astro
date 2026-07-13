@@ -1,0 +1,24 @@
+---
+import PrimaryNav from './PrimaryNav.astro';
+
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+---
+
+<header class="site-header">
+  <div class="site-frame">
+    <div class="site-header-inner">
+      <div class="site-brand">
+        <a href="/" class="site-wordmark" aria-label="Amid the Noise home">
+          <span class="site-mark" aria-hidden="true"></span>
+          <span class="site-name">Amid the Noise</span>
+        </a>
+      </div>
+
+      <PrimaryNav currentPath={currentPath} />
+    </div>
+  </div>
+</header>

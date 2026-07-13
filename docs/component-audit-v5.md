@@ -15,7 +15,12 @@ Date: 2026-07-13
 
 | Layer | Component | Role | Audit status |
 | --- | --- | --- | --- |
-| Shell | `Layout.astro` | Metadata, header, primary navigation, two-column frame, rail, footer, global tokens/styles | Keep; split in a later pass |
+| Shell | `Layout.astro` | Metadata and document shell | Keep; reduced to the stable page contract |
+| Shell | `SiteHeader.astro` | Wordmark and primary navigation frame | Keep |
+| Navigation | `PrimaryNav.astro` | Route-aware Writing, Podcast, About, and Search navigation | Keep |
+| Shell | `RightRail.astro` | About the Editor and Connect rail | Keep |
+| Shell | `SiteFooter.astro` | Legal navigation, sitemap, social links, and back to top | Keep |
+| System | `styles/global.css` | Global tokens, base rules, shared shell, and transitional legacy styles | Keep; split legacy page rules as their components are audited |
 | Publication | `PublicationLayout.astro` | Long-form article header, body, pagination, subscription CTA | Keep; extract article subcomponents later |
 | Section | `SectionPage.astro` | Section heading and contextual intro | Keep; local navigation removed |
 | Listing | `PublicationRow.astro` | Writing title, date, summary, and linked tags | Keep; canonical writing-row primitive |
@@ -41,6 +46,8 @@ Date: 2026-07-13
 12. Added a human-readable `/sitemap` page organized around Writing, Podcast, About, and Legal.
 13. Reframed Home as the editor's desk and added a concise About the Editor/Connect rail.
 14. Added `mattm.cc` to Related Projects on the About page.
+15. Reduced `Layout.astro` from more than 1,000 lines to the document shell and extracted the header, primary navigation, right rail, and footer.
+16. Moved global CSS into a dedicated stylesheet, removed duplicated inline rail styles, and established explicit display, reading, UI, and mono font tokens.
 
 ## Findings and next actions
 
@@ -53,7 +60,6 @@ Date: 2026-07-13
 
 ### P1 — next component pass
 
-- `Layout.astro` is 1,000+ lines and owns unrelated page styles. Extract `SiteHeader`, `PrimaryNav`, `RightRail`, and `SiteFooter`, then move global tokens/base rules into a dedicated stylesheet.
 - `PublicationLayout.astro` is 500+ lines. Extract `PublicationHeader`, `PublicationPagination`, and `SubscribeForm` while keeping article markup and URLs unchanged.
 - `ContentRow` and `PublicationRow` duplicate most structure and CSS. Create one row primitive with explicit variants (`publication`, `destination`) after legacy-section decisions are made.
 - `SectionPage.showHeader` is accepted but ignored. Remove the prop after confirming what the legacy callers intended.
@@ -61,7 +67,7 @@ Date: 2026-07-13
 
 ### P2 — system cleanup
 
-- The global type system mixes Georgia, Source Serif 4, and an unloaded Inter declaration. Establish explicit display, reading, and UI font tokens.
+- Replace remaining direct `Inter` declarations with the established UI-font token as each owning component is audited.
 - Several color variables serve both current and legacy sections. Keep them until Research, Lexicon, and Career are intentionally repositioned; then remove obsolete section variants.
 - `ArchiveImageModule` references an undefined `--surface` token and should add `decoding="async"` plus explicit dimensions where known.
 - Tag names need an editorial normalization pass (`AI` vs `Artificial Intelligence`, `UX` vs `User Experience`, and similar pairs) so discovery counts represent concepts rather than spelling variants.
