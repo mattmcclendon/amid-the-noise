@@ -20,6 +20,8 @@ const {
   showHeader = true,
 } = Astro.props;
 
+const hasIntroSlot = Astro.slots.has('intro');
+
 void showHeader;
 ---
 
@@ -27,10 +29,16 @@ void showHeader;
   <header class="section-page__header">
     <div class="section-page__title-block">
       <h1>{title}</h1>
-      {intro && (
+      {(intro || hasIntroSlot) && (
         <p>
-          {intro}
-          {introLink && <> <a href={introLink.href}>{introLink.label}</a></>}
+          {hasIntroSlot ? (
+            <slot name="intro" />
+          ) : (
+            <>
+              {intro}
+              {introLink && <> <a href={introLink.href}>{introLink.label}</a></>}
+            </>
+          )}
         </p>
       )}
     </div>
@@ -89,17 +97,16 @@ void showHeader;
     color: rgba(31, 31, 31, 0.9);
   }
 
-  .section-page__header p a {
+  .section-page__header p :global(a) {
     color: var(--section-accent);
   }
 
-  .section-page__header p a:hover {
+  .section-page__header p :global(a:hover) {
     color: var(--section-accent);
     text-decoration: underline;
     text-underline-offset: 0.14em;
     text-decoration-thickness: 1px;
   }
-
 
   .section-page__body {
     display: grid;

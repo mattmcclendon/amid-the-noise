@@ -15,8 +15,6 @@ interface WritingPost {
 
 const title = 'Writing | Amid the Noise';
 const description = 'Essays, reflections, and systems writing by Matthew McClendon.';
-const sectionIntro = 'A working library of essays and reflections on signal, systems, trust, and the structures that shape how we think and act. Browse by subject.';
-
 const postModules = import.meta.glob('./*.md', { eager: true });
 
 const posts: WritingPost[] = Object.entries(postModules)
@@ -101,9 +99,11 @@ const formatDate = (date: Date | string | null) => {
   <SectionPage
     section="writing"
     title="Writing"
-    intro={sectionIntro}
-    introLink={{ label: 'Explore the full archive →', href: '/writing/archive' }}
   >
+    <Fragment slot="intro">
+      A working library of essays, <a href="/writing/field-studies">field studies</a>, and <a href="/writing/papers">papers</a> on signal, systems, trust, and the structures that shape how we think and act. Browse by subject. A <a href="/writing/archive">full archive</a> is also available.
+    </Fragment>
+
     <section class="writing-section" aria-labelledby="core-title">
       <h2 id="core-title">Start Here</h2>
       <p class="section-intro">Five pieces that establish the library’s central operating model: how systems behave, how signal degrades, and how trust survives contact with reality.</p>
