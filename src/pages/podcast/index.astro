@@ -1,0 +1,59 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SectionPage from '../../components/SectionPage.astro';
+
+const title = 'Podcast';
+const description = 'The Amid the Noise podcast is taking shape after a year spent finding its voice through writing.';
+---
+
+<Layout title={title} description={description}>
+  <SectionPage
+    section="podcast"
+    title="Podcast"
+    intro="The conversation starts here."
+  >
+    <section class="podcast-section" aria-labelledby="podcast-writing">
+      <h2 id="podcast-writing">Writing came first</h2>
+      <p><em>Amid the Noise</em> was always envisioned as a podcast. Then I started writing—and kept writing.</p>
+      <p>Over the following year, the writing became a way of understanding what I actually believed: about systems, judgment, recovery, belonging, and the world I had spent decades learning to see.</p>
+      <p>There is finally enough ground beneath those ideas to begin talking.</p>
+    </section>
+
+    <section class="podcast-section" aria-labelledby="podcast-development">
+      <h2 id="podcast-development">In development</h2>
+      <p>A few episodes are already mapped out, but the podcast is still taking shape.</p>
+      <p>If you have an idea, a story, a question worth exploring, or someone I should speak with, I would love to hear from you:</p>
+      <p><a href="mailto:podcast@amidthenoise.com">podcast@amidthenoise.com</a></p>
+    </section>
+
+    <section class="podcast-section" aria-labelledby="podcast-studio">
+      <h2 id="podcast-studio">Rebuilding the studio</h2>
+      <p>My previous recording setup was lost in the fire, and many of its components are no longer available. The studio is being rebuilt from the ground up.</p>
+      <p>Recommendations for microphones, lighting, recording workflows, remote interviews, or production tools are welcome.</p>
+    </section>
+  </SectionPage>
+</Layout>
+
+<style>
+  .podcast-section {
+    padding: 2rem 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .podcast-section:first-child {
+    padding-top: 1rem;
+    border-top: 0;
+  }
+
+  .podcast-section h2 {
+    margin: 0 0 1rem;
+  }
+
+  .podcast-section p {
+    max-width: 42rem;
+    margin: 0 0 0.8rem;
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+</style>

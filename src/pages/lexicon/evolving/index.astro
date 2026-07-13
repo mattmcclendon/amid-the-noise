@@ -8,12 +8,6 @@ const title = 'Evolving | Lexicon | Amid the Noise';
 const description = 'Evolving concepts in the Amid the Noise lexicon.';
 const sectionIntro = 'These concepts have survived first contact with the work. They appear across multiple essays, papers, field studies, or case studies, but their definitions are still being refined as better evidence emerges.';
 
-const sectionNav = [
-  { label: 'Overview', href: '/lexicon' },
-  { label: 'Evolving', href: '/lexicon/evolving' },
-  { label: 'Established', href: '/lexicon/established' },
-];
-
 const featuredConcepts = [
   {
     title: 'Signal Integrity',
@@ -145,7 +139,6 @@ const slugifyTerm = (term: string) =>
     section="lexicon"
     title="Evolving"
     intro={sectionIntro}
-    sectionNav={sectionNav}
     showHeader={false}
   >
     <section class="lexicon-section" aria-labelledby="featured-concepts-title">

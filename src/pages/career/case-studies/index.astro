@@ -44,12 +44,6 @@ const studies = Object.entries(studyModules)
     section="career"
     title="Case Studies"
     intro={sectionIntro}
-    sectionNav={[
-      { label: 'Overview', href: '/career' },
-      { label: 'Case Studies', href: '/career/case-studies' },
-      { label: 'Timeline', href: '/career/timeline' },
-      { label: 'Learning', href: '/career/learning' }
-    ]}
   >
     {studies.map((study) => (
       <ContentRow

@@ -1,50 +1,39 @@
 ---
-interface SectionNavItem {
+interface IntroLink {
   label: string;
   href: string;
 }
 
 interface Props {
-  section?: 'writing' | 'research' | 'lexicon' | 'career';
+  section?: 'writing' | 'podcast' | 'research' | 'lexicon' | 'career';
   title: string;
   intro?: string;
+  introLink?: IntroLink;
   showHeader?: boolean;
-  sectionNav?: SectionNavItem[];
 }
 
 const {
   section = 'writing',
   title,
   intro,
+  introLink,
   showHeader = true,
-  sectionNav = [],
 } = Astro.props;
 
 void showHeader;
-
-const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 ---
 
 <section class={`section section-page section-page--${section}`}>
   <header class="section-page__header">
     <div class="section-page__title-block">
       <h1>{title}</h1>
-      {intro && <p>{intro}</p>}
+      {intro && (
+        <p>
+          {intro}
+          {introLink && <> <a href={introLink.href}>{introLink.label}</a></>}
+        </p>
+      )}
     </div>
-    {sectionNav.length > 0 && (
-      <nav class="section-page__nav" aria-label={`${title} navigation`}>
-        {sectionNav.map((item) => {
-          const itemPath = item.href.replace(/\/$/, '') || '/';
-          const isActive = currentPath === itemPath;
-
-          return (
-            <a href={item.href} aria-current={isActive ? 'page' : undefined}>
-              {item.label}
-            </a>
-          );
-        })}
-      </nav>
-    )}
   </header>
 
   <div class="section-page__body">
@@ -60,6 +49,10 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 
   .section-page--writing {
     --section-accent: var(--accent-writing);
+  }
+
+  .section-page--podcast {
+    --section-accent: var(--accent-podcast);
   }
 
   .section-page--research {
@@ -96,38 +89,11 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     color: rgba(31, 31, 31, 0.9);
   }
 
-  .section-page__nav {
-    position: absolute;
-    top: 0.15rem;
-    right: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 0.45rem 0.75rem;
-    max-width: 28rem;
-    font-family: Inter, system-ui, sans-serif;
-    font-size: 0.82rem;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-  }
-
-  .section-page__nav a {
-    color: rgba(31, 31, 31, 0.76);
-    text-decoration: none;
-  }
-
-  .section-page__nav a + a::before {
-    content: '/';
-    margin-right: 0.75rem;
-    color: rgba(31, 31, 31, 0.42);
-  }
-
-  .section-page__nav a[aria-current='page'] {
+  .section-page__header p a {
     color: var(--section-accent);
-    font-weight: 700;
   }
 
-  .section-page__nav a:hover {
+  .section-page__header p a:hover {
     color: var(--section-accent);
     text-decoration: underline;
     text-underline-offset: 0.14em;
@@ -138,19 +104,5 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   .section-page__body {
     display: grid;
     gap: 1.75rem;
-  }
-
-  @media (max-width: 820px) {
-    .section-page__header {
-      position: relative;
-    }
-
-    .section-page__nav {
-      position: static;
-      margin-top: 1.15rem;
-      max-width: none;
-      justify-content: flex-start;
-      text-align: left;
-    }
   }
 </style>

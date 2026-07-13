@@ -8,6 +8,7 @@ interface Props {
   tags?: string[];
   accent?: string;
   showAccentBar?: boolean;
+  tagsAsLinks?: boolean;
 }
 
 const {
@@ -19,25 +20,31 @@ const {
   tags = [],
   accent = 'var(--section-accent)',
   showAccentBar = true,
+  tagsAsLinks = false,
 } = Astro.props;
+
+const slugifyTag = (tag: string) =>
+  tag
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
 ---
 
-<article class="publication-row">
-  <a href={href} class:list={{ 'has-accent': showAccentBar }} style={`--row-accent:${accent}`}>
-    <div>
-      <h3>{title}</h3>
-      {date && <time datetime={datetime}>{date}</time>}
-      {description && <p>{description}</p>}
+<article class:list={['publication-row', { 'has-accent': showAccentBar }]} style={`--row-accent:${accent}`}>
+  <h3><a href={href}>{title}</a></h3>
+  {date && <time datetime={datetime}>{date}</time>}
+  {description && <p>{description}</p>}
 
-      {tags.length > 0 && (
-        <ul class="publication-tags" aria-label="Tags">
-          {tags.map((tag) => (
-            <li>{tag}</li>
-          ))}
-        </ul>
-      )}
-    </div>
-  </a>
+  {tags.length > 0 && (
+    <ul class="publication-tags" aria-label="Tags">
+      {tags.map((tag) => (
+        <li>
+          {tagsAsLinks ? <a href={`/writing/tag/${slugifyTag(tag)}`}>{tag}</a> : tag}
+        </li>
+      ))}
+    </ul>
+  )}
 </article>
 
 <style>
@@ -45,15 +52,13 @@ const {
     border-top: 1px solid rgba(31,31,31,.14);
   }
 
-  .publication-row a {
+  .publication-row {
     position: relative;
     display: grid;
     padding: 1.65rem 0 1.75rem 1rem;
-    color: inherit;
-    text-decoration: none;
   }
 
-  .publication-row a.has-accent::before {
+  .publication-row.has-accent::before {
     content: '';
     position: absolute;
     top: 1.45rem;
@@ -69,6 +74,11 @@ const {
     line-height: 1.18;
     letter-spacing: -.014em;
     font-weight: 700;
+  }
+
+  .publication-row h3 a {
+    color: inherit;
+    text-decoration: none;
   }
 
   .publication-row time {
@@ -106,7 +116,20 @@ const {
     background:rgba(248,247,244,.4);
   }
 
-  .publication-row a:hover h3 {
+  .publication-tags a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .publication-tags a:hover,
+  .publication-tags a:focus-visible {
+    color: var(--row-accent);
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+  }
+
+  .publication-row h3 a:hover,
+  .publication-row h3 a:focus-visible {
     color: var(--row-accent);
   }
 </style>

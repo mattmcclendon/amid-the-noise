@@ -1,5 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
+import PublicationRow from '../../../components/PublicationRow.astro';
 import SectionPage from '../../../components/SectionPage.astro';
 
 import { tagMetadata } from '../../../data/tagMetadata';
@@ -137,24 +138,16 @@ const formatDate = (date: Date | string | null) => {
 
       <div class="writing-list" aria-label={`Writing tagged ${tagLabel}`}>
         {taggedPosts.map((post) => (
-          <article class="writing-row">
-            <a href={`/writing/${post.slug}`}>
-              <div>
-                <h3>{post.title}</h3>
-                <time datetime={post.pubDate ? new Date(post.pubDate).toISOString() : undefined}>
-                  {formatDate(post.pubDate)}
-                </time>
-                {post.description && <p>{post.description}</p>}
-              </div>
-              {post.tags.length > 0 && (
-                <ul class="writing-tags" aria-label="Tags">
-                  {post.tags.slice(0, 4).map((tag) => (
-                    <li>{tag}</li>
-                  ))}
-                </ul>
-              )}
-            </a>
-          </article>
+          <PublicationRow
+            href={`/writing/${post.slug}`}
+            title={post.title}
+            date={formatDate(post.pubDate)}
+            datetime={post.pubDate ? new Date(post.pubDate).toISOString() : undefined}
+            description={post.description}
+            tags={post.tags.slice(0, 4)}
+            tagsAsLinks={true}
+            accent="var(--accent-writing)"
+          />
         ))}
       </div>
 
@@ -189,77 +182,6 @@ const formatDate = (date: Date | string | null) => {
     display: grid;
     gap: 0;
     margin-top: 1rem;
-  }
-
-  .writing-row + .writing-row {
-    border-top: 1px solid rgba(31, 31, 31, 0.14);
-  }
-
-  .writing-row a {
-    position: relative;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    gap: 0.35rem;
-    padding: 1.65rem 0 1.75rem 1rem;
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .writing-row a::before {
-    content: '';
-    position: absolute;
-    top: 1.45rem;
-    left: 0;
-    width: 3px;
-    height: 56px;
-    background: var(--section-accent);
-  }
-
-  .writing-row time {
-    display: block;
-    margin: 0 0 0.65rem;
-    font-size: 0.82rem;
-    color: rgba(31, 31, 31, 0.62);
-  }
-
-  .writing-row h3 {
-    margin: 0 0 0.35rem;
-    font-size: clamp(1.08rem, 1.7vw, 1.28rem);
-    line-height: 1.18;
-    letter-spacing: -0.014em;
-    font-weight: 700;
-  }
-
-  .writing-row p {
-    margin: 0 0 0.75rem;
-    font-family: Inter, system-ui, sans-serif;
-    font-size: 0.92rem;
-    line-height: 1.5;
-    color: rgba(31, 31, 31, 0.82);
-  }
-
-  .writing-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .writing-tags li {
-    border: 1px solid rgba(31, 31, 31, 0.14);
-    padding: 0.16rem 0.45rem;
-    font-family: Inter, system-ui, sans-serif;
-    font-size: 0.68rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: rgba(31, 31, 31, 0.72);
-    background: rgba(248, 247, 244, 0.4);
-  }
-
-  .writing-row a:hover h3 {
-    color: var(--section-accent);
   }
 
   .tag-nav {

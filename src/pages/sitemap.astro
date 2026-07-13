@@ -1,0 +1,105 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = 'Sitemap';
+const description = 'A guide to the writing, podcast, reference material, and publication policies of Amid the Noise.';
+---
+
+<Layout title={title} description={description}>
+  <section class="section legal-page sitemap-page">
+    <h1>Sitemap</h1>
+
+    <p class="policy-intro">
+      A concise guide to the publication and its supporting reference material.
+    </p>
+
+    <nav aria-label="Sitemap">
+      <section class="sitemap-section">
+        <h2><a href="/writing">Writing</a></h2>
+        <ul>
+          <li><a href="/writing/archive">Archive</a></li>
+          <li><a href="/writing/tag/signal">Signal</a></li>
+          <li><a href="/writing/tag/ai">AI</a></li>
+          <li><a href="/writing/tag/recovery">Recovery</a></li>
+          <li><a href="/writing/tag/civic-systems">Civic Systems</a></li>
+        </ul>
+      </section>
+
+      <section class="sitemap-section">
+        <h2><a href="/podcast">Podcast</a></h2>
+      </section>
+
+      <section class="sitemap-section">
+        <h2><a href="/about">About</a></h2>
+        <ul>
+          <li><a href="/lexicon">Lexicon</a></li>
+          <li><a href="/research/bibliography">Bibliography</a></li>
+          <li><a href="/about#contact">Connect</a></li>
+        </ul>
+      </section>
+
+      <section class="sitemap-section">
+        <h2>Legal</h2>
+        <ul>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/legal">Terms of Use</a></li>
+          <li><a href="/usage-and-attribution">Usage &amp; Attribution</a></li>
+        </ul>
+      </section>
+    </nav>
+  </section>
+</Layout>
+
+<style>
+  .sitemap-page {
+    padding-bottom: 2rem;
+  }
+
+  .sitemap-section h2 {
+    margin-bottom: 0.7rem;
+  }
+
+  .sitemap-section h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .sitemap-section h2 a:hover,
+  .sitemap-section h2 a:focus-visible {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+  }
+
+  .sitemap-section ul {
+    margin: 0;
+    padding: 0 0 0 1.1rem;
+    list-style: none;
+  }
+
+  .sitemap-section li {
+    position: relative;
+    margin: 0.35rem 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  .sitemap-section li::before {
+    content: '–';
+    position: absolute;
+    left: -1.1rem;
+    color: var(--secondary);
+  }
+
+  .sitemap-section li a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .sitemap-section li a:hover,
+  .sitemap-section li a:focus-visible {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+  }
+</style>

@@ -1,7 +1,6 @@
 export interface TagMetadata {
   title: string;
   description: string;
-  collection?: string;
   lexicon?: string[];
   relatedTags?: string[];
   featuredPosts?: string[];
@@ -12,7 +11,6 @@ export const tagMetadata: Record<string, TagMetadata> = {
     title: 'Signal',
     description:
       'Signal is the central organizing idea of Amid the Noise. Nearly every essay returns to the question of how information survives distortion, resists decay, and ultimately becomes the foundation for sound judgment. Everything else begins there.',
-    collection: 'signal-and-decision',
     lexicon: ['signal', 'epistemic-integrity'],
     relatedTags: ['systems-thinking', 'decision-systems', 'governance', 'perception'],
     featuredPosts: [
@@ -26,7 +24,6 @@ export const tagMetadata: Record<string, TagMetadata> = {
     title: 'Recovery',
     description:
       'Recovery is the long, deliberate work of reclaiming agency. These essays explore what remains after collapse, how judgment is rebuilt, and why recovery ultimately becomes the foundation for every other system worth trusting.',
-    collection: 'recovery-and-identity',
     lexicon: ['second-cognitive-surface'],
     relatedTags: ['agency', 'identity', 'reflection', 'continuity'],
     featuredPosts: [
@@ -40,7 +37,6 @@ export const tagMetadata: Record<string, TagMetadata> = {
     title: 'Civic Systems',
     description:
       'Civic Systems explores the infrastructure of belonging. Throughout Amid the Noise, public institutions are examined not by the services they provide, but by the legibility, accountability, and dignity they afford the people they serve.',
-    collection: 'civic-systems',
     relatedTags: ['governance', 'infrastructure', 'trust', 'belonging'],
     featuredPosts: [
       'the-poll-site-is-a-decision-system',
@@ -53,7 +49,6 @@ export const tagMetadata: Record<string, TagMetadata> = {
     title: 'Design',
     description:
       'Design is where invisible systems become visible decisions. The essays treat design less as interface craft than as the architecture of trust, making complexity understandable while ensuring that responsibility never leaves human hands.',
-    collection: 'design-practice',
     relatedTags: ['ux', 'decision-design', 'legibility', 'product-design'],
     featuredPosts: [
       'designing-invisible-systems',
