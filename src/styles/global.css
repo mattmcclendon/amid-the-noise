@@ -74,6 +74,20 @@ a:hover {
   text-underline-offset: 0.14em;
 }
 
+/* Inline links remain identifiable without relying on color perception. */
+.main-content :where(p, li, blockquote) a:not(.standalone-link) {
+  text-decoration-line: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  text-decoration-skip-ink: auto;
+}
+
+.main-content :where(p, li, blockquote) a:not(.standalone-link):hover,
+.main-content :where(p, li, blockquote) a:not(.standalone-link):focus-visible {
+  text-decoration-thickness: 2px;
+}
+
 .site-frame {
   width: min(var(--frame-width), calc(100% - 56px));
   margin: 0 auto;

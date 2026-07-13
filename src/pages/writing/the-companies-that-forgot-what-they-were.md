@@ -253,8 +253,8 @@ The research continues below.
 
 If you want the operational architecture behind these ideas, read the full white paper on behavioral infrastructure and institutional instability.
 
-[Read the full white paper →](/papers/McClendon-Existential-Dread-in-Silicon-Valley.pdf)
+<a class="standalone-link" href="/papers/McClendon-Existential-Dread-in-Silicon-Valley.pdf">Read the full white paper →</a>
 
 If you want the early social-web case study that helped shape this framework, go deep into the original Friendster Field Study.
 
-[Read the Friendster Field Study →](/learning/field-studies/friendster)
+<a class="standalone-link" href="/writing/field-studies/friendster">Read the Friendster Field Study →</a>

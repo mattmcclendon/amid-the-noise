@@ -253,6 +253,17 @@ const formatDate = (date: Date | string | null) => {
     font-size: 0.92rem;
   }
 
+  .archive-link a {
+    text-decoration: none;
+  }
+
+  .archive-link a:hover,
+  .archive-link a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+    text-decoration-thickness: 1px;
+  }
+
   @media (max-width: 620px) {
     .subject-list {
       grid-template-columns: 1fr;

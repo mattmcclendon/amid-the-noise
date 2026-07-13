@@ -111,7 +111,7 @@ Today marks the official christening of the USS Kepler and the beginning of a la
 
 If any of this sounds interesting, you can follow the project as it develops at:
 
-[Launch U.S.S. Kepler →](https://usskepler.org)
+<a class="standalone-link" href="https://usskepler.org">Launch U.S.S. Kepler →</a>
 
 Because the future of science fiction may not belong to the ships at the center of history.
 

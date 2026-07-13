@@ -1115,4 +1115,4 @@ An institution's capacity to recognize populations that may be absent from its d
 
 # Downloads and Navigation
 
-[Download the PDF version ↓](/papers/McClendon-The-Infrastructure-of-Belonging.pdf) · [Back to Papers ↩](/writing/papers)
+<a class="standalone-link" href="/papers/McClendon-The-Infrastructure-of-Belonging.pdf">Download the PDF version ↓</a> · <a class="standalone-link" href="/writing/papers">Back to Papers ↩</a>
