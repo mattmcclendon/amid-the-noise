@@ -6,7 +6,7 @@ description: "When survival is solved, significance becomes the question."
 pubDate: "2026-05-17"
 heroImage: "/images/writing/problem-with-post-scarcity.png"
 heroAlt: "A solitary figure overlooking a prosperous city where every material need has been met"
-tags: ["Thinking", "Post-Scarcity", "Significance"]
+tags: ["Thought Experiments", "Aurelia Reach", "Post-Scarcity", "Significance"]
 tier: "tier-1"
 ---
 

@@ -1,0 +1,16 @@
+---
+export function getStaticPaths() {
+  const slugs = [
+    'beyond-achievement',
+    'frontier-day-and-civic-trust',
+    'hidden-architecture-of-civilization',
+    'mayfield-principle',
+    'problem-with-post-scarcity',
+  ];
+
+  return slugs.map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+return Astro.redirect(`/writing/${slug}`, 301);
+---

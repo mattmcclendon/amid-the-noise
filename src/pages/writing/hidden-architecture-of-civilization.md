@@ -6,7 +6,7 @@ description: "Civilization leaves clues. Systems leave more."
 pubDate: "2026-05-11"
 heroImage: "/images/writing/hidden-architecture-of-civilization.png"
 heroAlt: "Abstract systems, networks, and civic structures emerging from a field of connected points"
-tags: ["Thinking", "Systems", "Civilization"]
+tags: ["Thought Experiments", "Aurelia Reach", "Systems", "Civilization"]
 tier: "tier-1"
 ---
 

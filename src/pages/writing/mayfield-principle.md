@@ -6,7 +6,7 @@ description: "Places accumulate stories long after their origins are forgotten."
 pubDate: "2026-06-17"
 heroImage: "/images/writing/mayfield-principle.png"
 heroAlt: "A forgotten place name lingering long after its original purpose has faded"
-tags: ["Thinking", "Memory", "Institutions"]
+tags: ["Thought Experiments", "Aurelia Reach", "Memory", "Institutions"]
 tier: "tier-1"
 ---
 

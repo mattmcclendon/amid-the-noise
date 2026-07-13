@@ -6,7 +6,7 @@ description: "Trust is infrastructure. What follows when that infrastructure bre
 pubDate: "2026-06-03"
 heroImage: "/images/writing/frontier-day-and-civic-trust.png"
 heroAlt: "A visual exploration of trust, institutions, and recovery after systemic failure"
-tags: ["Thinking", "Governance", "Trust"]
+tags: ["Thought Experiments", "Aurelia Reach", "Governance", "Trust"]
 tier: "tier-1"
 ---
 

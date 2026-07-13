@@ -57,6 +57,7 @@ Date: 2026-07-13
 23. Audited Home link semantics: renamed Selected Learning to Selected Field Studies, restored explicit content-type colors, removed inert tag-like controls, and linked genuine Writing tags to subject pages.
 24. Removed Selected Work from Home so the editor's-desk sequence now moves directly from the introduction into Field Studies, Papers, Writing, and Published Writing.
 25. Restored the Podcast archival studio illustration and made Archive and Sitemap share one generated top-20 subject list from the published Writing corpus.
+26. Moved the five standalone Thought Experiments into Writing, grouped all six Aurelia Reach pieces through tags and contextual linking, and preserved every `/thinking/[slug]` URL as a permanent redirect.
 
 ## Findings and next actions
 
@@ -85,7 +86,7 @@ Date: 2026-07-13
 ## Verification
 
 - `npm run build` passes.
-- 542 static pages build successfully, including 17 compatibility redirects.
+- 547 static pages build successfully, including 22 compatibility redirects.
 - Pagefind indexes 337 pages.
 - Desktop and narrow mobile checks show no horizontal overflow.
 - Writing and Podcast receive the correct active primary-navigation state.

@@ -2,11 +2,11 @@
 layout: "../../layouts/PublicationLayout.astro"
 title: "Beyond Achievement"
 subtitle: "Thought Experiment"
-description: "    Achievement answers many questions. Meaning is rarely one of them."
+description: "Achievement answers many questions. Meaning is rarely one of them."
 pubDate: "2026-06-20"
 heroImage: "/images/writing/beyond-achievement.png"
 heroAlt: "A solitary figure contemplating purpose after a lifetime of achievement"
-tags: ["Thinking", "Purpose", "Significance"]
+tags: ["Thought Experiments", "Aurelia Reach", "Purpose", "Significance"]
 tier: "tier-1"
 ---
 

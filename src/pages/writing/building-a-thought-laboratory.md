@@ -184,4 +184,4 @@ I am less interested in the future itself than in discovering what survives when
 
 ---
 
-Continue exploring at [aureliareach.org](https://www.aureliareach.org).
+Explore the [Aurelia Reach thought experiments](/writing/tag/aurelia-reach), or continue into the world at [aureliareach.org](https://www.aureliareach.org).
