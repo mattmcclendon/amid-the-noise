@@ -1,8 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import {
+  getPublishedWritingPosts,
+  getTopWritingTags,
+  slugifyTag,
+} from '../utils/writing';
 
 const title = 'Sitemap';
 const description = 'A guide to the writing, podcast, reference material, and publication policies of Amid the Noise.';
+const postModules = import.meta.glob('./writing/*.md', { eager: true });
+const topWritingTags = getTopWritingTags(getPublishedWritingPosts(postModules));
 ---
 
 <Layout title={title} description={description}>
@@ -21,10 +28,12 @@ const description = 'A guide to the writing, podcast, reference material, and pu
           <li><a href="/writing/papers">Papers</a></li>
           <li><a href="/writing/field-studies">Field Studies</a></li>
           <li><a href="/writing/books">Books</a></li>
-          <li><a href="/writing/tag/signal">Signal</a></li>
-          <li><a href="/writing/tag/ai">AI</a></li>
-          <li><a href="/writing/tag/recovery">Recovery</a></li>
-          <li><a href="/writing/tag/civic-systems">Civic Systems</a></li>
+        </ul>
+        <h3>Top subjects</h3>
+        <ul>
+          {topWritingTags.map(([tag]) => (
+            <li><a href={`/writing/tag/${slugifyTag(tag)}`}>{tag}</a></li>
+          ))}
         </ul>
       </section>
 
@@ -60,6 +69,14 @@ const description = 'A guide to the writing, podcast, reference material, and pu
 
   .sitemap-section h2 {
     margin-bottom: 0.7rem;
+  }
+
+  .sitemap-section h3 {
+    margin: 1.35rem 0 0.55rem;
+    font-size: 0.76rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--secondary);
   }
 
   .sitemap-section h2 a {

@@ -2,73 +2,15 @@
 import Layout from '../../layouts/Layout.astro';
 import PublicationRow from '../../components/PublicationRow.astro';
 import SectionPage from '../../components/SectionPage.astro';
+import {
+  getPublishedWritingPosts,
+  getTopWritingTags,
+  slugifyTag,
+} from '../../utils/writing';
 
 const postModules = import.meta.glob('./*.md', { eager: true });
-
-const getPostTime = (value: Date | string | undefined) => {
-  const normalizedDate = value instanceof Date
-    ? value.toISOString().slice(0, 10)
-    : String(value ?? '').trim();
-
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(normalizedDate)) return null;
-
-  const [year, month, day] = normalizedDate.split('-').map(Number);
-  const time = Date.UTC(year, month - 1, day);
-  const date = new Date(time);
-
-  if (
-    date.getUTCFullYear() !== year ||
-    date.getUTCMonth() !== month - 1 ||
-    date.getUTCDate() !== day
-  ) return null;
-
-  return time;
-};
-
-const datedPosts = Object.entries(postModules)
-  .map(([path, module]) => {
-    const mod = module as {
-      frontmatter?: {
-        title?: string;
-        description?: string;
-        pubDate?: Date | string;
-        date?: Date | string;
-        tags?: string[];
-        draft?: boolean;
-      };
-    };
-    const frontmatter = mod.frontmatter ?? {};
-
-    return {
-      slug: path.replace('./', '').replace('.md', ''),
-      title: frontmatter.title ?? '',
-      description: frontmatter.description ?? '',
-      tags: frontmatter.tags ?? [],
-      draft: frontmatter.draft ?? false,
-      postTime: getPostTime(frontmatter.pubDate ?? frontmatter.date),
-    };
-  })
-  .filter((post) => !post.draft && post.postTime !== null && post.postTime <= Date.now())
-  .sort((a, b) => (b.postTime ?? 0) - (a.postTime ?? 0));
-
-const slugifyTag = (tag: string) =>
-  tag
-    .toLowerCase()
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-
-const tagCounts = new Map<string, number>();
-for (const post of datedPosts) {
-  for (const tag of post.tags) {
-    tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1);
-  }
-}
-
-const discoveryTags = [...tagCounts.entries()]
-  .filter(([, count]) => count >= 3)
-  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-  .slice(0, 20);
+const datedPosts = getPublishedWritingPosts(postModules);
+const discoveryTags = getTopWritingTags(datedPosts);
 
 const title = 'Archive | Writing | Amid the Noise';
 const pageIntro = 'The complete publication record. Every essay, reflection, and note published since the project’s inception.';
@@ -91,7 +33,7 @@ const pageIntro = 'The complete publication record. Every essay, reflection, and
 
     <section class="archive-list" aria-label="Complete writing archive">
       {datedPosts.map((post) => {
-        const timestamp = post.postTime as number;
+        const timestamp = post.postTime;
         const date = new Date(timestamp);
 
         return (

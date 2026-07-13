@@ -56,6 +56,7 @@ Date: 2026-07-13
 22. Moved Books into the Writing library at `/writing/books`, added contextual discovery from Home, Writing, About, and Sitemap, and retained `/books` as a compatibility redirect.
 23. Audited Home link semantics: renamed Selected Learning to Selected Field Studies, restored explicit content-type colors, removed inert tag-like controls, and linked genuine Writing tags to subject pages.
 24. Removed Selected Work from Home so the editor's-desk sequence now moves directly from the introduction into Field Studies, Papers, Writing, and Published Writing.
+25. Restored the Podcast archival studio illustration and made Archive and Sitemap share one generated top-20 subject list from the published Writing corpus.
 
 ## Findings and next actions
 
