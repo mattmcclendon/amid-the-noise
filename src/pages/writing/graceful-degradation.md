@@ -103,4 +103,4 @@ The paper examines:
 - orbital systems governance,
 - and why space infrastructure may increasingly resemble civic infrastructure.
 
-[Download the White Paper ↓](/papers/McClendon_Graceful-Degradation_2027.pdf) | [Explore All Papers →](/papers)
+[Download the White Paper ↓](/papers/McClendon_Graceful-Degradation_2027.pdf) | [Explore All Papers →](/writing/papers)

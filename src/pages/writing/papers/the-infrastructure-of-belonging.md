@@ -1,5 +1,5 @@
 ---
-layout: "../../../../layouts/PublicationLayout.astro"
+layout: "../../../layouts/PublicationLayout.astro"
 title: "The Infrastructure of Belonging"
 subtitle: "Reducing the Gap Between Services and the People They Serve"
 description: "A civic research paper on distance, reachability, and the hidden infrastructure that allows public services to become usable, navigable, and intended for the people they serve."
@@ -1115,4 +1115,4 @@ An institution's capacity to recognize populations that may be absent from its d
 
 # Downloads and Navigation
 
-[Download the PDF version ↓](/papers/McClendon-The-Infrastructure-of-Belonging.pdf) · [Back to Papers ↩](/papers)
+[Download the PDF version ↓](/papers/McClendon-The-Infrastructure-of-Belonging.pdf) · [Back to Papers ↩](/writing/papers)

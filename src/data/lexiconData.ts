@@ -54,7 +54,7 @@ export const conceptGroups: LexiconSectionData[] = [
       },
       {
         title: 'The Infrastructure of Belonging',
-        href: '/research/papers/content/the-infrastructure-of-belonging',
+        href: '/writing/papers/the-infrastructure-of-belonging',
         meta: 'Research Paper',
         description:
           'A civic systems framework examining how institutions become reachable through connectors, continuity, and reduced distance.',
@@ -244,7 +244,7 @@ export const conceptGroups: LexiconSectionData[] = [
       },
       {
         title: 'The Infrastructure of Belonging',
-        href: '/research/papers/content/the-infrastructure-of-belonging',
+        href: '/writing/papers/the-infrastructure-of-belonging',
         meta: 'Research Paper',
         description:
           'A formal civic systems framework connecting belonging, infrastructure, connectors, continuity, and public trust.',

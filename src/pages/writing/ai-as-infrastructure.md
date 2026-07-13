@@ -92,4 +92,4 @@ The question is whether civilization can remain governable as operational comple
 
 A new white paper on panic-window latency, bounded machine response, and the emergence of AI as operational infrastructure rather than conversational software.
 
-[Download the White Paper ↓](/papers/from-passive-monitoring-to-self-stabilizing-infrastructure.pdf) | [Explore All Papers →](/papers)
+[Download the White Paper ↓](/papers/from-passive-monitoring-to-self-stabilizing-infrastructure.pdf) | [Explore All Papers →](/writing/papers)
