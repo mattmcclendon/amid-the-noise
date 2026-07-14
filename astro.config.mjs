@@ -7,7 +7,6 @@ const shouldIncludeInSitemap = (page) => {
 
   if (pathname === '/books' || pathname === '/papers') return false;
   if (pathname === '/career' || pathname.startsWith('/career/')) return false;
-  if (pathname === '/thinking' || pathname.startsWith('/thinking/')) return false;
   if (pathname === '/research') return false;
   if (pathname.startsWith('/research/field-studies')) return false;
   if (pathname.startsWith('/research/papers')) return false;
