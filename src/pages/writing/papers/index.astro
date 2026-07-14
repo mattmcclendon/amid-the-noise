@@ -27,6 +27,7 @@ const webPapers = Object.entries(webPaperModules)
     return {
       title: frontmatter.title ?? slug,
       href: `/writing/papers/${slug}`,
+      pubDate: frontmatter.pubDate ?? frontmatter.date ?? null,
       meta: frontmatter.pubDate || frontmatter.date
         ? `Web Paper • ${new Intl.DateTimeFormat('en-US', {
             month: 'long',
@@ -37,7 +38,12 @@ const webPapers = Object.entries(webPaperModules)
       draft: frontmatter.draft ?? false,
     };
   })
-  .filter((paper) => !paper.draft);
+  .filter((paper) => !paper.draft)
+  .sort((a, b) => {
+    const dateA = a.pubDate ? new Date(a.pubDate).getTime() : 0;
+    const dateB = b.pubDate ? new Date(b.pubDate).getTime() : 0;
+    return dateB - dateA;
+  });
 
 const pdfPapers = [
   {
