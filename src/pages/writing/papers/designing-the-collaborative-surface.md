@@ -5,7 +5,7 @@ subtitle: "Composing Teams That Can Produce What No Individual Could Create Alon
 description: "A design philosophy for composing distinct capabilities, shared vernacular, governance, and facilitation into collaborative surfaces that produce stronger decisions and better products."
 pubDate: "2026-07-14"
 heroImage: "/images/writing/designing-the-collaborative-surface.png"
-heroAlt: "Abstract intersecting planes and trajectories converging into a shared surface beneath the title Designing the Collaborative Surface."
+heroAlt: "Distinct technical, behavioral, visual, and organizational systems converging on an architectural working surface beneath the title Designing the Collaborative Surface."
 tags: ["Design", "Leadership", "Systems Thinking"]
 tier: "tier-1"
 ---
