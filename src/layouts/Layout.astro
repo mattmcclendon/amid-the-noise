@@ -11,7 +11,7 @@ const {
 } = Astro.props;
 
 const siteTitle = 'Amid the Noise';
-const siteUrl = 'https://www.amidthenoise.com';
+const siteUrl = (Astro.site ?? new URL('https://amidthenoise.com')).toString();
 const pageTitle = title === siteTitle || title.endsWith(`| ${siteTitle}`)
   ? title
   : `${title} | ${siteTitle}`;
