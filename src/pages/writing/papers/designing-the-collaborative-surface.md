@@ -73,6 +73,8 @@ This produces a second outcome that is psychological but no less consequential: 
 
 Shared ownership is not manufactured after the decision. It is designed into the process through legitimate influence.
 
+A broad collaborative surface can make the beginning of the work feel slower because it admits consequential questions before execution begins. In practice, that early friction often accelerates everything that follows: fewer late discoveries, fewer reversals disguised as refinements, and less time spent manufacturing support for decisions people were never allowed to influence.
+
 If I were forced to reduce this to an equation—and apparently I am—it might look like this:
 
 **CS × CV = PC**
@@ -210,6 +212,8 @@ Good facilitation establishes where influence is still possible, identifies whic
 It also requires a willingness to close portions of the surface at the appropriate time. Divergence cannot continue indefinitely. There is a point at which leaders must synthesize what has been learned, make a decision, explain its provenance, and accept responsibility for the consequences. A collaborative surface is not successful because it remains perpetually open. It is successful when it improves the quality and legitimacy of what eventually emerges from it.
 
 This changes how I understand leadership. My job is not to have the best idea in the room. It is to compose the room, prepare its language, govern its interaction, and facilitate the encounters through which the room can produce ideas none of us would have had alone. I remain responsible for the decision, but authorship of the thinking is deliberately distributed.
+
+If the surface depends upon my presence to remain productive, I have designed a dependency rather than a capability. The vernacular, ground rules, and facilitation practices must become legible enough for others to reproduce and adapt, allowing productive contact to survive the absence of the person who first composed the room.
 
 The distinction is not semantic. Leaders who optimize for personal authorship progressively shrink the surface through which corrective information can reach them. They may become more efficient at issuing decisions while the organization becomes less capable of learning. Leaders who design for collective cognition accept a more demanding premise: authority increases responsibility without conferring omniscience.
 
