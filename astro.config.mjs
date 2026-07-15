@@ -16,6 +16,6 @@ const shouldIncludeInSitemap = (page) => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.amidthenoise.com',
+  site: 'https://amidthenoise.com',
   integrations: [sitemap({ filter: shouldIncludeInSitemap })],
 });
