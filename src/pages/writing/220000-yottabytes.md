@@ -40,6 +40,8 @@ That is where the scientific exercise ends.
 
 The more human question begins.
 
+---
+
 Imagine a person broken down into information and transmitted at the speed of light from one terminal to another, routed through infrastructure much as a late-twentieth-century phone call passed through exchanges, trunks, switches, and cables.
 
 You step into a terminal in Meridian. The system reads you, disassembles you, routes you through the network, and reconstructs you somewhere else.
@@ -71,6 +73,8 @@ Every scar. Every neural connection. Every chemical gradient. Every cell in the 
 Even 220,000 yottabytes may only describe the body.
 
 It may not fully describe the person.
+
+---
 
 That distinction matters far beyond science fiction.
 
