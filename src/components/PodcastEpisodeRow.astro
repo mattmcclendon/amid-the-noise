@@ -26,10 +26,6 @@ const descriptionLines = Array.isArray(description) ? description : [description
 
 <article class="podcast-episode">
   <h3><span class="podcast-episode__number">Episode {episodeNumber}:</span> {title}</h3>
-  <p>
-    {descriptionLines.map((line) => <span>{line}</span>)}
-  </p>
-
   <div class="podcast-episode__meta" aria-label="Episode details">
     {datetime ? <time datetime={datetime}>{dateLabel}</time> : <span>{dateLabel}</span>}
     <span aria-hidden="true">·</span>
@@ -44,6 +40,10 @@ const descriptionLines = Array.isArray(description) ? description : [description
       </>
     )}
   </div>
+
+  <p>
+    {descriptionLines.map((line) => <span>{line}</span>)}
+  </p>
 </article>
 
 <style>
@@ -63,7 +63,7 @@ const descriptionLines = Array.isArray(description) ? description : [description
   }
 
   .podcast-episode h3 {
-    margin: 0 0 .45rem;
+    margin: 0 0 .35rem;
     font-size: clamp(1.02rem, 1.45vw, 1.18rem);
     line-height: 1.18;
     letter-spacing: -.014em;
@@ -94,9 +94,10 @@ const descriptionLines = Array.isArray(description) ? description : [description
     flex-wrap: wrap;
     align-items: center;
     gap: .25rem;
-    font-family: var(--font-ui);
-    font-size: .82rem;
-    color: rgba(31, 31, 31, .66);
+    margin: 0 0 .65rem;
+    font-family: var(--font-reading);
+    font-size: .88rem;
+    color: rgba(31, 31, 31, .62);
   }
 
   .podcast-episode__meta a {
