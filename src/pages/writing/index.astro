@@ -182,22 +182,7 @@ const formatDate = (date: Date | string | null) => {
     letter-spacing: 0.14em;
     line-height: 1.2;
     text-transform: uppercase;
-    color: var(--accent-writing);
-  }
-
-  .papers-shelf {
-    --shelf-accent: var(--accent-papers);
-  }
-
-  .field-studies-shelf {
-    --shelf-accent: var(--accent-field-studies);
-  }
-
-  .papers-shelf h2,
-  .field-studies-shelf h2,
-  .papers-shelf :global(.section-more-link),
-  .field-studies-shelf :global(.section-more-link) {
-    color: var(--shelf-accent);
+    color: rgba(31, 31, 31, 0.72);
   }
 
   .section-intro {
@@ -248,7 +233,7 @@ const formatDate = (date: Date | string | null) => {
 
   .subject-list a:hover span:first-child,
   .subject-list a:focus-visible span:first-child {
-    color: var(--accent-writing);
+    color: var(--accent);
     text-decoration: underline;
     text-underline-offset: 0.14em;
   }

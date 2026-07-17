@@ -35,6 +35,14 @@ const slugify = (term: string) =>
     .replace(/^-|-$/g, '');
 
 const sectionId = slugify(title);
+
+const accentForRelatedWork = (meta: string) => {
+  const contentType = meta.toLowerCase();
+
+  if (contentType.includes('paper')) return 'var(--accent-papers)';
+  if (contentType.includes('field study')) return 'var(--accent-field-studies)';
+  return 'var(--accent-writing)';
+};
 ---
 
 <section class="lexicon-section" aria-labelledby={`${sectionId}-title`}>
@@ -64,6 +72,7 @@ const sectionId = slugify(title);
           metaLabel="Content type"
           description={item.description}
           tags={[]}
+          accent={accentForRelatedWork(item.meta)}
         />
       ))}
     </div>
@@ -120,7 +129,7 @@ const sectionId = slugify(title);
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.14em;
-    color: var(--section-accent);
+    color: var(--secondary);
   }
 
   .lexicon-intro {
@@ -162,7 +171,7 @@ const sectionId = slugify(title);
   }
 
   .concept-card a:hover {
-    color: var(--section-accent);
+    color: var(--accent);
     text-decoration: underline;
     text-underline-offset: 0.14em;
   }
