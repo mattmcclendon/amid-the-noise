@@ -32,10 +32,14 @@ const description = 'The Amid the Noise podcast is taking shape after a year spe
       <PodcastEpisodeRow
         episodeNumber={1}
         title="Pilot"
-        description="Join us for the first conversation as Amid the Noise moves from the page into the room."
-        dateLabel="Coming Soon"
+        description={[
+          'Join us for the first conversation as Amid the Noise moves from the page into the room.',
+          'A beginning shaped by the ideas, systems, and questions that have been gathering here.',
+        ]}
+        dateLabel="In Production"
         duration="28 minutes"
         spotifyUrl="https://open.spotify.com/episode/3FuE37oNhMNFQztZam7ymg"
+        spotifyPrefix="Coming Soon to"
       />
     </section>
 
@@ -78,16 +82,6 @@ const description = 'The Amid the Noise podcast is taking shape after a year spe
 
   .podcast-episodes {
     padding-bottom: .25rem;
-  }
-
-  .podcast-episodes h2 {
-    margin-bottom: .15rem;
-    font-family: var(--font-ui);
-    font-size: .78rem;
-    line-height: 1.2;
-    letter-spacing: .12em;
-    text-transform: uppercase;
-    color: var(--section-accent);
   }
 
 </style>

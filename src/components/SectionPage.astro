@@ -5,7 +5,7 @@ interface IntroLink {
 }
 
 interface Props {
-  section?: 'writing' | 'podcast' | 'research' | 'lexicon' | 'career';
+  section?: 'writing' | 'papers' | 'field-studies' | 'books' | 'podcast' | 'research' | 'lexicon' | 'career';
   title: string;
   intro?: string;
   introLink?: IntroLink;
@@ -57,6 +57,18 @@ void showHeader;
 
   .section-page--writing {
     --section-accent: var(--accent-writing);
+  }
+
+  .section-page--papers {
+    --section-accent: var(--accent-papers);
+  }
+
+  .section-page--field-studies {
+    --section-accent: var(--accent-field-studies);
+  }
+
+  .section-page--books {
+    --section-accent: var(--accent-books);
   }
 
   .section-page--podcast {

@@ -14,8 +14,9 @@
 
   /* Editorial content-type colors */
   --accent-posts: var(--accent-plum);
-  --accent-papers: var(--accent-graphite);
+  --accent-papers: var(--accent-rust);
   --accent-field-studies: var(--accent-blue-gray);
+  --accent-books: var(--accent-graphite);
   --accent-podcast: var(--accent-brass);
   --accent-case-studies: var(--accent-rust);
   --accent-reference: var(--accent-slate);

@@ -87,6 +87,21 @@ const description = "Long-form work extending beyond the page.";
     margin-block: 1rem 1.25rem;
   }
 
+  .books-page {
+    --section-accent: var(--accent-books);
+  }
+
+  .books-page a {
+    color: var(--section-accent);
+  }
+
+  .books-page a:hover,
+  .books-page a:focus-visible {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .14em;
+  }
+
   .book-cover img {
     display: block;
     width: 100%;

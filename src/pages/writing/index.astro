@@ -185,6 +185,21 @@ const formatDate = (date: Date | string | null) => {
     color: rgba(31, 31, 31, 0.72);
   }
 
+  .papers-shelf {
+    --shelf-accent: var(--accent-papers);
+  }
+
+  .field-studies-shelf {
+    --shelf-accent: var(--accent-field-studies);
+  }
+
+  .papers-shelf h2,
+  .field-studies-shelf h2,
+  .papers-shelf :global(.section-more-link),
+  .field-studies-shelf :global(.section-more-link) {
+    color: var(--shelf-accent);
+  }
+
   .section-intro {
     max-width: 44rem;
     margin: 0 0 1rem;

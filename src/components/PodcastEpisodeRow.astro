@@ -2,11 +2,12 @@
 interface Props {
   episodeNumber: number;
   title: string;
-  description: string;
+  description: string | string[];
   dateLabel: string;
   datetime?: string;
   duration: string;
   spotifyUrl?: string;
+  spotifyPrefix?: string;
 }
 
 const {
@@ -17,21 +18,29 @@ const {
   datetime,
   duration,
   spotifyUrl,
+  spotifyPrefix,
 } = Astro.props;
+
+const descriptionLines = Array.isArray(description) ? description : [description];
 ---
 
 <article class="podcast-episode">
-  <h3><span>Episode {episodeNumber}:</span> {title}</h3>
-  <p>{description}</p>
+  <h3><span class="podcast-episode__number">Episode {episodeNumber}:</span> {title}</h3>
+  <p>
+    {descriptionLines.map((line) => <span>{line}</span>)}
+  </p>
 
   <div class="podcast-episode__meta" aria-label="Episode details">
     {datetime ? <time datetime={datetime}>{dateLabel}</time> : <span>{dateLabel}</span>}
-    <span aria-hidden="true">・</span>
+    <span aria-hidden="true">·</span>
     <span>{duration}</span>
     {spotifyUrl && (
       <>
-        <span aria-hidden="true">・</span>
-        <a href={spotifyUrl} target="_blank" rel="noopener">Spotify</a>
+        <span aria-hidden="true">·</span>
+        <span>
+          {spotifyPrefix && <>{spotifyPrefix} </>}
+          <a href={spotifyUrl} target="_blank" rel="noopener">Spotify</a>
+        </span>
       </>
     )}
   </div>
@@ -61,8 +70,10 @@ const {
     font-weight: 700;
   }
 
-  .podcast-episode h3 span {
-    color: var(--section-accent);
+  .podcast-episode__number {
+    font-size: .8em;
+    font-weight: 600;
+    color: rgba(31, 31, 31, .68);
   }
 
   .podcast-episode p {
@@ -72,6 +83,10 @@ const {
     font-size: .92rem;
     line-height: 1.5;
     color: rgba(31, 31, 31, .82);
+  }
+
+  .podcast-episode p span {
+    display: block;
   }
 
   .podcast-episode__meta {
