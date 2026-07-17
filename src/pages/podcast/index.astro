@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import SectionPage from '../../components/SectionPage.astro';
 import ArchiveImageModule from '../../components/ArchiveImageModule.astro';
+import PodcastEpisodeRow from '../../components/PodcastEpisodeRow.astro';
 
 const title = 'Podcast';
 const description = 'The Amid the Noise podcast is taking shape after a year spent finding its voice through writing.';
@@ -25,6 +26,17 @@ const description = 'The Amid the Noise podcast is taking shape after a year spe
       alt="An archival illustration of a podcast table with microphones, headphones, a recorder, and an open notebook."
       width="wide"
     />
+
+    <section class="podcast-section podcast-episodes" aria-labelledby="podcast-episodes">
+      <h2 id="podcast-episodes">Episodes</h2>
+      <PodcastEpisodeRow
+        episodeNumber={1}
+        title="Pilot"
+        description="Join us for the first conversation as Amid the Noise moves from the page into the room."
+        dateLabel="Coming Soon"
+        duration="28 minutes"
+      />
+    </section>
 
     <section class="podcast-section" aria-labelledby="podcast-development">
       <h2 id="podcast-development">In development</h2>
@@ -61,6 +73,20 @@ const description = 'The Amid the Noise podcast is taking shape after a year spe
     margin: 0 0 0.8rem;
     font-size: 1rem;
     line-height: 1.65;
+  }
+
+  .podcast-episodes {
+    padding-bottom: .25rem;
+  }
+
+  .podcast-episodes h2 {
+    margin-bottom: .15rem;
+    font-family: var(--font-ui);
+    font-size: .78rem;
+    line-height: 1.2;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--section-accent);
   }
 
 </style>

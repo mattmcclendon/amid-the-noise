@@ -1,0 +1,98 @@
+---
+interface Props {
+  episodeNumber: number;
+  title: string;
+  description: string;
+  dateLabel: string;
+  datetime?: string;
+  duration: string;
+  spotifyUrl?: string;
+}
+
+const {
+  episodeNumber,
+  title,
+  description,
+  dateLabel,
+  datetime,
+  duration,
+  spotifyUrl,
+} = Astro.props;
+---
+
+<article class="podcast-episode">
+  <h3><span>Episode {episodeNumber}:</span> {title}</h3>
+  <p>{description}</p>
+
+  <div class="podcast-episode__meta" aria-label="Episode details">
+    {datetime ? <time datetime={datetime}>{dateLabel}</time> : <span>{dateLabel}</span>}
+    <span aria-hidden="true">・</span>
+    <span>{duration}</span>
+    {spotifyUrl && (
+      <>
+        <span aria-hidden="true">・</span>
+        <a href={spotifyUrl} target="_blank" rel="noopener">Spotify</a>
+      </>
+    )}
+  </div>
+</article>
+
+<style>
+  .podcast-episode {
+    position: relative;
+    padding: 1.65rem 0 1.75rem 1rem;
+  }
+
+  .podcast-episode::before {
+    content: '';
+    position: absolute;
+    top: 1.45rem;
+    left: 0;
+    width: 3px;
+    height: 56px;
+    background: var(--section-accent);
+  }
+
+  .podcast-episode h3 {
+    margin: 0 0 .45rem;
+    font-size: clamp(1.02rem, 1.45vw, 1.18rem);
+    line-height: 1.18;
+    letter-spacing: -.014em;
+    font-weight: 700;
+  }
+
+  .podcast-episode h3 span {
+    color: var(--section-accent);
+  }
+
+  .podcast-episode p {
+    max-width: 42rem;
+    margin: 0 0 .75rem;
+    font-family: var(--font-ui);
+    font-size: .92rem;
+    line-height: 1.5;
+    color: rgba(31, 31, 31, .82);
+  }
+
+  .podcast-episode__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .25rem;
+    font-family: var(--font-ui);
+    font-size: .82rem;
+    color: rgba(31, 31, 31, .66);
+  }
+
+  .podcast-episode__meta a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .15em;
+  }
+
+  .podcast-episode__meta a:hover,
+  .podcast-episode__meta a:focus-visible {
+    color: var(--section-accent);
+  }
+</style>

@@ -44,7 +44,7 @@ The more human question begins.
 
 Imagine a person broken down into information and transmitted at the speed of light from one terminal to another, routed through infrastructure much as a late-twentieth-century phone call passed through exchanges, trunks, switches, and cables.
 
-You step into a terminal in Meridian. The system reads you, disassembles you, routes you through the network, and reconstructs you somewhere else.
+You step into a terminal in <a href="https://aureliareach.org" target="_blank" rel="noopener">Meridian</a>. The system reads you, disassembles you, routes you through the network, and reconstructs you somewhere else.
 
 For a fraction of a second, you are not standing anywhere.
 
