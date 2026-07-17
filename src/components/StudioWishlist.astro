@@ -1,0 +1,203 @@
+---
+interface WishlistItem {
+  name: string;
+  detail: string;
+}
+
+interface Phase {
+  number: string;
+  name: string;
+  purpose: string;
+  items: WishlistItem[];
+}
+
+interface Props {
+  phases: Phase[];
+}
+
+const { phases } = Astro.props;
+---
+
+<aside class="studio-wishlist" aria-labelledby="studio-wishlist-title">
+  <header class="studio-wishlist__header">
+    <p class="studio-wishlist__kicker">Studio wishlist</p>
+    <h3 id="studio-wishlist-title">Building toward a two-person room</h3>
+    <p>A phased path to a focused one-person studio now, with every early choice earning its place in the eventual conversation setup.</p>
+  </header>
+
+  <ol aria-label="Phased podcast studio wishlist">
+    {phases.map((phase) => (
+      <li class="studio-wishlist__phase">
+        <div class="studio-wishlist__phase-heading">
+          <p>Phase {phase.number}</p>
+          <h4>{phase.name}</h4>
+          <p>{phase.purpose}</p>
+        </div>
+
+        <ul>
+          {phase.items.map((item) => (
+            <li>
+              <strong>{item.name}</strong>
+              <span>{item.detail}</span>
+            </li>
+          ))}
+        </ul>
+      </li>
+    ))}
+  </ol>
+
+  <footer>
+    <p>Have experience with this mix of Elgato, SmallRig, Shure, R&Oslash;DE, or Gator gear? I would genuinely like to hear what you would change.</p>
+  </footer>
+</aside>
+
+<style>
+  .studio-wishlist {
+    margin: 1.65rem 0 1.8rem;
+    border: 1px solid rgba(31, 31, 31, .14);
+    background: rgba(255, 255, 255, .22);
+  }
+
+  .studio-wishlist__header {
+    padding: 1.3rem 1.35rem 1.25rem;
+    border-bottom: 1px solid rgba(31, 31, 31, .14);
+  }
+
+  .studio-wishlist__kicker,
+  .studio-wishlist__phase-heading > p:first-child {
+    margin: 0 0 .3rem !important;
+    font-family: var(--font-ui);
+    font-size: .66rem !important;
+    line-height: 1.2 !important;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, .62);
+  }
+
+  .studio-wishlist h3 {
+    margin: 0 0 .45rem;
+    font-size: clamp(1.15rem, 2vw, 1.45rem);
+    line-height: 1.15;
+    letter-spacing: -.015em;
+  }
+
+  .studio-wishlist__header > p:last-child {
+    max-width: 40rem;
+    margin: 0;
+    font-family: var(--font-reading);
+    font-size: .9rem;
+    line-height: 1.55;
+    color: rgba(31, 31, 31, .78);
+  }
+
+  .studio-wishlist > ol {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .studio-wishlist__phase {
+    position: relative;
+    min-width: 0;
+    padding: 1.2rem 1.15rem 1.25rem 1.4rem;
+  }
+
+  .studio-wishlist__phase + .studio-wishlist__phase {
+    border-left: 1px solid rgba(31, 31, 31, .12);
+  }
+
+  .studio-wishlist__phase::before {
+    content: '';
+    position: absolute;
+    top: 1.2rem;
+    left: 1rem;
+    width: 3px;
+    height: 48px;
+    background: var(--section-accent);
+  }
+
+  .studio-wishlist__phase-heading {
+    min-height: 7.1rem;
+    padding-left: .65rem;
+  }
+
+  .studio-wishlist__phase-heading h4 {
+    margin: 0 0 .35rem;
+    font-family: var(--font-reading);
+    font-size: 1.02rem;
+    line-height: 1.2;
+    color: var(--title);
+  }
+
+  .studio-wishlist__phase-heading > p:last-child {
+    margin: 0;
+    font-family: var(--font-ui);
+    font-size: .75rem;
+    line-height: 1.45;
+    color: rgba(31, 31, 31, .68);
+  }
+
+  .studio-wishlist__phase ul {
+    margin: 0;
+    padding: .9rem 0 0;
+    border-top: 1px solid rgba(31, 31, 31, .12);
+    list-style: none;
+  }
+
+  .studio-wishlist__phase ul li + li {
+    margin-top: .75rem;
+  }
+
+  .studio-wishlist__phase strong,
+  .studio-wishlist__phase span {
+    display: block;
+  }
+
+  .studio-wishlist__phase strong {
+    font-family: var(--font-reading);
+    font-size: .87rem;
+    line-height: 1.3;
+    color: var(--title);
+  }
+
+  .studio-wishlist__phase span {
+    margin-top: .1rem;
+    font-family: var(--font-ui);
+    font-size: .71rem;
+    line-height: 1.4;
+    color: rgba(31, 31, 31, .63);
+  }
+
+  .studio-wishlist footer {
+    padding: .95rem 1.15rem 1rem;
+    border-top: 1px solid rgba(31, 31, 31, .14);
+  }
+
+  .studio-wishlist footer p {
+    margin: 0;
+    font-family: var(--font-reading);
+    font-size: .82rem;
+    line-height: 1.5;
+    font-style: italic;
+    color: rgba(31, 31, 31, .68);
+  }
+
+  @media (max-width: 760px) {
+    .studio-wishlist > ol {
+      grid-template-columns: 1fr;
+    }
+
+    .studio-wishlist__phase + .studio-wishlist__phase {
+      border-top: 1px solid rgba(31, 31, 31, .12);
+      border-left: 0;
+    }
+
+    .studio-wishlist__phase-heading {
+      min-height: 0;
+      margin-bottom: 1rem;
+    }
+  }
+</style>

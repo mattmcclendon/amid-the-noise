@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import SectionPage from '../../components/SectionPage.astro';
 import ArchiveImageModule from '../../components/ArchiveImageModule.astro';
 import PodcastEpisodeRow from '../../components/PodcastEpisodeRow.astro';
+import StudioWishlist from '../../components/StudioWishlist.astro';
 
 const title = 'Podcast';
 const description = 'The Amid the Noise podcast is taking shape after a year spent finding its voice through writing.';
@@ -52,8 +53,49 @@ const description = 'The Amid the Noise podcast is taking shape after a year spe
 
     <section class="podcast-section" aria-labelledby="podcast-studio">
       <h2 id="podcast-studio">Rebuilding the studio</h2>
-      <p>My previous recording setup was lost in the fire, and many of its components are no longer available. The studio is being rebuilt from the ground up.</p>
-      <p>Recommendations for microphones, lighting, recording workflows, remote interviews, or production tools are welcome.</p>
+      <p>The old studio—an Elgato-heavy room with three cameras, four lights, two microphones, acoustic treatment, and a Stream Deck—was lost in the fire. That is a footnote. The more interesting question is what comes next.</p>
+      <p>I want to build deliberately this time: begin with an excellent one-person setup, then add only what moves it toward a genuinely capable two-person room.</p>
+      <StudioWishlist
+        phases={[
+          {
+            number: '01',
+            name: 'Voice',
+            purpose: 'A complete one-person recording setup with the audio foundation already sized for a second seat.',
+            items: [
+              { name: 'Shure MV7X', detail: 'Broadcast-style dynamic microphone' },
+              { name: 'RØDECaster Duo', detail: 'Two-seat audio hub and remote-guest workflow' },
+              { name: 'Gator Frameworks arm', detail: 'Stable, familiar microphone support' },
+              { name: 'Sony MDR-7506', detail: 'Reliable closed-back monitoring' },
+              { name: 'Elgato Facecam 4K', detail: 'Primary camera' },
+              { name: 'SmallRig RC 100B + RA-D60', detail: 'Soft, controlled key light' },
+            ],
+          },
+          {
+            number: '02',
+            name: 'Image',
+            purpose: 'More depth, separation, and control without turning the room into a television set.',
+            items: [
+              { name: 'SmallRig RC 60C', detail: 'Hair and background light' },
+              { name: 'Second Facecam 4K', detail: 'Alternate solo angle and future guest coverage' },
+              { name: 'Elgato Stream Deck', detail: 'Recording, lighting, and scene control' },
+              { name: 'Acoustic treatment', detail: 'Placed for the room rather than sold as decoration' },
+              { name: 'A practical lamp', detail: 'Warmth and visible depth in the background' },
+            ],
+          },
+          {
+            number: '03',
+            name: 'Conversation',
+            purpose: 'The additions that turn a polished solo room into an equally considered two-person studio.',
+            items: [
+              { name: 'Second Shure MV7X', detail: 'A matched voice chain for the guest' },
+              { name: 'Second Gator arm', detail: 'Independent, comfortable microphone placement' },
+              { name: 'Second Sony MDR-7506', detail: 'Matched monitoring' },
+              { name: 'Second RC 100B + softbox', detail: 'A proper guest key light' },
+              { name: 'Third Facecam 4K', detail: 'A dedicated two-shot' },
+            ],
+          },
+        ]}
+      />
     </section>
   </SectionPage>
 </Layout>
