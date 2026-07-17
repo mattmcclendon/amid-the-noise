@@ -261,13 +261,9 @@ const slugifyTag = (tag) =>
     margin: 0 0 10px;
   }
 
-  .learning-entry p,
-  .papers-entry p,
-  .writing-entry p,
-  .papers-more p,
-  .learning-more p,
-  .writing-more p,
-  .books-note p {
+  .learning-entry p:not(.learning-kicker),
+  .papers-entry p:not(.papers-meta),
+  .writing-entry p:not(.entry-meta) {
     font-family: var(--font-ui);
   }
 
