@@ -1,0 +1,53 @@
+<button
+  type="button"
+  class="contrast-toggle"
+  aria-pressed="false"
+  aria-label="Enable high contrast"
+>
+  <span class="contrast-toggle__icon" aria-hidden="true"></span>
+  <span class="contrast-toggle__label">High contrast</span>
+</button>
+
+<script>
+  const STORAGE_KEY = 'atn-contrast';
+
+  function readPreference() {
+    try {
+      return window.localStorage.getItem(STORAGE_KEY);
+    } catch {
+      return null;
+    }
+  }
+
+  function writePreference(value: string) {
+    try {
+      window.localStorage.setItem(STORAGE_KEY, value);
+    } catch {
+      // The control still works for the current page when storage is unavailable.
+    }
+  }
+
+  function setContrast(mode: 'standard' | 'high') {
+    document.documentElement.dataset.contrast = mode;
+
+    document.querySelectorAll<HTMLButtonElement>('.contrast-toggle').forEach((button) => {
+      const isHigh = mode === 'high';
+      const label = button.querySelector<HTMLElement>('.contrast-toggle__label');
+      button.setAttribute('aria-pressed', String(isHigh));
+      button.setAttribute('aria-label', isHigh ? 'Use standard contrast' : 'Enable high contrast');
+      if (label) label.textContent = isHigh ? 'Standard contrast' : 'High contrast';
+    });
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.contrast-toggle').forEach((button) => {
+    button.addEventListener('click', () => {
+      const next = document.documentElement.dataset.contrast === 'high' ? 'standard' : 'high';
+      setContrast(next);
+      writePreference(next);
+    });
+  });
+
+  const saved = readPreference();
+  const systemPrefersHigh = window.matchMedia('(prefers-contrast: more)').matches;
+  setContrast(saved === 'high' || (!saved && systemPrefersHigh) ? 'high' : 'standard');
+</script>

@@ -66,12 +66,12 @@ const { entries, ariaLabel } = Astro.props;
   .data-set__context > p:first-child {
     margin: 0 0 .3rem;
     font-family: var(--font-ui);
-    font-size: .66rem;
+    font-size: var(--type-label);
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: .12em;
     text-transform: uppercase;
-    color: rgba(31, 31, 31, .62);
+    color: var(--secondary);
   }
 
   .data-set__context h4 {
@@ -85,9 +85,9 @@ const { entries, ariaLabel } = Astro.props;
   .data-set__context > p:last-child {
     margin: 0;
     font-family: var(--font-ui);
-    font-size: .75rem;
+    font-size: 0.88rem;
     line-height: 1.45;
-    color: rgba(31, 31, 31, .68);
+    color: var(--secondary);
   }
 
   .data-set__items {
@@ -99,7 +99,7 @@ const { entries, ariaLabel } = Astro.props;
   }
 
   .data-set__items li {
-    padding: .72rem 0 .78rem;
+    padding: .78rem 0 .78rem;
   }
 
   .data-set__items li:first-child {
@@ -117,7 +117,7 @@ const { entries, ariaLabel } = Astro.props;
 
   .data-set__items strong {
     font-family: var(--font-reading);
-    font-size: .87rem;
+    font-size: 0.96rem;
     line-height: 1.3;
     color: var(--title);
   }
@@ -125,9 +125,9 @@ const { entries, ariaLabel } = Astro.props;
   .data-set__items span {
     margin-top: .1rem;
     font-family: var(--font-ui);
-    font-size: .71rem;
+    font-size: var(--type-caption);
     line-height: 1.4;
-    color: rgba(31, 31, 31, .63);
+    color: var(--secondary);
   }
 
   @media (max-width: 760px) {
