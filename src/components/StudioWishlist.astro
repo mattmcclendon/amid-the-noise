@@ -47,7 +47,7 @@ const { phases } = Astro.props;
   </ol>
 
   <footer>
-    <p>Have experience with this mix of Elgato, SmallRig, Shure, R&Oslash;DE, or Gator gear? I would genuinely like to hear what you would change.</p>
+    <p>Have experience with this mix of Elgato, SmallRig, Shure, R&Oslash;DE, or Gator gear? I would genuinely like to hear what you would change. Send your notes to <a href="mailto:podcast@amidthenoise.com">podcast@amidthenoise.com</a>.</p>
   </footer>
 </aside>
 
@@ -92,36 +92,25 @@ const { phases } = Astro.props;
   }
 
   .studio-wishlist > ol {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
   .studio-wishlist__phase {
-    position: relative;
+    display: grid;
+    grid-template-columns: minmax(11rem, .8fr) minmax(0, 1.7fr);
+    gap: clamp(1.5rem, 4vw, 3rem);
     min-width: 0;
-    padding: 1.2rem 1.15rem 1.25rem 1.4rem;
+    padding: 1.4rem 1.35rem 1.5rem;
   }
 
   .studio-wishlist__phase + .studio-wishlist__phase {
-    border-left: 1px solid rgba(31, 31, 31, .12);
-  }
-
-  .studio-wishlist__phase::before {
-    content: '';
-    position: absolute;
-    top: 1.2rem;
-    left: 1rem;
-    width: 3px;
-    height: 48px;
-    background: var(--section-accent);
+    border-top: 1px solid rgba(31, 31, 31, .12);
   }
 
   .studio-wishlist__phase-heading {
-    min-height: 7.1rem;
-    padding-left: .65rem;
+    min-width: 0;
   }
 
   .studio-wishlist__phase-heading h4 {
@@ -141,14 +130,16 @@ const { phases } = Astro.props;
   }
 
   .studio-wishlist__phase ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem clamp(1.25rem, 3vw, 2.25rem);
     margin: 0;
-    padding: .9rem 0 0;
-    border-top: 1px solid rgba(31, 31, 31, .12);
+    padding: 0;
     list-style: none;
   }
 
   .studio-wishlist__phase ul li + li {
-    margin-top: .75rem;
+    margin-top: 0;
   }
 
   .studio-wishlist__phase strong,
@@ -185,19 +176,27 @@ const { phases } = Astro.props;
     color: rgba(31, 31, 31, .68);
   }
 
-  @media (max-width: 760px) {
-    .studio-wishlist > ol {
-      grid-template-columns: 1fr;
-    }
+  .studio-wishlist footer a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .15em;
+  }
 
-    .studio-wishlist__phase + .studio-wishlist__phase {
-      border-top: 1px solid rgba(31, 31, 31, .12);
-      border-left: 0;
+  @media (max-width: 760px) {
+    .studio-wishlist__phase {
+      grid-template-columns: 1fr;
+      gap: 1.2rem;
     }
 
     .studio-wishlist__phase-heading {
-      min-height: 0;
-      margin-bottom: 1rem;
+      max-width: 34rem;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .studio-wishlist__phase ul {
+      grid-template-columns: 1fr;
     }
   }
 </style>
