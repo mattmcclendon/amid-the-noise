@@ -62,11 +62,12 @@ const description = 'The Amid the Noise podcast is taking shape after a year spe
             name: 'Voice',
             purpose: 'A complete one-person recording setup with the audio foundation already sized for a second seat.',
             items: [
-              { name: 'Shure MV7X', detail: 'Broadcast-style dynamic microphone' },
+              { name: 'Shure SM7B', detail: 'Finished broadcast microphone and long-term voice foundation' },
               { name: 'RØDECaster Duo', detail: 'Two-seat audio hub and remote-guest workflow' },
               { name: 'Gator Frameworks GFW-MIC-0822', detail: 'Compact desktop stand with telescoping boom' },
               { name: 'Audio-Technica ATH-M50xBT2', detail: 'Wired studio monitoring with Bluetooth for everyday listening' },
-              { name: 'Elgato Facecam 4K', detail: 'Primary camera' },
+              { name: 'Sony ZV-E10 II', detail: 'Interchangeable-lens primary camera for calls and solo recording' },
+              { name: 'Sigma 18–50mm f/2.8 DC DN', detail: 'Flexible primary lens for natural solo framing' },
               { name: '2× SmallRig RC 120B', detail: 'Matched bi-color fixtures with standard Bowens mounts' },
               { name: 'SmallRig RA-D85 33-inch parabolic softbox', detail: 'A room-friendly, controlled key-light modifier' },
             ],
@@ -76,7 +77,8 @@ const description = 'The Amid the Noise podcast is taking shape after a year spe
             name: 'Image',
             purpose: 'More depth, separation, and control without turning the room into a television set.',
             items: [
-              { name: 'Second Facecam 4K', detail: 'Alternate solo angle and future guest coverage' },
+              { name: 'Second Sony ZV-E10 II', detail: 'Alternate solo angle and future guest coverage' },
+              { name: 'Sigma 10–18mm f/2.8 DC DN', detail: 'Wide two-shot and compact-room flexibility' },
               { name: 'Elgato Stream Deck', detail: 'Recording, lighting, and scene control' },
               { name: 'Acoustic treatment', detail: 'Placed for the room rather than sold as decoration' },
               { name: 'A practical lamp', detail: 'Warmth and visible depth in the background' },
@@ -87,15 +89,25 @@ const description = 'The Amid the Noise podcast is taking shape after a year spe
             name: 'Conversation',
             purpose: 'The additions that turn a polished solo room into an equally considered two-person studio.',
             items: [
-              { name: 'Second Shure MV7X', detail: 'A matched voice chain for the guest' },
+              { name: 'Second Shure SM7B', detail: 'A matched voice chain for the guest' },
               { name: 'Second Gator Frameworks GFW-MIC-0822', detail: 'Matched desktop stand for the guest microphone' },
               { name: 'Second Audio-Technica ATH-M50xBT2', detail: 'Matched wired and wireless monitoring' },
-              { name: 'Third Facecam 4K', detail: 'A dedicated two-shot' },
             ],
           },
         ]}
       />
     </section>
+
+    <figure class="podcast-studio-illustration">
+      <img
+        src="/images/pages/atn-podcast-001.png"
+        alt="An engraved illustration of the planned podcast studio with an SM7B microphone, RØDECaster console, Sony camera, and SmallRig softbox light."
+        width="2400"
+        height="1075"
+        loading="lazy"
+        decoding="async"
+      />
+    </figure>
   </SectionPage>
 </Layout>
 
@@ -123,6 +135,23 @@ const description = 'The Amid the Noise podcast is taking shape after a year spe
 
   .podcast-episodes {
     padding-bottom: .25rem;
+  }
+
+  .podcast-studio-illustration {
+    width: min(92%, 72rem);
+    margin: clamp(.5rem, 2vw, 1.5rem) auto 0;
+  }
+
+  .podcast-studio-illustration img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 42rem) {
+    .podcast-studio-illustration {
+      width: 100%;
+    }
   }
 
 </style>
