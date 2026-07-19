@@ -150,7 +150,7 @@ a:hover {
   display: flex;
   min-width: 301px;
   justify-content: flex-end;
-  gap: 24px;
+  gap: 32px;
   flex-wrap: wrap;
 }
 
