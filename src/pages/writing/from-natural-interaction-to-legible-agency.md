@@ -34,6 +34,8 @@ An assistant that drafts an email presents information for our review. An assist
 
 Natural interaction helps us express intent. Agency requires the system to show us what it intends to do with it.
 
+---
+
 ## The trouble with fluency
 
 I spend a lot of time in Studio Mode with these systems: asking them to research, sort, draft, challenge a premise, assemble materials, and carry work across multiple steps. What changes my posture is rarely how human the exchange sounds. I pay attention to whether I can see the system’s working boundary.
@@ -56,6 +58,8 @@ A conversational interface can hide those decisions inside a smooth exchange. A 
 
 That is the design problem I see coming into focus. We have spent years teaching machines to interpret human language. We now have to design the terms under which their interpretations become actions.
 
+---
+
 ## Consent is no longer a setting
 
 Traditional software tends to treat consent as an event. A person grants access to a calendar, inbox, contact list, or payment method, and the application retains that permission until it is withdrawn.
@@ -72,6 +76,8 @@ This is why I think the basic unit of agentic interaction is becoming a consent 
 
 The loop does not need to feel bureaucratic. In a mature experience, much of it may be quiet. But the structure has to be there.
 
+---
+
 ## Friction has a job
 
 The dominant product instinct is to remove friction. Usually that instinct serves us well. Extra steps create abandonment, slow comprehension, and make routine work feel unnecessarily difficult.
@@ -85,6 +91,8 @@ That experiment involved decision support rather than a contemporary general-pur
 A confirmation before every action would make an agent tedious. No confirmation at all would make it reckless. The design opportunity lies in deciding where a pause improves the combined judgment of the person and the system.
 
 Low-cost, reversible, familiar actions should require little ceremony. As uncertainty, consequence, novelty, or irreversibility rises, the system should make the boundary visible. The friction should be proportional to the risk, not evenly distributed across the experience.
+
+---
 
 ## What legible agency looks like
 
@@ -112,6 +120,8 @@ There is evidence that systems benefit when they communicate their own limits ac
 
 That is a subtle but important design lesson. Reliability alone does not create a reliable relationship. The system must also help the person understand when that reliability applies.
 
+---
+
 ## Trust should vary
 
 We often describe trust as something an AI earns over time, followed by progressively greater autonomy. That is directionally sensible, but too linear.
@@ -135,6 +145,8 @@ If I were reviewing an agentic product tomorrow, I would put five questions on t
 5. When the system is wrong, what can be recovered—and who owns the recovery?
 
 Those questions tell me more about the maturity of an agent than whether its personality is warm, direct, playful, or polite.
+
+---
 
 ## Beyond natural
 
