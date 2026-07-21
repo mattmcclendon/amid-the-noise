@@ -87,6 +87,7 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
             year: 'numeric',
             month: 'long',
             day: 'numeric',
+            timeZone: 'UTC',
           })} · {readingTime} min read
         </p>
       )}
