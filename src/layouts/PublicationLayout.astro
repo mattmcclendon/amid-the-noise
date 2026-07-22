@@ -87,6 +87,7 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
             year: 'numeric',
             month: 'long',
             day: 'numeric',
+            timeZone: 'UTC',
           })} · {readingTime} min read
         </p>
       )}
@@ -253,12 +254,12 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
   .publication-body {
     max-width: 46rem;
     font-size: 1.05rem;
-    line-height: 1.72;
+    line-height: 1.82;
     color: var(--text);
   }
 
   .publication-body p {
-    margin: 0 0 1.15em;
+    margin: 0 0 1.35em;
   }
 
   .publication-body hr {
@@ -266,6 +267,10 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
     border: none;
     border-top: 1px solid var(--line);
     opacity: 0.6;
+  }
+
+  .publication-body hr + h2 {
+    margin-top: 1.65em;
   }
 
 
@@ -511,7 +516,7 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
 
     .publication-body {
       font-size: 1rem;
-      line-height: 1.68;
+      line-height: 1.76;
     }
 
     .publication-body ul,
