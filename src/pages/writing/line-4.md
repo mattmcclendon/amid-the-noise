@@ -56,6 +56,8 @@ Nobody remembered why.
 
 There had not been four service lines in years.
 
+---
+
 Her name was Elena Navarro.
 
 Fifty-eight.
@@ -110,6 +112,8 @@ The city analytics department referred to this behavior as “legacy interperson
 
 Nobody said it out loud anymore after focus groups reacted with open hostility.
 
+---
+
 Daniel Cho arrived on a Thursday afternoon in May.
 
 Thirty-two years old.
@@ -160,6 +164,8 @@ No delays.
 No measurable friction.
 
 Nobody smiled afterward.
+
+---
 
 At 16h12, one of the translation support systems crashed after a backend update corrupted multilingual menu routing. Residents attempting identity verification became trapped inside recursive support prompts redirecting them endlessly toward already completed steps.
 
@@ -214,6 +220,8 @@ Daniel read that sentence three times.
 Non-transactional conversation.
 
 As if reassurance itself represented operational inefficiency.
+
+---
 
 The next morning he arrived before opening hours.
 

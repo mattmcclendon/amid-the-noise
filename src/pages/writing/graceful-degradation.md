@@ -89,6 +89,8 @@ The future may belong not to the systems that operate most efficiently during pe
 
 I explore this idea in far greater depth in a new white paper:
 
+---
+
 ## *Graceful Degradation*
 
 **Space infrastructure and the future of resilient civilization.**

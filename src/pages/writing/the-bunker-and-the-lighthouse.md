@@ -36,6 +36,8 @@ When viewed through that lens, the archive begins to look less like a creative p
 
 A bunker is not an expression of optimism. It is an acknowledgment that weather exists.
 
+---
+
 The strange thing is that the bunker theory explains only half of what Amid the Noise has become.
 
 If protection were the only goal, there would be no reason to publish any of it.
@@ -80,6 +82,8 @@ Most of these moments appear insignificant when viewed in isolation. They arrive
 
 That realization changed the metaphor entirely.
 
+---
+
 I had spent years thinking about archives, portfolios, essays, and publication schedules. Suddenly I found myself thinking about lenses.
 
 The purpose of a lighthouse is not to create land. The coastline already exists. The rocks already exist. The fog already exists. The lighthouse simply makes navigation possible.
@@ -101,6 +105,8 @@ Over time, the purpose shifted. The archive became less concerned with proving w
 Somewhere along the way, another function emerged.
 
 Hope.
+
+---
 
 If the archive vanished tomorrow, I would not mourn the analytics. I would not miss the social media shares. I would not lose sleep over search rankings or engagement metrics.
 
@@ -130,6 +136,8 @@ For a long time, I thought these impulses contradicted one another. Now I suspec
 
 Which brings me back to the lighthouse keeper.
 
+---
+
 Modern navigation has largely automated the role. Computers, satellites, radar, and the Coast Guard perform much of the work once entrusted to solitary individuals stationed on remote stretches of rock and coastline. Yet the image of the keeper persists because it represents something deeper than maritime logistics.
 
 Stewardship.
@@ -151,6 +159,8 @@ The keeper cannot see every ship.
 The ship can see the light.
 
 Perhaps that is enough.
+
+---
 
 For years I have tried to determine whether Amid the Noise is a bunker or a lighthouse. The question has never produced a satisfying answer because it assumes the two structures are separate.
 

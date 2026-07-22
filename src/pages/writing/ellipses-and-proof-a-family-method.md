@@ -24,6 +24,8 @@ A ship groaned west across the Atlantic. Psalms rose from the hold, roughened by
 
 Generations dissolved into one another like ink in water. A Josiah Kepper stepped off a cart in the Carolinas with a plank for a sign and a hunger for acreage. A Joseph Carper signed a deed in Virginia where the consonants traded places with a shrug. The sky did not object. The ellipse tolerated the drift so long as gravity remained. The line pushed south and west through Tennessee clay and prairie light, swapping parishes and counties as easily as a telescope can swap eyepieces. Their resilience was a testament to the human spirit's ability to adapt and thrive in the face of change.
 
+---
+
 Oklahoma entered the family story as a promise and a dare. Wind taught them to listen with their whole bodies. Dust taught their lungs the vocabulary of scarcity.
 
 The men kept motors alive. Trueman ran gas stations and, later, owned a service station; petroleum replaced plows. Work smelled of fuel, vulcanized rubber, and ink from account books. Astronomy became torque specs and pressure gauges; precision migrated from star tables to timing lights and tire irons. The family's central intuition survived every retooling: the world reveals itself to those who measure carefully and refuse to flatter error.
@@ -35,6 +37,8 @@ A few years later, in late 1973, their son was born. He learned to read by traci
 The McClendons, meanwhile, had their own arc. They came of age under a flag that was still becoming itself. Patriotism showed up in rolls and rosters rather than speeches. A physician's kit rode in a saddlebag beside a small copper coil wrapped in cloth. Frontier medicine and frontier distilling were not contradictions. One steadied the body, the other steadied a winter.
 
 As the family moved west, those early professions yielded to necessity. Doctors' tools gave way to migrant hands in fields, distillers' craft to modest trades, and itinerant work. The name shifted across records, sometimes McLendon, sometimes McClendon, but the ethic held: attention mattered, labor mattered, and moderation was a form of loyalty. Modernization refined the grandeur of ideals while preserving their core. Patriotism became less about declarations and more about showing up, season after season, for both land and neighbor.
+
+---
 
 The twin inheritances began to rhyme. Ellipses and proof formed one method. Precision at the stars echoed in the pulse at the wrist. A designer's interview carried the patience of a physician. A hydrometer's humility spoke again in a product dashboard. A few sentences endured as household law: test before you trust; taste before you boast; record what is there, not what you wish it to be.
 

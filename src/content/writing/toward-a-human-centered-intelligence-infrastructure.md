@@ -11,11 +11,15 @@ It is also a design problem.
 
 When systems increasingly mediate what analysts, operators, and decision-makers can see, the question is no longer just what was collected. The question becomes how that information is interpreted, what confidence it carries, and how accountability is preserved when human judgment is shaped by probabilistic systems.
 
+---
+
 ## The actual challenge
 
 The issue is not whether intelligent systems can accelerate analysis.
 
 The issue is whether institutions can remain governable when inference begins to shape action faster than people can meaningfully interrogate it.
+
+---
 
 ## What has to change
 

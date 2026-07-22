@@ -12,6 +12,8 @@ tier: "tier-1"
 
 > “I couldn’t find visiting hours, the number didn’t work, and the form crashed. My brother thought we forgot about him.”
 
+---
+
 ## Pain, by Design
 
 Incarceration is already dehumanizing.
@@ -25,6 +27,8 @@ Outdated interfaces, inaccessible forms, and punitive language combine into a di
 They are not simply inefficient.
 
 They are hostile by omission.
+
+---
 
 ## Evaluation Criteria
 
@@ -40,6 +44,8 @@ This review applies standard UX heuristics through a civic and trauma-informed l
 The experience was evaluated with empathy.
 
 The interface offered none.
+
+---
 
 ## Problem 1: Basic Information Is Buried
 
@@ -61,6 +67,8 @@ These are not passive failures.
 
 They prevent connection.
 
+---
+
 ## Problem 2: Mobile and Language Failures
 
 Most users access these systems from mobile devices.
@@ -75,6 +83,8 @@ The experience degrades immediately:
 In a region as diverse as Santa Clara County, the lack of Spanish, Vietnamese, or Tagalog support is not a gap.
 
 It is exclusion.
+
+---
 
 ## Problem 3: Tone That Pushes People Away
 
@@ -91,6 +101,8 @@ No recognition that people may be anxious, grieving, or trying to help.
 The system speaks in warnings.
 
 Never in guidance.
+
+---
 
 ## What Better Design Could Look Like
 
@@ -110,6 +122,8 @@ Connection is not a luxury.
 
 It is part of rehabilitation.
 
+---
+
 ## The Cost of Getting It Wrong
 
 Every broken link delays a visit.
@@ -123,6 +137,8 @@ A jail website cannot fix the system.
 But it shapes how the system is experienced.
 
 When that experience is confusing, inaccessible, and indifferent, it reinforces the very harm it claims to manage.
+
+---
 
 ## What This Really Is
 

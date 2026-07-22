@@ -54,6 +54,8 @@ No machine learning model existed in 1936.
 
 The pattern already did.
 
+---
+
 ## The Border Inside the Country
 
 California spent much of the 1920s selling itself as paradise.
@@ -90,6 +92,8 @@ The distinction is rarely about behavior alone.
 
 It is about perceived social value.
 
+---
+
 ## The Architecture of Deserving
 
 Every society creates an internal definition of who deserves comfort.
@@ -117,6 +121,8 @@ That logic never entirely disappeared because systems under stress tend to becom
 The language changes with each era.
 
 The emotional mechanics remain remarkably stable.
+
+---
 
 ## Hornbrook
 
@@ -149,6 +155,8 @@ The same country capable of building checkpoints against poor citizens is also c
 Both impulses exist simultaneously.
 
 The question is which one becomes infrastructure.
+
+---
 
 ## Signals
 

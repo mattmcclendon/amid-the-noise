@@ -12,6 +12,7 @@ tags: ["Field Studies", "AI Systems", "Enterprise UX"]
 # Cadence Design Systems
 > Designing Human-Guided Systems for Semiconductor Complexity
 
+---
 
 ## Context
 
@@ -39,6 +40,8 @@ At the same time, the industry itself was shifting:
 The systems were evolving faster than the human interfaces surrounding them.
 
 That gap became the work.
+
+---
 
 ## The Assignment
 
@@ -81,6 +84,8 @@ That tension created an important design constraint:
 
 Modernization could not come at the expense of operational familiarity.
 
+---
+
 ## UX as Operational Infrastructure
 
 One of the most important realizations during the engagement was that the organization did not merely need interface improvements.
@@ -109,6 +114,8 @@ Not optimizing screens.
 
 Optimizing how engineers interacted with complexity itself.
 
+---
+
 ## In-Canvas Systems
 
 One of the recurring themes across the work was reducing dependency on fragmented form-heavy interaction patterns.
@@ -131,6 +138,8 @@ The underlying principle was straightforward:
 The closer information lives to the point of decision-making, the lower the cognitive burden required to use it.
 
 That principle later became deeply relevant again during the rise of AI-assisted workflows.
+
+---
 
 ## Early AI-Assisted Workflow Exploration
 
@@ -156,6 +165,8 @@ Much of modern enterprise AI still struggles with the same question:
 
 How do intelligent systems support expert decision-making without eroding trust, comprehension, or control?
 
+---
+
 ## Spatial Complexity
 
 Another major shift happening during this period involved movement toward increasingly spatial forms of design.
@@ -179,6 +190,8 @@ That environment reinforced something I continue to believe strongly:
 Design is not decoration.
 
 In sufficiently complex systems, design becomes operational infrastructure.
+
+---
 
 ## What Stayed With Me
 

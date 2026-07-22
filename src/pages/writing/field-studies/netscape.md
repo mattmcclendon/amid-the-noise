@@ -30,6 +30,8 @@ The technical problems mattered.
 
 The emotional problems mattered more.
 
+---
+
 ## Making the Internet Personal
 
 One of my core projects was My Netscape.
@@ -65,6 +67,8 @@ That distinction became foundational to modern digital life.
 
 Years later, it would also help lead me toward Yahoo!, where many of the same ideas evolved at much larger scale.
 
+---
+
 ## When Messaging Escaped the Desktop
 
 Another core project involved IM2SMS.
@@ -96,6 +100,8 @@ But at the time, convergence still felt uncertain. The internet was beginning to
 
 That shift permanently altered human behavior.
 
+---
+
 ## Designing Trust at Scale
 
 Much of the AOL work happened through large internal initiatives including Project Zeus and Project Bunker Hill.
@@ -125,6 +131,8 @@ Looking back now, I think much of the work during that period centered around a 
 
 That challenge still exists today, though the technologies have changed.
 
+---
+
 ## Simplification as Infrastructure
 
 One of the lessons that stayed with me from Netscape and AOL was that simplification is not the same thing as reduction.
@@ -153,6 +161,8 @@ That realization shaped much of my later work in:
 People cannot trust systems they cannot mentally model.
 
 That principle remains remarkably consistent across every era of technology.
+
+---
 
 ## What the Early Internet Understood
 

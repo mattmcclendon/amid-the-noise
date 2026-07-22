@@ -12,6 +12,8 @@ tier: "tier-1"
 
 “I missed the housing deadline because I didn’t know a bench warrant had been issued. Probation never told me the paperwork didn’t go through.”
 
+---
+
 ## The Interface Is the Policy
 
 Walk into any public service office or government website and you will hear it:
@@ -27,6 +29,8 @@ The myth of neutrality frames inaccessible forms, brittle portals, and biased lo
 Everyone else becomes an exception.
 
 Or collateral.
+
+---
 
 ## The Default User
 
@@ -53,6 +57,8 @@ Design does not simply reflect culture.
 
 It enforces it.
 
+---
+
 ## Neutrality as a Shield
 
 Neutrality is often used to avoid accountability.
@@ -73,6 +79,8 @@ This is not oversight.
 
 It is exclusion expressed through interface.
 
+---
+
 ## “Works for Me” Is Not a Metric
 
 I have been in rooms where teams review a public system and conclude:
@@ -86,6 +94,8 @@ For others, “straightforward” becomes a maze with no map and a clock running
 “It works for me” is not validation.
 
 It is a signal that the system has not been tested against reality.
+
+---
 
 ## Designing Without a Default
 
@@ -103,6 +113,8 @@ In practice, this means:
 Public interfaces are not a convenience layer.
 
 They are access to rights.
+
+---
 
 ## Toward a Civic Design Ethic
 

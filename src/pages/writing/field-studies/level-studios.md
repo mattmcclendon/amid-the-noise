@@ -25,6 +25,8 @@ People were no longer interacting with systems from fixed locations at predictab
 
 That changed the emotional cadence of digital interaction completely.
 
+---
+
 ## The Agency as Adaptation Engine
 
 Agency life during that period operated at a strange velocity. Every client represented a different worldview, different technical constraints, and different assumptions about user behavior.
@@ -52,6 +54,8 @@ That work became increasingly important as digital systems moved from destinatio
 The internet was no longer a place people visited.
 
 It was becoming infrastructure.
+
+---
 
 ## Designing for Behavioral Difference
 
@@ -98,6 +102,8 @@ The same infrastructure capable of reducing friction and improving accessibility
 Same mechanics.
 Different incentives.
 
+---
+
 ## Mobile Changed the Emotional Contract
 
 Desktop interaction once implied intention.
@@ -122,6 +128,8 @@ How do systems maintain coherence as users move between:
 - levels of confidence
 
 That question has quietly followed nearly every phase of my career since.
+
+---
 
 ## The Shape of Modern Systems
 
@@ -152,6 +160,8 @@ Design was no longer simply about navigation or aesthetics. Behavioral systems h
 - decision-making itself
 
 Once that realization becomes visible, it is difficult to stop seeing it.
+
+---
 
 ## What Stayed With Me
 

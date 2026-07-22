@@ -12,6 +12,8 @@ tier: "tier-1"
 
 # Field Study
 
+---
+
 ## Designing Trust Inside Modern Data Infrastructure
 
 Modern data infrastructure rarely fails because organizations lack data.

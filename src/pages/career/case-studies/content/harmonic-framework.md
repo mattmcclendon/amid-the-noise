@@ -19,6 +19,8 @@ AI systems fail in ways that are probabilistic, not binary. Most product surface
 
 A system can be technically correct and still produce a bad outcome when uncertainty is hidden or misinterpreted.
 
+---
+
 ## The Problem
 
 An AI system produces a recommendation with 78% confidence.
@@ -29,11 +31,15 @@ The user is left to interpret certainty that was never actually there.
 
 This gap is where trust breaks.
 
+---
+
 ## The Insight
 
 Trust is not a property of the model.
 
 It is a function of how uncertainty is expressed at the point of use.
+
+---
 
 ## The System
 
@@ -47,6 +53,8 @@ HARMONIC defines a structured layer between model output and human decision-maki
 - **Escalation** — when human intervention is required
 
 This layer translates probabilistic outputs into operational inputs.
+
+---
 
 ## Application
 
@@ -67,6 +75,8 @@ Escalation is triggered when:
 
 Human decisions are captured as signal refinement, improving future system behavior.
 
+---
+
 ## Artifact Layer
 
 The framework supports concrete system artifacts:
@@ -77,11 +87,15 @@ The framework supports concrete system artifacts:
 
 These artifacts convert abstract model behavior into governable systems.
 
+---
+
 ## Outcome
 
 HARMONIC defines a repeatable pattern for aligning probabilistic systems with human judgment.
 
 It is intended for high-stakes environments where correctness alone is insufficient without trust.
+
+---
 
 ## Why It Matters
 

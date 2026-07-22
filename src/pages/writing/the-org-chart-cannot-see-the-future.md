@@ -30,6 +30,8 @@ Not because they are unconventional, but because they acknowledge something many
 
 The future often arrives before there is organizational language to describe it.
 
+---
+
 ## The Limits of Role-Based Thinking
 
 Most companies hire against predefined gaps.
@@ -52,6 +54,8 @@ Organizations built around rigid classification tend to interpret ambiguity as r
 
 That creates a subtle form of institutional blindness.
 
+---
+
 ## Innovation Usually Starts as Category Error
 
 Many of the most important modern roles emerged before organizations knew they needed them.
@@ -71,6 +75,8 @@ Institutions tend to assume legitimacy follows definition.
 In practice, definition often follows usefulness.
 
 That distinction matters more now than it used to.
+
+---
 
 ## AI Is Accelerating the Need for Hybrid Thinkers
 
@@ -96,6 +102,8 @@ product strategy and organizational psychology.
 
 Traditional hiring frameworks struggle to recognize these combinations because they were not designed to detect them.
 
+---
+
 ## "Pitch Us a Role" Signals Organizational Confidence
 
 That is why the phrase stood out to me.
@@ -115,6 +123,8 @@ Some companies hire to preserve the existing map.
 Others hire to discover what the map is missing.
 
 The difference between those two mindsets compounds over time.
+
+---
 
 ## The Real Question
 

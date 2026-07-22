@@ -37,6 +37,8 @@ A Masonic ring did not merely signal affiliation. It implied inheritance. Conduc
 
 That distinction matters.
 
+---
+
 We used to drive past the lodge just to see whose trucks were parked outside.
 
 That was often enough to know who was still in town, who was doing alright, who might already be upstairs drinking coffee and arguing about something that had been argued about for forty years.
@@ -74,6 +76,8 @@ It was infrastructure.
 
 Like all infrastructure, it depended upon maintenance.
 
+---
+
 Meetings people did not feel like attending.  
 Coffee that still had to be brewed.  
 Rituals repeated until they became memory instead of novelty.
@@ -88,6 +92,8 @@ School boards. City councils. Volunteer organizations. Democratic governance dep
 
 The republic was never designed to run on autopilot.
 
+---
+
 Even in southwest Oklahoma, the story was more complicated than nostalgia sometimes allows.
 
 Altus had both white lodges and a Prince Hall lodge because American Masonry reflected many of the same contradictions as America itself. The fraternity spoke the language of symbolic equality while often remaining segregated in practice.
@@ -97,6 +103,8 @@ Yet there is something revealing in the fact that Black Masonic traditions endur
 In many Black communities, the lodge became one of the few places where procedural equality could be rehearsed before it existed reliably outside the building.
 
 The promise of symbolic equality proved powerful enough that excluded communities rebuilt the structure for themselves rather than abandoning it altogether.
+
+---
 
 In southwest Oklahoma, the consolidations came slowly enough that people could pretend they were temporary.
 
@@ -135,6 +143,8 @@ The pancake breakfasts stop.
 
 And eventually nobody remembers which Tuesday night was the last one.
 
+---
+
 Over time, I became less interested in the mythology surrounding Freemasonry and more interested in the historical conditions that made it so culturally pervasive during the colonial period and the earliest decades of the United States.
 
 The modern imagination often reverses the causality.
@@ -158,6 +168,8 @@ Freemasonry did not invent those ideas alone. The Enlightenment was already resh
 a recurring social theater where those values could be practiced behaviorally before they were attempted politically on a national scale.
 
 That is the part many modern discussions miss.
+
+---
 
 A republic is not sustained by documents alone.
 
@@ -183,6 +195,8 @@ self-government requires rehearsal.
 Not because democracy is natural.
 
 Because it is not.
+
+---
 
 The buildings themselves understood this once.
 

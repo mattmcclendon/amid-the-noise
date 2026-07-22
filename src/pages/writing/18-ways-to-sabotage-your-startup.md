@@ -24,6 +24,8 @@ Solve that, and you can survive a surprising number of mistakes. Miss it, and no
 
 These are the patterns that show up before things break.
 
+---
+
 ## 1. Going it alone
 
 Solo founders can work. They rarely scale as far as they expect.
@@ -33,6 +35,8 @@ You lose tension. No one challenges your thinking in real time. No one shares th
 More importantly, no one is there when it gets hard enough that quitting starts to feel reasonable.
 
 That absence compounds.
+
+---
 
 ## 2. Building in the wrong place
 
@@ -44,6 +48,8 @@ Talent density. Capital. Pattern recognition. Accidental conversations that chan
 
 You can build anywhere. You just make it harder on yourself in some places than others.
 
+---
+
 ## 3. Hiding in a small market
 
 Choosing a tiny niche to avoid competition feels safe.
@@ -51,6 +57,8 @@ Choosing a tiny niche to avoid competition feels safe.
 It usually isn’t.
 
 Lack of competition often signals lack of demand. You are not avoiding risk. You are removing oxygen.
+
+---
 
 ## 4. Copying instead of understanding
 
@@ -60,6 +68,8 @@ Strong ideas come from direct exposure to the problem. Something you’ve felt o
 
 Without that, you are assembling features, not solving anything.
 
+---
+
 ## 5. Holding onto the first idea
 
 The initial version is almost always wrong in some important way.
@@ -67,6 +77,8 @@ The initial version is almost always wrong in some important way.
 What matters is how quickly you adjust when reality pushes back.
 
 If you treat the plan as fixed, you will eventually hit something that doesn’t move.
+
+---
 
 ## 6. Hiring too early, or poorly
 
@@ -78,6 +90,8 @@ In the beginning, every role should tie directly to building or getting the prod
 
 Everything else can wait.
 
+---
+
 ## 7. Locking into the wrong stack
 
 Technology choices harden faster than expected.
@@ -85,6 +99,8 @@ Technology choices harden faster than expected.
 A weak foundation does not always fail immediately. It shows up later, when growth exposes the cracks.
 
 If you are not deeply technical, defer to people who are. Then listen when they say no.
+
+---
 
 ## 8. Waiting to launch
 
@@ -94,6 +110,8 @@ Fear of being wrong. Lack of clarity. Perfectionism framed as discipline.
 
 You do not learn in isolation. You learn when someone uses the thing and reacts.
 
+---
+
 ## 9. Launching something that doesn’t work
 
 There is a floor.
@@ -101,6 +119,8 @@ There is a floor.
 If the first experience is confusing or broken, people leave and do not come back.
 
 Early users are generous. They are not infinitely patient.
+
+---
 
 ## 10. Not knowing who it’s for
 
@@ -110,6 +130,8 @@ If you cannot describe the person clearly, you are designing in the dark.
 
 Precision here sharpens everything else.
 
+---
+
 ## 11. Raising too little
 
 Time is the real currency.
@@ -117,6 +139,8 @@ Time is the real currency.
 If you run out before reaching a meaningful milestone, the company stalls regardless of potential.
 
 The goal is not survival. It is reaching a point where your odds change.
+
+---
 
 ## 12. Spending like you’ve already made it
 
@@ -126,6 +150,8 @@ Headcount grows. Burn accelerates. Expectations rise before the product has earn
 
 Restraint buys optionality.
 
+---
+
 ## 13. Taking on too much capital
 
 More money is not neutral.
@@ -134,11 +160,15 @@ It comes with pressure to act as if the answers are already known.
 
 That can freeze a product before it has found its shape.
 
+---
+
 ## 14. Letting investors steer
 
 Good investors sharpen thinking. They should not replace it.
 
 If you lose control of direction, you are no longer building. You are executing someone else’s version of your company.
+
+---
 
 ## 15. Monetizing too early
 
@@ -148,6 +178,8 @@ It just does not come first.
 
 If the product is not indispensable, pricing it does not fix the problem. It exposes it.
 
+---
+
 ## 16. Avoiding the unglamorous work
 
 Product alone does not carry a company.
@@ -155,6 +187,8 @@ Product alone does not carry a company.
 Distribution, sales, partnerships, support. None of it is optional.
 
 Someone has to own getting the product into real use.
+
+---
 
 ## 17. Founder conflict
 
@@ -164,6 +198,8 @@ It builds through small misalignments that never get addressed.
 
 Roles, equity, expectations. If they are vague early, they become volatile later.
 
+---
+
 ## 18. Treating it like an option
 
 Part-time effort rarely wins.
@@ -171,6 +207,8 @@ Part-time effort rarely wins.
 Not because the idea is weak, but because the competition is not casual about it.
 
 Most startups don’t collapse. They fade when attention moves elsewhere.
+
+---
 
 ## What actually matters
 

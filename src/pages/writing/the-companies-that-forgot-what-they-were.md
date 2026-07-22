@@ -40,6 +40,8 @@ I think something deeper is happening too.
 
 Many modern institutions appear to be suffering from existential instability. They no longer fully understand what role they occupy in people’s lives even as that role becomes increasingly consequential.
 
+---
+
 The internet accelerated this problem dramatically.
 
 For a long time, the web still behaved like publishing.
@@ -80,6 +82,8 @@ An identity system?
 
 The uncertainty became architectural.
 
+---
+
 I saw a different version of the same instability later at Yahoo!.
 
 At its height, Yahoo! occupied one of the most important positions on the internet. For millions of users, it functioned less like a product than a navigational layer for digital life itself.
@@ -110,6 +114,8 @@ The institution increasingly seemed uncertain about its own center of gravity wh
 Employees felt this instability before the public did.
 
 Products eventually reflected it.
+
+---
 
 Over time, this instability escaped Silicon Valley.
 
@@ -149,6 +155,8 @@ An unstable institution asks:
 How do we preserve the current business model?
 
 The distinction determines whether adaptation feels evolutionary or existential.
+
+---
 
 Evernote revealed another variation of the same problem.
 
@@ -191,6 +199,8 @@ But society increasingly depends on these same systems for trust, continuity, le
 
 Those are not the same responsibilities.
 
+---
+
 Silicon Valley often treats executive turnover as operational renewal.
 
 Increasingly, it resembles philosophical regime change.
@@ -206,6 +216,8 @@ They frequently redefine:
 In ordinary businesses, this creates turbulence.
 
 In behavioral infrastructure, it can destabilize the social environment surrounding the institution itself.
+
+---
 
 One of Silicon Valley’s recurring mistakes may be treating existential crises as though they are operational ones.
 

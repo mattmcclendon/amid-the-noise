@@ -12,6 +12,8 @@ tier: "tier-1"
 
 >“This interface wasn’t just hard to use. It made me feel like I didn’t deserve help.”
 
+---
+
 ## Systems Don’t Need to Bleed to Harm
 
 Not all trauma comes from visible events.

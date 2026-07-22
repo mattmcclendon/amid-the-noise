@@ -25,45 +25,67 @@ Consider the list not as twelve throwaway lines but as a language system designe
 
 This sentence is an escape hatch. It signals that responsibility feels dangerous, not developmental. The speaker treats accountability as a blow rather than a bridge.
 
+---
+
 ## 2. “If you hadn’t done that…”
 
 Blame becomes a survival tactic. By locating the cause in someone else, they soothe the fear of being seen as the source of harm.
+
+---
 
 ## 3. “I don’t need to explain myself to you.”
 
 This line reveals a person who experiences dialogue as interrogation. Explanation feels like submission, not connection.
 
+---
+
 ## 4. “You’re overreacting.”
 
 Invalidation is the immaturity reflex. When their own emotions overwhelm them, they try to declaw yours.
+
+---
 
 ## 5. “Yeah, whatever.”
 
 Shutdown behavior masquerades as indifference. The truth: they lack the stamina for regulated conversation.
 
+---
+
 ## 6. “What are you talking about? I never said that!”
 
 Reality revision becomes an adaptive strategy. Memory is rewritten to avoid shame in the moment.
+
+---
 
 ## 7. “It’s your problem, not mine.”
 
 Distance protects them from the discomfort of shared responsibility. It also guarantees relational stagnation.
 
+---
+
 ## 8. “You’re making a big deal out of nothing.”
 
 Minimization serves as a shield. They shrink your experience because they cannot expand their own.
+
+---
 
 ## 9. “You’re talking about the past.”
 
 History threatens them. Growth requires integrating what happened. Immaturity prefers erasure.
 
+---
+
 ## 10. “I was just joking!”
 
 This phrase offers plausible deniability for covert hostility. It allows the jab without the accountability.
 
+---
+
 ## 11. “You always / you never…”
 
 All-or-nothing thinking signals a mind that struggles with nuance. Complexity collapses into absolutes.
+
+---
 
 ## 12. “But everyone does it!”
 

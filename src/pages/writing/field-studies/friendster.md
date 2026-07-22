@@ -37,6 +37,8 @@ The company cycled through three CEOs while I was there, each carrying a differe
 
 That uncertainty became part of the architecture itself.
 
+---
+
 ## The First Real Social Network
 
 Before Friendster, online identity still felt fragmented.
@@ -91,6 +93,8 @@ My own thinking around social systems had already started several years earlier 
 
 Years later, Mark would go on to found MeWe, another attempt to rethink how social systems could function online.
 
+---
+
 ## The Servers Were Losing Reality
 
 The infrastructure could not keep up.
@@ -138,6 +142,8 @@ When early social infrastructure drifted out of sync, people experienced unstabl
 
 The architecture of the web had not fully adapted yet.
 
+---
+
 ## The Philippines Problem
 
 One of the most revealing moments came from traffic behavior.
@@ -162,6 +168,8 @@ That disconnect became increasingly common during the early social era:
 The users were effectively defining the platform in real time.
 
 The company kept trying to catch up.
+
+---
 
 ## The Competitive Fog
 
@@ -189,6 +197,8 @@ Friendster mattered because it helped establish the underlying grammar:
 
 Even companies that later surpassed it inherited structural DNA from those early experiments.
 
+---
+
 ## The Blast
 
 One memory has stayed with me for years.
@@ -214,6 +224,8 @@ people often wanted lightweight acknowledgment more than formal communication.
 
 That realization reshaped social behavior globally.
 
+---
+
 ## The Internet Becomes Behavioral
 
 What fascinates me most looking back is how little the technology itself explains.
@@ -238,6 +250,8 @@ The systems became mirrors for belonging, loneliness, aspiration, insecurity, pe
 
 The internet was no longer simply storing information.
 It was actively shaping emotional perception and social behavior in real time.
+
+---
 
 ## What Friendster Really Was
 

@@ -25,6 +25,8 @@ That sentence sounds absurd now.
 
 The important thing is that it did not sound absurd then.
 
+---
+
 ## The Invention Factory
 
 I joined idealab! during the height of the dot-com era, from 1999 through 2001. The public mythology around that period usually focuses on excess: sock puppets, Super Bowl ads, venture capital, parties, and spectacular collapse.
@@ -49,6 +51,8 @@ Most founders were engineers or business operators. Very few had deep experience
 In practice, that often meant entering before a company fully understood itself.
 
 The work moved fast. Sometimes dangerously fast.
+
+---
 
 ## Translating Daily Life Into the Internet
 
@@ -87,6 +91,8 @@ The operational model failed.
 
 The signal architecture did not.
 
+---
+
 ## Velocity as Intelligence
 
 One of the most misunderstood aspects of the dot-com era is the assumption that people were irrational.
@@ -105,6 +111,8 @@ The future arrived early, and Silicon Valley mistook that early arrival for perm
 Velocity itself became a form of perceived intelligence. If something could scale rapidly, investors often assumed it was also meaningful, inevitable, or sustainable.
 
 Those were not always the same thing.
+
+---
 
 ## The Moon Rover
 
@@ -136,6 +144,8 @@ That realization has stayed with me for years because it reframed how I think ab
 The ideas are frequently directionally correct.
 
 The timelines are not.
+
+---
 
 ## Design as Translation
 
@@ -169,6 +179,8 @@ Today, it is often AI interpretability, governance, escalation, and accountabili
 
 Different era.
 Same underlying tension.
+
+---
 
 ## What Survived
 

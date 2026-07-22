@@ -21,6 +21,9 @@ Using election administration, homelessness services, and public transit as case
 ---
 
 # 1. Introduction
+
+---
+
 ## The Strongest Anecdotal Evidence
 
 Two election observers visited our vote center during the June 2026 primary election.
@@ -74,6 +77,9 @@ It is the reduction of distance.
 ---
 
 # Methodology
+
+---
+
 ## Autoethnography and Qualitative Case Analysis
 
 This paper combines autoethnographic observation with qualitative case study analysis. The case studies draw from direct experiences within election administration, homelessness services, recovery systems, and public transit in Santa Clara County between 2025 and 2026.
@@ -149,19 +155,27 @@ A service can exist while remaining unreachable.
 
 # 3. What the Literature Already Knows
 
+---
+
 ## Street-Level Bureaucracy
 
 Michael Lipsky argued that people rarely experience public policy directly. They experience it through implementation. Frontline workers become translators between institutional intent and individual experience. This matters because two institutions can operate under similar policies while producing very different experiences for the people who encounter them. [Lipsky, 1980]
 
+---
+
 ## Administrative Burden
 
 Pamela Herd and Donald Moynihan describe administrative burden as the learning costs, compliance costs, and psychological costs associated with accessing public services. Viewed through the lens of this paper, administrative burden functions as a form of distance. [Herd & Moynihan, 2018]
+
+---
 
 ## Procedural Justice
 
 Procedural justice research suggests that people care not only about outcomes but about how they are treated during the process. Voice, respect, neutrality, and trustworthiness shape perceptions of legitimacy. [Tyler, 2006]
 
 Procedural justice asks a critical question: Was I treated fairly?
+
+---
 
 ## Trauma-Informed Care
 
@@ -208,6 +222,9 @@ Belonging emerges when a person perceives that an institution is available, navi
 ---
 
 # 5. Case Study I: Elections
+
+---
+
 ## Posture and Reachability
 
 ### The Service Already Existed
@@ -347,6 +364,9 @@ It was evidence about reachability.
 ---
 
 # 6. Case Study II: VHHP
+
+---
+
 ## Continuity, Thresholds, and the Glue
 
 ### Behind the Gates
@@ -435,6 +455,8 @@ Instability itself became a form of distance.
 
 Scarcity research suggests that instability consumes cognitive bandwidth that would otherwise be available for planning, paperwork, appointments, and follow-through. [Mullainathan & Shafir, 2013]
 
+---
+
 ### Angela
 
 At approximately seven o'clock that evening, I reached someone at Muriel Wright Recovery Center.
@@ -493,6 +515,8 @@ Viewed through that lens, reducing repetition is not merely an efficiency improv
 
 It is a reduction in administrative and emotional burden.
 
+---
+
 ### The Glue
 
 The most valuable thing VHHP provided was not treatment.
@@ -520,6 +544,8 @@ They coordinated housing transitions.
 The result was not simply service delivery.
 
 The result was cognitive relief.
+
+---
 
 ### Stability as a Resource
 
@@ -571,6 +597,8 @@ The Infrastructure of Belonging is not only about helping people reach services.
 
 It is also about creating enough stability for those services to matter.
 
+---
+
 ### Continuity and Thresholds
 
 Planning for my transition out of Muriel Wright began weeks before discharge.
@@ -602,6 +630,9 @@ They cannot exercise agency on behalf of the people they serve.
 ---
 
 # 7. Case Study III: Transit
+
+---
+
 ## Mediation and the Infrastructure Between Infrastructures
 
 ### The Infrastructure Between Infrastructures
@@ -811,6 +842,9 @@ When transit fails, distance can increase across multiple systems simultaneously
 ---
 
 # 8. Failure Cases
+
+---
+
 ## When Distance Reappears
 
 ### Broken Continuity
@@ -892,6 +926,9 @@ Distance begins before the person ever arrives.
 ---
 
 # 9. Designing for Reachability
+
+---
+
 ## Principles for the Infrastructure of Belonging
 
 ### Principle 1: Design for Reachability, Not Availability
@@ -1042,6 +1079,8 @@ It may also be the infrastructure that matters most.
 
 # References
 
+---
+
 ## Foundational Literature
 
 - Lipsky, Michael. *Street-Level Bureaucracy: Dilemmas of the Individual in Public Services*.
@@ -1049,16 +1088,22 @@ It may also be the infrastructure that matters most.
 - Tyler, Tom R. *Why People Obey the Law*.
 - Substance Abuse and Mental Health Services Administration. *Trauma-Informed Care in Behavioral Health Services*. Treatment Improvement Protocol (TIP) Series 57, 2014.
 
+---
+
 ## Service Design and Public Administration
 
 - Mullainathan, Sendhil, and Eldar Shafir. *Scarcity: Why Having Too Little Means So Much*. Times Books, 2013.
 - European Commission. *EU eGovernment Action Plan 2016–2020: Accelerating the Digital Transformation of Government*. 2016.
+
+---
 
 ## Transit, Access, and Mobility
 
 - National Academies of Sciences, Engineering, and Medicine. *Homelessness: A Guide for Public Transportation*. TCRP Research Report 242, 2023.
 - Loukaitou-Sideris, Anastasia, et al. *Homelessness in Transit Environments*. UCLA Institute of Transportation Studies, 2021.
 - Hochbaum, Ron S. "Bathrooms as a Homeless Rights Issue." *North Carolina Law Review*, 2020.
+
+---
 
 ## Santa Clara County, VHHP, and Elections
 
@@ -1074,37 +1119,55 @@ It may also be the infrastructure that matters most.
 
 # Appendix A: Working Definitions
 
+---
+
 ## Distance
 
 The gap between a service and a person's ability to successfully reach it.
+
+---
 
 ## Connector
 
 A person, tool, process, or accommodation that reduces distance.
 
+---
+
 ## Continuity
 
 The preservation of connection across institutional handoffs.
+
+---
 
 ## Reachability
 
 The practical ability of a person to access and participate in a service.
 
+---
+
 ## Belonging
 
 The perception that an institution is navigable, reachable, and intended for someone like me.
+
+---
 
 ## Posture
 
 The signals an institution sends about who belongs.
 
+---
+
 ## Mediation
 
 The ability of one service to make other services reachable.
 
+---
+
 ## Occupancy
 
 The use of a public service or public space not primarily to move from one destination to another, but to safely occupy time, maintain stability, or remain connected to other systems.
+
+---
 
 ## Institutional Imagination
 

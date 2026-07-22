@@ -1,119 +1,119 @@
 ---
 layout: "../../layouts/PublicationLayout.astro"
-title: "Designing Under Constraint at Autodesk"
-subtitle: "Aligning systems and decisions without authority"
-description: "A real-world case study from Autodesk showing how fragmented legacy systems were audited, aligned, and unified into a cloud licensing platform through influence, transparency, and system-level design—an approach that continues to hold across modern enterprise and AI systems."
+title: "Transformation Without Amnesia"
+subtitle: "Modernizing inherited systems without pretending their history can be erased"
+description: "What Autodesk taught me about collective legibility, institutional memory, and changing complex systems without making customers absorb the violence of the transition."
 pubDate: "2026-07-23"
 heroImage: "/images/writing/designing-under-constraint-autodesk.png"
 heroAlt: "Fragmented systems converging into a unified structure, representing alignment, integration, and decision flow"
-tags: ["Case Study", "Decision Systems", "Enterprise Systems"]
+tags: ["Systems Thinking", "Legacy Systems", "Organizational Design"]
 tier: "tier-1"
 ---
 
-## The situation
+Organizations often describe modernization as though the old system were an unfortunate object sitting in the way of the new one.
 
-Autodesk did not have a single system for licensing.
+The language is revealing. We retire platforms. We sunset applications. We eliminate technical debt. We migrate users. The future waits on one side of a diagram, the past occupies the other, and between them sits an arrow so clean that it could only have been drawn by someone who will not be awake when the cutover fails.
 
-It had many.
+Real systems are less obliging.
 
-Different products. Different teams. Different models of ownership. Each system carried part of the truth. None carried all of it.
+The systems an organization inherits contain far more than aging technology. They preserve decisions, accommodations, promises, workarounds, political settlements, and customer expectations. Some choices remain valuable. Others survive because nobody remembers why they were made. Most resist classification until someone tries to remove them.
 
-Customers experienced this as friction.
+That was the situation I encountered at Autodesk in 2012 as the company moved from desktop software purchased episodically toward an ongoing service relationship built around identity, entitlement, cloud access, subscriptions, and consumable services.
 
-Internally, it showed up as delays, rework, and uncertainty around who could actually make a decision.
+The existing licensing portal was widely disliked, and with good reason. Customers experienced different products through inconsistent interfaces and incompatible models of ownership. Internally, teams worked through a collection of systems that each carried part of the truth. Licensing decisions moved across organizational boundaries, and the authority to resolve them was often distributed among people who understood only one portion of the path.
 
-At the same time, Autodesk was moving toward cloud-based licensing and subscription models. The direction was clear.
+It would have been easy to call this a portal redesign.
 
-The system was not.
-
----
-## Where the work actually started
-
-I did not start with design.
-
-I started with ownership.
-
-Who owned each system.  
-Who could change it.  
-Who blocked it.  
-Where decisions were made versus where they were merely recorded.
-
-I audited the landscape organizationally as much as technically. What emerged was not a clean architecture diagram. It was a network of influence.
-
-That network determined what was possible.
+That description would also have been wrong.
 
 ---
-## Operating without authority
 
-I did not have formal authority over most of the systems involved.
+## The Interface Was Telling the Truth
 
-Progress depended on alignment.
+Inconsistent interfaces are often treated as evidence of inadequate design governance. Sometimes they are. They can also be remarkably accurate portraits of the organizations that produced them.
 
-That meant building relationships across product, engineering, support, and operations. It meant making the system legible to the people inside it, not through abstraction, but through shared visibility into how work actually moved.
+Autodesk’s portal was fragmented because the underlying system was fragmented. Different product histories had generated different licensing rules. Teams had developed local solutions around their own responsibilities. Legacy services had acquired dependencies that extended well beyond their visible purpose. A record might live in one system, the authority to alter it in another, and the customer escalation that finally forced a decision somewhere else entirely.
 
-In some cases, teams believed they owned a licensing decision because their system stored the record. Other teams believed they owned it because they handled the customer escalation. Neither could fully resolve the issue without the other.
+The interface did not invent that disorder. It disclosed it.
 
-The system produced fragmentation because ownership itself was fragmented.
+A visual redesign could have concealed some of the symptoms, at least temporarily. It could not have established coherent ownership, reconciled incompatible definitions, or determined which dependency had to move before another could safely change. A clean surface laid over a fragmented decision system would have given customers a more attractive way to encounter the same uncertainty.
 
-Transparency became the first tool.
+The work therefore began with legibility.
 
-When people could see the full path of a licensing decision, including where it stalled or fractured, alignment stopped being theoretical. It became operational.
+Who owned each system? Who could change it? Who could block a change without formally owning the decision? Where did licensing authority actually reside, and where was it merely recorded after the fact? Which support practices compensated for failures in the product? Which technical dependencies were unavoidable, and which had become permanent only because the organization had learned to route around them?
 
----
-## Converging the system
+The investigation was architectural and organizational. Formal diagrams showed how services connected; the lived system revealed how work moved through people, history, and influence.
 
-The goal was not to replace everything.
-
-It was to create a point of convergence.
-
-I led the design and development of a back office portal that became the convergence layer for Autodesk licensing. It unified how customers managed licenses, credits, and subscriptions without forcing every underlying system to disappear first.
-
-For the first time, there was a place where:
-
-- licensing could be managed, not just recorded  
-- subscription models could operate alongside legacy structures  
-- internal teams and customers could act from a shared view of the system  
-
-The interface was visible.
-
-The real work was in how decisions flowed beneath it.
+Both were real.
 
 ---
-## What changed
 
-Licensing moved from fragmented ownership to coordinated behavior.
+## No One Could See the Whole System
 
-Teams that had previously operated in isolation began working from shared context. Support friction dropped because fewer issues required translation across systems. Decisions that once stalled across organizational boundaries could now resolve within a single operational flow.
+Complexity creates an uncomfortable asymmetry: the more consequential the system, the less likely it is that any participant can perceive it whole.
 
-Efficiency improved, but not because of optimization in isolation.
+At Autodesk, architects could see dependencies whose effects were invisible at the interface. Visual designers could recognize common interaction patterns beneath experiences that appeared unrelated. Product and business leaders understood how cloud licensing and subscriptions were changing the company’s commercial relationship with customers. Support teams knew which forms of complexity users could navigate and which had simply become normalized internally.
 
-It improved because the system became coherent.
+Each view was accurate. None was complete.
 
-As the platform stabilized, the effects became visible beyond the teams directly involved. Licensing moved faster. Ownership became clearer. The organization began to trust the system to carry real work.
+The appropriate response was not to locate the most senior person and ask for the answer. Authority could resolve a dispute, but it could not manufacture the missing perception. We needed enough of the system to become intelligible to enough of the right people that their different ways of seeing could revise one another.
 
-I was later named to Autodesk’s CEO Top 5 Up-and-Coming list.
+That required more than attendance. A room can contain every relevant discipline and still produce a narrow decision if hierarchy, vocabulary, or facilitation prevents one perspective from changing another. The work became possible when technical constraint, customer experience, commercial direction, and interaction pattern entered consequential contact.
 
-The recognition mattered less than what it reflected: the system had started to hold.
+An architectural dependency might alter the migration sequence. The new sequence could require a different interaction model. That model might reveal that several apparently unique workflows were variations of one recurrent pattern. The shared pattern could reduce enough complexity to make a legacy service containable, and perhaps eventually removable.
+
+The answer emerged through movement among perspectives. Nobody brought it into the room intact.
 
 ---
-## The throughline
 
-This work took place in 2012.
+## Modernization Is a Sequencing Problem
 
-The tools were different. The constraints were not.
+Clean-sheet redesign is seductive because it permits the future to be considered without the inconvenience of the present. The new model appears internally coherent. The architecture is rational. The interface behaves as though everyone arrived on the same day with no history and no work already underway.
 
-I have since seen the same structural pattern repeat across finance, automation, civic systems, and AI platforms:
+Customers do not live inside clean sheets.
 
-multiple sources of truth  
-unclear ownership  
-decisions resolving across disconnected systems
+They had purchased licenses under older models. Internal teams still depended upon services that could not disappear on schedule merely because the new experience was ready. Subscription models needed to operate alongside legacy structures. Cloud credits and consumable services had to become understandable without destabilizing the products and entitlements already carrying the business.
 
-The interface is rarely the hard part.
+We designed a modern licensing portal as a convergence layer. It gave customers and internal teams a coherent place to manage access, licenses, subscriptions, and credits while the underlying ecosystem transitioned at a pace its dependencies could tolerate.
 
-Alignment is.
+Some legacy systems remained on life support while the new platform progressively absorbed their responsibilities. Dependencies that could be retired were separated from those requiring containment. The difficult decisions concerned sequence: what could move immediately, what needed an intermediary, and what had to remain operational long enough to protect customers from the consequences of our change.
 
-I design systems where decisions have to hold under real-world conditions.
+The interface was the visible artifact. The deeper design was the migration of coherence.
 
-Not in theory.  
-In organizations.  
-With constraints.
+---
+
+## The Ethics of Transition
+
+Legacy modernization is usually discussed as an economic and technical problem, although its consequences make it an ethical one as well.
+
+Organizations create the conditions that make their systems difficult to change. Customers rarely do. Yet poorly managed transitions routinely transfer the cost of accumulated organizational complexity onto the people least able to influence it. A user loses access, a support team improvises an explanation, an administrator reconstructs entitlements by hand, or a customer is asked to understand the internal distinction between two systems that the company itself has failed to reconcile.
+
+There is a quiet violence in making customers absorb an institution’s transition.
+
+Responsible modernization acknowledges that the old system may need to remain alive while its responsibilities are being transferred. This can look inelegant from inside a transformation program. For the customer, it can be the difference between a strategic migration and an arbitrary disruption.
+
+Preserving continuity does not mean preserving every inherited decision. It means changing the system with enough understanding that we can distinguish what deserves to survive from what has merely survived until now.
+
+That is transformation without amnesia.
+
+---
+
+## Collective Legibility
+
+The resulting platform was, honestly, a quantum leap from the experience it replaced. Customers gained a more comprehensible way to manage licensing and access. Internal teams gained a shared operational view. Support friction declined because fewer issues required translation across incompatible systems and ownership boundaries. The company could support new commercial models without requiring its legacy architecture to vanish in a ceremonial switch-flip.
+
+I was later named to Autodesk’s CEO Top 5 Up-and-Coming list. I appreciated the recognition, but the more durable achievement was less individual: a system no one fully understood became coherent enough for many people to change together.
+
+I think of that condition as collective legibility.
+
+Legibility is usually discussed as a property of an interface. In complex organizations, it is also a property of the work itself. People need to see how a local decision affects the larger system, where authority actually resides, which history a constraint carries, and what another discipline is protecting when it resists an apparently obvious solution.
+
+Without that visibility, transformation becomes a contest among partial truths. With it, disagreement can become useful because the participants are finally arguing about the same system.
+
+This experience became one reason I build collaborative surfaces. Distinct capabilities cannot improve one another while the object connecting them remains illegible. Once the system becomes visible, architecture, design, product, support, and customer knowledge can operate as more than adjacent functions and begin composing an answer.
+
+Legibility cannot eliminate conflict, confer authority, or make every dependency negotiable. Its value is more practical: the organization gains a chance to understand what it is changing before asking customers to live with the result.
+
+---
+
+This article is supporting content for [Designing the Collaborative Surface](/writing/papers/designing-the-collaborative-surface/). For my role, process, and project outcomes, read the professional case study: [Composing the Transition at Autodesk](https://mattm.cc/case-studies/autodesk-composing-the-transition/).

@@ -47,6 +47,8 @@ You’ll have ten people sprinting toward “the MVP” through Jira tickets and
 
 …the answers can vary wildly.
 
+---
+
 ## The problem with “minimum”
 
 I kept coming back to the word *minimum*.
@@ -76,6 +78,8 @@ Because nobody aligned on what uncertainty the MVP was supposed to reduce in the
 - Revenue potential?
 
 Those lead to very different MVPs.
+
+---
 
 ## AI and the disappearing pause
 
@@ -114,6 +118,8 @@ The discipline of *not* building has to become intentional.
 That is not a tooling problem.
 
 It is a human one.
+
+---
 
 ## What the strongest teams do differently
 

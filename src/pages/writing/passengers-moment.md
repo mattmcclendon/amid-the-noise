@@ -22,6 +22,8 @@ At the time, that detail didn’t matter.
 
 What stayed with me was the premise.
 
+---
+
 ## The Story I Thought I Wanted
 
 A writer boards a ship carrying thousands of people in cryo-sleep, bound for a new world. She chooses the long arc. One hundred and twenty years forward, then back again.
@@ -44,6 +46,8 @@ I watched that and told myself, quietly:
 
 I will never have a life like that.
 
+---
+
 ## What Actually Happened
 
 I was already on the journey.
@@ -63,6 +67,8 @@ There was shame.
 There was staying quiet in places that made me smaller.
 
 That was my version of stasis.
+
+---
 
 ## The Wake-Up
 
@@ -86,6 +92,8 @@ I didn’t discover a new world.
 
 I woke up inside one.
 
+---
+
 ## What I Saw
 
 I’ve sat with people the system forgot.
@@ -102,6 +110,8 @@ Spaces where survival is not theoretical.
 
 It’s immediate.
 
+---
+
 ## The Return
 
 That’s the part I didn’t understand before.
@@ -113,6 +123,8 @@ It’s internal.
 You don’t come back to where you started.
 
 You come back to who you are, after seeing what you couldn’t see before.
+
+---
 
 ## The Work
 
@@ -133,6 +145,8 @@ That’s my version of the journey.
 Not measured in years.
 
 Measured in awareness.
+
+---
 
 ## What Changed
 
