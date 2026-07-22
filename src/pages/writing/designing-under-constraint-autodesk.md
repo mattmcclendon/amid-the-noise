@@ -4,8 +4,8 @@ title: "Transformation Without Amnesia"
 subtitle: "Modernizing inherited systems without pretending their history can be erased"
 description: "What Autodesk taught me about collective legibility, institutional memory, and changing complex systems without making customers absorb the violence of the transition."
 pubDate: "2026-07-23"
-heroImage: "/images/writing/designing-under-constraint-autodesk.png"
-heroAlt: "Fragmented systems converging into a unified structure, representing alignment, integration, and decision flow"
+heroImage: "/images/writing/field-study-autodesk.png"
+heroAlt: "Autodesk's origami-era identity beside fine architectural lines resolving from a tangled legacy system into an ordered cloud platform"
 tags: ["Systems Thinking", "Legacy Systems", "Organizational Design"]
 tier: "tier-1"
 ---

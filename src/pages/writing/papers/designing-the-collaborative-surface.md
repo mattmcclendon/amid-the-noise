@@ -241,18 +241,25 @@ That is how I build teams. It is how I enter unfamiliar domains, modernize inher
 I contribute at the edge of what I know, then use collaboration to move that edge.
 
 ---
+
 ## Supporting Content
 
 The philosophy becomes more useful when examined under the pressure of actual work. These three field studies isolate different properties of the collaborative surface across legacy transformation, domain learning, and venture creation.
 
-### [Transformation Without Amnesia](/writing/designing-under-constraint-autodesk/)
-
-What Autodesk taught me about collective legibility, institutional memory, and changing complex systems without making customers absorb the violence of the transition.
-
-### [The Edge of What We Know](/writing/field-studies/dremio/)
-
-What designing at Dremio revealed about outsider perception, situated learning, shared language, and the way collaborative teams move the boundary of expertise.
-
-### [The Accelerator as a Listening System](/writing/field-studies/ca-technologies/)
-
-What the CA Accelerator demonstrated about precomposed capability, strategic perception, and creating new ventures without asking an organization to think less.
+<nav class="supporting-field-studies" aria-label="Field studies supporting this paper">
+  <a class="supporting-field-study" href="/writing/designing-under-constraint-autodesk/">
+    <span class="supporting-field-study-kicker">Autodesk · Field Study</span>
+    <strong>Transformation Without Amnesia</strong>
+    <span>Collective legibility, institutional memory, and changing complex systems without making customers absorb the violence of the transition.</span>
+  </a>
+  <a class="supporting-field-study" href="/writing/field-studies/dremio/">
+    <span class="supporting-field-study-kicker">Dremio · Field Study</span>
+    <strong>The Edge of What We Know</strong>
+    <span>Outsider perception, situated learning, shared language, and the way collaborative teams move the boundary of expertise.</span>
+  </a>
+  <a class="supporting-field-study" href="/writing/field-studies/ca-technologies/">
+    <span class="supporting-field-study-kicker">CA Technologies · Field Study</span>
+    <strong>The Accelerator as a Listening System</strong>
+    <span>Precomposed capability, strategic perception, and creating new ventures without asking an organization to think less.</span>
+  </a>
+</nav>

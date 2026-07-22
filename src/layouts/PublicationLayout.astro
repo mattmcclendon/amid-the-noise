@@ -332,6 +332,54 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
     text-decoration: underline;
   }
 
+  .supporting-field-studies {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin: 2.2rem 0 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .publication-body a.supporting-field-study {
+    display: grid;
+    gap: 0.36rem;
+    padding: 1.35rem 0 1.45rem;
+    border-bottom: 1px solid var(--line);
+    color: var(--text);
+    text-decoration: none;
+    transition: color 140ms ease, padding-left 140ms ease;
+  }
+
+  .publication-body a.supporting-field-study:hover {
+    padding-left: 0.45rem;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .supporting-field-study-kicker {
+    font-size: 0.72rem;
+    line-height: 1.3;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--secondary);
+  }
+
+  .supporting-field-study strong {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.08rem;
+    line-height: 1.35;
+    font-weight: 600;
+    color: var(--title);
+  }
+
+  .supporting-field-study > span:last-child {
+    max-width: 42rem;
+    font-size: 0.92rem;
+    line-height: 1.58;
+    color: var(--secondary);
+  }
+
   .publication-cta-boundary {
     max-width: 46rem;
     margin-top: 8rem;
