@@ -55,3 +55,7 @@ The most respectful thing we can do—for each other, for our institutions, for 
 Words matter.
 
 Always.
+
+---
+
+**Author’s note:** My thinking about the language of recovery continued to evolve after this essay. I revisit—and complicate—this argument in [“Where the Weight Belongs”](/writing/where-the-weight-belongs/).
