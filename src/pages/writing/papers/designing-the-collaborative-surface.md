@@ -3,7 +3,7 @@ layout: "../../../layouts/PublicationLayout.astro"
 title: "Designing the Collaborative Surface"
 subtitle: "Composing Teams That Can Produce What No Individual Could Create Alone"
 description: "A design philosophy for composing distinct capabilities, shared vernacular, governance, and facilitation into collaborative surfaces that produce stronger decisions and better products."
-pubDate: "2026-07-14"
+pubDate: "2026-07-15"
 heroImage: "/images/writing/designing-the-collaborative-surface.png"
 heroAlt: "Distinct technical, behavioral, visual, and organizational systems converging on an architectural working surface beneath the title Designing the Collaborative Surface."
 tags: ["Design", "Leadership", "Systems Thinking"]

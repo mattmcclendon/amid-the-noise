@@ -3,7 +3,7 @@ layout: "../../layouts/PublicationLayout.astro"
 title: "The Problem With Post-Scarcity"
 subtitle: "Thought Experiment"
 description: "When survival is solved, significance becomes the question."
-pubDate: "2026-05-17"
+pubDate: "2026-05-18"
 heroImage: "/images/writing/problem-with-post-scarcity.png"
 heroAlt: "A solitary figure overlooking a prosperous city where every material need has been met"
 tags: ["Thought Experiments", "Aurelia Reach", "Post-Scarcity", "Significance"]
