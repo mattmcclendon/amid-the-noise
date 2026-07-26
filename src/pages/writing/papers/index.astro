@@ -38,7 +38,11 @@ const webPapers = Object.entries(webPaperModules)
       draft: frontmatter.draft ?? false,
     };
   })
-  .filter((paper) => !paper.draft)
+  .filter((paper) => {
+    if (paper.draft) return false;
+    if (!paper.pubDate) return true;
+    return new Date(paper.pubDate).getTime() <= Date.now();
+  })
   .sort((a, b) => {
     const dateA = a.pubDate ? new Date(a.pubDate).getTime() : 0;
     const dateB = b.pubDate ? new Date(b.pubDate).getTime() : 0;

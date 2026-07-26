@@ -37,13 +37,33 @@ const selectedLearning = [
   },
 ];
 
-const featuredPaper = {
-  title: 'Designing the Collaborative Surface',
-  href: '/writing/papers/designing-the-collaborative-surface',
-  meta: 'Web Paper • July 2026',
-  description:
-    'A design philosophy for composing distinct capabilities, shared vernacular, governance, and facilitation into collaborative surfaces that produce stronger decisions and better products.',
-};
+const selectedPaperSlugs = [
+  'one-state-many-californias',
+  'designing-the-collaborative-surface',
+];
+
+const paperModules = import.meta.glob('./writing/papers/*.md', { eager: true });
+
+const featuredPapers = selectedPaperSlugs
+  .map((slug) => paperModules[`./writing/papers/${slug}.md`])
+  .filter(Boolean)
+  .filter((paper) => {
+    if (paper.frontmatter.draft) return false;
+    if (!paper.frontmatter.pubDate) return true;
+    return new Date(paper.frontmatter.pubDate).getTime() <= Date.now();
+  })
+  .map((paper) => ({
+    title: paper.frontmatter.title,
+    href: paper.url,
+    meta: paper.frontmatter.pubDate
+      ? `Web Paper • ${new Intl.DateTimeFormat('en-US', {
+          month: 'long',
+          year: 'numeric',
+          timeZone: 'UTC',
+        }).format(new Date(paper.frontmatter.pubDate))}`
+      : 'Web Paper',
+    description: paper.frontmatter.description,
+  }));
 
 const papersNote = {
   href: '/writing/papers',
@@ -108,14 +128,16 @@ const formatDate = (date) => new Intl.DateTimeFormat('en-US', {
   <section class="section papers-section">
     <h2>Selected Papers</h2>
 
-    <ContentRow
-      href={featuredPaper.href}
-      title={featuredPaper.title}
-      meta={featuredPaper.meta}
-      metaLabel="Publication format and date"
-      description={featuredPaper.description}
-      accent="var(--accent-papers)"
-    />
+    {featuredPapers.map((paper) => (
+      <ContentRow
+        href={paper.href}
+        title={paper.title}
+        meta={paper.meta}
+        metaLabel="Publication format and date"
+        description={paper.description}
+        accent="var(--accent-papers)"
+      />
+    ))}
 
     <div class="papers-more">
       <p>{papersNote.description}</p>
