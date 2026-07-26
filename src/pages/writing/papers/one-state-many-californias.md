@@ -3,8 +3,7 @@ layout: "../../../layouts/PublicationLayout.astro"
 title: "One State, Many Californias"
 subtitle: "Rushes, Infrastructure, and the Work of Stewardship"
 description: "California's defining achievements were built in response to successive rushes. Their future depends on treating infrastructure as a living system of shared responsibility."
-pubDate: "2026-08-31"
-draft: true
+pubDate: "2026-07-25"
 heroImage: "/images/writing/one-state-many-californias-hero-v2.png"
 heroAlt: "An illustrated California landscape where an aqueduct and river cross farmland beneath the Sierra Nevada as a high-speed train passes through a managed forest."
 tags: ["California", "Governance", "Infrastructure", "Systems Thinking"]
