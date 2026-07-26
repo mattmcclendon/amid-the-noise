@@ -1,5 +1,141 @@
 [
   {
+    "pubDate": "2000-02-10",
+    "title": "idealab!",
+    "subtitle": "Field Study",
+    "slug": "idealab",
+    "description": "A field study on startup incubation, early internet culture, and the years when the web seemed capable of absorbing every part of daily life.",
+    "tags": [
+      "idealab!",
+      "Field Study",
+      "Internet History"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/field-study-idealab.png",
+    "heroAlt": "A glowing saltwater aquarium beside an early webcam setup surrounded by fragmented startup diagrams and orbital sketches.",
+    "url": "https://amidthenoise.com/writing/idealab",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2001-06-15",
+    "title": "Netscape & America Online",
+    "subtitle": "Field Study",
+    "slug": "netscape",
+    "description": "A field study on personalization, messaging convergence, and the systems that helped ordinary people trust the early internet.",
+    "tags": [
+      "Netscape",
+      "Field Study",
+      "Internet History"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/field-study-netscape.png",
+    "heroAlt": "Abstract browser windows, messaging signals, and connected interface geometry surrounding the Netscape logo on a soft off-white background.",
+    "url": "https://amidthenoise.com/writing/netscape",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2004-09-20",
+    "title": "Friendster",
+    "subtitle": "Field Study",
+    "slug": "friendster",
+    "description": "A field study on the emergence of social networking, behavioral identity online, infrastructure collapse under viral growth, and the moment the internet became social by default.",
+    "tags": [
+      "Friendster",
+      "Field Study",
+      "Social Networks"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/field-study-friendster.png",
+    "heroAlt": "Abstract concentric social graph connections surrounding the Friendster smiley logo on a soft off-white background.",
+    "url": "https://amidthenoise.com/writing/friendster",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2009-10-12",
+    "title": "LEVEL Studios",
+    "subtitle": "Field Study",
+    "slug": "level-studios",
+    "description": "A field study on agency life, behavioral systems, mobile strategy, and the transition from desktop-era interaction to continuous digital presence.",
+    "tags": [
+      "LEVEL Studios",
+      "Field Study",
+      "Mobile Strategy"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/field-study-level-studios.png",
+    "heroAlt": "Abstract mobile interface geometry and connected behavioral patterns surrounding the LEVEL Studios logo on a soft off-white background.",
+    "url": "https://amidthenoise.com/writing/level-studios",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2012-04-01",
+    "title": "Palette as Exploration",
+    "subtitle": "Evernote",
+    "slug": "evernote-research",
+    "description": "What observing children at a preschool revealed about color, constraint, and how people actually explore interfaces.",
+    "tags": [
+      "Design",
+      "User Research",
+      "Systems"
+    ],
+    "tier": "",
+    "heroImage": "",
+    "heroAlt": "",
+    "url": "https://amidthenoise.com/writing/evernote-research",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2015-06-15",
+    "title": "Cadence Design Systems",
+    "subtitle": "Field Study",
+    "slug": "cadence",
+    "description": "Field study on rebuilding user experience systems for Cadence Virtuoso and DaVinci during the transition toward AI-assisted semiconductor design workflows.",
+    "tags": [
+      "Field Studies",
+      "AI Systems",
+      "Enterprise UX"
+    ],
+    "tier": "",
+    "heroImage": "/images/writing/field-study-cadence.png",
+    "heroAlt": "Abstract semiconductor visualization with layered circuit structures and spatial design systems",
+    "url": "https://amidthenoise.com/writing/cadence",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2018-02-15",
+    "title": "The Accelerator as a Listening System",
+    "subtitle": "Why the most valuable output of an innovation program may be what the organization learns to notice",
+    "slug": "ca-technologies",
+    "description": "What the CA Accelerator taught me about precomposed capability, shared language, strategic perception, and creating new ventures without asking an organization to think less.",
+    "tags": [
+      "Field Studies",
+      "Organizational Design",
+      "Emerging Technology"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/field-study-ca-technologies.png",
+    "heroAlt": "Abstract visualization of interconnected emerging technology systems and operational signal flows",
+    "url": "https://amidthenoise.com/writing/ca-technologies",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2018-09-15",
+    "title": "Wells Fargo",
+    "subtitle": "Field Study",
+    "slug": "wells-fargo",
+    "description": "A field study on designing trustworthy AI systems inside a regulated financial institution, focusing on governance, human oversight, operational alignment, and scalable experimentation.",
+    "tags": [
+      "AI Governance",
+      "Decision Systems",
+      "Enterprise AI"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/field-study-wells-fargo.png",
+    "heroAlt": "Abstract visualization of layered decision systems and governed AI workflows",
+    "url": "https://amidthenoise.com/writing/wells-fargo",
+    "status": "Published"
+  },
+  {
     "pubDate": "2019-03-04",
     "title": "UX and the Human Experience",
     "subtitle": "Fluency over novelty",
@@ -14,6 +150,40 @@
     "heroImage": "/images/writing/ux-human-experience.png",
     "heroAlt": "Minimal abstract composition showing a human profile integrated with interface elements and soft geometric forms, representing cognition, pattern recognition, and system interaction",
     "url": "https://amidthenoise.com/writing/ux-human-experience",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2020-10-15",
+    "title": "Automation Anywhere",
+    "subtitle": "Field Study",
+    "slug": "automation-anywhere",
+    "description": "As enterprise automation evolved from deterministic bots toward adaptive AI systems, the central challenge shifted from execution speed to operational trust.",
+    "tags": [
+      "Field Studies",
+      "AI Systems",
+      "Enterprise Automation"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/field-study-automation-anywhere.png",
+    "heroAlt": "Abstract automation workflows intersecting with human oversight and adaptive systems",
+    "url": "https://amidthenoise.com/writing/automation-anywhere",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2022-01-01",
+    "title": "The Edge of What We Know",
+    "subtitle": "How consequential contribution turns unfamiliarity into domain fluency",
+    "slug": "dremio",
+    "description": "What designing at Dremio taught me about outsider perception, situated learning, shared language, and the way collaborative teams move the boundary of expertise.",
+    "tags": [
+      "Field Studies",
+      "Collaborative Systems",
+      "Enterprise Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/field-study-dremio.png",
+    "heroAlt": "Abstract semantic data structures resolving into navigable pathways",
+    "url": "https://amidthenoise.com/writing/dremio",
     "status": "Published"
   },
   {
@@ -1553,6 +1723,23 @@
     "status": "Published"
   },
   {
+    "pubDate": "2026-01-02",
+    "title": "Yahoo!",
+    "subtitle": "Field Study",
+    "slug": "stanford-improv",
+    "description": "What improvisation revealed about collaboration, articulation, and how teams think together under pressure.",
+    "tags": [
+      "Design",
+      "Collaboration",
+      "Systems"
+    ],
+    "tier": "",
+    "heroImage": "",
+    "heroAlt": "",
+    "url": "https://amidthenoise.com/writing/stanford-improv",
+    "status": "Published"
+  },
+  {
     "pubDate": "2026-01-06",
     "title": "The Quiet Collapse of the War Threshold",
     "subtitle": "When escalation becomes ambient",
@@ -2413,6 +2600,24 @@
     "status": "Published"
   },
   {
+    "pubDate": "2026-05-11",
+    "title": "The Hidden Architecture of Civilization",
+    "subtitle": "Thought Experiment",
+    "slug": "hidden-architecture-of-civilization",
+    "description": "Civilization leaves clues. Systems leave more.",
+    "tags": [
+      "Thought Experiments",
+      "Aurelia Reach",
+      "Systems",
+      "Civilization"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/hidden-architecture-of-civilization.png",
+    "heroAlt": "Abstract systems, networks, and civic structures emerging from a field of connected points",
+    "url": "https://amidthenoise.com/writing/hidden-architecture-of-civilization",
+    "status": "Published"
+  },
+  {
     "pubDate": "2026-05-12",
     "title": "Even the Enterprise Has Down Days",
     "subtitle": "Continuity is the work",
@@ -2461,6 +2666,24 @@
     "heroImage": "/images/writing/from-distance-to-surface.png",
     "heroAlt": "Partially open door in a quiet, minimalist space with warm light spilling in, suggesting transition, access, and crossing a threshold",
     "url": "https://amidthenoise.com/writing/from-distance-to-surface",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-05-17",
+    "title": "The Problem With Post-Scarcity",
+    "subtitle": "Thought Experiment",
+    "slug": "problem-with-post-scarcity",
+    "description": "When survival is solved, significance becomes the question.",
+    "tags": [
+      "Thought Experiments",
+      "Aurelia Reach",
+      "Post-Scarcity",
+      "Significance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/problem-with-post-scarcity.png",
+    "heroAlt": "A solitary figure overlooking a prosperous city where every material need has been met",
+    "url": "https://amidthenoise.com/writing/problem-with-post-scarcity",
     "status": "Published"
   },
   {
@@ -2583,6 +2806,24 @@
     "status": "Published"
   },
   {
+    "pubDate": "2026-06-03",
+    "title": "Frontier Day and Civic Trust",
+    "subtitle": "Thought Experiment",
+    "slug": "frontier-day-and-civic-trust",
+    "description": "Trust is infrastructure. What follows when that infrastructure breaks?",
+    "tags": [
+      "Thought Experiments",
+      "Aurelia Reach",
+      "Governance",
+      "Trust"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/frontier-day-and-civic-trust.png",
+    "heroAlt": "A visual exploration of trust, institutions, and recovery after systemic failure",
+    "url": "https://amidthenoise.com/writing/frontier-day-and-civic-trust",
+    "status": "Published"
+  },
+  {
     "pubDate": "2026-06-04",
     "title": "Most Software Was Never Designed to Decide",
     "subtitle": "When systems cross into responsibility",
@@ -2614,6 +2855,23 @@
     "heroImage": "/images/writing/the-day-april-voted.png",
     "heroAlt": "A voter leaving a vote center with a smile after casting a ballot.",
     "url": "https://amidthenoise.com/writing/the-day-april-voted",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-06-06",
+    "title": "The Infrastructure of Belonging",
+    "subtitle": "Reducing the Gap Between Services and the People They Serve",
+    "slug": "the-infrastructure-of-belonging",
+    "description": "A civic research paper on distance, reachability, and the hidden infrastructure that allows public services to become usable, navigable, and intended for the people they serve.",
+    "tags": [
+      "Civic Systems",
+      "Public Services",
+      "Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/the-infrastructure-of-belonging.png",
+    "heroAlt": "Abstract civic infrastructure map showing connected pathways between public services and people.",
+    "url": "https://amidthenoise.com/writing/the-infrastructure-of-belonging",
     "status": "Published"
   },
   {
@@ -2702,6 +2960,24 @@
     "status": "Published"
   },
   {
+    "pubDate": "2026-06-17",
+    "title": "The Mayfield Principle",
+    "subtitle": "Thought Experiment",
+    "slug": "mayfield-principle",
+    "description": "Places accumulate stories long after their origins are forgotten.",
+    "tags": [
+      "Thought Experiments",
+      "Aurelia Reach",
+      "Memory",
+      "Institutions"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/mayfield-principle.png",
+    "heroAlt": "A forgotten place name lingering long after its original purpose has faded",
+    "url": "https://amidthenoise.com/writing/mayfield-principle",
+    "status": "Published"
+  },
+  {
     "pubDate": "2026-06-18",
     "title": "Where Does Truth Live?",
     "subtitle": "Entry points without convergence",
@@ -2733,6 +3009,24 @@
     "heroImage": "/images/writing/the-new-scarcity-in-product-design.png",
     "heroAlt": "Abstract design canvas with multiple interface directions emerging from a quiet grid",
     "url": "https://amidthenoise.com/writing/the-new-scarcity-in-product-design",
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-06-20",
+    "title": "Beyond Achievement",
+    "subtitle": "Thought Experiment",
+    "slug": "beyond-achievement",
+    "description": "Achievement answers many questions. Meaning is rarely one of them.",
+    "tags": [
+      "Thought Experiments",
+      "Aurelia Reach",
+      "Purpose",
+      "Significance"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/beyond-achievement.png",
+    "heroAlt": "A solitary figure contemplating purpose after a lifetime of achievement",
+    "url": "https://amidthenoise.com/writing/beyond-achievement",
     "status": "Published"
   },
   {
@@ -2835,7 +3129,7 @@
     "heroImage": "/images/writing/from-signal-to-decision.png",
     "heroAlt": "A minimalist abstract surface with multiple structured paths, subtle interruptions, and dotted alternative routes, suggesting deliberate decision points rather than a single predetermined outcome.",
     "url": "https://amidthenoise.com/writing/from-signal-to-decision",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-02",
@@ -2852,7 +3146,7 @@
     "heroImage": "/images/writing/what-compression-took-from-us.png",
     "heroAlt": "A minimal, off-white room with a single door slightly ajar, light spilling into an otherwise empty space.",
     "url": "https://amidthenoise.com/writing/what-compression-took-from-us",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-05",
@@ -2869,7 +3163,7 @@
     "heroImage": "/images/writing/the-poll-site-is-a-decision-system.png",
     "heroAlt": "Abstract loop of paper forms circulating through a closed system on a soft off-white background",
     "url": "https://amidthenoise.com/writing/the-poll-site-is-a-decision-system",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-07",
@@ -2886,7 +3180,7 @@
     "heroImage": "/images/writing/infrastructure-is-not-dependency.png",
     "heroAlt": "Quiet electric train interior with soft daylight and empty seats",
     "url": "https://amidthenoise.com/writing/infrastructure-is-not-dependency",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-09",
@@ -2903,7 +3197,7 @@
     "heroImage": "/images/writing/the-moment-a-data-model-touches-money.png",
     "heroAlt": "Reflecting Pool on the National Mall with the Washington Monument centered at dawn",
     "url": "https://amidthenoise.com/writing/the-moment-a-data-model-touches-money",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-12",
@@ -2920,7 +3214,7 @@
     "heroImage": "/images/writing/designing-systems-that-learn.png",
     "heroAlt": "Abstract loop of data, algorithm, interface, and action forming a continuous system",
     "url": "https://amidthenoise.com/writing/designing-systems-that-learn",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-14",
@@ -2937,7 +3231,24 @@
     "heroImage": "/images/writing/the-system-stopped-deciding.png",
     "heroAlt": "Edmon Low Library with softened tones against a light neutral background",
     "url": "https://amidthenoise.com/writing/the-system-stopped-deciding",
-    "status": "Scheduled"
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-07-14",
+    "title": "Designing the Collaborative Surface",
+    "subtitle": "Composing Teams That Can Produce What No Individual Could Create Alone",
+    "slug": "designing-the-collaborative-surface",
+    "description": "A design philosophy for composing distinct capabilities, shared vernacular, governance, and facilitation into collaborative surfaces that produce stronger decisions and better products.",
+    "tags": [
+      "Design",
+      "Leadership",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/designing-the-collaborative-surface.png",
+    "heroAlt": "Distinct technical, behavioral, visual, and organizational systems converging on an architectural working surface beneath the title Designing the Collaborative Surface.",
+    "url": "https://amidthenoise.com/writing/designing-the-collaborative-surface",
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-16",
@@ -2954,7 +3265,7 @@
     "heroImage": "/images/writing/what-gets-found.png",
     "heroAlt": "Minimal composition with structured space and subtle archival texture",
     "url": "https://amidthenoise.com/writing/what-gets-found",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-19",
@@ -2971,7 +3282,7 @@
     "heroImage": "/images/writing/trust-is-a-system-property.png",
     "heroAlt": "Minimal polling place scene with soft geometric forms and a neutral palette, suggesting order and flow without visible text",
     "url": "https://amidthenoise.com/writing/trust-is-a-system-property",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-21",
@@ -2988,24 +3299,42 @@
     "heroImage": "/images/writing/before-i-had-the-language.png",
     "heroAlt": "A quiet, symmetrical interior with light falling across a structured space, suggesting order and continuity without revealing its purpose",
     "url": "https://amidthenoise.com/writing/before-i-had-the-language",
-    "status": "Scheduled"
+    "status": "Published"
+  },
+  {
+    "pubDate": "2026-07-22",
+    "title": "From Natural Interaction to Legible Agency",
+    "subtitle": "What changes when AI moves from answering to acting",
+    "slug": "from-natural-interaction-to-legible-agency",
+    "description": "Punchcut's research reveals a gap between frequent AI use and natural interaction. The agentic leap adds a harder design problem: making authority, uncertainty, intervention, and recovery legible.",
+    "tags": [
+      "AI",
+      "DESIGN",
+      "TRUST",
+      "AGENCY"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/from-natural-interaction-to-legible-agency.png",
+    "heroAlt": "Fine paths move through a folded boundary and resolve into directed actions, illustrating the transition from natural interaction to legible agency.",
+    "url": "https://amidthenoise.com/writing/from-natural-interaction-to-legible-agency",
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-23",
-    "title": "Designing Under Constraint at Autodesk",
-    "subtitle": "Aligning systems and decisions without authority",
+    "title": "Transformation Without Amnesia",
+    "subtitle": "Modernizing inherited systems without pretending their history can be erased",
     "slug": "designing-under-constraint-autodesk",
-    "description": "A real-world case study from Autodesk showing how fragmented legacy systems were audited, aligned, and unified into a cloud licensing platform through influence, transparency, and system-level design—an approach that continues to hold across modern enterprise and AI systems.",
+    "description": "What Autodesk taught me about collective legibility, institutional memory, and changing complex systems without making customers absorb the violence of the transition.",
     "tags": [
-      "Case Study",
-      "Decision Systems",
-      "Enterprise Systems"
+      "Systems Thinking",
+      "Legacy Systems",
+      "Organizational Design"
     ],
     "tier": "tier-1",
-    "heroImage": "/images/writing/designing-under-constraint-autodesk.png",
-    "heroAlt": "Fragmented systems converging into a unified structure, representing alignment, integration, and decision flow",
+    "heroImage": "/images/writing/field-study-autodesk.png",
+    "heroAlt": "Autodesk's origami-era identity beside fine architectural lines resolving from a tangled legacy system into an ordered cloud platform",
     "url": "https://amidthenoise.com/writing/designing-under-constraint-autodesk",
-    "status": "Scheduled"
+    "status": "Published"
   },
   {
     "pubDate": "2026-07-26",
@@ -3111,19 +3440,20 @@
   },
   {
     "pubDate": "2026-08-09",
-    "title": "When Decisions Move Faster Than Responsibility",
-    "subtitle": "AI, blockchain, and the part of the system that won’t disappear",
-    "slug": "when-decisions-move-faster-than-responsibility",
-    "description": "AI is compressing decision-making. Blockchain is compressing settlement. What remains is the layer that absorbs failure when both are wrong.",
+    "title": "The Systems We Live Inside",
+    "subtitle": "Why I am considering public service",
+    "slug": "the-systems-we-live-inside",
+    "description": "A public system reveals its values in where it places complexity, who absorbs the cost, and whether people retain a path through it.",
     "tags": [
-      "Decision Systems",
-      "AI",
-      "Finance"
+      "Civic Systems",
+      "Public Service",
+      "Technology",
+      "Governance"
     ],
-    "tier": "tier-2",
-    "heroImage": "/images/writing/when-decisions-move-faster-than-responsibility.png",
-    "heroAlt": "Abstract system diagram showing two opposing forces compressing toward a narrow center point, representing decision acceleration and settlement finality",
-    "url": "https://amidthenoise.com/writing/when-decisions-move-faster-than-responsibility",
+    "tier": "tier-1",
+    "heroImage": "",
+    "heroAlt": "",
+    "url": "https://amidthenoise.com/writing/the-systems-we-live-inside",
     "status": "Scheduled"
   },
   {
@@ -3824,6 +4154,23 @@
     "status": "Scheduled"
   },
   {
+    "pubDate": "2026-11-14",
+    "title": "Civic Systems",
+    "subtitle": "Field Study",
+    "slug": "civic-systems",
+    "description": "Public systems rarely fail because people refuse help. They fail because the path to receiving help becomes cognitively exhausting, emotionally punishing, or operationally impossible to navigate.",
+    "tags": [
+      "Field Studies",
+      "Civic Systems",
+      "Human-Centered Design"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/field-study-civic-systems.png",
+    "heroAlt": "Abstract civic infrastructure and human pathways intersecting across a public system",
+    "url": "https://amidthenoise.com/writing/civic-systems",
+    "status": "Scheduled"
+  },
+  {
     "pubDate": "2026-11-15",
     "title": "The Luggage Never Left",
     "subtitle": "I spent twenty years preparing for a life that addiction quietly interrupted.",
@@ -4331,6 +4678,23 @@
     "heroImage": "/images/writing/the-last-row.png",
     "heroAlt": "An abstract interpretation of the far edge of the periodic table fading into uncertainty.",
     "url": "https://amidthenoise.com/writing/the-last-row",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-01-28",
+    "title": "When Decisions Move Faster Than Responsibility",
+    "subtitle": "AI, blockchain, and the part of the system that won’t disappear",
+    "slug": "when-decisions-move-faster-than-responsibility",
+    "description": "AI is compressing decision-making. Blockchain is compressing settlement. What remains is the layer that absorbs failure when both are wrong.",
+    "tags": [
+      "Decision Systems",
+      "AI",
+      "Finance"
+    ],
+    "tier": "tier-2",
+    "heroImage": "/images/writing/when-decisions-move-faster-than-responsibility.png",
+    "heroAlt": "Abstract system diagram showing two opposing forces compressing toward a narrow center point, representing decision acceleration and settlement finality",
+    "url": "https://amidthenoise.com/writing/when-decisions-move-faster-than-responsibility",
     "status": "Scheduled"
   },
   {
@@ -4925,6 +5289,40 @@
     "heroImage": "/images/writing/the-brilliance-of-elias-thorne.png",
     "heroAlt": "An atmospheric abstract image suggesting a half-remembered figure, a signal, and a story emerging from pattern.",
     "url": "https://amidthenoise.com/writing/the-brilliance-of-elias-thorne",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-05-04",
+    "title": "Where the Weight Belongs",
+    "subtitle": "The difference between mercy and euphemism",
+    "slug": "where-the-weight-belongs",
+    "description": "I once argued that softened language robs moments of their weight. I still believe that. I was wrong about where the weight always belongs.",
+    "tags": [
+      "Recovery",
+      "Language",
+      "Reflection"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/where-the-weight-belongs.png",
+    "heroAlt": "Two stones balanced on separate surfaces, one resting gently and one pressing into the ground, representing the different places language can carry weight",
+    "url": "https://amidthenoise.com/writing/where-the-weight-belongs",
+    "status": "Scheduled"
+  },
+  {
+    "pubDate": "2027-05-06",
+    "title": "220,000 Yottabytes",
+    "subtitle": "A number beyond storage. A question of what it means to be human.",
+    "slug": "220000-yottabytes",
+    "description": "A speculative transporter calculation becomes a reflection on human complexity, institutional compression, and the distance between a person and the data used to represent them.",
+    "tags": [
+      "Technology",
+      "Humanity",
+      "Systems Thinking"
+    ],
+    "tier": "tier-1",
+    "heroImage": "/images/writing/220000-yottabytes.png",
+    "heroAlt": "A human figure dissolving into a dense stream of particles between two architectural transport terminals.",
+    "url": "https://amidthenoise.com/writing/220000-yottabytes",
     "status": "Scheduled"
   },
   {
