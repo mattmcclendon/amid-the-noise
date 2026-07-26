@@ -3,6 +3,47 @@ import Layout from './Layout.astro';
 
 const { frontmatter } = Astro.props;
 const renderedBody = await Astro.slots.render('default');
+const siteHostname = Astro.site?.hostname || Astro.url.hostname;
+const publicationBody = renderedBody.replace(
+  /<a\b([^>]*\bhref="(https?:\/\/[^\"]+)"[^>]*)>/g,
+  (tag, attributes, href) => {
+    let linkHostname;
+
+    try {
+      linkHostname = new URL(href).hostname;
+    } catch {
+      return tag;
+    }
+
+    if (linkHostname === siteHostname) {
+      return tag;
+    }
+
+    let enhancedAttributes = attributes;
+
+    if (/\btarget="[^"]*"/.test(enhancedAttributes)) {
+      enhancedAttributes = enhancedAttributes.replace(/\btarget="[^"]*"/, 'target="_blank"');
+    } else {
+      enhancedAttributes += ' target="_blank"';
+    }
+
+    if (/\brel="[^"]*"/.test(enhancedAttributes)) {
+      enhancedAttributes = enhancedAttributes.replace(
+        /\brel="([^"]*)"/,
+        (_relAttribute, values) => {
+          const relValues = new Set(values.split(/\s+/).filter(Boolean));
+          relValues.add('noopener');
+          relValues.add('noreferrer');
+          return `rel="${[...relValues].join(' ')}"`;
+        }
+      );
+    } else {
+      enhancedAttributes += ' rel="noopener noreferrer"';
+    }
+
+    return `<a${enhancedAttributes}>`;
+  }
+);
 const plainTextBody = renderedBody
   .replace(/<script[\s\S]*?<\/script>/gi, ' ')
   .replace(/<style[\s\S]*?<\/style>/gi, ' ')
@@ -102,7 +143,7 @@ const publishedTime = frontmatter.pubDate ? new Date(frontmatter.pubDate).toISOS
     </header>
 
     <div class="publication-body section">
-      <slot />
+      <Fragment set:html={publicationBody} />
     </div>
 
     <div class="publication-terminal" aria-hidden="true">

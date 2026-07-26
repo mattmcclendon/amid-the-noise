@@ -202,6 +202,14 @@ Use evidence when the reader needs more than the author’s observation.
 
 Research should deepen the author’s thinking rather than replace it.
 
+## Link behavior
+
+Amid the Noise should not deliberately navigate a reader away from the publication.
+
+- External links in publication bodies open in a new tab with `target="_blank"` and `rel="noopener noreferrer"`.
+- Internal Amid the Noise links remain in the current tab.
+- Link text should identify the source, document, or destination rather than use generic phrases such as “click here.”
+
 ## Endings
 
 Do not summarize the article.
