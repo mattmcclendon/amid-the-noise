@@ -12,6 +12,8 @@ tier: "tier-1"
 
 When I drive south on Interstate 5, I begin to see the signs.
 
+---
+
 **CONGRESS CREATED DUST BOWL.**
 
 They stand at the edges of fields in the San Joaquin Valley, large enough to survive seventy miles an hour and simple enough to require no explanation. Farther east, in the Sierra foothills near Murphys and Sonora, another set of signs carries a different grievance: restore logging, resist Sacramento, remember Jefferson.
