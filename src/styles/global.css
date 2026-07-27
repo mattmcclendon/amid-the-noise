@@ -52,6 +52,8 @@
   --space-section: 36px;
   --space-entry-y: 22px;
   --radius-card: 0;
+  --reading-leading: 1.82;
+  --reading-leading-mobile: 1.76;
 }
 
 html {
@@ -66,7 +68,7 @@ body {
   color: var(--text);
   font-family: var(--font-body);
   font-size: 20px;
-  line-height: 1.76;
+  line-height: var(--reading-leading);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -939,7 +941,7 @@ font-size: 0.72em;
 @media (max-width: 720px) {
   body {
     font-size: 19px;
-    line-height: 1.68;
+    line-height: var(--reading-leading-mobile);
   }
 
   .site-frame {
