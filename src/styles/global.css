@@ -364,7 +364,7 @@ html[data-contrast="high"] .contrast-toggle {
 }
 
 .sidebar-about-link a {
-  font-size: 0.95rem;
+  font-size: inherit;
 }
 
 .sidebar-email {
@@ -375,7 +375,11 @@ html[data-contrast="high"] .contrast-toggle {
 .sidebar-section a {
   display: inline-block;
   color: var(--accent);
-  font-size: 0.95rem;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
   padding: 0.2rem 0;
   text-decoration-line: underline;
   text-decoration-color: currentColor;
