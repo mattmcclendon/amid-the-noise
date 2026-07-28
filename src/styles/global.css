@@ -402,6 +402,14 @@ html[data-contrast="high"] .contrast-toggle {
   text-decoration: none;
 }
 
+.sidebar-section .sidebar-about-link a:hover,
+.sidebar-section .sidebar-about-link a:focus-visible {
+  text-decoration-line: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.16em;
+}
+
 
 .framework-name {
   font-family: var(--font-mono);
