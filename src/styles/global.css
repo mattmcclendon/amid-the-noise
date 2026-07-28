@@ -365,7 +365,6 @@ html[data-contrast="high"] .contrast-toggle {
 
 .sidebar-about-link a {
   font-size: 0.95rem;
-  text-decoration: none;
 }
 
 .sidebar-email {
@@ -393,6 +392,10 @@ html[data-contrast="high"] .contrast-toggle {
 .sidebar-section a:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
+}
+
+.sidebar-section .sidebar-about-link a {
+  text-decoration: none;
 }
 
 
