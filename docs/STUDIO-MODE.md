@@ -2,6 +2,8 @@
 
 Studio Mode is the editorial operating system for *Amid the Noise*. It is not a series, badge, template, or visual treatment. It describes how ideas are selected, developed, written, edited, and prepared for publication.
 
+More precisely, Studio Mode is an operating model rather than a style guide. It governs how Matthew discovers an idea, follows it, gives the reader a path through it, and revises the result. Style is a consequence of that process. The objective is not polished prose for its own sake; it is faithful reasoning that lets the reader experience an idea becoming more precise.
+
 The current standard is derived primarily from these keystone pieces:
 
 - “Transformation Without Amnesia”
@@ -12,6 +14,133 @@ The current standard is derived primarily from these keystone pieces:
 - “The System Stopped Deciding”
 
 Older work can provide history and subject matter. It does not override the standard established by the newer work.
+
+## Invocation
+
+Studio Mode is enabled whenever Matthew invokes or implies any of the following:
+
+- **Studio Mode**;
+- **McClendon Protocol**, **McClendon voice**, or **McClendon strict**;
+- **Amid the Noise**;
+- “Write this in my voice”;
+- “This should sound like me”;
+- an equivalent request for a long-form essay, article, webpaper, or publication draft in Matthew’s established voice.
+
+An isolated request for generic editing, summarization, or ordinary business writing does not invoke Studio Mode unless Matthew asks for his voice or the context clearly identifies the work as an *Amid the Noise* piece.
+
+Once invoked, Studio Mode remains active for that writing effort until Matthew explicitly exits it or changes the requested form.
+
+### Deterministic trigger workflow
+
+The trigger is procedural, not interpretive. Whenever Studio Mode or an equivalent request is invoked:
+
+1. Load and read the current `docs/STUDIO-MODE.md` in full before discovery, outlining, or drafting.
+2. Run Discovery and identify what Matthew noticed.
+3. Build the invisible interview that will orient the reader.
+4. Draft by following the thought rather than forcing the outline.
+5. Run the Voice, Cadence, and Revision phases, including McClendon strict when required.
+6. Deliver the draft without restating the operating model unless Matthew asks to see the process.
+
+Do not rely on memory, a prior chat, or a summarized version of this document. This file is the canonical reference.
+
+## The six phases
+
+The phases create a repeatable method without turning the finished work into a template. They govern the work behind the prose; the reader should feel the inquiry, not the workflow.
+
+### Phase 1: Discovery
+
+Do not begin prose until the inquiry is clear enough to sustain genuine exploration. Identify:
+
+- **What Matthew noticed.** This is the seed crystal for the piece, not merely a prompt.
+- Why the observation mattered or refused to go away.
+- The provisional thesis, while allowing it to change during writing.
+- The hidden structure or larger systems question beneath the obvious topic.
+- The human artifact: the concrete moment, phrase, exchange, decision, object, or experience that gives the idea a human point of entry.
+- The assumption being questioned.
+- The strongest counterargument or alternative explanation.
+- The evidence that would change the current thinking.
+- What is fact, inference, opinion, and still uncertain.
+
+Prefer a specific observation over a topic label. “Write about AI and memory” is a subject. “Linda used the word *memory*, and I realized I was no longer sure I had been using it correctly” is the beginning of an inquiry.
+
+Collect the questions created by the observation. Explore why they matter before deciding what the piece must prove.
+
+### Phase 2: Structure
+
+Build the piece as a guided conversation with an invisible interviewer. Subheads, when the density needs them, introduce the next natural question. The body beneath each subhead is Matthew thinking through that question.
+
+The outline is navigation for the reader, not a constraint on the writer. Each question should arise from the reasoning that precedes it rather than from a predetermined content formula.
+
+> **The reader follows curiosity, not the outline.**
+
+The reader should feel the progression of questions, not the machinery of an outline.
+
+### Phase 3: Writing
+
+> **Follow the thought, not the outline.**
+
+If the thinking needs to detour to refine a word, resolve a dependency, test an assumption, or qualify a claim, follow it. Return to the main thread when that work is complete. If the thought changes, let the writing change.
+
+> **Write to discover, not to demonstrate.**
+
+Do not write as though the answer was fully known before the first sentence. Let the essay participate in how the answer becomes known. Preserve genuine moments when a definition sharpens, an assumption weakens, or a position changes. Do not manufacture hesitation, but do not polish honest intellectual movement away.
+
+> **Nested thoughts are structure.**
+
+Nested thoughts are not automatically tangents. They often resolve a dependency the main idea cannot responsibly move past. Keep one when it sharpens the model and earns its way back to the main thread. Remove it when it neither deepens the inquiry nor returns.
+
+A characteristic movement may be:
+
+```text
+Observation
+    ↓
+Reasoning
+    ↓
+Qualification
+    ↓
+Nested thought
+    ↓
+Refined understanding
+    ↓
+Return
+```
+
+> **Observation precedes conclusion.**
+
+Begin with something noticed. Reason outward from it. Allow the conclusion to emerge rather than announcing the thesis before the reader has experienced the question. Reveal connections instead of declaring them.
+
+Questions may be more valuable than immediate answers. It is acceptable to end with a better question, a provisional landing, or a more precise uncertainty. Do not force resolution the thinking has not earned.
+
+### Phase 4: Voice
+
+Write as though an insightful interviewer asked one good question, turned on a recorder, and got out of the way. The response should feel recorded, not performed: observational, conversational, restrained, precise without sounding rehearsed, and comfortable with honest qualification.
+
+The piece should sound like someone thinking carefully out loud, not a keynote, TED Talk, manifesto, LinkedIn performance, or AI trying to sound profound. Could Matthew plausibly say the passage aloud in a thoughtful conversation? If not, rewrite it.
+
+### Phase 5: Cadence
+
+Matthew’s thinking tends to move through expanding, connected ideas. Preserve that movement. Prefer complete thoughts, natural paragraph lengths, nested reasoning, varied syntax, and gentle transitions.
+
+Do not confuse sentence fragments, conspicuous imperfection, or informality with humanity. The goal is human cognition on the page, not cosmetic anti-polish. The detailed cadence standard and McClendon strict checks below remain controlling.
+
+### Phase 6: Revision
+
+Revision protects the cognitive path while removing anything false, performative, unsupported, or mechanically generated.
+
+Before a draft is finished:
+
+- verify that the piece begins with what Matthew noticed and exposes the larger question beneath the obvious topic;
+- confirm that conclusions emerge from observation and reasoning;
+- represent the strongest counterargument fairly;
+- distinguish fact, inference, memory, opinion, and uncertainty;
+- verify factual claims that require verification;
+- preserve nested thoughts that resolve real dependencies and return;
+- remove decorative symmetry, unnecessary parallelism, fake profundity, generic abstraction, and other AI tells;
+- recover genuine curiosity wherever editing has turned discovery into presentation;
+- read for whether Matthew could plausibly say the piece aloud;
+- apply the full McClendon strict pass for keystone work and whenever it is explicitly requested.
+
+The draft succeeds when it feels like the transcript of an intelligent conversation rather than the manuscript of a prepared speech. The reader should not merely receive a conclusion; the reader should experience an observation becoming a more precise model of the world.
 
 ## Editorial purpose
 
