@@ -1,0 +1,19 @@
+name: Refresh scheduled publications
+
+on:
+  schedule:
+    - cron: '15 7 * * *'
+      timezone: America/Los_Angeles
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Rebuild the production site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger the Vercel production deploy hook
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          test -n "$VERCEL_DEPLOY_HOOK_URL"
+          curl --fail --silent --show-error --request POST "$VERCEL_DEPLOY_HOOK_URL"
