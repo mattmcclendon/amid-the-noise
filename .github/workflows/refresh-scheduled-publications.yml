@@ -1,9 +1,8 @@
 name: Refresh scheduled publications
 
 on:
-  schedule:
-    - cron: '15 7 * * *'
-      timezone: America/Los_Angeles
+  # Daily scheduling is handled by Vercel Cron at 1 a.m. Pacific.
+  # Keep manual dispatch available for an on-demand rebuild.
   workflow_dispatch:
 
 jobs:
