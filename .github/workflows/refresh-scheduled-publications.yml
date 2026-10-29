@@ -1,7 +1,8 @@
 name: Refresh scheduled publications
 
 on:
-  # Daily scheduling is handled by Vercel Cron at 1 a.m. Pacific.
+  # Vercel Cron runs daily at 09:00 UTC (1 a.m. PST / 2 a.m. PDT).
+  # On Hobby, invocation can occur anywhere within the scheduled hour.
   # Keep manual dispatch available for an on-demand rebuild.
   workflow_dispatch:
 

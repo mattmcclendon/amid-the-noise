@@ -1,15 +1,5 @@
 import { timingSafeEqual } from 'node:crypto';
 
-const pacificHour = new Intl.DateTimeFormat('en-US', {
-  timeZone: 'America/Los_Angeles', hour: '2-digit', hourCycle: 'h23',
-});
-
-export function isRefreshTime(now) {
-  // UTC schedules cover both PST and PDT. Skip the repeated 1 a.m. at fall-back.
-  return pacificHour.format(now) === '01'
-    && pacificHour.format(new Date(now.getTime() - 3600000)) !== '01';
-}
-
 export async function handle(request, { env = process.env, now = new Date(), fetcher = fetch } = {}) {
   const reply = (body, status = 200) => Response.json(body, {
     status, headers: { 'Cache-Control': 'no-store' },
@@ -21,7 +11,8 @@ export async function handle(request, { env = process.env, now = new Date(), fet
   if (actual.length !== expected.length || !timingSafeEqual(actual, expected)) {
     return reply({ error: 'Unauthorized' }, 401);
   }
-  if (!isRefreshTime(now)) return reply({ skipped: true, reason: 'Outside daily Pacific window' });
+  // Vercel owns the daily schedule. Hobby invocations may arrive within the hour,
+  // and a fixed UTC schedule shifts local time when daylight saving time changes.
   if (!env.PUBLICATIONS_DEPLOY_HOOK_URL) return reply({ error: 'Deploy hook is not configured' }, 503);
   try {
     const hook = new URL(env.PUBLICATIONS_DEPLOY_HOOK_URL);
